@@ -1,13 +1,13 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { pageTitle } from "@/lib/affiliate";
+import { pageHead } from "@/lib/seo";
 
 export const Route = createFileRoute("/editorial")({
-  head: () => ({
-    meta: [
-      { title: pageTitle("Editorial standards") },
-      { name: "description", content: "How Trailkit frames gear recommendations, updates pages, and handles affiliate links." },
-    ],
-  }),
+  head: () =>
+    pageHead({
+      title: "Editorial standards",
+      description: "How Trailkit frames gear recommendations, updates pages, and handles affiliate links.",
+      path: "/editorial",
+    }),
   component: () => (
     <main className="mx-auto max-w-3xl space-y-4 px-4 py-10">
       <h1 className="text-4xl">Editorial standards</h1>

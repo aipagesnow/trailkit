@@ -1,13 +1,30 @@
+import { asinFor } from "@/data/asins";
+
 export const BRAND = "Trailkit";
 export const UPDATED = "October 5, 2026";
-export const AMAZON_TAG = "yourtag-20";
+export const SITE_URL = (import.meta.env.VITE_SITE_URL || "https://trailkit-gamma.vercel.app").replace(/\/$/, "");
+
+/** Single source of truth. Set AMAZON_ASSOCIATE_TAG or VITE_AMAZON_ASSOCIATE_TAG. */
+export function amazonTag() {
+  return import.meta.env.VITE_AMAZON_ASSOCIATE_TAG || import.meta.env.AMAZON_ASSOCIATE_TAG || "trailkit-20";
+}
+
+export const DISCLOSURE_SHORT =
+  "As an Amazon Associate, Trailkit earns from qualifying purchases.";
 
 export const DISCLOSURE =
-  "Trailkit is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate we earn from qualifying purchases. Prices and availability change. We do not publish a live price.";
+  "Trailkit is a participant in the Amazon Services LLC Associates Program. As an Amazon Associate we earn from qualifying purchases. Prices and availability change. We do not publish a live price.";
 
-export function amazonUrl(query: string) {
-  const params = new URLSearchParams({ k: query, tag: AMAZON_TAG });
-  return `https://www.amazon.com/s?${params.toString()}`;
+export function absoluteUrl(path: string) {
+  if (path.startsWith("http")) return path;
+  return `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`;
+}
+
+/** ASIN deep link only. Returns null when the listing is not verified — never a search URL. */
+export function amazonUrl(slug: string) {
+  const asin = asinFor(slug);
+  if (!asin) return null;
+  return `https://www.amazon.com/dp/${asin}?tag=${amazonTag()}`;
 }
 
 export function pageTitle(title: string) {

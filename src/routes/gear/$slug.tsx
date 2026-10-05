@@ -1,7 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { pageTitle } from "@/lib/affiliate";
+import { breadcrumbLd, pageHead } from "@/lib/seo";
 import { getCategory, productsIn, roundups } from "@/data";
-import { CardGrid, Crumbs } from "@/components/site/blocks";
+import { CardGrid, Crumbs, JsonLd } from "@/components/site/blocks";
 
 export const Route = createFileRoute("/gear/$slug")({
   loader: ({ params }) => {
@@ -9,12 +9,12 @@ export const Route = createFileRoute("/gear/$slug")({
     if (!category) throw notFound();
     return category;
   },
-  head: ({ loaderData }) => ({
-    meta: [
-      { title: pageTitle(loaderData?.name ?? "Category") },
-      { name: "description", content: loaderData?.lede ?? "" },
-    ],
-  }),
+  head: ({ loaderData, params }) =>
+    pageHead({
+      title: loaderData?.name ?? "Category",
+      description: loaderData?.lede ?? "Trailkit gear category.",
+      path: `/gear/${params.slug}`,
+    }),
   component: CategoryPage,
 });
 
@@ -24,6 +24,15 @@ function CategoryPage() {
   const lists = roundups.filter((r) => r.productSlugs.some((slug) => gear.some((p) => p.slug === slug)));
   return (
     <main className="mx-auto max-w-6xl space-y-8 px-4 py-8">
+      <JsonLd
+        data={[
+          breadcrumbLd([
+            { name: "Home", path: "/" },
+            { name: "Categories", path: "/gear" },
+            { name: category.name },
+          ]),
+        ]}
+      />
       <Crumbs items={[{ href: "/gear", label: "Categories" }, { label: category.name }]} />
       <p className="text-xs font-bold tracking-widest text-amber-deep uppercase">{category.short}</p>
       <h1 className="text-4xl">{category.name}</h1>

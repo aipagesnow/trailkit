@@ -1,22 +1,26 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Figtree", ui-sans-serif, system-ui, sans-serif;
-  --font-serif: "Fraunces", Georgia, "Times New Roman", serif;
-  --color-paper: #f4f0e8;
-  --color-paper-2: #ebe4d8;
-  --color-ink: #1c1915;
-  --color-muted: #5e574e;
-  --color-forest: #1c4a38;
-  --color-forest-deep: #10281e;
-  --color-amber: #b85e14;
-  --color-amber-deep: #8d4510;
-  --color-card: #fffcf7;
-  --color-line: #e3dcd0;
-  --color-on-forest: #f4efe6;
-  --color-on-amber: #fff8ee;
-  --color-cream: #fff8ee;
-  --color-cream-line: #ead7b8;
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "IBM Plex Sans Condensed", "Arial Narrow", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --font-serif: "IBM Plex Sans Condensed", "Arial Narrow", sans-serif;
+  --color-paper: #f7f6f2;
+  --color-paper-2: #e8e6e1;
+  --color-ink: #1d2326;
+  --color-muted: #5c656a;
+  --color-forest: #3d5a6c;
+  --color-forest-deep: #0f1416;
+  --color-amber: #ff5a1f;
+  --color-amber-deep: #1d2326;
+  --color-blaze: #ff5a1f;
+  --color-card: #f7f6f2;
+  --color-line: #c5c2bb;
+  --color-spec: #eef1f0;
+  --color-on-forest: #f7f6f2;
+  --color-on-amber: #ffffff;
+  --color-cream: #eef1f0;
+  --color-cream-line: #c5c2bb;
 }
 
 @layer base {
@@ -27,19 +31,29 @@
     background: var(--color-paper);
     color: var(--color-ink);
     font-family: var(--font-sans);
+    font-size: 17px;
     line-height: 1.6;
   }
   h1,
   h2,
   h3,
   h4 {
-    font-family: var(--font-serif);
-    line-height: 1.2;
+    font-family: var(--font-display);
+    font-weight: 650;
+    line-height: 1.12;
     letter-spacing: -0.02em;
   }
   button:not(:disabled),
   [role="button"]:not(:disabled) {
     cursor: pointer;
+  }
+  a {
+    text-underline-offset: 2px;
+  }
+  .rounded-md,
+  .rounded-lg,
+  .rounded-xl {
+    border-radius: 2px;
   }
 }
 

@@ -1,5 +1,5 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
-import { pageTitle } from "@/lib/affiliate";
+import { breadcrumbLd, pageHead } from "@/lib/seo";
 import { getNote, getProduct, linksFor } from "@/data";
 import { Crumbs, Disclosure, FaqList, JsonLd, ProductSection, Related, Updated } from "@/components/site/blocks";
 
@@ -9,12 +9,12 @@ export const Route = createFileRoute("/learn/$slug")({
     if (!page) throw notFound();
     return page;
   },
-  head: ({ loaderData }) => ({
-    meta: [
-      { title: pageTitle(loaderData?.title ?? "Field note") },
-      { name: "description", content: loaderData?.description ?? "" },
-    ],
-  }),
+  head: ({ loaderData, params }) =>
+    pageHead({
+      title: loaderData?.title ?? "Field note",
+      description: loaderData?.description ?? "",
+      path: `/learn/${params.slug}`,
+    }),
   component: NotePage,
 });
 
@@ -23,15 +23,21 @@ function NotePage() {
   const picks = page.productSlugs.map((slug) => getProduct(slug)).filter((p) => p != null);
   return (
     <main className="mx-auto max-w-3xl space-y-8 px-4 py-8">
-      <JsonLd
-        data={{
-          "@context": "https://schema.org",
-          "@type": "Article",
-          headline: page.h1,
-          description: page.description,
-          articleSection: "Field note",
-        }}
-      />
+        <JsonLd
+          data={[
+            breadcrumbLd([
+              { name: "Home", path: "/" },
+              { name: "Field notes", path: "/learn" },
+              { name: page.h1 },
+            ]),
+            {
+              "@type": "Article",
+              headline: page.h1,
+              description: page.description,
+              articleSection: "Field note",
+            },
+          ]}
+        />
       <Crumbs items={[{ href: "/learn", label: "Field notes" }, { label: page.h1 }]} />
       <p className="text-xs font-bold tracking-widest text-amber-deep uppercase">{page.kicker}</p>
       <h1 className="text-4xl">{page.h1}</h1>

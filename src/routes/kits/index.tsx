@@ -1,15 +1,15 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { pageTitle } from "@/lib/affiliate";
+import { pageHead } from "@/lib/seo";
 import { kits } from "@/data";
 import { CardGrid } from "@/components/site/blocks";
 
 export const Route = createFileRoute("/kits/")({
-  head: () => ({
-    meta: [
-      { title: pageTitle("Trip kits") },
-      { name: "description", content: "Trailkit kits for a fair weekend, a light-and-dry hike, cold sleepers, wide feet, car camping, and a day hike." },
-    ],
-  }),
+  head: () =>
+    pageHead({
+      title: "Trip kits",
+      description: "Trailkit kits for a fair weekend, a light-and-dry hike, cold sleepers, wide feet, car camping, and a day hike.",
+      path: "/kits",
+    }),
   component: () => (
     <main className="mx-auto max-w-6xl px-4 py-10">
       <h1 className="text-4xl">Kits</h1>

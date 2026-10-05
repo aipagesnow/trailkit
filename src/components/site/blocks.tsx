@@ -1,96 +1,128 @@
 import { Link } from "@tanstack/react-router";
-import { amazonUrl, DISCLOSURE, UPDATED } from "@/lib/affiliate";
+import { amazonUrl, DISCLOSURE, DISCLOSURE_SHORT, UPDATED } from "@/lib/affiliate";
 import type { Faq, Product } from "@/data/types";
 import type { LinkItem } from "@/data";
 
 export function Crumbs({ items }: { items: { href?: string; label: string }[] }) {
   return (
-    <p className="text-sm text-muted">
-      <Link to="/" className="text-muted">Home</Link>
+    <nav aria-label="Breadcrumb" className="font-display text-sm tracking-wide text-muted uppercase">
+      <Link to="/" className="text-forest">Home</Link>
       {items.map((item) => (
         <span key={item.label}>
           {" / "}
-          {item.href ? <a href={item.href} className="text-muted">{item.label}</a> : item.label}
+          {item.href ? <a href={item.href} className="text-forest">{item.label}</a> : item.label}
         </span>
       ))}
-    </p>
+    </nav>
   );
 }
 
 export function Disclosure() {
-  return <p className="rounded-md border border-cream-line bg-cream px-3 py-2 text-sm text-muted">{DISCLOSURE} Check the current price before you buy.</p>;
+  return (
+    <p className="border-y border-line py-2 text-sm text-muted">
+      {DISCLOSURE_SHORT}{" "}
+      <a href="/disclosure" className="font-bold text-forest underline">Full disclosure</a>
+    </p>
+  );
 }
 
-export function AmazonButton({ query, label = "Check current price on Amazon" }: { query: string; label?: string }) {
+export function AmazonButton({ product }: { product: Product }) {
+  const href = amazonUrl(product.slug);
+  if (!href) {
+    return (
+      <p className="mt-3 text-sm text-muted">
+        Amazon listing not verified for this model yet.
+      </p>
+    );
+  }
   return (
     <div className="mt-3">
-      <a href={amazonUrl(query)} rel="sponsored nofollow noopener" target="_blank" className="inline-flex min-h-11 items-center rounded-md bg-amber px-4 font-bold text-on-amber">
-        {label}
+      <a
+        href={href}
+        rel="sponsored nofollow noopener"
+        target="_blank"
+        className="inline-flex min-h-11 items-center bg-blaze px-4 font-display text-base font-semibold tracking-wide text-on-amber uppercase"
+      >
+        See on Amazon
       </a>
-      <p className="mt-1 text-sm text-muted">Price is not listed here. The listing has the current price, size, and shipping.</p>
+      <p className="mt-1 text-sm text-muted">Check current price on the listing.</p>
     </div>
   );
 }
 
 export function CompareTable({ products }: { products: Product[] }) {
   return (
-    <div className="overflow-x-auto rounded-lg border border-line bg-card">
-      <table className="w-full min-w-[40rem] border-collapse text-left text-sm">
-        <thead className="bg-forest-deep text-on-forest">
-          <tr>
-            <th className="px-3 py-2 font-semibold">Pick</th>
-            <th className="px-3 py-2 font-semibold">Price band</th>
-            <th className="px-3 py-2 font-semibold">Weight</th>
-            <th className="px-3 py-2 font-semibold">Best for</th>
-            <th className="px-3 py-2 font-semibold">Limitation</th>
-          </tr>
-        </thead>
-        <tbody>
-          {products.map((p) => (
-            <tr key={p.slug} className="border-t border-line">
-              <td className="px-3 py-2"><Link to="/products/$slug" params={{ slug: p.slug }} className="font-bold text-forest">{p.name}</Link></td>
-              <td className="px-3 py-2">{p.priceBand}</td>
-              <td className="px-3 py-2">{p.weight}</td>
-              <td className="px-3 py-2">{p.bestFor}</td>
-              <td className="px-3 py-2">{p.limit}</td>
+    <div>
+      <p className="mb-1 font-display text-xs tracking-widest text-muted uppercase">Scroll →</p>
+      <div className="overflow-x-auto border border-line">
+        <table className="w-full min-w-[40rem] border-collapse text-left text-sm">
+          <thead className="bg-forest-deep text-on-forest">
+            <tr>
+              <th className="sticky left-0 bg-forest-deep px-3 py-2 font-display font-semibold">Pick</th>
+              <th className="px-3 py-2 font-display font-semibold">Price band</th>
+              <th className="px-3 py-2 font-display font-semibold">Weight</th>
+              <th className="px-3 py-2 font-display font-semibold">Best for</th>
+              <th className="px-3 py-2 font-display font-semibold">Limitation</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
-      <p className="px-3 py-2 text-sm text-muted">Scroll sideways on a phone. Bands are typical street ranges, not live prices.</p>
+          </thead>
+          <tbody>
+            {products.map((p, index) => (
+              <tr key={p.slug} className={index % 2 ? "border-t border-line bg-spec" : "border-t border-line"}>
+                <td className="sticky left-0 bg-paper px-3 py-2">
+                  <Link to="/products/$slug" params={{ slug: p.slug }} className="font-bold text-forest">{p.name}</Link>
+                </td>
+                <td className="px-3 py-2">{p.priceBand}</td>
+                <td className="px-3 py-2 font-mono text-xs">{p.weight}</td>
+                <td className="px-3 py-2">{p.bestFor}</td>
+                <td className="px-3 py-2">{p.limit}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p className="mt-1 text-sm text-muted">Bands are typical street ranges, not live prices.</p>
     </div>
   );
 }
 
 export function ProductSection({ product, index }: { product: Product; index: number }) {
+  const top = index === 1;
   return (
-    <section id={product.slug} className="rounded-lg border border-line bg-card p-4">
-      <p className="text-xs font-bold tracking-widest text-amber-deep uppercase">{product.role}</p>
-      <h3 className="mt-1 text-2xl">
-        <a href={`/products/${product.slug}`} className="text-ink">{index}. {product.name}</a>
-      </h3>
-      <p className="mt-2 max-w-3xl">{product.body}</p>
+    <section id={product.slug} className="border border-line bg-paper p-4">
+      <div className="flex items-start gap-3">
+        <span className={`inline-flex size-8 shrink-0 items-center justify-center border font-display text-sm font-bold ${top ? "border-blaze bg-blaze text-on-amber" : "border-ink text-ink"}`}>
+          {index}
+        </span>
+        <div>
+          <p className="font-display text-xs tracking-widest text-ink uppercase">{product.role}</p>
+          <h3 className="mt-1 text-2xl">
+            <a href={`/products/${product.slug}`} className="text-ink">{product.name}</a>
+          </h3>
+        </div>
+      </div>
+      <p className="mt-3 max-w-3xl">{product.body}</p>
       <p className="mt-2 max-w-3xl"><span className="font-bold">Who should buy it. </span>{product.who}</p>
       <div className="mt-3 grid gap-3 sm:grid-cols-2">
-        <div>
-          <h4 className="text-sm font-bold tracking-wide text-forest uppercase">Pros</h4>
+        <div className="border border-line bg-spec p-3">
+          <h4 className="font-display text-sm tracking-wide uppercase">Pros</h4>
           <ul className="mt-1 list-disc pl-5 text-sm">{product.pros.map((item) => <li key={item}>{item}</li>)}</ul>
         </div>
-        <div>
-          <h4 className="text-sm font-bold tracking-wide text-amber-deep uppercase">Cons</h4>
+        <div className="border border-line p-3">
+          <h4 className="font-display text-sm tracking-wide uppercase">Cons</h4>
           <ul className="mt-1 list-disc pl-5 text-sm">{product.cons.map((item) => <li key={item}>{item}</li>)}</ul>
         </div>
       </div>
-      <AmazonButton query={product.query} />
+      <AmazonButton product={product} />
     </section>
   );
 }
 
 export function FaqList({ faqs }: { faqs: Faq[] }) {
+  if (!faqs.length) return null;
   return (
     <section>
       <h2 className="text-3xl">FAQ</h2>
-      <div className="mt-2 divide-y divide-line">
+      <div className="mt-2 divide-y divide-line border-y border-line">
         {faqs.map((faq) => (
           <details key={faq.q} className="py-3">
             <summary className="cursor-pointer font-bold">{faq.q}</summary>
@@ -110,9 +142,9 @@ export function Related({ links }: { links: LinkItem[] }) {
       <ul className="mt-3 grid gap-3 sm:grid-cols-2">
         {links.map((link) => (
           <li key={link.href}>
-            <a href={link.href} className="block rounded-lg border border-line bg-card p-4 text-ink">
-              <span className="text-xs font-bold tracking-widest text-amber-deep uppercase">{link.kind}</span>
-              <span className="mt-1 block font-serif text-xl">{link.label}</span>
+            <a href={link.href} className="block h-full border border-line bg-paper p-4 text-ink">
+              <span className="font-display text-xs tracking-widest uppercase">{link.kind}</span>
+              <span className="mt-1 block font-display text-xl">{link.label}</span>
             </a>
           </li>
         ))}
@@ -122,7 +154,7 @@ export function Related({ links }: { links: LinkItem[] }) {
 }
 
 export function Updated({ read }: { read?: string }) {
-  return <p className="text-sm text-muted">Updated {UPDATED}{read ? ` · ${read}` : ""} · Trailkit editors</p>;
+  return <p className="font-mono text-xs text-muted">Updated {UPDATED}{read ? ` · ${read}` : ""}</p>;
 }
 
 export function CardGrid({ items }: { items: { href: string; title: string; text: string; kicker?: string }[] }) {
@@ -130,9 +162,9 @@ export function CardGrid({ items }: { items: { href: string; title: string; text
     <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
       {items.map((item) => (
         <li key={item.href}>
-          <a href={item.href} className="flex h-full flex-col rounded-lg border border-line bg-card p-4 text-ink">
-            {item.kicker ? <span className="text-xs font-bold tracking-widest text-amber-deep uppercase">{item.kicker}</span> : null}
-            <span className="mt-1 font-serif text-xl">{item.title}</span>
+          <a href={item.href} className="flex h-full flex-col border border-line bg-paper p-4 text-ink">
+            {item.kicker ? <span className="font-display text-xs tracking-widest uppercase">{item.kicker}</span> : null}
+            <span className="mt-1 font-display text-xl">{item.title}</span>
             <span className="mt-2 text-sm text-muted">{item.text}</span>
           </a>
         </li>
@@ -141,6 +173,48 @@ export function CardGrid({ items }: { items: { href: string; title: string; text
   );
 }
 
-export function JsonLd({ data }: { data: unknown }) {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }} />;
+export function FieldImage({ src, alt }: { src: string; alt: string }) {
+  return (
+    <img
+      src={src}
+      alt={alt}
+      width={1400}
+      height={788}
+      fetchPriority="high"
+      className="aspect-[16/9] w-full border border-line object-cover"
+    />
+  );
 }
+
+export function PageToc({ links }: { links: { href: string; label: string }[] }) {
+  const list = (
+    <ul>
+      {links.map((link) => (
+        <li key={link.href}>
+          <a href={link.href} className="block py-1 text-ink hover:text-forest">{link.label}</a>
+        </li>
+      ))}
+    </ul>
+  );
+  return (
+    <>
+      <details className="border border-line bg-paper p-3 lg:hidden">
+        <summary className="cursor-pointer font-display text-sm tracking-widest uppercase">On this page</summary>
+        <nav className="mt-2 text-sm">{list}</nav>
+      </details>
+      <nav aria-label="On this page" className="hidden text-sm lg:sticky lg:top-4 lg:block lg:self-start">
+        <p className="font-display text-xs tracking-widest text-muted uppercase">On this page</p>
+        <div className="mt-2">{list}</div>
+      </nav>
+    </>
+  );
+}
+
+export function JsonLd({ data }: { data: unknown }) {
+  const payload = Array.isArray(data)
+    ? { "@context": "https://schema.org", "@graph": data }
+    : data;
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(payload) }} />;
+}
+
+export { DISCLOSURE };

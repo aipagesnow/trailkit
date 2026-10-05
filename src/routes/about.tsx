@@ -1,13 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { BRAND, pageTitle } from "@/lib/affiliate";
+import { BRAND } from "@/lib/affiliate";
+import { pageHead } from "@/lib/seo";
 
 export const Route = createFileRoute("/about")({
-  head: () => ({
-    meta: [
-      { title: pageTitle(`About ${BRAND}`) },
-      { name: "description", content: "Trailkit publishes practical outdoor gear recommendations for hiking, backpacking, and car camping." },
-    ],
-  }),
+  head: () =>
+    pageHead({
+      title: `About ${BRAND}`,
+      description: "Trailkit publishes practical outdoor gear recommendations for hiking, backpacking, and car camping.",
+      path: "/about",
+    }),
   component: () => (
     <main className="mx-auto max-w-3xl space-y-4 px-4 py-10">
       <h1 className="text-4xl">About {BRAND}</h1>

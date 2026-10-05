@@ -1,13 +1,13 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { pageTitle } from "@/lib/affiliate";
+import { pageHead } from "@/lib/seo";
 
 export const Route = createFileRoute("/privacy")({
-  head: () => ({
-    meta: [
-      { title: pageTitle("Privacy") },
-      { name: "description", content: "Privacy notes for Trailkit. Search stays in your browser session." },
-    ],
-  }),
+  head: () =>
+    pageHead({
+      title: "Privacy",
+      description: "Privacy notes for Trailkit. Search stays in your browser session.",
+      path: "/privacy",
+    }),
   component: () => (
     <main className="mx-auto max-w-3xl space-y-4 px-4 py-10">
       <h1 className="text-4xl">Privacy</h1>

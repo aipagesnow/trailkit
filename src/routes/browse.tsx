@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { pageTitle } from "@/lib/affiliate";
+import { pageHead } from "@/lib/seo";
 import { categories, products, searchSite } from "@/data";
 
 type BrowseSearch = { q: string; cat: string };
@@ -9,12 +9,12 @@ export const Route = createFileRoute("/browse")({
     q: typeof search.q === "string" ? search.q : "",
     cat: typeof search.cat === "string" ? search.cat : "",
   }),
-  head: () => ({
-    meta: [
-      { title: pageTitle("Browse all gear") },
-      { name: "description", content: "Search Trailkit gear write-ups, roundups, guides, and comparisons." },
-    ],
-  }),
+  head: () =>
+    pageHead({
+      title: "Browse all gear",
+      description: "Search Trailkit gear write-ups, roundups, guides, and comparisons.",
+      path: "/browse",
+    }),
   component: BrowsePage,
 });
 

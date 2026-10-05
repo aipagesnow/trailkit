@@ -1,15 +1,15 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { pageTitle } from "@/lib/affiliate";
+import { pageHead } from "@/lib/seo";
 import { compares } from "@/data";
 import { CardGrid } from "@/components/site/blocks";
 
 export const Route = createFileRoute("/compare/")({
-  head: () => ({
-    meta: [
-      { title: pageTitle("Gear comparisons") },
-      { name: "description", content: "Head-to-head outdoor gear comparisons: tents, packs, pads, boots, stoves, filters, and rain shells." },
-    ],
-  }),
+  head: () =>
+    pageHead({
+      title: "Gear comparisons",
+      description: "Head-to-head outdoor gear comparisons: tents, packs, pads, boots, stoves, filters, and rain shells.",
+      path: "/compare",
+    }),
   component: () => (
     <main className="mx-auto max-w-6xl px-4 py-10">
       <h1 className="text-4xl">Comparisons</h1>

@@ -1,7 +1,7 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
-import { pageTitle } from "@/lib/affiliate";
 import { getCategory, getProduct, pagesMentioning, productsIn } from "@/data";
-import { AmazonButton, Crumbs, Disclosure, Related } from "@/components/site/blocks";
+import { AmazonButton, Crumbs, Disclosure, JsonLd, Related } from "@/components/site/blocks";
+import { breadcrumbLd, pageHead } from "@/lib/seo";
 
 export const Route = createFileRoute("/products/$slug")({
   loader: ({ params }) => {
@@ -9,12 +9,12 @@ export const Route = createFileRoute("/products/$slug")({
     if (!product) throw notFound();
     return product;
   },
-  head: ({ loaderData }) => ({
-    meta: [
-      { title: pageTitle(loaderData ? `${loaderData.name} review notes` : "Gear") },
-      { name: "description", content: loaderData?.summary ?? "" },
-    ],
-  }),
+  head: ({ loaderData, params }) =>
+    pageHead({
+      title: loaderData ? `${loaderData.name} review notes` : "Gear",
+      description: loaderData?.summary ?? "",
+      path: `/products/${params.slug}`,
+    }),
   component: ProductPage,
 });
 
@@ -24,10 +24,26 @@ function ProductPage() {
   const alts = productsIn(product.category).filter((p) => p.slug !== product.slug).slice(0, 4);
   return (
     <main className="mx-auto max-w-3xl space-y-6 px-4 py-8">
+      <JsonLd
+        data={[
+          breadcrumbLd([
+            { name: "Home", path: "/" },
+            { name: category?.name ?? "Gear", path: `/gear/${product.category}` },
+            { name: product.name },
+          ]),
+          {
+            "@type": "Product",
+            name: product.name,
+            brand: { "@type": "Brand", name: product.brand },
+            description: product.summary,
+            category: category?.name,
+          },
+        ]}
+      />
       <Crumbs items={[{ href: `/gear/${product.category}`, label: category?.name ?? "Gear" }, { label: product.name }]} />
-      <p className="text-xs font-bold tracking-widest text-amber-deep uppercase">{product.role}</p>
+      <p className="font-display text-xs tracking-widest uppercase">{product.role}</p>
       <h1 className="text-4xl">{product.name}</h1>
-      <p className="text-muted">{product.brand} · {product.priceBand} · {product.weight}</p>
+      <p className="font-mono text-sm text-muted">{product.brand} · {product.priceBand} · {product.weight}</p>
       <p className="text-lg">{product.summary}</p>
       <Disclosure />
       <p>{product.body}</p>
@@ -36,26 +52,26 @@ function ProductPage() {
       <p><span className="font-bold">Standout limitation. </span>{product.limit}</p>
       <section>
         <h2 className="text-3xl">Specs</h2>
-        <dl className="mt-3 divide-y divide-line rounded-lg border border-line bg-card">
+        <dl className="mt-3 divide-y divide-line border border-line">
           {product.specs.map((spec) => (
-            <div key={spec.label} className="grid grid-cols-2 gap-2 px-3 py-2 text-sm">
+            <div key={spec.label} className="grid grid-cols-2 gap-2 bg-spec px-3 py-2 text-sm odd:bg-paper">
               <dt className="font-bold">{spec.label}</dt>
-              <dd>{spec.value}</dd>
+              <dd className="font-mono text-xs">{spec.value}</dd>
             </div>
           ))}
         </dl>
       </section>
       <div className="grid gap-3 sm:grid-cols-2">
-        <div className="rounded-lg border border-line bg-card p-4">
-          <h2 className="text-xl text-forest">Pros</h2>
+        <div className="border border-line p-4">
+          <h2 className="text-xl">Pros</h2>
           <ul className="mt-2 list-disc pl-5">{product.pros.map((p) => <li key={p}>{p}</li>)}</ul>
         </div>
-        <div className="rounded-lg border border-line bg-card p-4">
-          <h2 className="text-xl text-amber-deep">Cons</h2>
+        <div className="border border-line p-4">
+          <h2 className="text-xl">Cons</h2>
           <ul className="mt-2 list-disc pl-5">{product.cons.map((p) => <li key={p}>{p}</li>)}</ul>
         </div>
       </div>
-      <AmazonButton query={product.query} label={`Check current price: ${product.name}`} />
+      <AmazonButton product={product} />
       <section>
         <h2 className="text-3xl">Also in {category?.short}</h2>
         <ul className="mt-2 space-y-2">

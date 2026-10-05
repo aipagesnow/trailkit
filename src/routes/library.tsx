@@ -1,14 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { pageTitle } from "@/lib/affiliate";
+import { pageHead } from "@/lib/seo";
 import { categories, compares, guides, kits, notes, products, roundups } from "@/data";
 
 export const Route = createFileRoute("/library")({
-  head: () => ({
-    meta: [
-      { title: pageTitle("Library") },
-      { name: "description", content: "Every Trailkit category, roundup, guide, field note, comparison, kit, and gear page." },
-    ],
-  }),
+  head: () =>
+    pageHead({
+      title: "Library",
+      description: "Every Trailkit category, roundup, guide, field note, comparison, kit, and gear page.",
+      path: "/library",
+    }),
   component: LibraryPage,
 });
 
