@@ -11,6 +11,8 @@ export type TkImageMeta = {
   ready: boolean;
   srcset: boolean;
   widths: number[];
+  money: boolean;
+  moneyWidths: number[];
 };
 
 export const IMAGES: TkImageMeta[] = [
@@ -29,6 +31,12 @@ export const IMAGES: TkImageMeta[] = [
       480,
       800,
       1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
     ]
   },
   {
@@ -43,6 +51,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -65,6 +80,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -79,6 +101,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -101,6 +130,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -115,6 +151,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -137,6 +180,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -151,6 +201,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -173,6 +230,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -190,6 +254,12 @@ export const IMAGES: TkImageMeta[] = [
       480,
       800,
       1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
     ]
   },
   {
@@ -204,6 +274,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -226,6 +303,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -240,6 +324,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -262,6 +353,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -279,6 +377,12 @@ export const IMAGES: TkImageMeta[] = [
       480,
       800,
       1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
     ]
   },
   {
@@ -293,6 +397,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -315,6 +426,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -329,6 +447,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -350,6 +475,12 @@ export const IMAGES: TkImageMeta[] = [
       480,
       800,
       1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
     ]
   },
   {
@@ -364,6 +495,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -386,6 +524,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -400,6 +545,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -422,6 +574,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -436,6 +595,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -458,6 +624,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -472,6 +645,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -494,6 +674,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -508,6 +695,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -530,6 +724,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -544,6 +745,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -566,6 +774,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -580,6 +795,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -602,6 +824,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -616,6 +845,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -638,6 +874,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -652,6 +895,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -674,6 +924,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -688,6 +945,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -710,6 +974,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -724,6 +995,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -746,6 +1024,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -760,6 +1045,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -782,6 +1074,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -796,6 +1095,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -818,6 +1124,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -832,6 +1145,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -853,6 +1173,12 @@ export const IMAGES: TkImageMeta[] = [
       480,
       800,
       1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
     ]
   },
   {
@@ -871,6 +1197,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -882,9 +1215,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Sleep",
     "title": "Quilt or sleeping bag?",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/guides/ultralight-shelter",
@@ -895,9 +1240,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Shelters",
     "title": "Ultralight backpacking shelter guide",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/guides/car-camping-kitchen",
@@ -908,9 +1265,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Kitchen",
     "title": "Car camping kitchen setup",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/guides/layering",
@@ -928,6 +1297,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -939,9 +1315,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Footwear",
     "title": "How to fit hiking boots",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/guides/water-treatment",
@@ -952,9 +1340,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Water",
     "title": "How to treat backcountry water",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/guides/pack-fit",
@@ -965,9 +1365,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Packs",
     "title": "How to fit a backpack",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/guides/canister-vs-liquid",
@@ -978,9 +1390,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Kitchen",
     "title": "Canister stove or liquid fuel?",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/guides/leave-no-trace-camp",
@@ -991,9 +1415,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Habits",
     "title": "Leave no trace at camp",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/guides/three-vs-four-season",
@@ -1004,9 +1440,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Shelters",
     "title": "Three-season or four-season tent?",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/guides/blister-care",
@@ -1017,9 +1465,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Feet",
     "title": "How to prevent hiking blisters",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/guides/hammock-setup",
@@ -1030,9 +1490,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Hammocks",
     "title": "How to set up a camping hammock",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/guides/bear-canister-packing",
@@ -1043,9 +1515,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Food",
     "title": "How to pack a bear canister",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/guides/how-much-water",
@@ -1056,9 +1540,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Water",
     "title": "How much water to carry hiking",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/guides/read-a-topo",
@@ -1069,9 +1565,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Navigation",
     "title": "How to read a topo map",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/guides/base-weight",
@@ -1082,9 +1590,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Planning",
     "title": "What backpacking base weight means",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/guides/wash-down",
@@ -1095,9 +1615,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Sleep",
     "title": "How to wash a down sleeping bag",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/guides/tent-condensation",
@@ -1108,9 +1640,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Shelters",
     "title": "Why tents get condensation",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/guides/kids-first-trip",
@@ -1121,9 +1665,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Family",
     "title": "A child's first camping trip",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/guides/shoulder-season",
@@ -1134,9 +1690,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Layers",
     "title": "What to wear hiking in shoulder season",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/guides/desert-water",
@@ -1147,9 +1715,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Water",
     "title": "Desert hiking water planning",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/guides/cathole",
@@ -1160,9 +1740,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Camp",
     "title": "How to dig a cathole",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/guides/stove-safety",
@@ -1173,9 +1765,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "guides",
     "label": "Guide · Kitchen",
     "title": "Camp stove safety",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/kits/fair-weekend",
@@ -1193,6 +1797,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -1204,9 +1815,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "kits",
     "label": "Kit",
     "title": "Light and dry",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/kits/cold-sleeper-kit",
@@ -1217,9 +1840,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "kits",
     "label": "Kit",
     "title": "Cold sleeper",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/kits/wide-foot-weekend",
@@ -1230,9 +1865,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "kits",
     "label": "Kit",
     "title": "Wide feet, first overnight",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/kits/car-camp-weekend",
@@ -1243,9 +1890,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "kits",
     "label": "Kit",
     "title": "Drive-up weekend",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/kits/day-hike",
@@ -1263,6 +1922,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -1274,9 +1940,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "kits",
     "label": "Kit",
     "title": "Hammock weekend",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/kits/desert-day",
@@ -1287,9 +1965,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "kits",
     "label": "Kit",
     "title": "Desert day hike",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/kits/rainy-weekend",
@@ -1300,9 +1990,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "kits",
     "label": "Kit",
     "title": "Rainy weekend",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/kits/family-weekend",
@@ -1313,9 +2015,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "kits",
     "label": "Kit",
     "title": "Family car-camp",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/kits/winter-day",
@@ -1326,9 +2040,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "kits",
     "label": "Kit",
     "title": "Winter day hike",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/kits/blister-kit",
@@ -1339,9 +2065,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "kits",
     "label": "Kit",
     "title": "Blister kit",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/kits/bear-country",
@@ -1352,9 +2090,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "kits",
     "label": "Kit",
     "title": "Bear-country weekend",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/kits/hot-weather",
@@ -1365,9 +2115,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "kits",
     "label": "Kit",
     "title": "Hot-weather overnight",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/compare/osprey-vs-gregory",
@@ -1381,6 +2143,12 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200
@@ -1398,6 +2166,13 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200,
@@ -1420,6 +2195,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -1431,9 +2213,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "compare",
     "label": "Comparison · Footwear",
     "title": "Targhee vs Lone Peak",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/compare/windmaster-vs-pocketrocket",
@@ -1444,9 +2238,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "compare",
     "label": "Comparison · Stoves",
     "title": "WindMaster vs PocketRocket",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/compare/sawyer-vs-katadyn",
@@ -1457,9 +2263,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "compare",
     "label": "Comparison · Water",
     "title": "Squeeze vs BeFree",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/compare/actik-vs-spot",
@@ -1470,9 +2288,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "compare",
     "label": "Comparison · Lights",
     "title": "Actik Core vs Spot",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/compare/helium-vs-rainier",
@@ -1483,9 +2313,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "compare",
     "label": "Comparison · Rain",
     "title": "Helium vs Rainier",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/compare/xmid1-vs-protrail",
@@ -1496,9 +2338,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "compare",
     "label": "Comparison · Shelters",
     "title": "X-Mid 1 vs Protrail",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/compare/aura-vs-deva",
@@ -1509,9 +2363,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "compare",
     "label": "Comparison · Packs",
     "title": "Osprey Aura vs Gregory Deva",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/compare/darn-tough-vs-smartwool",
@@ -1522,9 +2388,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "compare",
     "label": "Comparison · Socks",
     "title": "Darn Tough vs Smartwool hiking socks",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/compare/microspikes-vs-yaktrax",
@@ -1535,9 +2413,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "compare",
     "label": "Comparison · Traction",
     "title": "Kahtoola Microspikes vs Yaktrax",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/compare/bv500-vs-ursack",
@@ -1548,9 +2438,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "compare",
     "label": "Comparison · Food storage",
     "title": "BearVault BV500 vs Ursack Major",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/compare/synthetic-vs-merino",
@@ -1561,9 +2463,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "compare",
     "label": "Comparison · Layers",
     "title": "Synthetic vs merino base layers",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/compare/toaks-vs-halulite",
@@ -1574,9 +2488,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "compare",
     "label": "Comparison · Cookware",
     "title": "TOAKS 750 vs GSI Halulite",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/compare/kingdom-vs-sundome",
@@ -1587,9 +2513,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "compare",
     "label": "Comparison · Family",
     "title": "REI Kingdom 6 vs Coleman Sundome 4",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/compare/flash-vs-crown",
@@ -1600,9 +2538,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "compare",
     "label": "Comparison · Packs",
     "title": "REI Flash 55 vs Granite Gear Crown 60",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/compare/eno-vs-blackbird",
@@ -1613,9 +2563,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "compare",
     "label": "Comparison · Hammocks",
     "title": "ENO DoubleNest vs Warbonnet Blackbird",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/compare/r1-vs-atom",
@@ -1626,9 +2588,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "compare",
     "label": "Comparison · Layers",
     "title": "Patagonia R1 Air vs Arc'teryx Atom",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/compare/mariposa-vs-southwest",
@@ -1639,9 +2613,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "compare",
     "label": "Comparison · Packs",
     "title": "Gossamer Gear Mariposa vs Hyperlite Southwest",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/gear/tents",
@@ -1655,6 +2641,12 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200
@@ -1675,6 +2667,12 @@ export const IMAGES: TkImageMeta[] = [
       480,
       800,
       1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
     ]
   },
   {
@@ -1689,6 +2687,12 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200
@@ -1709,6 +2713,12 @@ export const IMAGES: TkImageMeta[] = [
       480,
       800,
       1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
     ]
   },
   {
@@ -1723,6 +2733,12 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200
@@ -1743,6 +2759,12 @@ export const IMAGES: TkImageMeta[] = [
       480,
       800,
       1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
     ]
   },
   {
@@ -1757,6 +2779,12 @@ export const IMAGES: TkImageMeta[] = [
     "ready": true,
     "srcset": true,
     "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
       480,
       800,
       1200
@@ -1777,6 +2805,12 @@ export const IMAGES: TkImageMeta[] = [
       480,
       800,
       1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
     ]
   },
   {
@@ -1788,9 +2822,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "gear",
     "label": "Water",
     "title": "Water treatment",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/gear/layers",
@@ -1801,9 +2847,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "gear",
     "label": "Layers",
     "title": "Insulation layers",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/gear/poles",
@@ -1814,9 +2870,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "gear",
     "label": "Poles",
     "title": "Trekking poles",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/gear/camp",
@@ -1827,9 +2893,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "gear",
     "label": "Car camp",
     "title": "Car camping",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/gear/hammocks",
@@ -1840,9 +2916,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "gear",
     "label": "Hammocks",
     "title": "Hammocks and tarps",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/gear/socks",
@@ -1853,9 +2939,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "gear",
     "label": "Socks",
     "title": "Socks and foot care",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/gear/base",
@@ -1866,9 +2962,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "gear",
     "label": "Base layers",
     "title": "Base layers",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/gear/aid",
@@ -1879,9 +2985,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "gear",
     "label": "First aid",
     "title": "First aid and repair",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/gear/nav",
@@ -1892,9 +3008,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "gear",
     "label": "Navigation",
     "title": "Navigation and communication",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/gear/cook",
@@ -1905,9 +3031,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "gear",
     "label": "Cookware",
     "title": "Cookware and food storage",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/gear/traction",
@@ -1918,9 +3054,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "gear",
     "label": "Traction",
     "title": "Traction and gaiters",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/gear/family",
@@ -1931,9 +3077,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "gear",
     "label": "Family",
     "title": "Family and kids",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/r-value",
@@ -1944,9 +3100,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "What R-value means on a sleeping pad",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/freestanding",
@@ -1957,9 +3123,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "What a freestanding tent is",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/dwr",
@@ -1970,9 +3146,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "What DWR means on a rain jacket",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/iso-rating",
@@ -1983,9 +3169,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "How to read a sleeping bag temperature rating",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/heel-drop",
@@ -1996,9 +3192,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "What heel-drop means in hiking shoes",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/wide-last",
@@ -2009,9 +3215,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "What a wide last means",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/hollow-fiber",
@@ -2022,9 +3238,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "What a backpacking water filter removes",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/fill-power",
@@ -2035,9 +3261,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "What down fill power means",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/hydrostatic-head",
@@ -2048,9 +3284,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "What hydrostatic head means",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/torso-length",
@@ -2061,9 +3307,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "How to measure backpack torso length",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/hipbelt",
@@ -2074,9 +3330,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "What a backpack hip belt is for",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/big-three",
@@ -2087,9 +3353,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "The big three of backpacking gear",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/three-season-gear",
@@ -2100,9 +3376,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "What three-season gear means",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/vestibule",
@@ -2113,9 +3399,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "What a tent vestibule is for",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/double-wall",
@@ -2126,9 +3422,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "Double-wall vs single-wall tents",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/declination",
@@ -2139,9 +3445,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "What map declination means",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/pit-zips",
@@ -2152,9 +3468,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "Why rain jacket pit zips matter",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/active-static",
@@ -2165,9 +3491,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "Active layers versus static layers",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/wag-bag",
@@ -2178,9 +3514,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "What a wag bag is",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/bear-hang",
@@ -2191,9 +3537,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "Why bear hangs fail",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/electrolytes",
@@ -2204,9 +3560,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "When hikers need electrolytes",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/alcohol-rules",
@@ -2217,9 +3583,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "Alcohol stove fire restrictions",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/quilt-drafts",
@@ -2230,9 +3606,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "Why backpacking quilts feel drafty",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/seam-sealing",
@@ -2243,9 +3629,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "When to seam-seal a tent",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/pack-liner",
@@ -2256,9 +3652,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "Why a pack liner still matters",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/camp-shoes",
@@ -2269,9 +3675,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "When camp shoes are worth packing",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/headlamp-modes",
@@ -2282,9 +3698,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "How to use a headlamp without blinding camp",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/learn/food-miles",
@@ -2295,9 +3721,19 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "learn",
     "label": "Field note",
     "title": "How much food to pack backpacking",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200
+    ]
   },
   {
     "route": "/products/copper-spur-ul2",
@@ -2308,9 +3744,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "tents · Best freestanding for most pairs",
     "title": "Big Agnes Copper Spur UL2",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/x-mid-2",
@@ -2321,9 +3769,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "tents · Best trekking-pole shelter",
     "title": "Durston X-Mid 2",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/dragonfly-osmo-2",
@@ -2334,9 +3794,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "tents · Best wet-weather freestanding",
     "title": "NEMO Dragonfly OSMO 2P",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/half-dome-2-plus",
@@ -2347,9 +3819,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "tents · Best livable value",
     "title": "REI Co-op Half Dome 2 Plus",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/lunar-solo",
@@ -2360,9 +3844,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "tents · Best budget solo",
     "title": "Six Moon Designs Lunar Solo",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/hubba-hubba-2",
@@ -2373,9 +3869,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "tents · Best shoulder-season default",
     "title": "MSR Hubba Hubba 2",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/magma-15",
@@ -2386,9 +3894,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "sleep · Best default down bag",
     "title": "REI Co-op Magma 15",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/wm-ultralite",
@@ -2399,9 +3919,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "sleep · Best premium down",
     "title": "Western Mountaineering UltraLite",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/ee-revelation",
@@ -2412,9 +3944,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "sleep · Best quilt",
     "title": "Enlightened Equipment Revelation",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/trestles-eco-30",
@@ -2425,9 +3969,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "sleep · Best synthetic backup",
     "title": "Marmot Trestles Elite Eco 30",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/nemo-disco-15",
@@ -2438,9 +3994,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "sleep · Best for active sleepers",
     "title": "NEMO Disco 15",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/sts-spark",
@@ -2451,9 +4019,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "sleep · Best ultralight mummy",
     "title": "Sea to Summit Spark",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/xlite-nxt",
@@ -2464,9 +4044,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "pads · Best warmth-to-weight air pad",
     "title": "Therm-a-Rest NeoAir XLite NXT",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/nemo-tensor",
@@ -2477,9 +4069,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "pads · Best quieter air pad",
     "title": "NEMO Tensor",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/exped-ultra",
@@ -2490,9 +4094,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "pads · Best thicker comfort",
     "title": "Exped Ultra",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/z-lite",
@@ -2503,9 +4119,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "pads · Best foam pad",
     "title": "Therm-a-Rest Z Lite Sol",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/ether-light",
@@ -2516,9 +4144,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "pads · Best plush air pad",
     "title": "Sea to Summit Ether Light XT",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/xtherm",
@@ -2529,9 +4169,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "pads · Best cold-weather air pad",
     "title": "Therm-a-Rest NeoAir XTherm",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/atmos-ag-65",
@@ -2542,9 +4194,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "packs · Best ventilated 65",
     "title": "Osprey Atmos AG 65",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/baltoro-65",
@@ -2555,9 +4219,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "packs · Best organized 65",
     "title": "Gregory Baltoro 65",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/exos-58",
@@ -2568,9 +4244,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "packs · Best lighter framed pack",
     "title": "Osprey Exos 58",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/kakwa-55",
@@ -2581,9 +4269,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "packs · Best framed ultralight pack",
     "title": "Durston Kakwa 55",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/talon-22",
@@ -2594,9 +4294,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "packs · Best daypack",
     "title": "Osprey Talon 22",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/rei-trail-40",
@@ -2607,9 +4319,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "packs · Best first overnight volume",
     "title": "REI Co-op Trail 40",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/targhee-iv",
@@ -2627,6 +4351,13 @@ export const IMAGES: TkImageMeta[] = [
       800,
       1200,
       1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
     ]
   },
   {
@@ -2638,9 +4369,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "footwear · Best foot-shaped toe box",
     "title": "Altra Lone Peak",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/renegade-wide",
@@ -2651,9 +4394,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "footwear · Best leather wide boot",
     "title": "Lowa Renegade GTX Wide",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/moab-3-wide",
@@ -2664,9 +4419,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "footwear · Best easy wide boot",
     "title": "Merrell Moab 3 Mid Wide",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/x-ultra-wide",
@@ -2677,9 +4444,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "footwear · Best quick wide mid",
     "title": "Salomon X Ultra Wide GTX",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/speedgoat",
@@ -2690,9 +4469,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "footwear · Best cushioned trail shoe",
     "title": "Hoka Speedgoat",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/helium",
@@ -2703,9 +4494,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "shells · Best packable rain shell",
     "title": "Outdoor Research Helium",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/rainier",
@@ -2716,9 +4519,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "shells · Best try-on trail shell",
     "title": "REI Co-op Rainier",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/precip",
@@ -2729,9 +4544,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "shells · Best recycled budget shell",
     "title": "Marmot PreCip Eco",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/stormline",
@@ -2742,9 +4569,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "shells · Best stretchy budget shell",
     "title": "Black Diamond StormLine",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/torrentshell",
@@ -2755,9 +4594,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "shells · Best everyday hardshell",
     "title": "Patagonia Torrentshell",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/windmaster",
@@ -2768,9 +4619,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "stoves · Best wind-aware canister stove",
     "title": "Soto WindMaster",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/pocketrocket",
@@ -2781,9 +4644,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "stoves · Best simple upright stove",
     "title": "MSR PocketRocket Deluxe",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/minimo",
@@ -2794,9 +4669,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "stoves · Best integrated cooker",
     "title": "Jetboil MiniMo",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/brs-3000",
@@ -2807,9 +4694,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "stoves · Best cheap backup stove",
     "title": "BRS-3000T",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/whisperlite",
@@ -2820,9 +4719,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "stoves · Best liquid-fuel option",
     "title": "MSR WhisperLite",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/coleman-2burner",
@@ -2833,9 +4744,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "stoves · Best car-camping stove",
     "title": "Coleman two-burner camp stove",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/actik-core",
@@ -2846,9 +4769,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "lighting · Best rechargeable default",
     "title": "Petzl Actik Core",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/spot-400",
@@ -2859,9 +4794,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "lighting · Best everyday settings",
     "title": "Black Diamond Spot 400-R",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/nu25",
@@ -2872,9 +4819,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "lighting · Best lightweight lamp",
     "title": "Nitecore NU25",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/biolite-330",
@@ -2885,9 +4844,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "lighting · Best rear light",
     "title": "BioLite HeadLamp 330",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/bindi",
@@ -2898,9 +4869,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "lighting · Best camp-only lamp",
     "title": "Petzl Bindi",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/sawyer-squeeze",
@@ -2911,9 +4894,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "water · Best default filter",
     "title": "Sawyer Squeeze",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/befree",
@@ -2924,9 +4919,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "water · Best fast sip filter",
     "title": "Katadyn BeFree",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/quickdraw",
@@ -2937,9 +4944,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "water · Best bottle-cap filter",
     "title": "Platypus QuickDraw",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/grayl",
@@ -2950,9 +4969,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "water · Best one-bottle purifier",
     "title": "Grayl GeoPress",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/trailshot",
@@ -2963,9 +4994,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "water · Best trickle filter",
     "title": "MSR TrailShot",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/magma-hoody",
@@ -2976,9 +5019,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "layers · Best default camp puffy",
     "title": "REI Co-op Magma Hooded Down",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/ghost-whisperer",
@@ -2989,9 +5044,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "layers · Best ultralight puffy",
     "title": "Mountain Hardwear Ghost Whisperer",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/nano-puff",
@@ -3002,9 +5069,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "layers · Best synthetic puffy",
     "title": "Patagonia Nano Puff",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/ascendant",
@@ -3015,9 +5094,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "layers · Best active insulation",
     "title": "Outdoor Research Ascendant",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/sun-hoodie",
@@ -3028,9 +5119,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "layers · Best sun layer",
     "title": "Outdoor Research Echo Sun Hoodie",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/bd-trail-ergo",
@@ -3041,9 +5144,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "poles · Best all-day pole",
     "title": "Black Diamond Trail Ergo",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/leki-makalu",
@@ -3054,9 +5169,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "poles · Best durable aluminum pole",
     "title": "LEKI Makalu",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/cmt-carbon",
@@ -3067,9 +5194,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "poles · Best budget carbon pole",
     "title": "Cascade Mountain Tech Carbon",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/bd-distance-carbon",
@@ -3080,9 +5219,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "poles · Best ultralight pole",
     "title": "Black Diamond Distance Carbon",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/helinox-chair",
@@ -3093,9 +5244,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "camp · Best packable camp chair",
     "title": "Helinox Chair One",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/lodge-skillet",
@@ -3106,9 +5269,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "camp · Best car-camp pan",
     "title": "Lodge cast-iron skillet",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/rotomold-cooler",
@@ -3119,9 +5294,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "camp · Best ice retention",
     "title": "Rotomolded cooler, 45 qt class",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/kelty-loveseat",
@@ -3132,9 +5319,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "camp · Best shared camp seat",
     "title": "Kelty Lowdown camp loveseat",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/rumpl",
@@ -3145,9 +5344,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "camp · Best camp blanket",
     "title": "Rumpl camp blanket",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/wash-bins",
@@ -3158,9 +5369,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "camp · Best camp chore tool",
     "title": "Collapsible wash bins, set of three",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/tenacious-tape",
@@ -3171,9 +5394,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "camp · Best repair insurance",
     "title": "Gear Aid Tenacious Tape",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/dry-bag",
@@ -3184,9 +5419,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "camp · Best cheap organization",
     "title": "10-liter dry bag",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/tiger-wall-ul2",
@@ -3197,9 +5444,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "tents · Lighter semi-freestanding tent",
     "title": "Big Agnes Tiger Wall UL2",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/nemo-hornet-2",
@@ -3210,9 +5469,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "tents · Lightest common semi-freestanding two-person",
     "title": "NEMO Hornet OSMO 2P",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/double-rainbow",
@@ -3223,9 +5494,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "tents · Roomy single-wall for two",
     "title": "Tarptent Double Rainbow",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/msr-elixir-2",
@@ -3236,9 +5519,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "tents · Solid first freestanding tent",
     "title": "MSR Elixir 2",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/rei-passage-2",
@@ -3249,9 +5544,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "tents · Budget freestanding starter",
     "title": "REI Co-op Passage 2",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/zpacks-duplex",
@@ -3262,9 +5569,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "tents · DCF trekking-pole tent",
     "title": "Zpacks Duplex",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/x-mid-1",
@@ -3275,9 +5594,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "tents · Best solo trekking-pole tent",
     "title": "Durston X-Mid 1",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/protrail",
@@ -3288,9 +5619,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "tents · Budget solo single-wall",
     "title": "Tarptent Protrail",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/magma-30",
@@ -3301,9 +5644,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "sleep · 30°F down mummy, widely available",
     "title": "REI Co-op Magma 30",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/enigma-20",
@@ -3314,9 +5669,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "sleep · Quilt for controlled sleepers",
     "title": "Enlightened Equipment Enigma 20",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/alpinlite",
@@ -3327,9 +5694,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "sleep · High-end narrow mummy",
     "title": "Western Mountaineering Alpinlite",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/kelty-cosmic-20",
@@ -3340,9 +5719,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "sleep · Budget down-style mummy",
     "title": "Kelty Cosmic 20",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/siesta-25",
@@ -3353,9 +5744,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "sleep · Synthetic bag for damp trips",
     "title": "REI Co-op Siesta 25",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/down-hugger",
@@ -3366,9 +5769,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "sleep · Stretch down mummy",
     "title": "Montbell Down Hugger 800 #3",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/trek-tk",
@@ -3379,9 +5794,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "sleep · Roomier down bag",
     "title": "Sea to Summit Trek TkII",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/summit-loft",
@@ -3392,9 +5819,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "sleep · Budget down quilt",
     "title": "Outdoor Vitals Summit Loft 20",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/xlite-wide",
@@ -3405,9 +5844,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "pads · Wide version of the default air pad",
     "title": "Therm-a-Rest NeoAir XLite NXT Wide",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/tensor-wide",
@@ -3418,9 +5869,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "pads · Quieter wide air pad",
     "title": "NEMO Tensor Wide",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/klymit-static",
@@ -3431,9 +5894,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "pads · Budget air pad for summer",
     "title": "Klymit Static V",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/comfort-plus",
@@ -3444,9 +5919,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "pads · Thick camp pad",
     "title": "Sea to Summit Comfort Plus",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/exped-dura",
@@ -3457,9 +5944,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "pads · Tougher insulated air pad",
     "title": "Exped Dura 5R",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/prolite",
@@ -3470,9 +5969,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "pads · Self-inflating classic",
     "title": "Therm-a-Rest ProLite",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/ula-circuit",
@@ -3483,9 +5994,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "packs · Simple framed pack",
     "title": "ULA Circuit",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/crown-60",
@@ -3496,9 +6019,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "packs · Light framed budget pack",
     "title": "Granite Gear Crown2 60",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/flash-55",
@@ -3509,9 +6044,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "packs · Value framed 55",
     "title": "REI Co-op Flash 55",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/mariposa",
@@ -3522,9 +6069,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "packs · Light framed UL pack",
     "title": "Gossamer Gear Mariposa",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/aura-65",
@@ -3535,9 +6094,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "packs · Women's anti-gravity carry",
     "title": "Osprey Aura AG 65",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/deva-60",
@@ -3548,9 +6119,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "packs · Women's supportive week pack",
     "title": "Gregory Deva 60",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/hmg-southwest",
@@ -3561,9 +6144,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "packs · Waterproof roll-top",
     "title": "Hyperlite Mountain Gear Southwest",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/aircontact",
@@ -3574,9 +6169,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "packs · Ventilated load hauler",
     "title": "Deuter Aircontact Core 60+10",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/topo-ultraventure",
@@ -3587,9 +6194,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "footwear · Wide-friendly trail shoe",
     "title": "Topo Athletic Ultraventure",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/ultra-raptor",
@@ -3600,9 +6219,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "footwear · Sticky, protective trail shoe",
     "title": "La Sportiva Ultra Raptor",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/oboz-bridger",
@@ -3613,9 +6244,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "footwear · Supportive leather-and-mesh boot",
     "title": "Oboz Bridger",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/trail-2650",
@@ -3626,9 +6269,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "footwear · Low-cut hiking shoe",
     "title": "Danner Trail 2650",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/quest-4",
@@ -3639,9 +6294,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "footwear · Secure mid boot",
     "title": "Salomon Quest 4",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/bedrock-cairn",
@@ -3652,9 +6319,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "footwear · Minimal camp sandal",
     "title": "Bedrock Cairn",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/or-foray",
@@ -3665,9 +6344,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "shells · Full-featured rain shell",
     "title": "Outdoor Research Foray",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/frogg-toggs",
@@ -3678,9 +6369,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "shells · Disposable-feeling emergency shell",
     "title": "Frogg Toggs Ultra-Lite",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/columbia-watertight",
@@ -3691,9 +6394,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "shells · Budget everyday rain jacket",
     "title": "Columbia Watertight II",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/versalite",
@@ -3704,9 +6419,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "shells · Very light rain shell",
     "title": "Montbell Versalite",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/jetboil-flash",
@@ -3717,9 +6444,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "stoves · Integrated boil system",
     "title": "Jetboil Flash",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/soto-amicus",
@@ -3730,9 +6469,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "stoves · Fine-control canister stove",
     "title": "Soto Amicus",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/msr-reactor",
@@ -3743,9 +6494,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "stoves · Windproof boil system",
     "title": "MSR Reactor",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/alcohol-stove",
@@ -3756,9 +6519,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "stoves · Tiny alcohol stove",
     "title": "TOAKS Titanium Alcohol Stove",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/bd-storm",
@@ -3769,9 +6544,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "lighting · Bright rechargeable lamp",
     "title": "Black Diamond Storm 500-R",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/princeton-remix",
@@ -3782,9 +6569,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "lighting · Simple AA headlamp",
     "title": "Princeton Tec Remix",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/luci-lantern",
@@ -3795,9 +6594,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "lighting · Inflatable solar lantern",
     "title": "MPOWERD Luci",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/aquamira",
@@ -3808,9 +6619,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "water · Chlorine dioxide drops",
     "title": "Aquamira Water Treatment",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/steripen",
@@ -3821,9 +6644,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "water · UV purifier",
     "title": "SteriPEN Ultra",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/cnoc-vesper",
@@ -3834,9 +6669,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "water · Dirty-water bag",
     "title": "CNOC Vecto or Vesper bag",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/nalgene-1l",
@@ -3847,9 +6694,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "water · Indestructible bottle",
     "title": "Nalgene Wide Mouth 1L",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/seeker-2l",
@@ -3860,9 +6719,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "water · Soft flask for storage",
     "title": "HydraPak Seeker 2L",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/r1-air",
@@ -3873,9 +6744,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "layers · Active insulation hoody",
     "title": "Patagonia R1 Air",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/rab-microlight",
@@ -3886,9 +6769,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "layers · Light down hoody",
     "title": "Rab Microlight Alpine",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/plasma-1000",
@@ -3899,9 +6794,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "layers · Ultra-light down jacket",
     "title": "Montbell Plasma 1000",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/trailmade-fleece",
@@ -3912,9 +6819,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "layers · Basic hiking fleece",
     "title": "REI Co-op Trailmade Fleece",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/atom-hoody",
@@ -3925,9 +6844,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "layers · Synthetic active-or-camp hoody",
     "title": "Arc'teryx Atom Hoody",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/cmt-aluminum",
@@ -3938,9 +6869,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "poles · Budget aluminum poles",
     "title": "Cascade Mountain Tech Aluminum Poles",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/komperdell-c3",
@@ -3951,9 +6894,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "poles · Mid-price carbon poles",
     "title": "Komperdell Carbon C3",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/kingdom-6",
@@ -3964,9 +6919,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "family · Tall family tent",
     "title": "REI Co-op Kingdom 6",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/sundome-4",
@@ -3977,9 +6944,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "family · Budget cabin-ish tent",
     "title": "Coleman Sundome 4",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/kindercone",
@@ -3990,9 +6969,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "family · Kids' mummy",
     "title": "REI Co-op Kindercone",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/tikkid",
@@ -4003,9 +6994,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "family · Kid headlamp",
     "title": "Petzl Tikkid",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/tarn-18",
@@ -4016,9 +7019,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "family · Kids' day pack",
     "title": "REI Co-op Tarn 18",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/eno-doublenest",
@@ -4029,9 +7044,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "hammocks · Starter gathered-end hammock",
     "title": "ENO DoubleNest",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/blackbird-xlc",
@@ -4042,9 +7069,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "hammocks · Dedicated camping hammock",
     "title": "Warbonnet Blackbird XLC",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/dutchware-chameleon",
@@ -4055,9 +7094,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "hammocks · Modular hammock",
     "title": "Dutchware Chameleon",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/hummingbird",
@@ -4068,9 +7119,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "hammocks · Ultralight hammock",
     "title": "Hummingbird Hammocks Single+",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/mongoose",
@@ -4081,9 +7144,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "hammocks · Bridge hammock",
     "title": "Kammok Mongoose",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/hg-econ",
@@ -4094,9 +7169,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "hammocks · Budget underquilt",
     "title": "Hammock Gear Econ Underquilt",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/atlas-straps",
@@ -4107,9 +7194,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "hammocks · Wide tree straps",
     "title": "ENO Atlas Straps",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/superfly",
@@ -4120,9 +7219,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "hammocks · Hammock tarp with doors",
     "title": "Warbonnet SuperFly",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/darn-tough-hiker",
@@ -4133,9 +7244,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "socks · Default hiking sock",
     "title": "Darn Tough Hiker Micro Crew",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/injinji-liner",
@@ -4146,9 +7269,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "socks · Toe-sock liner",
     "title": "Injinji Liner Crew",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/smartwool-hike",
@@ -4159,9 +7294,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "socks · Merino hiking sock",
     "title": "Smartwool Hike Classic",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/darn-tough-light",
@@ -4172,9 +7319,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "socks · Thin hiking sock",
     "title": "Darn Tough Light Hiker",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/sealskinz",
@@ -4185,9 +7344,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "socks · Waterproof sock",
     "title": "Sealskinz Waterproof Sock",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/capilene-cool",
@@ -4198,9 +7369,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "base · Synthetic hiking tee",
     "title": "Patagonia Capilene Cool Daily",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/icebreaker-175",
@@ -4211,9 +7394,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "base · Merino base tee",
     "title": "Icebreaker 175 Oasis",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/rei-merino-185",
@@ -4224,9 +7419,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "base · Value merino base",
     "title": "REI Co-op Merino 185",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/echo-hoodie",
@@ -4237,9 +7444,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "base · Sun hoodie",
     "title": "Outdoor Research Echo Hoody",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/capilene-thermal",
@@ -4250,9 +7469,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "base · Winter-weight base",
     "title": "Patagonia Capilene Thermal Weight",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/amk-ul-5",
@@ -4263,9 +7494,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "aid · Starter first-aid kit",
     "title": "Adventure Medical Kits Ultralight/Watertight .5",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/amk-mountain",
@@ -4276,9 +7519,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "aid · Group first-aid kit",
     "title": "Adventure Medical Kits Mountain Series",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/leukotape",
@@ -4289,9 +7544,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "aid · Blister tape",
     "title": "Leukotape P",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/sam-splint",
@@ -4302,9 +7569,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "aid · Malleable splint",
     "title": "SAM Splint",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/nitrile-gloves",
@@ -4315,9 +7594,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "aid · Disposable gloves",
     "title": "Nitrile gloves, pair in a bag",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/nuun",
@@ -4328,9 +7619,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "aid · Electrolyte tablets",
     "title": "Nuun Sport tablets",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/suunto-m3",
@@ -4341,9 +7644,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "nav · Baseplate compass",
     "title": "Suunto M-3 Compass",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/inreach-mini",
@@ -4354,9 +7669,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "nav · Satellite messenger",
     "title": "Garmin inReach Mini 2",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/etrex",
@@ -4367,9 +7694,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "nav · Handheld GPS",
     "title": "Garmin eTrex 22x or 32x",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/trails-illustrated",
@@ -4380,9 +7719,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "nav · Waterproof paper map",
     "title": "National Geographic Trails Illustrated map",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/whistle",
@@ -4393,9 +7744,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "nav · Signaling whistle",
     "title": "Pealess whistle",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/toaks-750",
@@ -4406,9 +7769,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "cook · Solo titanium pot",
     "title": "TOAKS Titanium 750ml Pot",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/titan-kettle",
@@ -4419,9 +7794,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "cook · Tough solo pot",
     "title": "MSR Titan Kettle",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/halulite",
@@ -4432,9 +7819,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "cook · Aluminum pot for two",
     "title": "GSI Halulite Boiler",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/long-spoon",
@@ -4445,9 +7844,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "cook · Long spoon",
     "title": "Long-handled camping spoon",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/bv500",
@@ -4458,9 +7869,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "cook · Clear bear canister",
     "title": "BearVault BV500",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/ursack-major",
@@ -4471,9 +7894,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "cook · Soft bear-resistant bag",
     "title": "Ursack Major",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/opsak",
@@ -4484,9 +7919,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "cook · Odor-barrier bag",
     "title": "OPSAK odor bag",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/microspikes",
@@ -4497,9 +7944,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "traction · Default microspikes",
     "title": "Kahtoola MICROspikes",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/hillsound",
@@ -4510,9 +7969,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "traction · Aggressive trail spikes",
     "title": "Hillsound Trail Crampon",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/crocodile",
@@ -4523,9 +7994,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "traction · Tall hiking gaiters",
     "title": "Outdoor Research Crocodile Gaiters",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/yaktrax",
@@ -4536,9 +8019,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "traction · Coil traction",
     "title": "Yaktrax Run",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/msr-snowshoe",
@@ -4549,9 +8044,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "traction · Recreational snowshoes",
     "title": "MSR Evo Ascent",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/aeros-pillow",
@@ -4562,9 +8069,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "camp · Inflatable pillow",
     "title": "Sea to Summit Aeros Pillow",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/deuce",
@@ -4575,9 +8094,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "camp · Titanium trowel",
     "title": "TheTentLab Deuce of Spades",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/camp-clog",
@@ -4588,9 +8119,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "camp · Camp clog",
     "title": "Classic clog, camp shoe",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/nb10000",
@@ -4601,9 +8144,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "camp · Power bank",
     "title": "Nitecore NB10000",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/groundhog",
@@ -4614,9 +8169,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "camp · Y-stake",
     "title": "MSR Groundhog Stakes",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/liteflex",
@@ -4627,9 +8194,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "camp · Hiking umbrella",
     "title": "Gossamer Gear Liteflex Umbrella",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/head-net",
@@ -4640,9 +8219,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "camp · Head net",
     "title": "Bug head net",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/neck-gaiter",
@@ -4653,9 +8244,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "camp · Neck gaiter",
     "title": "Merino neck gaiter",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/camp-table",
@@ -4666,9 +8269,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "camp · Roll-top camp table",
     "title": "ALPS Mountaineering Dining Table",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/camp-cot",
@@ -4679,9 +8294,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "camp · Folding cot",
     "title": "REI Co-op Camp Cot",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/products/percolator",
@@ -4692,9 +8319,21 @@ export const IMAGES: TkImageMeta[] = [
     "hub": "products",
     "label": "camp · Stove-top percolator",
     "title": "GSI Enamel Coffee Percolator",
-    "ready": false,
-    "srcset": false,
-    "widths": []
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
   },
   {
     "route": "/inline/tents-freestanding-vs-pole",
@@ -4707,7 +8346,9 @@ export const IMAGES: TkImageMeta[] = [
     "title": "tents-freestanding-vs-pole",
     "ready": false,
     "srcset": false,
-    "widths": []
+    "widths": [],
+    "money": false,
+    "moneyWidths": []
   },
   {
     "route": "/inline/tents-vestibule-rain",
@@ -4720,7 +8361,9 @@ export const IMAGES: TkImageMeta[] = [
     "title": "tents-vestibule-rain",
     "ready": false,
     "srcset": false,
-    "widths": []
+    "widths": [],
+    "money": false,
+    "moneyWidths": []
   },
   {
     "route": "/inline/boots-toebox-topdown",
@@ -4733,7 +8376,9 @@ export const IMAGES: TkImageMeta[] = [
     "title": "boots-toebox-topdown",
     "ready": false,
     "srcset": false,
-    "widths": []
+    "widths": [],
+    "money": false,
+    "moneyWidths": []
   },
   {
     "route": "/inline/boots-lacing-heel",
@@ -4746,7 +8391,9 @@ export const IMAGES: TkImageMeta[] = [
     "title": "boots-lacing-heel",
     "ready": false,
     "srcset": false,
-    "widths": []
+    "widths": [],
+    "money": false,
+    "moneyWidths": []
   },
   {
     "route": "/inline/rain-pitzip-open",
@@ -4759,7 +8406,9 @@ export const IMAGES: TkImageMeta[] = [
     "title": "rain-pitzip-open",
     "ready": false,
     "srcset": false,
-    "widths": []
+    "widths": [],
+    "money": false,
+    "moneyWidths": []
   },
   {
     "route": "/inline/rain-hood-brim",
@@ -4772,7 +8421,9 @@ export const IMAGES: TkImageMeta[] = [
     "title": "rain-hood-brim",
     "ready": false,
     "srcset": false,
-    "widths": []
+    "widths": [],
+    "money": false,
+    "moneyWidths": []
   },
   {
     "route": "/inline/overnight-camp-dusk",
@@ -4785,7 +8436,9 @@ export const IMAGES: TkImageMeta[] = [
     "title": "overnight-camp-dusk",
     "ready": false,
     "srcset": false,
-    "widths": []
+    "widths": [],
+    "money": false,
+    "moneyWidths": []
   },
   {
     "route": "/inline/overnight-kitchen-rock",
@@ -4798,7 +8451,9 @@ export const IMAGES: TkImageMeta[] = [
     "title": "overnight-kitchen-rock",
     "ready": false,
     "srcset": false,
-    "widths": []
+    "widths": [],
+    "money": false,
+    "moneyWidths": []
   },
   {
     "route": "/inline/pack-mesh-back-detail",
@@ -4811,7 +8466,9 @@ export const IMAGES: TkImageMeta[] = [
     "title": "pack-mesh-back-detail",
     "ready": false,
     "srcset": false,
-    "widths": []
+    "widths": [],
+    "money": false,
+    "moneyWidths": []
   },
   {
     "route": "/inline/pack-lid-pockets-detail",
@@ -4824,7 +8481,9 @@ export const IMAGES: TkImageMeta[] = [
     "title": "pack-lid-pockets-detail",
     "ready": false,
     "srcset": false,
-    "widths": []
+    "widths": [],
+    "money": false,
+    "moneyWidths": []
   }
 ];
 

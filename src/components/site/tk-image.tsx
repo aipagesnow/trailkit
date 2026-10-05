@@ -40,6 +40,7 @@ export function TkImage({
   fill = false,
   sizes = "(min-width: 1024px) 33vw, 100vw",
   className = "",
+  tone = "field",
 }: {
   route?: string;
   meta?: TkImageMeta;
@@ -47,6 +48,7 @@ export function TkImage({
   fill?: boolean;
   sizes?: string;
   className?: string;
+  tone?: "field" | "money";
 }) {
   const image = meta ?? (route ? imageFor(route) : undefined);
   if (!image?.ready) {
@@ -58,15 +60,17 @@ export function TkImage({
       />
     );
   }
-  const widths = image.widths?.length ? image.widths : WIDTHS;
-  const avif = widths.map((w) => `${image.base}-${w}.avif ${w}w`).join(", ");
-  const webp = widths.map((w) => `${image.base}-${w}.webp ${w}w`).join(", ");
+  const useMoney = tone === "money" && Boolean(image.money) && (image.moneyWidths?.length ?? 0) > 0;
+  const base = useMoney ? `${image.base}-money` : image.base;
+  const widths = useMoney ? image.moneyWidths : image.widths?.length ? image.widths : WIDTHS;
+  const avif = widths.map((w) => `${base}-${w}.avif ${w}w`).join(", ");
+  const webp = widths.map((w) => `${base}-${w}.webp ${w}w`).join(", ");
   return (
     <picture className={fill ? `absolute inset-0 block h-full w-full ${className}` : `relative block w-full ${className}`} style={fill ? undefined : { aspectRatio: image.aspect.replace("/", " / ") }}>
       {image.srcset ? <source type="image/avif" srcSet={avif} sizes={sizes} /> : null}
       {image.srcset ? <source type="image/webp" srcSet={webp} sizes={sizes} /> : null}
       <img
-        src={`${image.base}.jpg`}
+        src={`${base}.jpg`}
         alt={image.alt}
         width={1600}
         height={ratioHeight(image.aspect)}

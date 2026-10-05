@@ -304,10 +304,10 @@ export function GearCard({
   );
 }
 
-export function Thumb({ route, className = "size-12" }: { route: string; className?: string }) {
+export function Thumb({ route, className = "size-12", tone = "field" }: { route: string; className?: string; tone?: "field" | "money" }) {
   return (
     <span className={`relative block shrink-0 overflow-hidden border border-line ${className}`}>
-      <TkImage route={route} fill sizes="48px" />
+      <TkImage route={route} fill sizes="48px" tone={tone} />
     </span>
   );
 }

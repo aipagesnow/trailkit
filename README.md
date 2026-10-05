@@ -46,13 +46,13 @@ Roundups (`/best/$slug`), comparisons, kits, field notes, and products follow th
 
 ## Images
 
-Every hub card and hero reads `src/data/images.ts` (generated). Missing files render a dark topo placeholder, so the site still looks intentional before a photo exists. Coverage right now: all 8 hub bands and all 37 roundup cards have graded masters. Compares, kits, guides, categories, notes, and products are still mostly placeholders; the missing slugs are listed in `IMAGES-TODO.md`.
+Every hub card and hero reads `src/data/images.ts` (generated). Missing files render a dark topo placeholder. Coverage is tracked in `IMAGES-TODO.md`.
 
 Card meta is not typed by hand. A roundup card counts its picks, reads the updated date, and names the #1 pick. A kit card only shows trip chips the kit text already states, plus four manifest lines from its picks. A versus card’s “decides on” line is the first comparison row. A category tile counts real products and roundups. A gear card shows “On Amazon” only when `src/data/asins.ts` has a verified ASIN.
 
-1. Drop a master JPEG at `images-src/<hub>/<slug>.jpg`, matching the path in `IMAGE-MANIFEST.json` (for example `images-src/best/ultralight-tents.jpg` → `/images/best/ultralight-tents.jpg`).
-2. Grade it: `node scripts/grade-images.mjs`. That writes AVIF and WebP at 480, 800, 1200, and 1600 plus a JPEG fallback under `public/images/`, with the field-grade look (cooler, less saturated).
+1. Drop a master JPEG at `images-src/` matching the path in `IMAGE-MANIFEST.json` (for example `images-src/best/ultralight-tents.jpg` → `/images/best/ultralight-tents.jpg`).
+2. Grade it: `node scripts/grade-images.mjs --missing`. That writes two bakes under `public/images/`: a field grade (`<slug>-<w>.avif/.webp` and `<slug>.jpg`, cooler and less saturated, used on hubs) and a money grade (`<slug>-money-<w>` and `<slug>-money.jpg`, a bit more chroma and slightly warmer, used on roundup, compare, kit, and product pages). Widths are 480, 800, 1200, and 1600. `--missing` skips files that already have a card.
 3. Refresh the map: `node scripts/gen-images.mjs`.
-4. Rebuild Open Graph cards: `node scripts/og-cards.mjs` (also runs in `prebuild`).
+4. Rebuild Open Graph cards: `node scripts/og-cards.mjs` (also runs in `prebuild`). OG cards stay on the field-grade JPEG.
 
-Budgets: card AVIF at 800w stays at or under 45 KB; a hero at 1600w stays at or under 120 KB. Hubs load the first card row eager and the rest lazy. Do not hotlink Amazon CDN packshots, and do not add logos, readable text, faces, or orange props.
+Budgets: card AVIF at 800w stays at or under 45 KB; a hero at 1600w stays at or under 120 KB. Hubs load the first card row eager and the rest lazy. Money pages request the money bake via `TkImage tone="money"` and fall back to the field bake if that file is missing. Do not hotlink Amazon CDN packshots, and do not add logos, readable text, faces, or orange props.

@@ -76,7 +76,7 @@ function RoundupPage() {
         />
         <Crumbs items={[{ href: "/best", label: "Roundups" }, { label: page.h1 }]} />
         <div className="relative aspect-video overflow-hidden border border-line">
-          <TkImage route={`/best/${page.slug}`} priority fill sizes="(min-width: 1024px) 70vw, 100vw" />
+          <TkImage route={`/best/${page.slug}`} priority fill sizes="(min-width: 1024px) 70vw, 100vw" tone="money" />
         </div>
         <p className="font-mono text-[11px] tracking-widest uppercase">{page.kicker}</p>
         <h1 className="text-4xl">{page.h1}</h1>
@@ -105,7 +105,7 @@ function RoundupPage() {
         </section>
         <section className="space-y-4">
           <h2 className="text-3xl">The picks</h2>
-          {picks.map((p, i) => <ProductSection key={p.slug} product={p} index={i + 1} />)}
+          {picks.map((p, i) => <ProductSection key={p.slug} product={p} index={i + 1} tone="money" />)}
         </section>
         <section id="one" className="border-2 border-ink bg-paper p-4">
           <h2 className="text-3xl">If you only buy one</h2>

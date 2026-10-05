@@ -5,7 +5,7 @@ import path from "node:path";
 const manifest = JSON.parse(readFileSync(new URL("../IMAGE-MANIFEST.json", import.meta.url), "utf8"));
 
 function aspect(raw) {
-  const match = String(raw).match(/(\d+)\s*:\s*(\d+)/);
+  const match = String(raw).match(/(\d+)\s*[:/]\s*(\d+)/);
   return match ? `${match[1]}/${match[2]}` : "4/3";
 }
 
@@ -17,38 +17,44 @@ function readyFor(publicPath) {
   return [480, 800, 1200, 1600].some((w) => existsSync(`${base}-${w}.avif`) || existsSync(`${base}-${w}.webp`));
 }
 
-function widthsFor(publicPath) {
+function widthsFor(publicPath, infix = "") {
   const rel = publicPath.replace(/^\//, "").replace(/\.(jpe?g|png|webp)$/i, "");
-  return [480, 800, 1200, 1600].filter((w) => existsSync(path.join("public", `${rel}-${w}.avif`)));
+  return [480, 800, 1200, 1600].filter((w) => existsSync(path.join("public", `${rel}${infix}-${w}.avif`)));
 }
 
-const cards = manifest.cards.map((card) => ({
-  route: card.route,
-  base: card.image.replace(/\.(jpe?g|png|webp)$/i, ""),
-  alt: card.alt,
-  aspect: aspect(card.aspect_master),
-  focal: card.hub === "hub-hero" ? "32% center" : "center 40%",
-  hub: card.hub,
-  label: card.label,
-  title: card.card_title,
-  ready: readyFor(card.image),
-  srcset: widthsFor(card.image).length > 0,
-  widths: widthsFor(card.image),
-}));
+function cardMeta(card) {
+  const widths = widthsFor(card.image);
+  const moneyWidths = widthsFor(card.image, "-money");
+  return {
+    route: card.route,
+    base: card.image.replace(/\.(jpe?g|png|webp)$/i, ""),
+    alt: card.alt,
+    aspect: aspect(card.aspect_master),
+    focal: card.focal ?? (card.hub === "hub-hero" ? "32% center" : card.route === "/" ? "center 45%" : "center 40%"),
+    hub: card.hub,
+    label: card.label,
+    title: card.card_title,
+    ready: readyFor(card.image),
+    srcset: widths.length > 0,
+    widths,
+    money: moneyWidths.length > 0,
+    moneyWidths,
+  };
+}
 
-cards.unshift({
-  route: "/",
-  base: "/images/home-hero",
-  alt: "Overcast forest switchbacks and damp rock, with no gear logos",
-  aspect: "16/9",
-  focal: "center 45%",
-  hub: "home",
-  label: "Home",
-  title: "Home",
-  ready: readyFor("/images/home-hero.jpg"),
-  srcset: widthsFor("/images/home-hero.jpg").length > 0,
-  widths: widthsFor("/images/home-hero.jpg"),
-});
+const cards = manifest.cards.map(cardMeta);
+
+cards.unshift(
+  cardMeta({
+    route: "/",
+    image: "/images/home-hero.jpg",
+    alt: "Overcast forest switchbacks and damp rock, with no gear logos",
+    aspect_master: "16:9",
+    hub: "home",
+    label: "Home",
+    card_title: "Home",
+  }),
+);
 
 const extras = [
   ["tents-freestanding-vs-pole", "16/9", "A freestanding dome tent on a wooden platform beside a trekking-pole shelter on dirt, same forest light"],
@@ -65,17 +71,16 @@ const extras = [
 for (const [slug, aspect, alt] of extras) {
   const image = `/images/inline/${slug}.jpg`;
   cards.push({
-    route: `/inline/${slug}`,
-    base: image.replace(/\.(jpe?g|png|webp)$/i, ""),
-    alt,
-    aspect: aspect.replace(":", "/"),
+    ...cardMeta({
+      route: `/inline/${slug}`,
+      image,
+      alt,
+      aspect_master: aspect,
+      hub: "inline",
+      label: "Figure",
+      card_title: slug,
+    }),
     focal: "center 40%",
-    hub: "inline",
-    label: "Figure",
-    title: slug,
-    ready: readyFor(image),
-    srcset: widthsFor(image).length > 0,
-    widths: widthsFor(image),
   });
 }
 
@@ -92,6 +97,8 @@ export type TkImageMeta = {
   ready: boolean;
   srcset: boolean;
   widths: number[];
+  money: boolean;
+  moneyWidths: number[];
 };
 
 export const IMAGES: TkImageMeta[] = ${JSON.stringify(cards, null, 2)};

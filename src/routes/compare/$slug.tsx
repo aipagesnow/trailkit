@@ -64,7 +64,7 @@ function ComparePage() {
       />
       <Crumbs items={[{ href: "/compare", label: "Compare" }, { label: page.h1 }]} />
       <div className="relative aspect-video overflow-hidden border border-line">
-        <TkImage route={`/compare/${page.slug}`} priority fill sizes="100vw" />
+        <TkImage route={`/compare/${page.slug}`} priority fill sizes="100vw" tone="money" />
         <span className="absolute inset-y-0 left-1/2 w-[3px] -translate-x-1/2 bg-paper" aria-hidden />
         <span className="absolute top-1/2 left-1/2 grid size-[46px] -translate-x-1/2 -translate-y-1/2 place-items-center border-2 border-ink bg-paper font-display text-sm">VS</span>
       </div>
@@ -79,7 +79,7 @@ function ComparePage() {
         {[left, right].map((p) => (
           <article key={p.slug} className="grid grid-cols-[120px_1fr] gap-3 border border-line p-3">
             <div className="relative aspect-[4/3] overflow-hidden">
-              <TkImage route={`/products/${p.slug}`} fill sizes="120px" />
+              <TkImage route={`/products/${p.slug}`} fill sizes="120px" tone="money" />
             </div>
             <div>
               <h2 className="text-xl"><a href={`/products/${p.slug}`}>{p.name}</a></h2>

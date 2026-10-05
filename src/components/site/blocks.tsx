@@ -72,7 +72,7 @@ export function CompareTable({ products }: { products: Product[] }) {
               <tr key={p.slug} className={index % 2 ? "border-t border-line bg-spec" : "border-t border-line"}>
                 <td className="sticky left-0 bg-paper px-3 py-2">
                   <span className="flex items-center gap-2">
-                    <Thumb route={`/products/${p.slug}`} />
+                    <Thumb route={`/products/${p.slug}`} tone="money" />
                     <Link to="/products/$slug" params={{ slug: p.slug }} className="font-bold text-ink">{p.name}</Link>
                   </span>
                 </td>
@@ -90,13 +90,13 @@ export function CompareTable({ products }: { products: Product[] }) {
   );
 }
 
-export function ProductSection({ product, index }: { product: Product; index: number }) {
+export function ProductSection({ product, index, tone = "field" }: { product: Product; index: number; tone?: "field" | "money" }) {
   const top = index === 1;
   return (
     <section id={product.slug} className="border border-line bg-paper p-4">
       <div className="grid gap-4 md:grid-cols-[280px_1fr]">
         <div className="relative aspect-[4/3] overflow-hidden border border-line">
-          <TkImage route={`/products/${product.slug}`} fill sizes="280px" />
+          <TkImage route={`/products/${product.slug}`} fill sizes="280px" tone={tone} />
           <span className={`absolute top-2 left-2 inline-flex size-8 items-center justify-center border font-display text-sm font-bold ${top ? "border-blaze bg-blaze text-on-amber" : "border-ink bg-paper text-ink"}`}>
             {index}
           </span>
