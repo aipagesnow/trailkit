@@ -1,0 +1,3 @@
+- Trailkit SEO affiliate site lives in the project folder: static HTML, css/site.css, js/site.js, site.config.json, generate.py, CONTENT-CHECKLIST.md [2026-10-05]
+- Amazon tag and brand are set in site.config.json and js/site.js; regenerate with python3 generate.py after config edits [2026-10-05]
+- Seed URLs: /best/backpacking-tents/, sleeping bags, wide-feet boots, stoves, rain jackets under $150, headlamps, budget under $50; /guides/ ultralight shelter, car kitchen, packing list, sleeping pad; /compare/osprey-vs-gregory-backpack/ [2026-10-05]
