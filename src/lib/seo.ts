@@ -1,21 +1,13 @@
 import { absoluteUrl, pageTitle } from "@/lib/affiliate";
+import { imageFor, ogCardPath } from "@/data/images";
 
-const HERO: Record<string, string> = {
-  "backpacking-tents": "/images/best-tents-hero.jpg",
-  "hiking-boots-wide-feet": "/images/best-wide-boots.jpg",
-  "rain-jackets-under-150": "/images/best-rain-under-150.jpg",
-  "first-overnight": "/images/guides-first-overnight.jpg",
-  "osprey-vs-gregory": "/images/compare-osprey-gregory.jpg",
-};
-
-export function heroSrc(slug?: string) {
-  if (!slug) return undefined;
-  return HERO[slug];
+export function heroFor(path: string) {
+  return imageFor(path);
 }
 
 export function pageHead(opts: { title: string; description: string; path: string; image?: string }) {
   const title = pageTitle(opts.title);
-  const image = absoluteUrl(opts.image ?? "/images/og-default.jpg");
+  const image = absoluteUrl(opts.image ?? ogCardPath(opts.path));
   const url = absoluteUrl(opts.path);
   const meta: { title?: string; name?: string; property?: string; content?: string }[] = [
     { title },
@@ -25,6 +17,8 @@ export function pageHead(opts: { title: string; description: string; path: strin
     { property: "og:type", content: "website" },
     { property: "og:url", content: url },
     { property: "og:image", content: image },
+    { property: "og:image:width", content: "1200" },
+    { property: "og:image:height", content: "630" },
     { name: "twitter:card", content: "summary_large_image" },
     { name: "twitter:title", content: title },
     { name: "twitter:description", content: opts.description },

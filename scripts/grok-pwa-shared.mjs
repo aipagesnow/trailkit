@@ -345,21 +345,34 @@ export function grokOgHeadTags({
   site = {},
   documentTitle = "",
   cwd = process.cwd(),
+  pageDescription = "",
+  pageImage = "",
+  pageUrl = "",
 } = {}) {
-  const title = resolveOgTitle(site, appName, host, documentTitle);
+  const fromDoc = String(documentTitle ?? "").trim();
+  const title = fromDoc || resolveOgTitle(site, appName, host, "");
   const publicHost = resolvePublicHost(host);
   const tags = [
     `<meta name="twitter:card" content="summary_large_image">`,
     `<meta property="og:title" content="${escapeHtml(title)}">`,
+    `<meta name="twitter:title" content="${escapeHtml(title)}">`,
   ];
-  const description = String(site.description ?? "").trim();
+  const description = String(pageDescription || site.description || "").trim();
   if (description) {
     tags.push(`<meta property="og:description" content="${escapeHtml(description)}">`);
+    tags.push(`<meta name="twitter:description" content="${escapeHtml(description)}">`);
   }
+  if (pageUrl) tags.push(`<meta property="og:url" content="${escapeHtml(pageUrl)}">`);
   if (String(site.type ?? "").toLowerCase() === "x:game") {
     tags.push(`<meta property="og:type" content="x:game">`);
   }
-  if (publicHost) {
+  const absolutePageImage = /^https?:\/\//i.test(String(pageImage)) ? String(pageImage) : "";
+  if (absolutePageImage) {
+    tags.push(`<meta property="og:image" content="${escapeHtml(absolutePageImage)}">`);
+    tags.push(`<meta property="og:image:width" content="1200">`);
+    tags.push(`<meta property="og:image:height" content="630">`);
+    tags.push(`<meta name="twitter:image" content="${escapeHtml(absolutePageImage)}">`);
+  } else if (publicHost) {
     const asset = resolveOgCardAsset(site, cwd);
     const custom = Boolean(asset);
     let image = custom
@@ -379,6 +392,15 @@ export function grokOgHeadTags({
     }
   }
   return tags;
+}
+
+function metaContent(html, attr, key) {
+  const re = new RegExp(
+    `<meta\\b(?=[^>]*\\b${attr}\\s*=\\s*["']${key}["'])(?=[^>]*\\bcontent\\s*=\\s*["']([^"']*)["'])[^>]*>`,
+    "i",
+  );
+  const match = String(html).match(re);
+  return match ? unescapeHtml(match[1]) : "";
 }
 
 function stripGrokExtensionsScript(html) {
@@ -439,6 +461,10 @@ export function injectGrokPwaHead(html, ctx = {}) {
   if (typeof html !== "string") return html;
   const { site, projectId, creator, creatorId, host, cwd } = normalizeHeadContext(ctx);
   const documentTitle = titleFromDocument(html);
+  const pageDescription = metaContent(html, "name", "description");
+  const pageImage = metaContent(html, "property", "og:image");
+  const canon = String(html).match(/<link\b[^>]*rel=["']canonical["'][^>]*>/i);
+  const pageUrl = canon ? (canon[0].match(/\bhref=["']([^"']+)["']/i)?.[1] ?? "") : "";
   const appName = resolveOgTitle(
     site,
     ctx.appName ?? DEFAULT_APP_NAME,
@@ -458,7 +484,7 @@ export function injectGrokPwaHead(html, ctx = {}) {
 
   next = insertAfterHeadOpen(
     next,
-    grokOgHeadTags({ host, appName, site, documentTitle, cwd }).join(""),
+    grokOgHeadTags({ host, appName, site, documentTitle, cwd, pageDescription, pageImage, pageUrl }).join(""),
   );
 
   if (readGrokExtensionsEnabled() && !next.includes("/grok-app-builder/extensions.js")) {

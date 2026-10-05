@@ -2,6 +2,8 @@ import { Link } from "@tanstack/react-router";
 import { amazonUrl, DISCLOSURE, DISCLOSURE_SHORT, UPDATED } from "@/lib/affiliate";
 import type { Faq, Product } from "@/data/types";
 import type { LinkItem } from "@/data";
+import { Thumb } from "@/components/site/cards";
+import { TkImage } from "@/components/site/tk-image";
 
 export function Crumbs({ items }: { items: { href?: string; label: string }[] }) {
   return (
@@ -69,7 +71,10 @@ export function CompareTable({ products }: { products: Product[] }) {
             {products.map((p, index) => (
               <tr key={p.slug} className={index % 2 ? "border-t border-line bg-spec" : "border-t border-line"}>
                 <td className="sticky left-0 bg-paper px-3 py-2">
-                  <Link to="/products/$slug" params={{ slug: p.slug }} className="font-bold text-forest">{p.name}</Link>
+                  <span className="flex items-center gap-2">
+                    <Thumb route={`/products/${p.slug}`} />
+                    <Link to="/products/$slug" params={{ slug: p.slug }} className="font-bold text-ink">{p.name}</Link>
+                  </span>
                 </td>
                 <td className="px-3 py-2">{p.priceBand}</td>
                 <td className="px-3 py-2 font-mono text-xs">{p.weight}</td>
@@ -89,19 +94,22 @@ export function ProductSection({ product, index }: { product: Product; index: nu
   const top = index === 1;
   return (
     <section id={product.slug} className="border border-line bg-paper p-4">
-      <div className="flex items-start gap-3">
-        <span className={`inline-flex size-8 shrink-0 items-center justify-center border font-display text-sm font-bold ${top ? "border-blaze bg-blaze text-on-amber" : "border-ink text-ink"}`}>
-          {index}
-        </span>
+      <div className="grid gap-4 md:grid-cols-[280px_1fr]">
+        <div className="relative aspect-[4/3] overflow-hidden border border-line">
+          <TkImage route={`/products/${product.slug}`} fill sizes="280px" />
+          <span className={`absolute top-2 left-2 inline-flex size-8 items-center justify-center border font-display text-sm font-bold ${top ? "border-blaze bg-blaze text-on-amber" : "border-ink bg-paper text-ink"}`}>
+            {index}
+          </span>
+        </div>
         <div>
-          <p className="font-display text-xs tracking-widest text-ink uppercase">{product.role}</p>
+          <p className="font-mono text-[11px] tracking-widest uppercase">{product.role}</p>
           <h3 className="mt-1 text-2xl">
             <a href={`/products/${product.slug}`} className="text-ink">{product.name}</a>
           </h3>
+          <p className="mt-3 max-w-3xl">{product.body}</p>
+          <p className="mt-2 max-w-3xl"><span className="font-bold">Who should buy it. </span>{product.who}</p>
         </div>
       </div>
-      <p className="mt-3 max-w-3xl">{product.body}</p>
-      <p className="mt-2 max-w-3xl"><span className="font-bold">Who should buy it. </span>{product.who}</p>
       <div className="mt-3 grid gap-3 sm:grid-cols-2">
         <div className="border border-line bg-spec p-3">
           <h4 className="font-display text-sm tracking-wide uppercase">Pros</h4>

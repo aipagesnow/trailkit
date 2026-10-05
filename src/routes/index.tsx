@@ -1,6 +1,8 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
-import { categories, guides, kits, notes, roundups } from "@/data";
-import { CardGrid, Disclosure } from "@/components/site/blocks";
+import { categories, getCompare, getGuide, getKit, getNote, getRoundup, products, roundups } from "@/data";
+import { CategoryTile, FieldCard, GuideCard, HowWePick, KitCard, NotePlate, VersusCard } from "@/components/site/cards";
+import { Disclosure } from "@/components/site/blocks";
+import { TkImage } from "@/components/site/tk-image";
 import { pageHead } from "@/lib/seo";
 
 const chips = [
@@ -19,27 +21,31 @@ export const Route = createFileRoute("/")({
       description:
         "Trailkit picks tents, pads, packs, boots, stoves, and shells for a real constraint: budget, weight, weather, width, or a first night out.",
       path: "/",
-      image: "/images/home-hero.jpg",
     }),
   component: Home,
 });
 
+function takeRoundup(slug: string) {
+  return getRoundup(slug);
+}
+
 function Home() {
   const navigate = useNavigate();
+  const featured = takeRoundup("backpacking-tents");
+  const stacked = ["hiking-boots-wide-feet", "rain-jackets-under-150"].map(takeRoundup).filter((r) => r != null);
+  const row = ["backpacking-packs", "sleeping-pads"].map(takeRoundup).filter((r) => r != null);
+  const overnight = getGuide("first-overnight");
+  const compares = ["osprey-vs-gregory", "copper-spur-vs-x-mid", "xlite-vs-tensor"].map((slug) => getCompare(slug)).filter((c) => c != null);
+  const kits = ["fair-weekend", "day-hike"].map((slug) => getKit(slug)).filter((k) => k != null);
+  const guides = ["choose-a-pad", "layering", "boot-fit"].map((slug) => getGuide(slug)).filter((g) => g != null);
+  const notes = ["r-value", "fill-power", "freestanding", "wide-last"].map((slug) => getNote(slug)).filter((n) => n != null);
   return (
     <main>
-      <section className="relative min-h-[28rem] border-b border-line">
-        <img
-          src="/images/home-hero.jpg"
-          alt="Overcast forest trail with switchbacks and damp rock"
-          width={1400}
-          height={788}
-          fetchPriority="high"
-          className="absolute inset-0 h-full w-full object-cover"
-        />
+      <section className="relative isolate min-h-[28rem] overflow-hidden border-b border-line">
+        <TkImage route="/" priority fill sizes="100vw" />
         <div className="absolute inset-0 bg-forest-deep/70" aria-hidden />
         <div className="relative mx-auto max-w-6xl px-4 py-16 text-on-forest">
-          <p className="font-display text-xs tracking-widest uppercase">Field kit · Constraint first</p>
+          <p className="font-mono text-[11px] tracking-widest uppercase">Field kit · Constraint first</p>
           <h1 className="mt-2 max-w-3xl text-4xl text-on-forest md:text-5xl">Gear picks for the trip you are actually taking</h1>
           <p className="mt-4 max-w-2xl text-lg">
             Tents, sleep systems, packs, footwear, stoves, and shells matched to budget, weight, weather, and fit. Not a generic top ten.
@@ -47,7 +53,7 @@ function Home() {
           <ul className="mt-6 flex flex-wrap gap-2">
             {chips.map((chip) => (
               <li key={chip.href}>
-                <a href={chip.href} className="inline-flex min-h-11 items-center border border-on-forest bg-forest-deep/40 px-3 font-display text-sm tracking-wide text-on-forest uppercase">
+                <a href={chip.href} className="inline-flex min-h-11 items-center border border-on-forest px-3 font-mono text-[11px] tracking-widest uppercase">
                   {chip.label}
                 </a>
               </li>
@@ -72,35 +78,74 @@ function Home() {
         <section>
           <h2 className="text-3xl">Start with a decision</h2>
           <p className="mt-2 max-w-2xl text-muted">Commercial pages lead with a direct answer, a comparison table, and one default pick.</p>
-          <div className="mt-4">
-            <CardGrid items={roundups.slice(0, 9).map((r) => ({ href: `/best/${r.slug}`, title: r.h1, text: r.description, kicker: "Roundup" }))} />
+          <div className="mt-4 grid gap-3 md:grid-cols-3">
+            {featured ? <FieldCard roundup={featured} index="R-01" featured priority /> : null}
+            <div className="grid gap-3">
+              {stacked.map((roundup, i) => (
+                <FieldCard key={roundup.slug} roundup={roundup} index={`R-0${i + 2}`} priority={i === 0} />
+              ))}
+            </div>
+          </div>
+          <div className="mt-3 grid gap-3 md:grid-cols-3">
+            {overnight ? <GuideCard guide={overnight} /> : null}
+            {row.map((roundup, i) => (
+              <FieldCard key={roundup.slug} roundup={roundup} index={`R-0${i + 4}`} />
+            ))}
           </div>
         </section>
         <section>
           <h2 className="text-3xl">Categories</h2>
-          <div className="mt-4">
-            <CardGrid items={categories.map((c) => ({ href: `/gear/${c.slug}`, title: c.name, text: c.lede, kicker: c.short }))} />
+          <div className="mt-4 grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-5">
+            {categories.map((category, i) => (
+              <CategoryTile
+                key={category.slug}
+                category={category}
+                items={products.filter((p) => p.category === category.slug).length}
+                roundups={roundups.filter((r) => r.category === category.slug || r.productSlugs.some((slug) => products.find((p) => p.slug === slug)?.category === category.slug)).length}
+                priority={i < 5}
+              />
+            ))}
           </div>
         </section>
         <section>
-          <h2 className="text-3xl">Kits for a kind of trip</h2>
-          <div className="mt-4">
-            <CardGrid items={kits.slice(0, 8).map((k) => ({ href: `/kits/${k.slug}`, title: k.name, text: k.description, kicker: "Kit" }))} />
+          <h2 className="text-3xl">Compare</h2>
+          <div className="mt-4 grid gap-3 md:grid-cols-3">
+            {compares.map((compare) => (
+              <VersusCard key={compare.slug} compare={compare} />
+            ))}
+          </div>
+        </section>
+        <section>
+          <div className="flex items-end justify-between gap-4">
+            <h2 className="text-3xl">Kits for a kind of trip</h2>
+            <a href="/kits" className="font-mono text-[11px] tracking-widest uppercase">All 14 kits</a>
+          </div>
+          <div className="mt-4 grid gap-3 lg:grid-cols-2">
+            {kits.map((kit) => (
+              <KitCard key={kit.slug} kit={kit} />
+            ))}
           </div>
         </section>
         <section>
           <h2 className="text-3xl">Guides</h2>
-          <div className="mt-4">
-            <CardGrid items={guides.slice(0, 6).map((g) => ({ href: `/guides/${g.slug}`, title: g.h1, text: g.description, kicker: "Guide" }))} />
+          <div className="mt-4 grid gap-3 lg:grid-cols-2">
+            {overnight ? <GuideCard guide={overnight} featured /> : null}
+            <div className="grid gap-3">
+              {guides.map((guide) => (
+                <GuideCard key={guide.slug} guide={guide} />
+              ))}
+            </div>
           </div>
         </section>
         <section>
           <h2 className="text-3xl">Field notes</h2>
-          <p className="mt-2 max-w-2xl text-muted">Short references for the words on the spec sheet: R-value, declination, fill power, and the rest.</p>
-          <div className="mt-4">
-            <CardGrid items={notes.slice(0, 6).map((n) => ({ href: `/learn/${n.slug}`, title: n.h1, text: n.description, kicker: "Field note" }))} />
+          <div className="mt-4 grid grid-cols-2 gap-3 lg:grid-cols-4">
+            {notes.map((note, i) => (
+              <NotePlate key={note.slug} note={note} index={String(i + 1).padStart(2, "0")} />
+            ))}
           </div>
         </section>
+        <HowWePick />
       </div>
     </main>
   );

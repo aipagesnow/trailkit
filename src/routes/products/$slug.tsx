@@ -1,6 +1,8 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
 import { getCategory, getProduct, pagesMentioning, productsIn } from "@/data";
 import { AmazonButton, Crumbs, Disclosure, JsonLd, Related } from "@/components/site/blocks";
+import { GearCard } from "@/components/site/cards";
+import { TkImage } from "@/components/site/tk-image";
 import { breadcrumbLd, pageHead } from "@/lib/seo";
 
 export const Route = createFileRoute("/products/$slug")({
@@ -23,7 +25,7 @@ function ProductPage() {
   const category = getCategory(product.category);
   const alts = productsIn(product.category).filter((p) => p.slug !== product.slug).slice(0, 4);
   return (
-    <main className="mx-auto max-w-3xl space-y-6 px-4 py-8">
+    <main className="mx-auto max-w-5xl space-y-6 px-4 py-8">
       <JsonLd
         data={[
           breadcrumbLd([
@@ -50,7 +52,11 @@ function ProductPage() {
       <p><span className="font-bold">Who should buy it. </span>{product.who}</p>
       <p><span className="font-bold">Best for. </span>{product.bestFor}</p>
       <p><span className="font-bold">Standout limitation. </span>{product.limit}</p>
-      <section>
+      <section className="grid items-start gap-6 md:grid-cols-2">
+        <div className="relative aspect-[4/3] overflow-hidden border border-line">
+          <TkImage route={`/products/${product.slug}`} priority fill sizes="(min-width: 768px) 40vw, 100vw" />
+        </div>
+        <div>
         <h2 className="text-3xl">Specs</h2>
         <dl className="mt-3 divide-y divide-line border border-line">
           {product.specs.map((spec) => (
@@ -60,6 +66,7 @@ function ProductPage() {
             </div>
           ))}
         </dl>
+        </div>
       </section>
       <div className="grid gap-3 sm:grid-cols-2">
         <div className="border border-line p-4">
@@ -73,12 +80,12 @@ function ProductPage() {
       </div>
       <AmazonButton product={product} />
       <section>
-        <h2 className="text-3xl">Also in {category?.short}</h2>
-        <ul className="mt-2 space-y-2">
+        <h2 className="text-3xl">Also in {category?.name ?? "this category"}</h2>
+        <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {alts.map((p) => (
-            <li key={p.slug}><a href={`/products/${p.slug}`} className="font-bold text-forest">{p.name}</a> <span className="text-sm text-muted">· {p.role}</span></li>
+            <GearCard key={p.slug} product={p} mini />
           ))}
-        </ul>
+        </div>
       </section>
       <Related links={pagesMentioning(product.slug)} />
     </main>

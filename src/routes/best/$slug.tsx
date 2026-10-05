@@ -1,8 +1,12 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
 import { absoluteUrl } from "@/lib/affiliate";
 import { getProduct, getRoundup, linksFor } from "@/data";
-import { CompareTable, Crumbs, Disclosure, FaqList, FieldImage, JsonLd, PageToc, ProductSection, Related, Updated } from "@/components/site/blocks";
-import { breadcrumbLd, heroSrc, pageHead } from "@/lib/seo";
+import { CompareTable, Crumbs, Disclosure, FaqList, JsonLd, PageToc, ProductSection, Related, Updated } from "@/components/site/blocks";
+import { HowWePick } from "@/components/site/cards";
+import { TkImage } from "@/components/site/tk-image";
+import { INTENT_PAIRS } from "@/data/hubs";
+import { imageFor } from "@/data/images";
+import { breadcrumbLd, pageHead } from "@/lib/seo";
 
 export const Route = createFileRoute("/best/$slug")({
   loader: ({ params }) => {
@@ -15,7 +19,6 @@ export const Route = createFileRoute("/best/$slug")({
       title: loaderData?.title ?? "Roundup",
       description: loaderData?.description ?? "",
       path: `/best/${params.slug}`,
-      image: heroSrc(params.slug),
     }),
   component: RoundupPage,
 });
@@ -23,7 +26,15 @@ export const Route = createFileRoute("/best/$slug")({
 function RoundupPage() {
   const page = Route.useLoaderData();
   const picks = page.productSlugs.map((slug) => getProduct(slug)).filter((p) => p != null);
-  const hero = heroSrc(page.slug);
+  const pair = INTENT_PAIRS[page.slug];
+  const figures = [
+    page.slug === "backpacking-tents" ? "/inline/tents-freestanding-vs-pole" : "",
+    page.slug === "backpacking-tents" ? "/inline/tents-vestibule-rain" : "",
+    page.slug === "hiking-boots-wide-feet" ? "/inline/boots-toebox-topdown" : "",
+    page.slug === "hiking-boots-wide-feet" ? "/inline/boots-lacing-heel" : "",
+    page.slug === "rain-jackets-under-150" ? "/inline/rain-pitzip-open" : "",
+    page.slug === "rain-jackets-under-150" ? "/inline/rain-hood-brim" : "",
+  ].filter((route) => route && imageFor(route)?.ready);
   const crumbs = [
     { name: "Home", path: "/" },
     { name: "Roundups", path: "/best" },
@@ -64,13 +75,30 @@ function RoundupPage() {
           ]}
         />
         <Crumbs items={[{ href: "/best", label: "Roundups" }, { label: page.h1 }]} />
-        {hero ? <FieldImage src={hero} alt={`${page.h1} — trail context, not a studio packshot`} /> : null}
-        <p className="font-display text-xs tracking-widest uppercase">{page.kicker}</p>
+        <div className="relative aspect-video overflow-hidden border border-line">
+          <TkImage route={`/best/${page.slug}`} priority fill sizes="(min-width: 1024px) 70vw, 100vw" />
+        </div>
+        <p className="font-mono text-[11px] tracking-widest uppercase">{page.kicker}</p>
         <h1 className="text-4xl">{page.h1}</h1>
         <Updated read="8 min" />
         <Disclosure />
+        <HowWePick />
+        {pair ? (
+          <p className="border border-line bg-spec p-3 text-sm">
+            {pair.note}{" "}
+            <a href={pair.href} className="font-bold underline">{pair.label}</a>
+          </p>
+        ) : null}
         <div id="answer" className="border-l-4 border-ink bg-spec p-4">{page.answer}</div>
         <p className="border border-line bg-paper-2 p-4"><span className="font-bold">Who this is for. </span>{page.who}</p>
+        {figures.map((route) => (
+          <figure key={route}>
+            <div className="relative aspect-video overflow-hidden border border-line">
+              <TkImage route={route} fill sizes="(min-width: 1024px) 70vw, 100vw" />
+            </div>
+            <figcaption className="mt-1 font-mono text-[11px] text-muted">{imageFor(route)?.alt}</figcaption>
+          </figure>
+        ))}
         <section id="compare" className="space-y-3">
           <h2 className="text-3xl">Comparison</h2>
           <CompareTable products={picks} />

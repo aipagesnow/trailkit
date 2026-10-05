@@ -1,7 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { getKit, kits } from "@/data";
+import { KIT_SECTIONS } from "@/data/hubs";
+import { HubBand, KitCard } from "@/components/site/cards";
 import { pageHead } from "@/lib/seo";
-import { kits } from "@/data";
-import { CardGrid } from "@/components/site/blocks";
 
 export const Route = createFileRoute("/kits/")({
   head: () =>
@@ -10,13 +11,48 @@ export const Route = createFileRoute("/kits/")({
       description: "Trailkit kits for a fair weekend, a light-and-dry hike, cold sleepers, wide feet, car camping, and a day hike.",
       path: "/kits",
     }),
-  component: () => (
-    <main className="mx-auto max-w-6xl px-4 py-10">
-      <h1 className="text-4xl">Kits</h1>
-      <p className="mt-3 max-w-2xl text-muted">A short list for a kind of trip. Swap a piece if the constraint does not match you.</p>
-      <div className="mt-6">
-        <CardGrid items={kits.map((k) => ({ href: `/kits/${k.slug}`, title: k.name, text: k.description, kicker: "Kit" }))} />
+  component: KitsIndex,
+});
+
+function KitsIndex() {
+  const used = new Set<string>();
+  const sections = KIT_SECTIONS.map((section) => {
+    const items = section.slugs.map((slug) => getKit(slug)).filter((k) => k != null);
+    items.forEach((item) => used.add(item.slug));
+    return { ...section, items };
+  }).filter((section) => section.items.length);
+  const rest = kits.filter((k) => !used.has(k.slug));
+  return (
+    <main>
+      <HubBand
+        route="/kits"
+        kicker="Kits"
+        title="Trip kits"
+        promise="A short list for a kind of trip. Swap a piece if the constraint does not match you."
+        chips={sections.map((section) => ({ href: `#${section.id}`, label: section.label }))}
+      />
+      <div className="mx-auto max-w-6xl space-y-10 px-4 py-10">
+        {sections.map((section) => (
+          <section key={section.id} id={section.id}>
+            <h2 className="font-mono text-[11px] tracking-widest uppercase">{section.label} · {section.items.length}</h2>
+            <div className="mt-3 grid gap-3 lg:grid-cols-2">
+              {section.items.map((kit, i) => (
+                <KitCard key={kit.slug} kit={kit} priority={section.id === "backpacking" && i < 2} />
+              ))}
+            </div>
+          </section>
+        ))}
+        {rest.length ? (
+          <section>
+            <h2 className="font-mono text-[11px] tracking-widest uppercase">More · {rest.length}</h2>
+            <div className="mt-3 grid gap-3 lg:grid-cols-2">
+              {rest.map((kit) => (
+                <KitCard key={kit.slug} kit={kit} />
+              ))}
+            </div>
+          </section>
+        ) : null}
       </div>
     </main>
-  ),
-});
+  );
+}

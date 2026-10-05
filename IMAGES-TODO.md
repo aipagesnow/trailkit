@@ -1,0 +1,306 @@
+# IMAGES TODO
+
+Masters that are not on disk yet. Drop the file at `images-src` + the path under `/images/`, then run `node scripts/grade-images.mjs && node scripts/gen-images.mjs && node scripts/og-cards.mjs`.
+
+Ready: 62 of 336 manifest cards, plus the home hero (mapped separately when it is not a card). The rest use the dark topo placeholder.
+
+## Vetoed (do not ship these generations)
+
+- `gear/water` — generated cup floated in mid-air. Regenerate: a filter dripping into a cup that sits on stream rocks.
+- `best/budget-rain-shells` first pass — jacket floated in front of a branch. Regenerated draped over the branch and accepted.
+- `best/microspikes` first pass — empty boots standing with no legs. Regenerated on a hiker and accepted.
+- Unused logo wordmark and a sunset illustration with the word Trailkit. Not assigned.
+
+## Missing slugs
+
+### guides (22)
+
+- `guides/quilt-vs-bag` — /guides/quilt-vs-bag — Quilt or sleeping bag?
+- `guides/ultralight-shelter` — /guides/ultralight-shelter — Ultralight backpacking shelter guide
+- `guides/car-camping-kitchen` — /guides/car-camping-kitchen — Car camping kitchen setup
+- `guides/boot-fit` — /guides/boot-fit — How to fit hiking boots
+- `guides/water-treatment` — /guides/water-treatment — How to treat backcountry water
+- `guides/pack-fit` — /guides/pack-fit — How to fit a backpack
+- `guides/canister-vs-liquid` — /guides/canister-vs-liquid — Canister stove or liquid fuel?
+- `guides/leave-no-trace-camp` — /guides/leave-no-trace-camp — Leave no trace at camp
+- `guides/three-vs-four-season` — /guides/three-vs-four-season — Three-season or four-season tent?
+- `guides/blister-care` — /guides/blister-care — How to prevent hiking blisters
+- `guides/hammock-setup` — /guides/hammock-setup — How to set up a camping hammock
+- `guides/bear-canister-packing` — /guides/bear-canister-packing — How to pack a bear canister
+- `guides/how-much-water` — /guides/how-much-water — How much water to carry hiking
+- `guides/read-a-topo` — /guides/read-a-topo — How to read a topo map
+- `guides/base-weight` — /guides/base-weight — What backpacking base weight means
+- `guides/wash-down` — /guides/wash-down — How to wash a down sleeping bag
+- `guides/tent-condensation` — /guides/tent-condensation — Why tents get condensation
+- `guides/kids-first-trip` — /guides/kids-first-trip — A child's first camping trip
+- `guides/shoulder-season` — /guides/shoulder-season — What to wear hiking in shoulder season
+- `guides/desert-water` — /guides/desert-water — Desert hiking water planning
+- `guides/cathole` — /guides/cathole — How to dig a cathole
+- `guides/stove-safety` — /guides/stove-safety — Camp stove safety
+
+### kits (12)
+
+- `kits/light-and-dry` — /kits/light-and-dry — Light and dry
+- `kits/cold-sleeper-kit` — /kits/cold-sleeper-kit — Cold sleeper
+- `kits/wide-foot-weekend` — /kits/wide-foot-weekend — Wide feet, first overnight
+- `kits/car-camp-weekend` — /kits/car-camp-weekend — Drive-up weekend
+- `kits/hammock-weekend` — /kits/hammock-weekend — Hammock weekend
+- `kits/desert-day` — /kits/desert-day — Desert day hike
+- `kits/rainy-weekend` — /kits/rainy-weekend — Rainy weekend
+- `kits/family-weekend` — /kits/family-weekend — Family car-camp
+- `kits/winter-day` — /kits/winter-day — Winter day hike
+- `kits/blister-kit` — /kits/blister-kit — Blister kit
+- `kits/bear-country` — /kits/bear-country — Bear-country weekend
+- `kits/hot-weather` — /kits/hot-weather — Hot-weather overnight
+
+### compare (17)
+
+- `compare/keen-vs-altra` — /compare/keen-vs-altra — Targhee vs Lone Peak
+- `compare/windmaster-vs-pocketrocket` — /compare/windmaster-vs-pocketrocket — WindMaster vs PocketRocket
+- `compare/sawyer-vs-katadyn` — /compare/sawyer-vs-katadyn — Squeeze vs BeFree
+- `compare/actik-vs-spot` — /compare/actik-vs-spot — Actik Core vs Spot
+- `compare/helium-vs-rainier` — /compare/helium-vs-rainier — Helium vs Rainier
+- `compare/xmid1-vs-protrail` — /compare/xmid1-vs-protrail — X-Mid 1 vs Protrail
+- `compare/aura-vs-deva` — /compare/aura-vs-deva — Osprey Aura vs Gregory Deva
+- `compare/darn-tough-vs-smartwool` — /compare/darn-tough-vs-smartwool — Darn Tough vs Smartwool hiking socks
+- `compare/microspikes-vs-yaktrax` — /compare/microspikes-vs-yaktrax — Kahtoola Microspikes vs Yaktrax
+- `compare/bv500-vs-ursack` — /compare/bv500-vs-ursack — BearVault BV500 vs Ursack Major
+- `compare/synthetic-vs-merino` — /compare/synthetic-vs-merino — Synthetic vs merino base layers
+- `compare/toaks-vs-halulite` — /compare/toaks-vs-halulite — TOAKS 750 vs GSI Halulite
+- `compare/kingdom-vs-sundome` — /compare/kingdom-vs-sundome — REI Kingdom 6 vs Coleman Sundome 4
+- `compare/flash-vs-crown` — /compare/flash-vs-crown — REI Flash 55 vs Granite Gear Crown 60
+- `compare/eno-vs-blackbird` — /compare/eno-vs-blackbird — ENO DoubleNest vs Warbonnet Blackbird
+- `compare/r1-vs-atom` — /compare/r1-vs-atom — Patagonia R1 Air vs Arc'teryx Atom
+- `compare/mariposa-vs-southwest` — /compare/mariposa-vs-southwest — Gossamer Gear Mariposa vs Hyperlite Southwest
+
+### gear (12)
+
+- `gear/water` — /gear/water — Water treatment
+- `gear/layers` — /gear/layers — Insulation layers
+- `gear/poles` — /gear/poles — Trekking poles
+- `gear/camp` — /gear/camp — Car camping
+- `gear/hammocks` — /gear/hammocks — Hammocks and tarps
+- `gear/socks` — /gear/socks — Socks and foot care
+- `gear/base` — /gear/base — Base layers
+- `gear/aid` — /gear/aid — First aid and repair
+- `gear/nav` — /gear/nav — Navigation and communication
+- `gear/cook` — /gear/cook — Cookware and food storage
+- `gear/traction` — /gear/traction — Traction and gaiters
+- `gear/family` — /gear/family — Family and kids
+
+### learn (28)
+
+- `learn/r-value` — /learn/r-value — What R-value means on a sleeping pad
+- `learn/freestanding` — /learn/freestanding — What a freestanding tent is
+- `learn/dwr` — /learn/dwr — What DWR means on a rain jacket
+- `learn/iso-rating` — /learn/iso-rating — How to read a sleeping bag temperature rating
+- `learn/heel-drop` — /learn/heel-drop — What heel-drop means in hiking shoes
+- `learn/wide-last` — /learn/wide-last — What a wide last means
+- `learn/hollow-fiber` — /learn/hollow-fiber — What a backpacking water filter removes
+- `learn/fill-power` — /learn/fill-power — What down fill power means
+- `learn/hydrostatic-head` — /learn/hydrostatic-head — What hydrostatic head means
+- `learn/torso-length` — /learn/torso-length — How to measure backpack torso length
+- `learn/hipbelt` — /learn/hipbelt — What a backpack hip belt is for
+- `learn/big-three` — /learn/big-three — The big three of backpacking gear
+- `learn/three-season-gear` — /learn/three-season-gear — What three-season gear means
+- `learn/vestibule` — /learn/vestibule — What a tent vestibule is for
+- `learn/double-wall` — /learn/double-wall — Double-wall vs single-wall tents
+- `learn/declination` — /learn/declination — What map declination means
+- `learn/pit-zips` — /learn/pit-zips — Why rain jacket pit zips matter
+- `learn/active-static` — /learn/active-static — Active layers versus static layers
+- `learn/wag-bag` — /learn/wag-bag — What a wag bag is
+- `learn/bear-hang` — /learn/bear-hang — Why bear hangs fail
+- `learn/electrolytes` — /learn/electrolytes — When hikers need electrolytes
+- `learn/alcohol-rules` — /learn/alcohol-rules — Alcohol stove fire restrictions
+- `learn/quilt-drafts` — /learn/quilt-drafts — Why backpacking quilts feel drafty
+- `learn/seam-sealing` — /learn/seam-sealing — When to seam-seal a tent
+- `learn/pack-liner` — /learn/pack-liner — Why a pack liner still matters
+- `learn/camp-shoes` — /learn/camp-shoes — When camp shoes are worth packing
+- `learn/headlamp-modes` — /learn/headlamp-modes — How to use a headlamp without blinding camp
+- `learn/food-miles` — /learn/food-miles — How much food to pack backpacking
+
+### products (183)
+
+- `products/copper-spur-ul2` — /products/copper-spur-ul2 — Big Agnes Copper Spur UL2
+- `products/x-mid-2` — /products/x-mid-2 — Durston X-Mid 2
+- `products/dragonfly-osmo-2` — /products/dragonfly-osmo-2 — NEMO Dragonfly OSMO 2P
+- `products/half-dome-2-plus` — /products/half-dome-2-plus — REI Co-op Half Dome 2 Plus
+- `products/lunar-solo` — /products/lunar-solo — Six Moon Designs Lunar Solo
+- `products/hubba-hubba-2` — /products/hubba-hubba-2 — MSR Hubba Hubba 2
+- `products/magma-15` — /products/magma-15 — REI Co-op Magma 15
+- `products/wm-ultralite` — /products/wm-ultralite — Western Mountaineering UltraLite
+- `products/ee-revelation` — /products/ee-revelation — Enlightened Equipment Revelation
+- `products/trestles-eco-30` — /products/trestles-eco-30 — Marmot Trestles Elite Eco 30
+- `products/nemo-disco-15` — /products/nemo-disco-15 — NEMO Disco 15
+- `products/sts-spark` — /products/sts-spark — Sea to Summit Spark
+- `products/xlite-nxt` — /products/xlite-nxt — Therm-a-Rest NeoAir XLite NXT
+- `products/nemo-tensor` — /products/nemo-tensor — NEMO Tensor
+- `products/exped-ultra` — /products/exped-ultra — Exped Ultra
+- `products/z-lite` — /products/z-lite — Therm-a-Rest Z Lite Sol
+- `products/ether-light` — /products/ether-light — Sea to Summit Ether Light XT
+- `products/xtherm` — /products/xtherm — Therm-a-Rest NeoAir XTherm
+- `products/atmos-ag-65` — /products/atmos-ag-65 — Osprey Atmos AG 65
+- `products/baltoro-65` — /products/baltoro-65 — Gregory Baltoro 65
+- `products/exos-58` — /products/exos-58 — Osprey Exos 58
+- `products/kakwa-55` — /products/kakwa-55 — Durston Kakwa 55
+- `products/talon-22` — /products/talon-22 — Osprey Talon 22
+- `products/rei-trail-40` — /products/rei-trail-40 — REI Co-op Trail 40
+- `products/lone-peak` — /products/lone-peak — Altra Lone Peak
+- `products/renegade-wide` — /products/renegade-wide — Lowa Renegade GTX Wide
+- `products/moab-3-wide` — /products/moab-3-wide — Merrell Moab 3 Mid Wide
+- `products/x-ultra-wide` — /products/x-ultra-wide — Salomon X Ultra Wide GTX
+- `products/speedgoat` — /products/speedgoat — Hoka Speedgoat
+- `products/helium` — /products/helium — Outdoor Research Helium
+- `products/rainier` — /products/rainier — REI Co-op Rainier
+- `products/precip` — /products/precip — Marmot PreCip Eco
+- `products/stormline` — /products/stormline — Black Diamond StormLine
+- `products/torrentshell` — /products/torrentshell — Patagonia Torrentshell
+- `products/windmaster` — /products/windmaster — Soto WindMaster
+- `products/pocketrocket` — /products/pocketrocket — MSR PocketRocket Deluxe
+- `products/minimo` — /products/minimo — Jetboil MiniMo
+- `products/brs-3000` — /products/brs-3000 — BRS-3000T
+- `products/whisperlite` — /products/whisperlite — MSR WhisperLite
+- `products/coleman-2burner` — /products/coleman-2burner — Coleman two-burner camp stove
+- `products/actik-core` — /products/actik-core — Petzl Actik Core
+- `products/spot-400` — /products/spot-400 — Black Diamond Spot 400-R
+- `products/nu25` — /products/nu25 — Nitecore NU25
+- `products/biolite-330` — /products/biolite-330 — BioLite HeadLamp 330
+- `products/bindi` — /products/bindi — Petzl Bindi
+- `products/sawyer-squeeze` — /products/sawyer-squeeze — Sawyer Squeeze
+- `products/befree` — /products/befree — Katadyn BeFree
+- `products/quickdraw` — /products/quickdraw — Platypus QuickDraw
+- `products/grayl` — /products/grayl — Grayl GeoPress
+- `products/trailshot` — /products/trailshot — MSR TrailShot
+- `products/magma-hoody` — /products/magma-hoody — REI Co-op Magma Hooded Down
+- `products/ghost-whisperer` — /products/ghost-whisperer — Mountain Hardwear Ghost Whisperer
+- `products/nano-puff` — /products/nano-puff — Patagonia Nano Puff
+- `products/ascendant` — /products/ascendant — Outdoor Research Ascendant
+- `products/sun-hoodie` — /products/sun-hoodie — Outdoor Research Echo Sun Hoodie
+- `products/bd-trail-ergo` — /products/bd-trail-ergo — Black Diamond Trail Ergo
+- `products/leki-makalu` — /products/leki-makalu — LEKI Makalu
+- `products/cmt-carbon` — /products/cmt-carbon — Cascade Mountain Tech Carbon
+- `products/bd-distance-carbon` — /products/bd-distance-carbon — Black Diamond Distance Carbon
+- `products/helinox-chair` — /products/helinox-chair — Helinox Chair One
+- `products/lodge-skillet` — /products/lodge-skillet — Lodge cast-iron skillet
+- `products/rotomold-cooler` — /products/rotomold-cooler — Rotomolded cooler, 45 qt class
+- `products/kelty-loveseat` — /products/kelty-loveseat — Kelty Lowdown camp loveseat
+- `products/rumpl` — /products/rumpl — Rumpl camp blanket
+- `products/wash-bins` — /products/wash-bins — Collapsible wash bins, set of three
+- `products/tenacious-tape` — /products/tenacious-tape — Gear Aid Tenacious Tape
+- `products/dry-bag` — /products/dry-bag — 10-liter dry bag
+- `products/tiger-wall-ul2` — /products/tiger-wall-ul2 — Big Agnes Tiger Wall UL2
+- `products/nemo-hornet-2` — /products/nemo-hornet-2 — NEMO Hornet OSMO 2P
+- `products/double-rainbow` — /products/double-rainbow — Tarptent Double Rainbow
+- `products/msr-elixir-2` — /products/msr-elixir-2 — MSR Elixir 2
+- `products/rei-passage-2` — /products/rei-passage-2 — REI Co-op Passage 2
+- `products/zpacks-duplex` — /products/zpacks-duplex — Zpacks Duplex
+- `products/x-mid-1` — /products/x-mid-1 — Durston X-Mid 1
+- `products/protrail` — /products/protrail — Tarptent Protrail
+- `products/magma-30` — /products/magma-30 — REI Co-op Magma 30
+- `products/enigma-20` — /products/enigma-20 — Enlightened Equipment Enigma 20
+- `products/alpinlite` — /products/alpinlite — Western Mountaineering Alpinlite
+- `products/kelty-cosmic-20` — /products/kelty-cosmic-20 — Kelty Cosmic 20
+- `products/siesta-25` — /products/siesta-25 — REI Co-op Siesta 25
+- `products/down-hugger` — /products/down-hugger — Montbell Down Hugger 800 #3
+- `products/trek-tk` — /products/trek-tk — Sea to Summit Trek TkII
+- `products/summit-loft` — /products/summit-loft — Outdoor Vitals Summit Loft 20
+- `products/xlite-wide` — /products/xlite-wide — Therm-a-Rest NeoAir XLite NXT Wide
+- `products/tensor-wide` — /products/tensor-wide — NEMO Tensor Wide
+- `products/klymit-static` — /products/klymit-static — Klymit Static V
+- `products/comfort-plus` — /products/comfort-plus — Sea to Summit Comfort Plus
+- `products/exped-dura` — /products/exped-dura — Exped Dura 5R
+- `products/prolite` — /products/prolite — Therm-a-Rest ProLite
+- `products/ula-circuit` — /products/ula-circuit — ULA Circuit
+- `products/crown-60` — /products/crown-60 — Granite Gear Crown2 60
+- `products/flash-55` — /products/flash-55 — REI Co-op Flash 55
+- `products/mariposa` — /products/mariposa — Gossamer Gear Mariposa
+- `products/aura-65` — /products/aura-65 — Osprey Aura AG 65
+- `products/deva-60` — /products/deva-60 — Gregory Deva 60
+- `products/hmg-southwest` — /products/hmg-southwest — Hyperlite Mountain Gear Southwest
+- `products/aircontact` — /products/aircontact — Deuter Aircontact Core 60+10
+- `products/topo-ultraventure` — /products/topo-ultraventure — Topo Athletic Ultraventure
+- `products/ultra-raptor` — /products/ultra-raptor — La Sportiva Ultra Raptor
+- `products/oboz-bridger` — /products/oboz-bridger — Oboz Bridger
+- `products/trail-2650` — /products/trail-2650 — Danner Trail 2650
+- `products/quest-4` — /products/quest-4 — Salomon Quest 4
+- `products/bedrock-cairn` — /products/bedrock-cairn — Bedrock Cairn
+- `products/or-foray` — /products/or-foray — Outdoor Research Foray
+- `products/frogg-toggs` — /products/frogg-toggs — Frogg Toggs Ultra-Lite
+- `products/columbia-watertight` — /products/columbia-watertight — Columbia Watertight II
+- `products/versalite` — /products/versalite — Montbell Versalite
+- `products/jetboil-flash` — /products/jetboil-flash — Jetboil Flash
+- `products/soto-amicus` — /products/soto-amicus — Soto Amicus
+- `products/msr-reactor` — /products/msr-reactor — MSR Reactor
+- `products/alcohol-stove` — /products/alcohol-stove — TOAKS Titanium Alcohol Stove
+- `products/bd-storm` — /products/bd-storm — Black Diamond Storm 500-R
+- `products/princeton-remix` — /products/princeton-remix — Princeton Tec Remix
+- `products/luci-lantern` — /products/luci-lantern — MPOWERD Luci
+- `products/aquamira` — /products/aquamira — Aquamira Water Treatment
+- `products/steripen` — /products/steripen — SteriPEN Ultra
+- `products/cnoc-vesper` — /products/cnoc-vesper — CNOC Vecto or Vesper bag
+- `products/nalgene-1l` — /products/nalgene-1l — Nalgene Wide Mouth 1L
+- `products/seeker-2l` — /products/seeker-2l — HydraPak Seeker 2L
+- `products/r1-air` — /products/r1-air — Patagonia R1 Air
+- `products/rab-microlight` — /products/rab-microlight — Rab Microlight Alpine
+- `products/plasma-1000` — /products/plasma-1000 — Montbell Plasma 1000
+- `products/trailmade-fleece` — /products/trailmade-fleece — REI Co-op Trailmade Fleece
+- `products/atom-hoody` — /products/atom-hoody — Arc'teryx Atom Hoody
+- `products/cmt-aluminum` — /products/cmt-aluminum — Cascade Mountain Tech Aluminum Poles
+- `products/komperdell-c3` — /products/komperdell-c3 — Komperdell Carbon C3
+- `products/kingdom-6` — /products/kingdom-6 — REI Co-op Kingdom 6
+- `products/sundome-4` — /products/sundome-4 — Coleman Sundome 4
+- `products/kindercone` — /products/kindercone — REI Co-op Kindercone
+- `products/tikkid` — /products/tikkid — Petzl Tikkid
+- `products/tarn-18` — /products/tarn-18 — REI Co-op Tarn 18
+- `products/eno-doublenest` — /products/eno-doublenest — ENO DoubleNest
+- `products/blackbird-xlc` — /products/blackbird-xlc — Warbonnet Blackbird XLC
+- `products/dutchware-chameleon` — /products/dutchware-chameleon — Dutchware Chameleon
+- `products/hummingbird` — /products/hummingbird — Hummingbird Hammocks Single+
+- `products/mongoose` — /products/mongoose — Kammok Mongoose
+- `products/hg-econ` — /products/hg-econ — Hammock Gear Econ Underquilt
+- `products/atlas-straps` — /products/atlas-straps — ENO Atlas Straps
+- `products/superfly` — /products/superfly — Warbonnet SuperFly
+- `products/darn-tough-hiker` — /products/darn-tough-hiker — Darn Tough Hiker Micro Crew
+- `products/injinji-liner` — /products/injinji-liner — Injinji Liner Crew
+- `products/smartwool-hike` — /products/smartwool-hike — Smartwool Hike Classic
+- `products/darn-tough-light` — /products/darn-tough-light — Darn Tough Light Hiker
+- `products/sealskinz` — /products/sealskinz — Sealskinz Waterproof Sock
+- `products/capilene-cool` — /products/capilene-cool — Patagonia Capilene Cool Daily
+- `products/icebreaker-175` — /products/icebreaker-175 — Icebreaker 175 Oasis
+- `products/rei-merino-185` — /products/rei-merino-185 — REI Co-op Merino 185
+- `products/echo-hoodie` — /products/echo-hoodie — Outdoor Research Echo Hoody
+- `products/capilene-thermal` — /products/capilene-thermal — Patagonia Capilene Thermal Weight
+- `products/amk-ul-5` — /products/amk-ul-5 — Adventure Medical Kits Ultralight/Watertight .5
+- `products/amk-mountain` — /products/amk-mountain — Adventure Medical Kits Mountain Series
+- `products/leukotape` — /products/leukotape — Leukotape P
+- `products/sam-splint` — /products/sam-splint — SAM Splint
+- `products/nitrile-gloves` — /products/nitrile-gloves — Nitrile gloves, pair in a bag
+- `products/nuun` — /products/nuun — Nuun Sport tablets
+- `products/suunto-m3` — /products/suunto-m3 — Suunto M-3 Compass
+- `products/inreach-mini` — /products/inreach-mini — Garmin inReach Mini 2
+- `products/etrex` — /products/etrex — Garmin eTrex 22x or 32x
+- `products/trails-illustrated` — /products/trails-illustrated — National Geographic Trails Illustrated map
+- `products/whistle` — /products/whistle — Pealess whistle
+- `products/toaks-750` — /products/toaks-750 — TOAKS Titanium 750ml Pot
+- `products/titan-kettle` — /products/titan-kettle — MSR Titan Kettle
+- `products/halulite` — /products/halulite — GSI Halulite Boiler
+- `products/long-spoon` — /products/long-spoon — Long-handled camping spoon
+- `products/bv500` — /products/bv500 — BearVault BV500
+- `products/ursack-major` — /products/ursack-major — Ursack Major
+- `products/opsak` — /products/opsak — OPSAK odor bag
+- `products/microspikes` — /products/microspikes — Kahtoola MICROspikes
+- `products/hillsound` — /products/hillsound — Hillsound Trail Crampon
+- `products/crocodile` — /products/crocodile — Outdoor Research Crocodile Gaiters
+- `products/yaktrax` — /products/yaktrax — Yaktrax Run
+- `products/msr-snowshoe` — /products/msr-snowshoe — MSR Evo Ascent
+- `products/aeros-pillow` — /products/aeros-pillow — Sea to Summit Aeros Pillow
+- `products/deuce` — /products/deuce — TheTentLab Deuce of Spades
+- `products/camp-clog` — /products/camp-clog — Classic clog, camp shoe
+- `products/nb10000` — /products/nb10000 — Nitecore NB10000
+- `products/groundhog` — /products/groundhog — MSR Groundhog Stakes
+- `products/liteflex` — /products/liteflex — Gossamer Gear Liteflex Umbrella
+- `products/head-net` — /products/head-net — Bug head net
+- `products/neck-gaiter` — /products/neck-gaiter — Merino neck gaiter
+- `products/camp-table` — /products/camp-table — ALPS Mountaineering Dining Table
+- `products/camp-cot` — /products/camp-cot — REI Co-op Camp Cot
+- `products/percolator` — /products/percolator — GSI Enamel Coffee Percolator

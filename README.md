@@ -39,11 +39,20 @@ Contact copy still says `hello@trailkit.example` and is labeled **replace before
 
 1. Add the guide object in `src/data/editorial.ts` (or the expansion catalog if it belongs in the long tail) with a unique `slug`, direct answer, sections, FAQs, and related product slugs.
 2. Export it through `src/data/index.ts` if it is not already on the `guides` array. The route is `/guides/$slug` — no new file per page.
-3. Optional hero: drop a JPEG in `public/images/` and map the slug in `HERO` inside `src/lib/seo.ts`.
+3. Optional hero: drop the master at `images-src/guides/<slug>.jpg` and run the image steps below.
 4. Run `npm run typecheck`. The sitemap route picks the guide up automatically.
 
 Roundups (`/best/$slug`), comparisons, kits, field notes, and products follow the same data-driven pattern.
 
 ## Images
 
-Home and priority money pages use photos in `public/images/`. Heroes are sized with `width` / `height` and `fetchpriority="high"`. Default social image: `public/images/og-default.jpg`. Do not hotlink Amazon CDN packshots.
+Every hub card and hero reads `src/data/images.ts` (generated). Missing files render a dark topo placeholder, so the site still looks intentional before a photo exists. Coverage right now: all 8 hub bands and all 37 roundup cards have graded masters. Compares, kits, guides, categories, notes, and products are still mostly placeholders; the missing slugs are listed in `IMAGES-TODO.md`.
+
+Card meta is not typed by hand. A roundup card counts its picks, reads the updated date, and names the #1 pick. A kit card only shows trip chips the kit text already states, plus four manifest lines from its picks. A versus card’s “decides on” line is the first comparison row. A category tile counts real products and roundups. A gear card shows “On Amazon” only when `src/data/asins.ts` has a verified ASIN.
+
+1. Drop a master JPEG at `images-src/<hub>/<slug>.jpg`, matching the path in `IMAGE-MANIFEST.json` (for example `images-src/best/ultralight-tents.jpg` → `/images/best/ultralight-tents.jpg`).
+2. Grade it: `node scripts/grade-images.mjs`. That writes AVIF and WebP at 480, 800, 1200, and 1600 plus a JPEG fallback under `public/images/`, with the field-grade look (cooler, less saturated).
+3. Refresh the map: `node scripts/gen-images.mjs`.
+4. Rebuild Open Graph cards: `node scripts/og-cards.mjs` (also runs in `prebuild`).
+
+Budgets: card AVIF at 800w stays at or under 45 KB; a hero at 1600w stays at or under 120 KB. Hubs load the first card row eager and the rest lazy. Do not hotlink Amazon CDN packshots, and do not add logos, readable text, faces, or orange props.

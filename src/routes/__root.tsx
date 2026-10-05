@@ -16,8 +16,12 @@ export const Route = createRootRoute({
       { name: "theme-color", content: "#0f1416" },
     ],
     links: [
+      { rel: "icon", href: "/favicon.ico", sizes: "32x32" },
+      { rel: "icon", type: "image/png", href: "/favicon-32.png", sizes: "32x32" },
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
-      { rel: "apple-touch-icon", href: "/favicon.svg" },
+      { rel: "apple-touch-icon", href: "/apple-touch-icon.png", sizes: "180x180" },
+      { rel: "icon", type: "image/png", href: "/icon-512.png", sizes: "512x512" },
+      { rel: "icon", type: "image/png", href: "/icon-512-maskable.png", sizes: "512x512" },
       { rel: "stylesheet", href: appCss },
       { rel: "manifest", href: "/__grok/manifest.webmanifest" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },

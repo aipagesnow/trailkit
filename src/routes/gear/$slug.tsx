@@ -1,7 +1,9 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { breadcrumbLd, pageHead } from "@/lib/seo";
-import { getCategory, productsIn, roundups } from "@/data";
-import { CardGrid, Crumbs, JsonLd } from "@/components/site/blocks";
+import { createFileRoute, notFound } from "@tanstack/react-router";
+import { pageHead, breadcrumbLd } from "@/lib/seo";
+import { getCategory, guides, productsIn, roundups } from "@/data";
+import { Crumbs, JsonLd } from "@/components/site/blocks";
+import { FieldCard, GearCard, GuideCard } from "@/components/site/cards";
+import { TkImage } from "@/components/site/tk-image";
 
 export const Route = createFileRoute("/gear/$slug")({
   loader: ({ params }) => {
@@ -22,44 +24,55 @@ function CategoryPage() {
   const category = Route.useLoaderData();
   const gear = productsIn(category.slug);
   const lists = roundups.filter((r) => r.productSlugs.some((slug) => gear.some((p) => p.slug === slug)));
+  const relatedGuides = guides.filter((g) => g.productSlugs.some((slug) => gear.some((p) => p.slug === slug))).slice(0, 4);
   return (
-    <main className="mx-auto max-w-6xl space-y-8 px-4 py-8">
-      <JsonLd
-        data={[
-          breadcrumbLd([
-            { name: "Home", path: "/" },
-            { name: "Categories", path: "/gear" },
-            { name: category.name },
-          ]),
-        ]}
-      />
-      <Crumbs items={[{ href: "/gear", label: "Categories" }, { label: category.name }]} />
-      <p className="text-xs font-bold tracking-widest text-amber-deep uppercase">{category.short}</p>
-      <h1 className="text-4xl">{category.name}</h1>
-      <p className="max-w-3xl text-lg text-muted">{category.lede}</p>
-      {category.intro.map((p) => <p key={p} className="max-w-3xl">{p}</p>)}
-      <section>
-        <h2 className="text-3xl">How to choose</h2>
-        <ul className="mt-2 list-disc space-y-1 pl-5">{category.choose.map((c) => <li key={c}>{c}</li>)}</ul>
-      </section>
-      <section>
-        <h2 className="text-3xl">Roundups</h2>
-        <div className="mt-3">
-          <CardGrid items={lists.map((r) => ({ href: `/best/${r.slug}`, title: r.h1, text: r.description, kicker: "Roundup" }))} />
+    <main>
+      <JsonLd data={[breadcrumbLd([{ name: "Home", path: "/" }, { name: "Categories", path: "/gear" }, { name: category.name }])]} />
+      <section className="relative isolate aspect-[21/9] min-h-52 overflow-hidden border-b border-line">
+        <TkImage route={`/gear/${category.slug}`} priority fill sizes="100vw" />
+        <div className="absolute inset-0 bg-gradient-to-r from-forest-deep via-forest-deep/75 to-transparent" />
+        <div className="relative mx-auto max-w-6xl px-4 py-10 text-on-forest">
+          <Crumbs items={[{ href: "/gear", label: "Categories" }, { label: category.name }]} />
+          <p className="mt-4 font-mono text-[11px] tracking-widest uppercase">{category.short}</p>
+          <h1 className="mt-2 text-4xl text-on-forest">{category.name}</h1>
+          <p className="mt-3 max-w-2xl">{category.lede}</p>
         </div>
       </section>
-      <section>
-        <h2 className="text-3xl">Gear in this category</h2>
-        <ul className="mt-3 divide-y divide-line rounded-lg border border-line bg-card">
-          {gear.map((p) => (
-            <li key={p.slug} className="p-4">
-              <Link to="/products/$slug" params={{ slug: p.slug }} className="font-serif text-xl text-ink">{p.name}</Link>
-              <p className="text-sm text-amber-deep">{p.role}</p>
-              <p className="mt-1 text-sm text-muted">{p.summary}</p>
-            </li>
-          ))}
-        </ul>
-      </section>
+      <div className="mx-auto max-w-6xl space-y-8 px-4 py-8">
+        {category.intro.map((p) => <p key={p} className="max-w-3xl">{p}</p>)}
+        <section>
+          <h2 className="text-3xl">How to choose</h2>
+          <ul className="mt-2 list-disc space-y-1 pl-5">{category.choose.map((c) => <li key={c}>{c}</li>)}</ul>
+        </section>
+        {lists.length ? (
+          <section>
+            <h2 className="text-3xl">Roundups</h2>
+            <div className="mt-3 grid gap-3 md:grid-cols-3">
+              {lists.map((roundup, i) => (
+                <FieldCard key={roundup.slug} roundup={roundup} index={`R-${String(i + 1).padStart(2, "0")}`} />
+              ))}
+            </div>
+          </section>
+        ) : null}
+        <section>
+          <h2 className="text-3xl">Gear in this category</h2>
+          <div className="mt-3 grid gap-3 md:grid-cols-3">
+            {gear.map((product) => (
+              <GearCard key={product.slug} product={product} />
+            ))}
+          </div>
+        </section>
+        {relatedGuides.length ? (
+          <section>
+            <h2 className="text-3xl">Related guides</h2>
+            <div className="mt-3 grid gap-3 lg:grid-cols-2">
+              {relatedGuides.map((guide) => (
+                <GuideCard key={guide.slug} guide={guide} />
+              ))}
+            </div>
+          </section>
+        ) : null}
+      </div>
     </main>
   );
 }

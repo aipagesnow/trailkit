@@ -52,8 +52,27 @@
   }
   .rounded-md,
   .rounded-lg,
-  .rounded-xl {
+  .rounded-xl,
+  .rounded-2xl {
     border-radius: 2px;
+  }
+  .tk-card {
+    border: 1px solid #c5c2bb;
+    border-radius: 0;
+  }
+  .tk-card:hover,
+  .tk-card:focus-visible {
+    border-color: #1d2326;
+  }
+  .tk-zoom {
+    transition: transform 200ms ease;
+  }
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .tk-card:hover .tk-zoom,
+  .tk-card:focus-visible .tk-zoom {
+    transform: scale(1.03);
   }
 }
 
