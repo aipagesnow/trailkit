@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Trailkit">
+  <rect width="32" height="32" rx="6" fill="#1c4a38"/>
+  <path fill="#f4f0e8" d="M16 4.5 27.5 16 16 27.5 4.5 16Z"/>
+  <path fill="#b85e14" d="M16 10 22 16 16 22 10 16Z"/>
+</svg>

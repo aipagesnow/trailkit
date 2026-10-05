@@ -1,7 +1,3 @@
 {
-  "framework": null,
-  "buildCommand": "",
-  "outputDirectory": ".",
-  "trailingSlash": true,
-  "cleanUrls": false
+  "installCommand": "npm install --omit=dev --no-audit --no-fund"
 }
