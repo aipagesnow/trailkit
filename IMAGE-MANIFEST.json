@@ -1406,12 +1406,13 @@
    "card_title": "Tents and shelters",
    "label": "Shelters",
    "card_type": "E category tile",
-   "aspect_master": "3:4 (1200x1600)",
+   "aspect_master": "16:9 (1280x720)",
+   "focal": "28% 42%",
    "image": "/images/gear/tents.jpg",
    "status": "generate",
-   "alt": "Macro of a taut tent fly, guyline tensioner and stake in damp soil",
-   "scene": "macro of a taut tent fly, guyline tensioner and stake in damp soil",
-   "extra": "Tall macro texture tile, darker bottom 35% for overlaid category name."
+   "alt": "A grey-green dome tent on forest duff, door open, one guyline and a stake",
+   "scene": "a grey-green dome tent pitched on forest duff in the left third, door open, one grey guyline and a single stake",
+   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the left 40 percent. Quiet mossy clearing on the right. Plain unbranded tent."
   },
   {
    "hub": "gear",
@@ -1419,12 +1420,13 @@
    "card_title": "Sleeping bags and quilts",
    "label": "Sleep",
    "card_type": "E category tile",
-   "aspect_master": "3:4 (1200x1600)",
+   "aspect_master": "16:9 (1280x720)",
+   "focal": "28% 42%",
    "image": "/images/gear/sleep.jpg",
    "status": "generate",
-   "alt": "Macro of down baffles on a sleeping bag with frost crystals",
-   "scene": "macro of down baffles on a sleeping bag with frost crystals",
-   "extra": "Tall macro texture tile, darker bottom 35% for overlaid category name."
+   "alt": "A frosted grey sleeping bag unzipped on a pad inside a tent",
+   "scene": "a grey down sleeping bag unzipped on a pad just inside a tent door, light frost on the baffles, bag large in the left half",
+   "extra": "Wide 16:9 landscape. Subject vertically centered in the left half. Quiet tent floor on the right. Unbranded."
   },
   {
    "hub": "gear",
@@ -1432,12 +1434,13 @@
    "card_title": "Sleeping pads",
    "label": "Pads",
    "card_type": "E category tile",
-   "aspect_master": "3:4 (1200x1600)",
+   "aspect_master": "16:9 (1280x720)",
+   "focal": "28% 42%",
    "image": "/images/gear/pads.jpg",
    "status": "generate",
-   "alt": "Macro of an air pad valve and baffles on a cold tent floor",
-   "scene": "macro of an air pad valve and baffles on a cold tent floor",
-   "extra": "Tall macro texture tile, darker bottom 35% for overlaid category name."
+   "alt": "An inflated grey air pad with a round valve on a tent floor",
+   "scene": "an inflated grey air sleeping pad with a round valve on a tent floor, baffles and valve large in the left half",
+   "extra": "Wide 16:9 landscape. Subject vertically centered in the left half. Quiet floor on the right. Unbranded."
   },
   {
    "hub": "gear",
@@ -1445,12 +1448,13 @@
    "card_title": "Backpacks",
    "label": "Packs",
    "card_type": "E category tile",
-   "aspect_master": "3:4 (1200x1600)",
+   "aspect_master": "16:9 (1280x720)",
+   "focal": "28% 42%",
    "image": "/images/gear/packs.jpg",
    "status": "generate",
-   "alt": "Macro of a backpack hip-belt buckle and frame sheet edge",
-   "scene": "macro of a backpack hip-belt buckle and frame sheet edge",
-   "extra": "Tall macro texture tile, darker bottom 35% for overlaid category name."
+   "alt": "A plain grey hiking backpack standing on trailhead gravel",
+   "scene": "a plain grey hiking backpack standing on trailhead gravel in the left third, hipbelt buckle visible",
+   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet gravel and trees on the right. Unbranded."
   },
   {
    "hub": "gear",
@@ -1458,12 +1462,13 @@
    "card_title": "Hiking footwear",
    "label": "Footwear",
    "card_type": "E category tile",
-   "aspect_master": "3:4 (1200x1600)",
+   "aspect_master": "16:9 (1280x720)",
+   "focal": "28% 42%",
    "image": "/images/gear/footwear.jpg",
    "status": "generate",
-   "alt": "Macro of a lugged hiking sole on wet rock",
-   "scene": "macro of a lugged hiking sole on wet rock",
-   "extra": "Tall macro texture tile, darker bottom 35% for overlaid category name."
+   "alt": "A pair of plain hiking boots with deep lugs on wet rock",
+   "scene": "a pair of plain brown-grey hiking boots with deep lugs standing on wet granite in the left third",
+   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet wet stone on the right. Unmarked."
   },
   {
    "hub": "gear",
@@ -1471,12 +1476,13 @@
    "card_title": "Rain shells",
    "label": "Rain",
    "card_type": "E category tile",
-   "aspect_master": "3:4 (1200x1600)",
+   "aspect_master": "16:9 (1280x720)",
+   "focal": "28% 42%",
    "image": "/images/gear/shells.jpg",
    "status": "generate",
-   "alt": "Macro of rain beading on a matte shell fabric",
-   "scene": "macro of rain beading on a matte shell fabric",
-   "extra": "Tall macro texture tile, darker bottom 35% for overlaid category name."
+   "alt": "A matte grey rain shell hanging from a branch in the rain",
+   "scene": "a matte grey rain shell hanging open from a branch in the left third, rain beading on the fabric, hood empty",
+   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet wet forest on the right. Unbranded."
   },
   {
    "hub": "gear",
@@ -1484,12 +1490,13 @@
    "card_title": "Stoves",
    "label": "Stoves",
    "card_type": "E category tile",
-   "aspect_master": "3:4 (1200x1600)",
+   "aspect_master": "16:9 (1280x720)",
+   "focal": "28% 42%",
    "image": "/images/gear/stoves.jpg",
    "status": "generate",
-   "alt": "Macro of a small blue flame on a canister stove burner head",
-   "scene": "macro of a small blue flame on a canister stove burner head",
-   "extra": "Tall macro texture tile, darker bottom 35% for overlaid category name."
+   "alt": "A canister stove with a blue flame and a metal pot on a rock",
+   "scene": "a canister stove with a short blue flame under a metal pot on a flat rock in the left third",
+   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet stone and grass on the right. Unmarked."
   },
   {
    "hub": "gear",
@@ -1497,12 +1504,13 @@
    "card_title": "Headlamps",
    "label": "Lights",
    "card_type": "E category tile",
-   "aspect_master": "3:4 (1200x1600)",
+   "aspect_master": "16:9 (1280x720)",
+   "focal": "28% 42%",
    "image": "/images/gear/lighting.jpg",
    "status": "generate",
-   "alt": "A headlamp beam cutting through mist in a dark forest",
-   "scene": "a headlamp beam cutting through mist in a dark forest",
-   "extra": "Tall macro texture tile, darker bottom 35% for overlaid category name."
+   "alt": "A plain headlamp on a damp log with its beam in the mist",
+   "scene": "a plain grey headlamp with a blank face resting on a damp log in the left third, beam in misty trees",
+   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet foggy forest on the right. No letters."
   },
   {
    "hub": "gear",
@@ -1510,12 +1518,13 @@
    "card_title": "Water treatment",
    "label": "Water",
    "card_type": "E category tile",
-   "aspect_master": "3:4 (1200x1600)",
+   "aspect_master": "16:9 (1280x720)",
+   "focal": "28% 42%",
    "image": "/images/gear/water.jpg",
    "status": "generate",
-   "alt": "A hollow-fiber filter dripping clean water above a stream",
-   "scene": "a hollow-fiber filter dripping clean water above a stream",
-   "extra": "Tall macro texture tile, darker bottom 35% for overlaid category name."
+   "alt": "A squeeze filter on a soft flask dripping into a metal cup",
+   "scene": "a short unmarked squeeze filter on a soft flask dripping into a metal cup on creek stones in the left third",
+   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet wet cobbles on the right. No letters."
   },
   {
    "hub": "gear",
@@ -1523,12 +1532,13 @@
    "card_title": "Insulation layers",
    "label": "Layers",
    "card_type": "E category tile",
-   "aspect_master": "3:4 (1200x1600)",
+   "aspect_master": "16:9 (1280x720)",
+   "focal": "28% 42%",
    "image": "/images/gear/layers.jpg",
    "status": "generate",
-   "alt": "Macro of insulated puffy baffles with light snow",
-   "scene": "macro of insulated puffy baffles with light snow",
-   "extra": "Tall macro texture tile, darker bottom 35% for overlaid category name."
+   "alt": "A light grey baffled jacket with a little snow, laid on a rock",
+   "scene": "a light grey baffled insulated jacket laid on a rock in the left third, a few flakes of snow on the fabric",
+   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet snowy ground on the right. Unmarked."
   },
   {
    "hub": "gear",
@@ -1536,12 +1546,13 @@
    "card_title": "Trekking poles",
    "label": "Poles",
    "card_type": "E category tile",
-   "aspect_master": "3:4 (1200x1600)",
+   "aspect_master": "16:9 (1280x720)",
+   "focal": "28% 42%",
    "image": "/images/gear/poles.jpg",
    "status": "generate",
-   "alt": "Macro of a carbon trekking-pole tip planted in scree",
-   "scene": "macro of a carbon trekking-pole tip planted in scree",
-   "extra": "Tall macro texture tile, darker bottom 35% for overlaid category name."
+   "alt": "Two trekking poles with baskets planted in scree",
+   "scene": "two straight trekking poles with baskets planted in grey scree in the left third",
+   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet talus on the right. Unmarked."
   },
   {
    "hub": "gear",
@@ -1549,12 +1560,13 @@
    "card_title": "Car camping",
    "label": "Car camp",
    "card_type": "E category tile",
-   "aspect_master": "3:4 (1200x1600)",
+   "aspect_master": "16:9 (1280x720)",
+   "focal": "28% 42%",
    "image": "/images/gear/camp.jpg",
    "status": "generate",
-   "alt": "Enamel mugs and a percolator on a roll-top camp table, morning mist",
-   "scene": "enamel mugs and a percolator on a roll-top camp table, morning mist",
-   "extra": "Tall macro texture tile, darker bottom 35% for overlaid category name."
+   "alt": "Two enamel mugs and a percolator on a camp table in the mist",
+   "scene": "two pale enamel mugs and a steel percolator on a low camp table in the left half, misty evergreens on the right",
+   "extra": "Wide 16:9 landscape. Mugs light enough to read under a dark left gradient. Subject vertically centered. Unmarked."
   },
   {
    "hub": "gear",
@@ -1562,12 +1574,13 @@
    "card_title": "Hammocks and tarps",
    "label": "Hammocks",
    "card_type": "E category tile",
-   "aspect_master": "3:4 (1200x1600)",
+   "aspect_master": "16:9 (1280x720)",
+   "focal": "28% 42%",
    "image": "/images/gear/hammocks.jpg",
    "status": "generate",
-   "alt": "Macro of a hammock gathered end and wide strap on pine bark",
-   "scene": "macro of a hammock gathered end and wide strap on pine bark",
-   "extra": "Tall macro texture tile, darker bottom 35% for overlaid category name."
+   "alt": "A hammock gathered onto a wide strap around a pine",
+   "scene": "a wide olive strap and a gathered hammock end around a pine trunk in the left third, plain buckle",
+   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet forest floor on the right. No writing on the buckle."
   },
   {
    "hub": "gear",
@@ -1575,12 +1588,13 @@
    "card_title": "Socks and foot care",
    "label": "Socks",
    "card_type": "E category tile",
-   "aspect_master": "3:4 (1200x1600)",
+   "aspect_master": "16:9 (1280x720)",
+   "focal": "28% 42%",
    "image": "/images/gear/socks.jpg",
    "status": "generate",
-   "alt": "Macro of wool sock knit with trail dust",
-   "scene": "macro of wool sock knit with trail dust",
-   "extra": "Tall macro texture tile, darker bottom 35% for overlaid category name."
+   "alt": "Wool hiking socks and a plain boot on a rock",
+   "scene": "a pair of thick grey wool socks and a plain brown boot on a rock in the left third",
+   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet stone on the right. Unmarked."
   },
   {
    "hub": "gear",
@@ -1588,12 +1602,13 @@
    "card_title": "Base layers",
    "label": "Base layers",
    "card_type": "E category tile",
-   "aspect_master": "3:4 (1200x1600)",
+   "aspect_master": "16:9 (1280x720)",
+   "focal": "28% 42%",
    "image": "/images/gear/base.jpg",
    "status": "generate",
-   "alt": "Macro of merino fabric texture with sweat-dried salt lines",
-   "scene": "macro of merino fabric texture with sweat-dried salt lines",
-   "extra": "Tall macro texture tile, darker bottom 35% for overlaid category name."
+   "alt": "A folded heather merino shirt on a flat rock",
+   "scene": "a folded heather-grey merino shirt on a flat rock in the left third, plain cloth",
+   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet stone on the right. No print."
   },
   {
    "hub": "gear",
@@ -1601,12 +1616,13 @@
    "card_title": "First aid and repair",
    "label": "First aid",
    "card_type": "E category tile",
-   "aspect_master": "3:4 (1200x1600)",
+   "aspect_master": "16:9 (1280x720)",
+   "focal": "28% 42%",
    "image": "/images/gear/aid.jpg",
    "status": "generate",
-   "alt": "A roll of tape, gauze and scissors on a log",
-   "scene": "a roll of tape, gauze and scissors on a log",
-   "extra": "Tall macro texture tile, darker bottom 35% for overlaid category name."
+   "alt": "Tape, gauze, and scissors on a weathered log",
+   "scene": "a roll of plain beige tape, a gauze pad, and scissors on a log in the left third",
+   "extra": "Wide 16:9 landscape. Subject vertically centered and light enough to read in the left 40 percent. Quiet log on the right. No printing."
   },
   {
    "hub": "gear",
@@ -1614,12 +1630,13 @@
    "card_title": "Navigation and communication",
    "label": "Navigation",
    "card_type": "E category tile",
-   "aspect_master": "3:4 (1200x1600)",
+   "aspect_master": "16:9 (1280x720)",
+   "focal": "28% 42%",
    "image": "/images/gear/nav.jpg",
    "status": "generate",
-   "alt": "Macro of a compass needle over a topo map, lines soft and unreadable",
-   "scene": "macro of a compass needle over a topo map, lines soft and unreadable",
-   "extra": "Tall macro texture tile, darker bottom 35% for overlaid category name."
+   "alt": "A compass with a blank dial on a contour map",
+   "scene": "a baseplate compass with a blank dial on a contour map in the left third, map lines only, no words",
+   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet map on the right. No numbers or letters."
   },
   {
    "hub": "gear",
@@ -1640,12 +1657,13 @@
    "card_title": "Traction and gaiters",
    "label": "Traction",
    "card_type": "E category tile",
-   "aspect_master": "3:4 (1200x1600)",
+   "aspect_master": "16:9 (1280x720)",
+   "focal": "28% 42%",
    "image": "/images/gear/traction.jpg",
    "status": "generate",
-   "alt": "Macro of chain spikes biting into trail ice",
-   "scene": "macro of chain spikes biting into trail ice",
-   "extra": "Tall macro texture tile, darker bottom 35% for overlaid category name."
+   "alt": "Chain microspikes on trail ice",
+   "scene": "a pair of steel chain microspikes on trail ice in the left third",
+   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet icy gravel on the right. No logos."
   },
   {
    "hub": "gear",
@@ -1653,12 +1671,13 @@
    "card_title": "Family and kids",
    "label": "Family",
    "card_type": "E category tile",
-   "aspect_master": "3:4 (1200x1600)",
+   "aspect_master": "16:9 (1280x720)",
+   "focal": "28% 70%",
    "image": "/images/gear/family.jpg",
    "status": "generate",
-   "alt": "Small and large boots side by side at a tent door",
-   "scene": "small and large boots side by side at a tent door",
-   "extra": "Tall macro texture tile, darker bottom 35% for overlaid category name."
+   "alt": "A small boot and larger boots side by side at an open tent door",
+   "scene": "a small hiking boot and larger hiking boots side by side at an open tent door, boots fully in frame in the left third",
+   "extra": "Wide 16:9 landscape. Boots vertically centered in the left 40 percent so a short band still shows them. Quiet moss on the right. Unbranded."
   },
   {
    "hub": "learn",
