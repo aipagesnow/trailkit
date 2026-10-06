@@ -71,16 +71,27 @@ export function FieldCard({
 }) {
   const top = getProduct(roundup.productSlugs[0]);
   const tag = roundup.kicker.replace(/^Roundup · /i, "ROUNDUP · ").toUpperCase();
+  const picks = featured
+    ? roundup.productSlugs.map((slug) => getProduct(slug)).filter((p): p is Product => p != null).slice(0, 3)
+    : [];
   return (
     <a href={`/best/${roundup.slug}`} className={`tk-card group flex h-full flex-col bg-paper text-ink ${featured ? "md:col-span-2" : ""}`}>
-      <div className={`relative overflow-hidden ${featured ? "aspect-video" : "aspect-[4/3]"}`}>
+      <div className={`relative overflow-hidden ${featured ? "aspect-video md:aspect-auto md:min-h-72 md:flex-1" : "aspect-[4/3]"}`}>
         <TkImage route={`/best/${roundup.slug}`} priority={priority} fill sizes={featured ? "(min-width: 1024px) 60vw, 100vw" : "(min-width: 1024px) 30vw, 100vw"} />
         <span className="absolute top-2 left-2 bg-forest-deep px-2 py-1 font-mono text-[11px] tracking-widest text-on-forest">{tag}</span>
         <span className="absolute right-2 bottom-2 font-mono text-[11px] text-on-forest">{index}</span>
       </div>
-      <div className="flex flex-1 flex-col gap-1 p-3">
+      <div className={featured ? "flex flex-col gap-1 p-3" : "flex flex-1 flex-col gap-1 p-3"}>
         <span className={`font-display leading-tight ${featured ? "text-3xl" : "text-[22px]"}`}>{roundup.h1}</span>
-        <span className="line-clamp-2 text-sm text-muted">{roundup.answer}</span>
+        <span className={featured ? "line-clamp-3 text-sm text-muted md:text-base" : "line-clamp-2 text-sm text-muted"}>{roundup.answer}</span>
+        {featured ? (
+          <span className="mt-2 hidden flex-wrap gap-1 md:flex">
+            <span className="py-0.5 pr-1 font-mono text-[11px] tracking-widest uppercase">On this page</span>
+            {picks.map((pick) => (
+              <span key={pick.slug} className="border border-line px-1.5 py-0.5 font-mono text-[11px] uppercase">{pick.name}</span>
+            ))}
+          </span>
+        ) : null}
       </div>
       <p className="border-t border-line px-3 py-2 font-mono text-[11px] tracking-wide break-words text-muted uppercase">
         {roundup.productSlugs.length} picks · updated {UPDATED_MONO} · top pick <span className="text-ink">{top?.name ?? "see page"}</span>
@@ -93,16 +104,38 @@ export function GuideCard({
   guide,
   featured = false,
   priority = false,
+  tile = false,
+  stretch = false,
 }: {
   guide: Guide;
   featured?: boolean;
   priority?: boolean;
+  tile?: boolean;
+  stretch?: boolean;
 }) {
   const money = linksFor(guide.related).find((link) => link.kind === "Roundup") ?? linksFor(guide.related)[0];
   const mins = guide.sections.length > 4 ? 8 : 6;
+  if (tile) {
+    const tag = guide.kicker.replace(/^Guide · /i, "GUIDE · ").toUpperCase();
+    return (
+      <a href={`/guides/${guide.slug}`} className="tk-card group flex h-full flex-col bg-paper text-ink">
+        <div className="relative aspect-[4/3] overflow-hidden">
+          <TkImage route={`/guides/${guide.slug}`} priority={priority} fill sizes="(min-width: 1024px) 30vw, 100vw" />
+          <span className="absolute top-2 left-2 bg-forest-deep px-2 py-1 font-mono text-[11px] tracking-widest text-on-forest">{tag}</span>
+        </div>
+        <div className="flex flex-1 flex-col gap-1 p-3">
+          <span className="font-display text-[22px] leading-tight">{guide.h1}</span>
+          <span className="line-clamp-2 text-sm text-muted">{guide.description}</span>
+        </div>
+        <p className="border-t border-line px-3 py-2 font-mono text-[11px] tracking-wide break-words text-muted uppercase">
+          Guide · {mins} min{money ? <> · leads to <span className="text-ink">{money.label}</span></> : null}
+        </p>
+      </a>
+    );
+  }
   if (featured) {
     return (
-      <a href={`/guides/${guide.slug}`} className="tk-card group relative block aspect-video overflow-hidden text-on-forest">
+      <a href={`/guides/${guide.slug}`} className={`tk-card group relative block aspect-video overflow-hidden text-on-forest${stretch ? " lg:aspect-auto lg:h-full lg:min-h-80" : ""}`}>
         <TkImage route={`/guides/${guide.slug}`} priority={priority} fill sizes="(min-width: 1024px) 50vw, 100vw" />
         <span className="absolute inset-0 bg-gradient-to-t from-forest-deep via-forest-deep/20 to-transparent" />
         <span className="absolute right-3 bottom-3 left-3">
@@ -268,8 +301,10 @@ export function NotePlate({
         <span className="font-mono text-[11px] tracking-widest uppercase">Field note {index}</span>
         <span className="font-display text-xl leading-tight">{note.h1}</span>
         <span className="line-clamp-2 text-sm text-muted">{note.description}</span>
-        {used ? <span className="mt-auto pt-2 font-mono text-[11px] uppercase opacity-0 transition-opacity group-hover:opacity-100">Used in → {used.label}</span> : null}
       </span>
+      {used ? (
+        <span className="border-t border-line px-3 py-2 font-mono text-[11px] tracking-wide break-words text-muted uppercase">Used in → <span className="text-ink">{used.label}</span></span>
+      ) : null}
     </a>
   );
 }

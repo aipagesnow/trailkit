@@ -35,7 +35,7 @@ function GuidesIndex() {
       />
       <div className="mx-auto max-w-6xl space-y-10 px-4 py-10">
         <div className="grid gap-3 lg:grid-cols-2">
-          {feature ? <GuideCard guide={feature} featured priority /> : null}
+          {feature ? <GuideCard guide={feature} featured stretch priority /> : null}
           <div className="grid gap-3">
             {overlays.map((guide) => (
               <GuideCard key={guide.slug} guide={guide} featured />

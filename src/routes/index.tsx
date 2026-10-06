@@ -87,7 +87,7 @@ function Home() {
             </div>
           </div>
           <div className="mt-3 grid gap-3 md:grid-cols-3">
-            {overnight ? <GuideCard guide={overnight} /> : null}
+            {overnight ? <GuideCard guide={overnight} tile /> : null}
             {row.map((roundup, i) => (
               <FieldCard key={roundup.slug} roundup={roundup} index={`R-0${i + 4}`} />
             ))}
@@ -95,7 +95,7 @@ function Home() {
         </section>
         <section>
           <h2 className="text-3xl">Categories</h2>
-          <div className="mt-4 grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-5">
+          <div className="mt-4 grid grid-cols-2 gap-3 md:grid-cols-4 xl:grid-cols-5">
             {categories.map((category, i) => (
               <CategoryTile
                 key={category.slug}
@@ -129,7 +129,7 @@ function Home() {
         <section>
           <h2 className="text-3xl">Guides</h2>
           <div className="mt-4 grid gap-3 lg:grid-cols-2">
-            {overnight ? <GuideCard guide={overnight} featured /> : null}
+            {overnight ? <GuideCard guide={overnight} featured stretch /> : null}
             <div className="grid gap-3">
               {guides.map((guide) => (
                 <GuideCard key={guide.slug} guide={guide} />
