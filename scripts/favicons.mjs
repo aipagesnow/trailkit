@@ -15,10 +15,11 @@ async function png(size, file, pad = 0) {
     .toFile(file);
 }
 
-await png(32, "public/favicon-32.png", 2);
+await sharp(svg).resize(32, 32).png().toFile("public/favicon-32.png");
 await png(180, "public/apple-touch-icon.png", 24);
 await png(512, "public/icon-512.png", 64);
-await png(512, "public/icon-512-maskable.png", 96);
+// Tile fills the canvas. The blazes already sit inside the maskable safe zone.
+await png(512, "public/icon-512-maskable.png", 0);
 
 function ico(png16, png32) {
   const count = 2;
@@ -49,29 +50,32 @@ const png16 = await sharp(svg).resize(16, 16).png().toBuffer();
 const png32 = await sharp("public/favicon-32.png").png().toBuffer();
 writeFileSync("public/favicon.ico", ico(png16, png32));
 
-const fontFile = path.resolve("scripts/fonts/IBMPlexSansCondensed-SemiBold.ttf").replaceAll("\\", "/");
+const fontFile = path.resolve("scripts/fonts/IBMPlexSansCondensed-SemiBold.ttf");
 const fontSize = 132;
-const wordSvg = Buffer.from(`<svg width="1400" height="400" xmlns="http://www.w3.org/2000/svg">
-  <defs><style>@font-face { font-family: "Plex"; src: url("file:///${fontFile}"); font-weight: 600; }</style></defs>
-  <text x="0" y="260" fill="#f7f6f2" font-family="Plex" font-size="${fontSize}" font-weight="600" letter-spacing="-2">Trailkit</text>
-</svg>`);
-const word = await sharp(wordSvg).png().toBuffer();
+const word = await sharp({
+  text: {
+    text: `<span foreground="#f7f6f2" size="${fontSize * 1024}" letter_spacing="${Math.round(-0.025 * fontSize * 1024)}">Trailkit</span>`,
+    font: "IBM Plex Sans Condensed",
+    fontfile: fontFile,
+    rgba: true,
+    dpi: 72,
+  },
+}).png().toBuffer();
 const trimmed = await sharp(word).trim().png().toBuffer();
 const wordMeta = await sharp(trimmed).metadata();
 const cap = wordMeta.height ?? fontSize;
 const textW = wordMeta.width ?? 600;
-const inkTop = 2.5;
-const inkH = 27;
-const scale = cap / inkH;
+const scale = cap / 32;
 const markW = 32 * scale;
 const gap = Math.round(fontSize * 0.2);
 const groupW = markW + gap + textW;
 const x0 = Math.round((1200 - groupW) / 2);
 const y0 = Math.round((630 - cap) / 2);
-const mark = await sharp(svg).resize(Math.round(markW), Math.round(32 * scale)).png().toBuffer();
+const ogMark = Buffer.from(svg.toString("utf8").replaceAll("#1d2326", "#2a3236"));
+const mark = await sharp(ogMark).resize(Math.round(markW), Math.round(32 * scale)).png().toBuffer();
 await sharp({ create: { width: 1200, height: 630, channels: 3, background: "#1d2326" } })
   .composite([
-    { input: mark, left: x0, top: Math.round(y0 - inkTop * scale) },
+    { input: mark, left: x0, top: y0 },
     { input: trimmed, left: Math.round(x0 + markW + gap), top: y0 },
   ])
   .jpeg({ quality: 82, mozjpeg: true })

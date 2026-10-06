@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Trailkit">
-  <path fill="#f7f6f2" d="M8 2.5 15 16 8 29.5 1 16Z"/>
-  <path fill="#1d2326" d="M8 7 12.2 16 8 25 3.8 16Z"/>
-  <path fill="#ff5a1f" d="M12 6.2 31.2 16 12 25.8 16.2 25.8 25.4 16 16.2 6.2Z"/>
-  <path fill="#f7f6f2" d="M17.6 12 22.2 16 17.6 20 19.3 20 23.9 16 19.3 12Z"/>
+  <path fill="#1d2326" d="M7 0H25A7 7 0 0 1 32 7V25A7 7 0 0 1 25 32H7A7 7 0 0 1 0 25V7A7 7 0 0 1 7 0Z"/>
+  <path fill="#ff5a1f" d="M14 4h6v10h-6Z"/>
+  <path fill="#ff5a1f" d="M10 16h6v10h-6Z"/>
 </svg>

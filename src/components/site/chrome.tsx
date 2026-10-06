@@ -13,13 +13,12 @@ const links = [
   { to: "/browse", label: "All gear" },
 ] as const;
 
-function Mark({ className = "h-[0.72em] w-[0.72em] shrink-0" }: { className?: string }) {
+function Mark({ className = "h-[0.9em] w-[0.9em] shrink-0" }: { className?: string }) {
   return (
     <svg viewBox="0 0 32 32" className={className} aria-hidden>
-      <path fill="#f7f6f2" d="M8 2.5 15 16 8 29.5 1 16Z" />
-      <path fill="#1d2326" d="M8 7 12.2 16 8 25 3.8 16Z" />
-      <path fill="#ff5a1f" d="M12 6.2 31.2 16 12 25.8 16.2 25.8 25.4 16 16.2 6.2Z" />
-      <path fill="#f7f6f2" d="M17.6 12 22.2 16 17.6 20 19.3 20 23.9 16 19.3 12Z" />
+      <path fill="#2a3236" d="M7 0H25A7 7 0 0 1 32 7V25A7 7 0 0 1 25 32H7A7 7 0 0 1 0 25V7A7 7 0 0 1 7 0Z" />
+      <path fill="#ff5a1f" d="M14 4h6v10h-6Z" />
+      <path fill="#ff5a1f" d="M10 16h6v10h-6Z" />
     </svg>
   );
 }
@@ -42,7 +41,7 @@ function Header() {
   return (
     <header className="border-b border-line bg-forest-deep text-on-forest">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-2">
-        <Link to="/" className="inline-flex min-w-0 items-center gap-2 font-display text-2xl font-semibold tracking-tight text-on-forest">
+        <Link to="/" className="inline-flex min-w-0 items-baseline gap-1.5 font-display text-2xl font-semibold tracking-tight text-on-forest">
           <Mark />
           {BRAND}
         </Link>
@@ -119,7 +118,7 @@ function Footer() {
     <footer className="mt-16 bg-forest-deep text-on-forest">
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 md:grid-cols-3">
         <div>
-          <p className="inline-flex items-center gap-2 font-display text-xl">
+          <p className="inline-flex items-baseline gap-1.5 font-display text-xl">
             <Mark />
             {BRAND}
           </p>
