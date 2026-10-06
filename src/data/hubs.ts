@@ -82,34 +82,44 @@ export const LEARN_SECTIONS: { id: string; label: string; slugs: string[] }[] = 
 ];
 
 export const INTENT_PAIRS: Record<string, { href: string; label: string; note: string }> = {
-  "trail-shoes": {
-    href: "/best/trail-runners",
-    label: "Best trail runners for hiking",
-    note: "This page is the wide toe-box cut. The other list is the general trail-runner roundup.",
+  "backpacking-tents": {
+    href: "/best/budget-tents",
+    label: "Best budget backpacking tents",
+    note: "If price comes first, the budget page keeps every pick in the Budget to Mid price bands.",
   },
-  "trail-runners": {
-    href: "/best/trail-shoes",
-    label: "Best wide toe box trail shoes",
-    note: "If the toe box is the constraint, use the wide toe-box page instead of this general list.",
+  "budget-tents": {
+    href: "/best/backpacking-tents",
+    label: "Best backpacking tents",
+    note: "If weight or wet-weather performance matters more than price, the main page has the lighter Upper mid tents.",
   },
-  "canister-stoves-picks": {
-    href: "/best/camping-stoves",
-    label: "Best camping stoves",
-    note: "This page sorts canister stoves by job. The camping-stoves roundup includes liquid fuel and car-camp burners.",
-  },
-  "camping-stoves": {
-    href: "/best/canister-stoves-picks",
-    label: "Canister stoves by job",
-    note: "If you already know you want a canister, the by-job page is the shorter list.",
+  "rain-jackets-under-150": {
+    href: "/best/budget-rain-shells",
+    label: "Best cheap rain jackets for backup and short hikes",
+    note: "If you only need a spare for the car or a cheap jacket for short hikes, use the backup page.",
   },
   "budget-rain-shells": {
     href: "/best/rain-jackets-under-150",
     label: "Best rain jackets under $150",
-    note: "These are the cheaper backups. The under-$150 page is the jacket you hike in.",
+    note: "These are spares and short-trip jackets. For a jacket you hike in all day, use the under-$150 page.",
   },
-  "rain-jackets-under-150": {
-    href: "/best/budget-rain-shells",
-    label: "Cheap backup rain shells",
-    note: "A spare emergency shell lives on the backup page, not in this under-$150 list.",
+  "trail-runners": {
+    href: "/best/trail-shoes",
+    label: "Best wide toe box trail shoes",
+    note: "If your toes need room, the wide toe-box page covers the Altra Lone Peak and the Topo Ultraventure.",
+  },
+  "trail-shoes": {
+    href: "/best/trail-runners",
+    label: "Best trail runners for hiking",
+    note: "This page is only for wide and foot-shaped toe boxes. For cushion, rocky trail, or a low hiking shoe, use the general list.",
+  },
+  "camping-stoves": {
+    href: "/best/canister-stoves-picks",
+    label: "Best canister stoves for backpacking",
+    note: "If you backpack in three seasons and already know you want a canister stove, use the backpacking page.",
+  },
+  "canister-stoves-picks": {
+    href: "/best/camping-stoves",
+    label: "Best camping stoves",
+    note: "This page covers light canister stoves for backpacking. For car camping, liquid fuel in the cold, or a boil system, use the camping stoves page.",
   },
 };

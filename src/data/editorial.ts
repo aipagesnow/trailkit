@@ -7,14 +7,14 @@ export const roundups: Roundup[] = [
   {
     slug: "backpacking-tents",
     title: "Best Backpacking Tents",
-    description: "Best backpacking tents by pitch style: freestanding Copper Spur, trekking-pole X-Mid, wet-weather Dragonfly, and a livable first tent.",
+    description: "Best two-person backpacking tents by pitch style: freestanding Copper Spur, trekking-pole X-Mid, wet-weather Dragonfly, Hubba Hubba, and a livable first tent.",
     h1: "Best backpacking tents",
     kicker: "Roundup · Shelters",
     category: "tents",
     answer:
       "For most two-person trips, buy a freestanding double-wall tent if you camp on platforms or rock, and a trekking-pole tent if you already carry poles and can stake. The Big Agnes Copper Spur UL2 is the default freestanding pick. The Durston X-Mid 2 is the default trekking-pole pick. A first weekend under eight miles can honestly use the heavier Half Dome 2 Plus.",
     who: "Beginners who want a tent that stands before it is staked, and experienced hikers shaving weight on a two- to five-night route. Not a four-season mountaineering guide.",
-    productSlugs: ["copper-spur-ul2", "x-mid-2", "dragonfly-osmo-2", "half-dome-2-plus", "lunar-solo", "hubba-hubba-2"],
+    productSlugs: ["copper-spur-ul2", "x-mid-2", "dragonfly-osmo-2", "hubba-hubba-2", "tiger-wall-ul2", "half-dome-2-plus"],
     one: "Buy the Copper Spur UL2 if you want one tent that works on platforms and dirt. Buy the X-Mid 2 only if you already use trekking poles and will practice the pitch.",
     faqs: [
       { q: "Is a freestanding tent worth the weight?", a: "Yes on platforms, slabs, or sites where stakes fail. No if every camp is soft soil and you already carry poles." },
@@ -48,15 +48,15 @@ export const roundups: Roundup[] = [
   {
     slug: "budget-tents",
     title: "Best Budget Backpacking Tents",
-    description: "Budget backpacking tents that are still real shelters: Half Dome 2 Plus and Lunar Solo, and what not to cheap out on.",
+    description: "Budget backpacking tents in the Budget to Mid price bands: REI Half Dome 2 Plus, MSR Elixir 2, Six Moon Lunar Solo, and the REI Passage 2.",
     h1: "Best budget backpacking tents",
     kicker: "Roundup · Shelters",
     category: "tents",
     answer:
-      "Cheap out on a sit pad, not on a storm shelter. In this catalog the honest budget backpacking tents are the REI Half Dome 2 Plus for a first freestanding weekend and the Lunar Solo for a solo hiker who accepts single-wall condensation. A sub-$50 tent is a different object.",
-    who: "New campers spending carefully, and solo hikers who do not need a flagship freestanding tent.",
-    productSlugs: ["half-dome-2-plus", "lunar-solo", "hubba-hubba-2"],
-    one: "Buy the Half Dome 2 Plus if you are new. Buy the Lunar Solo only if you hike alone and will vent it.",
+      "Every pick here sits in the Budget to Mid price bands. The lighter Upper mid tents are on the main backpacking tents page. The REI Co-op Half Dome 2 Plus is the roomy first freestanding tent for short weekends. The MSR Elixir 2 is the simple freestanding alternative at about 5 lb. The Six Moon Designs Lunar Solo is the light budget pick for one hiker who accepts single-wall condensation. The REI Co-op Passage 2 is the cheapest real tent here, for first nights close to the car. Cheap out on a sit pad, not on a storm shelter.",
+    who: "New campers spending carefully, pairs who accept extra weight for a lower price, and solo hikers who do not need a flagship tent.",
+    productSlugs: ["half-dome-2-plus", "msr-elixir-2", "lunar-solo", "rei-passage-2"],
+    one: "Buy the Half Dome 2 Plus if you are new. Buy the Elixir 2 if you want a freestanding tent with a simple pitch. Buy the Lunar Solo only if you hike alone and will vent it.",
     faqs: [
       { q: "Are department-store tents fine?", a: "For a backyard or a fair-weather car camp, sometimes. For a windy backpacking night, buy a tent with a backpacking reputation." },
       { q: "Is heavier always cheaper?", a: "Often, and on a short weekend that is a good trade. On a long climb it is not." },
@@ -121,24 +121,24 @@ export const roundups: Roundup[] = [
       { q: "Boot or shoe?", a: "Shoe if the trail is moderate and your ankles are fine. Boot if you roll ankles or carry a heavy pack." },
       { q: "Is a wide toe box the same as 2E?", a: "No. A foot-shaped last can be wide at the toes and still narrow at the heel." },
     ],
-    related: ["trail-runners", "boot-fit", "rain-jackets-under-150"],
+    related: ["trail-shoes", "boot-fit", "rain-jackets-under-150"],
     method,
   },
   {
     slug: "trail-runners",
     title: "Best Trail Runners for Hiking",
-    description: "Trail runners that work as hiking shoes: Altra Lone Peak and Hoka Speedgoat, and when a boot is still the right call.",
+    description: "Trail runners and light hiking shoes for maintained trail: Hoka Speedgoat for cushion, La Sportiva Ultra Raptor for rock, and the Danner Trail 2650.",
     h1: "Best trail runners for hiking",
     kicker: "Roundup · Footwear",
     category: "footwear",
     answer:
-      "A trail runner is the right hike shoe on moderate trail if your ankles are stable. The Lone Peak is the wide, zero-drop answer. The Speedgoat is the max-cushion answer. Switch back to a boot when you roll ankles, carry a heavy pack, or walk off-trail on loose rock.",
+      "A trail runner is the right hiking shoe on moderate trail if your ankles are stable. The Hoka Speedgoat is the max-cushion pick for long days. The La Sportiva Ultra Raptor is the pick for rocky trail and a heel that holds. The Danner Trail 2650 is the low hiking shoe for day hikes and travel days. Switch back to a boot when you roll ankles, carry a heavy pack, or walk off-trail on loose rock.",
     who: "Day hikers and light overnight hikers on maintained trail.",
-    productSlugs: ["lone-peak", "speedgoat", "targhee-iv"],
-    one: "Buy the Lone Peak if your toes need room. Buy the Speedgoat if your knees want cushion. Keep a boot if you are unsure about your ankles.",
+    productSlugs: ["speedgoat", "ultra-raptor", "trail-2650"],
+    one: "Buy the Speedgoat if your knees want cushion. Buy the Ultra Raptor if the trail is rocky and your feet are medium to narrow. Keep a boot if you are unsure about your ankles.",
     faqs: [
       { q: "Are trail runners waterproof?", a: "Most are not, and that is often better. A soaked membrane shoe dries slowly. Use gaiters and wool socks in puddles." },
-      { q: "How long is zero-drop break-in?", a: "Two or three easy weeks. Do not start on a long descent." },
+      { q: "Are trail runners enough for backpacking?", a: "For many people, yes, under a moderate pack on maintained trail." },
     ],
     related: ["hiking-boots-wide-feet", "daypacks"],
     method,
@@ -204,22 +204,22 @@ export const roundups: Roundup[] = [
   },
   {
     slug: "camping-stoves",
-    title: "Best Camping Stoves",
-    description: "Best camping stoves: Soto WindMaster, PocketRocket, Jetboil, liquid fuel, a cheap backup, and a two-burner.",
+    title: "Best Camping Stoves by Trip Type",
+    description: "Camping stoves by trip: a Coleman two-burner for car camping, the WhisperLite for cold, MiniMo and Reactor boil systems, and the WindMaster for backpacking.",
     h1: "Best camping stoves",
     kicker: "Roundup · Kitchen",
     category: "stoves",
     answer:
-      "For backpacking, a wind-aware canister stove beats an integrated system unless you only boil water. The Soto WindMaster is the default. The Jetboil MiniMo is the boil-and-eat system. For car camping, ignore ounces and use a two-burner. Never run a stove in a tent.",
-    who: "Backpackers cooking for one or two, and car campers who need the split between trail and camp stoves.",
-    productSlugs: ["windmaster", "pocketrocket", "minimo", "brs-3000", "whisperlite", "coleman-2burner"],
-    one: "Buy the WindMaster and a simple pot if you backpack. Buy a two-burner if you only car camp.",
+      "Pick the stove by the trip. At a drive-up site, a two-burner such as the Coleman is the right tool, and ounces do not matter. For three-season backpacking, a canister stove such as the Soto WindMaster is the default. For cold trips or uncertain canister supply, the MSR WhisperLite runs on liquid fuel. If dinner is only boiling water, use an integrated system: the Jetboil MiniMo for coffee and freezer-bag meals, or the MSR Reactor for wind and cold. Never run a stove in a tent.",
+    who: "Campers deciding which kind of stove fits the trip: car camping, cold weather, or boil-only meals.",
+    productSlugs: ["coleman-2burner", "windmaster", "whisperlite", "minimo", "msr-reactor"],
+    one: "Buy a two-burner if you only car camp. Buy the WindMaster and a simple pot if you backpack in three seasons. Buy the WhisperLite only if you camp in the cold or travel where canisters are hard to find.",
     faqs: [
       { q: "Canister or liquid?", a: "Canister for three-season convenience. Liquid fuel for cold and uncertain supply." },
-      { q: "Is a windscreen safe?", a: "Only the one the stove maker allows. Trapping heat against a canister can be dangerous." },
-      { q: "How much fuel for a weekend?", a: "About one small canister for two people boiling twice a day. Real cooking uses more." },
+      { q: "Can I use a backpacking stove for car camping?", a: "For one or two people boiling water, yes. For group breakfasts, a two-burner is the better tool." },
+      { q: "Is an integrated system worth the weight?", a: "If you only boil water, often yes. If you cook real meals, a separate stove and pot is more flexible." },
     ],
-    related: ["car-camping-kitchen", "budget-under-50", "canister-vs-liquid"],
+    related: ["car-camping-kitchen", "canister-vs-liquid", "stove-safety"],
     method,
   },
   {
@@ -335,7 +335,7 @@ export const roundups: Roundup[] = [
       { q: "What should I never cheap out on?", a: "Shelter in bad weather, a sleep system for the real temperature, and footwear." },
       { q: "Is a $50 sleeping bag enough?", a: "For a warm summer car camp, maybe. For backpacking near freezing, no." },
     ],
-    related: ["camping-stoves", "budget-tents", "car-camping-kitchen"],
+    related: ["canister-stoves-picks", "budget-tents", "car-camping-kitchen"],
     method,
   },
   {
@@ -947,7 +947,7 @@ export const compares: Compare[] = [
     faqs: [
       { q: "Can I backpack in Lone Peaks?", a: "Many people do, on moderate trail, with a pack that is not huge. It is a bad idea if you roll ankles." },
     ],
-    related: ["hiking-boots-wide-feet", "boot-fit"],
+    related: ["hiking-boots-wide-feet", "trail-shoes", "boot-fit"],
   },
   {
     slug: "windmaster-vs-pocketrocket",
@@ -970,7 +970,7 @@ export const compares: Compare[] = [
     faqs: [
       { q: "Which boils faster?", a: "In a breeze, the WindMaster, because it stays lit. In a kitchen, the difference is not why you are buying." },
     ],
-    related: ["camping-stoves", "canister-vs-liquid"],
+    related: ["canister-stoves-picks", "canister-vs-liquid"],
   },
   {
     slug: "sawyer-vs-katadyn",

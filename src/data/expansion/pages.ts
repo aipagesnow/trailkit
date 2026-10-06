@@ -327,7 +327,7 @@ export const extraRoundups: Roundup[] = [
       }
     ],
     "related": [
-      "camping-stoves",
+      "canister-stoves-picks",
       "canister-vs-liquid",
       "car-camping-kitchen"
     ],
@@ -446,12 +446,12 @@ export const extraRoundups: Roundup[] = [
   },
   {
     "slug": "canister-stoves-picks",
-    "title": "Canister stoves by job",
-    "description": "Canister stoves sorted by job: WindMaster in wind, Amicus when you simmer, Jetboil when you only boil.",
-    "h1": "Canister stoves by job",
+    "title": "Best Canister Stoves for Backpacking",
+    "description": "Canister stoves for backpacking, sorted by job: WindMaster in wind, Amicus when you simmer, Jetboil Flash when you only boil, plus PocketRocket and BRS-3000T.",
+    "h1": "Best canister stoves for backpacking",
     "kicker": "Roundup · Stoves",
     "category": "stoves",
-    "answer": "Buy a Soto WindMaster if your sites are breezy and you still want a small stove. Buy a Soto Amicus if you simmer. Buy a Jetboil Flash if dinner is only boiling water. A PocketRocket is the calm-weather classic. A BRS-3000T is a backup, not a group stove.",
+    "answer": "For three-season backpacking, buy a Soto WindMaster if your sites are breezy and you still want a small stove. Buy a Soto Amicus if you simmer. Buy a Jetboil Flash if dinner is only boiling water. A PocketRocket Deluxe is the calm-weather classic. A BRS-3000T is a backup, not a group stove.",
     "who": "Three-season hikers using canisters. Not deep cold, where liquid fuel is the more honest tool.",
     "productSlugs": [
       "windmaster",
@@ -484,29 +484,27 @@ export const extraRoundups: Roundup[] = [
   },
   {
     "slug": "budget-rain-shells",
-    "title": "Cheap backup rain shells",
-    "description": "Cheap backup rain shells next to a real hiking jacket: REI Rainier, Marmot Precip, Columbia, and a Frogg Toggs spare.",
-    "h1": "Cheap backup rain shells",
+    "title": "Best Cheap Rain Jackets for Backup and Short Hikes",
+    "description": "Cheap rain jackets for the car, the day pack, and short hikes: Columbia Watertight II, a Frogg Toggs Ultra-Lite spare, and the Marmot PreCip Eco.",
+    "h1": "Best cheap rain jackets for backup and short hikes",
     "kicker": "Roundup · Rain",
     "category": "shells",
-    "answer": "Under a modest budget, buy a shell with a hood you can turn your head in. The REI Rainier and Marmot Precip are the usual hiking answers. A Columbia Watertight is fine for short trips. A Frogg Toggs is an emergency layer, not the jacket you hike in all week.",
-    "who": "Hikers who need rain gear before they need a premium membrane.",
+    "answer": "If you need a rain layer for short hikes, the car, or a spare in the day pack, a budget jacket does the job. The Columbia Watertight II is the everyday cheap jacket for commuter rain and short hikes. The Frogg Toggs Ultra-Lite is the emergency spare: about 10 oz, cheap, and not built to be lived in. The Marmot PreCip Eco is the step up if the cheap jacket will also see real trail. For a jacket you hike in all day, use the under-$150 page.",
+    "who": "Day hikers who want a spare in the pack or the car, and anyone who needs a basic rain jacket for short trips. Not a shell for a week of steady rain.",
     "productSlugs": [
-      "rainier",
-      "precip",
       "columbia-watertight",
       "frogg-toggs",
-      "torrentshell"
+      "precip"
     ],
-    "one": "Buy the Rainier or the Precip as the jacket you will actually hike in. Throw Frogg Toggs in the car as the spare.",
+    "one": "Buy the Columbia Watertight II if you want one cheap jacket for town and short hikes. Keep a Frogg Toggs in the car or the day pack as the spare.",
     "faqs": [
       {
         "q": "Will a cheap shell wet out?",
         "a": "Yes, sooner. That is DWR failure, not always a leak. Re-proof it, and move up when you live in rain."
       },
       {
-        "q": "Do I need pit zips?",
-        "a": "If you climb in weather, they matter more than a logo. Budget shells often skip them."
+        "q": "Can an emergency shell be my only rain jacket?",
+        "a": "On a short day hike close to the trailhead, yes. On an overnight or a long wet day, carry a jacket you can hike in."
       },
       {
         "q": "Is a shell insulation?",
@@ -515,31 +513,30 @@ export const extraRoundups: Roundup[] = [
     ],
     "related": [
       "rain-jackets-under-150",
-      "helium-vs-rainier",
-      "layering"
+      "dwr",
+      "day-hike"
     ],
     "method": "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy."
   },
   {
     "slug": "trail-shoes",
-    "title": "Best wide toe box trail shoes",
-    "description": "Wide toe box trail shoes when a boot is too much: Topo Ultraventure, Altra Lone Peak, and Hoka Speedgoat.",
+    "title": "Best Wide Toe Box Trail Shoes for Hiking",
+    "description": "Wide toe box trail shoes for hiking: Topo Ultraventure, Altra Lone Peak, and the wide Hoka Speedgoat, for toes that rub in a standard shoe.",
     "h1": "Best wide toe box trail shoes",
     "kicker": "Roundup · Footwear",
     "category": "footwear",
-    "answer": "Use a trail shoe when your ankles are stable and the pack is moderate. The Topo Ultraventure is the roomy, cushioned default that is not zero-drop. The Altra Lone Peak is the wide zero-drop shoe. The Hoka Speedgoat is the cushioned shoe with a more standard toe.",
-    "who": "Day hikers and light-pack backpackers. Not a heavy pack on loose talus if your ankles roll.",
+    "answer": "If your toes are the problem, buy a trail shoe with a wide or foot-shaped toe box, not a longer size. The Topo Athletic Ultraventure is the roomy, cushioned default that is not zero-drop. The Altra Lone Peak is the foot-shaped, zero-drop shoe, and it needs a break-in period. The Hoka Speedgoat comes in a wide version if you want max cushion with more room than the standard toe.",
+    "who": "Hikers whose toes rub or go numb in standard trail shoes, on moderate trail with a light pack. Not a heavy pack on loose talus if your ankles roll.",
     "productSlugs": [
       "topo-ultraventure",
       "lone-peak",
-      "speedgoat",
-      "trail-2650"
+      "speedgoat"
     ],
     "one": "If you want width without a zero-drop transition, buy the Ultraventure. If you already like zero drop and a wide toe, stay with the Lone Peak.",
     "faqs": [
       {
-        "q": "Are trail runners enough for backpacking?",
-        "a": "For many people, yes, under a moderate pack on maintained trail."
+        "q": "Is the Speedgoat a wide shoe?",
+        "a": "The standard Speedgoat has a more standard toe. Hoka also makes a wide version, and that is the one this page means."
       },
       {
         "q": "What if my ankles roll?",
@@ -1329,7 +1326,7 @@ export const extraGuides: Guide[] = [
     "related": [
       "how-much-water",
       "water-carry",
-      "trail-shoes"
+      "trail-runners"
     ]
   },
   {

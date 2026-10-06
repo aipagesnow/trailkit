@@ -519,7 +519,7 @@
   {
    "hub": "best",
    "route": "/best/canister-stoves-picks",
-   "card_title": "Best canister camping stoves",
+   "card_title": "Best canister stoves for backpacking",
    "label": "Roundup · Stoves",
    "card_type": "A field card",
    "aspect_master": "3:2 (1800x1200)",
@@ -532,7 +532,7 @@
   {
    "hub": "best",
    "route": "/best/budget-rain-shells",
-   "card_title": "Best budget rain jackets",
+   "card_title": "Best cheap rain jackets for backup and short hikes",
    "label": "Roundup · Rain",
    "card_type": "A field card",
    "aspect_master": "3:2 (1800x1200)",
@@ -545,7 +545,7 @@
   {
    "hub": "best",
    "route": "/best/trail-shoes",
-   "card_title": "Best trail runners for hiking",
+   "card_title": "Best wide toe box trail shoes",
    "label": "Roundup · Footwear",
    "card_type": "A field card",
    "aspect_master": "3:2 (1800x1200)",

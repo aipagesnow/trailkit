@@ -1016,7 +1016,7 @@ export const IMAGES: TkImageMeta[] = [
     "focal": "center 40%",
     "hub": "best",
     "label": "Roundup · Stoves",
-    "title": "Best canister camping stoves",
+    "title": "Best canister stoves for backpacking",
     "ready": true,
     "srcset": true,
     "widths": [
@@ -1041,7 +1041,7 @@ export const IMAGES: TkImageMeta[] = [
     "focal": "center 40%",
     "hub": "best",
     "label": "Roundup · Rain",
-    "title": "Best budget rain jackets",
+    "title": "Best cheap rain jackets for backup and short hikes",
     "ready": true,
     "srcset": true,
     "widths": [
@@ -1066,7 +1066,7 @@ export const IMAGES: TkImageMeta[] = [
     "focal": "center 40%",
     "hub": "best",
     "label": "Roundup · Footwear",
-    "title": "Best trail runners for hiking",
+    "title": "Best wide toe box trail shoes",
     "ready": true,
     "srcset": true,
     "widths": [
