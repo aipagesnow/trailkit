@@ -16,13 +16,28 @@ export const roundups: Roundup[] = [
     who: "Beginners who want a tent that stands before it is staked, and experienced hikers shaving weight on a two- to five-night route. Not a four-season mountaineering guide.",
     productSlugs: ["copper-spur-ul2", "x-mid-2", "dragonfly-osmo-2", "hubba-hubba-2", "tiger-wall-ul2", "half-dome-2-plus"],
     one: "Buy the Copper Spur UL2 if you want one tent that works on platforms and dirt. Buy the X-Mid 2 only if you already use trekking poles and will practice the pitch.",
+    quick: {
+      caption: "Quick answer: how heavy a backpacking tent should be",
+      lead: "There is no single right number. For a two-person tent shared by two, the lighter picks here weigh about 2 to 3 lb, or roughly 1 to 1.5 lb per person. Carry more weight when it buys a pitch that suits your sites, a roomier first tent, or a tent for windier trips.",
+      columns: ["Tent", "Published weight", "Shared by two, per person", "Why carry it"],
+      rows: [
+        ["Durston X-Mid 2", "About 2 lb", "About 1 lb", "Trekking-pole pitch, if you already carry two poles"],
+        ["Big Agnes Tiger Wall UL2", "About 2 lb 6 oz", "About 1 lb 3 oz", "Semi-freestanding; the foot still needs a stake"],
+        ["Big Agnes Copper Spur UL2", "About 2 lb 8 oz", "About 1 lb 4 oz", "Freestanding on platforms and dirt"],
+        ["NEMO Dragonfly OSMO 2P", "A bit over 2.5 lb", "A bit over 1 lb 4 oz", "Wet climates where nylon sag ruins the pitch"],
+        ["MSR Hubba Hubba 2", "Around 3 lb", "Around 1 lb 8 oz", "Windier three-season trips"],
+        ["REI Co-op Half Dome 2 Plus", "Heavier than UL tents", "More than the tents above", "A roomy first tent on short weekends"],
+      ],
+      note: "Weights are the makers' published figures and change with the model year. A listing may quote a minimum trail weight or a packed weight with stakes and stuff sacks, so compare like with like. A solo hiker carries the whole tent.",
+    },
     faqs: [
+      { q: "How heavy should a backpacking tent be?", a: "For two people sharing, the lighter picks here weigh about 2 to 3 lb, roughly 1 to 1.5 lb each. Carry more when the weight buys a pitch that suits your sites, room for a first trip, or a tent for windier weather." },
       { q: "Is a freestanding tent worth the weight?", a: "Yes on platforms, slabs, or sites where stakes fail. No if every camp is soft soil and you already carry poles." },
       { q: "What tent for a first overnight?", a: "A livable two-person freestanding tent, even for one person. Practice the pitch at home." },
       { q: "Do I need a footprint?", a: "On abrasive rock and sand, yes. On thick duff, a thin groundsheet is optional insurance." },
       { q: "Can two people share a one-person tent?", a: "Only if both accept a tight floor. Most pairs should start with a two-person floor." },
     ],
-    related: ["ultralight-tents", "budget-tents", "first-overnight"],
+    related: ["ultralight-tents", "budget-tents", "first-overnight", "copper-spur-vs-dragonfly"],
     method,
   },
   {
@@ -101,7 +116,7 @@ export const roundups: Roundup[] = [
       { q: "Does a higher R-value sleep hotter in July?", a: "You can vent the bag. You cannot add ground insulation you did not bring." },
       { q: "Mummy or rectangular?", a: "Mummy saves weight. Rectangular saves arguments with your elbows." },
     ],
-    related: ["sleeping-bags", "choose-a-pad", "cold-sleepers"],
+    related: ["sleeping-bags", "choose-a-pad", "cold-sleepers", "xlite-vs-xtherm"],
     method,
   },
   {
@@ -140,7 +155,7 @@ export const roundups: Roundup[] = [
       { q: "Are trail runners waterproof?", a: "Most are not, and that is often better. A soaked membrane shoe dries slowly. Use gaiters and wool socks in puddles." },
       { q: "Are trail runners enough for backpacking?", a: "For many people, yes, under a moderate pack on maintained trail." },
     ],
-    related: ["hiking-boots-wide-feet", "daypacks"],
+    related: ["hiking-boots-wide-feet", "daypacks", "speedgoat-vs-lone-peak"],
     method,
   },
   {
@@ -354,7 +369,7 @@ export const roundups: Roundup[] = [
       { q: "Will a liner fix a cold bag?", a: "It adds a little. It does not turn a summer bag into a frost bag." },
       { q: "Should I wear clothes in the bag?", a: "Dry layers, yes. Damp hiking clothes, no." },
     ],
-    related: ["sleeping-bags", "sleeping-pads", "choose-a-pad"],
+    related: ["sleeping-bags", "sleeping-pads", "choose-a-pad", "xlite-vs-xtherm"],
     method,
   },
   {
@@ -902,7 +917,7 @@ export const compares: Compare[] = [
       { q: "Which is better in rain?", a: "Both can be. The X-Mid pitches fly-first. The Copper Spur is easier if you are already wet and tired and the site is a platform." },
       { q: "Which is tougher?", a: "Neither is a four-season tent. The freestanding pole structure is more forgiving of a sloppy pitch." },
     ],
-    related: ["backpacking-tents", "ultralight-shelter"],
+    related: ["backpacking-tents", "ultralight-shelter", "copper-spur-vs-dragonfly"],
   },
   {
     slug: "xlite-vs-tensor",
@@ -924,7 +939,7 @@ export const compares: Compare[] = [
     faqs: [
       { q: "Which is warmer?", a: "Whichever insulated model has the higher current R-value. Do not trust an old review for that number." },
     ],
-    related: ["sleeping-pads", "choose-a-pad"],
+    related: ["sleeping-pads", "choose-a-pad", "xlite-vs-xtherm"],
   },
   {
     slug: "keen-vs-altra",
@@ -947,7 +962,7 @@ export const compares: Compare[] = [
     faqs: [
       { q: "Can I backpack in Lone Peaks?", a: "Many people do, on moderate trail, with a pack that is not huge. It is a bad idea if you roll ankles." },
     ],
-    related: ["hiking-boots-wide-feet", "trail-shoes", "boot-fit"],
+    related: ["hiking-boots-wide-feet", "trail-shoes", "boot-fit", "speedgoat-vs-lone-peak"],
   },
   {
     slug: "windmaster-vs-pocketrocket",
@@ -1038,6 +1053,84 @@ export const compares: Compare[] = [
       { q: "Which breathes better?", a: "Neither breathes like a premium shell. Pit zips matter more than the brand story." },
     ],
     related: ["rain-jackets-under-150", "layering"],
+  },
+  {
+    slug: "copper-spur-vs-dragonfly",
+    title: "Copper Spur UL2 vs NEMO Dragonfly OSMO 2P",
+    description: "Big Agnes Copper Spur UL2 vs NEMO Dragonfly OSMO 2P: two freestanding tents in the same price band, one easy to pitch, one built for steady rain.",
+    h1: "Copper Spur vs Dragonfly",
+    kicker: "Comparison · Tents",
+    answer:
+      "Both are freestanding, double-wall, two-person tents in the Upper mid price band, so pitch style does not decide this pair. Buy the Copper Spur UL2 if you want an easy pitch to learn and two doors on platforms and dirt. Buy the Dragonfly OSMO 2P if rain is your normal forecast, because its fabric holds shape better once it is soaked. If you are choosing between freestanding and trekking-pole, read Copper Spur vs X-Mid instead.",
+    left: "copper-spur-ul2",
+    right: "dragonfly-osmo-2",
+    rows: [
+      { label: "Bias", left: "Easy pitch, two doors", right: "Taut pitch when soaked" },
+      { label: "Fabric", left: "Light, needs care on granite", right: "OSMO, sags less when wet" },
+      { label: "Published weight", left: "About 2 lb 8 oz", right: "A bit over 2.5 lb" },
+      { label: "Pitch", left: "Freestanding, double wall", right: "Freestanding, double wall" },
+      { label: "Season", left: "Three-season", right: "Three-season, wet" },
+      { label: "Price band", left: "Upper mid", right: "Upper mid" },
+    ],
+    verdict: "For most pairs on mixed platforms and dirt, buy the Copper Spur UL2. If your trips are in wet, mild mountain weather and rain is expected, not a surprise, buy the Dragonfly OSMO 2P.",
+    faqs: [
+      { q: "Which is lighter?", a: "The published weights are close: about 2 lb 8 oz for the Copper Spur UL2 and a bit over 2.5 lb for the Dragonfly. Weight should not decide this pair. Check the listing for the current model year." },
+      { q: "Is either a four-season tent?", a: "No. Both are three-season tents. The Dragonfly's wet-weather fabric is not a winter rating." },
+      { q: "Do I need a footprint?", a: "On abrasive rock, take one with either tent. The Copper Spur's thin floor needs care on sharp rock." },
+    ],
+    related: ["backpacking-tents", "copper-spur-vs-x-mid", "ultralight-shelter"],
+  },
+  {
+    slug: "xlite-vs-xtherm",
+    title: "NeoAir XLite NXT vs NeoAir XTherm",
+    description: "Therm-a-Rest NeoAir XLite NXT vs NeoAir XTherm: a three-season air pad versus a high R-value pad for cold sleepers and frozen ground.",
+    h1: "XLite vs XTherm",
+    kicker: "Comparison · Pads",
+    answer:
+      "Same maker, different job. Buy the XLite NXT for three-season backpacking. Its R-value class is about 4-plus. Buy the XTherm if you sleep cold or camp near freezing. Its R-value class is about 7. The XTherm is overkill, and warm, on hot summer nights. Confirm the current R-value on the listing for the model year you buy.",
+    left: "xlite-nxt",
+    right: "xtherm",
+    rows: [
+      { label: "Season", left: "Three-season", right: "Cold sleepers, near freezing" },
+      { label: "R-value class", left: "About 4-plus", right: "About 7" },
+      { label: "Best for", left: "Three-season backpacking", right: "Cold sleepers and shoulder-season ground" },
+      { label: "Watch out for", left: "Puncture risk, some versions crinkle", right: "Overkill, and warm, on hot nights" },
+      { label: "Weight", left: "Low", right: "Low for the warmth" },
+      { label: "Price band", left: "Upper mid", right: "High" },
+    ],
+    verdict: "Most three-season backpackers should buy the XLite NXT. Buy the XTherm when camps drop near freezing and you sleep cold. If that happens only a few nights a year, a foam pad under the XLite is the cheaper fix.",
+    faqs: [
+      { q: "Can I put a foam pad under the XLite instead?", a: "Yes. Stacked pads add their R-values, so a Z Lite Sol (about R 2) under an XLite NXT adds warmth and puncture insurance. It is bulkier than one warm pad." },
+      { q: "Is the XTherm too warm for summer?", a: "It can sleep hot on hot summer nights. You can vent a bag. You cannot add ground insulation you left at home." },
+      { q: "What about the NEMO Tensor?", a: "The Tensor is the quieter alternative to the XLite. That choice is on XLite vs Tensor." },
+    ],
+    related: ["sleeping-pads", "cold-sleepers", "r-value", "xlite-vs-tensor"],
+  },
+  {
+    slug: "speedgoat-vs-lone-peak",
+    title: "Hoka Speedgoat vs Altra Lone Peak",
+    description: "Hoka Speedgoat vs Altra Lone Peak for hiking: max cushion with a wide option versus a zero-drop shoe with a foot-shaped toe box.",
+    h1: "Speedgoat vs Lone Peak",
+    kicker: "Comparison · Footwear",
+    answer:
+      "Buy the Speedgoat if your knees complain before your toes do and the trail is long and moderate. Buy the Lone Peak if the problem is a pointed toe box and you will give zero drop two easy weeks. Neither is a boot. If you are choosing between a boot and a shoe for wide feet, read Targhee vs Lone Peak instead.",
+    left: "speedgoat",
+    right: "lone-peak",
+    rows: [
+      { label: "Bias", left: "Max cushion", right: "Foot-shaped toe box, zero drop" },
+      { label: "Width", left: "Standard and wide versions", right: "Wide by shape" },
+      { label: "Terrain", left: "Long, moderate trail", right: "Non-technical trail" },
+      { label: "Watch out for", left: "Vague on technical rock", right: "Zero drop needs a break-in period" },
+      { label: "Weight", left: "Cushioned, light enough for a big shoe", right: "Light" },
+      { label: "Price band", left: "Mid", right: "Mid" },
+    ],
+    verdict: "For long, buffed trail and tired knees, buy the Speedgoat, in the wide if the standard pinches. For wide or flat feet on moderate trail, buy the Lone Peak and ease into zero drop. On steep, loose scree, neither is the precise choice.",
+    faqs: [
+      { q: "Which is better for wide feet?", a: "The Lone Peak is wide by shape. The Speedgoat comes in a wide version if you want cushion with more room. Both are on the wide toe box trail shoe page." },
+      { q: "How long is the Lone Peak break-in?", a: "Give zero drop two easy weeks. Do not start on a long descent." },
+      { q: "Are they good on rocky trail?", a: "Less so. The Speedgoat's stack feels vague on technical rock, and the Lone Peak has less rock protection than a boot. For rocky trail, see the trail runners page." },
+    ],
+    related: ["trail-shoes", "trail-runners", "keen-vs-altra", "heel-drop"],
   },
 ];
 

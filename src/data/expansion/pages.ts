@@ -550,7 +550,8 @@ export const extraRoundups: Roundup[] = [
     "related": [
       "trail-runners",
       "hiking-boots-wide-feet",
-      "boot-fit"
+      "boot-fit",
+      "speedgoat-vs-lone-peak"
     ],
     "method": "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy."
   },
@@ -2306,6 +2307,18 @@ export const notes: Guide[] = [
     "h1": "What R-value means on a sleeping pad",
     "kicker": "Field note",
     "answer": "R-value measures resistance to heat flowing out of you and into the ground. A thick pad can still be a cold pad. For most three-season trips, start around R 3 to 4. Cold sleepers and snow-adjacent camps want about R 5 or more.",
+    "quick": {
+      "caption": "Quick answer: what R-value to start with",
+      "columns": ["Your nights", "Start around", "Example in this catalog"],
+      "rows": [
+        ["Warm summer nights, warm sleeper", "R 2 to 3", "Therm-a-Rest Z Lite Sol, about R 2"],
+        ["Summer, cold sleeper", "Near R 3.5", "Therm-a-Rest NeoAir XLite NXT, about R 4-plus"],
+        ["Most three-season trips", "R 3 to 4", "Therm-a-Rest NeoAir XLite NXT, about R 4-plus"],
+        ["Cold sleepers, snow-adjacent camps, winter", "R 5 or more", "Exped Dura 5R, about R 5; Therm-a-Rest NeoAir XTherm, about R 7"],
+        ["Foam under an air pad", "Add the two numbers", "Z Lite Sol under an XLite NXT, about R 6-plus"]
+      ],
+      "note": "Ranges come from the pad pages on this site. R-values are each maker's published class and can change with the model year. Check the listing for the version you buy."
+    },
     "sections": [
       {
         "id": "use",
@@ -2342,7 +2355,8 @@ export const notes: Guide[] = [
     "related": [
       "choose-a-pad",
       "sleeping-pads",
-      "cold-sleepers"
+      "cold-sleepers",
+      "xlite-vs-xtherm"
     ]
   },
   {
@@ -2440,6 +2454,17 @@ export const notes: Guide[] = [
     "h1": "How to read a sleeping bag temperature rating",
     "kicker": "Field note",
     "answer": "EN or ISO ratings separate comfort, limit, and extreme. Marketing often prints the limit, which is a cooler sleeper's survival class, not a comfortable night. Cold sleepers should buy about ten degrees warmer than the coldest air they expect.",
+    "quick": {
+      "caption": "Quick answer: which number to plan with",
+      "columns": ["Number on the label", "What it means", "Plan with it?"],
+      "rows": [
+        ["Comfort", "A standard sleeper has an okay night", "Yes. Match it to the coldest night you expect."],
+        ["Limit", "Lower than comfort, a cooler sleeper's survival class", "Only with margin. Labels often print this one."],
+        ["Extreme", "A survival figure", "No."],
+        ["One number, no standard named", "Treat it as optimistic", "Treat it as a limit and add margin."]
+      ],
+      "note": "If you sleep cold, buy about ten degrees warmer than the coldest air you expect. For most three-season trips, a 15°F or 20°F down mummy is the default."
+    },
     "sections": [
       {
         "id": "words",

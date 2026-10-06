@@ -3,6 +3,7 @@ import { breadcrumbLd, pageHead } from "@/lib/seo";
 import { getNote, getProduct, getRoundup, linksFor } from "@/data";
 import { Crumbs, Disclosure, FaqList, JsonLd, ProductSection, Related, Updated } from "@/components/site/blocks";
 import { FieldCard } from "@/components/site/cards";
+import { QuickTable } from "@/components/site/quick-table";
 import { TkImage } from "@/components/site/tk-image";
 
 export const Route = createFileRoute("/learn/$slug")({
@@ -50,6 +51,7 @@ function NotePage() {
       <h1 className="text-4xl">{page.h1}</h1>
       <Updated />
       <div className="border-l-4 border-ink bg-spec p-4">{page.answer}</div>
+      {page.quick ? <QuickTable table={page.quick} /> : null}
       {page.sections.map((section) => (
         <section key={section.id} id={section.id}>
           <h2 className="text-3xl">{section.heading}</h2>

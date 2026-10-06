@@ -53,9 +53,9 @@ export const KIT_SECTIONS: { id: string; label: string; slugs: string[] }[] = [
 
 export const COMPARE_SECTIONS: { id: string; label: string; slugs: string[] }[] = [
   { id: "illustrative", label: "Illustrative", slugs: ["osprey-vs-gregory"] },
-  { id: "tents", label: "Tents", slugs: ["copper-spur-vs-x-mid"] },
-  { id: "pads", label: "Pads", slugs: ["xlite-vs-tensor"] },
-  { id: "footwear", label: "Footwear", slugs: ["keen-vs-altra"] },
+  { id: "tents", label: "Tents", slugs: ["copper-spur-vs-x-mid", "copper-spur-vs-dragonfly"] },
+  { id: "pads", label: "Pads", slugs: ["xlite-vs-tensor", "xlite-vs-xtherm"] },
+  { id: "footwear", label: "Footwear", slugs: ["keen-vs-altra", "speedgoat-vs-lone-peak"] },
   { id: "stoves", label: "Stoves", slugs: ["windmaster-vs-pocketrocket"] },
   { id: "water", label: "Water", slugs: ["sawyer-vs-katadyn"] },
   { id: "lights", label: "Lights", slugs: ["actik-vs-spot"] },

@@ -26,12 +26,18 @@ def sec(i, h, paras, bullets=None):
         d["bullets"] = bullets
     return d
 
-def G(slug, title, description, h1, kicker, answer, sections, productSlugs, faqs, related):
-    return {
+def G(slug, title, description, h1, kicker, answer, sections, productSlugs, faqs, related, quick=None):
+    page = {
         "slug": slug, "title": title, "description": description, "h1": h1, "kicker": kicker,
-        "answer": answer, "sections": sections, "productSlugs": productSlugs,
-        "faqs": [{"q": q, "a": a} for q, a in faqs], "related": related,
+        "answer": answer,
     }
+    if quick:
+        page["quick"] = quick
+    page["sections"] = sections
+    page["productSlugs"] = productSlugs
+    page["faqs"] = [{"q": q, "a": a} for q, a in faqs]
+    page["related"] = related
+    return page
 
 def C(slug, title, description, h1, kicker, answer, left, right, rows, verdict, faqs, related):
     return {
@@ -179,7 +185,7 @@ roundups = [
       [("Is the Speedgoat a wide shoe?","The standard Speedgoat has a more standard toe. Hoka also makes a wide version, and that is the one this page means."),
        ("What if my ankles roll?","A boot. Do not argue with a sprain."),
        ("How long is the break-in?","Zero drop wants easy weeks. A familiar drop can go on a normal day sooner.")],
-      ["trail-runners","hiking-boots-wide-feet","boot-fit"]),
+      ["trail-runners","hiking-boots-wide-feet","boot-fit","speedgoat-vs-lone-peak"]),
     R("camp-comfort","Best Car Camping Comfort Gear","Comfort that earns the trunk space: a table, a cot, a pillow, and coffee.","Best car camping comfort gear","Roundup · Car camp","camp",
       "Spend the trunk on a table at standing height, a cot if you hate the ground, and a real wash setup. An inflatable pillow is the backpacking version of the same idea. A percolator is a ritual, not a necessity.",
       "People camping next to a car. Not ounce-counters.",
@@ -476,7 +482,19 @@ notes = [
       ["xlite-nxt","xtherm","z-lite","exped-dura"],
       [("Is higher always better?","It is warmer and usually heavier. Summer does not need a winter pad."),
        ("Do air pads count?","Insulated ones do. A pool float does not.")],
-      ["choose-a-pad","sleeping-pads","cold-sleepers"]),
+      ["choose-a-pad","sleeping-pads","cold-sleepers","xlite-vs-xtherm"],
+      quick={
+          "caption": "Quick answer: what R-value to start with",
+          "columns": ["Your nights", "Start around", "Example in this catalog"],
+          "rows": [
+              ["Warm summer nights, warm sleeper", "R 2 to 3", "Therm-a-Rest Z Lite Sol, about R 2"],
+              ["Summer, cold sleeper", "Near R 3.5", "Therm-a-Rest NeoAir XLite NXT, about R 4-plus"],
+              ["Most three-season trips", "R 3 to 4", "Therm-a-Rest NeoAir XLite NXT, about R 4-plus"],
+              ["Cold sleepers, snow-adjacent camps, winter", "R 5 or more", "Exped Dura 5R, about R 5; Therm-a-Rest NeoAir XTherm, about R 7"],
+              ["Foam under an air pad", "Add the two numbers", "Z Lite Sol under an XLite NXT, about R 6-plus"],
+          ],
+          "note": "Ranges come from the pad pages on this site. R-values are each maker's published class and can change with the model year. Check the listing for the version you buy.",
+      }),
     G("freestanding","What freestanding means","A freestanding tent stands before you stake it. Semi-freestanding still needs a stake.","What a freestanding tent is","Field note",
       "A freestanding tent supports itself on its poles. You still stake it against wind. A semi-freestanding tent stands only after one end is staked. A trekking-pole tent does not stand at all without poles and stakes.",
       [sec("when","When it matters",["Wooden platforms, slabs, and sand where stakes fail are why freestanding tents exist. If every camp is soft forest soil and you carry poles, a pole tent is lighter."]),
@@ -500,7 +518,18 @@ notes = [
       ["magma-15","magma-30","alpinlite"],
       [("Are quilt ratings the same?","They should name the standard. Many small makers use their own class. Read their definition."),
        ("Does a liner add ten degrees?","No. It adds a little and keeps the bag cleaner.")],
-      ["sleeping-bags","quilt-vs-bag","wash-down"]),
+      ["sleeping-bags","quilt-vs-bag","wash-down"],
+      quick={
+          "caption": "Quick answer: which number to plan with",
+          "columns": ["Number on the label", "What it means", "Plan with it?"],
+          "rows": [
+              ["Comfort", "A standard sleeper has an okay night", "Yes. Match it to the coldest night you expect."],
+              ["Limit", "Lower than comfort, a cooler sleeper's survival class", "Only with margin. Labels often print this one."],
+              ["Extreme", "A survival figure", "No."],
+              ["One number, no standard named", "Treat it as optimistic", "Treat it as a limit and add margin."],
+          ],
+          "note": "If you sleep cold, buy about ten degrees warmer than the coldest air you expect. For most three-season trips, a 15°F or 20°F down mummy is the default.",
+      }),
     G("heel-drop","What heel drop means","Drop is the height difference between heel and toe. Changing it quickly is how calves complain.","What heel-drop means in hiking shoes","Field note",
       "Drop, or offset, is how much higher the heel sits than the toe. A traditional boot might be near 10 mm. A zero-drop shoe is flat. Neither is morally better. A sudden change is a calf and Achilles problem.",
       [sec("switch","Switch slowly",["Give a lower drop two or three easy weeks before a long day. Pain is a reason to go back, not a reason to push through a 16-mile descent."]),

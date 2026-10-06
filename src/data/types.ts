@@ -31,6 +31,14 @@ export type Product = {
 
 export type Faq = { q: string; a: string };
 
+export type QuickTable = {
+  caption: string;
+  lead?: string;
+  columns: string[];
+  rows: string[][];
+  note?: string;
+};
+
 export type Roundup = {
   slug: string;
   title: string;
@@ -39,6 +47,7 @@ export type Roundup = {
   kicker: string;
   category: string;
   answer: string;
+  quick?: QuickTable;
   who: string;
   productSlugs: string[];
   one: string;
@@ -61,6 +70,7 @@ export type Guide = {
   h1: string;
   kicker: string;
   answer: string;
+  quick?: QuickTable;
   sections: GuideSection[];
   productSlugs: string[];
   faqs: Faq[];

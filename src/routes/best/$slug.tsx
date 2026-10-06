@@ -3,6 +3,7 @@ import { absoluteUrl } from "@/lib/affiliate";
 import { getProduct, getRoundup, linksFor } from "@/data";
 import { CompareTable, Crumbs, Disclosure, FaqList, JsonLd, PageToc, ProductSection, Related, Updated } from "@/components/site/blocks";
 import { HowWePick } from "@/components/site/cards";
+import { QuickTable } from "@/components/site/quick-table";
 import { TkImage } from "@/components/site/tk-image";
 import { INTENT_PAIRS } from "@/data/hubs";
 import { imageFor } from "@/data/images";
@@ -45,6 +46,7 @@ function RoundupPage() {
       <PageToc
         links={[
           { href: "#answer", label: "Direct answer" },
+          ...(page.quick ? [{ href: "#quick", label: "Quick answer" }] : []),
           { href: "#compare", label: "Comparison" },
           ...picks.map((p) => ({ href: `#${p.slug}`, label: p.name })),
           { href: "#one", label: "If you only buy one" },
@@ -90,6 +92,7 @@ function RoundupPage() {
           </p>
         ) : null}
         <div id="answer" className="border-l-4 border-ink bg-spec p-4">{page.answer}</div>
+        {page.quick ? <QuickTable table={page.quick} /> : null}
         <p className="border border-line bg-paper-2 p-4"><span className="font-bold">Who this is for. </span>{page.who}</p>
         {figures.map((route) => (
           <figure key={route}>

@@ -1362,6 +1362,45 @@
    "extra": "Two matched halves with a clean vertical seam at centre; leave a 120px-wide quiet strip at the seam for the VS badge; generic unbranded gear (illustrative)."
   },
   {
+   "hub": "compare",
+   "route": "/compare/copper-spur-vs-dragonfly",
+   "card_title": "Copper Spur vs Dragonfly",
+   "label": "Comparison · Tents",
+   "card_type": "D versus card",
+   "aspect_master": "16:9 diptych (1920x1080, 2 x 960 panels)",
+   "image": "/images/compare/copper-spur-vs-dragonfly.jpg",
+   "status": "composite",
+   "alt": "A freestanding two-door dome tent on a wooden platform beside a freestanding two-person tent on a gravel forest campsite",
+   "scene": "diptych of products/copper-spur-ul2 and products/dragonfly-osmo-2",
+   "extra": "Built from the two existing product masters. No new generation."
+  },
+  {
+   "hub": "compare",
+   "route": "/compare/xlite-vs-xtherm",
+   "card_title": "XLite vs XTherm",
+   "label": "Comparison · Pads",
+   "card_type": "D versus card",
+   "aspect_master": "16:9 diptych (1920x1080, 2 x 960 panels)",
+   "image": "/images/compare/xlite-vs-xtherm.jpg",
+   "status": "composite",
+   "alt": "A tapered mummy air pad on a tent floor beside a cold-weather insulated air pad on a snow-dusted tent floor",
+   "scene": "diptych of products/xlite-nxt and products/xtherm",
+   "extra": "Built from the two existing product masters. No new generation."
+  },
+  {
+   "hub": "compare",
+   "route": "/compare/speedgoat-vs-lone-peak",
+   "card_title": "Speedgoat vs Lone Peak",
+   "label": "Comparison · Footwear",
+   "card_type": "D versus card",
+   "aspect_master": "16:9 diptych (1920x1080, 2 x 960 panels)",
+   "image": "/images/compare/speedgoat-vs-lone-peak.jpg",
+   "status": "composite",
+   "alt": "A high-cushion trail running shoe beside a zero-drop trail shoe with a foot-shaped toe box, both on wet rock and roots",
+   "scene": "diptych of products/speedgoat and products/lone-peak",
+   "extra": "Built from the two existing product masters. No new generation."
+  },
+  {
    "hub": "gear",
    "route": "/gear/tents",
    "card_title": "Tents and shelters",

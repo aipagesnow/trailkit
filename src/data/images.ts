@@ -2630,6 +2630,81 @@ export const IMAGES: TkImageMeta[] = [
     ]
   },
   {
+    "route": "/compare/copper-spur-vs-dragonfly",
+    "base": "/images/compare/copper-spur-vs-dragonfly",
+    "alt": "A freestanding two-door dome tent on a wooden platform beside a freestanding two-person tent on a gravel forest campsite",
+    "aspect": "16/9",
+    "focal": "center 40%",
+    "hub": "compare",
+    "label": "Comparison · Tents",
+    "title": "Copper Spur vs Dragonfly",
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
+  },
+  {
+    "route": "/compare/xlite-vs-xtherm",
+    "base": "/images/compare/xlite-vs-xtherm",
+    "alt": "A tapered mummy air pad on a tent floor beside a cold-weather insulated air pad on a snow-dusted tent floor",
+    "aspect": "16/9",
+    "focal": "center 40%",
+    "hub": "compare",
+    "label": "Comparison · Pads",
+    "title": "XLite vs XTherm",
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
+  },
+  {
+    "route": "/compare/speedgoat-vs-lone-peak",
+    "base": "/images/compare/speedgoat-vs-lone-peak",
+    "alt": "A high-cushion trail running shoe beside a zero-drop trail shoe with a foot-shaped toe box, both on wet rock and roots",
+    "aspect": "16/9",
+    "focal": "center 40%",
+    "hub": "compare",
+    "label": "Comparison · Footwear",
+    "title": "Speedgoat vs Lone Peak",
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
+  },
+  {
     "route": "/gear/tents",
     "base": "/images/gear/tents",
     "alt": "Macro of a taut tent fly, guyline tensioner and stake in damp soil",
