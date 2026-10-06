@@ -53,7 +53,7 @@ function Group({ title, items }: { title: string; items: { href: string; label: 
 function LibraryPage() {
   return (
     <main>
-      <HubBand route="/library" kicker="Library" title="The whole map" promise="A crawlable index of every public page. The cards are a sample. The lists below are complete." chips={[]} />
+      <HubBand route="/library" kicker="Library" title="The whole map" promise="An index of every page on the site. The cards are a sample. The lists below are complete." chips={[]} />
       <div className="mx-auto max-w-6xl space-y-10 px-4 py-10">
         <Peek title="Roundups" href="/best" items={roundups.slice(0, 3).map((r) => ({ href: `/best/${r.slug}`, label: r.h1, route: `/best/${r.slug}` }))} />
         <Peek title="Guides" href="/guides" items={guides.slice(0, 3).map((g) => ({ href: `/guides/${g.slug}`, label: g.h1, route: `/guides/${g.slug}` }))} />

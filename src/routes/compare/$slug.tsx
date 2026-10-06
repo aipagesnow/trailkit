@@ -160,7 +160,7 @@ function ComparePage() {
       <section className="space-y-4">
         <h2 className="text-3xl">From the related pages</h2>
         <p className="max-w-3xl text-sm text-muted">
-          The paragraphs below already appear on the linked roundup and category pages. They are reprinted so this comparison stands on those facts. Nothing here is a new test or a new score.
+          These summaries come from the linked roundups, so the facts match across the site. Nothing here is a new test or a new score.
         </p>
         {roundupsForCompare(page).map((roundup) => (
           <article key={roundup.slug} className="space-y-2 border border-line p-4">

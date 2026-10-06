@@ -77,7 +77,7 @@ function Home() {
         <Disclosure />
         <section>
           <h2 className="text-3xl">Start with a decision</h2>
-          <p className="mt-2 max-w-2xl text-muted">Commercial pages lead with a direct answer, a comparison table, and one default pick.</p>
+          <p className="mt-2 max-w-2xl text-muted">Each roundup leads with a direct answer, a comparison table, and one default pick.</p>
           <div className="mt-4 grid gap-3 md:grid-cols-3">
             {featured ? <FieldCard roundup={featured} index="R-01" featured priority /> : null}
             <div className="grid gap-3">

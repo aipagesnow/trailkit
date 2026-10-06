@@ -23,7 +23,7 @@ export const Route = createRootRoute({
       { rel: "icon", type: "image/png", href: "/icon-512.png", sizes: "512x512" },
       { rel: "icon", type: "image/png", href: "/icon-512-maskable.png", sizes: "512x512" },
       { rel: "stylesheet", href: appCss },
-      { rel: "manifest", href: "/__grok/manifest.webmanifest" },
+      { rel: "manifest", href: "/manifest.webmanifest" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
@@ -47,18 +47,16 @@ export const Route = createRootRoute({
     </PageShell>
   ),
   notFoundComponent: () => (
-    <PageShell>
-      <main className="mx-auto max-w-3xl px-4 py-16">
-        <p className="font-display text-sm tracking-widest uppercase">404</p>
-        <h1 className="mt-2 text-4xl text-ink">That page is not on the map</h1>
-        <p className="mt-3 text-muted">
-          Try the gear library, or start from the home page. The URL may have moved when a guide was renamed.
-        </p>
-        <a href="/" className="mt-6 inline-block font-bold text-forest underline">
-          Back to Trailkit home
-        </a>
-      </main>
-    </PageShell>
+    <main className="mx-auto max-w-3xl px-4 py-16">
+      <p className="font-display text-sm tracking-widest uppercase">404</p>
+      <h1 className="mt-2 text-4xl text-ink">That page is not on the map</h1>
+      <p className="mt-3 text-muted">
+        Try the <a href="/library" className="font-bold text-forest underline">gear library</a>, or start from the home page. The URL may have moved when a guide was renamed.
+      </p>
+      <a href="/" className="mt-6 inline-block font-bold text-forest underline">
+        Back to Trailkit home
+      </a>
+    </main>
   ),
 });
 

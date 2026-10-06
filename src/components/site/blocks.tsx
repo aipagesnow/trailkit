@@ -34,7 +34,7 @@ export function AmazonButton({ product }: { product: Product }) {
   if (!href) {
     return (
       <p className="mt-3 text-sm text-muted">
-        Amazon listing not verified for this model yet.
+        No Amazon link for this model.
       </p>
     );
   }

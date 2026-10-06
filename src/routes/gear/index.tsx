@@ -20,7 +20,7 @@ function GearIndex() {
         route="/gear"
         kicker="Categories"
         title="Gear categories"
-        promise="Each hub explains the decision, then links to the gear and the roundups that use it."
+        promise="Each category page explains the decision, then links to the gear and the roundups that use it."
         chips={categories.slice(0, 8).map((category) => ({ href: `/gear/${category.slug}`, label: category.short }))}
       />
       <div className="mx-auto max-w-6xl px-4 py-10">
