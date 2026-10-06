@@ -28,14 +28,14 @@ function CategoryPage() {
   return (
     <main>
       <JsonLd data={[breadcrumbLd([{ name: "Home", path: "/" }, { name: "Categories", path: "/gear" }, { name: category.name }])]} />
-      <section className="relative isolate min-h-64 overflow-hidden border-b border-line md:aspect-[21/9] md:min-h-52">
+      <section className="relative isolate min-h-64 overflow-hidden border-b border-line md:min-h-[300px]">
         <TkImage route={`/gear/${category.slug}`} priority fill sizes="100vw" />
-        <div className="absolute inset-0 bg-gradient-to-r from-forest-deep via-forest-deep/75 to-transparent" />
-        <div className="relative mx-auto max-w-6xl px-4 py-10 text-on-forest">
+        <div className="absolute inset-0 bg-gradient-to-r from-forest-deep via-forest-deep/85 to-transparent" />
+        <div className="relative mx-auto max-w-6xl px-4 py-10 text-on-forest md:py-14">
           <Crumbs items={[{ href: "/gear", label: "Categories" }, { label: category.name }]} />
           <p className="mt-4 font-mono text-[11px] tracking-widest uppercase">{category.short}</p>
-          <h1 className="mt-2 text-4xl text-on-forest">{category.name}</h1>
-          <p className="mt-3 max-w-2xl">{category.lede}</p>
+          <h1 className="mt-2 max-w-3xl text-4xl text-on-forest md:text-5xl">{category.name}</h1>
+          <p className="mt-3 max-w-2xl text-lg">{category.lede}</p>
         </div>
       </section>
       <div className="mx-auto max-w-6xl space-y-8 px-4 py-8">
