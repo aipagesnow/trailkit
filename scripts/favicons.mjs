@@ -1,5 +1,6 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
+import opentype from "opentype.js";
 import sharp from "sharp";
 
 const svg = readFileSync("public/favicon.svg");
@@ -50,21 +51,28 @@ const png16 = await sharp(svg).resize(16, 16).png().toBuffer();
 const png32 = await sharp("public/favicon-32.png").png().toBuffer();
 writeFileSync("public/favicon.ico", ico(png16, png32));
 
+// The wordmark is drawn as SVG outlines from the bundled font file, so og.jpg
+// renders the same locally and on Vercel (no system font lookup involved).
 const fontFile = path.resolve("scripts/fonts/IBMPlexSansCondensed-SemiBold.ttf");
+const fontBuf = readFileSync(fontFile);
+const font = opentype.parse(fontBuf.buffer.slice(fontBuf.byteOffset, fontBuf.byteOffset + fontBuf.byteLength));
 const fontSize = 132;
-const word = await sharp({
-  text: {
-    text: `<span foreground="#f7f6f2" size="${fontSize * 1024}" letter_spacing="${Math.round(-0.025 * fontSize * 1024)}">Trailkit</span>`,
-    font: "IBM Plex Sans Condensed",
-    fontfile: fontFile,
-    rgba: true,
-    dpi: 72,
-  },
-}).png().toBuffer();
-const trimmed = await sharp(word).trim().png().toBuffer();
-const wordMeta = await sharp(trimmed).metadata();
-const cap = wordMeta.height ?? fontSize;
-const textW = wordMeta.width ?? 600;
+// Tracking is applied per glyph: opentype.js's letterSpacing option emits NaN points.
+const tracking = -0.025 * fontSize;
+const unit = fontSize / font.unitsPerEm;
+const wordPath = new opentype.Path();
+let penX = 0;
+const glyphs = font.stringToGlyphs("Trailkit");
+glyphs.forEach((glyph, i) => {
+  wordPath.extend(glyph.getPath(penX, 0, fontSize));
+  penX += glyph.advanceWidth * unit + tracking;
+  if (glyphs[i + 1]) penX += font.getKerningValue(glyph, glyphs[i + 1]) * unit;
+});
+const box = wordPath.getBoundingBox();
+const textW = Math.ceil(box.x2 - box.x1);
+const cap = Math.ceil(box.y2 - box.y1);
+const wordSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${textW}" height="${cap}" viewBox="${box.x1} ${box.y1} ${textW} ${cap}"><path fill="#f7f6f2" d="${wordPath.toPathData(2)}"/></svg>`;
+const trimmed = await sharp(Buffer.from(wordSvg)).png().toBuffer();
 const scale = cap / 32;
 const markW = 32 * scale;
 const gap = Math.round(fontSize * 0.2);
