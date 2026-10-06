@@ -2,7 +2,9 @@
 
 Products with no verified amazon.com ASIN. Do not guess. Confirm the listing on amazon.com (SiteStripe), then add `slug: "ASIN"` to `src/data/asins.ts`. Links stay `https://www.amazon.com/dp/{ASIN}?tag=trailkit-20`.
 
-Verified: 116 of 184 catalog products. Missing: 68.
+Verified: 117 of 184 catalog products. Missing: 67.
+
+Held products with no verified listing may name a closest amazon.com listing in `src/data/amazon-alternatives.ts`. That listing is not the pick.
 
 ## Unsure — listing not confirmed (re-check before wiring)
 
@@ -13,16 +15,13 @@ Verified: 116 of 184 catalog products. Missing: 68.
 - `bd-trail-ergo` — Black Diamond Trail Ergo. 'Trail Ergo' not surfaced; only BD Trail (non-Ergo) poles found - not substituting
 - `bedrock-cairn` — Bedrock Cairn. Bedrock Cairn sandals not surfaced in search
 - `biolite-330` — BioLite HeadLamp 330. BioLite HeadLamp 330 not found (only accessory cable); possibly discontinued (replaced by 325/425)
-- `crown-60` — Granite Gear Crown2 60. Crown2 60 not found; only successor Granite Gear Crown3 60L (B0HC539YLB) listed - different model
 - `deva-60` — Gregory Deva 60. held back: older Deva 60 listing with inflated third-party price ($1,686.28); current Deva is 70L only. (was likely, B073P2DNSW)
 - `exped-dura` — Exped Dura 5R. Exped Dura 5R not surfaced; only Dura 6.5R shown - not substituting
 - `halulite` — GSI Halulite Boiler. Halulite Boiler not surfaced; only other GSI Halulite sets - not substituting
 - `helium` — Outdoor Research Helium. only Helium UL (newer variant) found, not standard Helium Rain Jacket
 - `icebreaker-175` — Icebreaker 175 Oasis. Icebreaker 175 Everyday/Oasis 175 not surfaced; only 200 Oasis listings - not substituting
-- `injinji-liner` — Injinji Liner Crew. Injinji Liner Crew not surfaced; only Trail Midweight Crew and knock-offs
 - `komperdell-c3` — Komperdell Carbon C3. Komperdell Carbon C3 not surfaced in search
 - `mongoose` — Kammok Mongoose. Kammok Mongoose not surfaced (other Kammok hammocks only)
-- `nemo-tensor` — NEMO Tensor. Only NEMO Tensor Extreme (B0CB9J59XT) surfaced, not standard Tensor/All-Season - not substituting
 - `prolite` — Therm-a-Rest ProLite. Only Therm-a-Rest Trail ProLite surfaced, not classic ProLite - not substituting
 - `renegade-wide` — Lowa Renegade GTX Wide. Only LOWA Renegade EVO GTX Mid (men's, new gen) found; Wide width not confirmed
 - `steripen` — SteriPEN Ultra. SteriPEN Ultra not surfaced; only SteriPen Ultralight (B07L52FLJV) - not substituting
@@ -33,8 +32,16 @@ Verified: 116 of 184 catalog products. Missing: 68.
 - `trestles-eco-30` — Marmot Trestles Elite Eco 30. Only older Marmot Trestles 30 (B01IO4GC14) found, not Trestles Elite Eco 30 - not substituting
 - `ursack-major` — Ursack Major. Only Ursack Major XL Bear Backpack (B07YL9HPVX) surfaced, not standard Major - not substituting
 
+## Verified this pass
+
+- `nemo-tensor` — NEMO Tensor All-Season Sleeping Pad. B0CS6587Z1
+- `injinji-liner` — Injinji Liner Crew Toesocks. B0B8F35Q3M
+- `crown-60` — Granite Gear Crown3 60. B09RZL96JG (listing offers the 60 L size)
+
 ## Not sold on amazon.com
 
+- `echo-hoodie` — Outdoor Research Echo Hoody. The men's Echo Hoody is not listed on amazon.com. The old shared ASIN was the women's Echo Hoodie.
+- `sun-hoodie` — Outdoor Research Echo Sun Hoodie. The men's Echo Sun Hoodie is not listed on amazon.com. The old shared ASIN was the women's Echo Hoodie.
 - `amk-ul-5` — Adventure Medical Kits Ultralight/Watertight .5. Ultralight/Watertight .5 not found; only other AMK kits and knock-offs
 - `aquamira` — Aquamira Water Treatment. Aquamira brand not found in search (only other brands' purification products)
 - `blackbird-xlc` — Warbonnet Blackbird XLC. Warbonnet sells direct; not on amazon.com

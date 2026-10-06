@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
-import { amazonUrl, DISCLOSURE, DISCLOSURE_SHORT, UPDATED } from "@/lib/affiliate";
+import { amazonTag, DISCLOSURE, DISCLOSURE_SHORT, UPDATED } from "@/lib/affiliate";
 import { asinFor } from "@/data/asins";
+import { alternativeFor } from "@/data/amazon-alternatives";
 import type { Faq, Product } from "@/data/types";
 import type { LinkItem } from "@/data";
 import { Thumb } from "@/components/site/cards";
@@ -29,39 +30,84 @@ export function Disclosure() {
   );
 }
 
+export function AmazonLink({
+  asin,
+  trackProduct,
+  label,
+  variant,
+}: {
+  asin: string;
+  trackProduct: string;
+  label: string;
+  variant: "blaze" | "outline";
+}) {
+  const className =
+    variant === "blaze"
+      ? "inline-flex min-h-11 max-w-full items-center justify-center bg-blaze px-3 font-display text-sm font-semibold tracking-wide text-on-amber uppercase sm:px-4 sm:text-base"
+      : "inline-flex min-h-11 max-w-full items-center justify-center border border-ink bg-paper px-3 font-display text-sm font-semibold tracking-wide text-ink uppercase sm:px-4 sm:text-base";
+  return (
+    <a
+      href={`https://www.amazon.com/dp/${asin}?tag=${amazonTag()}`}
+      rel="sponsored nofollow noopener"
+      target="_blank"
+      className={className}
+      onClick={() => {
+        try {
+          const send = (window as Window & { gtag?: (...args: unknown[]) => void }).gtag;
+          if (typeof send !== "function") return;
+          send("event", "amazon_click", {
+            site: "trailkit",
+            asin,
+            product: trackProduct,
+            page: window.location.pathname,
+          });
+        } catch {
+          /* tracking must not stop the link */
+        }
+      }}
+    >
+      {label}
+    </a>
+  );
+}
+
 export function AmazonButton({ product }: { product: Product }) {
-  const href = amazonUrl(product.slug);
-  if (!href) {
+  const asin = asinFor(product.slug);
+  if (!asin) {
+    const alt = alternativeFor(product.slug);
     return (
-      <p className="mt-3 text-sm text-muted">
-        No Amazon link for this model.
-      </p>
+      <div className="mt-3">
+        <p className="text-sm text-muted">No Amazon link for this model.</p>
+        {alt ? (
+          <div className="mt-3 border-l-4 border-line pl-3 text-sm">
+            <p>
+              <strong>Closest on Amazon:</strong>{" "}
+              {alt.productSlug ? (
+                <Link to="/products/$slug" params={{ slug: alt.productSlug }} className="font-bold text-forest underline">
+                  {alt.name}
+                </Link>
+              ) : (
+                alt.name
+              )}
+              . {alt.reason}
+            </p>
+            <div className="mt-2">
+              <AmazonLink
+                asin={alt.asin}
+                trackProduct={`alt:${product.slug}`}
+                label={`See ${alt.short} on Amazon`}
+                variant="outline"
+              />
+              <p className="mt-1 text-sm text-muted">Check current price on the listing.</p>
+            </div>
+          </div>
+        ) : null}
+      </div>
     );
   }
   return (
     <div className="mt-3">
-      <a
-        href={href}
-        rel="sponsored nofollow noopener"
-        target="_blank"
-        className="inline-flex min-h-11 max-w-full items-center justify-center bg-blaze px-3 font-display text-sm font-semibold tracking-wide text-on-amber uppercase sm:px-4 sm:text-base"
-        onClick={() => {
-          try {
-            const send = (window as Window & { gtag?: (...args: unknown[]) => void }).gtag;
-            if (typeof send !== "function") return;
-            send("event", "amazon_click", {
-              site: "trailkit",
-              asin: asinFor(product.slug),
-              product: product.slug,
-              page: window.location.pathname,
-            });
-          } catch {
-            /* tracking must not stop the link */
-          }
-        }}
-      >
-        See on Amazon
-      </a>
+      <AmazonLink asin={asin} trackProduct={product.slug} label="See on Amazon" variant="blaze" />
       <p className="mt-1 text-sm text-muted">Check current price on the listing.</p>
     </div>
   );

@@ -6018,7 +6018,7 @@ export const IMAGES: TkImageMeta[] = [
     "focal": "center 40%",
     "hub": "products",
     "label": "packs · Light framed budget pack",
-    "title": "Granite Gear Crown2 60",
+    "title": "Granite Gear Crown3 60",
     "ready": true,
     "srcset": true,
     "widths": [

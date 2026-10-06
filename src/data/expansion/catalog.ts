@@ -1092,17 +1092,17 @@ export const extraProducts: Product[] = [
   },
   {
     "slug": "crown-60",
-    "name": "Granite Gear Crown2 60",
+    "name": "Granite Gear Crown3 60",
     "brand": "Granite Gear",
     "category": "packs",
-    "query": "Granite Gear Crown2 60",
+    "query": "Granite Gear Crown3 60",
     "priceBand": "Mid",
-    "weight": "About 2 lb 4 oz",
+    "weight": "About 2 lb 6 oz without the lid",
     "bestFor": "Budget framed packs for a week of food",
     "limit": "Hip belt is less plush",
     "role": "Light framed budget pack",
     "summary": "A light internal-frame pack that punches above its price until the load gets heavy.",
-    "body": "The Crown is the pack to try before you spend Atmos money. If 30 pounds hurts in the shop, a more padded harness is worth the cash. If your load lives under that, this is enough pack.",
+    "body": "The Crown is the pack to try before you spend Atmos money. If 30 pounds hurts in the shop, a more padded harness is worth the cash. If your load lives under that, this is enough pack. The Crown3 replaced the Crown2. Granite Gear rates it to 35 lb with the frame sheet in, and you can take the sheet out for loads under 25 lb.",
     "who": "Hikers building a first serious kit on a budget.",
     "pros": [
       "Light",
@@ -1111,7 +1111,7 @@ export const extraProducts: Product[] = [
     ],
     "cons": [
       "Less comfortable at high loads",
-      "Fit range is not infinite"
+      "Torso length is fixed, so the size has to be right"
     ],
     "specs": [
       {
@@ -1120,7 +1120,15 @@ export const extraProducts: Product[] = [
       },
       {
         "label": "Frame",
-        "value": "Framesheet and stay"
+        "value": "Removable frame sheet (aluminum stay sold separately)"
+      },
+      {
+        "label": "Load rating",
+        "value": "35 lb with frame sheet, 25 lb without"
+      },
+      {
+        "label": "Torso",
+        "value": "Fixed length, three sizes (15–18, 18–21, 21–24 in)"
       },
       {
         "label": "Use",

@@ -44,7 +44,7 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best budget backpacking packs",
     "kicker": "Roundup · Packs",
     "category": "packs",
-    "answer": "If you are buying your first real pack, get a framed pack that fits your torso and matches your sleep system. The Granite Gear Crown2 60 is the light default. The REI Flash 55 is the easy-to-return alternative. The Trail 40 is only enough if your kit is already compact.",
+    "answer": "If you are buying your first real pack, get a framed pack that fits your torso and matches your sleep system. The Granite Gear Crown3 60 is the light default. The REI Flash 55 is the easy-to-return alternative. The Trail 40 is only enough if your kit is already compact.",
     "who": "Beginners spending less than a premium Osprey or Gregory, with loads that are not winter-heavy.",
     "productSlugs": [
       "crown-60",
@@ -1919,7 +1919,7 @@ export const extraCompares: Compare[] = [
     "description": "Two budget framed packs. One is easier to return. One is a bit lighter.",
     "h1": "REI Flash 55 vs Granite Gear Crown 60",
     "kicker": "Comparison · Packs",
-    "answer": "Choose the Flash 55 if you want to try a fit and return it easily. Choose the Crown2 60 if the hip belt feels good and you want a lighter frame for a week of food.",
+    "answer": "Choose the Flash 55 if you want to try a fit and return it easily. Choose the Crown3 60 if the hip belt feels good and you want a lighter frame for a week of food.",
     "left": "flash-55",
     "right": "crown-60",
     "rows": [

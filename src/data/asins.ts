@@ -2,9 +2,9 @@
  * Verified amazon.com ASINs (US). Tag is applied in affiliate.ts from AMAZON_ASSOCIATE_TAG.
  * Unlisted slugs are TODO — do not fall back to /s?k= search URLs or yourtag-20.
  *
- * Not on amazon.com (direct-only or REI house brand): amk-ul-5, aquamira, blackbird-xlc, camp-cot, capilene-cool, capilene-thermal, double-rainbow, down-hugger, dutchware-chameleon, ee-revelation, enigma-20, flash-55, half-dome-2-plus, hg-econ, hmg-southwest, hummingbird, kakwa-55, kindercone, kingdom-6, liteflex, magma-15, magma-30, magma-hoody, mariposa, nano-puff, plasma-1000, protrail, r1-air, rainier, rei-merino-185, rei-passage-2, rei-trail-40, siesta-25, summit-loft, superfly, tarn-18, trailmade-fleece, ula-circuit, versalite, x-mid-1, x-mid-2, zpacks-duplex.
+ * Not on amazon.com (direct-only or REI house brand): amk-ul-5, aquamira, blackbird-xlc, camp-cot, capilene-cool, capilene-thermal, double-rainbow, down-hugger, dutchware-chameleon, echo-hoodie, ee-revelation, enigma-20, flash-55, half-dome-2-plus, hg-econ, hmg-southwest, hummingbird, kakwa-55, kindercone, kingdom-6, liteflex, magma-15, magma-30, magma-hoody, mariposa, nano-puff, plasma-1000, protrail, r1-air, rainier, rei-merino-185, rei-passage-2, rei-trail-40, siesta-25, summit-loft, sun-hoodie, superfly, tarn-18, trailmade-fleece, ula-circuit, versalite, x-mid-1, x-mid-2, zpacks-duplex.
  *
- * Unsure — listing not confirmed, left unlinked: alcohol-stove, amk-mountain, ascendant, bd-distance-carbon, bd-trail-ergo, bedrock-cairn, biolite-330, crown-60, deva-60, exped-dura, halulite, helium, icebreaker-175, injinji-liner, komperdell-c3, mongoose, nemo-tensor, prolite, renegade-wide, steripen, tensor-wide, tikkid, trails-illustrated, trek-tk, trestles-eco-30, ursack-major.
+ * Unsure — listing not confirmed, left unlinked: alcohol-stove, amk-mountain, ascendant, bd-distance-carbon, bd-trail-ergo, bedrock-cairn, biolite-330, deva-60, exped-dura, halulite, helium, icebreaker-175, komperdell-c3, mongoose, prolite, renegade-wide, steripen, tensor-wide, tikkid, trails-illustrated, trek-tk, trestles-eco-30, ursack-major.
  */
 export const ASINS: Record<string, string> = {
   "hubba-hubba-2": "B00G7H9CAY",
@@ -73,8 +73,6 @@ export const ASINS: Record<string, string> = {
   "dragonfly-osmo-2": "B0BMTGHJH4",
   /** Sea to Summit Ultra-SIL Dry Bag, 13 Liter, Highrise Grey. Likely match: generic '10-liter dry bag'; Sea to Summit Ultra-Sil has no 10L size (8L B0BXBM457W / 13L picked); no featured price */
   "dry-bag": "B0BZ9MBH3G",
-  /** Outdoor Research Women's Echo Hoodie. Likely match: only women's Echo Hoodie surfaced; men's not found */
-  "echo-hoodie": "B0GM3CY531",
   /** ENO DoubleNest Lightweight Camping Hammock, 1 to 2 Person, Special Edition. Likely match: organic result is a special-edition colorway listing */
   "eno-doublenest": "B0G165VMX2",
   /** Sea to Summit Ether Light XT Extra-Thick Insulated Sleeping Pad, Tapered - Small. */
@@ -187,8 +185,6 @@ export const ASINS: Record<string, string> = {
   "spot-400": "B09NQK87MN",
   /** Sea to Summit Spark Women's Ultralight Down Sleeping Bag. Likely match: only women's Spark surfaced; price not shown */
   "sts-spark": "B0CTD9CNNC",
-  /** Outdoor Research Women's Echo Hoodie. Likely match: Echo Hoodie is OR's sun hoodie; only women's surfaced */
-  "sun-hoodie": "B0GM3CY531",
   /** Coleman Sundome Camping Tent with Rainfly - 4 Person. */
   "sundome-4": "B0D7QN9S9Q",
   /** SUUNTO M-3 Compass. */
@@ -231,6 +227,12 @@ export const ASINS: Record<string, string> = {
   yaktrax: "B007S3QY16",
   /** Therm-a-Rest Z Lite Sol Camping and Backpacking Sleeping Pad. */
   "z-lite": "B005I6R0WC",
+  /** NEMO Tensor All-Season Sleeping Pad. */
+  "nemo-tensor": "B0CS6587Z1",
+  /** Injinji Liner Crew Toesocks. */
+  "injinji-liner": "B0B8F35Q3M",
+  /** Granite Gear Crown 3 Backpack, listing offers the 60 L size. */
+  "crown-60": "B09RZL96JG",
 };
 
 export function asinFor(slug: string) {
