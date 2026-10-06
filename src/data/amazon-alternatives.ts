@@ -208,6 +208,42 @@ export const AMAZON_ALTERNATIVES: Record<string, AmazonAlternative> = {
     short: "OR Astroman Air",
     reason: "A hooded sun shirt from Outdoor Research. The men's Echo Sun Hoodie is not listed on amazon.com, so this is the closest hooded option from the same brand.",
   },
+  "alcohol-stove": {
+    asin: "B00S4OJJ4W",
+    name: "TOAKS Titanium Siphon Alcohol Stove",
+    short: "TOAKS Siphon Stove",
+    reason: "TOAKS's titanium siphon burner, listed at about 0.7 oz, a little heavier than the open stove. The pot stand and windscreen are sold separately.",
+  },
+  "rei-passage-2": {
+    asin: "B0CSDZGZPR",
+    name: "Kelty Late Start 2P Backpacking Tent",
+    short: "Kelty Late Start 2P",
+    reason: "A budget freestanding two-person tent from Kelty at about 4.7 lb, in the same low price band. It has one door, where the Passage 2 has two.",
+  },
+  "siesta-25": {
+    asin: "B01IO4GC14",
+    name: "Marmot Trestles 30 Synthetic Sleeping Bag",
+    short: "Marmot Trestles 30",
+    reason: "A synthetic mummy bag from Marmot in a similar price band. It is rated 30°F, a little less warm than the Siesta 25, so cold sleepers should add a layer.",
+  },
+  "trailmade-fleece": {
+    asin: "B09KMKDGHJ",
+    name: "Columbia Steens Mountain Full Zip 2.0 Fleece (men's)",
+    short: "Columbia Steens Mountain",
+    reason: "A basic full-zip fleece in the same low price band, for cool mornings and layering under a rain jacket.",
+  },
+  liteflex: {
+    asin: "B00BZYX3P4",
+    name: "EuroSCHIRM Swing Liteflex Trekking Umbrella",
+    short: "EuroSCHIRM Swing Liteflex",
+    reason: "The trekking umbrella from EuroSCHIRM, the maker of the Liteflex design. Like the Liteflex, it is a sun and light-rain tool, not a storm tool.",
+  },
+  "tarn-18": {
+    asin: "B0D4QYPBYP",
+    name: "Osprey Jet 18 Kids' Hiking Backpack",
+    short: "Osprey Jet 18",
+    reason: "An 18-liter kids' day pack from Osprey for ages 5 to 13, about the same size and weight as the Tarn 18.",
+  },
 };
 
 export function alternativeFor(slug: string): AmazonAlternative | undefined {

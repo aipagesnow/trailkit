@@ -43,19 +43,20 @@ export const roundups: Roundup[] = [
   {
     slug: "ultralight-tents",
     title: "Best Ultralight Tents",
-    description: "Ultralight backpacking tents and pole shelters: X-Mid 2, Lunar Solo, and when a freestanding tent is still the lighter system.",
+    description: "Ultralight tents and pole shelters: X-Mid 2, Lunar Solo, the semi-freestanding NEMO Hornet OSMO, and when a freestanding tent is still the lighter system.",
     h1: "Best ultralight tents",
     kicker: "Roundup · Shelters",
     category: "tents",
     answer:
-      "An ultralight shelter is the lightest one that matches your sites, not the lightest one on the internet. The X-Mid 2 wins for pairs with poles and stakeable ground. The Lunar Solo is the budget solo. A freestanding tent can be the lighter system if a pole tent forces you to carry poles you would not otherwise bring.",
+      "An ultralight shelter is the lightest one that matches your sites, not the lightest one on the internet. The X-Mid 2 wins for pairs with poles and stakeable ground. The Lunar Solo is the budget solo. The NEMO Hornet OSMO 2P is the semi-freestanding pick at about 2 lb 2 oz, for pairs without trekking poles who accept a small floor. A freestanding tent can still be the lighter system if a pole tent forces you to carry poles you would not otherwise bring. Those tents are on the main backpacking tents page.",
     who: "Hikers already under a reasonable pack weight. Beginners should not start with a single-wall tent.",
-    productSlugs: ["x-mid-2", "lunar-solo", "copper-spur-ul2"],
-    one: "If you are new to ultralight, buy the X-Mid and learn the pitch at home. Do not buy a DCF tent first.",
+    productSlugs: ["x-mid-2", "lunar-solo", "nemo-hornet-2"],
+    one: "If you are new to ultralight, buy the X-Mid and learn the pitch at home. If you do not carry trekking poles, buy the Hornet and accept the smaller floor. Do not buy a DCF tent first.",
     faqs: [
       { q: "Is a tarp ultralight?", a: "Yes, and it is a skill purchase. Bugs and sideways rain are the failure modes. Not a first overnight." },
       { q: "Inner or fly first?", a: "Fly first in rain. Learn both at home." },
       { q: "What stakes?", a: "Use the stakes the shelter maker recommends for your soil. Bent shepherd hooks are why light pitches fail." },
+      { q: "What does semi-freestanding mean?", a: "The poles hold most of the tent up, but the foot still needs stakes. On a platform or rock you will need a way to tie out the corners." },
     ],
     related: ["backpacking-tents", "ultralight-shelter", "sleeping-bags"],
     method,
@@ -122,18 +123,18 @@ export const roundups: Roundup[] = [
   {
     slug: "hiking-boots-wide-feet",
     title: "Best Hiking Boots for Wide Feet",
-    description: "Best hiking boots for wide feet: KEEN Targhee, Altra Lone Peak, Lowa Renegade wide, and why sizing up fails.",
+    description: "Best hiking boots for wide feet: KEEN Targhee, Merrell Moab 3 Wide, Lowa Renegade wide, and why sizing up fails.",
     h1: "Best hiking boots for wide feet",
     kicker: "Roundup · Footwear",
     category: "footwear",
     answer:
-      "Wide feet need a wider last or a labeled wide, not a longer boot. Sizing up lets the heel slip. Start with a KEEN Targhee if you want a traditional wide toe box and a waterproof mid. Start with an Altra Lone Peak if the issue is toe splay and you can handle zero drop. Fit the wider foot.",
-    who: "Hikers who blow out standard D-width boots or get numb toes in a tapered box. Not a mountaineering-boot guide.",
-    productSlugs: ["targhee-iv", "lone-peak", "renegade-wide", "moab-3-wide", "x-ultra-wide", "speedgoat"],
-    one: "Try the KEEN Targhee in a wide if you can try one pair on today. Try the Lone Peak if the pain is only the toe box on moderate trail.",
+      "Wide feet need a wider last or a labeled wide, not a longer boot. Sizing up lets the heel slip. Start with a KEEN Targhee if you want a traditional wide toe box and a waterproof mid. Start with a Merrell Moab 3 Mid Wide if you want an easy first labeled wide. If your ankles are fine and only your toes hurt, a wide toe box trail shoe may suit you better than any boot. Fit the wider foot.",
+    who: "Hikers who blow out standard D-width boots or get numb toes in a tapered box, and who want a boot's ankle and heel support. Not a trail-shoe list and not a mountaineering-boot guide.",
+    productSlugs: ["targhee-iv", "renegade-wide", "moab-3-wide", "x-ultra-wide", "oboz-bridger"],
+    one: "Try the KEEN Targhee in a wide if you can try one pair on today. Try the Moab 3 Mid Wide if the Targhee feels too bulky.",
     faqs: [
       { q: "Should I size up?", a: "No. Size length to the longer foot and width to the wider foot." },
-      { q: "Boot or shoe?", a: "Shoe if the trail is moderate and your ankles are fine. Boot if you roll ankles or carry a heavy pack." },
+      { q: "Boot or shoe?", a: "Boot if you roll ankles or carry a heavy pack. If the trail is moderate and your ankles are fine, a wide toe box trail shoe is often the better buy, and those are on the wide trail shoe page." },
       { q: "Is a wide toe box the same as 2E?", a: "No. A foot-shaped last can be wide at the toes and still narrow at the heel." },
     ],
     related: ["trail-shoes", "boot-fit", "rain-jackets-under-150"],
@@ -245,9 +246,9 @@ export const roundups: Roundup[] = [
     kicker: "Roundup · Lighting",
     category: "lighting",
     answer:
-      "Buy a headlamp with a stable low mode and a lock. High lumens are for finding the trail, not for cooking. The Petzl Actik Core and Black Diamond Spot are the default rechargeable picks. The Nitecore NU25 is the weight pick. Carry a second light on any overnight.",
+      "Buy a headlamp with a stable low mode and a lock. High lumens are for finding the trail, not for cooking. The Petzl Actik Core and Black Diamond Spot are the default rechargeable picks. The Nitecore NU25 is the weight pick. The Princeton Tec Remix runs on AA cells, for people who forget to charge things. Carry a second light on any overnight.",
     who: "Campers and hikers who walk after dusk or cook in the dark. Not a caving lamp guide.",
-    productSlugs: ["actik-core", "spot-400", "nu25", "biolite-330", "bindi"],
+    productSlugs: ["actik-core", "spot-400", "nu25", "biolite-330", "bindi", "princeton-remix"],
     one: "Buy the Actik Core or the Spot, learn the lock, and put a second small light in a hip-belt pocket.",
     faqs: [
       { q: "How many lumens?", a: "About 30 lumens cooks dinner. A couple hundred finds the trail. A 1000-lumen claim is mostly marketing here." },
@@ -304,9 +305,9 @@ export const roundups: Roundup[] = [
     kicker: "Roundup · Poles",
     category: "poles",
     answer:
-      "Poles are optional until your knees, your pack, or your tent say otherwise. A straight aluminum pole such as the LEKI Makalu is the safer tent-pitch pick. An ergo cork pole is kinder on long descents. Budget carbon is for learning. Do not crush folding carbon under a car trunk.",
+      "Poles are optional until your knees, your pack, or your tent say otherwise. A straight aluminum pole such as the LEKI Makalu is the safer tent-pitch pick. The Cascade Mountain Tech aluminum pole does the same job on a small budget, with more weight and locks worth checking in the store. An ergo cork pole is kinder on long descents. Budget carbon is for learning. Do not crush folding carbon under a car trunk.",
     who: "Hikers deciding whether poles are worth it, and pole-tent owners who need a reliable pair.",
-    productSlugs: ["leki-makalu", "bd-trail-ergo", "cmt-carbon", "bd-distance-carbon"],
+    productSlugs: ["leki-makalu", "bd-trail-ergo", "cmt-carbon", "bd-distance-carbon", "cmt-aluminum"],
     one: "If your tent needs poles, buy a straight aluminum pair. If you only want help on descents, try an ergo grip.",
     faqs: [
       { q: "One pole or two?", a: "Two, if you want the stability and if the tent needs two. One pole is a partial tool." },

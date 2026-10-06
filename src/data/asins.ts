@@ -2,9 +2,9 @@
  * Verified amazon.com ASINs (US). Tag is applied in affiliate.ts from AMAZON_ASSOCIATE_TAG.
  * Unlisted slugs are TODO — do not fall back to /s?k= search URLs or yourtag-20.
  *
- * Not on amazon.com (direct-only or REI house brand): amk-ul-5, aquamira, blackbird-xlc, camp-cot, capilene-cool, capilene-thermal, double-rainbow, down-hugger, dutchware-chameleon, echo-hoodie, ee-revelation, enigma-20, flash-55, half-dome-2-plus, hg-econ, hmg-southwest, hummingbird, kakwa-55, kindercone, kingdom-6, liteflex, magma-15, magma-30, magma-hoody, mariposa, nano-puff, plasma-1000, protrail, r1-air, rainier, rei-merino-185, rei-passage-2, rei-trail-40, siesta-25, summit-loft, sun-hoodie, superfly, tarn-18, trailmade-fleece, ula-circuit, versalite, x-mid-1, x-mid-2, zpacks-duplex.
+ * Not on amazon.com (direct-only or REI house brand): aquamira, blackbird-xlc, camp-cot, capilene-cool, capilene-thermal, double-rainbow, down-hugger, dutchware-chameleon, echo-hoodie, ee-revelation, enigma-20, flash-55, half-dome-2-plus, hg-econ, hmg-southwest, hummingbird, kakwa-55, kindercone, kingdom-6, liteflex, magma-15, magma-30, magma-hoody, mariposa, nano-puff, plasma-1000, protrail, r1-air, rainier, rei-merino-185, rei-passage-2, rei-trail-40, siesta-25, summit-loft, sun-hoodie, superfly, tarn-18, trailmade-fleece, ula-circuit, versalite, x-mid-1, x-mid-2, zpacks-duplex.
  *
- * Unsure — listing not confirmed, left unlinked: alcohol-stove, amk-mountain, ascendant, bd-distance-carbon, bd-trail-ergo, bedrock-cairn, biolite-330, deva-60, exped-dura, halulite, helium, icebreaker-175, komperdell-c3, mongoose, prolite, renegade-wide, steripen, tensor-wide, tikkid, trails-illustrated, trek-tk, trestles-eco-30, ursack-major.
+ * Unsure — listing not confirmed, left unlinked: alcohol-stove, amk-mountain, ascendant, bd-distance-carbon, bd-trail-ergo, bedrock-cairn, biolite-330, exped-dura, halulite, helium, icebreaker-175, komperdell-c3, mongoose, prolite, renegade-wide, steripen, sts-spark, tikkid, trails-illustrated, trek-tk, trestles-eco-30, ursack-major.
  */
 export const ASINS: Record<string, string> = {
   "hubba-hubba-2": "B00G7H9CAY",
@@ -183,8 +183,6 @@ export const ASINS: Record<string, string> = {
   "soto-amicus": "B07YCVXWQY",
   /** BLACK DIAMOND Spot 400-R Headlamp, Rechargeable, Graphite. */
   "spot-400": "B09NQK87MN",
-  /** Sea to Summit Spark Women's Ultralight Down Sleeping Bag. Likely match: only women's Spark surfaced; price not shown */
-  "sts-spark": "B0CTD9CNNC",
   /** Coleman Sundome Camping Tent with Rainfly - 4 Person. */
   "sundome-4": "B0D7QN9S9Q",
   /** SUUNTO M-3 Compass. */
@@ -233,6 +231,13 @@ export const ASINS: Record<string, string> = {
   "injinji-liner": "B0B8F35Q3M",
   /** Granite Gear Crown 3 Backpack, listing offers the 60 L size. */
   "crown-60": "B09RZL96JG",
+  // --- Oct 6, 2026 second amazon.com lookup batch (exact matches) ---
+  /** Adventure Medical Kits Ultralight/Watertight Medical Kit .5. Sold by Pattern, ships from Amazon. */
+  "amk-ul-5": "B0DV6PDY9R",
+  /** NEMO Tensor Trail Sleeping Pad, Regular Wide. Sold by NEMO Equipment. */
+  "tensor-wide": "B0CS6HCCCK",
+  /** Gregory Deva 60L Women's Backpacking Pack, Small, Mountain Teal. Sold by Gregory Mountain Products. */
+  "deva-60": "B0GHZJK75J",
 };
 
 export function asinFor(slug: string) {

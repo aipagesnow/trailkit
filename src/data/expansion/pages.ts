@@ -229,14 +229,15 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best backpacking first aid kits",
     "kicker": "Roundup · First aid",
     "category": "aid",
-    "answer": "Buy a small kit and then change it. The Adventure Medical Ultralight .5 is the solo starting point. Add leukotape and your own medications. The Mountain series is for groups that will be a day from a road. A kit does not replace a course.",
+    "answer": "Buy a small kit and then change it. The Adventure Medical Ultralight .5 is the solo starting point. Add leukotape and your own medications. The Mountain series is for groups that will be a day from a road. A SAM Splint belongs in that group kit only if someone knows how to pad it. A kit does not replace a course.",
     "who": "Hikers willing to open the pouch before the trip. Not a medical curriculum.",
     "productSlugs": [
       "amk-ul-5",
       "amk-mountain",
       "leukotape",
       "nitrile-gloves",
-      "nuun"
+      "nuun",
+      "sam-splint"
     ],
     "one": "For a solo weekend, buy the small kit and a roll of leukotape. Skip the big kit until you are responsible for other people.",
     "faqs": [
@@ -558,19 +559,18 @@ export const extraRoundups: Roundup[] = [
   {
     "slug": "camp-comfort",
     "title": "Best Car Camping Comfort Gear",
-    "description": "Comfort that earns the trunk space: a table, a cot, a pillow, and coffee.",
+    "description": "Car camping comfort upgrades for after the kitchen basics: a standing-height table, a cot, a pillow, a percolator, and a chair.",
     "h1": "Best car camping comfort gear",
     "kicker": "Roundup · Car camp",
     "category": "camp",
-    "answer": "Spend the trunk on a table at standing height, a cot if you hate the ground, and a real wash setup. An inflatable pillow is the backpacking version of the same idea. A percolator is a ritual, not a necessity.",
-    "who": "People camping next to a car. Not ounce-counters.",
+    "answer": "These are the upgrades to buy after the kitchen basics are sorted. Spend the trunk on a table at standing height and a cot if you hate the ground. An inflatable pillow is the backpacking version of the same idea. A percolator is a ritual, not a necessity. The stove, cooler and wash bins are on the car camping gear page.",
+    "who": "People camping next to a car who already have a stove, a cooler and a dish setup. Not ounce-counters.",
     "productSlugs": [
       "camp-table",
       "camp-cot",
       "aeros-pillow",
       "percolator",
-      "helinox-chair",
-      "wash-bins"
+      "helinox-chair"
     ],
     "one": "If you buy one thing, buy the table. A standing kitchen gets used. A gadget lantern does not fix a bad kitchen.",
     "faqs": [
@@ -601,14 +601,15 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best hiking navigation tools",
     "kicker": "Roundup · Navigation",
     "category": "nav",
-    "answer": "Carry a map you can read and a Suunto M-3 or another baseplate compass you have practiced. Add a Garmin inReach Mini 2 when the route is out of phone range and someone at home needs a check-in. A paper Trails Illustrated sheet still works when the battery does not.",
+    "answer": "Carry a map you can read and a Suunto M-3 or another baseplate compass you have practiced. Add a Garmin inReach Mini 2 when the route is out of phone range and someone at home needs a check-in. A paper Trails Illustrated sheet still works when the battery does not. A Garmin eTrex is the dedicated GPS for tracks and waypoints on AA cells. It does not send an SOS.",
     "who": "Hikers who have already been lost in an app at least once, or who are about to be.",
     "productSlugs": [
       "suunto-m3",
       "inreach-mini",
       "trails-illustrated",
       "whistle",
-      "nb10000"
+      "nb10000",
+      "etrex"
     ],
     "one": "Buy the compass and the correct map first. Buy the inReach when the consequence of silence is real, and budget for the subscription.",
     "faqs": [

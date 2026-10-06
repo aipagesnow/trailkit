@@ -122,4 +122,24 @@ export const INTENT_PAIRS: Record<string, { href: string; label: string; note: s
     label: "Best camping stoves",
     note: "This page covers light canister stoves for backpacking. For car camping, liquid fuel in the cold, or a boil system, use the camping stoves page.",
   },
+  "hiking-boots-wide-feet": {
+    href: "/best/trail-shoes",
+    label: "Best wide toe box trail shoes",
+    note: "This page is boots only. If your ankles are fine and you want a wide or foot-shaped trail shoe, use the shoe page.",
+  },
+  "ultralight-tents": {
+    href: "/best/backpacking-tents",
+    label: "Best backpacking tents",
+    note: "If you want one tent that stands on its own on platforms and rock, the main page has the freestanding picks.",
+  },
+  "car-camping-gear": {
+    href: "/best/camp-comfort",
+    label: "Best car camping comfort gear",
+    note: "Once the stove, cooler and wash bins are sorted, the comfort page covers the table, cot, pillow and coffee.",
+  },
+  "camp-comfort": {
+    href: "/best/car-camping-gear",
+    label: "Best car camping gear",
+    note: "These are upgrades. If you still need the stove, the cooler and a dish setup, start with the basics page.",
+  },
 };
