@@ -381,10 +381,10 @@ export const roundups: Roundup[] = [
     kicker: "Roundup · Sleep",
     category: "sleep",
     answer:
-      "If you sleep cold at home, you will sleep cold outside. Buy a warmer bag than the forecast suggests, a pad with real R-value, and a hood. The Magma 15 or Disco 15 plus an XTherm-class pad is the honest setup. A three-season XLite is not enough on its own for a cold sleeper. A quilt is usually the wrong experiment.",
-    teaser: "Cold sleepers need a lower bag rating and a high-R pad such as an XTherm. A quilt is usually the wrong experiment.",
+      "If you sleep cold at home, you will sleep cold outside. Buy a warmer bag than the forecast suggests, a pad with real R-value, and a hood. Start with the NEMO Disco 15, a spoon-shaped 15°F bag with room at the knees and elbows, plus an XTherm-class pad. The Magma 15 is the slimmer mummy at the same rating. A three-season XLite is not enough on its own for a cold sleeper. A quilt is usually the wrong experiment.",
+    teaser: "Start with the NEMO Disco 15, a spoon-shaped 15°F bag, and a high-R pad such as an XTherm. A quilt is usually the wrong experiment.",
     who: "People who steal blankets, sleep in socks, or wake up cold in a 40°F house.",
-    productSlugs: ["magma-15", "nemo-disco-15", "xtherm", "magma-hoody"],
+    productSlugs: ["nemo-disco-15", "magma-15", "xtherm", "magma-hoody"],
     one: "Spend the money on the pad and a lower temperature rating before you spend it on a lighter shell.",
     faqs: [
       { q: "Will a liner fix a cold bag?", a: "It adds a little. It does not turn a summer bag into a frost bag." },

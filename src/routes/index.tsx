@@ -40,7 +40,7 @@ function Home() {
   const kits = ["day-hike", "car-camp-weekend"].map((slug) => getKit(slug)).filter((k) => k != null);
   const guides = ["choose-a-pad", "layering", "boot-fit"].map((slug) => getGuide(slug)).filter((g) => g != null);
   const notes = ["r-value", "fill-power", "freestanding", "wide-last"].map((slug) => getNote(slug)).filter((n) => n != null);
-  const shelter = getProduct("copper-spur-ul2");
+  const shelter = getProduct("msr-elixir-2");
   return (
     <main>
       <section className="relative isolate min-h-[28rem] overflow-hidden border-b border-line">
@@ -81,8 +81,7 @@ function Home() {
           {shelter && asinFor(shelter.slug) ? (
             <div className="border border-line bg-paper p-4">
               <p className="max-w-2xl">
-                Start here for a two-person shelter: the Big Agnes Copper Spur UL2, the default on the{" "}
-                <a href="/best/backpacking-tents" className="font-bold text-forest underline">backpacking tents roundup</a>.
+                Start here for a two-person shelter: the MSR Elixir 2, a freestanding tent and a solid first pick.
               </p>
               <AmazonButton product={shelter} />
             </div>
