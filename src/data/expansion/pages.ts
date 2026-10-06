@@ -35,7 +35,7 @@ export const extraRoundups: Roundup[] = [
       "ultralight-tents",
       "ultralight-shelter"
     ],
-    "method": "Picks are framed by use, not by a private lab score. Weights and ratings are published classes and can change with the model year. Prices are not listed. Open the current listing before you buy."
+    "method": "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy."
   },
   {
     "slug": "budget-backpacks",
@@ -71,7 +71,7 @@ export const extraRoundups: Roundup[] = [
       "pack-fit",
       "first-overnight"
     ],
-    "method": "Picks are framed by use, not by a private lab score. Weights and ratings are published classes and can change with the model year. Prices are not listed. Open the current listing before you buy."
+    "method": "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy."
   },
   {
     "slug": "womens-packs",
@@ -106,7 +106,7 @@ export const extraRoundups: Roundup[] = [
       "osprey-vs-gregory",
       "pack-fit"
     ],
-    "method": "Picks are framed by use, not by a private lab score. Weights and ratings are published classes and can change with the model year. Prices are not listed. Open the current listing before you buy."
+    "method": "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy."
   },
   {
     "slug": "hammocks",
@@ -145,7 +145,7 @@ export const extraRoundups: Roundup[] = [
       "sleeping-bags",
       "ultralight-shelter"
     ],
-    "method": "Picks are framed by use, not by a private lab score. Weights and ratings are published classes and can change with the model year. Prices are not listed. Open the current listing before you buy."
+    "method": "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy."
   },
   {
     "slug": "hiking-socks",
@@ -182,7 +182,7 @@ export const extraRoundups: Roundup[] = [
       "boot-fit",
       "hiking-boots-wide-feet"
     ],
-    "method": "Picks are framed by use, not by a private lab score. Weights and ratings are published classes and can change with the model year. Prices are not listed. Open the current listing before you buy."
+    "method": "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy."
   },
   {
     "slug": "base-layers",
@@ -220,7 +220,7 @@ export const extraRoundups: Roundup[] = [
       "down-jackets",
       "shoulder-season"
     ],
-    "method": "Picks are framed by use, not by a private lab score. Weights and ratings are published classes and can change with the model year. Prices are not listed. Open the current listing before you buy."
+    "method": "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy."
   },
   {
     "slug": "first-aid",
@@ -258,7 +258,7 @@ export const extraRoundups: Roundup[] = [
       "leave-no-trace-camp",
       "day-hike"
     ],
-    "method": "Picks are framed by use, not by a private lab score. Weights and ratings are published classes and can change with the model year. Prices are not listed. Open the current listing before you buy."
+    "method": "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy."
   },
   {
     "slug": "bear-storage",
@@ -294,7 +294,7 @@ export const extraRoundups: Roundup[] = [
       "leave-no-trace-camp",
       "car-camping-kitchen"
     ],
-    "method": "Picks are framed by use, not by a private lab score. Weights and ratings are published classes and can change with the model year. Prices are not listed. Open the current listing before you buy."
+    "method": "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy."
   },
   {
     "slug": "cook-pots",
@@ -331,7 +331,7 @@ export const extraRoundups: Roundup[] = [
       "canister-vs-liquid",
       "car-camping-kitchen"
     ],
-    "method": "Picks are framed by use, not by a private lab score. Weights and ratings are published classes and can change with the model year. Prices are not listed. Open the current listing before you buy."
+    "method": "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy."
   },
   {
     "slug": "microspikes",
@@ -368,7 +368,7 @@ export const extraRoundups: Roundup[] = [
       "three-vs-four-season",
       "hiking-boots-wide-feet"
     ],
-    "method": "Picks are framed by use, not by a private lab score. Weights and ratings are published classes and can change with the model year. Prices are not listed. Open the current listing before you buy."
+    "method": "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy."
   },
   {
     "slug": "family-camping",
@@ -405,7 +405,7 @@ export const extraRoundups: Roundup[] = [
       "kids-first-trip",
       "car-camping-kitchen"
     ],
-    "method": "Picks are framed by use, not by a private lab score. Weights and ratings are published classes and can change with the model year. Prices are not listed. Open the current listing before you buy."
+    "method": "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy."
   },
   {
     "slug": "ultralight-packs",
@@ -442,7 +442,7 @@ export const extraRoundups: Roundup[] = [
       "light-and-dry",
       "pack-fit"
     ],
-    "method": "Picks are framed by use, not by a private lab score. Weights and ratings are published classes and can change with the model year. Prices are not listed. Open the current listing before you buy."
+    "method": "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy."
   },
   {
     "slug": "canister-stoves-picks",
@@ -480,7 +480,7 @@ export const extraRoundups: Roundup[] = [
       "canister-vs-liquid",
       "windmaster-vs-pocketrocket"
     ],
-    "method": "Picks are framed by use, not by a private lab score. Weights and ratings are published classes and can change with the model year. Prices are not listed. Open the current listing before you buy."
+    "method": "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy."
   },
   {
     "slug": "budget-rain-shells",
@@ -518,7 +518,7 @@ export const extraRoundups: Roundup[] = [
       "helium-vs-rainier",
       "layering"
     ],
-    "method": "Picks are framed by use, not by a private lab score. Weights and ratings are published classes and can change with the model year. Prices are not listed. Open the current listing before you buy."
+    "method": "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy."
   },
   {
     "slug": "trail-shoes",
@@ -555,7 +555,7 @@ export const extraRoundups: Roundup[] = [
       "hiking-boots-wide-feet",
       "boot-fit"
     ],
-    "method": "Picks are framed by use, not by a private lab score. Weights and ratings are published classes and can change with the model year. Prices are not listed. Open the current listing before you buy."
+    "method": "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy."
   },
   {
     "slug": "camp-comfort",
@@ -594,7 +594,7 @@ export const extraRoundups: Roundup[] = [
       "car-camping-kitchen",
       "car-camp-weekend"
     ],
-    "method": "Picks are framed by use, not by a private lab score. Weights and ratings are published classes and can change with the model year. Prices are not listed. Open the current listing before you buy."
+    "method": "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy."
   },
   {
     "slug": "navigation-gear",
@@ -632,7 +632,7 @@ export const extraRoundups: Roundup[] = [
       "day-hike",
       "first-overnight"
     ],
-    "method": "Picks are framed by use, not by a private lab score. Weights and ratings are published classes and can change with the model year. Prices are not listed. Open the current listing before you buy."
+    "method": "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy."
   },
   {
     "slug": "water-carry",
@@ -669,7 +669,7 @@ export const extraRoundups: Roundup[] = [
       "water-treatment",
       "how-much-water"
     ],
-    "method": "Picks are framed by use, not by a private lab score. Weights and ratings are published classes and can change with the model year. Prices are not listed. Open the current listing before you buy."
+    "method": "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy."
   }
 ]
 

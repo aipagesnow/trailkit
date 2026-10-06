@@ -1,7 +1,7 @@
 import type { Compare, Guide, Kit, Roundup } from "./types";
 
 const method =
-  "Picks are framed by use, not by a private lab score. Weights and ratings are published classes and can change with the model year. Prices are not listed. Open the current listing before you buy.";
+  "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy.";
 
 export const roundups: Roundup[] = [
   {

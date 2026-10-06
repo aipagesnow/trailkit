@@ -7,7 +7,7 @@ export const Route = createFileRoute("/gear/")({
   head: () =>
     pageHead({
       title: "Gear categories",
-      description: "Trailkit category hubs for shelters, sleep, packs, footwear, rain, stoves, water, and car camping.",
+      description: "Trailkit gear categories for shelters, sleep, packs, footwear, rain, stoves, water, and car camping.",
       path: "/gear",
     }),
   component: GearIndex,

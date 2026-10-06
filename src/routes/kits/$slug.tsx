@@ -42,7 +42,7 @@ function KitPage() {
       <Disclosure />
       <HowWePick />
       <section>
-        <h2 className="text-3xl">Manifest</h2>
+        <h2 className="text-3xl">Packing list</h2>
         <ul className="mt-3 divide-y divide-line border border-line">
           {picks.map((pick) => (
             <li key={pick.slug} className="grid grid-cols-[3rem_minmax(0,1fr)] items-center gap-3 px-3 py-2">

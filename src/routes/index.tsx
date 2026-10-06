@@ -45,7 +45,7 @@ function Home() {
         <TkImage route="/" priority fill sizes="100vw" />
         <div className="absolute inset-0 bg-forest-deep/70" aria-hidden />
         <div className="relative mx-auto max-w-6xl px-4 py-16 text-on-forest">
-          <p className="font-mono text-[11px] tracking-widest uppercase">Field kit · Constraint first</p>
+          <p className="font-mono text-[11px] tracking-widest uppercase">Hiking and backpacking gear</p>
           <h1 className="mt-2 max-w-3xl text-4xl text-on-forest md:text-5xl">Gear picks for the trip you are actually taking</h1>
           <p className="mt-4 max-w-2xl text-lg">
             Tents, sleep systems, packs, footwear, stoves, and shells matched to budget, weight, weather, and fit. Not a generic top ten.
@@ -77,7 +77,7 @@ function Home() {
         <Disclosure />
         <section>
           <h2 className="text-3xl">Start with a decision</h2>
-          <p className="mt-2 max-w-2xl text-muted">Each roundup leads with a direct answer, a comparison table, and one default pick.</p>
+          <p className="mt-2 max-w-2xl text-muted">Each guide starts with a straight answer, a comparison table, and one pick to start with.</p>
           <div className="mt-4 grid gap-3 md:grid-cols-3">
             {featured ? <FieldCard roundup={featured} index="R-01" featured priority /> : null}
             <div className="grid gap-3">
