@@ -47,6 +47,8 @@ export type Roundup = {
   kicker: string;
   category: string;
   answer: string;
+  /** One card sentence. The full answer stays on the roundup page. */
+  teaser?: string;
   /** Factual aside rendered under the direct answer. Not part of the home-card excerpt. */
   note?: string;
   quick?: QuickTable;

@@ -83,7 +83,7 @@ export function FieldCard({
       </div>
       <div className={featured ? "flex flex-col gap-1 p-3" : "flex flex-1 flex-col gap-1 p-3"}>
         <span className={`font-display leading-tight ${featured ? "text-3xl" : "text-[22px]"}`}>{roundup.h1}</span>
-        <span className={featured ? "line-clamp-3 text-sm text-muted md:text-base" : "line-clamp-2 text-sm text-muted"}>{roundup.answer}</span>
+        <span className={featured ? "line-clamp-3 text-sm text-muted md:text-base" : "line-clamp-2 text-sm text-muted"}>{roundup.teaser ?? roundup.answer.split(/(?<=[.!?])\s/)[0]}</span>
         {featured ? (
           <span className="mt-2 hidden flex-wrap gap-1 md:flex">
             <span className="py-0.5 pr-1 font-mono text-[11px] tracking-widest uppercase">On this page</span>

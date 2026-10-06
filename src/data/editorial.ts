@@ -13,6 +13,7 @@ export const roundups: Roundup[] = [
     category: "tents",
     answer:
       "For most two-person trips, buy a freestanding double-wall tent if you camp on platforms or rock, and a trekking-pole tent if you already carry poles and can stake. The Big Agnes Copper Spur UL2 is the default freestanding pick. The Durston X-Mid 2 is the default trekking-pole pick. A first weekend under eight miles can use a heavier freestanding tent; that beginner pick is on the first overnight page, and the budget band is on the budget tents page.",
+    teaser: "Copper Spur UL2 if your sites include platforms. X-Mid 2 only if you already carry poles and can stake the pitch.",
     who: "Beginners who want a tent that stands before it is staked, and experienced hikers shaving weight on a two- to five-night route. Not a four-season mountaineering guide.",
     productSlugs: ["copper-spur-ul2", "x-mid-2", "dragonfly-osmo-2", "hubba-hubba-2", "tiger-wall-ul2"],
     one: "Buy the Copper Spur UL2 if you want one tent that works on platforms and dirt. Buy the X-Mid 2 only if you already use trekking poles and will practice the pitch.",
@@ -49,6 +50,7 @@ export const roundups: Roundup[] = [
     category: "tents",
     answer:
       "An ultralight shelter is the lightest one that matches your sites, not the lightest one on the internet. The X-Mid 2 wins for pairs with poles and stakeable ground. The Lunar Solo is the budget solo. The NEMO Hornet OSMO 2P is the semi-freestanding pick at about 2 lb 2 oz, for pairs without trekking poles who accept a small floor. A freestanding tent can still be the lighter system if a pole tent forces you to carry poles you would not otherwise bring. Those tents are on the main backpacking tents page.",
+    teaser: "The lightest shelter that still matches your sites: X-Mid 2 with poles, Lunar Solo for one, Hornet if you skip poles.",
     who: "Hikers already under a reasonable pack weight. Beginners should not start with a single-wall tent.",
     productSlugs: ["x-mid-2", "lunar-solo", "nemo-hornet-2"],
     one: "If you are new to ultralight, buy the X-Mid and learn the pitch at home. If you do not carry trekking poles, buy the Hornet and accept the smaller floor. Do not buy a DCF tent first.",
@@ -70,6 +72,7 @@ export const roundups: Roundup[] = [
     category: "tents",
     answer:
       "Every pick here sits in the Budget to Mid price bands. The lighter Upper mid tents are on the main backpacking tents page. The REI Co-op Half Dome 2 Plus is the roomy first freestanding tent for short weekends. The MSR Elixir 2 is the simple freestanding alternative at about 5 lb. The Six Moon Designs Lunar Solo is the light budget pick for one hiker who accepts single-wall condensation. The REI Co-op Passage 2 is the cheapest real tent here, for first nights close to the car. Cheap out on a sit pad, not on a storm shelter.",
+    teaser: "Stay in the Budget to Mid band: Half Dome 2 Plus for a first weekend, Elixir for a simple pitch, Lunar Solo if you hike alone.",
     who: "New campers spending carefully, pairs who accept extra weight for a lower price, and solo hikers who do not need a flagship tent.",
     productSlugs: ["half-dome-2-plus", "msr-elixir-2", "lunar-solo", "rei-passage-2"],
     one: "Buy the Half Dome 2 Plus if you are new. Buy the Elixir 2 if you want a freestanding tent with a simple pitch. Buy the Lunar Solo only if you hike alone and will vent it.",
@@ -89,6 +92,7 @@ export const roundups: Roundup[] = [
     category: "sleep",
     answer:
       "Match the bag to the coldest night you will actually sleep, then add margin if you sleep cold. A 15°F or 20°F down mummy is the default three-season bag. The REI Magma 15 is the returnable default. The Western Mountaineering Alpinlite is the premium warmer-weather down pick. A quilt wins only if you sleep warm and will strap it to the pad. Roomier cold-sleeper bags are on the cold sleepers page. The bag is not the pad.",
+    teaser: "Match the bag to the coldest night you will sleep, then start with a returnable 15°F down mummy such as the Magma 15.",
     who: "Backpackers building a three-season sleep system. Not a winter expedition bag guide.",
     productSlugs: ["magma-15", "wm-ultralite", "ee-revelation", "alpinlite", "trestles-eco-30", "sts-spark"],
     one: "Buy a 15°F or 20°F down mummy you can return, unless you already know you will manage a quilt.",
@@ -109,6 +113,7 @@ export const roundups: Roundup[] = [
     category: "pads",
     answer:
       "Choose R-value first, width second, weight third. A three-season pad for most people sits around R 3 to 4. The NeoAir XLite NXT is the default insulated air pad. Side sleepers should buy the wide, and the XLite NXT Wide is the width pick here. Foam alone is a summer pad. High R-value pads for cold sleepers are on the cold sleepers page.",
+    teaser: "Pick R-value before weight. The XLite NXT is the default three-season air pad, and side sleepers should buy the wide.",
     who: "Anyone buying a first backpacking pad or replacing a thick pad that was still cold.",
     productSlugs: ["xlite-nxt", "nemo-tensor", "exped-ultra", "ether-light", "z-lite", "xlite-wide"],
     one: "Buy an insulated air pad around R 3.5 or higher, in the wide if you side-sleep. Carry a patch kit.",
@@ -129,6 +134,7 @@ export const roundups: Roundup[] = [
     category: "footwear",
     answer:
       "Wide feet need a wider last or a labeled wide, not a longer boot. Sizing up lets the heel slip. Start with a KEEN Targhee if you want a traditional wide toe box and a waterproof mid. Start with a Merrell Moab 3 Mid Wide if you want an easy first labeled wide. If your ankles are fine and only your toes hurt, a wide toe box trail shoe may suit you better than any boot. Fit the wider foot.",
+    teaser: "Wide feet need a wider last, not a longer boot. Try the KEEN Targhee first if you can get a pair on your feet today.",
     who: "Hikers who blow out standard D-width boots or get numb toes in a tapered box, and who want a boot's ankle and heel support. Not a trail-shoe list and not a mountaineering-boot guide.",
     productSlugs: ["targhee-iv", "renegade-wide", "moab-3-wide", "x-ultra-wide", "oboz-bridger"],
     one: "Try the KEEN Targhee in a wide if you can try one pair on today. Try the Moab 3 Mid Wide if the Targhee feels too bulky.",
@@ -149,6 +155,7 @@ export const roundups: Roundup[] = [
     category: "footwear",
     answer:
       "A trail runner is the right hiking shoe on moderate trail if your ankles are stable. The Hoka Speedgoat is the max-cushion pick for long days. The La Sportiva Ultra Raptor is the pick for rocky trail and a heel that holds. The Danner Trail 2650 is the low hiking shoe for day hikes and travel days. Switch back to a boot when you roll ankles, carry a heavy pack, or walk off-trail on loose rock.",
+    teaser: "Stable ankles can hike in a trail shoe. Speedgoat for cushion, Ultra Raptor for rock, Trail 2650 for day hikes.",
     who: "Day hikers and light overnight hikers on maintained trail.",
     productSlugs: ["speedgoat", "ultra-raptor", "trail-2650"],
     one: "Buy the Speedgoat if your knees want cushion. Buy the Ultra Raptor if the trail is rocky and your feet are medium to narrow. Keep a boot if you are unsure about your ankles.",
@@ -168,6 +175,7 @@ export const roundups: Roundup[] = [
     category: "packs",
     answer:
       "Fit the torso before you compare pockets. For hot miles and a normal load, the Osprey Atmos AG 65 is the ventilation example. For a pack you live out of, the Gregory Baltoro 65 is the organization example. The Deuter Aircontact Core 60+10 is the load-hauling example. The Granite Gear Crown3 60 is the lighter framed pick when you do not need a trampoline back panel. Ultralight cottage packs are on the ultralight packs page. Daypacks are on the daypacks page.",
+    teaser: "Fit the torso before the pockets. Atmos AG 65 for hot miles, Baltoro to live out of, Aircontact when the load is heavy.",
     who: "Hikers choosing a multi-day framed pack. Women's fits are different model names. Not an ultralight cottage-pack list and not a daypack list.",
     productSlugs: ["atmos-ag-65", "baltoro-65", "aircontact", "crown-60"],
     one: "Try two packs loaded with about 25 pounds. Buy the one whose torso length is right. Ignore features if the hip belt misses your iliac crest.",
@@ -188,6 +196,7 @@ export const roundups: Roundup[] = [
     category: "packs",
     answer:
       "A day hike needs water, a shell, a layer, and food. The Osprey Talon 22 is the daypack with a hip belt that takes the water weight off your shoulders. The REI Co-op Trail 40 is the bigger option when a long day needs more water and layers; treat it as a long-day pack, not a multi-day haul. A rain shell for the first night out stays on the first overnight page. All-day rain shells are on the rain jackets page.",
+    teaser: "Water, a shell, and food belong in a daypack with a hip belt. The Talon 22 is that pack. The Trail 40 is for a longer day.",
     who: "Day hikers replacing a school backpack or a commuter bag. Not a multi-day pack list.",
     productSlugs: ["talon-22", "rei-trail-40"],
     one: "Buy a 20- to 28-liter pack with a hip belt. Put the rain shell in it even when the morning looks clear.",
@@ -207,6 +216,7 @@ export const roundups: Roundup[] = [
     category: "shells",
     answer:
       "Under $150, buy a shell that keeps a day of rain out and accept that it wets out sooner than a $300 jacket. Outdoor Research Helium is the packable pick. REI Rainier is the try-on pick. A rain jacket is not insulation. The Torrentshell usually sits above this cap and is listed so you know when to leave the cap.",
+    teaser: "Helium stays the packable default under this cap. Rainier is the shell you can try on. A rain jacket is not a warm layer.",
     note:
       "amazon.com has no verified listing for the standard Outdoor Research Helium right now. Helium stays the packable default on this page. The Helium product page names a Closest listing (Marmot PreCip Eco); that Closest is not the pick.",
     who: "Hikers who need a real rain layer without an alpine shell budget.",
@@ -229,6 +239,7 @@ export const roundups: Roundup[] = [
     category: "stoves",
     answer:
       "Pick the stove by the trip. At a drive-up site, a two-burner such as the Coleman is the right tool, and ounces do not matter. For three-season backpacking, a canister stove such as the Soto WindMaster is the default. For cold trips or uncertain canister supply, the MSR WhisperLite runs on liquid fuel. If dinner is only boiling water, use an integrated system: the Jetboil MiniMo for coffee and freezer-bag meals, or the MSR Reactor for wind and cold. Never run a stove in a tent.",
+    teaser: "Match the stove to the trip: a two-burner at the car, WindMaster for three-season miles, WhisperLite in the cold.",
     who: "Campers deciding which kind of stove fits the trip: car camping, cold weather, or boil-only meals.",
     productSlugs: ["coleman-2burner", "windmaster", "whisperlite", "minimo", "msr-reactor"],
     one: "Buy a two-burner if you only car camp. Buy the WindMaster and a simple pot if you backpack in three seasons. Buy the WhisperLite only if you camp in the cold or travel where canisters are hard to find.",
@@ -249,6 +260,7 @@ export const roundups: Roundup[] = [
     category: "lighting",
     answer:
       "Buy a headlamp with a stable low mode and a lock. High lumens are for finding the trail, not for cooking. The Petzl Actik Core and Black Diamond Spot are the default rechargeable picks. The Nitecore NU25 is the weight pick. The Princeton Tec Remix runs on AA cells, for people who forget to charge things. Carry a second light on any overnight.",
+    teaser: "Cook on a low mode, and lock the lamp in the pack. Actik Core and Spot are the defaults. Carry a second light.",
     who: "Campers and hikers who walk after dusk or cook in the dark. Not a caving lamp guide.",
     productSlugs: ["actik-core", "spot-400", "nu25", "biolite-330", "bindi", "princeton-remix"],
     one: "Buy the Actik Core or the Spot, learn the lock, and put a second small light in a hip-belt pocket.",
@@ -269,6 +281,7 @@ export const roundups: Roundup[] = [
     category: "water",
     answer:
       "For most North American backcountry, a hollow-fiber filter is the everyday tool. The Sawyer Squeeze is the default. It does not remove viruses, it clogs in silt, and it can be ruined by freezing. Add chemicals where viruses matter. Carry a backup method on any trip where being thirsty is not an option.",
+    teaser: "Most trips start with the Sawyer Squeeze. It misses viruses, clogs in silt, and can be ruined by freezing. Carry a backup.",
     who: "Backpackers and day hikers treating lake and stream water. Travel purifiers are a separate decision.",
     productSlugs: ["sawyer-squeeze", "befree", "quickdraw", "trailshot", "grayl"],
     one: "Buy the Squeeze, a dirty bag, and a small bottle of tablets as backup. Learn to backflush before the trip.",
@@ -289,6 +302,7 @@ export const roundups: Roundup[] = [
     category: "layers",
     answer:
       "The jacket you hike in is not the jacket you sit in. A sun hoodie covers noon. An active synthetic covers cool climbing. A hooded down puffy covers camp. The REI Magma hoody is the returnable camp layer. Do not hike uphill in it.",
+    teaser: "Hike in a sun hoodie. Sit in a hooded puffy. The Magma hoody is the returnable camp layer. Do not climb in it.",
     who: "Three-season hikers building a layering system, not a ski-town parka shopper.",
     productSlugs: ["magma-hoody", "ghost-whisperer", "nano-puff", "ascendant", "sun-hoodie"],
     one: "Buy a hooded down or synthetic puffy for camp and a sun hoodie for the day. Add active insulation only if you run cold while moving.",
@@ -308,6 +322,7 @@ export const roundups: Roundup[] = [
     category: "poles",
     answer:
       "Poles are optional until your knees, your pack, or your tent say otherwise. A straight aluminum pole such as the LEKI Makalu is the safer tent-pitch pick. The Cascade Mountain Tech aluminum pole does the same job on a small budget, with more weight and locks worth checking in the store. An ergo cork pole is kinder on long descents. Budget carbon is for learning. Do not crush folding carbon under a car trunk.",
+    teaser: "A tent that needs poles wants straight aluminum, such as the LEKI Makalu. Ergo cork is for knees on the way down.",
     who: "Hikers deciding whether poles are worth it, and pole-tent owners who need a reliable pair.",
     productSlugs: ["leki-makalu", "bd-trail-ergo", "cmt-carbon", "bd-distance-carbon", "cmt-aluminum"],
     one: "If your tent needs poles, buy a straight aluminum pair. If you only want help on descents, try an ergo grip.",
@@ -327,6 +342,7 @@ export const roundups: Roundup[] = [
     category: "camp",
     answer:
       "A car camping weekend fails on dishes, bad ice, and one burner. Buy a two-burner, three wash bins, and a cooler you pre-chill. A chair is optional comfort. A cast-iron skillet stays in the car. Do not pack this list into a backpack.",
+    teaser: "The car carries the weight. Buy a two-burner, three wash bins, and a cooler you pre-chill before you buy a chair.",
     who: "Families and friends camping within walking distance of the car.",
     productSlugs: ["coleman-2burner", "wash-bins", "rotomold-cooler", "lodge-skillet", "helinox-chair", "rumpl"],
     one: "Buy the two-burner and the wash bins before any gadget.",
@@ -346,6 +362,7 @@ export const roundups: Roundup[] = [
     category: "camp",
     answer:
       "Spend under $50 on simple things: a backup stove, a dry bag, repair tape, wash bins. Do not spend under $50 expecting a backpacking tent or a winter bag. The BRS stove is a fair spare and a bad only stove in wind. The repair tape is the item that saves an air pad.",
+    teaser: "Spend small money on tape, a dry bag, and a spare stove. A backpacking tent or a winter bag is the wrong place to save.",
     who: "Car campers filling gaps and backpackers who need a cheap spare.",
     productSlugs: ["brs-3000", "dry-bag", "tenacious-tape", "wash-bins", "z-lite", "sawyer-squeeze"],
     one: "Buy the dry bag, the tape, and a second light. Skip the $40 tent.",
@@ -365,6 +382,7 @@ export const roundups: Roundup[] = [
     category: "sleep",
     answer:
       "If you sleep cold at home, you will sleep cold outside. Buy a warmer bag than the forecast suggests, a pad with real R-value, and a hood. The Magma 15 or Disco 15 plus an XTherm-class pad is the honest setup. A three-season XLite is not enough on its own for a cold sleeper. A quilt is usually the wrong experiment.",
+    teaser: "Cold sleepers need a lower bag rating and a high-R pad such as an XTherm. A quilt is usually the wrong experiment.",
     who: "People who steal blankets, sleep in socks, or wake up cold in a 40°F house.",
     productSlugs: ["magma-15", "nemo-disco-15", "xtherm", "magma-hoody"],
     one: "Spend the money on the pad and a lower temperature rating before you spend it on a lighter shell.",
@@ -384,6 +402,7 @@ export const roundups: Roundup[] = [
     category: "packs",
     answer:
       "A first overnight needs a shelter you can pitch, a sleep system rated for the real low, a way to boil water, a rain layer, and a headlamp with a lock. It does not need a 65-liter pack full of extras. Use a two-person freestanding tent even if you hike alone. The REI Co-op Half Dome 2 Plus is the beginner freestanding tent. The Kelty Cosmic 20 is a simple 20°F down bag for fair weather. The NEMO Tensor is a quiet three-season pad. Leave the camp chair. If you sleep cold at home, use the cold sleepers page instead of this kit's sleep picks.",
+    teaser: "Use a two-person freestanding tent even if you hike alone. Practice the pitch, and leave the camp chair in the car.",
     who: "Someone whose longest hike so far is a day hike, planning one fair-weather night a few miles from the car.",
     productSlugs: ["half-dome-2-plus", "kelty-cosmic-20", "nemo-tensor", "windmaster", "actik-core", "rei-trail-40", "helium"],
     one: "Practice the tent pitch and one stove meal at home. If those two work, the night will work.",

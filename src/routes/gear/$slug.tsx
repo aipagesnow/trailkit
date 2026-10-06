@@ -30,7 +30,7 @@ function CategoryPage() {
       <JsonLd data={[breadcrumbLd([{ name: "Home", path: "/" }, { name: "Categories", path: "/gear" }, { name: category.name }])]} />
       <section className="relative isolate min-h-64 overflow-hidden border-b border-line md:min-h-[300px]">
         <TkImage route={`/gear/${category.slug}`} priority fill sizes="100vw" />
-        <div className="absolute inset-0 bg-gradient-to-r from-forest-deep via-forest-deep/85 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-forest-deep via-forest-deep/90 to-transparent" />
         <div className="relative mx-auto max-w-6xl px-4 py-10 text-on-forest md:py-14">
           <Crumbs items={[{ href: "/gear", label: "Categories" }, { label: category.name }]} />
           <p className="mt-4 font-mono text-[11px] tracking-widest uppercase">{category.short}</p>

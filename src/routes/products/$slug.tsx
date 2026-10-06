@@ -14,7 +14,7 @@ export const Route = createFileRoute("/products/$slug")({
   },
   head: ({ loaderData, params }) =>
     pageHead({
-      title: loaderData ? `${loaderData.name} review notes` : "Gear",
+      title: loaderData ? `${loaderData.name} — quick notes` : "Gear",
       description: loaderData?.summary ?? "",
       path: `/products/${params.slug}`,
     }),

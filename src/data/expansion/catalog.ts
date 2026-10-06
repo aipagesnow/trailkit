@@ -1320,16 +1320,17 @@ export const extraProducts: Product[] = [
     "limit": "Price, and a harsh carry if overloaded",
     "role": "Waterproof roll-top",
     "summary": "A DCF pack that keeps rain out and expects you to pack like a thru-hiker.",
-    "body": "The Southwest is a tool for people who already like a simple pack. There is no trampoline and not much forgiveness. If you want organization, this will annoy you. If you want a pack that does not soak through, it is one of the usual answers.",
-    "who": "Experienced hikers in wet country with a dialed kit.",
+    "body": "The Southwest is a roll-top DCF pack for hikers who already pack like they own one. There is no trampoline back and not much forgiveness if the load is heavy or sloppy. Rain stays out better than it does in a standard nylon pack, which is the reason to pay for it. If you want lid pockets and organization, the Osprey Atmos AG 65 or the Gregory Baltoro 65 will annoy you less. If you want a lighter framed pack while you are still learning what to leave at home, the Gossamer Gear Mariposa still has a hip belt and a less harsh carry. This page withholds an Amazon link. There is no verified listing for the Southwest here, and a different pack is not offered as a substitute.",
+    "who": "Experienced hikers in wet country whose kit is already simple enough for a roll-top.",
     "pros": [
       "Highly water resistant",
-      "Light",
-      "Simple"
+      "Light for the fabric",
+      "Simple roll-top"
     ],
     "cons": [
       "Expensive",
-      "Uncomfortable when overloaded"
+      "Uncomfortable when overloaded",
+      "Few pockets"
     ],
     "specs": [
       {

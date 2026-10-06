@@ -1407,12 +1407,12 @@
    "label": "Shelters",
    "card_type": "E category tile",
    "aspect_master": "16:9 (1280x720)",
-   "focal": "28% 42%",
+   "focal": "72% 42%",
    "image": "/images/gear/tents.jpg",
    "status": "generate",
-   "alt": "A grey-green dome tent on forest duff, door open, one guyline and a stake",
-   "scene": "a grey-green dome tent pitched on forest duff in the left third, door open, one grey guyline and a single stake",
-   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the left 40 percent. Quiet mossy clearing on the right. Plain unbranded tent."
+   "alt": "A grey-green dome tent in the right half of a forest clearing, door open, one guyline and a stake, darker empty duff on the left",
+   "scene": "a grey-green dome tent pitched on forest duff in the right half, door open, one grey guyline and a single stake, vertically centered",
+   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text."
   },
   {
    "hub": "gear",
@@ -1421,12 +1421,12 @@
    "label": "Sleep",
    "card_type": "E category tile",
    "aspect_master": "16:9 (1280x720)",
-   "focal": "28% 42%",
+   "focal": "72% 42%",
    "image": "/images/gear/sleep.jpg",
    "status": "generate",
-   "alt": "A frosted grey sleeping bag unzipped on a pad inside a tent",
-   "scene": "a grey down sleeping bag unzipped on a pad just inside a tent door, light frost on the baffles, bag large in the left half",
-   "extra": "Wide 16:9 landscape. Subject vertically centered in the left half. Quiet tent floor on the right. Unbranded."
+   "alt": "A frosted grey sleeping bag unzipped on a pad in the right half of a tent, darker empty floor on the left",
+   "scene": "a grey down sleeping bag unzipped on a pad inside a tent, light frost on the baffles, bag large in the right half",
+   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text."
   },
   {
    "hub": "gear",
@@ -1435,12 +1435,12 @@
    "label": "Pads",
    "card_type": "E category tile",
    "aspect_master": "16:9 (1280x720)",
-   "focal": "28% 42%",
+   "focal": "72% 42%",
    "image": "/images/gear/pads.jpg",
    "status": "generate",
-   "alt": "An inflated grey air pad with a round valve on a tent floor",
-   "scene": "an inflated grey air sleeping pad with a round valve on a tent floor, baffles and valve large in the left half",
-   "extra": "Wide 16:9 landscape. Subject vertically centered in the left half. Quiet floor on the right. Unbranded."
+   "alt": "An inflated grey air pad with a round valve in the right half of a tent floor, darker empty floor on the left",
+   "scene": "an inflated grey air sleeping pad with a round valve and baffles on a tent floor, pad large in the right half",
+   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text."
   },
   {
    "hub": "gear",
@@ -1449,12 +1449,12 @@
    "label": "Packs",
    "card_type": "E category tile",
    "aspect_master": "16:9 (1280x720)",
-   "focal": "28% 42%",
+   "focal": "72% 42%",
    "image": "/images/gear/packs.jpg",
    "status": "generate",
-   "alt": "A plain grey hiking backpack standing on trailhead gravel",
-   "scene": "a plain grey hiking backpack standing on trailhead gravel in the left third, hipbelt buckle visible",
-   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet gravel and trees on the right. Unbranded."
+   "alt": "A plain grey hiking backpack standing on the right side of a gravel trailhead, darker trees on the left",
+   "scene": "a plain grey hiking backpack standing on trailhead gravel in the right half, hipbelt buckle visible, vertically centered",
+   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text."
   },
   {
    "hub": "gear",
@@ -1463,12 +1463,12 @@
    "label": "Footwear",
    "card_type": "E category tile",
    "aspect_master": "16:9 (1280x720)",
-   "focal": "28% 42%",
+   "focal": "72% 42%",
    "image": "/images/gear/footwear.jpg",
    "status": "generate",
-   "alt": "A pair of plain hiking boots with deep lugs on wet rock",
-   "scene": "a pair of plain brown-grey hiking boots with deep lugs standing on wet granite in the left third",
-   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet wet stone on the right. Unmarked."
+   "alt": "A pair of plain hiking boots with deep lugs on wet rock in the right half, darker empty stone on the left",
+   "scene": "a pair of plain brown-grey hiking boots with deep lugs standing on wet granite in the right half",
+   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text."
   },
   {
    "hub": "gear",
@@ -1477,12 +1477,12 @@
    "label": "Rain",
    "card_type": "E category tile",
    "aspect_master": "16:9 (1280x720)",
-   "focal": "28% 42%",
+   "focal": "72% 42%",
    "image": "/images/gear/shells.jpg",
    "status": "generate",
-   "alt": "A matte grey rain shell hanging from a branch in the rain",
-   "scene": "a matte grey rain shell hanging open from a branch in the left third, rain beading on the fabric, hood empty",
-   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet wet forest on the right. Unbranded."
+   "alt": "A matte grey rain shell hanging in the rain in the right half of a wet forest, darker trees on the left",
+   "scene": "a matte grey rain shell hanging open from a branch in the right half, rain beading on the fabric, hood empty",
+   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text."
   },
   {
    "hub": "gear",
@@ -1491,12 +1491,12 @@
    "label": "Stoves",
    "card_type": "E category tile",
    "aspect_master": "16:9 (1280x720)",
-   "focal": "28% 42%",
+   "focal": "72% 42%",
    "image": "/images/gear/stoves.jpg",
    "status": "generate",
-   "alt": "A canister stove with a blue flame and a metal pot on a rock",
-   "scene": "a canister stove with a short blue flame under a metal pot on a flat rock in the left third",
-   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet stone and grass on the right. Unmarked."
+   "alt": "A canister stove with a blue flame and a metal pot on a rock in the right half, darker stone on the left",
+   "scene": "a canister stove with a short blue flame under a metal pot on a flat rock in the right half",
+   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text."
   },
   {
    "hub": "gear",
@@ -1505,12 +1505,12 @@
    "label": "Lights",
    "card_type": "E category tile",
    "aspect_master": "16:9 (1280x720)",
-   "focal": "28% 42%",
+   "focal": "72% 42%",
    "image": "/images/gear/lighting.jpg",
    "status": "generate",
-   "alt": "A plain headlamp on a damp log with its beam in the mist",
-   "scene": "a plain grey headlamp with a blank face resting on a damp log in the left third, beam in misty trees",
-   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet foggy forest on the right. No letters."
+   "alt": "A plain headlamp on a damp log in the right half, beam in the mist, darker forest on the left",
+   "scene": "a plain grey headlamp with a blank face resting on a damp log in the right half, beam in misty trees",
+   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text."
   },
   {
    "hub": "gear",
@@ -1519,12 +1519,12 @@
    "label": "Water",
    "card_type": "E category tile",
    "aspect_master": "16:9 (1280x720)",
-   "focal": "28% 42%",
+   "focal": "72% 42%",
    "image": "/images/gear/water.jpg",
    "status": "generate",
-   "alt": "A squeeze filter on a soft flask dripping into a metal cup",
-   "scene": "a short unmarked squeeze filter on a soft flask dripping into a metal cup on creek stones in the left third",
-   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet wet cobbles on the right. No letters."
+   "alt": "A squeeze filter on a soft flask dripping into a metal cup in the right half, darker creek stones on the left",
+   "scene": "a short unmarked squeeze filter on a soft flask dripping into a metal cup on creek stones in the right half",
+   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text."
   },
   {
    "hub": "gear",
@@ -1533,12 +1533,12 @@
    "label": "Layers",
    "card_type": "E category tile",
    "aspect_master": "16:9 (1280x720)",
-   "focal": "28% 42%",
+   "focal": "72% 42%",
    "image": "/images/gear/layers.jpg",
    "status": "generate",
-   "alt": "A light grey baffled jacket with a little snow, laid on a rock",
-   "scene": "a light grey baffled insulated jacket laid on a rock in the left third, a few flakes of snow on the fabric",
-   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet snowy ground on the right. Unmarked."
+   "alt": "A light grey baffled jacket with a little snow on a rock in the right half, darker snow on the left",
+   "scene": "a light grey baffled insulated jacket laid on a rock in the right half, a few flakes of snow on the fabric",
+   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text."
   },
   {
    "hub": "gear",
@@ -1547,12 +1547,12 @@
    "label": "Poles",
    "card_type": "E category tile",
    "aspect_master": "16:9 (1280x720)",
-   "focal": "28% 42%",
+   "focal": "72% 78%",
    "image": "/images/gear/poles.jpg",
    "status": "generate",
-   "alt": "Two trekking poles with baskets planted in scree",
-   "scene": "two straight trekking poles with baskets planted in grey scree in the left third",
-   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet talus on the right. Unmarked."
+   "alt": "Two trekking poles with baskets planted in scree on the right, quieter talus on the left",
+   "scene": "two straight trekking poles with baskets planted in grey scree in the right half",
+   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text."
   },
   {
    "hub": "gear",
@@ -1561,12 +1561,12 @@
    "label": "Car camp",
    "card_type": "E category tile",
    "aspect_master": "16:9 (1280x720)",
-   "focal": "28% 42%",
+   "focal": "72% 42%",
    "image": "/images/gear/camp.jpg",
    "status": "generate",
-   "alt": "Two enamel mugs and a percolator on a camp table in the mist",
-   "scene": "two pale enamel mugs and a steel percolator on a low camp table in the left half, misty evergreens on the right",
-   "extra": "Wide 16:9 landscape. Mugs light enough to read under a dark left gradient. Subject vertically centered. Unmarked."
+   "alt": "Two enamel mugs and a percolator on a camp table in the right half, darker mist on the left",
+   "scene": "two pale enamel mugs and a steel percolator on a low camp table in the right half, misty evergreens behind",
+   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text."
   },
   {
    "hub": "gear",
@@ -1575,12 +1575,12 @@
    "label": "Hammocks",
    "card_type": "E category tile",
    "aspect_master": "16:9 (1280x720)",
-   "focal": "28% 42%",
+   "focal": "72% 42%",
    "image": "/images/gear/hammocks.jpg",
    "status": "generate",
-   "alt": "A hammock gathered onto a wide strap around a pine",
-   "scene": "a wide olive strap and a gathered hammock end around a pine trunk in the left third, plain buckle",
-   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet forest floor on the right. No writing on the buckle."
+   "alt": "A hammock gathered onto a wide strap around a pine on the right, darker forest floor on the left",
+   "scene": "a wide olive strap and a gathered hammock end around a pine trunk in the right half, plain buckle",
+   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text."
   },
   {
    "hub": "gear",
@@ -1589,12 +1589,12 @@
    "label": "Socks",
    "card_type": "E category tile",
    "aspect_master": "16:9 (1280x720)",
-   "focal": "28% 42%",
+   "focal": "72% 42%",
    "image": "/images/gear/socks.jpg",
    "status": "generate",
-   "alt": "Wool hiking socks and a plain boot on a rock",
-   "scene": "a pair of thick grey wool socks and a plain brown boot on a rock in the left third",
-   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet stone on the right. Unmarked."
+   "alt": "Wool hiking socks and a plain boot on a rock in the right half, darker stone on the left",
+   "scene": "a pair of thick grey wool socks and a plain brown boot on a rock in the right half",
+   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text."
   },
   {
    "hub": "gear",
@@ -1603,12 +1603,12 @@
    "label": "Base layers",
    "card_type": "E category tile",
    "aspect_master": "16:9 (1280x720)",
-   "focal": "28% 42%",
+   "focal": "72% 42%",
    "image": "/images/gear/base.jpg",
    "status": "generate",
-   "alt": "A folded heather merino shirt on a flat rock",
-   "scene": "a folded heather-grey merino shirt on a flat rock in the left third, plain cloth",
-   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet stone on the right. No print."
+   "alt": "A folded heather merino shirt on a flat rock in the right half, darker stone on the left",
+   "scene": "a folded heather-grey merino shirt on a flat rock in the right half, plain cloth",
+   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text."
   },
   {
    "hub": "gear",
@@ -1617,12 +1617,12 @@
    "label": "First aid",
    "card_type": "E category tile",
    "aspect_master": "16:9 (1280x720)",
-   "focal": "28% 42%",
+   "focal": "72% 42%",
    "image": "/images/gear/aid.jpg",
    "status": "generate",
-   "alt": "Tape, gauze, and scissors on a weathered log",
-   "scene": "a roll of plain beige tape, a gauze pad, and scissors on a log in the left third",
-   "extra": "Wide 16:9 landscape. Subject vertically centered and light enough to read in the left 40 percent. Quiet log on the right. No printing."
+   "alt": "Tape, gauze, and scissors on a weathered log in the right half, darker wood on the left",
+   "scene": "a roll of plain beige tape, a gauze pad, and scissors on a log in the right half",
+   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text."
   },
   {
    "hub": "gear",
@@ -1631,12 +1631,12 @@
    "label": "Navigation",
    "card_type": "E category tile",
    "aspect_master": "16:9 (1280x720)",
-   "focal": "28% 42%",
+   "focal": "78% 48%",
    "image": "/images/gear/nav.jpg",
    "status": "generate",
-   "alt": "A compass with a blank dial on a contour map",
-   "scene": "a baseplate compass with a blank dial on a contour map in the left third, map lines only, no words",
-   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet map on the right. No numbers or letters."
+   "alt": "A blank baseplate compass on dark wet rock, sitting in the right quarter of the frame",
+   "scene": "a small baseplate compass with a blank dial on dark wet rock in the far right quarter, left two-thirds empty dark stone",
+   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text."
   },
   {
    "hub": "gear",
@@ -1644,12 +1644,13 @@
    "card_title": "Cookware and food storage",
    "label": "Cookware",
    "card_type": "E category tile",
-   "aspect_master": "3:4 (1200x1600)",
+   "aspect_master": "16:9 (1280x720)",
    "image": "/images/gear/cook.jpg",
    "status": "generate",
-   "alt": "A titanium pot and long spoon on a stone",
-   "scene": "a titanium pot and long spoon on a stone",
-   "extra": "Tall macro texture tile, darker bottom 35% for overlaid category name."
+   "alt": "A titanium pot and a long spoon on a stone in the right half, darker rock on the left",
+   "scene": "a titanium pot and a long spoon on a stone in the right half",
+   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text.",
+   "focal": "72% 42%"
   },
   {
    "hub": "gear",
@@ -1658,12 +1659,12 @@
    "label": "Traction",
    "card_type": "E category tile",
    "aspect_master": "16:9 (1280x720)",
-   "focal": "28% 42%",
+   "focal": "72% 42%",
    "image": "/images/gear/traction.jpg",
    "status": "generate",
-   "alt": "Chain microspikes on trail ice",
-   "scene": "a pair of steel chain microspikes on trail ice in the left third",
-   "extra": "Wide 16:9 landscape. Subject vertically centered in the left 40 percent. Quiet icy gravel on the right. No logos."
+   "alt": "Chain microspikes on trail ice in the right half, darker icy gravel on the left",
+   "scene": "a pair of steel chain microspikes on trail ice in the right half",
+   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text."
   },
   {
    "hub": "gear",
@@ -1672,12 +1673,12 @@
    "label": "Family",
    "card_type": "E category tile",
    "aspect_master": "16:9 (1280x720)",
-   "focal": "28% 70%",
+   "focal": "72% 72%",
    "image": "/images/gear/family.jpg",
    "status": "generate",
-   "alt": "A small boot and larger boots side by side at an open tent door",
-   "scene": "a small hiking boot and larger hiking boots side by side at an open tent door, boots fully in frame in the left third",
-   "extra": "Wide 16:9 landscape. Boots vertically centered in the left 40 percent so a short band still shows them. Quiet moss on the right. Unbranded."
+   "alt": "A small boot and larger boots at an open tent door, grouped in the right half, darker moss on the left",
+   "scene": "a small hiking boot and larger hiking boots side by side at an open tent door, boots fully in frame in the right half",
+   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text."
   },
   {
    "hub": "learn",
