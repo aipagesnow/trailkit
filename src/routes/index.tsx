@@ -46,7 +46,7 @@ function Home() {
       <section className="relative isolate min-h-[28rem] overflow-hidden border-b border-line">
         <TkImage route="/" priority fill sizes="100vw" />
         <div className="absolute inset-0 bg-forest-deep/70" aria-hidden />
-        <div className="relative mx-auto max-w-6xl px-4 py-16 text-on-forest">
+        <div className="relative mx-auto max-w-6xl px-4 pt-10 pb-6 text-on-forest md:py-16">
           <p className="font-mono text-[11px] tracking-widest uppercase">Hiking and backpacking gear</p>
           <h1 className="mt-2 max-w-3xl text-4xl text-on-forest md:text-5xl">Gear picks for the trip you are actually taking</h1>
           <p className="mt-4 max-w-2xl text-lg">
@@ -75,17 +75,19 @@ function Home() {
           </form>
         </div>
       </section>
-      <div className="mx-auto max-w-6xl space-y-12 px-4 py-10">
-        <Disclosure />
-        {shelter && asinFor(shelter.slug) ? (
-          <div className="border border-line bg-paper p-4">
-            <p className="max-w-2xl">
-              Start here for a two-person shelter: the Big Agnes Copper Spur UL2, the default on the{" "}
-              <a href="/best/backpacking-tents" className="font-bold text-forest underline">backpacking tents roundup</a>.
-            </p>
-            <AmazonButton product={shelter} />
-          </div>
-        ) : null}
+      <div className="mx-auto max-w-6xl space-y-12 px-4 pt-4 pb-10 md:py-10">
+        <div className="space-y-3">
+          <Disclosure />
+          {shelter && asinFor(shelter.slug) ? (
+            <div className="border border-line bg-paper p-4">
+              <p className="max-w-2xl">
+                Start here for a two-person shelter: the Big Agnes Copper Spur UL2, the default on the{" "}
+                <a href="/best/backpacking-tents" className="font-bold text-forest underline">backpacking tents roundup</a>.
+              </p>
+              <AmazonButton product={shelter} />
+            </div>
+          ) : null}
+        </div>
         <section>
           <h2 className="text-3xl">Start with a decision</h2>
           <p className="mt-2 max-w-2xl text-muted">Each guide starts with a straight answer, a comparison table, and one pick to start with.</p>
