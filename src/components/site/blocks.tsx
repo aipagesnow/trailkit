@@ -2,8 +2,8 @@ import { Link } from "@tanstack/react-router";
 import { amazonTag, DISCLOSURE, DISCLOSURE_SHORT, UPDATED } from "@/lib/affiliate";
 import { asinFor } from "@/data/asins";
 import { alternativeFor } from "@/data/amazon-alternatives";
+import { getProduct, type LinkItem } from "@/data";
 import type { Faq, Product } from "@/data/types";
-import type { LinkItem } from "@/data";
 import { Thumb } from "@/components/site/cards";
 import { TkImage } from "@/components/site/tk-image";
 
@@ -35,13 +35,15 @@ export function AmazonLink({
   trackProduct,
   label,
   variant,
+  className = "",
 }: {
   asin: string;
   trackProduct: string;
   label: string;
   variant: "blaze" | "outline";
+  className?: string;
 }) {
-  const className =
+  const toneClass =
     variant === "blaze"
       ? "inline-flex min-h-11 max-w-full items-center justify-center bg-blaze px-3 font-display text-sm font-semibold tracking-wide text-on-amber uppercase sm:px-4 sm:text-base"
       : "inline-flex min-h-11 max-w-full items-center justify-center border border-ink bg-paper px-3 font-display text-sm font-semibold tracking-wide text-ink uppercase sm:px-4 sm:text-base";
@@ -50,7 +52,7 @@ export function AmazonLink({
       href={`https://www.amazon.com/dp/${asin}?tag=${amazonTag()}`}
       rel="sponsored nofollow noopener"
       target="_blank"
-      className={className}
+      className={`${toneClass} ${className}`}
       onClick={() => {
         try {
           const send = (window as Window & { gtag?: (...args: unknown[]) => void }).gtag;
@@ -110,6 +112,82 @@ export function AmazonButton({ product }: { product: Product }) {
       <AmazonLink asin={asin} trackProduct={product.slug} label="See on Amazon" variant="blaze" />
       <p className="mt-1 text-sm text-muted">Check current price on the listing.</p>
     </div>
+  );
+}
+
+/** First slug with a verified main ASIN. Never a Closest / alternative listing. */
+function mainListing(slugs: string[]) {
+  for (let i = 0; i < slugs.length; i++) {
+    const product = getProduct(slugs[i] ?? "");
+    if (product && asinFor(product.slug)) return { product, isDefault: i === 0 };
+  }
+  return undefined;
+}
+
+export function EarlyListingCta({ slugs, kind }: { slugs: string[]; kind: "roundup" | "kit" }) {
+  const listing = mainListing(slugs);
+  if (!listing) return null;
+  const { product, isDefault } = listing;
+  const line = kind === "kit"
+    ? (isDefault
+      ? `${product.name} is on this list and has a verified listing.`
+      : `Listed option: ${product.name}. Earlier pieces on this list have no verified amazon.com listing.`)
+    : (isDefault
+      ? `Start here: ${product.name}.`
+      : `Listed option: ${product.name}. This is not the start-here pick. The start-here pick has no verified amazon.com listing.`);
+  return (
+    <div className="border border-line bg-paper p-4">
+      <p className="max-w-3xl text-sm">{line}</p>
+      <AmazonButton product={product} />
+    </div>
+  );
+}
+
+/** Hub CTA. Sits outside card links. allowLater is for kits; roundup hubs pass false so a withhold default is skipped. */
+export function HubListing({ slugs, allowLater = false }: { slugs: string[]; allowLater?: boolean }) {
+  const listing = allowLater
+    ? mainListing(slugs)
+    : (() => {
+        const product = getProduct(slugs[0] ?? "");
+        if (!product || !asinFor(product.slug)) return undefined;
+        return { product, isDefault: true as const };
+      })();
+  if (!listing) return null;
+  const asin = asinFor(listing.product.slug);
+  if (!asin) return null;
+  return (
+    <div className="mt-2 border border-line bg-paper p-3">
+      <p className="text-sm">{listing.isDefault ? listing.product.name : `Listed option: ${listing.product.name}`}</p>
+      <div className="mt-2">
+        <AmazonLink asin={asin} trackProduct={listing.product.slug} label="See on Amazon" variant="blaze" />
+      </div>
+      <p className="mt-1 text-sm text-muted">Check current price on the listing.</p>
+    </div>
+  );
+}
+
+export function StickyAmazon({ slugs, kind }: { slugs: string[]; kind: "product" | "roundup" | "kit" }) {
+  const listing = mainListing(slugs);
+  if (!listing) return null;
+  const asin = asinFor(listing.product.slug);
+  if (!asin) return null;
+  const { product, isDefault } = listing;
+  const kicker = kind === "product" || (kind === "kit" && isDefault)
+    ? product.name
+    : kind === "roundup" && isDefault
+      ? `Start here · ${product.name}`
+      : `Listed option · ${product.name}`;
+  return (
+    <>
+      <div className="h-36 md:hidden" aria-hidden />
+      <div className="fixed inset-x-0 bottom-0 z-40 border-t border-line bg-paper px-3 pt-2 pb-[max(0.5rem,env(safe-area-inset-bottom))] md:hidden">
+        <p className="truncate text-sm">{kicker}</p>
+        <div className="mt-1">
+          <AmazonLink asin={asin} trackProduct={product.slug} label="See on Amazon" variant="blaze" className="w-full" />
+        </div>
+        <p className="mt-1 text-xs text-muted">Check current price on the listing.</p>
+      </div>
+    </>
   );
 }
 

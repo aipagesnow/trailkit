@@ -1,7 +1,7 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
 import { pageHead, breadcrumbLd } from "@/lib/seo";
 import { getKit, getProduct } from "@/data";
-import { Crumbs, Disclosure, JsonLd, ProductSection } from "@/components/site/blocks";
+import { Crumbs, Disclosure, EarlyListingCta, JsonLd, ProductSection, StickyAmazon } from "@/components/site/blocks";
 import { HowWePick, Thumb, kitChips } from "@/components/site/cards";
 import { TkImage } from "@/components/site/tk-image";
 
@@ -55,7 +55,9 @@ function KitPage() {
           ))}
         </ul>
       </section>
+      <EarlyListingCta slugs={kit.productSlugs} kind="kit" />
       {picks.map((p, i) => <ProductSection key={p.slug} product={p} index={i + 1} tone="money" />)}
+      <StickyAmazon slugs={kit.productSlugs} kind="kit" />
     </main>
   );
 }

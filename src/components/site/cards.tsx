@@ -333,7 +333,7 @@ export function GearCard({
         <span className="font-mono text-[11px] tracking-wide text-muted uppercase">{spec}</span>
       </span>
       <span className="border-t border-line px-3 py-2 font-mono text-[11px] tracking-widest uppercase">
-        {live ? <span className="inline-block border border-ink px-2 py-1">On Amazon ↗</span> : <span className="text-muted">No Amazon link</span>}
+        {live ? <span className="inline-block border border-ink px-2 py-1">Has Amazon listing</span> : <span className="text-muted">No Amazon link</span>}
       </span>
     </a>
   );

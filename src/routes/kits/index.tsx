@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { getKit, kits } from "@/data";
 import { KIT_SECTIONS } from "@/data/hubs";
 import { HubBand, KitCard } from "@/components/site/cards";
+import { HubListing } from "@/components/site/blocks";
 import { pageHead } from "@/lib/seo";
 
 export const Route = createFileRoute("/kits/")({
@@ -37,7 +38,12 @@ function KitsIndex() {
             <h2 className="font-mono text-[11px] tracking-widest uppercase">{section.label} · {section.items.length}</h2>
             <div className="mt-3 grid gap-3 lg:grid-cols-2">
               {section.items.map((kit, i) => (
-                <KitCard key={kit.slug} kit={kit} priority={section.id === "backpacking" && i < 2} />
+                <div key={kit.slug} className="flex h-full flex-col">
+                  <div className="min-h-0 flex-1">
+                    <KitCard kit={kit} priority={section.id === "backpacking" && i < 2} />
+                  </div>
+                  <HubListing slugs={kit.productSlugs} allowLater />
+                </div>
               ))}
             </div>
           </section>
@@ -47,7 +53,12 @@ function KitsIndex() {
             <h2 className="font-mono text-[11px] tracking-widest uppercase">More · {rest.length}</h2>
             <div className="mt-3 grid gap-3 lg:grid-cols-2">
               {rest.map((kit) => (
-                <KitCard key={kit.slug} kit={kit} />
+                <div key={kit.slug} className="flex h-full flex-col">
+                  <div className="min-h-0 flex-1">
+                    <KitCard kit={kit} />
+                  </div>
+                  <HubListing slugs={kit.productSlugs} allowLater />
+                </div>
               ))}
             </div>
           </section>

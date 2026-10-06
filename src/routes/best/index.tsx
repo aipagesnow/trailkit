@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { getRoundup, roundups } from "@/data";
 import { BEST_SECTIONS } from "@/data/hubs";
 import { FieldCard, HubBand } from "@/components/site/cards";
+import { HubListing } from "@/components/site/blocks";
 import { pageHead } from "@/lib/seo";
 
 const featured = ["backpacking-tents", "hiking-boots-wide-feet", "rain-jackets-under-150"];
@@ -39,7 +40,15 @@ function BestIndex() {
           <div className="mt-3 grid gap-3 md:grid-cols-3">
             {featured.map((slug, i) => {
               const roundup = getRoundup(slug);
-              return roundup ? <FieldCard key={slug} roundup={roundup} index={`R-0${i + 1}`} priority /> : null;
+              if (!roundup) return null;
+              return (
+                <div key={slug} className="flex h-full flex-col">
+                  <div className="min-h-0 flex-1">
+                    <FieldCard roundup={roundup} index={`R-0${i + 1}`} priority />
+                  </div>
+                  <HubListing slugs={roundup.productSlugs} />
+                </div>
+              );
             })}
           </div>
         </section>

@@ -1,6 +1,7 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
 import { getCategory, getProduct, pagesMentioning, productsIn } from "@/data";
-import { AmazonButton, Crumbs, Disclosure, JsonLd, Related } from "@/components/site/blocks";
+import { asinFor } from "@/data/asins";
+import { AmazonButton, Crumbs, Disclosure, JsonLd, Related, StickyAmazon } from "@/components/site/blocks";
 import { GearCard } from "@/components/site/cards";
 import { TkImage } from "@/components/site/tk-image";
 import { breadcrumbLd, pageHead } from "@/lib/seo";
@@ -48,6 +49,7 @@ function ProductPage() {
       <p className="font-mono text-sm text-muted">{product.brand} · {product.priceBand} · {product.weight}</p>
       <p className="text-lg">{product.summary}</p>
       <Disclosure />
+      {asinFor(product.slug) ? <AmazonButton product={product} /> : null}
       <p>{product.body}</p>
       <p><span className="font-bold">Who should buy it. </span>{product.who}</p>
       <p><span className="font-bold">Best for. </span>{product.bestFor}</p>
@@ -88,6 +90,7 @@ function ProductPage() {
         </div>
       </section>
       <Related links={pagesMentioning(product.slug)} />
+      <StickyAmazon slugs={[product.slug]} kind="product" />
     </main>
   );
 }

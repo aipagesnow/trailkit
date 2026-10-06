@@ -1,7 +1,7 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
 import { absoluteUrl } from "@/lib/affiliate";
 import { getProduct, getRoundup, linksFor } from "@/data";
-import { CompareTable, Crumbs, Disclosure, FaqList, JsonLd, PageToc, ProductSection, Related, Updated } from "@/components/site/blocks";
+import { CompareTable, Crumbs, Disclosure, EarlyListingCta, FaqList, JsonLd, PageToc, ProductSection, Related, StickyAmazon, Updated } from "@/components/site/blocks";
 import { HowWePick } from "@/components/site/cards";
 import { QuickTable } from "@/components/site/quick-table";
 import { TkImage } from "@/components/site/tk-image";
@@ -95,6 +95,7 @@ function RoundupPage() {
         {page.note ? <p className="max-w-3xl border-l-4 border-line p-4 text-sm">{page.note}</p> : null}
         {page.quick ? <QuickTable table={page.quick} /> : null}
         <p className="border border-line bg-paper-2 p-4"><span className="font-bold">Who this is for. </span>{page.who}</p>
+        <EarlyListingCta slugs={page.productSlugs} kind="roundup" />
         {figures.map((route) => (
           <figure key={route}>
             <div className="relative aspect-video overflow-hidden border border-line">
@@ -118,6 +119,7 @@ function RoundupPage() {
         <FaqList faqs={page.faqs} />
         <Related links={linksFor(page.related)} />
         <p className="border-t border-line pt-4 text-sm text-muted"><span className="font-bold">How this was framed. </span>{page.method}</p>
+        <StickyAmazon slugs={page.productSlugs} kind="roundup" />
       </article>
     </main>
   );

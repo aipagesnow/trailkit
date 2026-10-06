@@ -1,7 +1,8 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
-import { categories, getCompare, getGuide, getKit, getNote, getRoundup, products, roundups } from "@/data";
+import { categories, getCompare, getGuide, getKit, getNote, getProduct, getRoundup, products, roundups } from "@/data";
+import { asinFor } from "@/data/asins";
 import { CategoryTile, FieldCard, GuideCard, HowWePick, KitCard, NotePlate, VersusCard } from "@/components/site/cards";
-import { Disclosure } from "@/components/site/blocks";
+import { AmazonButton, Disclosure } from "@/components/site/blocks";
 import { TkImage } from "@/components/site/tk-image";
 import { pageHead } from "@/lib/seo";
 
@@ -39,6 +40,7 @@ function Home() {
   const kits = ["fair-weekend", "day-hike"].map((slug) => getKit(slug)).filter((k) => k != null);
   const guides = ["choose-a-pad", "layering", "boot-fit"].map((slug) => getGuide(slug)).filter((g) => g != null);
   const notes = ["r-value", "fill-power", "freestanding", "wide-last"].map((slug) => getNote(slug)).filter((n) => n != null);
+  const shelter = getProduct("copper-spur-ul2");
   return (
     <main>
       <section className="relative isolate min-h-[28rem] overflow-hidden border-b border-line">
@@ -75,6 +77,15 @@ function Home() {
       </section>
       <div className="mx-auto max-w-6xl space-y-12 px-4 py-10">
         <Disclosure />
+        {shelter && asinFor(shelter.slug) ? (
+          <div className="border border-line bg-paper p-4">
+            <p className="max-w-2xl">
+              Start here for a two-person shelter: the Big Agnes Copper Spur UL2, the default on the{" "}
+              <a href="/best/backpacking-tents" className="font-bold text-forest underline">backpacking tents roundup</a>.
+            </p>
+            <AmazonButton product={shelter} />
+          </div>
+        ) : null}
         <section>
           <h2 className="text-3xl">Start with a decision</h2>
           <p className="mt-2 max-w-2xl text-muted">Each guide starts with a straight answer, a comparison table, and one pick to start with.</p>
