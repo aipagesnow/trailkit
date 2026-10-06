@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { amazonUrl, DISCLOSURE, DISCLOSURE_SHORT, UPDATED } from "@/lib/affiliate";
+import { asinFor } from "@/data/asins";
 import type { Faq, Product } from "@/data/types";
 import type { LinkItem } from "@/data";
 import { Thumb } from "@/components/site/cards";
@@ -44,6 +45,20 @@ export function AmazonButton({ product }: { product: Product }) {
         rel="sponsored nofollow noopener"
         target="_blank"
         className="inline-flex min-h-11 max-w-full items-center justify-center bg-blaze px-3 font-display text-sm font-semibold tracking-wide text-on-amber uppercase sm:px-4 sm:text-base"
+        onClick={() => {
+          try {
+            const send = (window as Window & { gtag?: (...args: unknown[]) => void }).gtag;
+            if (typeof send !== "function") return;
+            send("event", "amazon_click", {
+              site: "trailkit",
+              asin: asinFor(product.slug),
+              product: product.slug,
+              page: window.location.pathname,
+            });
+          } catch {
+            /* tracking must not stop the link */
+          }
+        }}
       >
         See on Amazon
       </a>

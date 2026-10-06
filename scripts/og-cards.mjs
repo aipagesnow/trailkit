@@ -61,8 +61,12 @@ async function render(page) {
     `<svg width="1200" height="130" xmlns="http://www.w3.org/2000/svg">
       <rect width="1200" height="130" fill="#0f1416"/>
       <rect width="1200" height="4" fill="#ff5a1f"/>
-      <path d="M48 48 L64 64 L48 80 L32 64 Z" fill="#f7f6f2"/>
-      <path d="M48 56 L56 64 L48 74 L40 64 Z" fill="#ff5a1f"/>
+      <g transform="translate(24 42) scale(1.45)">
+        <path fill="#f7f6f2" d="M8 2.5 15 16 8 29.5 1 16Z"/>
+        <path fill="#1d2326" d="M8 7 12.2 16 8 25 3.8 16Z"/>
+        <path fill="#ff5a1f" d="M12 6.2 31.2 16 12 25.8 16.2 25.8 25.4 16 16.2 6.2Z"/>
+        <path fill="#f7f6f2" d="M17.6 12 22.2 16 17.6 20 19.3 20 23.9 16 19.3 12Z"/>
+      </g>
       ${text}
     </svg>`,
   );

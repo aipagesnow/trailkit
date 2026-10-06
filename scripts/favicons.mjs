@@ -1,4 +1,5 @@
 import { readFileSync, writeFileSync } from "node:fs";
+import path from "node:path";
 import sharp from "sharp";
 
 const svg = readFileSync("public/favicon.svg");
@@ -47,4 +48,32 @@ function ico(png16, png32) {
 const png16 = await sharp(svg).resize(16, 16).png().toBuffer();
 const png32 = await sharp("public/favicon-32.png").png().toBuffer();
 writeFileSync("public/favicon.ico", ico(png16, png32));
+
+const fontFile = path.resolve("scripts/fonts/IBMPlexSansCondensed-SemiBold.ttf").replaceAll("\\", "/");
+const fontSize = 132;
+const wordSvg = Buffer.from(`<svg width="1400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs><style>@font-face { font-family: "Plex"; src: url("file:///${fontFile}"); font-weight: 600; }</style></defs>
+  <text x="0" y="260" fill="#f7f6f2" font-family="Plex" font-size="${fontSize}" font-weight="600" letter-spacing="-2">Trailkit</text>
+</svg>`);
+const word = await sharp(wordSvg).png().toBuffer();
+const trimmed = await sharp(word).trim().png().toBuffer();
+const wordMeta = await sharp(trimmed).metadata();
+const cap = wordMeta.height ?? fontSize;
+const textW = wordMeta.width ?? 600;
+const inkTop = 2.5;
+const inkH = 27;
+const scale = cap / inkH;
+const markW = 32 * scale;
+const gap = Math.round(fontSize * 0.2);
+const groupW = markW + gap + textW;
+const x0 = Math.round((1200 - groupW) / 2);
+const y0 = Math.round((630 - cap) / 2);
+const mark = await sharp(svg).resize(Math.round(markW), Math.round(32 * scale)).png().toBuffer();
+await sharp({ create: { width: 1200, height: 630, channels: 3, background: "#1d2326" } })
+  .composite([
+    { input: mark, left: x0, top: Math.round(y0 - inkTop * scale) },
+    { input: trimmed, left: Math.round(x0 + markW + gap), top: y0 },
+  ])
+  .jpeg({ quality: 82, mozjpeg: true })
+  .toFile("public/og.jpg");
 console.log("favicons written");

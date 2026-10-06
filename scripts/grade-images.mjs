@@ -1,6 +1,7 @@
-// Trailkit image grades.
+// Trailkit image grades. Baked only — no CSS filters.
 // Usage: node scripts/grade-images.mjs [--money-only] [--missing] [srcDir=images-src] [outDir=public/images]
-// Field grade: cool, desaturated, for hubs. Money grade: fuller chroma for roundup, compare, kit, and product pages.
+// Field: hubs, guides, home, learn. Warm and colourful (the previous money bake).
+// Money: roundups, compares, kits, products, heroes. One step richer than field.
 // Output: <slug>-<w>.avif/.webp + <slug>.jpg, and <slug>-money-<w> + <slug>-money.jpg
 import sharp from "sharp";
 import { readdir, mkdir, stat } from "node:fs/promises";
@@ -14,17 +15,18 @@ const SRC = args[0] ?? "images-src";
 const OUT = args[1] ?? "public/images";
 const WIDTHS = [480, 800, 1200, 1600];
 
+// Previous money bake. Field uses this so hubs are no longer grey.
 const FIELD_RECOMB = [
-  [0.92, 0.06, 0.02],
-  [0.04, 0.92, 0.04],
-  [0.02, 0.08, 0.98],
-];
-
-// Slightly warm, almost neutral. Lifts chroma without neon or an orange cast.
-const MONEY_RECOMB = [
   [1.04, 0.02, 0.0],
   [0.0, 1.0, 0.0],
   [0.0, 0.03, 0.96],
+];
+
+// Slightly warmer than field. Greens stay forest; skies stay blue.
+const MONEY_RECOMB = [
+  [1.06, 0.02, 0.0],
+  [0.0, 1.02, 0.0],
+  [0.0, 0.02, 0.92],
 ];
 
 async function* walk(dir) {
@@ -44,9 +46,9 @@ async function* walk(dir) {
 function pipeline(file, kind) {
   const base = sharp(file).rotate();
   if (kind === "money") {
-    return base.modulate({ saturation: 1.12, brightness: 1.04 }).recomb(MONEY_RECOMB).linear(1.02, 3);
+    return base.modulate({ saturation: 1.26, brightness: 1.06 }).recomb(MONEY_RECOMB).linear(1.04, 2);
   }
-  return base.modulate({ saturation: 0.62, brightness: 0.95 }).recomb(FIELD_RECOMB).linear(0.96, -4);
+  return base.modulate({ saturation: 1.12, brightness: 1.04 }).recomb(FIELD_RECOMB).linear(1.02, 3);
 }
 
 async function writeSet(file, outBase, kind, width) {
@@ -123,5 +125,5 @@ async function worker() {
     } else skipped++;
   }
 }
-await Promise.all([worker(), worker()]);
+await Promise.all([worker(), worker(), worker(), worker()]);
 console.log(`graded ${n} images -> ${OUT}${MONEY_ONLY ? " (money only)" : ""}${MISSING ? ` (missing only, skipped ${skipped})` : ""}`);
