@@ -40,8 +40,8 @@ function Header() {
   const [open, setOpen] = useState(false);
   return (
     <header className="border-b border-line bg-forest-deep text-on-forest">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-2">
-        <Link to="/" className="inline-flex items-center gap-2 font-display text-2xl font-semibold tracking-tight text-on-forest">
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-2">
+        <Link to="/" className="inline-flex min-w-0 items-center gap-2 font-display text-2xl font-semibold tracking-tight text-on-forest">
           <Mark />
           {BRAND}
         </Link>
@@ -63,7 +63,7 @@ function Header() {
         </nav>
         <button
           type="button"
-          className="inline-flex min-h-11 min-w-11 items-center justify-center border border-on-forest text-on-forest md:hidden"
+          className="inline-flex min-h-11 min-w-11 shrink-0 items-center justify-center border border-on-forest text-on-forest md:hidden"
           aria-expanded={open}
           aria-label={open ? "Close menu" : "Open menu"}
           onClick={() => setOpen((v) => !v)}

@@ -77,12 +77,12 @@ function ComparePage() {
       <p className="bg-spec px-3 py-2 font-mono text-[11px] tracking-wide uppercase">Decides on → {decidesLine(page)}</p>
       <div className="sticky top-0 z-10 grid gap-3 bg-paper py-3 md:grid-cols-2">
         {[left, right].map((p) => (
-          <article key={p.slug} className="grid grid-cols-[120px_1fr] gap-3 border border-line p-3">
+          <article key={p.slug} className="grid min-w-0 grid-cols-[88px_minmax(0,1fr)] gap-3 border border-line p-3 sm:grid-cols-[120px_minmax(0,1fr)]">
             <div className="relative aspect-[4/3] overflow-hidden">
               <TkImage route={`/products/${p.slug}`} fill sizes="120px" tone="money" />
             </div>
-            <div>
-              <h2 className="text-xl"><a href={`/products/${p.slug}`}>{p.name}</a></h2>
+            <div className="min-w-0">
+              <h2 className="text-xl break-words"><a href={`/products/${p.slug}`}>{p.name}</a></h2>
               <p className="text-sm text-muted">{p.bestFor}</p>
               <AmazonButton product={p} />
             </div>
@@ -91,7 +91,7 @@ function ComparePage() {
       </div>
       <div>
         <p className="mb-1 font-display text-xs tracking-widest text-muted uppercase">Scroll →</p>
-        <div className="overflow-x-auto border border-line">
+        <div className="max-w-full overflow-x-auto overscroll-x-contain border border-line">
           <table className="w-full min-w-[36rem] text-left text-sm">
             <thead className="bg-forest-deep text-on-forest">
               <tr>
@@ -139,9 +139,9 @@ function ComparePage() {
             <ul className="list-disc pl-5 text-sm">{p.cons.map((item) => <li key={item}>{item}</li>)}</ul>
             <dl className="grid gap-1 text-sm">
               {p.specs.map((spec) => (
-                <div key={spec.label} className="grid grid-cols-2 border-t border-line py-1">
-                  <dt>{spec.label}</dt>
-                  <dd className="font-mono text-xs">{spec.value}</dd>
+                <div key={spec.label} className="grid grid-cols-2 gap-2 border-t border-line py-1">
+                  <dt className="min-w-0 break-words">{spec.label}</dt>
+                  <dd className="min-w-0 font-mono text-xs break-words">{spec.value}</dd>
                 </div>
               ))}
             </dl>

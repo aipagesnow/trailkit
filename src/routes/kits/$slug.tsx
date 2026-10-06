@@ -45,10 +45,12 @@ function KitPage() {
         <h2 className="text-3xl">Manifest</h2>
         <ul className="mt-3 divide-y divide-line border border-line">
           {picks.map((pick) => (
-            <li key={pick.slug} className="flex items-center gap-3 px-3 py-2">
+            <li key={pick.slug} className="grid grid-cols-[3rem_minmax(0,1fr)] items-center gap-3 px-3 py-2">
               <Thumb route={`/products/${pick.slug}`} tone="money" />
-              <a href={`/products/${pick.slug}`} className="font-bold">{pick.name}</a>
-              <span className="ml-auto font-mono text-[11px] text-muted uppercase">{pick.role}</span>
+              <span className="min-w-0">
+                <a href={`/products/${pick.slug}`} className="block font-bold break-words">{pick.name}</a>
+                <span className="block font-mono text-[11px] text-muted uppercase">{pick.role}</span>
+              </span>
             </li>
           ))}
         </ul>

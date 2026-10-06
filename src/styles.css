@@ -26,6 +26,7 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    overflow-x: clip;
   }
   body {
     background: var(--color-paper);
@@ -33,6 +34,14 @@
     font-family: var(--font-sans);
     font-size: 17px;
     line-height: 1.6;
+    overflow-wrap: break-word;
+  }
+  main {
+    min-width: 0;
+  }
+  main > * {
+    min-width: 0;
+    max-width: 100%;
   }
   h1,
   h2,
@@ -66,6 +75,18 @@
   }
   .tk-zoom {
     transition: transform 200ms ease;
+  }
+}
+
+@media (max-width: 40rem) {
+  .text-5xl {
+    font-size: 2rem;
+  }
+  .text-4xl {
+    font-size: 1.75rem;
+  }
+  .text-3xl {
+    font-size: 1.5rem;
   }
 }
 

@@ -26,9 +26,9 @@ function GuidePage() {
   const picks = page.productSlugs.map((slug) => getProduct(slug)).filter((p) => p != null);
   const figures = (page.slug === "first-overnight" ? ["/inline/overnight-camp-dusk", "/inline/overnight-kitchen-rock"] : []).filter((route) => imageFor(route)?.ready);
   return (
-    <main className="mx-auto grid max-w-6xl gap-8 px-4 py-8 lg:grid-cols-[14rem_1fr]">
+    <main className="mx-auto grid w-full min-w-0 max-w-6xl gap-8 px-4 py-8 lg:grid-cols-[14rem_minmax(0,1fr)]">
       <PageToc links={page.sections.map((s) => ({ href: `#${s.id}`, label: s.heading }))} />
-      <article className="space-y-8">
+      <article className="min-w-0 space-y-8">
         <JsonLd
           data={[
             breadcrumbLd([

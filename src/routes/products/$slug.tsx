@@ -61,8 +61,8 @@ function ProductPage() {
         <dl className="mt-3 divide-y divide-line border border-line">
           {product.specs.map((spec) => (
             <div key={spec.label} className="grid grid-cols-2 gap-2 bg-spec px-3 py-2 text-sm odd:bg-paper">
-              <dt className="font-bold">{spec.label}</dt>
-              <dd className="font-mono text-xs">{spec.value}</dd>
+              <dt className="min-w-0 break-words font-bold">{spec.label}</dt>
+              <dd className="min-w-0 font-mono text-xs break-words">{spec.value}</dd>
             </div>
           ))}
         </dl>

@@ -7,7 +7,7 @@ import { TkImage } from "@/components/site/tk-image";
 
 export function Crumbs({ items }: { items: { href?: string; label: string }[] }) {
   return (
-    <nav aria-label="Breadcrumb" className="font-display text-sm tracking-wide text-muted uppercase">
+    <nav aria-label="Breadcrumb" className="font-display text-sm tracking-wide break-words text-muted uppercase">
       <Link to="/" className="text-forest">Home</Link>
       {items.map((item) => (
         <span key={item.label}>
@@ -43,7 +43,7 @@ export function AmazonButton({ product }: { product: Product }) {
         href={href}
         rel="sponsored nofollow noopener"
         target="_blank"
-        className="inline-flex min-h-11 items-center bg-blaze px-4 font-display text-base font-semibold tracking-wide text-on-amber uppercase"
+        className="inline-flex min-h-11 max-w-full items-center justify-center bg-blaze px-3 font-display text-sm font-semibold tracking-wide text-on-amber uppercase sm:px-4 sm:text-base"
       >
         See on Amazon
       </a>
@@ -54,10 +54,10 @@ export function AmazonButton({ product }: { product: Product }) {
 
 export function CompareTable({ products }: { products: Product[] }) {
   return (
-    <div>
+    <div className="min-w-0 max-w-full">
       <p className="mb-1 font-display text-xs tracking-widest text-muted uppercase">Scroll →</p>
-      <div className="overflow-x-auto border border-line">
-        <table className="w-full min-w-[40rem] border-collapse text-left text-sm">
+      <div className="max-w-full overflow-x-auto overscroll-x-contain border border-line">
+        <table className="w-full min-w-[36rem] border-collapse text-left text-sm sm:min-w-[40rem]">
           <thead className="bg-forest-deep text-on-forest">
             <tr>
               <th className="sticky left-0 bg-forest-deep px-3 py-2 font-display font-semibold">Pick</th>
@@ -71,9 +71,9 @@ export function CompareTable({ products }: { products: Product[] }) {
             {products.map((p, index) => (
               <tr key={p.slug} className={index % 2 ? "border-t border-line bg-spec" : "border-t border-line"}>
                 <td className="sticky left-0 bg-paper px-3 py-2">
-                  <span className="flex items-center gap-2">
+                  <span className="flex min-w-0 items-center gap-2">
                     <Thumb route={`/products/${p.slug}`} tone="money" />
-                    <Link to="/products/$slug" params={{ slug: p.slug }} className="font-bold text-ink">{p.name}</Link>
+                    <Link to="/products/$slug" params={{ slug: p.slug }} className="min-w-0 font-bold break-words text-ink">{p.name}</Link>
                   </span>
                 </td>
                 <td className="px-3 py-2">{p.priceBand}</td>
@@ -94,7 +94,7 @@ export function ProductSection({ product, index, tone = "field" }: { product: Pr
   const top = index === 1;
   return (
     <section id={product.slug} className="border border-line bg-paper p-4">
-      <div className="grid gap-4 md:grid-cols-[280px_1fr]">
+      <div className="grid min-w-0 gap-4 md:grid-cols-[minmax(0,280px)_minmax(0,1fr)]">
         <div className="relative aspect-[4/3] overflow-hidden border border-line">
           <TkImage route={`/products/${product.slug}`} fill sizes="280px" tone={tone} />
           <span className={`absolute top-2 left-2 inline-flex size-8 items-center justify-center border font-display text-sm font-bold ${top ? "border-blaze bg-blaze text-on-amber" : "border-ink bg-paper text-ink"}`}>

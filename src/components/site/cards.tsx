@@ -82,7 +82,7 @@ export function FieldCard({
         <span className={`font-display leading-tight ${featured ? "text-3xl" : "text-[22px]"}`}>{roundup.h1}</span>
         <span className="line-clamp-2 text-sm text-muted">{roundup.answer}</span>
       </div>
-      <p className="border-t border-line px-3 py-2 font-mono text-[11px] tracking-wide text-muted uppercase">
+      <p className="border-t border-line px-3 py-2 font-mono text-[11px] tracking-wide break-words text-muted uppercase">
         {roundup.productSlugs.length} picks · updated {UPDATED_MONO} · top pick <span className="text-ink">{top?.name ?? "see page"}</span>
       </p>
     </a>
@@ -107,7 +107,7 @@ export function GuideCard({
         <span className="absolute inset-0 bg-gradient-to-t from-forest-deep via-forest-deep/20 to-transparent" />
         <span className="absolute right-3 bottom-3 left-3">
           <span className="font-mono text-[11px] tracking-widest uppercase">Guide · {mins} min · {guide.kicker.replace(/^Guide · /i, "")}</span>
-          <span className="mt-1 block font-display text-3xl">{guide.h1}</span>
+          <span className="mt-1 block font-display text-2xl leading-tight sm:text-3xl">{guide.h1}</span>
         </span>
       </a>
     );
@@ -176,9 +176,9 @@ export function KitCard({ kit, priority = false }: { kit: Kit; priority?: boolea
         ) : null}
         <span className="mt-1 space-y-1 border-t border-dashed border-line pt-2 font-mono text-[11px] uppercase">
           {picks.map((pick) => (
-            <span key={pick.slug} className="flex justify-between gap-3">
-              <span>{LINE[pick.category] ?? pick.category}</span>
-              <span className="truncate text-ink normal-case">{pick.name}</span>
+            <span key={pick.slug} className="flex min-w-0 justify-between gap-3">
+              <span className="shrink-0">{LINE[pick.category] ?? pick.category}</span>
+              <span className="min-w-0 truncate text-ink normal-case">{pick.name}</span>
             </span>
           ))}
         </span>
@@ -220,7 +220,7 @@ export function VersusCard({
         <span className="font-display text-[22px] leading-tight">{compare.h1}</span>
         <span className="line-clamp-2 text-sm text-muted">{compare.answer}</span>
       </span>
-      <span className="bg-spec px-3 py-2 font-mono text-[11px] tracking-wide uppercase">Decides on → {decidesLine(compare)}</span>
+      <span className="bg-spec px-3 py-2 font-mono text-[11px] tracking-wide break-words uppercase">Decides on → {decidesLine(compare)}</span>
       <span className="border-t border-line px-3 py-2 font-mono text-[11px] text-muted uppercase">{compare.rows.length} rows compared · {listings} listings</span>
     </a>
   );

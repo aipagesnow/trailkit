@@ -41,7 +41,7 @@ function RoundupPage() {
     { name: page.h1 },
   ];
   return (
-    <main className="mx-auto grid max-w-6xl gap-8 px-4 py-8 lg:grid-cols-[14rem_1fr]">
+    <main className="mx-auto grid w-full min-w-0 max-w-6xl gap-8 px-4 py-8 lg:grid-cols-[14rem_minmax(0,1fr)]">
       <PageToc
         links={[
           { href: "#answer", label: "Direct answer" },
@@ -50,7 +50,7 @@ function RoundupPage() {
           { href: "#one", label: "If you only buy one" },
         ]}
       />
-      <article className="space-y-8">
+      <article className="min-w-0 space-y-8">
         <JsonLd
           data={[
             breadcrumbLd(crumbs),

@@ -28,7 +28,7 @@ function CategoryPage() {
   return (
     <main>
       <JsonLd data={[breadcrumbLd([{ name: "Home", path: "/" }, { name: "Categories", path: "/gear" }, { name: category.name }])]} />
-      <section className="relative isolate aspect-[21/9] min-h-52 overflow-hidden border-b border-line">
+      <section className="relative isolate min-h-64 overflow-hidden border-b border-line md:aspect-[21/9] md:min-h-52">
         <TkImage route={`/gear/${category.slug}`} priority fill sizes="100vw" />
         <div className="absolute inset-0 bg-gradient-to-r from-forest-deep via-forest-deep/75 to-transparent" />
         <div className="relative mx-auto max-w-6xl px-4 py-10 text-on-forest">
