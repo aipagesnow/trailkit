@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { categories, compares, guides, kits, notes, products, roundups } from "@/data";
+import { absoluteUrl } from "@/lib/affiliate";
 
 const staticPaths = [
   "/",
@@ -21,8 +22,7 @@ const staticPaths = [
 export const Route = createFileRoute("/sitemap.xml")({
   server: {
     handlers: {
-      GET: ({ request }) => {
-        const origin = new URL(request.url).origin;
+      GET: () => {
         const paths = [
           ...staticPaths,
           ...categories.map((c) => `/gear/${c.slug}`),
@@ -34,7 +34,7 @@ export const Route = createFileRoute("/sitemap.xml")({
           ...products.map((p) => `/products/${p.slug}`),
         ];
         const urls = paths
-          .map((path) => `  <url><loc>${origin}${path}</loc></url>`)
+          .map((path) => `  <url><loc>${absoluteUrl(path)}</loc></url>`)
           .join("\n");
         const body = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
         return new Response(body, {

@@ -1,0 +1,35 @@
+# Trailkit Outdoor
+
+Trailkit picks tents, pads, packs, boots, stoves, and shells for a real constraint: budget, weight, weather, width, or a first night out.
+
+Trailkit Outdoor is an Amazon Associate site. Buy buttons go to Amazon.com, the US store.
+
+## Main sections
+
+https://www.trailkitoutdoor.com/best
+Each page answers one buying question, compares the real options, and names one pick to start with.
+
+https://www.trailkitoutdoor.com/guides
+The decision, explained, then a link to the roundup where the buying happens.
+
+https://www.trailkitoutdoor.com/compare
+Two options, one job. If the fit is wrong, neither wins.
+
+https://www.trailkitoutdoor.com/kits
+A short list for a kind of trip. Swap a piece if the constraint does not match you.
+
+https://www.trailkitoutdoor.com/gear
+Each category page explains the decision, then links to the gear and the roundups that use it.
+
+https://www.trailkitoutdoor.com/learn
+Definitions and judgment calls that the gear pages assume. Read the note, then open the roundup if you are ready to buy.
+
+https://www.trailkitoutdoor.com/library
+An index of every page on the site. The cards are a sample. The lists below are complete.
+
+## About
+
+https://www.trailkitoutdoor.com/about
+https://www.trailkitoutdoor.com/editorial
+https://www.trailkitoutdoor.com/disclosure
+https://www.trailkitoutdoor.com/contact

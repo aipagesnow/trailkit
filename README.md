@@ -25,7 +25,7 @@ Verified ASINs live in `src/data/asins.ts`. Unlisted product slugs render “Ama
 ## Site URL, analytics, Search Console
 
 ```bash
-VITE_SITE_URL=https://trailkit-gamma.vercel.app
+VITE_SITE_URL=https://www.trailkitoutdoor.com
 VITE_GA_ID=
 NEXT_PUBLIC_GA_ID=
 VITE_GSC_VERIFICATION=

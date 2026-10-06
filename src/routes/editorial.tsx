@@ -5,13 +5,13 @@ export const Route = createFileRoute("/editorial")({
   head: () =>
     pageHead({
       title: "Editorial standards",
-      description: "How Trailkit frames gear recommendations, updates pages, and handles affiliate links.",
+      description: "How Trailkit Outdoor frames gear recommendations, updates pages, and handles affiliate links.",
       path: "/editorial",
     }),
   component: () => (
     <main className="mx-auto max-w-3xl space-y-4 px-4 py-10">
       <h1 className="text-4xl">Editorial standards</h1>
-      <p>Trailkit recommends gear by constraint. A page exists to answer one job: a wide toe, a first night out, a budget under a stated band, a cold sleeper, a platform campsite, a breezy ridge. If the constraint is wrong, the pick is wrong, even if the product is popular.</p>
+      <p>Trailkit Outdoor recommends gear by constraint. A page exists to answer one job: a wide toe, a first night out, a budget under a stated band, a cold sleeper, a platform campsite, a breezy ridge. If the constraint is wrong, the pick is wrong, even if the product is popular.</p>
       <p>Roundups and comparisons start with a straight answer, a line on who the page is for, a comparison, and one pick to start with. The other products are there because a different budget, trip, or fit would choose them, so they are not ranked from best to worst. Labels such as “best freestanding” describe the job a product suits. They are not lab awards.</p>
       <p>We do not invent trail tests, instrument scores, or star ratings. We do not publish a hard-coded price. A button says “See on Amazon” and tells you to check the current price on the listing. If the Amazon listing is not verified for that model, the button is withheld. When the exact model is not sold on Amazon, a page may name the closest listing that is, with a line on how it differs. That listing is not the pick, and the review above it still describes the original model. We do not fall back to a search URL.</p>
       <p>Specs are the manufacturer’s published classes: weight, temperature rating, R-value, volume, waterproof claim. Model years change those numbers. When a page uses an older published class, that is a limitation of the page, not a measurement we took. Illustrative comparisons are labeled as illustrative.</p>

@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, Search, X } from "lucide-react";
-import { BRAND, DISCLOSURE_SHORT } from "@/lib/affiliate";
+import { DISCLOSURE_SHORT } from "@/lib/affiliate";
 import { categories } from "@/data";
 
 const links = [
@@ -23,6 +23,15 @@ function Mark({ className = "h-[0.9em] w-[0.9em] shrink-0" }: { className?: stri
   );
 }
 
+function Wordmark({ className }: { className: string }) {
+  return (
+    <span className={`inline-flex items-baseline gap-1.5 whitespace-nowrap [overflow-wrap:normal] ${className}`}>
+      <Mark />
+      <span>Trailkit <span className="font-normal">Outdoor</span></span>
+    </span>
+  );
+}
+
 export function PageShell({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen bg-paper text-ink">
@@ -41,9 +50,8 @@ function Header() {
   return (
     <header className="border-b border-line bg-forest-deep text-on-forest">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-2">
-        <Link to="/" className="inline-flex min-w-0 items-baseline gap-1.5 font-display text-2xl font-semibold tracking-tight text-on-forest">
-          <Mark />
-          {BRAND}
+        <Link to="/" className="shrink-0 text-on-forest">
+          <Wordmark className="font-display text-2xl font-semibold tracking-tight" />
         </Link>
         <nav className="hidden items-center gap-4 text-sm md:flex">
           {links.map((item) => (
@@ -118,9 +126,8 @@ function Footer() {
     <footer className="mt-16 bg-forest-deep text-on-forest">
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 md:grid-cols-3">
         <div>
-          <p className="inline-flex items-baseline gap-1.5 font-display text-xl">
-            <Mark />
-            {BRAND}
+          <p>
+            <Wordmark className="font-display text-xl font-semibold" />
           </p>
           <p className="mt-3 text-sm leading-relaxed text-on-forest">
             {DISCLOSURE_SHORT}{" "}
