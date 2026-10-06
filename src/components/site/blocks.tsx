@@ -73,37 +73,60 @@ export function AmazonLink({
   );
 }
 
-export function AmazonButton({ product }: { product: Product }) {
+export function AmazonButton({
+  product,
+  onProductPage = false,
+  pageSlugs,
+}: {
+  product: Product;
+  onProductPage?: boolean;
+  pageSlugs?: string[];
+}) {
   const asin = asinFor(product.slug);
   if (!asin) {
     const alt = alternativeFor(product.slug);
+    if (alt && product.slug !== "helium" && pageSlugs) {
+      const hit = pageSlugs.findIndex((slug) => slug !== product.slug && (alt.productSlug === slug || asinFor(slug) === alt.asin));
+      if (hit >= 0) {
+        const other = getProduct(pageSlugs[hit] ?? "");
+        return (
+          <p className="mt-3 text-sm text-muted">
+            Not sold on Amazon US. The closest match,{" "}
+            <a href={`#${pageSlugs[hit]}`} className="font-bold text-forest underline">{other?.name ?? alt.name}</a>
+            , is #{hit + 1} on this list.
+          </p>
+        );
+      }
+    }
+    if (!alt) {
+      if (!onProductPage) return null;
+      return <p className="mt-3 text-sm text-muted">Not sold on Amazon US. Check the maker's own site.</p>;
+    }
     return (
       <div className="mt-3">
-        <p className="text-sm text-muted">No Amazon link for this model.</p>
-        {alt ? (
-          <div className="mt-3 border-l-4 border-line pl-3 text-sm">
-            <p>
-              <strong>Closest on Amazon:</strong>{" "}
-              {alt.productSlug ? (
-                <Link to="/products/$slug" params={{ slug: alt.productSlug }} className="font-bold text-forest underline">
-                  {alt.name}
-                </Link>
-              ) : (
-                alt.name
-              )}
-              . {alt.reason}
-            </p>
-            <div className="mt-2">
-              <AmazonLink
-                asin={alt.asin}
-                trackProduct={`alt:${product.slug}`}
-                label={`See ${alt.short} on Amazon`}
-                variant="outline"
-              />
-              <p className="mt-1 text-sm text-muted">Check current price on the listing.</p>
-            </div>
+        <p className="text-sm text-muted">Not sold on Amazon US.</p>
+        <div className="mt-3 border-l-4 border-line pl-3 text-sm">
+          <p>
+            <strong>Closest on Amazon:</strong>{" "}
+            {alt.productSlug ? (
+              <Link to="/products/$slug" params={{ slug: alt.productSlug }} className="font-bold text-forest underline">
+                {alt.name}
+              </Link>
+            ) : (
+              alt.name
+            )}
+            . {alt.reason}
+          </p>
+          <div className="mt-2">
+            <AmazonLink
+              asin={alt.asin}
+              trackProduct={`alt:${product.slug}`}
+              label={`See ${alt.short} on Amazon`}
+              variant="outline"
+            />
+            <p className="mt-1 text-sm text-muted">Check current price on the listing.</p>
           </div>
-        ) : null}
+        </div>
       </div>
     );
   }
@@ -129,12 +152,8 @@ export function EarlyListingCta({ slugs, kind }: { slugs: string[]; kind: "round
   if (!listing) return null;
   const { product, isDefault } = listing;
   const line = kind === "kit"
-    ? (isDefault
-      ? `${product.name} is on this list and has a verified listing.`
-      : `Listed option: ${product.name}. Earlier pieces on this list have no verified amazon.com listing.`)
-    : (isDefault
-      ? `Start here: ${product.name}.`
-      : `Listed option: ${product.name}. This is not the start-here pick. The start-here pick has no verified amazon.com listing.`);
+    ? (isDefault ? `${product.name}, from this kit.` : `From this kit on Amazon: ${product.name}.`)
+    : (isDefault ? `Start here: ${product.name}.` : `The start-here pick isn't sold on Amazon US. From this list, the ${product.name} is.`);
   return (
     <div className="border border-line bg-paper p-4">
       <p className="max-w-3xl text-sm">{line}</p>
@@ -143,21 +162,35 @@ export function EarlyListingCta({ slugs, kind }: { slugs: string[]; kind: "round
   );
 }
 
-/** Hub CTA. Sits outside card links. allowLater is for kits; roundup hubs pass false so a withhold default is skipped. */
-export function HubListing({ slugs, allowLater = false }: { slugs: string[]; allowLater?: boolean }) {
-  const listing = allowLater
-    ? mainListing(slugs)
-    : (() => {
-        const product = getProduct(slugs[0] ?? "");
-        if (!product || !asinFor(product.slug)) return undefined;
-        return { product, isDefault: true as const };
-      })();
+/** Hub CTA. Sits outside card links. allowLater is for kits; roundup hubs pass false so a missing default is skipped. */
+export function HubListing({
+  slugs,
+  allowLater = false,
+  skipAsins,
+}: {
+  slugs: string[];
+  allowLater?: boolean;
+  skipAsins?: ReadonlySet<string>;
+}) {
+  let listing: { product: Product; isDefault: boolean } | undefined;
+  if (allowLater) {
+    for (let i = 0; i < slugs.length; i++) {
+      const product = getProduct(slugs[i] ?? "");
+      const asin = product ? asinFor(product.slug) : undefined;
+      if (!product || !asin || skipAsins?.has(asin)) continue;
+      listing = { product, isDefault: i === 0 };
+      break;
+    }
+  } else {
+    const product = getProduct(slugs[0] ?? "");
+    if (product && asinFor(product.slug)) listing = { product, isDefault: true };
+  }
   if (!listing) return null;
   const asin = asinFor(listing.product.slug);
   if (!asin) return null;
   return (
     <div className="mt-2 border border-line bg-paper p-3">
-      <p className="text-sm">{listing.isDefault ? listing.product.name : `Listed option: ${listing.product.name}`}</p>
+      <p className="text-sm">{listing.isDefault ? listing.product.name : `From this kit: ${listing.product.name}`}</p>
       <div className="mt-2">
         <AmazonLink asin={asin} trackProduct={listing.product.slug} label="See on Amazon" variant="blaze" />
       </div>
@@ -176,7 +209,9 @@ export function StickyAmazon({ slugs, kind }: { slugs: string[]; kind: "product"
     ? product.name
     : kind === "roundup" && isDefault
       ? `Start here · ${product.name}`
-      : `Listed option · ${product.name}`;
+      : kind === "roundup"
+        ? `From this list · ${product.name}`
+        : `From this kit · ${product.name}`;
   return (
     <>
       <div className="h-36 md:hidden" aria-hidden />
@@ -229,7 +264,17 @@ export function CompareTable({ products }: { products: Product[] }) {
   );
 }
 
-export function ProductSection({ product, index, tone = "field" }: { product: Product; index: number; tone?: "field" | "money" }) {
+export function ProductSection({
+  product,
+  index,
+  tone = "field",
+  pageSlugs,
+}: {
+  product: Product;
+  index: number;
+  tone?: "field" | "money";
+  pageSlugs?: string[];
+}) {
   const top = index === 1;
   return (
     <section id={product.slug} className="border border-line bg-paper p-4">
@@ -259,7 +304,7 @@ export function ProductSection({ product, index, tone = "field" }: { product: Pr
           <ul className="mt-1 list-disc pl-5 text-sm">{product.cons.map((item) => <li key={item}>{item}</li>)}</ul>
         </div>
       </div>
-      <AmazonButton product={product} />
+      <AmazonButton product={product} pageSlugs={pageSlugs} />
     </section>
   );
 }

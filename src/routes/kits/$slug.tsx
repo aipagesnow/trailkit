@@ -56,7 +56,7 @@ function KitPage() {
         </ul>
       </section>
       <EarlyListingCta slugs={kit.productSlugs} kind="kit" />
-      {picks.map((p, i) => <ProductSection key={p.slug} product={p} index={i + 1} tone="money" />)}
+      {picks.map((p, i) => <ProductSection key={p.slug} product={p} index={i + 1} tone="money" pageSlugs={kit.productSlugs} />)}
       <StickyAmazon slugs={kit.productSlugs} kind="kit" />
     </main>
   );

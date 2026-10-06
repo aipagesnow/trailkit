@@ -218,7 +218,7 @@ export const roundups: Roundup[] = [
       "Under $150, buy a shell that keeps a day of rain out and accept that it wets out sooner than a $300 jacket. Outdoor Research Helium is the packable pick. REI Rainier is the try-on pick. A rain jacket is not insulation. The Torrentshell usually sits above this cap and is listed so you know when to leave the cap.",
     teaser: "Helium stays the packable default under this cap. Rainier is the shell you can try on. A rain jacket is not a warm layer.",
     note:
-      "amazon.com has no verified listing for the standard Outdoor Research Helium right now. Helium stays the packable default on this page. The Helium product page names a Closest listing (Marmot PreCip Eco); that Closest is not the pick.",
+      "The Helium isn't sold on Amazon US right now. Its page links the closest match there, the Marmot PreCip Eco, which is not the pick.",
     who: "Hikers who need a real rain layer without an alpine shell budget.",
     productSlugs: ["helium", "rainier", "precip", "stormline", "torrentshell"],
     one: "Buy the Helium if pack size matters. Buy the Rainier if you can try it on and want pit zips. Re-proof either when rain stops beading.",
@@ -1061,7 +1061,7 @@ export const compares: Compare[] = [
     h1: "Helium vs Rainier",
     kicker: "Comparison · Rain",
     answer:
-      "Buy the Helium if the jacket lives in a pack lid. Buy the Rainier if you will wear it on day hikes and can try the hood on. Both are three-season trail shells, not alpine armor. Confirm pit zips on the exact season. amazon.com has no verified listing for either model. Closest listings on the product pages are not these picks.",
+      "Buy the Helium if the jacket lives in a pack lid. Buy the Rainier if you will wear it on day hikes and can try the hood on. Both are three-season trail shells, not alpine armor. Confirm pit zips on the exact season. Neither jacket is sold on Amazon US right now. The closest matches named on their pages are different jackets, not these picks.",
     left: "helium",
     right: "rainier",
     rows: [
@@ -1186,7 +1186,7 @@ export const kits: Kit[] = [
     name: "Cold sleeper",
     description: "Margin in the bag and the pad, not in a lighter shell.",
     forWhom: "People who sleep cold at home and are tired of being told to add a liner.",
-    productSlugs: ["copper-spur-ul2", "nemo-disco-15", "xtherm", "magma-hoody", "windmaster", "actik-core"],
+    productSlugs: ["copper-spur-ul2", "nemo-disco-15", "xtherm", "magma-hoody", "msr-reactor", "actik-core"],
     notes: [
       "The spoon bag is for people who thrash. A slim mummy is fine if you do not.",
       "Dry layers only inside the bag.",
@@ -1198,7 +1198,7 @@ export const kits: Kit[] = [
     name: "Wide feet, first overnight",
     description: "The boot problem solved before the pack gets interesting.",
     forWhom: "Hikers who have been sizing up boots and paying for it in blisters.",
-    productSlugs: ["targhee-iv", "half-dome-2-plus", "magma-15", "xlite-nxt", "windmaster", "actik-core"],
+    productSlugs: ["targhee-iv", "half-dome-2-plus", "magma-15", "nemo-tensor", "pocketrocket", "actik-core"],
     notes: [
       "Try the boot on a downslope before the trip.",
       "If the Targhee is still narrow, look at the Lone Peak only if your ankles are stable.",
@@ -1210,7 +1210,7 @@ export const kits: Kit[] = [
     name: "Drive-up weekend",
     description: "Two burners, wash bins, ice, and a real pan. The backpack stays in the closet.",
     forWhom: "Families and friends at a campground.",
-    productSlugs: ["coleman-2burner", "wash-bins", "rotomold-cooler", "lodge-skillet", "helinox-chair", "actik-core", "rumpl"],
+    productSlugs: ["coleman-2burner", "wash-bins", "rotomold-cooler", "lodge-skillet", "helinox-chair", "bd-storm", "rumpl"],
     notes: [
       "Pre-chill the cooler.",
       "Cook away from the tent.",
@@ -1222,7 +1222,7 @@ export const kits: Kit[] = [
     name: "Day hike",
     description: "Water, a shell, a layer, and a lamp if the day might run long.",
     forWhom: "A maintained trail you will finish in daylight, with a margin.",
-    productSlugs: ["talon-22", "helium", "sun-hoodie", "sawyer-squeeze", "actik-core", "lone-peak"],
+    productSlugs: ["talon-22", "columbia-watertight", "sun-hoodie", "sawyer-squeeze", "spot-400", "lone-peak"],
     notes: [
       "The shoe is optional in this kit. Wear boots if that is what fits.",
       "Download the map.",

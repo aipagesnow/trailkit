@@ -11,11 +11,11 @@ export type AmazonAlternative = {
 /** Closest amazon.com listing for a product that has no verified ASIN of its own. */
 export const AMAZON_ALTERNATIVES: Record<string, AmazonAlternative> = {
   "magma-15": {
-    asin: "B0DK7Q5GXR",
+    asin: "B0DK7R8746",
     name: "NEMO Disco 15 Down Sleeping Bag",
     short: "NEMO Disco 15",
     productSlug: "nemo-disco-15",
-    reason: "A 650-fill down backpacking bag from NEMO that comes in a 15°F version, the same rating as the Magma 15. Choose the 15°F option on the listing.",
+    reason: "A 650-fill down backpacking bag from NEMO in a 15°F version, the same rating as the Magma 15.",
   },
   "half-dome-2-plus": {
     asin: "B0754SP75F",
@@ -40,6 +40,7 @@ export const AMAZON_ALTERNATIVES: Record<string, AmazonAlternative> = {
     asin: "B0DKM5JXNJ",
     name: "Mountain Hardwear Ghost Whisperer Hoody",
     short: "Ghost Whisperer Hoody",
+    productSlug: "ghost-whisperer",
     reason: "An 800-fill ultralight down hoody that does the same job as the Magma Hooded Down. The price on the listing varies by color.",
   },
   "capilene-cool": {

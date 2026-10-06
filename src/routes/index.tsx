@@ -36,8 +36,8 @@ function Home() {
   const stacked = ["hiking-boots-wide-feet", "rain-jackets-under-150"].map(takeRoundup).filter((r) => r != null);
   const row = ["backpacking-packs", "sleeping-pads"].map(takeRoundup).filter((r) => r != null);
   const overnight = getGuide("first-overnight");
-  const compares = ["osprey-vs-gregory", "copper-spur-vs-x-mid", "xlite-vs-tensor"].map((slug) => getCompare(slug)).filter((c) => c != null);
-  const kits = ["fair-weekend", "day-hike"].map((slug) => getKit(slug)).filter((k) => k != null);
+  const compares = ["microspikes-vs-yaktrax", "actik-vs-spot", "aura-vs-deva"].map((slug) => getCompare(slug)).filter((c) => c != null);
+  const kits = ["day-hike", "car-camp-weekend"].map((slug) => getKit(slug)).filter((k) => k != null);
   const guides = ["choose-a-pad", "layering", "boot-fit"].map((slug) => getGuide(slug)).filter((g) => g != null);
   const notes = ["r-value", "fill-power", "freestanding", "wide-last"].map((slug) => getNote(slug)).filter((n) => n != null);
   const shelter = getProduct("copper-spur-ul2");

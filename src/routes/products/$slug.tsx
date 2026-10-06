@@ -1,5 +1,6 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
-import { getCategory, getProduct, pagesMentioning, productsIn } from "@/data";
+import { getCategory, getProduct, pagesMentioning, productsIn, roundups } from "@/data";
+import type { Product } from "@/data/types";
 import { asinFor } from "@/data/asins";
 import { AmazonButton, Crumbs, Disclosure, JsonLd, Related, StickyAmazon } from "@/components/site/blocks";
 import { GearCard } from "@/components/site/cards";
@@ -21,10 +22,35 @@ export const Route = createFileRoute("/products/$slug")({
   component: ProductPage,
 });
 
+function alsoIn(product: Product) {
+  const category = productsIn(product.category);
+  const seen = new Set<string>([product.slug]);
+  const picked: Product[] = [];
+  const take = (slug: string) => {
+    if (picked.length >= 4 || seen.has(slug)) return;
+    const other = category.find((item) => item.slug === slug);
+    if (!other) return;
+    seen.add(slug);
+    picked.push(other);
+  };
+  for (const roundup of roundups) {
+    if (!roundup.productSlugs.includes(product.slug)) continue;
+    const start = roundup.productSlugs.indexOf(product.slug);
+    for (let step = 1; step < roundup.productSlugs.length; step++) {
+      take(roundup.productSlugs[(start + step) % roundup.productSlugs.length] ?? "");
+    }
+  }
+  const index = category.findIndex((item) => item.slug === product.slug);
+  if (index >= 0) {
+    for (let step = 1; step < category.length; step++) take(category[(index + step) % category.length]?.slug ?? "");
+  }
+  return picked;
+}
+
 function ProductPage() {
   const product = Route.useLoaderData();
   const category = getCategory(product.category);
-  const alts = productsIn(product.category).filter((p) => p.slug !== product.slug).slice(0, 4);
+  const alts = alsoIn(product);
   return (
     <main className="mx-auto max-w-5xl space-y-6 px-4 py-8">
       <JsonLd
@@ -80,7 +106,7 @@ function ProductPage() {
           <ul className="mt-2 list-disc pl-5">{product.cons.map((p) => <li key={p}>{p}</li>)}</ul>
         </div>
       </div>
-      <AmazonButton product={product} />
+      <AmazonButton product={product} onProductPage />
       <section>
         <h2 className="text-3xl">Also in {category?.name ?? "this category"}</h2>
         <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">

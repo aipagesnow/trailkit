@@ -7,17 +7,16 @@
  * Unsure — listing not confirmed, left unlinked: alcohol-stove, amk-mountain, ascendant, bd-distance-carbon, bd-trail-ergo, bedrock-cairn, biolite-330, exped-dura, halulite, helium, icebreaker-175, komperdell-c3, mongoose, prolite, renegade-wide, steripen, sts-spark, tikkid, trails-illustrated, trek-tk, trestles-eco-30, ursack-major.
  */
 export const ASINS: Record<string, string> = {
-  "hubba-hubba-2": "B00G7H9CAY",
+  // 2026-10-06 unavailable on amazon.com; re-add only after a live check
   "atmos-ag-65": "B09JXQDZG5",
-  "baltoro-65": "B09GX9K3R9",
+  // 2026-10-06 unavailable on amazon.com; re-add only after a live check
   "targhee-iv": "B0CNHWTRVM",
   "lone-peak": "B0CQVNG7RH",
   precip: "B0CMRX1SY1",
   torrentshell: "B0G631B8BF",
   "xlite-nxt": "B0BKFLTM3T",
   "actik-core": "B09X9PHB9W",
-  /** Men's Speedgoat 6 Wide, amazon.com. */
-  speedgoat: "B0CP3S2FBZ",
+  // 2026-10-06 unavailable on amazon.com; re-add only after a live check
   /** Men's StormLine Stretch rain shell. Listing has been unavailable. */
   stormline: "B0C446S2QQ",
   // --- Oct 6, 2026 amazon.com lookup batch (exact + likely matches) ---
@@ -41,8 +40,7 @@ export const ASINS: Record<string, string> = {
   bindi: "B076ZTCLJQ",
   /** BRS Stove BRS 3000T Titanium Ultralight Backpacking Stove. */
   "brs-3000": "B083CWHB9B",
-  /** BearVault Canister for Backpacking - BV500 Journey XL. */
-  bv500: "B0019LSGQE",
+  // 2026-10-06 unavailable on amazon.com; re-add only after a live check
   /** Crocs Unisex-Adult Classic Clog. Likely match: generic 'classic clog'; picked Crocs Classic Clog */
   "camp-clog": "B0014C0LUC",
   /** ALPS Mountaineering Aluminum Roll-Top Camp Table. Likely match: no product literally named 'Dining Table'; ALPS standard roll-top camp table */
@@ -69,8 +67,8 @@ export const ASINS: Record<string, string> = {
   "darn-tough-light": "B07N1TYCSN",
   /** TheTentLab DirtSaw Deuce #2 - .6 oz Ultralight Backpacking Trowel, Black. Likely match: Deuce of Spades now sold as 'DirtSaw Deuce #2' */
   deuce: "B0G62VS9MF",
-  /** NEMO Dragonfly OSMO 2P. */
-  "dragonfly-osmo-2": "B0BMTGHJH4",
+  /** NEMO Dragonfly OSMO 2P, Birch Bud, sold by NEMO Equipment. */
+  "dragonfly-osmo-2": "B0FY3X3X8G",
   /** Sea to Summit Ultra-SIL Dry Bag, 13 Liter, Highrise Grey. Likely match: generic '10-liter dry bag'; Sea to Summit Ultra-Sil has no 10L size (8L B0BXBM457W / 13L picked); no featured price */
   "dry-bag": "B0BZ9MBH3G",
   /** ENO DoubleNest Lightweight Camping Hammock, 1 to 2 Person, Special Edition. Likely match: organic result is a special-edition colorway listing */
@@ -137,8 +135,8 @@ export const ASINS: Record<string, string> = {
   nb10000: "B0C31G41RT",
   /** 100% Merino Wool Neck Gaiter, 17.5um, Unisex. Likely match: generic item; top organic listing (unbranded) */
   "neck-gaiter": "B08D113DXR",
-  /** NEMO Equipment Disco Down Sleeping Bag Men's & Women's, Spoon Shape. Likely match: Disco family listing; 15F temp/length child not verified */
-  "nemo-disco-15": "B0DK7Q5GXR",
+  /** NEMO Disco Men's 15°F / Regular, sold by NEMO Equipment. */
+  "nemo-disco-15": "B0DK7R8746",
   /** NEMO Equipment Hornet OSMO Backpacking Tent - Birch Bud/Goodnight Gray - 2P. */
   "nemo-hornet-2": "B0DF394QCP",
   /** Supmedic Medical Soft Max Nitrile Exam Gloves Powder-Free 100 Ct. Likely match: generic item; site's 'pair in a bag' has no brand - common organic box listing */
@@ -171,8 +169,8 @@ export const ASINS: Record<string, string> = {
   rumpl: "B0DXMBV6RG",
   /** Sam Splint, 36", Orange & Blue. */
   "sam-splint": "B001J5H92C",
-  /** Sawyer Squeeze. */
-  "sawyer-squeeze": "B0DTJK394Q",
+  /** Sawyer SP129 Squeeze with 2 pouches, sold by Amazon.com. */
+  "sawyer-squeeze": "B00B1OSU4W",
   /** SEALSKINZ Unisex Waterproof All Weather Mid Length Sock. Likely match: generic name; picked Sealskinz standard All Weather sock */
   sealskinz: "B07R5QBW35",
   /** HydraPak Seeker Collapsible Camping Water Storage (2L, Mammoth Grey). */

@@ -72,7 +72,7 @@ function NotePage() {
           <h2 className="text-3xl">Gear that shows the point</h2>
           <Disclosure />
           {picks.map((p, i) => (
-            <ProductSection key={p.slug} product={p} index={i + 1} />
+            <ProductSection key={p.slug} product={p} index={i + 1} pageSlugs={page.productSlugs} />
           ))}
         </section>
       ) : null}

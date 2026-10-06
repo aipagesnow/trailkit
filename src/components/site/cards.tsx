@@ -237,7 +237,6 @@ export function VersusCard({
 }) {
   const left = getProduct(compare.left);
   const right = getProduct(compare.right);
-  const listings = [left, right].filter((p) => p && asinFor(p.slug)).length;
   return (
     <a href={`/compare/${compare.slug}`} className={`tk-card group flex h-full flex-col bg-paper text-ink ${featured ? "md:col-span-3" : ""}`}>
       <div className="relative aspect-video overflow-hidden">
@@ -254,7 +253,7 @@ export function VersusCard({
         <span className="line-clamp-2 text-sm text-muted">{compare.answer}</span>
       </span>
       <span className="bg-spec px-3 py-2 font-mono text-[11px] tracking-wide break-words uppercase">Decides on → {decidesLine(compare)}</span>
-      <span className="border-t border-line px-3 py-2 font-mono text-[11px] text-muted uppercase">{compare.rows.length} rows compared · {listings} listings</span>
+      <span className="border-t border-line px-3 py-2 font-mono text-[11px] text-muted uppercase">{compare.rows.length} rows compared</span>
     </a>
   );
 }
@@ -332,9 +331,11 @@ export function GearCard({
         <span className="text-sm text-muted">{product.bestFor}</span>
         <span className="font-mono text-[11px] tracking-wide text-muted uppercase">{spec}</span>
       </span>
-      <span className="border-t border-line px-3 py-2 font-mono text-[11px] tracking-widest uppercase">
-        {live ? <span className="inline-block border border-ink px-2 py-1">Has Amazon listing</span> : <span className="text-muted">No Amazon link</span>}
-      </span>
+      {live ? (
+        <span className="border-t border-line px-3 py-2">
+          <span className="inline-block border border-ink px-2 py-1 font-mono text-[11px] tracking-widest uppercase">On Amazon</span>
+        </span>
+      ) : null}
     </a>
   );
 }

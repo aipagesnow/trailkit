@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { getKit, kits } from "@/data";
+import { asinFor } from "@/data/asins";
 import { KIT_SECTIONS } from "@/data/hubs";
 import { HubBand, KitCard } from "@/components/site/cards";
 import { HubListing } from "@/components/site/blocks";
@@ -23,6 +24,20 @@ function KitsIndex() {
     return { ...section, items };
   }).filter((section) => section.items.length);
   const rest = kits.filter((k) => !used.has(k.slug));
+  const reserved = new Set<string>();
+  const skipByKit = new Map<string, Set<string>>();
+  const reserve = (slugs: string[], kitSlug: string) => {
+    const skip = new Set(reserved);
+    for (const slug of slugs) {
+      const asin = asinFor(slug);
+      if (!asin || reserved.has(asin)) continue;
+      reserved.add(asin);
+      break;
+    }
+    skipByKit.set(kitSlug, skip);
+  };
+  for (const section of sections) for (const kit of section.items) reserve(kit.productSlugs, kit.slug);
+  for (const kit of rest) reserve(kit.productSlugs, kit.slug);
   return (
     <main>
       <HubBand
@@ -42,7 +57,7 @@ function KitsIndex() {
                   <div className="min-h-0 flex-1">
                     <KitCard kit={kit} priority={section.id === "backpacking" && i < 2} />
                   </div>
-                  <HubListing slugs={kit.productSlugs} allowLater />
+                  <HubListing slugs={kit.productSlugs} allowLater skipAsins={skipByKit.get(kit.slug)} />
                 </div>
               ))}
             </div>
@@ -57,7 +72,7 @@ function KitsIndex() {
                   <div className="min-h-0 flex-1">
                     <KitCard kit={kit} />
                   </div>
-                  <HubListing slugs={kit.productSlugs} allowLater />
+                  <HubListing slugs={kit.productSlugs} allowLater skipAsins={skipByKit.get(kit.slug)} />
                 </div>
               ))}
             </div>

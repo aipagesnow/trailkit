@@ -18,9 +18,10 @@ export const Route = createFileRoute("/best/")({
 });
 
 function BestIndex() {
-  const used = new Set<string>();
+  const featuredSet = new Set(featured);
+  const used = new Set<string>(featured);
   const sections = BEST_SECTIONS.map((section) => {
-    const items = section.slugs.map((slug) => getRoundup(slug)).filter((r) => r != null);
+    const items = section.slugs.filter((slug) => !featuredSet.has(slug)).map((slug) => getRoundup(slug)).filter((r) => r != null);
     items.forEach((item) => used.add(item.slug));
     return { ...section, items };
   }).filter((section) => section.items.length);

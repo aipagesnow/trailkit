@@ -110,7 +110,7 @@ function RoundupPage() {
         </section>
         <section className="space-y-4">
           <h2 className="text-3xl">The picks</h2>
-          {picks.map((p, i) => <ProductSection key={p.slug} product={p} index={i + 1} tone="money" />)}
+          {picks.map((p, i) => <ProductSection key={p.slug} product={p} index={i + 1} tone="money" pageSlugs={page.productSlugs} />)}
         </section>
         <section id="one" className="border-2 border-ink bg-paper p-4">
           <h2 className="text-3xl">If you only buy one</h2>

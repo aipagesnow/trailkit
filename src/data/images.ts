@@ -2799,9 +2799,9 @@ export const IMAGES: TkImageMeta[] = [
   {
     "route": "/gear/footwear",
     "base": "/images/gear/footwear",
-    "alt": "A pair of plain hiking boots with deep lugs on wet rock in the right half, darker empty stone on the left",
+    "alt": "A pair of brown hiking boots on a dry, sunny rocky trail in the right half, softer trail on the left",
     "aspect": "16/9",
-    "focal": "72% 42%",
+    "focal": "72% 45%",
     "hub": "gear",
     "label": "Footwear",
     "title": "Hiking footwear",
@@ -3144,9 +3144,9 @@ export const IMAGES: TkImageMeta[] = [
   {
     "route": "/gear/family",
     "base": "/images/gear/family",
-    "alt": "A small boot and larger boots at an open tent door, grouped in the right half, darker moss on the left",
+    "alt": "An adult pair and a child-size pair of hiking boots outside an open tent door in soft sunshine",
     "aspect": "16/9",
-    "focal": "72% 72%",
+    "focal": "72% 60%",
     "hub": "gear",
     "label": "Family",
     "title": "Family and kids",

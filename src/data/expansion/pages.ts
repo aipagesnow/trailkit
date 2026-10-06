@@ -2158,7 +2158,7 @@ export const extraKits: Kit[] = [
       "superfly",
       "atlas-straps",
       "nu25",
-      "windmaster"
+      "soto-amicus"
     ],
     "notes": [
       "Do not substitute a pad and hope.",
@@ -2194,8 +2194,8 @@ export const extraKits: Kit[] = [
       "or-foray",
       "dragonfly-osmo-2",
       "siesta-25",
-      "windmaster",
-      "actik-core",
+      "minimo",
+      "princeton-remix",
       "darn-tough-hiker"
     ],
     "notes": [
@@ -2231,10 +2231,10 @@ export const extraKits: Kit[] = [
     "productSlugs": [
       "microspikes",
       "crocodile",
-      "helium",
+      "or-foray",
       "r1-air",
       "whistle",
-      "actik-core"
+      "bd-storm"
     ],
     "notes": [
       "Spikes come off on dry pavement.",
@@ -2269,8 +2269,8 @@ export const extraKits: Kit[] = [
       "opsak",
       "toaks-750",
       "copper-spur-ul2",
-      "magma-15",
-      "actik-core"
+      "kelty-cosmic-20",
+      "spot-400"
     ],
     "notes": [
       "Fit the canister at home.",
@@ -2288,7 +2288,7 @@ export const extraKits: Kit[] = [
       "capilene-cool",
       "lunar-solo",
       "sts-spark",
-      "xlite-nxt",
+      "z-lite",
       "sawyer-squeeze",
       "nu25"
     ],
@@ -2882,7 +2882,7 @@ export const notes: Guide[] = [
       }
     ],
     "productSlugs": [
-      "copper-spur-ul2",
+      "msr-elixir-2",
       "magma-30",
       "microspikes"
     ],
@@ -3403,8 +3403,7 @@ export const notes: Guide[] = [
     ],
     "productSlugs": [
       "hmg-southwest",
-      "dry-bag",
-      "helium"
+      "dry-bag"
     ],
     "faqs": [
       {

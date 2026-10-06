@@ -4,7 +4,7 @@
  "style": {
   "grade_suffix": "Desaturated documentary outdoor photograph, overcast flat light or blue hour, muted greys and deep forest greens, cool charcoal shadows, low-key exposure, matte finish, fine 35mm film grain, natural textures (wet rock, packed dirt, forest duff, granite, gravel). No faces, no logos, no readable text, no orange props, no studio backdrop, no glossy product render.",
   "negative": "brand logos, readable text, watermark, saturated colour, sunset glow, cream or white seamless background, extra or bent tent poles, impossible tent geometry, warped hands, extra fingers, toy-like gear, festival tents, smiling stock models, HDR halos, orange accents",
-  "prompt_rule": "prompt = scene + '. ' + extra + ' ' + grade_suffix",
+  "prompt_rule": "prompt = scene + '. ' + extra + ' ' + (grade_override ?? grade_suffix); negative = negative + ', ' + negative_extra when negative_extra is present",
   "post_grade": "run scripts/grade-images.mjs on every file (see IMAGE-LAYOUT-MAP.md section 2)",
   "outputs": "AVIF + WebP at 480/800/1200/1600w + JPG fallback; hero <=120KB, card <=45KB at 800w"
  },
@@ -1463,12 +1463,14 @@
    "label": "Footwear",
    "card_type": "E category tile",
    "aspect_master": "16:9 (1280x720)",
-   "focal": "72% 42%",
+   "focal": "72% 45%",
    "image": "/images/gear/footwear.jpg",
    "status": "generate",
-   "alt": "A pair of plain hiking boots with deep lugs on wet rock in the right half, darker empty stone on the left",
-   "scene": "a pair of plain brown-grey hiking boots with deep lugs standing on wet granite in the right half",
-   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text."
+   "grade_override": "Bright natural daylight outdoor photograph, dry ground, clear soft sun, true-to-life colour with warm earth tones and fresh greens, gentle contrast, open shadows, crisp focus on the subject, natural 35mm look. No faces, no logos, no readable text, no studio backdrop, no glossy product render.",
+   "negative_extra": "wet rock, puddles, rain, raindrops, overcast, fog, mist, grey sky, damp moss, mud, blue hour, night, low-key, desaturated, gloomy, extra boot, single boot, three pairs, mismatched pair, warped laces, melted soles, gibberish logo",
+   "alt": "A pair of brown hiking boots on a dry, sunny rocky trail in the right half, softer trail on the left",
+   "scene": "a pair of plain brown leather-and-suede hiking boots with deep lugs standing on a dry, sunlit rocky trail in the right half, warm late-morning sun, dry dust and pale granite, soft green scrub blurred behind",
+   "extra": "Wide 16:9 landscape. Boots large, sharp and vertically centred around 72% across. Left third is plain out-of-focus dry trail and sky haze, calmer and slightly darker than the subject, with no gear, so a left title can sit on it. Exactly one pair (two boots). Unbranded. No logos and no readable text."
   },
   {
    "hub": "gear",
@@ -1673,12 +1675,14 @@
    "label": "Family",
    "card_type": "E category tile",
    "aspect_master": "16:9 (1280x720)",
-   "focal": "72% 72%",
+   "focal": "72% 60%",
    "image": "/images/gear/family.jpg",
    "status": "generate",
-   "alt": "A small boot and larger boots at an open tent door, grouped in the right half, darker moss on the left",
-   "scene": "a small hiking boot and larger hiking boots side by side at an open tent door, boots fully in frame in the right half",
-   "extra": "Wide 16:9 landscape. Subject large and vertically centered in the right half. Left third darker, quieter, and slightly soft, with no gear, so a left title can sit on it. Unbranded. No logos and no readable text."
+   "grade_override": "Bright natural daylight outdoor photograph, dry ground, clear soft sun, true-to-life colour with warm earth tones and fresh greens, gentle contrast, open shadows, crisp focus on the subject, natural 35mm look. No faces, no logos, no readable text, no studio backdrop, no glossy product render.",
+   "negative_extra": "wet rock, puddles, rain, raindrops, overcast, fog, mist, grey sky, damp moss, mud, blue hour, night, low-key, desaturated, gloomy, extra boot, single boot, three pairs, mismatched pair, warped laces, melted soles, gibberish logo",
+   "alt": "An adult pair and a child-size pair of hiking boots outside an open tent door in soft sunshine",
+   "scene": "exactly two pairs of hiking boots side by side on dry ground just outside an open tent door in soft morning sunshine: one adult-size pair and one clearly child-size pair, laces loose, dry grass and pine needles",
+   "extra": "Wide 16:9 landscape. Both pairs fully in frame, grouped around 72% across, lower-middle of the frame. Left third is softly lit tent fabric and grass, calmer than the subject, no gear. Exactly four boots in total. No people, no faces. Unbranded. No logos and no readable text."
   },
   {
    "hub": "learn",
