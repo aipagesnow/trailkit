@@ -94,7 +94,7 @@ export function FieldCard({
         ) : null}
       </div>
       <p className="border-t border-line px-3 py-2 font-mono text-[11px] tracking-wide break-words text-muted uppercase">
-        {roundup.productSlugs.length} picks · updated {UPDATED_MONO} · top pick <span className="text-ink">{top?.name ?? "see page"}</span>
+        {roundup.productSlugs.length} picks · updated {UPDATED_MONO} · start here <span className="text-ink">{top?.name ?? "see page"}</span>
       </p>
     </a>
   );

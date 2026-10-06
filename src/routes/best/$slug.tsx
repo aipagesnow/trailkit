@@ -92,6 +92,7 @@ function RoundupPage() {
           </p>
         ) : null}
         <div id="answer" className="border-l-4 border-ink bg-spec p-4">{page.answer}</div>
+        {page.note ? <p className="max-w-3xl border-l-4 border-line p-4 text-sm">{page.note}</p> : null}
         {page.quick ? <QuickTable table={page.quick} /> : null}
         <p className="border border-line bg-paper-2 p-4"><span className="font-bold">Who this is for. </span>{page.who}</p>
         {figures.map((route) => (

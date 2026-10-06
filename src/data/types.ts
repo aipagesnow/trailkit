@@ -47,6 +47,8 @@ export type Roundup = {
   kicker: string;
   category: string;
   answer: string;
+  /** Factual aside rendered under the direct answer. Not part of the home-card excerpt. */
+  note?: string;
   quick?: QuickTable;
   who: string;
   productSlugs: string[];

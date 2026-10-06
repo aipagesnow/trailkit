@@ -93,12 +93,6 @@ export const AMAZON_ALTERNATIVES: Record<string, AmazonAlternative> = {
     short: "Osprey Rook 65",
     reason: "A framed backpacking pack from Osprey in about the same price band as the Flash 55. At 65 liters it is larger, so it suits a bulkier kit.",
   },
-  "hmg-southwest": {
-    asin: "B0BTTQPWYG",
-    name: "Osprey Exos Pro 55 Backpack (men's)",
-    short: "Osprey Exos Pro 55",
-    reason: "A premium ultralight 55-liter pack in a similar price band to the Southwest.",
-  },
   "ursack-major": {
     asin: "B07YL9HPVX",
     name: "Ursack Major XL Bear Bag",

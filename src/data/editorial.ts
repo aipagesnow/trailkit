@@ -207,6 +207,8 @@ export const roundups: Roundup[] = [
     category: "shells",
     answer:
       "Under $150, buy a shell that keeps a day of rain out and accept that it wets out sooner than a $300 jacket. Outdoor Research Helium is the packable pick. REI Rainier is the try-on pick. A rain jacket is not insulation. The Torrentshell usually sits above this cap and is listed so you know when to leave the cap.",
+    note:
+      "amazon.com has no verified listing for the standard Outdoor Research Helium right now. Helium stays the packable default on this page. The Helium product page names a Closest listing (Marmot PreCip Eco); that Closest is not the pick.",
     who: "Hikers who need a real rain layer without an alpine shell budget.",
     productSlugs: ["helium", "rainier", "precip", "stormline", "torrentshell"],
     one: "Buy the Helium if pack size matters. Buy the Rainier if you can try it on and want pit zips. Re-proof either when rain stops beading.",
@@ -1040,7 +1042,7 @@ export const compares: Compare[] = [
     h1: "Helium vs Rainier",
     kicker: "Comparison · Rain",
     answer:
-      "Buy the Helium if the jacket lives in a pack lid. Buy the Rainier if you will wear it on day hikes and can try the hood on. Both are three-season trail shells, not alpine armor. Confirm pit zips on the exact season.",
+      "Buy the Helium if the jacket lives in a pack lid. Buy the Rainier if you will wear it on day hikes and can try the hood on. Both are three-season trail shells, not alpine armor. Confirm pit zips on the exact season. amazon.com has no verified listing for either model. Closest listings on the product pages are not these picks.",
     left: "helium",
     right: "rainier",
     rows: [
