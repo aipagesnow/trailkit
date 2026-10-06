@@ -7,14 +7,14 @@ export const roundups: Roundup[] = [
   {
     slug: "backpacking-tents",
     title: "Best Backpacking Tents",
-    description: "Best two-person backpacking tents by pitch style: freestanding Copper Spur, trekking-pole X-Mid, wet-weather Dragonfly, Hubba Hubba, and a livable first tent.",
+    description: "Best two-person backpacking tents by pitch style: freestanding Copper Spur, trekking-pole X-Mid, wet-weather Dragonfly, Hubba Hubba, and Tiger Wall.",
     h1: "Best backpacking tents",
     kicker: "Roundup · Shelters",
     category: "tents",
     answer:
-      "For most two-person trips, buy a freestanding double-wall tent if you camp on platforms or rock, and a trekking-pole tent if you already carry poles and can stake. The Big Agnes Copper Spur UL2 is the default freestanding pick. The Durston X-Mid 2 is the default trekking-pole pick. A first weekend under eight miles can honestly use the heavier Half Dome 2 Plus.",
+      "For most two-person trips, buy a freestanding double-wall tent if you camp on platforms or rock, and a trekking-pole tent if you already carry poles and can stake. The Big Agnes Copper Spur UL2 is the default freestanding pick. The Durston X-Mid 2 is the default trekking-pole pick. A first weekend under eight miles can use a heavier freestanding tent; that beginner pick is on the first overnight page, and the budget band is on the budget tents page.",
     who: "Beginners who want a tent that stands before it is staked, and experienced hikers shaving weight on a two- to five-night route. Not a four-season mountaineering guide.",
-    productSlugs: ["copper-spur-ul2", "x-mid-2", "dragonfly-osmo-2", "hubba-hubba-2", "tiger-wall-ul2", "half-dome-2-plus"],
+    productSlugs: ["copper-spur-ul2", "x-mid-2", "dragonfly-osmo-2", "hubba-hubba-2", "tiger-wall-ul2"],
     one: "Buy the Copper Spur UL2 if you want one tent that works on platforms and dirt. Buy the X-Mid 2 only if you already use trekking poles and will practice the pitch.",
     quick: {
       caption: "Quick answer: how heavy a backpacking tent should be",
@@ -83,34 +83,34 @@ export const roundups: Roundup[] = [
   {
     slug: "sleeping-bags",
     title: "Best Sleeping Bags for Backpacking",
-    description: "Best backpacking sleeping bags and one quilt: 15°F down, premium down, spoon shape, and a synthetic backup.",
+    description: "Best backpacking sleeping bags and one quilt: 15°F down, premium down, Western Mountaineering Alpinlite, and a synthetic backup.",
     h1: "Best sleeping bags for backpacking",
     kicker: "Roundup · Sleep",
     category: "sleep",
     answer:
-      "Match the bag to the coldest night you will actually sleep, then add margin if you sleep cold. A 15°F or 20°F down mummy is the default three-season bag. The REI Magma 15 is the returnable default. A quilt wins only if you sleep warm and will strap it to the pad. The bag is not the pad.",
+      "Match the bag to the coldest night you will actually sleep, then add margin if you sleep cold. A 15°F or 20°F down mummy is the default three-season bag. The REI Magma 15 is the returnable default. The Western Mountaineering Alpinlite is the premium warmer-weather down pick. A quilt wins only if you sleep warm and will strap it to the pad. Roomier cold-sleeper bags are on the cold sleepers page. The bag is not the pad.",
     who: "Backpackers building a three-season sleep system. Not a winter expedition bag guide.",
-    productSlugs: ["magma-15", "wm-ultralite", "ee-revelation", "nemo-disco-15", "trestles-eco-30", "sts-spark"],
+    productSlugs: ["magma-15", "wm-ultralite", "ee-revelation", "alpinlite", "trestles-eco-30", "sts-spark"],
     one: "Buy a 15°F or 20°F down mummy you can return, unless you already know you will manage a quilt.",
     faqs: [
       { q: "Are ratings comfort or limit?", a: "Treat published ratings as limits unless the brand states EN or ISO comfort. Cold sleepers should buy warmer than the forecast." },
       { q: "Down or synthetic?", a: "Down for dry trips and pack size. Synthetic if the bag may get wet." },
       { q: "Bag or quilt?", a: "Bag if you are new or sleep cold. Quilt if you sleep warm and will attach it to the pad." },
     ],
-    related: ["sleeping-pads", "quilt-vs-bag", "first-overnight"],
+    related: ["sleeping-pads", "quilt-vs-bag", "cold-sleepers"],
     method,
   },
   {
     slug: "sleeping-pads",
     title: "Best Sleeping Pads",
-    description: "Best backpacking sleeping pads by R-value and width: XLite, Tensor, Exped, foam, and a cold-weather XTherm.",
+    description: "Best backpacking sleeping pads by R-value and width: XLite, Tensor, Exped, foam, and the XLite NXT Wide for side sleepers.",
     h1: "Best sleeping pads",
     kicker: "Roundup · Pads",
     category: "pads",
     answer:
-      "Choose R-value first, width second, weight third. A three-season pad for most people sits around R 3 to 4. The NeoAir XLite NXT is the default insulated air pad. Side sleepers should buy the wide. Foam alone is a summer pad. The XTherm is for cold sleepers, not for July.",
+      "Choose R-value first, width second, weight third. A three-season pad for most people sits around R 3 to 4. The NeoAir XLite NXT is the default insulated air pad. Side sleepers should buy the wide, and the XLite NXT Wide is the width pick here. Foam alone is a summer pad. High R-value pads for cold sleepers are on the cold sleepers page.",
     who: "Anyone buying a first backpacking pad or replacing a thick pad that was still cold.",
-    productSlugs: ["xlite-nxt", "nemo-tensor", "exped-ultra", "ether-light", "z-lite", "xtherm"],
+    productSlugs: ["xlite-nxt", "nemo-tensor", "exped-ultra", "ether-light", "z-lite", "xlite-wide"],
     one: "Buy an insulated air pad around R 3.5 or higher, in the wide if you side-sleep. Carry a patch kit.",
     faqs: [
       { q: "What R-value for summer?", a: "Around 2 to 3 if you sleep warm. Cold sleepers should still start near 3.5." },
@@ -162,14 +162,14 @@ export const roundups: Roundup[] = [
   {
     slug: "backpacking-packs",
     title: "Best Backpacking Packs",
-    description: "Best backpacking packs by volume and ventilation: Atmos AG 65, Baltoro 65, Exos, Kakwa, and a 40-liter first overnight.",
+    description: "Best backpacking packs for multi-day loads: Osprey Atmos AG 65, Gregory Baltoro 65, Deuter Aircontact Core, and the lighter Granite Gear Crown.",
     h1: "Best backpacking packs",
     kicker: "Roundup · Packs",
     category: "packs",
     answer:
-      "Fit the torso before you compare pockets. For hot miles and a normal load, the Osprey Atmos AG 65 is the ventilation example. For a pack you live out of, the Gregory Baltoro 65 is the organization example. Most first overnights do not need 65 liters. These model names are illustrative of the category, not a claim about one colorway.",
-    who: "Hikers choosing a multi-day pack. Women's fits are different model names.",
-    productSlugs: ["atmos-ag-65", "baltoro-65", "exos-58", "kakwa-55", "rei-trail-40", "talon-22"],
+      "Fit the torso before you compare pockets. For hot miles and a normal load, the Osprey Atmos AG 65 is the ventilation example. For a pack you live out of, the Gregory Baltoro 65 is the organization example. The Deuter Aircontact Core 60+10 is the load-hauling example. The Granite Gear Crown3 60 is the lighter framed pick when you do not need a trampoline back panel. Ultralight cottage packs are on the ultralight packs page. Daypacks are on the daypacks page.",
+    who: "Hikers choosing a multi-day framed pack. Women's fits are different model names. Not an ultralight cottage-pack list and not a daypack list.",
+    productSlugs: ["atmos-ag-65", "baltoro-65", "aircontact", "crown-60"],
     one: "Try two packs loaded with about 25 pounds. Buy the one whose torso length is right. Ignore features if the hip belt misses your iliac crest.",
     faqs: [
       { q: "What size for a first overnight?", a: "Often 40 to 50 liters if the sleep system is compact. 65 if the kit is bulky." },
@@ -182,14 +182,14 @@ export const roundups: Roundup[] = [
   {
     slug: "daypacks",
     title: "Best Hiking Daypacks",
-    description: "A daypack with a real hip belt: the Osprey Talon 22 class, and what does not belong in it.",
+    description: "Best hiking daypacks with a real hip belt: the Osprey Talon 22, and the REI Trail 40 when a long day needs more volume.",
     h1: "Best hiking daypacks",
     kicker: "Roundup · Packs",
     category: "packs",
     answer:
-      "A day hike needs water, a shell, a layer, and food. The Talon 22 is the example with a hip belt that takes the water weight off your shoulders. Do not day-hike in an overnight pack, and do not overnight in a daypack unless the kit is truly tiny.",
-    who: "Day hikers replacing a school backpack or a commuter bag.",
-    productSlugs: ["talon-22", "rei-trail-40", "helium"],
+      "A day hike needs water, a shell, a layer, and food. The Osprey Talon 22 is the daypack with a hip belt that takes the water weight off your shoulders. The REI Co-op Trail 40 is the bigger option when a long day needs more water and layers; treat it as a long-day pack, not a multi-day haul. A rain shell for the first night out stays on the first overnight page. All-day rain shells are on the rain jackets page.",
+    who: "Day hikers replacing a school backpack or a commuter bag. Not a multi-day pack list.",
+    productSlugs: ["talon-22", "rei-trail-40"],
     one: "Buy a 20- to 28-liter pack with a hip belt. Put the rain shell in it even when the morning looks clear.",
     faqs: [
       { q: "Hydration bladder or bottles?", a: "Bottles are easier to fill in a stream and harder to forget. A bladder is easier to sip. Either is fine if you actually drink." },
@@ -357,14 +357,14 @@ export const roundups: Roundup[] = [
   {
     slug: "cold-sleepers",
     title: "Best Gear for Cold Sleepers",
-    description: "A sleep system for people who sleep cold: a lower bag rating, a higher R-value pad, and a hooded camp layer.",
+    description: "A sleep system for people who sleep cold: a lower bag rating, a high R-value pad, and a hooded camp layer.",
     h1: "Best gear for cold sleepers",
     kicker: "Roundup · Sleep",
     category: "sleep",
     answer:
-      "If you sleep cold at home, you will sleep cold outside. Buy a warmer bag than the forecast suggests, a pad with real R-value, and a hood. The Magma 15 or Disco 15 plus an XTherm-class pad is the honest setup. A quilt is usually the wrong experiment.",
+      "If you sleep cold at home, you will sleep cold outside. Buy a warmer bag than the forecast suggests, a pad with real R-value, and a hood. The Magma 15 or Disco 15 plus an XTherm-class pad is the honest setup. A three-season XLite is not enough on its own for a cold sleeper. A quilt is usually the wrong experiment.",
     who: "People who steal blankets, sleep in socks, or wake up cold in a 40°F house.",
-    productSlugs: ["magma-15", "nemo-disco-15", "xtherm", "xlite-nxt", "magma-hoody"],
+    productSlugs: ["magma-15", "nemo-disco-15", "xtherm", "magma-hoody"],
     one: "Spend the money on the pad and a lower temperature rating before you spend it on a lighter shell.",
     faqs: [
       { q: "Will a liner fix a cold bag?", a: "It adds a little. It does not turn a summer bag into a frost bag." },
@@ -376,20 +376,20 @@ export const roundups: Roundup[] = [
   {
     slug: "first-overnight-gear",
     title: "Best Gear for a First Overnight",
-    description: "The short list for a first overnight hike: a freestanding tent, a real sleep system, a stove you practiced, a shell, and a lamp.",
+    description: "The short list for a first overnight hike: a freestanding tent, a 20°F bag, a three-season pad, a stove you practiced, a shell, a lamp, and a 40-liter pack.",
     h1: "Best gear for a first overnight",
     kicker: "Roundup · Planning",
     category: "packs",
     answer:
-      "A first overnight needs a shelter you can pitch, a sleep system rated for the real low, a way to boil water, a rain layer, and a headlamp with a lock. It does not need a 65-liter pack full of extras. Use a two-person freestanding tent even if you hike alone. Leave the camp chair.",
+      "A first overnight needs a shelter you can pitch, a sleep system rated for the real low, a way to boil water, a rain layer, and a headlamp with a lock. It does not need a 65-liter pack full of extras. Use a two-person freestanding tent even if you hike alone. The REI Co-op Half Dome 2 Plus is the beginner freestanding tent. The Kelty Cosmic 20 is a simple 20°F down bag for fair weather. The NEMO Tensor is a quiet three-season pad. Leave the camp chair. If you sleep cold at home, use the cold sleepers page instead of this kit's sleep picks.",
     who: "Someone whose longest hike so far is a day hike, planning one fair-weather night a few miles from the car.",
-    productSlugs: ["half-dome-2-plus", "copper-spur-ul2", "magma-15", "xlite-nxt", "windmaster", "actik-core", "rei-trail-40", "helium"],
+    productSlugs: ["half-dome-2-plus", "kelty-cosmic-20", "nemo-tensor", "windmaster", "actik-core", "rei-trail-40", "helium"],
     one: "Practice the tent pitch and one stove meal at home. If those two work, the night will work.",
     faqs: [
       { q: "How far should it be?", a: "A few miles, with daylight to spare. Distance is not the achievement." },
       { q: "Can I use a hammock?", a: "Only with an underquilt you have slept in. A first night is a bad insulation experiment." },
     ],
-    related: ["first-overnight", "backpacking-tents", "headlamps"],
+    related: ["first-overnight", "backpacking-tents", "cold-sleepers"],
     method,
   },
 ];

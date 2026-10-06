@@ -142,4 +142,39 @@ export const INTENT_PAIRS: Record<string, { href: string; label: string; note: s
     label: "Best car camping gear",
     note: "These are upgrades. If you still need the stove, the cooler and a dish setup, start with the basics page.",
   },
+  "backpacking-packs": {
+    href: "/best/ultralight-packs",
+    label: "Best ultralight backpacks",
+    note: "This page is multi-day framed packs. If your kit is already light, the ultralight page covers Mariposa, Southwest, Kakwa and Exos.",
+  },
+  "ultralight-packs": {
+    href: "/best/backpacking-packs",
+    label: "Best backpacking packs",
+    note: "These packs need a dialed kit. For a first multi-day framed pack, use the main packs page.",
+  },
+  "daypacks": {
+    href: "/best/first-overnight-gear",
+    label: "Best gear for a first overnight",
+    note: "This page is day and long-day packs. For a rain shell and the rest of a first overnight kit, use the first overnight page.",
+  },
+  "first-overnight-gear": {
+    href: "/best/backpacking-tents",
+    label: "Best backpacking tents",
+    note: "The Half Dome is the beginner tent here. Lighter freestanding and pole tents are on the main tents page.",
+  },
+  "cold-sleepers": {
+    href: "/best/sleeping-pads",
+    label: "Best sleeping pads",
+    note: "The XTherm is the cold pad on this page. Three-season pads and wide options are on the main pads page.",
+  },
+  "sleeping-pads": {
+    href: "/best/cold-sleepers",
+    label: "Best gear for cold sleepers",
+    note: "High R-value pads for cold sleepers are on the cold sleepers page.",
+  },
+  "sleeping-bags": {
+    href: "/best/cold-sleepers",
+    label: "Best gear for cold sleepers",
+    note: "If you sleep cold, the cold sleepers page pairs a warmer bag with a high-R pad and a hooded layer.",
+  },
 };
