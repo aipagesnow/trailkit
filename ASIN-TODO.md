@@ -2,190 +2,78 @@
 
 Products with no verified amazon.com ASIN. Do not guess. Confirm the listing on amazon.com (SiteStripe), then add `slug: "ASIN"` to `src/data/asins.ts`. Links stay `https://www.amazon.com/dp/{ASIN}?tag=trailkit-20`.
 
-Verified: actik-core, atmos-ag-65, baltoro-65, hubba-hubba-2, lone-peak, precip, speedgoat, stormline, targhee-iv, torrentshell, xlite-nxt.
+Verified: 116 of 184 catalog products. Missing: 68.
 
-Missing: 175 of 186 catalog products.
+## Unsure — listing not confirmed (re-check before wiring)
 
-## P0 — flagship picks and other roundup #1s
+- `alcohol-stove` — TOAKS Titanium Alcohol Stove. only TOAKS listing surfaced is the alcohol-stove pot stand listing (may include stove as option); not verified
+- `amk-mountain` — Adventure Medical Kits Mountain Series. 'Mountain Series' AMK kits not surfaced in search; only Sportsman Series & knock-offs
+- `ascendant` — Outdoor Research Ascendant. Outdoor Research Ascendant not surfaced in search
+- `bd-distance-carbon` — Black Diamond Distance Carbon. Distance Carbon not surfaced; only aluminum Distance Z listings found - not substituting
+- `bd-trail-ergo` — Black Diamond Trail Ergo. 'Trail Ergo' not surfaced; only BD Trail (non-Ergo) poles found - not substituting
+- `bedrock-cairn` — Bedrock Cairn. Bedrock Cairn sandals not surfaced in search
+- `biolite-330` — BioLite HeadLamp 330. BioLite HeadLamp 330 not found (only accessory cable); possibly discontinued (replaced by 325/425)
+- `crown-60` — Granite Gear Crown2 60. Crown2 60 not found; only successor Granite Gear Crown3 60L (B0HC539YLB) listed - different model
+- `deva-60` — Gregory Deva 60. held back: older Deva 60 listing with inflated third-party price ($1,686.28); current Deva is 70L only. (was likely, B073P2DNSW)
+- `exped-dura` — Exped Dura 5R. Exped Dura 5R not surfaced; only Dura 6.5R shown - not substituting
+- `halulite` — GSI Halulite Boiler. Halulite Boiler not surfaced; only other GSI Halulite sets - not substituting
+- `helium` — Outdoor Research Helium. only Helium UL (newer variant) found, not standard Helium Rain Jacket
+- `icebreaker-175` — Icebreaker 175 Oasis. Icebreaker 175 Everyday/Oasis 175 not surfaced; only 200 Oasis listings - not substituting
+- `injinji-liner` — Injinji Liner Crew. Injinji Liner Crew not surfaced; only Trail Midweight Crew and knock-offs
+- `komperdell-c3` — Komperdell Carbon C3. Komperdell Carbon C3 not surfaced in search
+- `mongoose` — Kammok Mongoose. Kammok Mongoose not surfaced (other Kammok hammocks only)
+- `nemo-tensor` — NEMO Tensor. Only NEMO Tensor Extreme (B0CB9J59XT) surfaced, not standard Tensor/All-Season - not substituting
+- `prolite` — Therm-a-Rest ProLite. Only Therm-a-Rest Trail ProLite surfaced, not classic ProLite - not substituting
+- `renegade-wide` — Lowa Renegade GTX Wide. Only LOWA Renegade EVO GTX Mid (men's, new gen) found; Wide width not confirmed
+- `steripen` — SteriPEN Ultra. SteriPEN Ultra not surfaced; only SteriPen Ultralight (B07L52FLJV) - not substituting
+- `tensor-wide` — NEMO Tensor Wide. Tensor Wide not surfaced; only Tensor Extreme Regular - not substituting
+- `tikkid` — Petzl Tikkid. Petzl Tikkid (kids) not surfaced; only Tikka - not substituting
+- `trails-illustrated` — National Geographic Trails Illustrated map. map series, no specific map named; sold on amazon as individual maps (e.g. Zion 1566952972)
+- `trek-tk` — Sea to Summit Trek TkII. only women's Trek surfaced; TkII temp rating/men's not confirmed
+- `trestles-eco-30` — Marmot Trestles Elite Eco 30. Only older Marmot Trestles 30 (B01IO4GC14) found, not Trestles Elite Eco 30 - not substituting
+- `ursack-major` — Ursack Major. Only Ursack Major XL Bear Backpack (B07YL9HPVX) surfaced, not standard Major - not substituting
 
-- `amk-ul-5` — Adventure Medical Kits Ultralight/Watertight .5. Pages: kit:blister-kit, roundup:first-aid#1
-- `camp-table` — ALPS Mountaineering Dining Table. Pages: roundup:camp-comfort#1
-- `bv500` — BearVault BV500. Pages: compare:bv500-vs-ursack, guide:bear-canister-packing, guide:bear-hang, guide:food-miles, kit:bear-country, roundup:bear-storage#1
-- `copper-spur-ul2` — Big Agnes Copper Spur UL2. Pages: compare:copper-spur-vs-x-mid, guide:double-wall, guide:freestanding, guide:tent-condensation, guide:three-season-gear, guide:three-vs-four-season, guide:ultralight-shelter, guide:vestibule, kit:bear-country, kit:cold-sleeper-kit, roundup:backpacking-tents#1, roundup:first-overnight-gear, roundup:ultralight-tents
-- `brs-3000` — BRS-3000T. Pages: roundup:budget-under-50#1, roundup:camping-stoves, roundup:canister-stoves-picks
-- `coleman-2burner` — Coleman two-burner camp stove. Pages: guide:car-camping-kitchen, kit:car-camp-weekend, kit:family-weekend, roundup:camping-stoves, roundup:car-camping-gear#1
-- `darn-tough-hiker` — Darn Tough Hiker Micro Crew. Pages: compare:darn-tough-vs-smartwool, guide:blister-care, kit:blister-kit, kit:rainy-weekend, roundup:hiking-socks#1
-- `x-mid-1` — Durston X-Mid 1. Pages: compare:xmid1-vs-protrail, guide:base-weight, guide:double-wall, roundup:solo-tents#1
-- `x-mid-2` — Durston X-Mid 2. Pages: compare:copper-spur-vs-x-mid, guide:big-three, guide:freestanding, guide:seam-sealing, guide:tent-condensation, guide:ultralight-shelter, guide:vestibule, kit:light-and-dry, roundup:backpacking-tents, roundup:ultralight-tents#1
-- `eno-doublenest` — ENO DoubleNest. Pages: compare:eno-vs-blackbird, guide:hammock-setup, roundup:hammocks#1
-- `mariposa` — Gossamer Gear Mariposa. Pages: compare:mariposa-vs-southwest, guide:hipbelt, roundup:ultralight-packs#1
-- `crown-60` — Granite Gear Crown2 60. Pages: compare:flash-vs-crown, guide:hipbelt, guide:torso-length, roundup:budget-backpacks#1
-- `microspikes` — Kahtoola MICROspikes. Pages: compare:microspikes-vs-yaktrax, guide:shoulder-season, guide:three-season-gear, kit:winter-day, roundup:microspikes#1
-- `befree` — Katadyn BeFree. Pages: compare:sawyer-vs-katadyn, guide:water-treatment, roundup:water-filters
-- `leki-makalu` — LEKI Makalu. Pages: guide:ultralight-shelter, kit:light-and-dry, roundup:trekking-poles#1
-- `nalgene-1l` — Nalgene Wide Mouth 1L. Pages: guide:how-much-water, roundup:water-carry#1
-- `dragonfly-osmo-2` — NEMO Dragonfly OSMO 2P. Pages: guide:three-vs-four-season, kit:rainy-weekend, roundup:backpacking-tents
-- `aura-65` — Osprey Aura AG 65. Pages: compare:aura-vs-deva, guide:torso-length, roundup:womens-packs#1
-- `talon-22` — Osprey Talon 22. Pages: kit:day-hike, kit:desert-day, roundup:backpacking-packs, roundup:daypacks#1
-- `helium` — Outdoor Research Helium. Pages: compare:helium-vs-rainier, guide:dwr, guide:first-overnight, guide:hydrostatic-head, guide:layering, guide:pack-liner, guide:pit-zips, guide:shoulder-season, kit:day-hike, kit:fair-weekend, kit:winter-day, roundup:daypacks, roundup:first-overnight-gear, roundup:rain-jackets-under-150#1
-- `capilene-cool` — Patagonia Capilene Cool Daily. Pages: compare:synthetic-vs-merino, guide:shoulder-season, kit:hot-weather, roundup:base-layers#1
-- `half-dome-2-plus` — REI Co-op Half Dome 2 Plus. Pages: guide:first-overnight, guide:vestibule, kit:fair-weekend, kit:wide-foot-weekend, roundup:backpacking-tents, roundup:budget-tents#1, roundup:first-overnight-gear#1
-- `kingdom-6` — REI Co-op Kingdom 6. Pages: compare:kingdom-vs-sundome, guide:kids-first-trip, kit:family-weekend, roundup:family-camping#1
-- `magma-15` — REI Co-op Magma 15. Pages: guide:first-overnight, guide:iso-rating, guide:quilt-vs-bag, guide:wash-down, kit:bear-country, kit:fair-weekend, kit:wide-foot-weekend, roundup:cold-sleepers#1, roundup:first-overnight-gear, roundup:sleeping-bags#1
-- `magma-hoody` — REI Co-op Magma Hooded Down. Pages: guide:active-static, guide:fill-power, guide:layering, guide:shoulder-season, kit:cold-sleeper-kit, roundup:cold-sleepers, roundup:down-jackets#1
-- `rainier` — REI Co-op Rainier. Pages: compare:helium-vs-rainier, guide:dwr, guide:layering, roundup:budget-rain-shells#1, roundup:rain-jackets-under-150
-- `sawyer-squeeze` — Sawyer Squeeze. Pages: compare:sawyer-vs-katadyn, guide:desert-water, guide:first-overnight, guide:hollow-fiber, guide:how-much-water, guide:leave-no-trace-camp, guide:water-treatment, kit:day-hike, kit:hot-weather, roundup:budget-under-50, roundup:water-carry, roundup:water-filters#1
-- `lunar-solo` — Six Moon Designs Lunar Solo. Pages: guide:ultralight-shelter, kit:hot-weather, roundup:backpacking-tents, roundup:budget-tents, roundup:solo-tents, roundup:ultralight-tents
-- `windmaster` — Soto WindMaster. Pages: compare:windmaster-vs-pocketrocket, guide:alcohol-rules, guide:canister-vs-liquid, guide:first-overnight, guide:stove-safety, kit:cold-sleeper-kit, kit:fair-weekend, kit:hammock-weekend, kit:rainy-weekend, kit:wide-foot-weekend, roundup:camping-stoves#1, roundup:canister-stoves-picks#1, roundup:first-overnight-gear
-- `suunto-m3` — Suunto M-3 Compass. Pages: guide:declination, guide:read-a-topo, roundup:navigation-gear#1
-- `toaks-750` — TOAKS Titanium 750ml Pot. Pages: compare:toaks-vs-halulite, guide:food-miles, kit:bear-country, roundup:cook-pots#1
-- `topo-ultraventure` — Topo Athletic Ultraventure. Pages: guide:heel-drop, guide:wide-last, kit:desert-day, roundup:trail-shoes#1
+## Not sold on amazon.com
 
-## P1 — other roundup, compare, and kit picks
-
-- `dry-bag` — 10-liter dry bag. Pages: guide:leave-no-trace-camp, guide:pack-liner, roundup:budget-under-50
-- `amk-mountain` — Adventure Medical Kits Mountain Series. Pages: roundup:first-aid
-- `atom-hoody` — Arc. Pages: compare:r1-vs-atom
-- `biolite-330` — BioLite HeadLamp 330. Pages: roundup:headlamps
-- `bd-distance-carbon` — Black Diamond Distance Carbon. Pages: roundup:trekking-poles
-- `spot-400` — Black Diamond Spot 400-R. Pages: compare:actik-vs-spot, roundup:headlamps
-- `bd-trail-ergo` — Black Diamond Trail Ergo. Pages: roundup:trekking-poles
-- `cmt-carbon` — Cascade Mountain Tech Carbon. Pages: roundup:trekking-poles
-- `cnoc-vesper` — CNOC Vecto or Vesper bag. Pages: guide:hollow-fiber, guide:how-much-water, roundup:water-carry
-- `sundome-4` — Coleman Sundome 4. Pages: compare:kingdom-vs-sundome, guide:kids-first-trip, roundup:family-camping
-- `wash-bins` — Collapsible wash bins, set of three. Pages: guide:car-camping-kitchen, guide:leave-no-trace-camp, kit:car-camp-weekend, kit:family-weekend, roundup:budget-under-50, roundup:camp-comfort, roundup:car-camping-gear
-- `columbia-watertight` — Columbia Watertight II. Pages: roundup:budget-rain-shells
-- `trail-2650` — Danner Trail 2650. Pages: roundup:trail-shoes
-- `darn-tough-light` — Darn Tough Light Hiker. Pages: roundup:hiking-socks
-- `kakwa-55` — Durston Kakwa 55. Pages: guide:base-weight, guide:big-three, guide:pack-fit, kit:light-and-dry, roundup:backpacking-packs, roundup:ultralight-packs
-- `dutchware-chameleon` — Dutchware Chameleon. Pages: roundup:hammocks
-- `ee-revelation` — Enlightened Equipment Revelation. Pages: guide:base-weight, guide:quilt-drafts, guide:quilt-vs-bag, kit:light-and-dry, roundup:sleeping-bags
-- `atlas-straps` — ENO Atlas Straps. Pages: guide:hammock-setup, kit:hammock-weekend
-- `exped-ultra` — Exped Ultra. Pages: guide:choose-a-pad, roundup:sleeping-pads
-- `frogg-toggs` — Frogg Toggs Ultra-Lite. Pages: roundup:budget-rain-shells
-- `inreach-mini` — Garmin inReach Mini 2. Pages: guide:read-a-topo, roundup:navigation-gear
-- `tenacious-tape` — Gear Aid Tenacious Tape. Pages: roundup:budget-under-50
-- `liteflex` — Gossamer Gear Liteflex Umbrella. Pages: guide:desert-water, kit:desert-day
-- `grayl` — Grayl GeoPress. Pages: guide:water-treatment, roundup:water-filters
-- `deva-60` — Gregory Deva 60. Pages: compare:aura-vs-deva, roundup:womens-packs
-- `percolator` — GSI Enamel Coffee Percolator. Pages: roundup:camp-comfort
-- `halulite` — GSI Halulite Boiler. Pages: compare:toaks-vs-halulite, roundup:cook-pots
-- `hg-econ` — Hammock Gear Econ Underquilt. Pages: guide:hammock-setup, kit:hammock-weekend, roundup:hammocks
-- `helinox-chair` — Helinox Chair One. Pages: kit:car-camp-weekend, roundup:camp-comfort, roundup:car-camping-gear
-- `hillsound` — Hillsound Trail Crampon. Pages: roundup:microspikes
-- `hummingbird` — Hummingbird Hammocks Single+. Pages: roundup:hammocks
-- `seeker-2l` — HydraPak Seeker 2L. Pages: guide:desert-water, guide:electrolytes, kit:desert-day, roundup:water-carry
-- `hmg-southwest` — Hyperlite Mountain Gear Southwest. Pages: compare:mariposa-vs-southwest, guide:pack-liner, roundup:ultralight-packs
-- `icebreaker-175` — Icebreaker 175 Oasis. Pages: compare:synthetic-vs-merino, roundup:base-layers
-- `injinji-liner` — Injinji Liner Crew. Pages: guide:blister-care, kit:blister-kit, roundup:hiking-socks
-- `jetboil-flash` — Jetboil Flash. Pages: guide:stove-safety, roundup:canister-stoves-picks
-- `minimo` — Jetboil MiniMo. Pages: guide:canister-vs-liquid, roundup:camping-stoves
-- `leukotape` — Leukotape P. Pages: guide:blister-care, kit:blister-kit, roundup:first-aid
-- `lodge-skillet` — Lodge cast-iron skillet. Pages: guide:car-camping-kitchen, kit:car-camp-weekend, roundup:car-camping-gear
-- `long-spoon` — Long-handled camping spoon. Pages: guide:food-miles, roundup:cook-pots
-- `renegade-wide` — Lowa Renegade GTX Wide. Pages: guide:boot-fit, guide:wide-last, roundup:hiking-boots-wide-feet
-- `trestles-eco-30` — Marmot Trestles Elite Eco 30. Pages: roundup:sleeping-bags
-- `moab-3-wide` — Merrell Moab 3 Mid Wide. Pages: guide:boot-fit, roundup:hiking-boots-wide-feet
-- `ghost-whisperer` — Mountain Hardwear Ghost Whisperer. Pages: roundup:down-jackets
-- `pocketrocket` — MSR PocketRocket Deluxe. Pages: compare:windmaster-vs-pocketrocket, guide:canister-vs-liquid, kit:light-and-dry, roundup:camping-stoves, roundup:canister-stoves-picks
-- `titan-kettle` — MSR Titan Kettle. Pages: roundup:cook-pots
-- `trailshot` — MSR TrailShot. Pages: guide:water-treatment, roundup:water-filters
-- `whisperlite` — MSR WhisperLite. Pages: guide:canister-vs-liquid, guide:stove-safety, roundup:camping-stoves
-- `trails-illustrated` — National Geographic Trails Illustrated map. Pages: guide:declination, guide:read-a-topo, roundup:navigation-gear
-- `nemo-disco-15` — NEMO Disco 15. Pages: guide:quilt-vs-bag, kit:cold-sleeper-kit, roundup:cold-sleepers, roundup:sleeping-bags
-- `nemo-tensor` — NEMO Tensor. Pages: compare:xlite-vs-tensor, guide:choose-a-pad, roundup:sleeping-pads
-- `nb10000` — Nitecore NB10000. Pages: roundup:navigation-gear
-- `nu25` — Nitecore NU25. Pages: guide:headlamp-modes, kit:hammock-weekend, kit:hot-weather, kit:light-and-dry, roundup:headlamps
-- `nitrile-gloves` — Nitrile gloves, pair in a bag. Pages: roundup:first-aid
-- `nuun` — Nuun Sport tablets. Pages: guide:desert-water, guide:electrolytes, guide:how-much-water, kit:desert-day, roundup:first-aid
-- `opsak` — OPSAK odor bag. Pages: guide:bear-canister-packing, guide:cathole, guide:wag-bag, kit:bear-country, roundup:bear-storage
-- `exos-58` — Osprey Exos 58. Pages: guide:pack-fit, roundup:backpacking-packs, roundup:ultralight-packs
-- `ascendant` — Outdoor Research Ascendant. Pages: guide:layering, roundup:down-jackets
-- `crocodile` — Outdoor Research Crocodile Gaiters. Pages: kit:winter-day, roundup:microspikes
-- `echo-hoodie` — Outdoor Research Echo Hoody. Pages: guide:active-static, guide:desert-water, kit:desert-day, kit:hot-weather, roundup:base-layers
-- `sun-hoodie` — Outdoor Research Echo Sun Hoodie. Pages: guide:layering, kit:day-hike, roundup:down-jackets
-- `or-foray` — Outdoor Research Foray. Pages: guide:dwr, guide:hydrostatic-head, guide:pit-zips, kit:rainy-weekend
-- `capilene-thermal` — Patagonia Capilene Thermal Weight. Pages: roundup:base-layers
-- `nano-puff` — Patagonia Nano Puff. Pages: guide:layering, roundup:down-jackets
-- `r1-air` — Patagonia R1 Air. Pages: compare:r1-vs-atom, guide:active-static, guide:shoulder-season, kit:winter-day
-- `whistle` — Pealess whistle. Pages: guide:read-a-topo, kit:winter-day, roundup:navigation-gear
-- `bindi` — Petzl Bindi. Pages: roundup:headlamps
-- `tikkid` — Petzl Tikkid. Pages: guide:headlamp-modes, guide:kids-first-trip, kit:family-weekend, roundup:family-camping
-- `quickdraw` — Platypus QuickDraw. Pages: guide:water-treatment, roundup:water-filters
-- `camp-cot` — REI Co-op Camp Cot. Pages: roundup:camp-comfort
-- `flash-55` — REI Co-op Flash 55. Pages: compare:flash-vs-crown, guide:torso-length, roundup:budget-backpacks
-- `kindercone` — REI Co-op Kindercone. Pages: guide:kids-first-trip, kit:family-weekend, roundup:family-camping
-- `rei-merino-185` — REI Co-op Merino 185. Pages: roundup:base-layers
-- `siesta-25` — REI Co-op Siesta 25. Pages: kit:rainy-weekend
-- `tarn-18` — REI Co-op Tarn 18. Pages: guide:kids-first-trip, kit:family-weekend
-- `rei-trail-40` — REI Co-op Trail 40. Pages: guide:pack-fit, kit:fair-weekend, roundup:backpacking-packs, roundup:budget-backpacks, roundup:daypacks, roundup:first-overnight-gear
-- `rotomold-cooler` — Rotomolded cooler, 45 qt class. Pages: guide:car-camping-kitchen, kit:car-camp-weekend, roundup:car-camping-gear
-- `rumpl` — Rumpl camp blanket. Pages: kit:car-camp-weekend, roundup:car-camping-gear
-- `x-ultra-wide` — Salomon X Ultra Wide GTX. Pages: roundup:hiking-boots-wide-feet
-- `aeros-pillow` — Sea to Summit Aeros Pillow. Pages: roundup:camp-comfort
-- `ether-light` — Sea to Summit Ether Light XT. Pages: roundup:sleeping-pads
-- `sts-spark` — Sea to Summit Spark. Pages: kit:hot-weather, roundup:sleeping-bags
-- `smartwool-hike` — Smartwool Hike Classic. Pages: compare:darn-tough-vs-smartwool, roundup:hiking-socks
-- `soto-amicus` — Soto Amicus. Pages: roundup:canister-stoves-picks
-- `protrail` — Tarptent Protrail. Pages: compare:xmid1-vs-protrail, guide:seam-sealing, guide:tent-condensation, roundup:solo-tents
-- `xtherm` — Therm-a-Rest NeoAir XTherm. Pages: guide:choose-a-pad, guide:r-value, kit:cold-sleeper-kit, roundup:cold-sleepers, roundup:sleeping-pads
-- `z-lite` — Therm-a-Rest Z Lite Sol. Pages: guide:choose-a-pad, guide:r-value, roundup:budget-under-50, roundup:sleeping-pads
-- `ursack-major` — Ursack Major. Pages: compare:bv500-vs-ursack, guide:bear-canister-packing, guide:bear-hang, roundup:bear-storage
-- `blackbird-xlc` — Warbonnet Blackbird XLC. Pages: compare:eno-vs-blackbird, guide:hammock-setup, kit:hammock-weekend, roundup:hammocks
-- `superfly` — Warbonnet SuperFly. Pages: guide:hammock-setup, kit:hammock-weekend, roundup:hammocks
-- `wm-ultralite` — Western Mountaineering UltraLite. Pages: guide:wash-down, roundup:sleeping-bags
-- `yaktrax` — Yaktrax Run. Pages: compare:microspikes-vs-yaktrax, roundup:microspikes
-
-## P2 — the rest of the catalog
-
-- `aquamira` — Aquamira Water Treatment. Pages: guide:hollow-fiber, guide:how-much-water
-- `bedrock-cairn` — Bedrock Cairn. Pages: guide:camp-shoes
-- `tiger-wall-ul2` — Big Agnes Tiger Wall UL2. Pages: guide:freestanding
-- `bd-storm` — Black Diamond Storm 500-R. Pages: catalog only
-- `head-net` — Bug head net. Pages: catalog only
-- `camp` — Car camping. Pages: catalog only
-- `cmt-aluminum` — Cascade Mountain Tech Aluminum Poles. Pages: catalog only
-- `camp-clog` — Classic clog, camp shoe. Pages: guide:camp-shoes
-- `aircontact` — Deuter Aircontact Core 60+10. Pages: catalog only
-- `enigma-20` — Enlightened Equipment Enigma 20. Pages: guide:quilt-drafts
-- `exped-dura` — Exped Dura 5R. Pages: guide:r-value
-- `family` — Family and kids. Pages: catalog only
-- `etrex` — Garmin eTrex 22x or 32x. Pages: catalog only
-- `mongoose` — Kammok Mongoose. Pages: catalog only
-- `kelty-cosmic-20` — Kelty Cosmic 20. Pages: catalog only
-- `kelty-loveseat` — Kelty Lowdown camp loveseat. Pages: catalog only
-- `klymit-static` — Klymit Static V. Pages: catalog only
-- `komperdell-c3` — Komperdell Carbon C3. Pages: catalog only
-- `ultra-raptor` — La Sportiva Ultra Raptor. Pages: catalog only
-- `neck-gaiter` — Merino neck gaiter. Pages: catalog only
-- `down-hugger` — Montbell Down Hugger 800 #3. Pages: catalog only
-- `plasma-1000` — Montbell Plasma 1000. Pages: guide:fill-power
-- `versalite` — Montbell Versalite. Pages: catalog only
-- `luci-lantern` — MPOWERD Luci. Pages: catalog only
-- `msr-elixir-2` — MSR Elixir 2. Pages: catalog only
-- `msr-snowshoe` — MSR Evo Ascent. Pages: catalog only
-- `groundhog` — MSR Groundhog Stakes. Pages: catalog only
-- `msr-reactor` — MSR Reactor. Pages: catalog only
-- `nemo-hornet-2` — NEMO Hornet OSMO 2P. Pages: catalog only
-- `tensor-wide` — NEMO Tensor Wide. Pages: catalog only
-- `oboz-bridger` — Oboz Bridger. Pages: guide:wide-last
-- `summit-loft` — Outdoor Vitals Summit Loft 20. Pages: guide:quilt-drafts
-- `princeton-remix` — Princeton Tec Remix. Pages: catalog only
-- `rab-microlight` — Rab Microlight Alpine. Pages: catalog only
-- `magma-30` — REI Co-op Magma 30. Pages: guide:iso-rating, guide:three-season-gear
-- `rei-passage-2` — REI Co-op Passage 2. Pages: catalog only
-- `trailmade-fleece` — REI Co-op Trailmade Fleece. Pages: catalog only
-- `quest-4` — Salomon Quest 4. Pages: catalog only
-- `sam-splint` — SAM Splint. Pages: catalog only
-- `comfort-plus` — Sea to Summit Comfort Plus. Pages: catalog only
-- `trek-tk` — Sea to Summit Trek TkII. Pages: catalog only
-- `sealskinz` — Sealskinz Waterproof Sock. Pages: catalog only
-- `steripen` — SteriPEN Ultra. Pages: guide:hollow-fiber
-- `double-rainbow` — Tarptent Double Rainbow. Pages: guide:double-wall, guide:seam-sealing, guide:tent-condensation
-- `xlite-wide` — Therm-a-Rest NeoAir XLite NXT Wide. Pages: catalog only
-- `prolite` — Therm-a-Rest ProLite. Pages: catalog only
-- `deuce` — TheTentLab Deuce of Spades. Pages: guide:cathole, guide:wag-bag
-- `alcohol-stove` — TOAKS Titanium Alcohol Stove. Pages: guide:alcohol-rules, guide:stove-safety
-- `ula-circuit` — ULA Circuit. Pages: catalog only
-- `alpinlite` — Western Mountaineering Alpinlite. Pages: guide:fill-power, guide:iso-rating, guide:wash-down
-- `zpacks-duplex` — Zpacks Duplex. Pages: catalog only
+- `amk-ul-5` — Adventure Medical Kits Ultralight/Watertight .5. Ultralight/Watertight .5 not found; only other AMK kits and knock-offs
+- `aquamira` — Aquamira Water Treatment. Aquamira brand not found in search (only other brands' purification products)
+- `blackbird-xlc` — Warbonnet Blackbird XLC. Warbonnet sells direct; not on amazon.com
+- `camp-cot` — REI Co-op Camp Cot. REI Co-op house brand not sold on amazon.com
+- `capilene-cool` — Patagonia Capilene Cool Daily. Patagonia doesn't sell Capilene Cool Daily on amazon.com; only resellers/unrelated results
+- `capilene-thermal` — Patagonia Capilene Thermal Weight. Patagonia Capilene Thermal Weight not found on amazon.com (Patagonia doesn't sell there)
+- `double-rainbow` — Tarptent Double Rainbow. Tarptent sells direct; not on amazon.com
+- `down-hugger` — Montbell Down Hugger 800 #3. Montbell sells direct in US; not found on amazon.com
+- `dutchware-chameleon` — Dutchware Chameleon. Dutchware cottage brand sells direct; not found on amazon.com
+- `ee-revelation` — Enlightened Equipment Revelation. Enlightened Equipment sells direct; not found on amazon.com
+- `enigma-20` — Enlightened Equipment Enigma 20. Enlightened Equipment sells direct; not on amazon.com
+- `flash-55` — REI Co-op Flash 55. REI Co-op house brand not sold on amazon.com
+- `half-dome-2-plus` — REI Co-op Half Dome 2 Plus. 
+- `hg-econ` — Hammock Gear Econ Underquilt. Hammock Gear sells direct; not found on amazon.com
+- `hmg-southwest` — Hyperlite Mountain Gear Southwest. Hyperlite Mountain Gear not found on amazon.com (sells direct)
+- `hummingbird` — Hummingbird Hammocks Single+. Hummingbird Hammocks not found (only unrelated 'hummingbird' print hammocks)
+- `kakwa-55` — Durston Kakwa 55. Durston sells direct only; not on amazon.com
+- `kindercone` — REI Co-op Kindercone. REI Co-op house brand not sold on amazon.com
+- `kingdom-6` — REI Co-op Kingdom 6. REI Co-op house brand not sold on amazon.com
+- `liteflex` — Gossamer Gear Liteflex Umbrella. Gossamer Gear Liteflex umbrella not found (other brands' umbrellas only)
+- `magma-15` — REI Co-op Magma 15. REI Co-op house brand not sold on amazon.com
+- `magma-30` — REI Co-op Magma 30. REI Co-op house brand not sold on amazon.com
+- `magma-hoody` — REI Co-op Magma Hooded Down. REI Co-op house brand not sold on amazon.com
+- `mariposa` — Gossamer Gear Mariposa. Gossamer Gear Mariposa not found on amazon.com (cottage brand, sells direct)
+- `nano-puff` — Patagonia Nano Puff. Patagonia Nano Puff not found on amazon.com (only unrelated puffers)
+- `plasma-1000` — Montbell Plasma 1000. Montbell sells direct in US; not found on amazon.com
+- `protrail` — Tarptent Protrail. Tarptent sells direct; not on amazon.com
+- `r1-air` — Patagonia R1 Air. Patagonia R1 Air not found on amazon.com
+- `rainier` — REI Co-op Rainier. REI Co-op house brand not sold on amazon.com
+- `rei-merino-185` — REI Co-op Merino 185. REI Co-op house brand not sold on amazon.com
+- `rei-passage-2` — REI Co-op Passage 2. REI Co-op house brand not sold on amazon.com
+- `rei-trail-40` — REI Co-op Trail 40. REI Co-op house brand not sold on amazon.com
+- `siesta-25` — REI Co-op Siesta 25. REI Co-op house brand not sold on amazon.com
+- `summit-loft` — Outdoor Vitals Summit Loft 20. Outdoor Vitals Summit Loft 20 not found (only sponsored unrelated results)
+- `superfly` — Warbonnet SuperFly. Warbonnet sells direct; not on amazon.com
+- `tarn-18` — REI Co-op Tarn 18. REI Co-op house brand not sold on amazon.com
+- `trailmade-fleece` — REI Co-op Trailmade Fleece. REI Co-op house brand not sold on amazon.com
+- `ula-circuit` — ULA Circuit. ULA Equipment sells direct; not on amazon.com
+- `versalite` — Montbell Versalite. Montbell sells direct in US; not found on amazon.com
+- `x-mid-1` — Durston X-Mid 1. Durston sells direct only; not on amazon.com
+- `x-mid-2` — Durston X-Mid 2. 
+- `zpacks-duplex` — Zpacks Duplex. Zpacks sells direct; not on amazon.com
