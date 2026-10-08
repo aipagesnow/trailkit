@@ -1,8 +1,9 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
 import { pageHead, breadcrumbLd } from "@/lib/seo";
 import { getCategory, guides, productsIn, roundups } from "@/data";
-import { Crumbs, JsonLd } from "@/components/site/blocks";
+import { AmazonLink, Crumbs, JsonLd } from "@/components/site/blocks";
 import { FieldCard, GearCard, GuideCard } from "@/components/site/cards";
+import { asinFor } from "@/data/asins";
 import { TkImage } from "@/components/site/tk-image";
 
 export const Route = createFileRoute("/gear/$slug")({
@@ -57,9 +58,15 @@ function CategoryPage() {
         <section>
           <h2 className="text-3xl">Gear in this category</h2>
           <div className="mt-3 grid gap-3 md:grid-cols-3">
-            {gear.map((product) => (
-              <GearCard key={product.slug} product={product} />
-            ))}
+            {gear.map((product) => {
+              const asin = asinFor(product.slug);
+              return (
+                <div key={product.slug}>
+                  <GearCard product={product} />
+                  {asin ? <AmazonLink asin={asin} trackProduct={product.slug} label="See on Amazon" variant="outline" className="mt-2 w-full" /> : null}
+                </div>
+              );
+            })}
           </div>
         </section>
         {relatedGuides.length ? (

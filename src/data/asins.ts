@@ -4,21 +4,16 @@
  *
  * Not on amazon.com (direct-only or REI house brand): aquamira, blackbird-xlc, camp-cot, capilene-cool, capilene-thermal, double-rainbow, down-hugger, dutchware-chameleon, echo-hoodie, ee-revelation, enigma-20, flash-55, half-dome-2-plus, hg-econ, hmg-southwest, hummingbird, kakwa-55, kindercone, kingdom-6, liteflex, magma-15, magma-30, magma-hoody, mariposa, nano-puff, plasma-1000, protrail, r1-air, rainier, rei-merino-185, rei-passage-2, rei-trail-40, siesta-25, summit-loft, sun-hoodie, superfly, tarn-18, trailmade-fleece, ula-circuit, versalite, x-mid-1, x-mid-2, zpacks-duplex.
  *
- * Unsure — listing not confirmed, left unlinked: alcohol-stove, amk-mountain, ascendant, bd-distance-carbon, bd-trail-ergo, bedrock-cairn, biolite-330, exped-dura, halulite, helium, icebreaker-175, komperdell-c3, mongoose, prolite, renegade-wide, steripen, sts-spark, tikkid, trails-illustrated, trek-tk, trestles-eco-30, ursack-major.
+ * Unsure — listing not confirmed, left unlinked: alcohol-stove, amk-mountain, ascendant, bd-distance-carbon, bd-trail-ergo, bedrock-cairn, biolite-330, exped-dura, halulite, helium, icebreaker-175, komperdell-c3, mongoose, prolite, renegade-wide, stormline, sts-spark, tikkid, trails-illustrated, trek-tk, trestles-eco-30, ursack-major.
  */
 export const ASINS: Record<string, string> = {
-  // 2026-10-06 unavailable on amazon.com; re-add only after a live check
   "atmos-ag-65": "B09JXQDZG5",
-  // 2026-10-06 unavailable on amazon.com; re-add only after a live check
   "targhee-iv": "B0CNHWTRVM",
   "lone-peak": "B0CQVNG7RH",
   precip: "B0CMRX1SY1",
   torrentshell: "B0G631B8BF",
   "xlite-nxt": "B0BKFLTM3T",
   "actik-core": "B09X9PHB9W",
-  // 2026-10-06 unavailable on amazon.com; re-add only after a live check
-  /** Men's StormLine Stretch rain shell. Listing has been unavailable. */
-  stormline: "B0C446S2QQ",
   // --- Oct 6, 2026 amazon.com lookup batch (exact + likely matches) ---
   /** Sea to Summit Aeros Ultralight Inflatable Pillow, Regular. Likely match: Aeros Ultralight Regular (Premium B003Z22QNY is a neck pillow variant) */
   "aeros-pillow": "B07PCSHKFQ",
@@ -40,7 +35,6 @@ export const ASINS: Record<string, string> = {
   bindi: "B076ZTCLJQ",
   /** BRS Stove BRS 3000T Titanium Ultralight Backpacking Stove. */
   "brs-3000": "B083CWHB9B",
-  // 2026-10-06 unavailable on amazon.com; re-add only after a live check
   /** Crocs Unisex-Adult Classic Clog. Likely match: generic 'classic clog'; picked Crocs Classic Clog */
   "camp-clog": "B0014C0LUC",
   /** ALPS Mountaineering Aluminum Roll-Top Camp Table. Likely match: no product literally named 'Dining Table'; ALPS standard roll-top camp table */
@@ -95,6 +89,8 @@ export const ASINS: Record<string, string> = {
   "helinox-chair": "B007ZGOWZQ",
   /** Hillsound Trail Crampon Ice Cleat Traction System. */
   hillsound: "B004BNF2UU",
+  /** MSR Hubba Hubba LT 2-Person (successor to Hubba Hubba 2, verified 2026-10-08) */
+  "hubba-hubba-2": "B0DN3QGTPD",
   /** Garmin inReach Mini 2, Satellite Communicator, Orange. */
   "inreach-mini": "B09PSKG7C3",
   /** Jetboil Flash 1.0L Fast Boil Stove for Camping and Backpacking, Carbon. */
@@ -181,6 +177,8 @@ export const ASINS: Record<string, string> = {
   "soto-amicus": "B07YCVXWQY",
   /** BLACK DIAMOND Spot 400-R Headlamp, Rechargeable, Graphite. */
   "spot-400": "B09NQK87MN",
+  /** SteriPEN Ultra ULT-MP-EF, verified 2026-10-08 (third-party seller, ships from Amazon) */
+  steripen: "B00NK9948M",
   /** Coleman Sundome Camping Tent with Rainfly - 4 Person. */
   "sundome-4": "B0D7QN9S9Q",
   /** SUUNTO M-3 Compass. */

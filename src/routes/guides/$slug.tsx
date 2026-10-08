@@ -1,7 +1,8 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
 import { getGuide, getProduct, linksFor } from "@/data";
-import { Crumbs, Disclosure, FaqList, JsonLd, PageToc, Related, Updated } from "@/components/site/blocks";
+import { AmazonLink, Crumbs, Disclosure, FaqList, JsonLd, PageToc, Related, Updated } from "@/components/site/blocks";
 import { GearCard, HowWePick } from "@/components/site/cards";
+import { asinFor } from "@/data/asins";
 import { TkImage } from "@/components/site/tk-image";
 import { imageFor } from "@/data/images";
 import { breadcrumbLd, pageHead } from "@/lib/seo";
@@ -70,9 +71,15 @@ function GuidePage() {
         <section>
           <h2 className="text-3xl">Gear for this guide</h2>
           <div className="mt-3 grid gap-3 md:grid-cols-3">
-            {picks.slice(0, 3).map((product) => (
-              <GearCard key={product.slug} product={product} />
-            ))}
+            {picks.slice(0, 3).map((product) => {
+              const asin = asinFor(product.slug);
+              return (
+                <div key={product.slug}>
+                  <GearCard product={product} />
+                  {asin ? <AmazonLink asin={asin} trackProduct={product.slug} label="See on Amazon" variant="outline" className="mt-2 w-full" /> : null}
+                </div>
+              );
+            })}
           </div>
         </section>
         <FaqList faqs={page.faqs} />

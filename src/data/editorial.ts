@@ -7,7 +7,7 @@ export const roundups: Roundup[] = [
   {
     slug: "backpacking-tents",
     title: "Best Backpacking Tents",
-    description: "Best two-person backpacking tents by pitch style: freestanding Copper Spur, trekking-pole X-Mid, wet-weather Dragonfly, Hubba Hubba, and Tiger Wall.",
+    description: "Best two-person backpacking tents by pitch style: freestanding Copper Spur, trekking-pole X-Mid, wet-weather Dragonfly, Hubba Hubba LT, and Tiger Wall.",
     h1: "Best backpacking tents",
     kicker: "Roundup · Shelters",
     category: "tents",
@@ -26,7 +26,7 @@ export const roundups: Roundup[] = [
         ["Big Agnes Tiger Wall UL2", "About 2 lb 6 oz", "About 1 lb 3 oz", "Semi-freestanding; the foot still needs a stake"],
         ["Big Agnes Copper Spur UL2", "About 2 lb 8 oz", "About 1 lb 4 oz", "Freestanding on platforms and dirt"],
         ["NEMO Dragonfly OSMO 2P", "A bit over 2.5 lb", "A bit over 1 lb 4 oz", "Wet climates where nylon sag ruins the pitch"],
-        ["MSR Hubba Hubba 2", "Around 3 lb", "Around 1 lb 8 oz", "Windier three-season trips"],
+        ["MSR Hubba Hubba LT 2", "Around 3 lb", "Around 1 lb 8 oz", "Windier three-season trips"],
         ["REI Co-op Half Dome 2 Plus", "Heavier than UL tents", "More than the tents above", "A roomy first tent on short weekends"],
       ],
       note: "Weights are the makers' published figures and change with the model year. A listing may quote a minimum trail weight or a packed weight with stakes and stuff sacks, so compare like with like. A solo hiker carries the whole tent.",

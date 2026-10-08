@@ -231,7 +231,7 @@ export function CompareTable({ products }: { products: Product[] }) {
     <div className="min-w-0 max-w-full">
       <p className="mb-1 font-display text-xs tracking-widest text-muted uppercase">Scroll →</p>
       <div className="max-w-full overflow-x-auto overscroll-x-contain border border-line">
-        <table className="w-full min-w-[36rem] border-collapse text-left text-sm sm:min-w-[40rem]">
+        <table className="w-full min-w-[44rem] border-collapse text-left text-sm sm:min-w-[52rem]">
           <thead className="bg-forest-deep text-on-forest">
             <tr>
               <th className="sticky left-0 bg-forest-deep px-3 py-2 font-display font-semibold">Pick</th>
@@ -239,10 +239,13 @@ export function CompareTable({ products }: { products: Product[] }) {
               <th className="px-3 py-2 font-display font-semibold">Weight</th>
               <th className="px-3 py-2 font-display font-semibold">Best for</th>
               <th className="px-3 py-2 font-display font-semibold">Limitation</th>
+              <th className="px-3 py-2 font-display font-semibold">Amazon</th>
             </tr>
           </thead>
           <tbody>
-            {products.map((p, index) => (
+            {products.map((p, index) => {
+              const asin = asinFor(p.slug);
+              return (
               <tr key={p.slug} className={index % 2 ? "border-t border-line bg-spec" : "border-t border-line"}>
                 <td className="sticky left-0 bg-paper px-3 py-2">
                   <span className="flex min-w-0 items-center gap-2">
@@ -254,8 +257,16 @@ export function CompareTable({ products }: { products: Product[] }) {
                 <td className="px-3 py-2 font-mono text-xs">{p.weight}</td>
                 <td className="px-3 py-2">{p.bestFor}</td>
                 <td className="px-3 py-2">{p.limit}</td>
+                <td className="px-3 py-2">
+                  {asin ? (
+                    <AmazonLink asin={asin} trackProduct={p.slug} label="See on Amazon" variant="outline" className="min-h-9 whitespace-nowrap text-xs" />
+                  ) : (
+                    <span className="text-xs text-muted">Not on Amazon US</span>
+                  )}
+                </td>
               </tr>
-            ))}
+              );
+            })}
           </tbody>
         </table>
       </div>
