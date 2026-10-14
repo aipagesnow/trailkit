@@ -2750,7 +2750,7 @@ export const extraProducts: Product[] = [
     "role": "Kid headlamp",
     "summary": "A simple lamp with a mode a child can actually use.",
     "body": "Give them their own light. It keeps the evening from being a negotiation, and it keeps your hands free. Show them the lock so it doesn't die in the duffel. It isn't a searchlight, and it doesn't need to be.",
-    "who": "If you're car camping with the family, or the overnight is short, this is the light we'd hand a kid.",
+    "who": "For your kids on car-camping trips or short overnights.",
     "pros": [
       "Simple",
       "Kid scale",
@@ -4934,7 +4934,7 @@ export const extraProducts: Product[] = [
     "role": "Folding cot",
     "summary": "A cot for people who do not sleep well on the ground and are parked next to the tent.",
     "body": "Use a pad on the cot. A cot alone is cold, because air moves under you. This is a comfort tool for an adult who camps by the car, not for a kid's first backpacking night. Check the tent width before you buy two.",
-    "who": "If you camp by the car and you hate sleeping on the ground, this is the cot we'd bring.",
+    "who": "For car campers who hate sleeping on the ground.",
     "pros": [
       "Off the ground",
       "Packs into the car",

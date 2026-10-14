@@ -13,10 +13,10 @@ export const roundups: Roundup[] = [
     category: "tents",
     answer:
       "For most two-person trips, we'd go with a freestanding double-wall tent if you camp on platforms or rock, and a trekking-pole tent if you already carry poles and can stake. A freestanding tent stands up before you stake it, which helps on those sites. The Big Agnes Copper Spur UL2 is the freestanding pick we'd start with. The Durston X-Mid 2 is the trekking-pole pick. A first weekend under eight miles can use a heavier freestanding tent. That beginner pick is on the first overnight page, and the budget band is on the budget tents page.",
-    teaser: "If your sites include platforms, we'd go for the Copper Spur UL2. The X-Mid 2 only if you already carry poles and can stake the pitch.",
+    teaser: "If your sites include platforms, we'd go for the Copper Spur UL2. Pick the X-Mid 2 only if you already carry poles and can stake the pitch.",
     who: "You want a tent that stands before it's staked, or you're shaving weight on a two- to five-night route. It isn't a four-season mountaineering guide.",
     productSlugs: ["copper-spur-ul2", "x-mid-2", "dragonfly-osmo-2", "hubba-hubba-2", "tiger-wall-ul2"],
-    one: "If you want one tent that works on platforms and dirt, we'd go for the Copper Spur UL2. The X-Mid 2 only if you already use trekking poles and you'll practice the pitch.",
+    one: "If you want one tent that works on platforms and dirt, we'd go for the Copper Spur UL2. Pick the X-Mid 2 only if you already use trekking poles and you'll practice the pitch.",
     quick: {
       caption: "Quick answer: how heavy a backpacking tent should be",
       lead: "There isn't one right number. For a two-person tent shared by two, the lighter picks here weigh about 2 to 3 lb, or roughly 1 to 1.5 lb per person. Carry more weight when it buys a pitch that suits your sites, a roomier first tent, or a tent for windier trips.",
@@ -136,7 +136,7 @@ export const roundups: Roundup[] = [
     kicker: "Roundup · Footwear",
     category: "footwear",
     answer:
-      "Wide feet need a wider last or a labeled wide, not a longer boot. Sizing up lets your heel slip. We'd start with a KEEN Targhee if you want a traditional wide toe box and a waterproof mid. Start with a Merrell Moab 3 Mid Wide if you want an easy first labeled wide. If your ankles are fine and only your toes hurt, a wide toe box trail shoe may suit you better than any boot. Fit the wider foot.",
+      "Wide feet need a wider last or a labeled wide, not a longer boot. Sizing up lets your heel slip. We'd start with a KEEN Targhee if you want a traditional wide toe box and a waterproof mid. If you'd like an easy first labeled wide, we'd go for the Merrell Moab 3 Mid Wide. If your ankles are fine and only your toes hurt, a wide toe box trail shoe may suit you better than any boot. Fit the boot to your wider foot.",
     teaser: "Wide feet need a wider last, not a longer boot. We'd try the KEEN Targhee first if you can get a pair on your feet today.",
     who: "You blow out standard D-width boots or you get numb toes in a tapered box, and you want a boot's ankle and heel support. It isn't a trail-shoe list, and it isn't a mountaineering-boot guide.",
     productSlugs: ["targhee-iv", "renegade-wide", "moab-3-wide", "x-ultra-wide", "oboz-bridger"],
@@ -145,7 +145,7 @@ export const roundups: Roundup[] = [
       { q: "Should I size up?", a: "No. Size the length to your longer foot and the width to your wider foot." },
       { q: "Boot or shoe?", a: "A boot if you roll your ankles or you carry a heavy pack. If the trail is moderate and your ankles are fine, a wide toe box trail shoe is often the better buy, and those are on the wide trail shoe page." },
       { q: "Is a wide toe box the same as 2E?", a: "No. A foot-shaped last can be wide at the toes and still narrow at the heel." },
-      { q: "What about hiking boots for wide feet for women?", a: "These picks don't list a separate women's wide. Check the women's wide version of the same boot, and don't size up to fake the width. Fit the wider foot." },
+      { q: "What about hiking boots for wide feet for women?", a: "These picks don't list a separate women's wide. Check the women's wide version of the same boot, and don't size up to fake the width. Fit the boot to your wider foot." },
     ],
     related: ["trail-shoes", "boot-fit", "rain-jackets-under-150"],
     method,
