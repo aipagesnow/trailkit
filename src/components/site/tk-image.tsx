@@ -1,3 +1,4 @@
+import { IllustrativeCaption } from "@/components/site/illustrative-caption";
 import { imageFor, type TkImageMeta } from "@/data/images";
 
 const WIDTHS = [480, 800, 1200, 1600];
@@ -41,6 +42,8 @@ export function TkImage({
   sizes = "(min-width: 1024px) 33vw, 100vw",
   className = "",
   tone = "field",
+  illustrative = false,
+  compact = false,
 }: {
   route?: string;
   meta?: TkImageMeta;
@@ -49,6 +52,8 @@ export function TkImage({
   sizes?: string;
   className?: string;
   tone?: "field" | "money";
+  illustrative?: boolean;
+  compact?: boolean;
 }) {
   const image = meta ?? (route ? imageFor(route) : undefined);
   if (!image?.ready) {
@@ -80,6 +85,7 @@ export function TkImage({
         className="tk-zoom h-full w-full object-cover"
         style={{ objectPosition: image.focal }}
       />
+      {illustrative ? <IllustrativeCaption compact={compact} /> : null}
     </picture>
   );
 }

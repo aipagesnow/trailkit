@@ -77,9 +77,9 @@ export function FieldCard({
   return (
     <a href={`/best/${roundup.slug}`} className={`tk-card group flex h-full flex-col bg-paper text-ink ${featured ? "md:col-span-2" : ""}`}>
       <div className={`relative overflow-hidden ${featured ? "aspect-video md:aspect-auto md:min-h-72 md:flex-1" : "aspect-[4/3]"}`}>
-        <TkImage route={`/best/${roundup.slug}`} priority={priority} fill sizes={featured ? "(min-width: 1024px) 60vw, 100vw" : "(min-width: 1024px) 30vw, 100vw"} />
+        <TkImage route={`/best/${roundup.slug}`} priority={priority} fill sizes={featured ? "(min-width: 1024px) 60vw, 100vw" : "(min-width: 1024px) 30vw, 100vw"} illustrative />
         <span className="absolute top-2 left-2 bg-forest-deep px-2 py-1 font-mono text-[11px] tracking-widest text-on-forest">{tag}</span>
-        <span className="absolute right-2 bottom-2 font-mono text-[11px] text-on-forest">{index}</span>
+        <span className="absolute right-2 bottom-10 font-mono text-[11px] text-on-forest">{index}</span>
       </div>
       <div className={featured ? "flex flex-col gap-1 p-3" : "flex flex-1 flex-col gap-1 p-3"}>
         <span className={`font-display leading-tight ${featured ? "text-3xl" : "text-[22px]"}`}>{roundup.h1}</span>
@@ -194,7 +194,7 @@ export function KitCard({ kit, priority = false }: { kit: Kit; priority?: boolea
   return (
     <a href={`/kits/${kit.slug}`} className="tk-card group grid bg-paper text-ink md:grid-cols-[42%_1fr]">
       <div className="relative aspect-[4/3] overflow-hidden md:aspect-auto md:min-h-56">
-        <TkImage route={`/kits/${kit.slug}`} priority={priority} fill sizes="(min-width: 1024px) 24vw, 100vw" />
+        <TkImage route={`/kits/${kit.slug}`} priority={priority} fill sizes="(min-width: 1024px) 24vw, 100vw" illustrative />
       </div>
       <span className="flex flex-col gap-2 p-3">
         <span className="font-mono text-[11px] tracking-widest uppercase">Kit</span>
@@ -240,7 +240,7 @@ export function VersusCard({
   return (
     <a href={`/compare/${compare.slug}`} className={`tk-card group flex h-full flex-col bg-paper text-ink ${featured ? "md:col-span-3" : ""}`}>
       <div className="relative aspect-video overflow-hidden">
-        <TkImage route={`/compare/${compare.slug}`} priority={priority} fill sizes={featured ? "100vw" : "(min-width: 1024px) 30vw, 100vw"} />
+        <TkImage route={`/compare/${compare.slug}`} priority={priority} fill sizes={featured ? "100vw" : "(min-width: 1024px) 30vw, 100vw"} illustrative />
         <span className="absolute inset-y-0 left-1/2 w-[3px] -translate-x-1/2 bg-paper" aria-hidden />
         <span className="absolute top-1/2 left-1/2 grid size-[46px] -translate-x-1/2 -translate-y-1/2 place-items-center border-2 border-ink bg-paper font-display text-sm text-ink">VS</span>
       </div>
@@ -323,7 +323,7 @@ export function GearCard({
   return (
     <a href={`/products/${product.slug}`} className="tk-card group flex h-full flex-col bg-paper text-ink">
       <div className={`relative overflow-hidden ${mini ? "aspect-[4/3]" : "aspect-[4/3]"}`}>
-        <TkImage route={`/products/${product.slug}`} priority={priority} fill sizes={mini ? "180px" : "(min-width: 1024px) 22vw, 50vw"} />
+        <TkImage route={`/products/${product.slug}`} priority={priority} fill sizes={mini ? "180px" : "(min-width: 1024px) 22vw, 50vw"} illustrative />
       </div>
       <span className="flex flex-1 flex-col gap-1 p-3">
         <span className="font-mono text-[11px] tracking-widest uppercase">{category?.short ?? product.category}</span>

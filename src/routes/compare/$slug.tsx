@@ -64,7 +64,7 @@ function ComparePage() {
       />
       <Crumbs items={[{ href: "/compare", label: "Compare" }, { label: page.h1 }]} />
       <div className="relative aspect-video overflow-hidden border border-line">
-        <TkImage route={`/compare/${page.slug}`} priority fill sizes="100vw" tone="money" />
+        <TkImage route={`/compare/${page.slug}`} priority fill sizes="100vw" tone="money" illustrative />
         <span className="absolute inset-y-0 left-1/2 w-[3px] -translate-x-1/2 bg-paper" aria-hidden />
         <span className="absolute top-1/2 left-1/2 grid size-[46px] -translate-x-1/2 -translate-y-1/2 place-items-center border-2 border-ink bg-paper font-display text-sm">VS</span>
       </div>
@@ -79,7 +79,7 @@ function ComparePage() {
         {[left, right].map((p) => (
           <article key={p.slug} className="grid min-w-0 grid-cols-[88px_minmax(0,1fr)] gap-3 border border-line p-3 sm:grid-cols-[120px_minmax(0,1fr)]">
             <div className="relative aspect-[4/3] overflow-hidden">
-              <TkImage route={`/products/${p.slug}`} fill sizes="120px" tone="money" />
+              <TkImage route={`/products/${p.slug}`} fill sizes="120px" tone="money" illustrative compact />
             </div>
             <div className="min-w-0">
               <h2 className="text-xl break-words"><a href={`/products/${p.slug}`}>{p.name}</a></h2>
@@ -151,7 +151,7 @@ function ComparePage() {
       {figures.map((route) => (
         <figure key={route}>
           <div className="relative aspect-[4/3] overflow-hidden border border-line">
-            <TkImage route={route} fill sizes="(min-width: 1024px) 70vw, 100vw" />
+            <TkImage route={route} fill sizes="(min-width: 1024px) 70vw, 100vw" illustrative />
           </div>
           <figcaption className="mt-1 font-mono text-[11px] text-muted">{imageFor(route)?.alt}</figcaption>
         </figure>

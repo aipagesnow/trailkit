@@ -78,7 +78,7 @@ function RoundupPage() {
         />
         <Crumbs items={[{ href: "/best", label: "Roundups" }, { label: page.h1 }]} />
         <div className="relative aspect-video overflow-hidden border border-line">
-          <TkImage route={`/best/${page.slug}`} priority fill sizes="(min-width: 1024px) 70vw, 100vw" tone="money" />
+          <TkImage route={`/best/${page.slug}`} priority fill sizes="(min-width: 1024px) 70vw, 100vw" tone="money" illustrative />
         </div>
         <p className="font-mono text-[11px] tracking-widest uppercase">{page.kicker}</p>
         <h1 className="text-4xl">{page.h1}</h1>
@@ -99,7 +99,7 @@ function RoundupPage() {
         {figures.map((route) => (
           <figure key={route}>
             <div className="relative aspect-video overflow-hidden border border-line">
-              <TkImage route={route} fill sizes="(min-width: 1024px) 70vw, 100vw" />
+              <TkImage route={route} fill sizes="(min-width: 1024px) 70vw, 100vw" illustrative />
             </div>
             <figcaption className="mt-1 font-mono text-[11px] text-muted">{imageFor(route)?.alt}</figcaption>
           </figure>

@@ -28,7 +28,7 @@ function KitPage() {
       <JsonLd data={[breadcrumbLd([{ name: "Home", path: "/" }, { name: "Kits", path: "/kits" }, { name: kit.name }])]} />
       <Crumbs items={[{ href: "/kits", label: "Kits" }, { label: kit.name }]} />
       <div className="relative aspect-video overflow-hidden border border-line">
-        <TkImage route={`/kits/${kit.slug}`} priority fill sizes="(min-width: 768px) 48rem, 100vw" tone="money" />
+        <TkImage route={`/kits/${kit.slug}`} priority fill sizes="(min-width: 768px) 48rem, 100vw" tone="money" illustrative />
       </div>
       <h1 className="text-4xl">{kit.name}</h1>
       <p className="text-lg text-muted">{kit.description}</p>
@@ -54,6 +54,7 @@ function KitPage() {
             </li>
           ))}
         </ul>
+        <p className="mt-1 text-sm text-muted">Illustrative image</p>
       </section>
       <EarlyListingCta slugs={kit.productSlugs} kind="kit" />
       {picks.map((p, i) => <ProductSection key={p.slug} product={p} index={i + 1} tone="money" pageSlugs={kit.productSlugs} />)}

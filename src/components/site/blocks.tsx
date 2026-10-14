@@ -270,6 +270,7 @@ export function CompareTable({ products }: { products: Product[] }) {
           </tbody>
         </table>
       </div>
+      <p className="mt-1 text-sm text-muted">Illustrative image</p>
       <p className="mt-1 text-sm text-muted">Bands are typical street ranges, not live prices.</p>
     </div>
   );
@@ -291,7 +292,7 @@ export function ProductSection({
     <section id={product.slug} className="border border-line bg-paper p-4">
       <div className="grid min-w-0 gap-4 md:grid-cols-[minmax(0,280px)_minmax(0,1fr)]">
         <div className="relative aspect-[4/3] overflow-hidden border border-line">
-          <TkImage route={`/products/${product.slug}`} fill sizes="280px" tone={tone} />
+          <TkImage route={`/products/${product.slug}`} fill sizes="280px" tone={tone} illustrative />
           <span className={`absolute top-2 left-2 inline-flex size-8 items-center justify-center border font-display text-sm font-bold ${top ? "border-blaze bg-blaze text-on-amber" : "border-ink bg-paper text-ink"}`}>
             {index}
           </span>
