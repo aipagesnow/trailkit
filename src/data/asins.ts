@@ -11,7 +11,7 @@ export const ASINS: Record<string, string> = {
   "targhee-iv": "B0CNHWTRVM",
   "lone-peak": "B0CQVNG7RH",
   precip: "B0CMRX1SY1",
-  torrentshell: "B0G631B8BF",
+  // torrentshell: B0G631B8BF unavailable Oct 14, 2026; no live men's Torrentshell 3L listing found (B0CV5THP35 unavailable, B0CD81JSL6 404). Button hidden.
   "xlite-nxt": "B0BKFLTM3T",
   "actik-core": "B09X9PHB9W",
   // --- Oct 6, 2026 amazon.com lookup batch (exact + likely matches) ---
@@ -195,8 +195,8 @@ export const ASINS: Record<string, string> = {
   "toaks-750": "B00EZIKUJY",
   /** Topo Athletic Men's Ultraventure 4 Trail Running Shoes. Likely match: current gen (Ultraventure 4), men's; women's B0D7P2DNMJ */
   "topo-ultraventure": "B0D7P23Q8W",
-  /** Danner Trail 2650 Hiking Shoes for Men. */
-  "trail-2650": "B0D5BR8VKR",
+  /** Danner Trail 2650 Hiking Shoes for Men. Oct 14, 2026: B0D5BR8VKR unavailable; same men's model, parent B0D151N71Q (10, Oil Green/Jet Black - Suede). */
+  "trail-2650": "B0D5BQ8FHN",
   /** MSR TrailShot. */
   trailshot: "B01N7GC9Z6",
   /** La Sportiva Mens Ultra Raptor 3 Low Hiking Shoe. Likely match: current gen Ultra Raptor 3, men's low; Mid GTX B0FDSTZ9RS */
