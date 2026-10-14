@@ -37,7 +37,7 @@ function BrowsePage() {
         route="/browse"
         kicker="Browse"
         title="Browse the gear"
-        promise="Filter by the constraint, not by a brand aisle."
+        promise="Filter by the constraint you're buying for, not by a brand aisle."
         chips={[]}
       />
       <div className="mx-auto max-w-6xl px-4 py-8">

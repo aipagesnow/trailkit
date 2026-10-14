@@ -29,7 +29,7 @@ function LearnIndex() {
         route="/learn"
         kicker="Field notes"
         title="Field notes"
-        promise="Definitions and judgment calls that the gear pages assume. Read the note, then open the roundup if you are ready to buy."
+        promise="Definitions and judgment calls the gear pages assume. Read the note, then open the roundup if you're ready to buy."
         chips={sections.map((section) => ({ href: `#${section.id}`, label: section.label }))}
       />
       <div className="mx-auto max-w-6xl space-y-10 px-4 py-10">

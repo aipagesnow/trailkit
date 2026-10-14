@@ -44,7 +44,7 @@ function KitsIndex() {
         route="/kits"
         kicker="Kits"
         title="Trip kits"
-        promise="A short list for a kind of trip. Swap a piece if the constraint does not match you."
+        promise="A short list for the kind of trip you're taking. Swap a piece if the constraint doesn't match you."
         chips={sections.map((section) => ({ href: `#${section.id}`, label: section.label }))}
       />
       <div className="mx-auto max-w-6xl space-y-10 px-4 py-10">

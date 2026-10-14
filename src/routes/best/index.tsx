@@ -32,7 +32,7 @@ function BestIndex() {
         route="/best"
         kicker="Roundups"
         title="Gear roundups"
-        promise="Each page answers one buying question, compares the real options, and names one pick to start with."
+        promise="Every page answers one buying question for your trip. You'll get a comparison and one pick to start with."
         chips={sections.map((section) => ({ href: `#${section.id}`, label: section.label }))}
       />
       <div className="mx-auto max-w-6xl space-y-10 px-4 py-10">

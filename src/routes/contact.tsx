@@ -15,7 +15,7 @@ export const Route = createFileRoute("/contact")({
       <p>
         <a className="font-bold text-forest" href="mailto:aivora@agentmail.to">aivora@agentmail.to</a>
       </p>
-      <p>We do not accept payment for a place in a ranked list.</p>
+      <p>We don't accept payment for a place in a ranked list.</p>
     </main>
   ),
 });

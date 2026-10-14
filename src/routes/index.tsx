@@ -50,7 +50,7 @@ function Home() {
           <p className="font-mono text-[11px] tracking-widest uppercase">Hiking and backpacking gear</p>
           <h1 className="mt-2 max-w-3xl text-4xl text-on-forest md:text-5xl">Gear picks for the trip you are actually taking</h1>
           <p className="mt-4 max-w-2xl text-lg">
-            Tents, sleep systems, packs, footwear, stoves, and shells matched to budget, weight, weather, and fit. Not a generic top ten.
+            Tell us your budget, how much weight you'll carry, the weather you're heading into and what fits you, and we'll match you with tents, sleep systems, packs, footwear, stoves and shells. You won't find a generic top ten here.
           </p>
           <ul className="mt-6 flex flex-wrap gap-2">
             {chips.map((chip) => (
@@ -81,7 +81,7 @@ function Home() {
           {shelter && asinFor(shelter.slug) ? (
             <div className="border border-line bg-paper p-4">
               <p className="max-w-2xl">
-                Start here for a two-person shelter: the MSR Elixir 2, a freestanding tent and a solid first pick.
+                If you're looking for a two-person shelter, start with the MSR Elixir 2. It's a freestanding tent, and it's a solid first pick.
               </p>
               <AmazonButton product={shelter} />
             </div>
@@ -89,7 +89,7 @@ function Home() {
         </div>
         <section>
           <h2 className="text-3xl">Start with a decision</h2>
-          <p className="mt-2 max-w-2xl text-muted">Each guide starts with a straight answer, a comparison table, and one pick to start with.</p>
+          <p className="mt-2 max-w-2xl text-muted">You'll get a straight answer, a comparison table, and one pick to start with.</p>
           <div className="mt-4 grid gap-3 md:grid-cols-3">
             {featured ? <FieldCard roundup={featured} index="R-01" featured priority /> : null}
             <div className="grid gap-3">

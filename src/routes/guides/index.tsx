@@ -30,7 +30,7 @@ function GuidesIndex() {
         route="/guides"
         kicker="Guides"
         title="Hiking and camping guides"
-        promise="The decision, explained, then a link to the roundup where the buying happens."
+        promise="You'll get the decision in plain words, then a link to the roundup where the buying happens."
         chips={sections.map((section) => ({ href: `#${section.id}`, label: section.label }))}
       />
       <div className="mx-auto max-w-6xl space-y-10 px-4 py-10">

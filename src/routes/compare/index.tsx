@@ -31,7 +31,7 @@ function CompareIndex() {
         route="/compare"
         kicker="Compare"
         title="Gear comparisons"
-        promise="Two options, one job. If the fit is wrong, neither wins."
+        promise="Two options, one job. If the fit isn't right for you, neither one wins."
         chips={sections.map((section) => ({ href: `#${section.id}`, label: section.label }))}
       />
       <div className="mx-auto max-w-6xl space-y-10 px-4 py-10">
