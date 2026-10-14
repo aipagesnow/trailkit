@@ -7,13 +7,13 @@ export const extraCategories: Category[] = [
     "short": "Hammocks",
     "lede": "A gathered-end hammock is a bed only after the underquilt, tarp, and trees are sorted.",
     "intro": [
-      "The hammock itself is the cheap part of the system. Cold comes from underneath. A pad inside the hammock slides, and an underquilt is the piece that makes a 40°F night feel like a bed instead of a banana-shaped refrigerator.",
-      "You need two trees at the right spacing, straps that do not cut bark, a structural ridgeline, and a tarp that covers you when the wind drives rain sideways. Where trees are banned or sparse, take a tent."
+      "The hammock is the cheap part of your setup. The cold comes from underneath you. A pad inside the hammock slides, and an underquilt is what makes a 40°F night feel like a bed instead of a banana-shaped refrigerator.",
+      "You'll want two trees at the right spacing, straps that don't cut bark, a structural ridgeline, and a tarp that covers you when the wind drives rain sideways. If trees are banned or sparse where you're going, we'd take a tent."
     ],
     "choose": [
-      "Buy the underquilt in the same decision as the hammock.",
-      "Practice the tarp pitch in the yard, including a door you can close.",
-      "Check local rules. Some parks prohibit hammocks or require wide straps."
+      "We'd buy the underquilt in the same decision as the hammock.",
+      "Practice the tarp pitch in your yard, including a door you can close.",
+      "Check the local rules. Some parks prohibit hammocks, or they require wide straps."
     ]
   },
   {
@@ -22,12 +22,12 @@ export const extraCategories: Category[] = [
     "short": "Socks",
     "lede": "Blisters are a fit problem. Socks, tape, and a broken-in shoe do more than a new insole slogan.",
     "intro": [
-      "A sock manages moisture and friction. Merino blends stay comfortable when damp. A thin liner sock can help a known hot spot. It will not fix a boot that is too narrow or too long.",
-      "Tape goes on before the blister, not after the skin is already a bubble. Carry the tape you have practiced with. A waterproof sock is a cold-weather tool, not a summer default, because it holds sweat."
+      "A sock manages moisture and friction on your feet. Merino blends stay comfortable when they're damp. A thin liner sock can help a hot spot you already know about. It won't fix a boot that's too narrow or too long.",
+      "Tape goes on before the blister, not after the skin's already a bubble. Carry the tape you've practiced with. A waterproof sock is a cold-weather tool, not your summer default, because it holds sweat."
     ],
     "choose": [
-      "Match sock thickness to the shoe you were fitted in.",
-      "Carry a spare pair on any overnight and change at camp.",
+      "Match the sock thickness to the shoe you were fitted in.",
+      "Carry a spare pair on any overnight, and change at camp.",
       "Stop and tape a hot spot the first time you feel it."
     ]
   },
@@ -37,13 +37,13 @@ export const extraCategories: Category[] = [
     "short": "Base layers",
     "lede": "The shirt against your skin should move sweat. The puffy is for when you stop.",
     "intro": [
-      "A base layer is not insulation you hike hard in. Synthetic shirts dry faster and smell stronger. Merino smells less and dries slower. A sun hoodie is often the better warm-weather shirt than a short-sleeve tee plus sunscreen on the arms.",
-      "Cotton next to skin is the layer to leave at home once you are away from the car. It stays wet and it stays cold. At a drive-up campground it is a preference, not a safety problem."
+      "A base layer isn't insulation you hike hard in. Synthetic shirts dry faster and smell stronger. Merino smells less and dries slower. On a warm day, a sun hoodie is often the better shirt than a short-sleeve tee plus sunscreen on your arms.",
+      "Once you're away from the car, cotton next to your skin is the layer we'd leave at home. It stays wet, and it stays cold. At a drive-up campground it's a preference, not a safety problem."
     ],
     "choose": [
-      "Fit it close, not tight enough to bind under a pack belt.",
+      "Fit it close, but not so tight it binds under your pack belt.",
       "Carry one dry shirt that never gets hiked in.",
-      "Sun hoodie first on exposed trail. Thermal layer first when you start cold and will not overheat."
+      "If the trail's exposed, start with a sun hoodie. If you start cold and you won't overheat, start with a thermal layer."
     ]
   },
   {
@@ -52,13 +52,13 @@ export const extraCategories: Category[] = [
     "short": "First aid",
     "lede": "A kit you can use beats a kit that looks complete. Blisters, cuts, and a way to stop bleeding come first.",
     "intro": [
-      "Prepacked kits are a starting list. Pull out what you do not know how to use and add what your group actually needs: personal meds, blister tape, and enough gauze for one real bleed. A kit is not a substitute for a course.",
-      "Repair lives next to first aid because a broken pole or a leaking pad ends the trip as surely as a hot spot you ignored. Tenacious tape, a pad kit, and a spare buckle cover more failures than a multi-tool you have never opened."
+      "A prepacked kit is a starting list, not a finished one. Pull out what you don't know how to use, and add what your group actually needs: personal meds, blister tape, and enough gauze for one real bleed. A kit isn't a substitute for a course.",
+      "Repair sits next to first aid, because a broken pole or a leaking pad ends your trip as surely as a hot spot you ignored. Tenacious tape, a pad kit, and a spare buckle cover more failures than a multi-tool you've never opened."
     ],
     "choose": [
-      "Know how to stop bleeding and treat a blister before you buy a bigger pouch.",
-      "Repack the kit for the trip. A desert day and a winter day are not the same kit.",
-      "Check expiration on meds once a season."
+      "Learn how to stop bleeding and treat a blister before you buy a bigger pouch.",
+      "Repack the kit for the trip. A desert day and a winter day aren't the same kit.",
+      "Check the expiration on your meds once a season."
     ]
   },
   {
@@ -67,13 +67,13 @@ export const extraCategories: Category[] = [
     "short": "Navigation",
     "lede": "A downloaded map, a compass you can use, and a way to tell someone you are late.",
     "intro": [
-      "Phone maps are excellent until the battery dies or the trail you are on is not the trail in the app. A paper map or an offline download, plus a compass, is the backup that does not need a signal.",
-      "A satellite messenger is for places where a phone will not reach help. It is not a reason to skip the route plan you left with someone. A personal locator beacon has a simpler job and a subscription-free rescue signal. Read the difference before you buy."
+      "Phone maps are excellent until the battery dies, or the trail you're on isn't the trail in the app. A paper map or an offline download, plus a compass, is the backup that doesn't need a signal.",
+      "A satellite messenger is for places where your phone won't reach help. It isn't a reason to skip the route plan you left with someone. A personal locator beacon has a simpler job and a subscription-free rescue signal. We'd read the difference before you buy."
     ],
     "choose": [
       "Practice a bearing in town. The trailhead is a bad classroom.",
-      "Carry a battery that outlasts the day if the phone is your map.",
-      "File the plan with a person, not with the group chat you might not reach."
+      "If the phone is your map, carry a battery that outlasts the day.",
+      "Leave the plan with a person, not with the group chat you might not reach."
     ]
   },
   {
@@ -82,13 +82,13 @@ export const extraCategories: Category[] = [
     "short": "Cookware",
     "lede": "A pot you can eat from, a spoon that reaches the bottom, and a food system legal where you sleep.",
     "intro": [
-      "Most backpacking meals are boiling water. A 750 milliliter pot feeds one person and is tight for two. Frying wants a wider pan and a stove that simmers, which is a different trip.",
-      "Food storage is a regulation, not a style. A bear canister is required in a lot of Sierra and some eastern sites. A hang is a skill that fails in short trees. An Ursack is allowed some places and banned in others. Read the rule for the trail you are on."
+      "Most backpacking meals are just boiling water. A 750 milliliter pot feeds one person and is tight for two. If you want to fry, you'll want a wider pan and a stove that simmers, and that's a different trip.",
+      "Food storage is a regulation, not a style choice. A bear canister is required in a lot of Sierra and some eastern sites. A hang is a skill that fails in short trees. An Ursack is allowed some places and banned in others. Read the rule for the trail you're on."
     ],
     "choose": [
-      "One pot, one long spoon, one lighter, and a backup spark.",
+      "We'd pack one pot, one long spoon, one lighter, and a backup spark.",
       "Match the container to the land manager, not to a forum thread.",
-      "Repackage food before the trailhead so you are not dealing with boxes in the dark."
+      "Repackage your food before the trailhead so you're not dealing with boxes in the dark."
     ]
   },
   {
@@ -97,13 +97,13 @@ export const extraCategories: Category[] = [
     "short": "Traction",
     "lede": "Microspikes for icy trail. Gaiters for snow and scree. Neither one is a mountaineering crampon.",
     "intro": [
-      "Microspikes add confidence on packed snow and garden-variety ice. They skate on hard water ice and they are the wrong tool on steep alpine snow. If the route needs an ice axe, you are past this category.",
-      "Gaiters keep rocks and slush out of the cuff. They are not waterproofing for a soaked shoe. A short gaiter is enough for dust. A tall gaiter is for snow that is deeper than your ankle."
+      "Microspikes add confidence on packed snow and garden-variety ice. They skate on hard water ice, and they're the wrong tool on steep alpine snow. If the route needs an ice axe, you're past this category.",
+      "Gaiters keep rocks and slush out of your cuff. They aren't waterproofing for a soaked shoe. A short gaiter is enough for dust. A tall gaiter is for snow that's deeper than your ankle."
     ],
     "choose": [
-      "Buy spikes that match your shoe size and practice putting them on with cold hands.",
-      "Do not run Yaktrax-style coils on rocky trail. They shred and they slip.",
-      "Take spikes off on dry pavement so you do not ruin the chain or the floor."
+      "Buy spikes that match your shoe size, and practice putting them on with cold hands.",
+      "Don't run Yaktrax-style coils on rocky trail. They shred, and they slip.",
+      "Take your spikes off on dry pavement so you don't ruin the chain or the floor."
     ]
   },
   {
@@ -112,13 +112,13 @@ export const extraCategories: Category[] = [
     "short": "Family",
     "lede": "Shorter days, warmer sleep, and a tent you can stand in. The ultralight catalog can wait.",
     "intro": [
-      "A first trip with kids fails when the walk is too long, the night is too cold, or camp is a project. Pick a site you could reach if someone needs to go back to the car before dinner.",
-      "A cabin tent or a tall car-camping tent is the right shelter when you are not carrying it. Kids sleep colder than the rating suggests. Bring a pad with a real R-value, not a pool float."
+      "A first trip with kids fails if the walk is too long, the night is too cold, or camp is a project. We'd pick a site you could still reach if someone needs to go back to the car before dinner.",
+      "If you're not carrying the shelter, a cabin tent or a tall car-camping tent is the right call. Kids sleep colder than the rating suggests. Bring a pad with a real R-value, not a pool float."
     ],
     "choose": [
-      "Stop while everyone is still having fun.",
-      "Pack a warm layer you do not need at noon.",
-      "Give each child a small job and a headlamp that is actually theirs."
+      "Stop while everyone's still having fun.",
+      "Pack a warm layer you don't need at noon.",
+      "Give each child a small job and a headlamp that's actually theirs."
     ]
   }
 ]
@@ -133,11 +133,11 @@ export const extraProducts: Product[] = [
     "priceBand": "Upper mid",
     "weight": "About 2 lb 6 oz",
     "bestFor": "Pairs on soil who want less pole weight",
-    "limit": "The foot of the tent still needs a stake",
+    "limit": "You'll still need a stake at the foot of the tent.",
     "role": "Lighter semi-freestanding tent",
     "summary": "A two-door tent that stands mostly on its poles and still wants a stake at the foot.",
-    "body": "The Tiger Wall is the step down in structure from the Copper Spur. It pitches quickly and it is not the tent for a wooden platform where that foot stake will not hold. Fabric is still a light backpacking fabric. Use a groundsheet on granite.",
-    "who": "Pairs who camp on dirt, already own stakes, and want two vestibules without a full freestanding hub.",
+    "body": "The Tiger Wall is the step down in structure from the Copper Spur. It pitches quickly, and it isn't the tent for a wooden platform where that foot stake won't hold. The fabric is still a light backpacking fabric. We'd use a groundsheet on granite.",
+    "who": "If you and a partner camp on dirt, you already own stakes, and you want two vestibules without a full freestanding hub, this is the one we'd pick.",
     "pros": [
       "Two doors",
       "Lighter than a full freestanding tent",
@@ -175,11 +175,11 @@ export const extraProducts: Product[] = [
     "priceBand": "Upper mid",
     "weight": "About 2 lb 2 oz",
     "bestFor": "Fast-and-light pairs who accept a small floor",
-    "limit": "Volume is tight once packs come inside",
+    "limit": "The volume gets tight once your packs come inside.",
     "role": "Lightest common semi-freestanding two-person",
     "summary": "A very light two-person tent with a floor that suits people who sleep still.",
-    "body": "The Hornet is a specialist. The OSMO fly sheds weather better than older nylons, and the interior is still a small two-person tent, not a palace. If you and your partner both toss, look at the Dragonfly or the Copper Spur instead.",
-    "who": "Experienced pairs counting ounces who have slept close together before.",
+    "body": "The Hornet is a specialist. The OSMO fly sheds weather better than older nylons, and the interior is still a small two-person tent, not a palace. If you and your partner both toss, we'd look at the Dragonfly or the Copper Spur instead.",
+    "who": "If you're an experienced pair counting ounces, and you've slept close together before, this fits.",
     "pros": [
       "Very light for a two-person tent",
       "Semi-freestanding pitch",
@@ -217,11 +217,11 @@ export const extraProducts: Product[] = [
     "priceBand": "Mid",
     "weight": "About 2 lb 7 oz",
     "bestFor": "Pairs who want a single-wall porch in dry cold",
-    "limit": "Condensation needs venting skill",
+    "limit": "Condensation needs some venting skill from you.",
     "role": "Roomy single-wall for two",
     "summary": "A single-wall tent with a lot of porch for the weight, if you know how to vent.",
-    "body": "Single wall means the fly is the inner. In still, wet cold you will wipe condensation or you will have a damp quilt. The Double Rainbow is a strong pick for hikers who like a porch and camp where a breeze exists. It is a poor first tent.",
-    "who": "Hikers who have already managed condensation and want space.",
+    "body": "Single wall means the fly is the inner. In still, wet cold you'll wipe condensation, or you'll have a damp quilt. The Double Rainbow is a strong pick if you like a porch and you camp where a breeze exists. Honestly, it's a poor first tent.",
+    "who": "If you've already managed condensation and you want the space, this is the tent we'd look at.",
     "pros": [
       "Large porch",
       "Light for the floor area",
@@ -262,8 +262,8 @@ export const extraProducts: Product[] = [
     "limit": "Heavy for long miles",
     "role": "Solid first freestanding tent",
     "summary": "A straightforward freestanding tent that trades weight for a simple pitch and a fair price.",
-    "body": "The Elixir is what you buy when the trip is two nights and the person pitching it has never done it in wind. It is the wrong tent to carry for a week. The gear loft and the footprint are useful, not magic.",
-    "who": "Beginners whose miles are short and whose budget is not in ultralight fabrics.",
+    "body": "We'd buy the Elixir when the trip is two nights and you've never pitched in the wind. It's the wrong tent to carry for a week. The gear loft and the footprint are useful, not magic.",
+    "who": "If your miles are short and your budget isn't in ultralight fabrics, this is a fair first tent.",
     "pros": [
       "Easy pitch",
       "Real vestibules",
@@ -304,8 +304,8 @@ export const extraProducts: Product[] = [
     "limit": "Weight and wet-weather performance",
     "role": "Budget freestanding starter",
     "summary": "A low-cost freestanding tent for short trips while you learn if you like sleeping outside.",
-    "body": "Buy the Passage when the alternative is skipping the trip. Do not plan a windy ridge or a five-day carry around it. Seam-seal check it before the first storm. When you know you will keep backpacking, move up in fabric, not in gadgets.",
-    "who": "New backpackers testing the hobby on easy trails.",
+    "body": "We'd buy the Passage when the alternative is skipping the trip. Don't plan a windy ridge or a five-day carry around it. Seam-seal it before the first storm. When you know you'll keep backpacking, move up in fabric, not in gadgets.",
+    "who": "If you're new to backpacking and you're trying the hobby on easy trails, this is the starter we'd look at.",
     "pros": [
       "Low price",
       "Freestanding",
@@ -346,8 +346,8 @@ export const extraProducts: Product[] = [
     "limit": "Expensive, and it needs a practiced pitch",
     "role": "DCF trekking-pole tent",
     "summary": "A two-person DCF shelter that is extremely light and unforgiving of a sloppy pitch.",
-    "body": "DCF does not soak up water the way silnylon can, and it crackles, punctures if you are careless, and costs more than several complete starter kits. The Duplex is for hikers who already know their pole length and their sites. It is not a beginner upgrade.",
-    "who": "Long-trail hikers who have already used a pole tent.",
+    "body": "DCF doesn't soak up water the way silnylon can. It crackles, it punctures if you're careless, and it costs more than several complete starter kits. We'd save the Duplex for when you already know your pole length and your sites. It isn't a beginner upgrade.",
+    "who": "If you're on a long trail and you've already used a pole tent, this is the shelter we'd consider.",
     "pros": [
       "Extremely light",
       "Does not absorb water like silnylon",
@@ -388,8 +388,8 @@ export const extraProducts: Product[] = [
     "limit": "Not freestanding",
     "role": "Best solo trekking-pole tent",
     "summary": "The one-person X-Mid: a double wall, one set of poles, and enough floor for a real pad.",
-    "body": "This is the solo tent to recommend before a single-wall tarp tent. You still need two poles and stakes. Pitch it at home. If your camps are platforms, buy a freestanding solo instead and accept the weight.",
-    "who": "Solo backpackers who already carry trekking poles.",
+    "body": "This is the solo tent we'd recommend before a single-wall tarp tent. You'll still need two poles and stakes, so pitch it at home. Here's the thing: if your camps are platforms, buy a freestanding solo instead and accept the weight.",
+    "who": "If you backpack solo and you already carry trekking poles, this is the one we'd start with.",
     "pros": [
       "Double wall",
       "Sane price",
@@ -430,8 +430,8 @@ export const extraProducts: Product[] = [
     "limit": "Single wall, small, needs a pitch",
     "role": "Budget solo single-wall",
     "summary": "A small solo tent that uses one pole and a stake-out pattern you must learn.",
-    "body": "The Protrail is a classic first step into light solo shelters, with the usual single-wall tax: condensation. It is a bad match if you sit out storms for hours. Practice the pitch until it is boring.",
-    "who": "Solo hikers on a budget who camp in moving air.",
+    "body": "The Protrail is a classic first step into light solo shelters, with the usual single-wall tax: condensation. It's a bad match if you sit out storms for hours. We'd practice the pitch until it's boring.",
+    "who": "If you hike solo on a budget and you camp in moving air, this is a fair shelter.",
     "pros": [
       "Light",
       "One pole",
@@ -472,8 +472,8 @@ export const extraProducts: Product[] = [
     "limit": "Not a freezing-night bag",
     "role": "30°F down mummy, widely available",
     "summary": "A lighter warm-weather down bag from the same family as the colder Magma.",
-    "body": "Treat the 30°F number as a limit, not a comfort promise. Cold sleepers should think of this as a summer bag and add a warmer pad before they add a liner. The draft collar on warmer Magma models matters more than a logo.",
-    "who": "Hikers who sleep in the 40s and want down that packs small.",
+    "body": "Treat the 30°F number as a limit, not a comfort promise. If you sleep cold, we'd think of this as a summer bag and add a warmer pad before you add a liner. The draft collar on warmer Magma models matters more than a logo.",
+    "who": "If you sleep in the 40s and you want down that packs small, this is the bag we'd look at.",
     "pros": [
       "Packs small",
       "Responsible down in current production",
@@ -481,7 +481,7 @@ export const extraProducts: Product[] = [
     ],
     "cons": [
       "Too cold for many 30°F nights",
-      "Down fails when soaked"
+      "Down fails when it gets soaked."
     ],
     "specs": [
       {
@@ -514,8 +514,8 @@ export const extraProducts: Product[] = [
     "limit": "Drafts if you thrash",
     "role": "Quilt for controlled sleepers",
     "summary": "A hoodless quilt that saves weight only when you do not kick it off.",
-    "body": "The Enigma is the quilt people mean when they say a quilt. It has no hood and no zipper. Pair it with a warm hat and a pad strap. If you sleep cold or you roll, buy a bag with a zipper and a hood instead.",
-    "who": "Warm sleepers who want less fabric under their body.",
+    "body": "The Enigma is the quilt people mean when they say a quilt. It doesn't have a hood or a zipper. We'd pair it with a warm hat and a pad strap. If you sleep cold or you roll, buy a bag with a zipper and a hood instead.",
+    "who": "If you sleep warm and you want less fabric under your body, a quilt like this fits.",
     "pros": [
       "Light",
       "Custom widths exist",
@@ -556,8 +556,8 @@ export const extraProducts: Product[] = [
     "limit": "Price and a slim cut",
     "role": "High-end narrow mummy",
     "summary": "A slim down bag with a reputation for honest warmth and a cut that punishes broad shoulders.",
-    "body": "Western Mountaineering bags are sewn as tools. The Alpinlite is warm for its rating class and tight if you sleep in a starfish. Try the girth, not the stuff sack. It is a poor value if you only camp twice a summer.",
-    "who": "People who sleep cold, know they like a mummy, and will use it for years.",
+    "body": "Western Mountaineering bags are sewn as tools. The Alpinlite is warm for its rating class, and it's tight if you sleep in a starfish. Try the girth, not the stuff sack. To be fair, it's a poor value if you only camp twice a summer.",
+    "who": "If you sleep cold, you know you like a mummy, and you'll use it for years, this is the bag we'd save up for.",
     "pros": [
       "Warm for the weight",
       "Durable shell",
@@ -598,8 +598,8 @@ export const extraProducts: Product[] = [
     "limit": "Heavy and bulky",
     "role": "Budget down-style mummy",
     "summary": "An affordable bag for hikers who need something warmer than a 40°F summer sack.",
-    "body": "The Cosmic is how a lot of people start. It works. It does not pack like a premium 800-fill bag, and the temperature number is still a class, not a promise. Use a real pad under it. Replace it when you know your sleep, not before the first trip.",
-    "who": "Beginners who need a warmer bag without a premium price.",
+    "body": "The Cosmic is how a lot of people start. It works. It doesn't pack like a premium 800-fill bag, and the temperature number is still a class, not a promise. Use a real pad under it. We'd replace it when you know your sleep, not before the first trip.",
+    "who": "If you're starting out and you need a warmer bag without a premium price, this is a fair first buy.",
     "pros": [
       "Approachable price",
       "Hood and zipper",
@@ -640,8 +640,8 @@ export const extraProducts: Product[] = [
     "limit": "Bulky",
     "role": "Synthetic bag for damp trips",
     "summary": "A synthetic mummy that still insulates after a damp night.",
-    "body": "Choose synthetic when your trips are wet forests and you cannot guarantee the bag stays dry. You pay in volume. A compression sack helps the pack and does not help the warmth. Air it out every morning.",
-    "who": "Hikers in rain who do not want to baby a down bag.",
+    "body": "We'd choose synthetic when your trips are wet forests and you can't guarantee the bag stays dry. You pay in volume. A compression sack helps the pack, and it doesn't help the warmth. Air it out every morning.",
+    "who": "If you hike in the rain and you don't want to baby a down bag, this is the one we'd carry.",
     "pros": [
       "Works when damp",
       "Easier care",
@@ -682,8 +682,8 @@ export const extraProducts: Product[] = [
     "limit": "Slim even with stretch",
     "role": "Stretch down mummy",
     "summary": "A light down bag with a stretch shell that feels less coffin-like than it measures.",
-    "body": "The Hugger is a strong alternative if you want Western Mountaineering warmth logic at a lower price and you are not broad in the shoulders. Check the length. A short bag saves weight and makes a tall person miserable.",
-    "who": "Average-build hikers who want a light mummy.",
+    "body": "The Hugger is a strong alternative if you want Western Mountaineering warmth logic at a lower price and you're not broad in the shoulders. Check the length. A short bag saves weight and makes a tall person miserable.",
+    "who": "If you're average in build and you want a light mummy, this is the one we'd try.",
     "pros": [
       "Light",
       "Stretch shell",
@@ -691,7 +691,7 @@ export const extraProducts: Product[] = [
     ],
     "cons": [
       "Still a slim bag",
-      "Down and wet weather do not mix"
+      "Down and wet weather don't mix."
     ],
     "specs": [
       {
@@ -724,11 +724,11 @@ export const extraProducts: Product[] = [
     "limit": "Heavier than an ultralight mummy",
     "role": "Roomier down bag",
     "summary": "A wider down bag for hikers who hate mummy bags and will carry the extra ounces.",
-    "body": "The Trek series is the answer to 'I will not sleep if I cannot bend my knees out.' It is not the lightest and it is not a quilt. Pair it with a wide pad or the extra width is wasted on the ground.",
-    "who": "Side sleepers who have returned slim bags.",
+    "body": "The Trek series is the answer to 'I won't sleep if I can't bend my knees out.' It isn't the lightest, and it isn't a quilt. Pair it with a wide pad, or the extra width is wasted on the ground.",
+    "who": "If you sleep on your side and you've sent slim bags back, this is the cut we'd try.",
     "pros": [
       "Roomier cut",
-      "Down pack size is still reasonable",
+      "The down still packs to a reasonable size.",
       "Hood"
     ],
     "cons": [
@@ -766,8 +766,8 @@ export const extraProducts: Product[] = [
     "limit": "Less refined draft control",
     "role": "Budget down quilt",
     "summary": "A lower-priced quilt for hikers who want to try a quilt without a custom shop price.",
-    "body": "Use it as a trial. If you wake up cold at the shoulders, the fix is a pad strap and a hat, not another quilt in the same pattern. If you still hate it, a hooded bag was the right purchase.",
-    "who": "Hikers curious about quilts who sleep fairly still.",
+    "body": "We'd use it as a trial. If you wake up cold at the shoulders, the fix is a pad strap and a hat, not another quilt in the same pattern. If you still hate it, a hooded bag was the right purchase.",
+    "who": "If you're curious about quilts and you sleep fairly still, this is a fair one to try.",
     "pros": [
       "Lower price for a quilt",
       "Light",
@@ -775,7 +775,7 @@ export const extraProducts: Product[] = [
     ],
     "cons": [
       "Drafts",
-      "Quality control stories vary by batch"
+      "Stories about quality control vary by batch."
     ],
     "specs": [
       {
@@ -808,8 +808,8 @@ export const extraProducts: Product[] = [
     "limit": "More weight and bulk than the regular",
     "role": "Wide version of the default air pad",
     "summary": "The same high-R summer-and-shoulder pad, cut wide enough for an elbow.",
-    "body": "Buy the wide pad before you buy a second bag. A narrow pad under a wide sleeper is how quilts fail. The NXT is still crinkly. A pump sack is worth packing so you are not damp from inflating it by mouth.",
-    "who": "Side sleepers who already liked the XLite and fell off it.",
+    "body": "We'd buy the wide pad before you buy a second bag. A narrow pad under a wide sleeper is how quilts fail. The NXT is still crinkly. A pump sack is worth packing so you're not damp from inflating it by mouth.",
+    "who": "If you sleep on your side, you already liked the XLite, and you fell off it, get the wide one.",
     "pros": [
       "Wide",
       "High R for the weight",
@@ -850,8 +850,8 @@ export const extraProducts: Product[] = [
     "limit": "Heavier than a narrow ultralight pad",
     "role": "Quieter wide air pad",
     "summary": "A wide insulated air pad that does not sound like a chip bag.",
-    "body": "The Tensor is the pad to pick when the XLite's noise bothers a partner. Check the R-value on the exact year's model before a cold trip. Wide is the right call for most adults who move in their sleep.",
-    "who": "Couples and side sleepers who value quiet.",
+    "body": "The Tensor is the pad we'd pick when the XLite's noise bothers a partner. Check the R-value on the exact year's model before a cold trip. Wide is the right call for most adults who move in their sleep.",
+    "who": "If you camp as a couple, or you sleep on your side and you want quiet, this is the pad we'd try.",
     "pros": [
       "Quieter",
       "Wide",
@@ -859,7 +859,7 @@ export const extraProducts: Product[] = [
     ],
     "cons": [
       "Not the lightest",
-      "R-value is model-year specific"
+      "The R-value is specific to that model year."
     ],
     "specs": [
       {
@@ -892,8 +892,8 @@ export const extraProducts: Product[] = [
     "limit": "Low insulation",
     "role": "Budget air pad for summer",
     "summary": "A cheap air pad that is fine when the ground is not cold.",
-    "body": "The Static V is not a cold-night pad. The baffles and the R-value are a summer tool. If your trips dip into the 40s at night, spend the money on insulation, not on a thicker-looking pad with no R-value to show.",
-    "who": "Summer campers and first overnights in warm weather.",
+    "body": "The Static V isn't a cold-night pad. The baffles and the R-value are a summer tool. If your trips dip into the 40s at night, spend the money on insulation, not on a thicker-looking pad with no R-value to show.",
+    "who": "If you're camping in warm weather, or it's a first overnight and the nights stay warm, this is enough pad.",
     "pros": [
       "Low price",
       "Light enough",
@@ -934,8 +934,8 @@ export const extraProducts: Product[] = [
     "limit": "Heavy for backpacking",
     "role": "Thick camp pad",
     "summary": "A thicker self-inflating style pad for people sleeping next to a car.",
-    "body": "This is a comfort buy. Do not talk yourself into carrying it for five miles unless sleep is the whole point of the trip and the pack is otherwise empty. For backpacking, an insulated air pad is the better misery-to-weight trade.",
-    "who": "Car campers and short walks from the trailhead.",
+    "body": "This is a comfort buy. Don't talk yourself into carrying it for five miles unless sleep is the whole point of the trip and the pack is otherwise empty. For backpacking, an insulated air pad is the better misery-to-weight trade.",
+    "who": "If you camp by the car, or the walk from the trailhead is short, this is the pad we'd bring.",
     "pros": [
       "Thick",
       "Warmer feel",
@@ -976,8 +976,8 @@ export const extraProducts: Product[] = [
     "limit": "Heavier than an XLite",
     "role": "Tougher insulated air pad",
     "summary": "A thicker-fabric air pad for rocky sites and people who are tired of patches.",
-    "body": "The Dura is the adult decision if your last pad died on granite. You carry extra ounces to avoid a 2 a.m. repair. It is still an air pad. Bring the repair kit anyway.",
-    "who": "Hikers with a history of punctures.",
+    "body": "If your last pad died on granite, the Dura is the adult decision. You carry extra ounces to avoid a 2 a.m. repair. It's still an air pad. We'd bring the repair kit anyway.",
+    "who": "If your pads keep getting punctures, this is the one we'd switch to.",
     "pros": [
       "Tougher face",
       "Real insulation",
@@ -1018,8 +1018,8 @@ export const extraProducts: Product[] = [
     "limit": "Less thick than a modern air pad",
     "role": "Self-inflating classic",
     "summary": "A self-inflating pad that is ready enough if you open the valve early.",
-    "body": "The ProLite will not feel like a four-inch air mattress. It also will not leave you flat if a small leak starts, because the foam does some of the work. A fair choice for hikers who want less fuss.",
-    "who": "Hikers who want a simpler pad in mild temperatures.",
+    "body": "The ProLite won't feel like a four-inch air mattress. The good news is it won't leave you flat if a small leak starts, because the foam does some of the work. We'd call it a fair choice if you want less fuss.",
+    "who": "If you want a simpler pad and your nights are mild, this is the one we'd carry.",
     "pros": [
       "Self-inflating",
       "Some warmth if it leaks",
@@ -1057,11 +1057,11 @@ export const extraProducts: Product[] = [
     "priceBand": "Upper mid",
     "weight": "About 2 lb 6 oz",
     "bestFor": "Hikers who want a framed pack without a bulky hip belt",
-    "limit": "The frame is lighter duty than an Atmos",
+    "limit": "The frame's lighter duty than an Atmos.",
     "role": "Simple framed pack",
     "summary": "A straightforward pack with a real frame, big pockets, and less marketing on the harness.",
-    "body": "The Circuit carries a moderate load well and gets clumsy if you overload it like an expedition pack. The shoulder-strap pockets and the side pockets are why people keep it. Fit the torso. A good pack in the wrong size is still a bad pack.",
-    "who": "Weekend and week-long hikers with moderate loads.",
+    "body": "The Circuit carries a moderate load well, and it gets clumsy if you overload it like an expedition pack. The shoulder-strap pockets and the side pockets are why people keep it. Fit the torso. A good pack in the wrong size is still a bad pack.",
+    "who": "If your weekends and week-long trips stay at moderate loads, this is the pack we'd look at.",
     "pros": [
       "Huge side pockets",
       "Simple design",
@@ -1099,11 +1099,11 @@ export const extraProducts: Product[] = [
     "priceBand": "Mid",
     "weight": "About 2 lb 6 oz without the lid",
     "bestFor": "Budget framed packs for a week of food",
-    "limit": "Hip belt is less plush",
+    "limit": "The hip belt's less plush.",
     "role": "Light framed budget pack",
     "summary": "A light internal-frame pack that punches above its price until the load gets heavy.",
-    "body": "The Crown is the pack to try before you spend Atmos money. If 30 pounds hurts in the shop, a more padded harness is worth the cash. If your load lives under that, this is enough pack. The Crown3 replaced the Crown2. Granite Gear rates it to 35 lb with the frame sheet in, and you can take the sheet out for loads under 25 lb.",
-    "who": "Hikers building a first serious kit on a budget.",
+    "body": "We'd try the Crown before you spend Atmos money. If 30 pounds hurts in the shop, a more padded harness is worth the cash. If your load lives under that, this is enough pack. The Crown3 replaced the Crown2. Granite Gear rates it to 35 lb with the frame sheet in, and you can take the sheet out for loads under 25 lb.",
+    "who": "If you're building a first serious kit on a budget, this is the pack we'd try first.",
     "pros": [
       "Light",
       "Fair price",
@@ -1111,7 +1111,7 @@ export const extraProducts: Product[] = [
     ],
     "cons": [
       "Less comfortable at high loads",
-      "Torso length is fixed, so the size has to be right"
+      "Torso length is fixed, so the size has to be right for you."
     ],
     "specs": [
       {
@@ -1152,8 +1152,8 @@ export const extraProducts: Product[] = [
     "limit": "Not a heavy-carry specialist",
     "role": "Value framed 55",
     "summary": "A widely available pack for hikers who need a real hip belt and do not need expedition padding.",
-    "body": "The Flash 55 is a sane volume for a modern sleep system. If your bag is a bulky synthetic mummy, look at a larger pack. Load it in a shop with the hip belt on the iliac crest, not on your stomach.",
-    "who": "Beginners buying one pack for three-season weekends.",
+    "body": "The Flash 55 is a sane volume for a modern sleep system. If your bag is a bulky synthetic mummy, we'd look at a larger pack. Load it in a shop with the hip belt on your iliac crest, not on your stomach.",
+    "who": "If you're buying one pack for three-season weekends and you're just starting out, this is a fair choice.",
     "pros": [
       "Easy to find and return",
       "Real hip belt",
@@ -1161,7 +1161,7 @@ export const extraProducts: Product[] = [
     ],
     "cons": [
       "Average ventilation",
-      "Heavy loads need a different pack"
+      "If your load is heavy, you'll need a different pack."
     ],
     "specs": [
       {
@@ -1191,11 +1191,11 @@ export const extraProducts: Product[] = [
     "priceBand": "Upper mid",
     "weight": "About 2 lb",
     "bestFor": "Ultralight hikers who still want a hip belt",
-    "limit": "Overload it and the frame complains",
+    "limit": "If you overload it, the frame complains.",
     "role": "Light framed UL pack",
     "summary": "A long-trail favorite for hikers whose base weight is already under control.",
-    "body": "The Mariposa is comfortable with a disciplined load and miserable as a suitcase. If you are still carrying a 5-pound tent and a chair, buy a Crown or an Atmos first. The hip belt is the point. Frameless packs are a later experiment.",
-    "who": "Experienced hikers with a light kit.",
+    "body": "The Mariposa is comfortable with a disciplined load and miserable if you treat it like a suitcase. If you're still carrying a 5-pound tent and a chair, we'd buy a Crown or an Atmos first. The hip belt is the point. Frameless packs are a later experiment.",
+    "who": "If you've been at this a while and your kit is already light, this is the pack we'd carry.",
     "pros": [
       "Light",
       "Carries well in its range",
@@ -1236,8 +1236,8 @@ export const extraProducts: Product[] = [
     "limit": "Heavy pack",
     "role": "Women's anti-gravity carry",
     "summary": "The women's fit sibling of the Atmos idea: a trampoline back and a hip belt that assumes a different pelvis.",
-    "body": "Do not buy a unisex pack and hope. The Aura is worth it when the hip belt matches and the load is heavy enough to need the ventilation. It is a lot of pack for a summer quilt kit. Fit the torso in person if you can.",
-    "who": "Women carrying traditional loads who overheat under a flat back panel.",
+    "body": "Don't buy a unisex pack and hope. The Aura is worth it when the hip belt matches and the load is heavy enough to need the ventilation. It's a lot of pack for a summer quilt kit. We'd fit the torso in person if you can.",
+    "who": "If you're a woman carrying a traditional load and you overheat under a flat back panel, this is the one we'd try.",
     "pros": [
       "Ventilated back",
       "Women's fit",
@@ -1278,8 +1278,8 @@ export const extraProducts: Product[] = [
     "limit": "Weight",
     "role": "Women's supportive week pack",
     "summary": "A women's pack for heavier loads and hikers who want the hip belt to do real work.",
-    "body": "The Deva is the Gregory answer to the Aura. Try both with weight. One will feel like a hug and the other will feel like a mistake, and the reviews will not predict which. Shorter torsos should not force a long size.",
-    "who": "Women on week-long trips with a full bear can and a real sleep system.",
+    "body": "The Deva is the Gregory answer to the Aura. Try both with weight. One will feel like a hug and the other will feel like a mistake, and the reviews won't predict which. If your torso is shorter, don't force a long size.",
+    "who": "If you're a woman on a week-long trip with a full bear can and a real sleep system, we'd look at the Deva.",
     "pros": [
       "Supportive",
       "Women's fit",
@@ -1320,8 +1320,8 @@ export const extraProducts: Product[] = [
     "limit": "Price, and a harsh carry if overloaded",
     "role": "Waterproof roll-top",
     "summary": "A DCF pack that keeps rain out and expects you to pack like a thru-hiker.",
-    "body": "The Southwest is a roll-top DCF pack for hikers who already pack like they own one. There is no trampoline back and not much forgiveness if the load is heavy or sloppy. Rain stays out better than it does in a standard nylon pack, which is the reason to pay for it. If you want lid pockets and organization, the Osprey Atmos AG 65 or the Gregory Baltoro 65 will annoy you less. If you want a lighter framed pack while you are still learning what to leave at home, the Gossamer Gear Mariposa still has a hip belt and a less harsh carry. The Southwest isn't sold on Amazon US, so there is no buy button for it here. We don't swap in a different pack.",
-    "who": "Experienced hikers in wet country whose kit is already simple enough for a roll-top.",
+    "body": "The Southwest is a roll-top DCF pack if you already pack like you own one. There's no trampoline back, and there isn't much forgiveness if your load is heavy or sloppy. Rain stays out better than it does in a standard nylon pack, which is why you'd pay for it. If you want lid pockets and organization, the Osprey Atmos AG 65 or the Gregory Baltoro 65 will annoy you less. If you want a lighter framed pack while you're still learning what to leave at home, the Gossamer Gear Mariposa still has a hip belt and a less harsh carry. Worth knowing: the Southwest isn't sold on Amazon US, so there's no buy button for it here. We don't swap in a different pack.",
+    "who": "If you're experienced, you hike in wet country, and your kit is already simple enough for a roll-top, this is the pack we'd consider.",
     "pros": [
       "Highly water resistant",
       "Light for the fabric",
@@ -1363,8 +1363,8 @@ export const extraProducts: Product[] = [
     "limit": "Heavy",
     "role": "Ventilated load hauler",
     "summary": "A traditional carry with a real air gap, for people whose packs are honestly heavy.",
-    "body": "Deuter fits some backs better than Osprey and some worse. The only useful test is weight on your torso. This is the wrong pack to buy for a 12-pound base weight. It earns its mass when the food bag is large.",
-    "who": "Hikers carrying winter loads or bulky car-to-camp-adjacent loads on trail.",
+    "body": "Deuter fits some backs better than Osprey and some worse. The useful check is weight on your torso. This is the wrong pack to buy for a 12-pound base weight. It earns its mass when your food bag is large.",
+    "who": "If you're carrying a winter load, or a bulky load that's only a short step from the car but still on the trail, this is the hauler we'd look at.",
     "pros": [
       "Air channel",
       "Carries heavy weight",
@@ -1405,8 +1405,8 @@ export const extraProducts: Product[] = [
     "limit": "Not a boot",
     "role": "Wide-friendly trail shoe",
     "summary": "A cushioned trail shoe with a roomier toe than most race shoes, and a drop that is not zero.",
-    "body": "Use this when the Lone Peak feels too floppy and a KEEN feels too warm. It is still a shoe. If your ankles roll, a boot is the honest answer. Wide feet should try it late in the day.",
-    "who": "Hikers who want cushion and a wider toe box without zero drop.",
+    "body": "We'd use this when the Lone Peak feels too floppy and a KEEN feels too warm. It's still a shoe. If your ankles roll, a boot is the honest answer. If your feet are wide, try it late in the day.",
+    "who": "If you want cushion and a wider toe box without zero drop, this is the shoe we'd try.",
     "pros": [
       "Roomy toe",
       "Cushion",
@@ -1447,8 +1447,8 @@ export const extraProducts: Product[] = [
     "limit": "Narrower than Altra",
     "role": "Sticky, protective trail shoe",
     "summary": "A more precise trail shoe for rocky ground, with a heel that actually holds.",
-    "body": "The Ultra Raptor is not a wide shoe. If your forefoot is broad, do not suffer through it because the reviews are good. It shines when the trail is loose and you want a rand that takes abuse.",
-    "who": "Hikers with medium or narrow feet on rocky trail.",
+    "body": "The Ultra Raptor isn't a wide shoe. If your forefoot is broad, don't suffer through it because the reviews are good. It earns its place when the trail is loose and you want a rand that takes abuse.",
+    "who": "If your feet are medium or narrow and your trail is rocky, this is the shoe we'd try.",
     "pros": [
       "Durable",
       "Protective",
@@ -1489,8 +1489,8 @@ export const extraProducts: Product[] = [
     "limit": "Heavier",
     "role": "Supportive leather-and-mesh boot",
     "summary": "A boot for people who want structure without a narrow Italian last.",
-    "body": "The Bridger is a fair wide-friendly boot to try next to the Targhee and the Renegade. Waterproof versions run warm. Dry them slowly, not on a heater. Break them in before any overnight.",
-    "who": "Hikers with moderate packs who want ankle support.",
+    "body": "The Bridger is a fair wide-friendly boot to try next to the Targhee and the Renegade. Waterproof versions run warm. Dry them slowly, not on a heater. We'd break them in before any overnight.",
+    "who": "If you carry a moderate pack and you want ankle support, this is a boot we'd try.",
     "pros": [
       "Supportive",
       "Often available in wide",
@@ -1498,7 +1498,7 @@ export const extraProducts: Product[] = [
     ],
     "cons": [
       "Heavy",
-      "Waterproof models dry slowly"
+      "The waterproof models dry slowly."
     ],
     "specs": [
       {
@@ -1531,8 +1531,8 @@ export const extraProducts: Product[] = [
     "limit": "Not a wide boot",
     "role": "Low-cut hiking shoe",
     "summary": "A lighter hiking shoe for maintained trail and travel days.",
-    "body": "The Trail 2650 is not the shoe for a 40-pound pack. It is a good one-bag travel shoe if your feet match the last. Try the wide if your toes hit. A waterproof membrane is optional and often the wrong one for summer.",
-    "who": "Day hikers and travelers on maintained trails.",
+    "body": "The Trail 2650 isn't the shoe for a 40-pound pack. It's a good one-bag travel shoe if your feet match the last. Try the wide if your toes hit. A waterproof membrane is optional, and it's often the wrong one for summer.",
+    "who": "If you day hike or you travel on maintained trails, this is the shoe we'd pack.",
     "pros": [
       "Light for a Danner",
       "Approachable look",
@@ -1573,8 +1573,8 @@ export const extraProducts: Product[] = [
     "limit": "Too narrow for many wide feet",
     "role": "Secure mid boot",
     "summary": "A supportive boot with a heel lock that works if your foot is not wide.",
-    "body": "Salomon's reputation is a locked heel and a narrower forefoot. If you are here because boots always pinch, this is probably the wrong boot. If your heel slips in everything else, try it. Replace the footbed if the stock one collapses.",
-    "who": "Hikers with medium or narrow feet who carry a real pack.",
+    "body": "Salomon's reputation is a locked heel and a narrower forefoot. If you're here because boots always pinch, this is probably the wrong boot. If your heel slips in everything else, try it. Replace the footbed if the stock one collapses.",
+    "who": "If your feet are medium or narrow and you carry a real pack, this is the boot we'd try.",
     "pros": [
       "Excellent heel hold",
       "Support",
@@ -1615,8 +1615,8 @@ export const extraProducts: Product[] = [
     "limit": "Not a hiking shoe for miles of rock",
     "role": "Minimal camp sandal",
     "summary": "A sandal with a real strap for camp, water, and the walk to the privy.",
-    "body": "Do not hike a rocky day in these unless your feet are already used to minimal sandals. They are the camp shoe that dries and weighs less than a clog. The strap system is the product. Size them snug.",
-    "who": "Backpackers who are tired of wet shoes at camp.",
+    "body": "Don't hike a rocky day in these unless your feet are already used to minimal sandals. They're the camp shoe that dries and weighs less than a clog. The strap system is the product. We'd size them snug.",
+    "who": "If you're tired of wet shoes at camp, this is the sandal we'd bring.",
     "pros": [
       "Light",
       "Drains",
@@ -1657,8 +1657,8 @@ export const extraProducts: Product[] = [
     "limit": "Costs more than a budget shell",
     "role": "Full-featured rain shell",
     "summary": "A rain shell with pit zips and a hood that moves, for people who hike uphill in weather.",
-    "body": "The Foray is the step up from a Torrentshell when you are actually in rain for hours. It is still not an alpine hardshell. Re-proof the DWR when water soaks the face fabric instead of beading. Size it over a fleece.",
-    "who": "Hikers who wear a shell while moving, not only at camp.",
+    "body": "The Foray is the step up from a Torrentshell when you're actually in rain for hours. It still isn't an alpine hardshell. Re-proof the DWR when water soaks the face fabric instead of beading. Size it over a fleece.",
+    "who": "If you wear a shell while you're moving, not only at camp, this is the jacket we'd pick.",
     "pros": [
       "Pit zips",
       "Good hood",
@@ -1699,8 +1699,8 @@ export const extraProducts: Product[] = [
     "limit": "Tears if you live in it",
     "role": "Disposable-feeling emergency shell",
     "summary": "A cheap waterproof layer that works once and should not be your identity.",
-    "body": "Keep a Frogg Toggs in the car or the bottom of a day pack for a storm you did not believe. It wets less than you fear and it snags on brush. For a week of rain, buy a real shell. This is a backup, and a good one.",
-    "who": "Day hikers and anyone who needs a just-in-case layer.",
+    "body": "We'd keep a Frogg Toggs in the car, or in the bottom of a day pack, for a storm you didn't believe. It wets less than you'd fear, and it snags on brush. Honestly, for a week of rain we'd buy a real shell. This is a backup, and a good one.",
+    "who": "If you day hike, or you just need a layer for a surprise storm, this is the one we'd stash.",
     "pros": [
       "Very cheap",
       "Surprisingly waterproof",
@@ -1738,11 +1738,11 @@ export const extraProducts: Product[] = [
     "priceBand": "Budget",
     "weight": "About 14 oz",
     "bestFor": "Commuter rain and short hikes",
-    "limit": "Hood and breathability are basic",
+    "limit": "The hood and the breathability are pretty basic.",
     "role": "Budget everyday rain jacket",
     "summary": "A basic waterproof jacket for people who will not baby a shell.",
-    "body": "It is fine for a trail that might spit rain and for the walk from the car. On a humid climb you will be wet from the inside. Pit zips matter more than the logo once the rain is real. Move up when you start hiking in weather on purpose.",
-    "who": "Casual hikers who need one inexpensive rain layer.",
+    "body": "It's fine for a trail that might spit rain, and for the walk from the car. On a humid climb you'll be wet from the inside. Pit zips matter more than the logo once the rain is real. Move up when you start hiking in weather on purpose.",
+    "who": "If you hike casually and you need one inexpensive rain layer, this will do.",
     "pros": [
       "Low price",
       "Easy to find",
@@ -1783,8 +1783,8 @@ export const extraProducts: Product[] = [
     "limit": "Fragile if you bushwhack",
     "role": "Very light rain shell",
     "summary": "A minimalist shell that disappears in the pack and needs gentle use.",
-    "body": "The Versalite is for hikers who already own a tougher shell and want a lighter one for trail. It is the wrong only-jacket if you scrape granite and crawl under logs. The hood is good. The fabric is thin. Treat it like a tool with a short temper.",
-    "who": "Ultralight hikers on maintained trails.",
+    "body": "The Versalite is for you if you already own a tougher shell and you want a lighter one for the trail. It's the wrong only-jacket if you scrape granite and crawl under logs. The hood is good. The fabric is thin. Treat it like a tool with a short temper.",
+    "who": "If you hike light on maintained trails, this is the shell we'd carry.",
     "pros": [
       "Extremely light",
       "Packs tiny",
@@ -1825,8 +1825,8 @@ export const extraProducts: Product[] = [
     "limit": "Poor at simmering",
     "role": "Integrated boil system",
     "summary": "A pot and burner that boil fast and cook badly.",
-    "body": "Buy the Flash if dinner is a freezer bag and coffee. Do not buy it to fry eggs. The igniter is convenient until it fails, so carry a lighter. Wind performance is better than a naked canister and still not magic on a ridge.",
-    "who": "Backpackers who boil and do not simmer.",
+    "body": "We'd buy the Flash if dinner is a freezer bag and coffee. Don't buy it to fry eggs. The igniter is convenient until it fails, so carry a lighter. It handles wind better than a naked canister, and it still isn't magic on a ridge.",
+    "who": "If you boil and you don't simmer, this is the stove we'd pack.",
     "pros": [
       "Fast",
       "Efficient",
@@ -1867,8 +1867,8 @@ export const extraProducts: Product[] = [
     "limit": "Weaker in wind than a remote-canister stove",
     "role": "Fine-control canister stove",
     "summary": "A small stove with a better simmer than most upright canisters.",
-    "body": "The Amicus is the stove for people who want real food sometimes and still want ounces. It is not a WindMaster. In a breeze, use a legal windscreen or move to trees. Canisters are seasonal. Cold-weather trips need liquid fuel or a winter-rated plan.",
-    "who": "Three-season cooks who simmer.",
+    "body": "The Amicus is the stove for you if you want real food sometimes and you still want the ounces. It isn't a WindMaster. In a breeze, use a legal windscreen or move in among the trees. Canisters are seasonal. A cold-weather trip needs liquid fuel or a winter-rated plan.",
+    "who": "If you cook in three-season weather and you like to simmer, this is the stove we'd pick.",
     "pros": [
       "Simmer control",
       "Light",
@@ -1909,8 +1909,8 @@ export const extraProducts: Product[] = [
     "limit": "Heavy and expensive, bad frying pan",
     "role": "Windproof boil system",
     "summary": "A radiator stove that boils in wind and does not care about your omelet.",
-    "body": "The Reactor is a specialist for alpine and shoulder-season trips where a normal canister stove becomes a toy. It is overkill for a summer weekend in the trees. Pot is part of the system. Do not improvise a different pot and expect the same result.",
-    "who": "Cold, windy trips that are still canister country.",
+    "body": "The Reactor is a specialist for alpine and shoulder-season trips, where a normal canister stove turns into a toy. It's overkill for a summer weekend in the trees. The pot is part of the system. Don't improvise a different pot and expect the same result.",
+    "who": "If your trips are cold and windy, and you're still in canister country, this is the stove we'd bring.",
     "pros": [
       "Excellent in wind",
       "Fast",
@@ -1951,8 +1951,8 @@ export const extraProducts: Product[] = [
     "limit": "Slow, and alcohol rules vary",
     "role": "Tiny alcohol stove",
     "summary": "A near-weightless stove that is slow, sooty, and legal only where alcohol stoves are allowed.",
-    "body": "Some land agencies ban alcohol stoves during fire restrictions, and some ban them outright. Check. Boil times are long. There is no sim-off switch except waiting. It is a delightful specialist and a bad only stove for a group.",
-    "who": "Solo ultralight hikers who have read the local fire rules.",
+    "body": "Some land agencies ban alcohol stoves during fire restrictions, and some ban them outright. Check before you go. Boil times are long. There's no sim-off switch except waiting. It's a specialist, and it's a bad only stove for a group.",
+    "who": "If you hike solo and light, and you've read the local fire rules, this is a stove you can live with.",
     "pros": [
       "Almost no weight",
       "Cheap",
@@ -1993,8 +1993,8 @@ export const extraProducts: Product[] = [
     "limit": "More than a gram-counter needs",
     "role": "Bright rechargeable lamp",
     "summary": "A brighter headlamp for camp chores and the occasional dark trail.",
-    "body": "Box lumens are a burst, not your evening. Use the low mode for cooking so you do not blind the group. The tap interface needs a practice run. Carry a second small light. Rechargeable is a problem if you never charge it.",
-    "who": "Hikers who want one lamp brighter than a minimalist UL light.",
+    "body": "Box lumens are a burst, not your evening. Use the low mode for cooking so you don't blind the group. The tap interface needs a practice run. Carry a second small light. A rechargeable lamp is a problem if you never charge it.",
+    "who": "If you want one lamp brighter than a minimalist UL light, this is the one we'd carry.",
     "pros": [
       "Bright",
       "Rechargeable",
@@ -2035,8 +2035,8 @@ export const extraProducts: Product[] = [
     "limit": "Not class-leading output",
     "role": "Simple AA headlamp",
     "summary": "A basic lamp that runs on cells you can buy in a small town.",
-    "body": "The Remix is the lamp for people who forget to charge things. Output is modest and honest. Put lithium AAs in for cold trips. Alkaline cells sag in the cold and leak in a drawer. Check them in spring.",
-    "who": "Beginners and car campers who want replaceable batteries.",
+    "body": "The Remix is the lamp for you if you forget to charge things. The output is modest, and it's honest about that. Put lithium AAs in for cold trips. Alkaline cells sag in the cold and leak in a drawer. Check them in spring.",
+    "who": "If you're starting out, or you camp by the car and you want replaceable batteries, this is the lamp we'd pick.",
     "pros": [
       "AA cells",
       "Simple",
@@ -2077,8 +2077,8 @@ export const extraProducts: Product[] = [
     "limit": "Useless as a headlamp",
     "role": "Inflatable solar lantern",
     "summary": "A soft lantern for camp when you want light that is not on your forehead.",
-    "body": "Hang it or set it on the table. It will not help you find a blaze at night. Solar charging is a bonus, not a plan, if you are in deep trees. It is a car-camping and front-country luxury that packs down.",
-    "who": "Car campers and base camps.",
+    "body": "Hang it, or set it on the table. It won't help you find a blaze at night. Solar charging is a bonus, not a plan, if you're in deep trees. It's a car-camping and front-country luxury that packs down.",
+    "who": "If you camp by the car, or you hold a base camp, this is the lantern we'd bring.",
     "pros": [
       "Diffuse light",
       "Packs flat",
@@ -2119,8 +2119,8 @@ export const extraProducts: Product[] = [
     "limit": "Wait time",
     "role": "Chlorine dioxide drops",
     "summary": "A chemical treatment that does not freeze into a brick as readily as a wet filter, and still needs contact time.",
-    "body": "Drops are the backup in the lid of the pot. They are not instant. Cold, cloudy water needs more time, and you should still let sediment settle. They are the right add-on where a hollow-fiber filter is not enough.",
-    "who": "Anyone whose only plan is a single filter.",
+    "body": "Drops are the backup in the lid of the pot. They're not instant. Cold, cloudy water needs more time, and you should still let the sediment settle. They're the right add-on where a hollow-fiber filter isn't enough.",
+    "who": "If your only plan is a single filter, we'd add these.",
     "pros": [
       "Light backup",
       "Treats what filters miss in the virus category when used correctly",
@@ -2161,8 +2161,8 @@ export const extraProducts: Product[] = [
     "limit": "Needs clear water and charged cells",
     "role": "UV purifier",
     "summary": "A UV pen that treats a bottle quickly if the water is already clear.",
-    "body": "UV does not work in chocolate-milk silt. Filter or settle first. Cold drains batteries. It is a good second method and a stressful only method if you forget the cable. Pack the pre-filter.",
-    "who": "Hikers who already filter silt and want a fast second stage.",
+    "body": "UV doesn't work in chocolate-milk silt. Filter or settle first. Cold drains the batteries. It's a good second method, and it's a stressful only method if you forget the cable. Pack the pre-filter.",
+    "who": "If you already filter the silt and you want a fast second stage, this is the one we'd add.",
     "pros": [
       "Fast on clear water",
       "No chemical taste",
@@ -2203,8 +2203,8 @@ export const extraProducts: Product[] = [
     "limit": "Not a treatment by itself",
     "role": "Dirty-water bag",
     "summary": "A soft bag that pairs with a squeeze filter so you are not balancing a bottle.",
-    "body": "This is a plumbing piece. It does not make water safe. Label the dirty bag so nobody drinks from it. Rinse it. A 2-liter bag is a fair solo size. Groups want a bigger bag or they wait in line.",
-    "who": "Sawyer and similar squeeze-filter users.",
+    "body": "This is a plumbing piece. It doesn't make water safe. Label the dirty bag so nobody drinks from it. Rinse it. A 2-liter bag is a fair solo size. If you're with a group, you'll want a bigger bag or you'll wait in line.",
+    "who": "If you use a Sawyer or a similar squeeze filter, this is the bag we'd pair with it.",
     "pros": [
       "Light",
       "Pairs with squeeze filters",
@@ -2245,8 +2245,8 @@ export const extraProducts: Product[] = [
     "limit": "Heavy when full, and it is only a bottle",
     "role": "Indestructible bottle",
     "summary": "A wide-mouth bottle that takes boiling water, a filter thread with an adapter, and years of abuse.",
-    "body": "A Nalgene is a poor choice as your only long-trail bottle because a full liter of plastic is heavier than a smartwater-style bottle. It is a great camp bottle and a great bottle for kids who drop things. Do not treat the bottle as a filter.",
-    "who": "Car campers, kids, and anyone who wants one bombproof bottle.",
+    "body": "A Nalgene is a poor choice as your only long-trail bottle, because a full liter of plastic is heavier than a smartwater-style bottle. It's a solid camp bottle, and a solid bottle for kids who drop things. Don't treat the bottle as a filter.",
+    "who": "If you camp by the car, you've got kids, or you want one tough bottle, this is the one we'd pick.",
     "pros": [
       "Durable",
       "Wide mouth",
@@ -2254,7 +2254,7 @@ export const extraProducts: Product[] = [
     ],
     "cons": [
       "Heavy",
-      "Narrow mouth versions are worse to clean, wide is the one to buy"
+      "Narrow-mouth versions are worse to clean, so we'd buy the wide one."
     ],
     "specs": [
       {
@@ -2287,8 +2287,8 @@ export const extraProducts: Product[] = [
     "limit": "Not a filter",
     "role": "Soft flask for storage",
     "summary": "A foldable bottle for camp when you want water at the tent and less rigid plastic on the move.",
-    "body": "Use it as storage after treatment, or as a dirty reservoir only if you are disciplined about which cap is which. A soft bottle in a pack needs a little care so it does not burst on a sharp edge. Two liters is a useful camp size for one person.",
-    "who": "Backpackers who cache water at camp.",
+    "body": "Use it as storage after treatment, or as a dirty reservoir only if you're disciplined about which cap is which. A soft bottle in a pack needs a little care so it doesn't burst on a sharp edge. Two liters is a useful camp size for one person.",
+    "who": "If you cache water at camp, this is the bottle we'd carry.",
     "pros": [
       "Light",
       "Packable",
@@ -2329,8 +2329,8 @@ export const extraProducts: Product[] = [
     "limit": "Not a storm layer",
     "role": "Active insulation hoody",
     "summary": "A breathable fleece-adjacent hoody for moving in cold air.",
-    "body": "The R1 Air is what you hike in. The puffy is what you put on when you stop. Wearing the puffy uphill is how it gets wet from the inside. This layer needs a shell in rain. It is not waterproof and it is not trying to be.",
-    "who": "Hikers who run cold while moving and hot in a normal fleece.",
+    "body": "The R1 Air is what you hike in. The puffy is what you put on when you stop. Wearing the puffy uphill is how it gets wet from the inside. This layer needs a shell in the rain. It isn't waterproof, and it isn't trying to be.",
+    "who": "If you run cold while you're moving and you overheat in a normal fleece, this is the layer we'd wear.",
     "pros": [
       "Breathable",
       "Hood",
@@ -2371,8 +2371,8 @@ export const extraProducts: Product[] = [
     "limit": "Down, so keep it dry",
     "role": "Light down hoody",
     "summary": "A basic down hoody for camp, not for hiking hard.",
-    "body": "This is the jacket that lives in the bottom of the pack until you stop. If you need to wear insulation while walking, pick a fleece or an active synthetic. The Alpine cut should fit over a shirt and under a shell. Hoods are worth the grams at rest.",
-    "who": "Three-season hikers who stop and get cold.",
+    "body": "This is the jacket that lives in the bottom of your pack until you stop. If you need to wear insulation while you're walking, pick a fleece or an active synthetic. The Alpine cut should fit over a shirt and under a shell. Hoods are worth the grams at rest.",
+    "who": "If you hike in three-season weather and you get cold when you stop, this is the puffy we'd pack.",
     "pros": [
       "Light",
       "Stuffable",
@@ -2413,8 +2413,8 @@ export const extraProducts: Product[] = [
     "limit": "Price and fragile fabric",
     "role": "Ultra-light down jacket",
     "summary": "A very light down jacket for hikers who already treat their gear gently.",
-    "body": "The Plasma is a luxury ounce-counter. It is not tougher than it looks. Wear it in camp, not on a bushwhack. If you will own one puffy, a slightly heavier one may be the better only jacket. If you already own a burly one, this is the travel piece.",
-    "who": "Experienced hikers shaving jacket weight.",
+    "body": "The Plasma is a luxury ounce-counter. It isn't tougher than it looks. Wear it in camp, not on a bushwhack. If you'll own one puffy, a slightly heavier one may be the better only jacket. If you already own a burly one, this is the travel piece.",
+    "who": "If you've been at this a while and you're shaving jacket weight, this is the one we'd consider.",
     "pros": [
       "Extremely light",
       "Warm for the mass",
@@ -2455,8 +2455,8 @@ export const extraProducts: Product[] = [
     "limit": "Not packable, not a shell",
     "role": "Basic hiking fleece",
     "summary": "A simple fleece for cool mornings and layering under a rain jacket.",
-    "body": "Fleece still works when it is damp, which is why it stays in the kit after you buy a fancy puffy. It is bulky. Wear it or strap it outside. A grid fleece is a later upgrade if you want the same job in a smaller bundle.",
-    "who": "Beginners building a layering system.",
+    "body": "Fleece still works when it's damp, which is why it stays in the kit after you buy a fancy puffy. It's bulky. Wear it, or strap it outside. A grid fleece is a later upgrade if you want the same job in a smaller bundle.",
+    "who": "If you're building a layering system and you're just starting out, we'd start with a fleece.",
     "pros": [
       "Cheap",
       "Works when damp",
@@ -2497,8 +2497,8 @@ export const extraProducts: Product[] = [
     "limit": "Price",
     "role": "Synthetic active-or-camp hoody",
     "summary": "A synthetic insulated hoody that tolerates damp better than down.",
-    "body": "The Atom is the jacket for coastal and wet-cold trips where a down hoody is a liability. It is warmer than you want on a hard climb. Vent early. It is overkill and overpriced if your trips are dry and you already own a fleece and a rain shell.",
-    "who": "Wet-cold hikers who need one insulated hoody.",
+    "body": "The Atom is the jacket for coastal and wet-cold trips, where a down hoody is a liability. It's warmer than you want on a hard climb. Vent early. To be fair, it's overkill and overpriced if your trips are dry and you already own a fleece and a rain shell.",
+    "who": "If your trips are wet and cold and you need one insulated hoody, this is the jacket we'd pack.",
     "pros": [
       "Synthetic fill",
       "Hood",
@@ -2539,11 +2539,11 @@ export const extraProducts: Product[] = [
     "limit": "Heavier, and the locks vary by batch",
     "role": "Budget aluminum poles",
     "summary": "Inexpensive aluminum poles that are fine for hiking poles and for pitching a pole tent.",
-    "body": "Buy these before you buy carbon if you are not sure you will use poles. Aluminum bends and can sometimes be bent back. Carbon snaps. Check the locks in the store. A pole that collapses on a descent is not a bargain.",
-    "who": "Beginners and tent users who need two poles now.",
+    "body": "We'd buy these before you buy carbon if you're not sure you'll use poles. Aluminum bends, and you can sometimes bend it back. Carbon snaps. Check the locks in the store. A pole that collapses on a descent isn't a bargain.",
+    "who": "If you're starting out, or you need two poles for a tent right now, these are the ones we'd buy.",
     "pros": [
       "Cheap",
-      "Aluminum can bend instead of shatter",
+      "Aluminum can bend instead of shatter.",
       "Long enough for tents"
     ],
     "cons": [
@@ -2581,8 +2581,8 @@ export const extraProducts: Product[] = [
     "limit": "Still carbon, so it can snap",
     "role": "Mid-price carbon poles",
     "summary": "A carbon pole for people who have already broken in a cheaper pair and want less swing weight.",
-    "body": "Use carbide tips on dirt and the rubber tips on rock if you care about the trail surface. Flick locks are easier with cold hands. If your shelter needs a specific pole length, set that length at home and mark it.",
-    "who": "Hikers ready to leave aluminum.",
+    "body": "Use the carbide tips on dirt and the rubber tips on rock if you care about the trail surface. Flick locks are easier with cold hands. If your shelter needs a specific pole length, set that length at home and mark it.",
+    "who": "If you're ready to leave aluminum behind, these are the poles we'd look at.",
     "pros": [
       "Lighter",
       "Comfortable grips",
@@ -2623,8 +2623,8 @@ export const extraProducts: Product[] = [
     "limit": "Not a backpacking tent",
     "role": "Tall family tent",
     "summary": "A cabin-style tent for drive-up sites where weather is not an alpine problem.",
-    "body": "The Kingdom is a living room. It is miserable to carry, and you will not carry it. Stake it well because tall walls catch wind. A footprint saves the floor from the campground gravel that eats cheap tents.",
-    "who": "Families car camping for several seasons.",
+    "body": "The Kingdom is a living room. It's miserable to carry, and you won't carry it. Stake it well, because tall walls catch wind. A footprint saves the floor from the campground gravel that eats cheap tents.",
+    "who": "If your family car camps for several seasons, this is the tent we'd set up.",
     "pros": [
       "Stand-up height",
       "Room for cots",
@@ -2665,8 +2665,8 @@ export const extraProducts: Product[] = [
     "limit": "Basic weather performance",
     "role": "Budget cabin-ish tent",
     "summary": "A common first family tent that is good enough for fair weekends.",
-    "body": "Buy it to see if your family likes camping. Seam-seal it. Do not take it into a thunderstorm on a ridge. Four-person means two people and gear, or four people who like each other and own no cots.",
-    "who": "Families testing car camping.",
+    "body": "We'd buy it to see if your family likes camping. Seam-seal it. Don't take it into a thunderstorm on a ridge. Four-person means two people and gear, or four people who like each other and own no cots.",
+    "who": "If your family is trying car camping, this is the tent we'd start with.",
     "pros": [
       "Low price",
       "Easy pitch",
@@ -2708,7 +2708,7 @@ export const extraProducts: Product[] = [
     "role": "Kids' mummy",
     "summary": "A smaller sleeping bag so a child is not rattling around in an adult 30°F sack.",
     "body": "A child in a too-big bag is cold. This is the right shape. Check the rating against the night you actually expect, then add a layer and a pad with a real R-value. No cotton pajamas.",
-    "who": "Parents packing a first trip for a child.",
+    "who": "If you're packing a first trip for a child, this is the bag we'd bring.",
     "pros": [
       "Kid-sized",
       "Hood",
@@ -2716,7 +2716,7 @@ export const extraProducts: Product[] = [
     ],
     "cons": [
       "Not a winter bag",
-      "They will outgrow it"
+      "They'll outgrow it."
     ],
     "specs": [
       {
@@ -2749,8 +2749,8 @@ export const extraProducts: Product[] = [
     "limit": "Output is modest",
     "role": "Kid headlamp",
     "summary": "A simple lamp with a mode a child can actually use.",
-    "body": "Give them their own light. It keeps the evening from being a negotiation and it keeps your hands free. Show them the lock so it does not die in the duffel. It is not a searchlight, and it does not need to be.",
-    "who": "Families car camping or doing short overnights.",
+    "body": "Give them their own light. It keeps the evening from being a negotiation, and it keeps your hands free. Show them the lock so it doesn't die in the duffel. It isn't a searchlight, and it doesn't need to be.",
+    "who": "If you're car camping with the family, or the overnight is short, this is the light we'd hand a kid.",
     "pros": [
       "Simple",
       "Kid scale",
@@ -2791,8 +2791,8 @@ export const extraProducts: Product[] = [
     "limit": "Not a real backpacking pack",
     "role": "Kids' day pack",
     "summary": "A small pack so the adult is not carrying every jacket.",
-    "body": "Put the child's jacket, a snack, and a small water bottle in it. Do not add rocks to make a lesson. If the pack is bigger than their torso, it is the wrong pack. A day hike is the test before any overnight.",
-    "who": "Kids on day hikes and very short overnights.",
+    "body": "Put the child's jacket, a snack, and a small water bottle in it. Don't add rocks to make a lesson. If the pack is bigger than their torso, it's the wrong pack. A day hike is the trial before any overnight.",
+    "who": "If your kid is on day hikes, or the overnight is very short, this is the pack we'd try.",
     "pros": [
       "Light",
       "Kid torso",
@@ -2830,11 +2830,11 @@ export const extraProducts: Product[] = [
     "priceBand": "Budget mid",
     "weight": "About 1 lb 2 oz",
     "bestFor": "Lounging and fair-weather nights",
-    "limit": "Gathered-end hammock without an underquilt is cold",
+    "limit": "A gathered-end hammock without an underquilt is a cold night.",
     "role": "Starter gathered-end hammock",
     "summary": "A widely available hammock that is comfortable for a nap and incomplete as a bed.",
-    "body": "The DoubleNest is an easy first hammock. It is not a sleep system. Add straps that are wide enough, a tarp, and an underquilt before you promise anyone a good night. The fabric is heavy by backpacking standards and fine for car camping.",
-    "who": "People trying hammocks before they invest in a bridge or a full kit.",
+    "body": "The DoubleNest is an easy first hammock. It isn't a sleep system. Add straps that are wide enough, a tarp, and an underquilt before you promise anyone a good night. The fabric is heavy by backpacking standards, and it's fine for car camping.",
+    "who": "If you're trying hammocks before you invest in a bridge or a full kit, we'd start here.",
     "pros": [
       "Comfortable",
       "Easy to find",
@@ -2875,8 +2875,8 @@ export const extraProducts: Product[] = [
     "limit": "Requires a full tarp and quilt setup",
     "role": "Dedicated camping hammock",
     "summary": "A camping hammock with a shelf and a cut that is meant for overnight, not for the backyard only.",
-    "body": "The Blackbird is what you buy after the ENO experiment works. You still need an underquilt rated for the night, a tarp, and tree straps. The integrated bug net is the point. Practice the lay so you are diagonal, not banana-shaped.",
-    "who": "Committed hammock campers.",
+    "body": "The Blackbird is what we'd buy after an ENO has already worked for you. You still need an underquilt rated for the night, a tarp, and tree straps. The integrated bug net is the point. Practice the lay so you're diagonal, not banana-shaped.",
+    "who": "If you're committed to hammock camping, this is the one we'd move up to.",
     "pros": [
       "Integrated bug net",
       "Storage shelf",
@@ -2914,11 +2914,11 @@ export const extraProducts: Product[] = [
     "priceBand": "Upper mid",
     "weight": "About 1 lb 6 oz",
     "bestFor": "Tinkerers who want a modular hammock",
-    "limit": "You will buy more parts",
+    "limit": "You'll buy more parts.",
     "role": "Modular hammock",
     "summary": "A hammock body that accepts different nets and tarps as your setup grows.",
-    "body": "The Chameleon is a system. Budget for the pieces you will actually clip on. It is a poor gift for someone who wants one bag and no decisions. It is a good buy for someone who already knows they like a gathered-end lay.",
-    "who": "Hammock campers who like adjusting gear.",
+    "body": "The Chameleon is a system. Budget for the pieces you'll actually clip on. It's a poor gift if someone wants one bag and no decisions. It's a good buy if you already know you like a gathered-end lay.",
+    "who": "If you camp in a hammock and you like adjusting your gear, this is the one we'd look at.",
     "pros": [
       "Modular",
       "Solid hardware",
@@ -2959,8 +2959,8 @@ export const extraProducts: Product[] = [
     "limit": "Less forgiving and less loungy",
     "role": "Ultralight hammock",
     "summary": "A very light hammock for hikers who already have the rest of the system dialed.",
-    "body": "Light fabric means you pack it away from sharp points and you do not drag it. It is a specialist. If this is your first hammock, the ENO or the Blackbird will teach you more per dollar. Bring the underquilt anyway. The hammock weight is not the system weight.",
-    "who": "Experienced hammock hikers.",
+    "body": "Light fabric means you pack it away from sharp points and you don't drag it. It's a specialist. If this is your first hammock, the ENO or the Blackbird will teach you more per dollar. Bring the underquilt anyway. The hammock weight isn't the system weight.",
+    "who": "If you've already camped in hammocks and you're hiking light, this is the one we'd consider.",
     "pros": [
       "Very light",
       "Packs small",
@@ -3001,8 +3001,8 @@ export const extraProducts: Product[] = [
     "limit": "Heavier",
     "role": "Bridge hammock",
     "summary": "A bridge hammock that lies flatter and weighs more.",
-    "body": "Bridge hammocks solve the calf ridge for some people and create a bigger pack for everyone. They still need insulation underneath. Try one before you commit, because the lay is a preference, not a moral victory.",
-    "who": "Sleepers who hate gathered-end banana lay.",
+    "body": "Bridge hammocks solve the calf ridge for some people and make a bigger pack for everyone. They still need insulation underneath. Try one before you commit, because the lay is a preference, not a moral victory.",
+    "who": "If you hate the gathered-end banana lay, a bridge is what we'd try.",
     "pros": [
       "Flatter lie",
       "Stable",
@@ -3043,8 +3043,8 @@ export const extraProducts: Product[] = [
     "limit": "Useless without a hammock, and drafty if it is short",
     "role": "Budget underquilt",
     "summary": "An underquilt that makes a three-season hammock night possible.",
-    "body": "Buy the temperature for how you sleep, then add margin. A 40°F quilt is a summer tool. Full length matters if your feet stick out. A pad in the hammock is the backup plan, not the better plan, because it slides.",
-    "who": "Hammock campers who have been cold once.",
+    "body": "We'd buy the temperature for how you sleep, then add a margin. A 40°F quilt is a summer tool. Full length matters if your feet stick out. A pad in the hammock is the backup plan, not the better plan, because it slides.",
+    "who": "If you camp in a hammock and you've already been cold once, this is the quilt we'd add.",
     "pros": [
       "Real insulation underneath",
       "Fair price",
@@ -3052,7 +3052,7 @@ export const extraProducts: Product[] = [
     ],
     "cons": [
       "Must be paired and adjusted",
-      "Temperature class is still a class"
+      "The temperature class is still just a class."
     ],
     "specs": [
       {
@@ -3085,8 +3085,8 @@ export const extraProducts: Product[] = [
     "limit": "Heavy versus webbing specialists",
     "role": "Wide tree straps",
     "summary": "Wide straps so you are not girdling a tree with cord.",
-    "body": "Use wide straps. Thin cord damages bark and is a bad habit even when a ranger is not watching. These are heavier than ultralight whoopie slings. That is fine until you care. Learn a tree-safe hitch that the strap is designed for.",
-    "who": "New hammock owners.",
+    "body": "Use wide straps. Thin cord damages bark, and it's a bad habit even when a ranger isn't watching. These are heavier than ultralight whoopie slings. That's fine until you care. Learn a tree-safe hitch that the strap is designed for.",
+    "who": "If the hammock is new to you, these are the straps we'd start with.",
     "pros": [
       "Wide",
       "Simple",
@@ -3127,8 +3127,8 @@ export const extraProducts: Product[] = [
     "limit": "Heavier than a flat tarp",
     "role": "Hammock tarp with doors",
     "summary": "A tarp cut for hammocks, with doors, so sideways rain has somewhere to stop.",
-    "body": "A flat tarp is lighter and wetter when the wind shifts. The SuperFly is the piece that makes a hammock camp feel finished. Practice a pitch that does not drip on the head or the foot. Seam-seal if the maker says to.",
-    "who": "Hammock campers who have been rained on.",
+    "body": "A flat tarp is lighter, and it gets wetter when the wind shifts. The SuperFly is the piece that makes a hammock camp feel finished. Practice a pitch that doesn't drip on your head or your feet. Seam-seal if the maker says to.",
+    "who": "If you camp in a hammock and you've already been rained on, this is the tarp we'd add.",
     "pros": [
       "Doors",
       "Coverage",
@@ -3169,8 +3169,8 @@ export const extraProducts: Product[] = [
     "limit": "Warm in hot weather if you buy the thick one",
     "role": "Default hiking sock",
     "summary": "A merino-blend crew that manages damp feet and has a replacement policy if you actually wear through it.",
-    "body": "Buy the weight that matches the shoe you were fitted in. A thicker sock in a tight shoe creates the blister it was supposed to prevent. Carry a spare pair on overnights. The warranty is real and it is not an excuse to buy one pair for a thru-hike.",
-    "who": "Most hikers who want one reliable sock.",
+    "body": "Buy the weight that matches the shoe you were fitted in. A thicker sock in a tight shoe creates the blister it was supposed to prevent. Carry a spare pair on overnights. The warranty is real, and it isn't an excuse to buy one pair for a thru-hike.",
+    "who": "If you want one reliable hiking sock, this is the pair we'd start with.",
     "pros": [
       "Durable",
       "Merino blend",
@@ -3178,7 +3178,7 @@ export const extraProducts: Product[] = [
     ],
     "cons": [
       "Price versus basic socks",
-      "Cushion versions run warm"
+      "The cushion versions run warm."
     ],
     "specs": [
       {
@@ -3208,11 +3208,11 @@ export const extraProducts: Product[] = [
     "priceBand": "Budget mid",
     "weight": "About 1.5 oz a pair",
     "bestFor": "Toes that rub each other",
-    "limit": "A liner under the wrong sock can bunch",
+    "limit": "If you put the liner under the wrong sock, it can bunch.",
     "role": "Toe-sock liner",
     "summary": "A thin toe sock that stops toe-on-toe blisters.",
-    "body": "Use it under a normal hiking sock if your toes rub. Do not use it to fix a short shoe. The liner has to be smooth. If it bunches, it is worse than nothing. Some people hate the feel. Try it on a day hike before a trip.",
-    "who": "Hikers with repeated toe blisters.",
+    "body": "Use it under a normal hiking sock if your toes rub. Don't use it to fix a short shoe. The liner has to lie smooth. If it bunches, it's worse than nothing. Some people hate the feel. Try it on a day hike before a trip.",
+    "who": "If your toes blister over and over, this is the liner we'd try.",
     "pros": [
       "Stops toe rub",
       "Thin",
@@ -3254,7 +3254,7 @@ export const extraProducts: Product[] = [
     "role": "Merino hiking sock",
     "summary": "A well-known merino hiking sock with real cushion options.",
     "body": "Fit and cushion height matter more than the argument between Smartwool and Darn Tough. Buy the one that matches your shoe volume. Both are better than cotton. Replace them when the heel is thin, not when they look unfashionable.",
-    "who": "Hikers who like a softer merino hand-feel.",
+    "who": "If you like a softer merino feel, this is the sock we'd try.",
     "pros": [
       "Comfortable",
       "Merino",
@@ -3295,8 +3295,8 @@ export const extraProducts: Product[] = [
     "limit": "Less cushion",
     "role": "Thin hiking sock",
     "summary": "A thinner sock for warm trails and shoes that have no extra volume.",
-    "body": "If your shoe fits with a thick sock, do not switch to this on a long day without a test. Less cushion means more feel and more heat escape. It is the right summer sock. It is the wrong sock for a cold, loose boot.",
-    "who": "Warm-weather hikers.",
+    "body": "If your shoe fits with a thick sock, don't switch to this on a long day without a trial. Less cushion means more feel and more heat getting out. It's the right summer sock. It's the wrong sock for a cold, loose boot.",
+    "who": "If the weather's warm, this is the sock we'd wear.",
     "pros": [
       "Cooler",
       "Lower bulk",
@@ -3337,8 +3337,8 @@ export const extraProducts: Product[] = [
     "limit": "Hot and clammy in summer",
     "role": "Waterproof sock",
     "summary": "A membrane sock for cold, wet feet, not for July.",
-    "body": "Waterproof socks hold sweat. In warm weather that is its own blister factory. In cold rain and slush they can keep a margin that a soaked wool sock loses. Dry the shoe too. A dry sock in a swamp boot is a short-lived victory.",
-    "who": "Cold-weather hikers dealing with snow or bog.",
+    "body": "Waterproof socks hold sweat. In warm weather that's its own blister factory. In cold rain and slush they can keep a margin that a soaked wool sock loses. Dry the shoe too. A dry sock in a swamp boot is a short-lived victory.",
+    "who": "If you're hiking in the cold and you're dealing with snow or a bog, these are the socks we'd pack.",
     "pros": [
       "Keeps slush out",
       "Useful in winter",
@@ -3379,8 +3379,8 @@ export const extraProducts: Product[] = [
     "limit": "Holds odor sooner than merino",
     "role": "Synthetic hiking tee",
     "summary": "A synthetic shirt that dries quickly and costs less than a merino wardrobe.",
-    "body": "Wear it, rinse it, and accept that it will smell before a merino shirt would. It is the right fabric when you sweat hard and the shirt must dry by morning. Cotton is still the one to leave at home once you are away from the car.",
-    "who": "Warm-weather backpackers.",
+    "body": "Wear it, rinse it, and accept that it'll smell before a merino shirt would. It's the right fabric when you sweat hard and the shirt has to dry by morning. Cotton is still the one to leave at home once you're away from the car.",
+    "who": "If you backpack in warm weather, this is the shirt we'd wear.",
     "pros": [
       "Fast dry",
       "Light",
@@ -3421,8 +3421,8 @@ export const extraProducts: Product[] = [
     "limit": "Dries slower and costs more",
     "role": "Merino base tee",
     "summary": "A merino shirt for trips where you will wear the same layer for days.",
-    "body": "Merino is not magic. It dries slower than polyester and it costs more. It is the right buy if you refuse to rinse a shirt and you run cool. Size it so the hip belt does not ride the hem into a wedge.",
-    "who": "Hikers who hate synthetic smell.",
+    "body": "Merino isn't magic. It dries slower than polyester, and it costs more. It's the right buy if you refuse to rinse a shirt and you run cool. Size it so the hip belt doesn't ride the hem into a wedge.",
+    "who": "If you hate the way synthetic shirts smell, this is the layer we'd try.",
     "pros": [
       "Odor resistant",
       "Comfortable",
@@ -3463,8 +3463,8 @@ export const extraProducts: Product[] = [
     "limit": "Heavier than a summer tee",
     "role": "Value merino base",
     "summary": "A straightforward merino base layer for cool starts.",
-    "body": "This is the shirt to try before you buy a drawer of them. If you overheat, you wanted a lighter synthetic. If you love it, buy a second so one can be the dry camp shirt. That dry shirt is not optional on a cold trip.",
-    "who": "Beginners building layers.",
+    "body": "This is the shirt to try before you buy a drawer of them. If you overheat, you wanted a lighter synthetic. If you love it, buy a second so one can be the dry camp shirt. That dry shirt isn't optional on a cold trip.",
+    "who": "If you're just building your layers, this is the merino shirt we'd try first.",
     "pros": [
       "Fair price",
       "Useful weight",
@@ -3505,8 +3505,8 @@ export const extraProducts: Product[] = [
     "limit": "Not insulation",
     "role": "Sun hoodie",
     "summary": "A light hooded shirt that replaces sunscreen on your arms and neck.",
-    "body": "A sun hoodie is the most useful shirt in a lot of western kits. The hood fits under a hat or instead of one. It is not a warm layer at camp. Rinse salt out of it. A bug-proof weave is a different product if mosquitoes are the actual problem.",
-    "who": "Exposed trails in sun.",
+    "body": "A sun hoodie is the most useful shirt in a lot of western kits. The hood fits under a hat, or instead of one. It isn't a warm layer at camp. Rinse the salt out of it. A bug-proof weave is a different product if mosquitoes are the actual problem.",
+    "who": "If your trail is exposed and sunny, this is the shirt we'd wear.",
     "pros": [
       "UPF",
       "Hood",
@@ -3547,8 +3547,8 @@ export const extraProducts: Product[] = [
     "limit": "Too warm to hike hard",
     "role": "Winter-weight base",
     "summary": "A thicker synthetic base for cold starts and for sleeping if your bag is marginal.",
-    "body": "Do not hike uphill in this unless the air is actually cold. Sweat in a thermal layer is how you get cold later. It is a good sleep shirt if the bag is a little light and you keep it dry.",
-    "who": "Cold sleepers and shoulder-season starts.",
+    "body": "Don't hike uphill in this unless the air is actually cold. Sweat in a thermal layer is how you get cold later. It's a good sleep shirt if the bag is a little light and you keep it dry.",
+    "who": "If you sleep cold, or your shoulder-season mornings start chilly, this is the layer we'd pack.",
     "pros": [
       "Warm",
       "Fast dry versus merino",
@@ -3589,8 +3589,8 @@ export const extraProducts: Product[] = [
     "limit": "Too small until you add your own items",
     "role": "Starter first-aid kit",
     "summary": "A compact kit that covers blisters, small cuts, and almost nothing else until you add to it.",
-    "body": "Open it at home. Add leukotape, any personal medication, and an extra pair of gloves. Remove mystery pills you will not take. A kit you have not opened is a rock that happens to be red.",
-    "who": "Solo and pair backpackers.",
+    "body": "Open it at home. Add leukotape, any personal medication, and an extra pair of gloves. Take out mystery pills you won't take. A kit you haven't opened is a rock that happens to be red.",
+    "who": "If you hike solo or as a pair, this is the kit we'd start from.",
     "pros": [
       "Small",
       "Organized",
@@ -3598,7 +3598,7 @@ export const extraProducts: Product[] = [
     ],
     "cons": [
       "Incomplete for groups",
-      "You must add personal items"
+      "You've got to add your own personal items."
     ],
     "specs": [
       {
@@ -3631,8 +3631,8 @@ export const extraProducts: Product[] = [
     "limit": "Heavier, and still not a skill",
     "role": "Group first-aid kit",
     "summary": "A larger kit for groups who will be a day away from a road.",
-    "body": "Volume is not care. Take a wilderness first-aid course if you lead trips. The Mountain kit is a reasonable checklist. Add a real bleeding item you know how to use, a splint if you are going off trail, and your actual prescriptions.",
-    "who": "Groups on longer trips.",
+    "body": "Volume isn't care. Take a wilderness first-aid course if you lead trips. The Mountain kit is a reasonable checklist. Add a real bleeding item you know how to use, a splint if you're going off trail, and your actual prescriptions.",
+    "who": "If you're out with a group on a longer trip, this is the kit we'd build from.",
     "pros": [
       "More complete",
       "Organized",
@@ -3673,8 +3673,8 @@ export const extraProducts: Product[] = [
     "limit": "Sticks poorly without a tacky base on damp skin",
     "role": "Blister tape",
     "summary": "The tape that stays put when fabric bandages roll off.",
-    "body": "Apply it to dry skin at the first hot spot. A dab of tincture of benzoin helps. Do not wrap a toe so tightly you create a new problem. Practice at home so you are not fighting the roll in a thunderstorm.",
-    "who": "Every hiker.",
+    "body": "Put it on dry skin at the first hot spot. A dab of tincture of benzoin helps. Don't wrap a toe so tightly that you create a new problem. Practice at home so you're not fighting the roll in a thunderstorm.",
+    "who": "If you hike at all, we'd put a roll in the kit.",
     "pros": [
       "Stays on",
       "Low bulk",
@@ -3715,8 +3715,8 @@ export const extraProducts: Product[] = [
     "limit": "Useless if you do not know how to pad it",
     "role": "Malleable splint",
     "summary": "A flat splint you can shape, for trips where walking out is not guaranteed.",
-    "body": "This is not a solo-day-hike item for most people. It belongs in a group kit when you are far from a road. Learn a padding method. A splint on a nerve is not help. Take a class. Buying the splint is the easy part.",
-    "who": "Group leaders and remote trips.",
+    "body": "This isn't a solo day-hike item for most people. It belongs in a group kit when you're far from a road. Learn a padding method, because a splint on a nerve isn't help. Take a class. Buying the splint is the easy part.",
+    "who": "If you lead a group, or the trip is remote, this is the splint we'd carry.",
     "pros": [
       "Light for what it does",
       "Packable",
@@ -3754,11 +3754,11 @@ export const extraProducts: Product[] = [
     "priceBand": "Budget",
     "weight": "Under 1 oz",
     "bestFor": "A clean pair of hands for a messy cut",
-    "limit": "One pair is not a clinic",
+    "limit": "One pair isn't a clinic.",
     "role": "Disposable gloves",
     "summary": "Two gloves in a small bag so you are not putting trail hands into a wound.",
-    "body": "Replace them when the bag looks tired. Size them so you can actually wear them. This is a small, obvious item that kits love to skip. Add an alcohol pad only if you understand it stings tissue and is not the whole cleaning plan.",
-    "who": "Every kit.",
+    "body": "Replace them when the bag looks tired. Size them so you can actually wear them. This is a small, obvious item that kits love to skip. Add an alcohol pad only if you understand that it stings tissue and it isn't the whole cleaning plan.",
+    "who": "If you're packing a kit, we'd put a pair in it.",
     "pros": [
       "Tiny",
       "Important",
@@ -3799,8 +3799,8 @@ export const extraProducts: Product[] = [
     "limit": "Not a substitute for dinner",
     "role": "Electrolyte tablets",
     "summary": "A light way to put salts back when water alone is not the problem.",
-    "body": "Use them when you are a salty sweater or the day is hot and long. They are not food. They are not a reason to skip a salty snack. If they upset your stomach, try a different brand before a trip, not during one.",
-    "who": "Hot-weather hikers.",
+    "body": "Use them when you're a salty sweater, or the day is hot and long. They aren't food. They aren't a reason to skip a salty snack. If they upset your stomach, try a different brand before a trip, not during one.",
+    "who": "If you hike in the heat, these are the tablets we'd pack.",
     "pros": [
       "Light",
       "Portioned",
@@ -3841,8 +3841,8 @@ export const extraProducts: Product[] = [
     "limit": "Does not find the trail by itself",
     "role": "Baseplate compass",
     "summary": "A simple baseplate compass for taking a bearing off a map.",
-    "body": "A compass without a map skill is a necklace. Learn to orient the map and to follow a bearing in a park before you need it. Mirror sights are optional. This is enough. Declination matters. Set it or do the math on purpose.",
-    "who": "Hikers who are done trusting a single phone.",
+    "body": "A compass without a map skill is a necklace. Learn to orient the map, and to follow a bearing in a park, before you need it. Mirror sights are optional. This is enough. Declination matters. Set it, or do the math on purpose.",
+    "who": "If you're done trusting a single phone, this is the compass we'd learn on.",
     "pros": [
       "Baseplate",
       "Adjustable declination",
@@ -3883,8 +3883,8 @@ export const extraProducts: Product[] = [
     "limit": "Subscription and a clear view of the sky",
     "role": "Satellite messenger",
     "summary": "A small satellite communicator for check-ins and SOS, with a plan you pay monthly or annually.",
-    "body": "The Mini is not a map. It is a way to say you are late and a way to call for help. Leave the plan with a person who will notice. Test it before the trip. Trees and canyons delay messages. A messenger is not permission to hike past your skills.",
-    "who": "Remote hikers and anyone whose person at home worries accurately.",
+    "body": "The Mini isn't a map. It's a way to say you're late, and a way to call for help. Leave the plan with a person who'll notice. Try it before the trip. Trees and canyons delay messages. A messenger isn't permission to hike past your skills.",
+    "who": "If you hike where it's remote, or the person at home worries for a real reason, this is the messenger we'd carry.",
     "pros": [
       "Two-way text",
       "SOS",
@@ -3925,8 +3925,8 @@ export const extraProducts: Product[] = [
     "limit": "Slower to use than a phone app",
     "role": "Handheld GPS",
     "summary": "A simple GPS for people who want tracks and waypoints without a phone battery.",
-    "body": "Load maps at home. Learn the menu at home. A GPS in a pocket you have never opened is heavier than a paper map. AA lithium cells are the cold-weather choice. It will not send an SOS. Pair the idea with a messenger if the corridor is remote.",
-    "who": "Hikers who want a dedicated tracker.",
+    "body": "Load the maps at home. Learn the menu at home. A GPS in a pocket you've never opened is heavier than a paper map. AA lithium cells are the cold-weather choice. It won't send an SOS. Pair the idea with a messenger if the corridor is remote.",
+    "who": "If you want a dedicated tracker, this is the GPS we'd look at.",
     "pros": [
       "AA batteries",
       "Reliable tracks",
@@ -3964,18 +3964,18 @@ export const extraProducts: Product[] = [
     "priceBand": "Budget",
     "weight": "About 2 oz",
     "bestFor": "A paper map that survives a rain squall",
-    "limit": "One map does not cover every trailhead",
+    "limit": "One map doesn't cover every trailhead.",
     "role": "Waterproof paper map",
     "summary": "A printed map for the park you are actually visiting.",
-    "body": "Buy the sheet for the trail, not a state road map. Fold it so the relevant panel is out, and keep it in a pocket you will use. A paper map still needs a compass skill. It works when the phone does not.",
-    "who": "Day hikers and backpackers on a known park.",
+    "body": "Buy the sheet for the trail, not a state road map. Fold it so the relevant panel is out, and keep it in a pocket you'll actually use. A paper map still needs a compass skill. It works when the phone doesn't.",
+    "who": "If you're day hiking or backpacking in a park you know, this is the map we'd carry.",
     "pros": [
       "No battery",
       "Waterproof paper",
       "Contour lines"
     ],
     "cons": [
-      "You must buy the right sheet",
+      "You've got to buy the right sheet.",
       "Does not update closures"
     ],
     "specs": [
@@ -4009,8 +4009,8 @@ export const extraProducts: Product[] = [
     "limit": "Not a locator",
     "role": "Signaling whistle",
     "summary": "Three blasts is a distress signal. A whistle carries farther than your voice.",
-    "body": "Put it on the shoulder strap, not in the bottom of the pack. A pea whistle can freeze. A pealess one is the usual pick. Teach kids what three blasts means and when not to practice it.",
-    "who": "Everyone.",
+    "body": "Put it on the shoulder strap, not in the bottom of the pack. A pea whistle can freeze. A pealess one is the usual pick. Teach kids what three blasts means, and when not to practice it.",
+    "who": "If you're heading out, we'd clip one on.",
     "pros": [
       "Tiny",
       "Loud",
@@ -4051,8 +4051,8 @@ export const extraProducts: Product[] = [
     "limit": "Tight for two people",
     "role": "Solo titanium pot",
     "summary": "A light pot with a lid, big enough for one freeze-dried meal and a drink.",
-    "body": "Titanium does not love a tiny flame spot. A pot cozy saves fuel after the boil. This is the wrong pot for frying and the wrong pot for a couple unless you enjoy taking turns. A long spoon matters more than a fancy lid.",
-    "who": "Solo backpackers.",
+    "body": "Titanium doesn't love a tiny flame spot. A pot cozy saves fuel after the boil. This is the wrong pot for frying, and the wrong pot for a couple unless you enjoy taking turns. A long spoon matters more than a fancy lid.",
+    "who": "If you backpack solo, this is the pot we'd boil in.",
     "pros": [
       "Light",
       "Lid",
@@ -4093,8 +4093,8 @@ export const extraProducts: Product[] = [
     "limit": "Price versus TOAKS",
     "role": "Tough solo pot",
     "summary": "A small titanium pot from a stove company, with a lid that can be a plate.",
-    "body": "Functionally close to other 750-900 ml pots. Buy it if you like the lid and the durability. Do not expect it to simmer like a steel pan. A cozy still helps. Metal handles need a bandana or a careful hand.",
-    "who": "Solo hikers who boil.",
+    "body": "It's functionally close to other 750-900 ml pots. Buy it if you like the lid and the durability. Don't expect it to simmer like a steel pan. A cozy still helps. Metal handles need a bandana or a careful hand.",
+    "who": "If you hike solo and you mostly boil, this is the pot we'd buy.",
     "pros": [
       "Durable",
       "Useful lid",
@@ -4135,8 +4135,8 @@ export const extraProducts: Product[] = [
     "limit": "Heavier than titanium",
     "role": "Aluminum pot for two",
     "summary": "A wider, cheaper pot when two people share dinner.",
-    "body": "Aluminum is heavier than titanium and kinder on a bad flame. This is the pot for a pair who rehydrate. If you want to brown food, you want a different pan and a simmering stove, and you should admit that at the planning table.",
-    "who": "Pairs.",
+    "body": "Aluminum is heavier than titanium, and it's kinder on a bad flame. This is the pot for a pair who rehydrate. If you want to brown food, you want a different pan and a simmering stove, and you should say so while you're still planning.",
+    "who": "If there are two of you, this is the pot we'd share.",
     "pros": [
       "Fair price",
       "Better for two",
@@ -4177,8 +4177,8 @@ export const extraProducts: Product[] = [
     "limit": "Short spoons waste food",
     "role": "Long spoon",
     "summary": "A spoon long enough for a freeze-dried bag.",
-    "body": "This is a ridiculous item to skip. A spork that is too short makes you squeeze the bag and wear dinner. Titanium is light. A cheap long plastic spoon also works and can go in a bear can without drama. Bring one per person.",
-    "who": "Anyone eating from a pouch.",
+    "body": "This is a ridiculous item to skip. A spork that's too short makes you squeeze the bag and wear dinner. Titanium is light. A cheap long plastic spoon also works, and it can go in a bear can without drama. Bring one per person.",
+    "who": "If you eat from a pouch, this is the spoon we'd pack.",
     "pros": [
       "Solves a real annoyance",
       "Almost no weight",
@@ -4219,8 +4219,8 @@ export const extraProducts: Product[] = [
     "limit": "Heavy and bulky",
     "role": "Clear bear canister",
     "summary": "A common canister that rangers know, sized for several days for one person.",
-    "body": "If the regulation says canister, a hang is not a clever alternative. The BV500 is bulky in a small pack. Pack it vertical and plan the volume before you buy a 40-liter pack. Learn the opening method at home. Some versions are fiddly with cold hands.",
-    "who": "Sierra trips and anywhere a canister is mandatory.",
+    "body": "If the regulation says canister, a hang isn't a clever alternative. The BV500 is bulky in a small pack. Pack it vertical, and plan the volume before you buy a 40-liter pack. Learn the opening method at home. Some versions are fiddly with cold hands.",
+    "who": "If you're headed for the Sierra, or anywhere a canister is mandatory, this is the can we'd carry.",
     "pros": [
       "Often approved",
       "See-through",
@@ -4261,8 +4261,8 @@ export const extraProducts: Product[] = [
     "limit": "Not legal everywhere a canister is required",
     "role": "Soft bear-resistant bag",
     "summary": "A lighter food bag that is allowed in some places and forbidden in others.",
-    "body": "Check the regulation. An Ursack is not a universal canister replacement. Tie it correctly to the object the instructions name. It will not stop a determined animal if you do it wrong, and it will not stop mice inside your tent. Do not keep food in the tent because the bag feels soft.",
-    "who": "Hikers in Ursack-legal areas.",
+    "body": "Check the regulation first. An Ursack isn't a universal canister replacement. Tie it correctly to the object the instructions name. It won't stop a determined animal if you do it wrong, and it won't stop mice inside your tent. Don't keep food in the tent just because the bag feels soft.",
+    "who": "If you're hiking where an Ursack is legal, this is the bag we'd use.",
     "pros": [
       "Much lighter than a canister",
       "Packable",
@@ -4303,8 +4303,8 @@ export const extraProducts: Product[] = [
     "limit": "Not a bear canister",
     "role": "Odor-barrier bag",
     "summary": "A roll-top odor bag used inside an approved storage method.",
-    "body": "An OPsak does not replace a canister or a legal hang. It reduces odor inside the legal container. Replace it when it is full of pinholes. Never store food in your sleeping bag because a bag claims to be smell-proof.",
-    "who": "Anyone storing food in the backcountry.",
+    "body": "An OPsak doesn't replace a canister or a legal hang. It cuts down the odor inside the legal container. Replace it when it's full of pinholes. Never store food in your sleeping bag because a bag claims to be smell-proof.",
+    "who": "If you store food in the backcountry, we'd tuck one inside the legal container.",
     "pros": [
       "Light",
       "Adds a barrier",
@@ -4345,8 +4345,8 @@ export const extraProducts: Product[] = [
     "limit": "Not for steep ice or hard water ice",
     "role": "Default microspikes",
     "summary": "Chains with small spikes that turn a hiking shoe into a better ice walker.",
-    "body": "Use them on packed snow and moderate ice. Take them off on dry rock so you do not skate or damage the chain. They are not crampons. If the route is steep enough to warrant an ice axe, turn around or bring the real tools and the skill. Size them to the shoe.",
-    "who": "Shoulder-season hikers on icy trails.",
+    "body": "Use them on packed snow and moderate ice. Take them off on dry rock so you don't skate or damage the chain. They aren't crampons. If the route is steep enough to warrant an ice axe, turn around, or bring the real tools and the skill. Size them to the shoe.",
+    "who": "If your shoulder-season trails turn icy, these are the spikes we'd pack.",
     "pros": [
       "Stable on packed ice",
       "Fit over hiking shoes",
@@ -4387,8 +4387,8 @@ export const extraProducts: Product[] = [
     "limit": "Still not a mountaineering crampon",
     "role": "Aggressive trail spikes",
     "summary": "A spikier traction device for longer snow approaches.",
-    "body": "These are still trail tools. They bite more than a basic coil and less than a real crampon with a front point you can kick. Know the terrain. If you are front-pointing, you are in the wrong category of both gear and trip.",
-    "who": "Hikers with long icy trail sections.",
+    "body": "These are still trail tools. They bite more than a basic coil, and less than a real crampon with a front point you can kick. Know the terrain. If you're front-pointing, you're in the wrong category of both gear and trip.",
+    "who": "If your hike has long icy sections, these are the spikes we'd look at.",
     "pros": [
       "More bite",
       "Straps over boots",
@@ -4429,8 +4429,8 @@ export const extraProducts: Product[] = [
     "limit": "Overkill in summer dust",
     "role": "Tall hiking gaiters",
     "summary": "A tall gaiter for snow and loose rock.",
-    "body": "Use a tall gaiter when debris or snow is above the ankle. A short dirty-girl style gaiter is enough for dust on runners and weighs less. Waterproof gaiters do not dry a soaked boot. They delay the flood.",
-    "who": "Snow hikes and scrambles.",
+    "body": "Use a tall gaiter when the debris or the snow is above your ankle. A short dirty-girl style gaiter is enough for dust on runners, and it weighs less. Waterproof gaiters don't dry a soaked boot. They just delay the flood.",
+    "who": "If you're in snow, or you're scrambling, these are the gaiters we'd wear.",
     "pros": [
       "Keeps debris out",
       "Durable",
@@ -4468,11 +4468,11 @@ export const extraProducts: Product[] = [
     "priceBand": "Budget",
     "weight": "About 8 oz a pair",
     "bestFor": "Icy sidewalks and very mild trail",
-    "limit": "Coils shred on rock and slip on steep ice",
+    "limit": "The coils shred on rock and slip on steep ice.",
     "role": "Coil traction",
     "summary": "A lightweight coil for sidewalk ice, not for a mountain trail.",
-    "body": "Yaktrax belong in a winter car kit for icy parking lots. On rocky trail the coils break and the grip is worse than microspikes. Do not let the low price talk you into a trip that needed Kahtoolas.",
-    "who": "Neighborhood ice and emergency car kits.",
+    "body": "Yaktrax belong in a winter car kit for icy parking lots. On rocky trail the coils break, and the grip is worse than microspikes. Don't let the low price talk you into a trip that needed Kahtoolas.",
+    "who": "If the ice is around the neighborhood, or you want a spare in the car, these are what we'd stash.",
     "pros": [
       "Light",
       "Cheap",
@@ -4513,8 +4513,8 @@ export const extraProducts: Product[] = [
     "limit": "Too much for a bare icy sidewalk, too little for technical mountaineering",
     "role": "Recreational snowshoes",
     "summary": "A standard snowshoe for winter trails when you are postholing without them.",
-    "body": "Snowshoes are for soft snow. Spikes are for hard ice. Carrying both is sometimes the honest winter day hike. The Evo is a common fit for average loads. Do not wear them on a packed, icy sidewalk and expect magic. Use poles.",
-    "who": "Winter hikers in soft snow.",
+    "body": "Snowshoes are for soft snow. Spikes are for hard ice. Carrying both is sometimes the honest winter day hike. The Evo is a common fit for average loads. Don't wear them on a packed, icy sidewalk and expect magic. Use your poles.",
+    "who": "If you hike in winter and the snow is soft, these are the snowshoes we'd use.",
     "pros": [
       "Televator for climbs",
       "Durable",
@@ -4552,11 +4552,11 @@ export const extraProducts: Product[] = [
     "priceBand": "Budget mid",
     "weight": "About 3 oz",
     "bestFor": "Side sleepers who will not use a stuff sack",
-    "limit": "A pillow is a luxury until your neck says otherwise",
+    "limit": "A pillow's a luxury until your neck says otherwise.",
     "role": "Inflatable pillow",
     "summary": "A small inflatable pillow that replaces a lumpy stuff sack.",
-    "body": "Inflate it less than you think. A rock-hard pillow is worse than a jacket. It punctures. The repair kit for your pad can often help, and you should still not put it on a cactus. Side sleepers benefit more than back sleepers.",
-    "who": "Anyone who sleeps badly on a jacket.",
+    "body": "Inflate it less than you think. A rock-hard pillow is worse than a jacket. It can puncture. The repair kit for your pad can often help, and you still shouldn't set it on a cactus. Side sleepers get more from it than back sleepers do.",
+    "who": "If you sleep badly on a jacket, this is the pillow we'd try.",
     "pros": [
       "Light",
       "Packable",
@@ -4594,11 +4594,11 @@ export const extraProducts: Product[] = [
     "priceBand": "Budget",
     "weight": "About 0.6 oz",
     "bestFor": "A cat hole tool that is actually pleasant to use",
-    "limit": "You still have to dig the hole",
+    "limit": "You'll still have to dig the hole.",
     "role": "Titanium trowel",
     "summary": "A light trowel for digging a proper cathole.",
-    "body": "Leave No Trace wants human waste buried in a hole the right depth, the right distance from water, and covered. A tent stake is a worse trowel. Know whether the land you are on requires a wag bag instead. Some alpine and desert areas do. The trowel is not permission to ignore the rule.",
-    "who": "Backpackers on trails that allow catholes.",
+    "body": "Leave No Trace wants human waste buried in a hole of the right depth, the right distance from water, and then covered. A tent stake is a worse trowel. Know whether the land you're on requires a wag bag instead. Some alpine and desert areas do. The trowel isn't permission to ignore the rule.",
+    "who": "If your trail allows catholes, this is the trowel we'd carry.",
     "pros": [
       "Light",
       "Effective",
@@ -4639,8 +4639,8 @@ export const extraProducts: Product[] = [
     "limit": "Heavy and silly on a long trail",
     "role": "Camp clog",
     "summary": "A waterproof-ish camp shoe for picnic-table camps, not for a 15-mile carry.",
-    "body": "Bring them when the car is close. They let you dry your hiking shoes and walk the campground without socks full of gravel. On a backpacking trip they are an indulgence unless your feet are destroyed and the miles are short. Crocs are the usual version people mean.",
-    "who": "Car campers.",
+    "body": "Bring them when the car is close. They let you dry your hiking shoes and walk the campground without socks full of gravel. On a backpacking trip they're an indulgence, unless your feet are wrecked and the miles are short. Crocs are the usual version people mean.",
+    "who": "If you camp by the car, these are the camp shoes we'd toss in.",
     "pros": [
       "Easy on and off",
       "Dry-ish",
@@ -4678,11 +4678,11 @@ export const extraProducts: Product[] = [
     "priceBand": "Mid",
     "weight": "About 5.3 oz",
     "bestFor": "Phone maps and a rechargeable headlamp",
-    "limit": "A battery is not a paper map",
+    "limit": "A battery isn't a paper map.",
     "role": "Power bank",
     "summary": "A compact power bank for a weekend of navigation and a lamp.",
-    "body": "Charge it before you leave. Cold reduces what you get back out. Do not plan a week on one brick if the phone is your only map. A paper backup still matters. Watch airline rules if you travel with it, and do not put it in checked baggage.",
-    "who": "Weekenders who navigate by phone.",
+    "body": "Charge it before you leave. Cold cuts what you get back out. Don't plan a week on one brick if the phone is your only map. A paper backup still matters. Watch the airline rules if you travel with it, and don't put it in checked baggage.",
+    "who": "If you navigate by phone on a weekend, this is the battery we'd pack.",
     "pros": [
       "High capacity for the size",
       "Enough for a weekend",
@@ -4723,8 +4723,8 @@ export const extraProducts: Product[] = [
     "limit": "Overkill for a backyard canopy on calm nights",
     "role": "Y-stake",
     "summary": "A stake that holds in normal soil better than a bent hook.",
-    "body": "Light shelters fail because of bad stakes more often than bad poles. Buy the stakes your shelter maker expects, in a length that matches the soil. Rocky ground needs a different plan, sometimes a rock and a loop, not a harder hammer swing. Carry a few spares.",
-    "who": "Anyone pitching a trekking-pole tent.",
+    "body": "Light shelters fail from bad stakes more often than from bad poles. Buy the stakes your shelter maker expects, in a length that matches the soil. Rocky ground needs a different plan, sometimes a rock and a loop, not a harder swing of the hammer. Carry a few spares.",
+    "who": "If you're pitching a trekking-pole tent, these are the stakes we'd bring.",
     "pros": [
       "Holds",
       "Light enough",
@@ -4765,8 +4765,8 @@ export const extraProducts: Product[] = [
     "limit": "Useless in wind and in dense forest",
     "role": "Hiking umbrella",
     "summary": "A sun and light-rain tool for desert and open trail, not for a storm above treeline.",
-    "body": "An umbrella is a regional tool. In the desert it can replace some of the sun hoodie duty and keep you cooler. In wind it becomes a sail. Do not lash it to a trekking-pole tent pitch and expect a stormproof system. Silver exteriors reflect more sun.",
-    "who": "Desert and open-country hikers.",
+    "body": "An umbrella is a regional tool. In the desert it can replace some of the sun hoodie duty and keep you cooler. In wind it becomes a sail. Don't lash it to a trekking-pole tent and expect a stormproof system. Silver exteriors reflect more sun.",
+    "who": "If you hike in the desert or in open country, this is the umbrella we'd carry.",
     "pros": [
       "Shade",
       "Light rain",
@@ -4804,11 +4804,11 @@ export const extraProducts: Product[] = [
     "priceBand": "Budget",
     "weight": "About 1 oz",
     "bestFor": "Mosquito country when a hoodie is not enough",
-    "limit": "You will hate cooking in it, and you should still own it",
+    "limit": "You'll hate cooking in it, and we'd still own one.",
     "role": "Head net",
     "summary": "A fine mesh net that saves a trip when the mosquitoes are a cloud.",
-    "body": "Pack it in the shoulder season near still water even if you feel dramatic. Treat the clothing, not only your skin, if the bugs are serious. A head net over a sun hoodie and a brimmed hat works better than a net on a bare head. It is not a shelter.",
-    "who": "Buggy trips.",
+    "body": "Pack it in the shoulder season near still water, even if you feel a little dramatic. Treat the clothing, not only your skin, if the bugs are serious. A head net over a sun hoodie and a brimmed hat works better than a net on a bare head. It isn't a shelter.",
+    "who": "If the trip is buggy, this is the net we'd pack.",
     "pros": [
       "Tiny",
       "Effective",
@@ -4849,8 +4849,8 @@ export const extraProducts: Product[] = [
     "limit": "Not a balaclava for a blizzard",
     "role": "Neck gaiter",
     "summary": "A tube of fabric for sun on the neck, dust, and a cool camp.",
-    "body": "A merino or synthetic gaiter is more useful than a cotton bandana that stays wet. Pull it over your ears in camp. It is not insulation for a winter ridge. Wash it. Sunscreen plus a gaiter beats sunscreen dripping into your eyes.",
-    "who": "Most three-season kits.",
+    "body": "A merino or synthetic gaiter is more useful than a cotton bandana that stays wet. Pull it over your ears in camp. It isn't insulation for a winter ridge. Wash it. Sunscreen plus a gaiter beats sunscreen dripping into your eyes.",
+    "who": "If you're packing a three-season kit, we'd put one in.",
     "pros": [
       "Versatile",
       "Light",
@@ -4891,8 +4891,8 @@ export const extraProducts: Product[] = [
     "limit": "Car only",
     "role": "Roll-top camp table",
     "summary": "A table that turns a tailgate kitchen into a kitchen.",
-    "body": "Cook at standing height and you will actually wash dishes. A low picnic table that is already at the site makes this redundant. If the site has no table, this is the piece that matters more than a new lantern. It lives in the car.",
-    "who": "Car campers.",
+    "body": "Cook at standing height and you'll actually wash the dishes. A low picnic table that's already at the site makes this redundant. If the site has no table, this matters more than a new lantern. It lives in the car.",
+    "who": "If you camp by the car and you want a surface to cook on, this is the table we'd bring.",
     "pros": [
       "Standing height",
       "Packs into a bag",
@@ -4933,8 +4933,8 @@ export const extraProducts: Product[] = [
     "limit": "Absurd to carry",
     "role": "Folding cot",
     "summary": "A cot for people who do not sleep well on the ground and are parked next to the tent.",
-    "body": "Use a pad on the cot. A cot alone is cold because air moves under you. This is a comfort tool for adult car campers, not for kids' first backpacking nights. Check the tent width before you buy two.",
-    "who": "Car campers who hate ground sleeping.",
+    "body": "Use a pad on the cot. A cot alone is cold, because air moves under you. This is a comfort tool for an adult who camps by the car, not for a kid's first backpacking night. Check the tent width before you buy two.",
+    "who": "If you camp by the car and you hate sleeping on the ground, this is the cot we'd bring.",
     "pros": [
       "Off the ground",
       "Packs into the car",
@@ -4975,8 +4975,8 @@ export const extraProducts: Product[] = [
     "limit": "Slow, and it tastes like a percolator",
     "role": "Stove-top percolator",
     "summary": "A simple percolator for a two-burner stove when a pour-over feels fussy.",
-    "body": "This is a car-camping ritual, not a backpacking item. It wants a real burner and patience. Backpackers should make coffee in the pot they already boil. Do not start a campfire just to justify a blue enamel pot if the site has a stove and a fire ban.",
-    "who": "Car-camping coffee people.",
+    "body": "This is a car-camping ritual, not a backpacking item. It wants a real burner and some patience. If you're backpacking, make the coffee in the pot you already boil. Don't start a campfire just to justify a blue enamel pot if the site has a stove and a fire ban.",
+    "who": "If you camp by the car and the coffee is the point, this is the pot we'd bring.",
     "pros": [
       "Group sized",
       "No pods",

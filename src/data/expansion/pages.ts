@@ -8,26 +8,26 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best solo backpacking tents",
     "kicker": "Roundup · Shelters",
     "category": "tents",
-    "answer": "For most solo hikers, buy a double-wall trekking-pole tent if you can stake, and a single-wall tent only after you have slept in condensation. The Durston X-Mid 1 is the default. The Tarptent Protrail is the budget single-wall. The Lunar Solo stays in the conversation when you want a simple one-person pitch you already understand.",
-    "who": "Solo backpackers on three-season trails. Not a couple sharing a one-person floor, and not a winter route.",
+    "answer": "If you're hiking solo and you can stake, we'd start with a double-wall trekking-pole tent. We'd only go single-wall after you've already slept with condensation. The Durston X-Mid 1 is the one we'd default to. The Tarptent Protrail is the budget single-wall. The Lunar Solo stays in the mix if you want a simple one-person pitch you already know.",
+    "who": "This is for you if you're backpacking solo on three-season trails. It isn't for two of you on a one-person floor, and it isn't a winter route.",
     "productSlugs": [
       "x-mid-1",
       "protrail",
       "lunar-solo"
     ],
-    "one": "Buy the X-Mid 1 if you carry two poles and camp on soil. Buy the Protrail only if you accept single-wall condensation and a smaller porch.",
+    "one": "We'd buy the X-Mid 1 if you carry two poles and camp on soil. We'd buy the Protrail only if you're fine with single-wall condensation and a smaller porch.",
     "faqs": [
       {
         "q": "Is a one-person tent too small?",
-        "a": "For one still sleeper, no. If you dress inside the tent or sit out storms, a two-person floor is kinder."
+        "a": "For one still sleeper, no. If you get dressed inside, or you sit out storms, a two-person floor is kinder."
       },
       {
         "q": "Do I need two poles?",
-        "a": "The X-Mid 1 does. The Protrail is designed around one pole plus stakes."
+        "a": "The X-Mid 1 does. The Protrail is built around one pole plus stakes."
       },
       {
         "q": "What about bugs?",
-        "a": "These are tents with netting, not tarps. A tarp-only pitch is a separate, buggier skill."
+        "a": "These are tents with netting, not tarps. A tarp-only pitch is a separate skill, and it's buggier."
       }
     ],
     "related": [
@@ -44,18 +44,18 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best budget backpacking packs",
     "kicker": "Roundup · Packs",
     "category": "packs",
-    "answer": "If you are buying your first real pack, get a framed pack that fits your torso and matches your sleep system. The Granite Gear Crown3 60 is the light default. The REI Flash 55 is the easy-to-return alternative. The Trail 40 is only enough if your kit is already compact.",
-    "who": "Beginners spending less than a premium Osprey or Gregory, with loads that are not winter-heavy.",
+    "answer": "If you're buying your first real pack, we'd get a framed one that fits your torso and matches your sleep system. The Granite Gear Crown3 60 is the light one we'd start with. The REI Flash 55 is the easy one to return. The Trail 40 is only enough if your kit is already compact.",
+    "who": "This is for you if you're starting out, spending less than a premium Osprey or Gregory, and your loads aren't winter-heavy.",
     "productSlugs": [
       "crown-60",
       "flash-55",
       "rei-trail-40"
     ],
-    "one": "Buy the Crown if the hip belt feels fine with 25 pounds. Buy the Flash 55 if you want a shop return policy more than the lightest frame.",
+    "one": "We'd buy the Crown if the hip belt feels fine with 25 pounds. We'd buy the Flash 55 if a shop return policy matters more to you than the lightest frame.",
     "faqs": [
       {
         "q": "Is frameless lighter and therefore better?",
-        "a": "Only after your kit is light. A frameless pack with a heavy bag hurts."
+        "a": "Only after your kit is already light. A frameless pack with a heavy bag hurts."
       },
       {
         "q": "What volume do I need?",
@@ -63,7 +63,7 @@ export const extraRoundups: Roundup[] = [
       },
       {
         "q": "Should the hip belt carry the weight?",
-        "a": "Yes. If the weight is on your shoulders in the shop, the size is wrong or the pack is wrong."
+        "a": "Yes. If the weight sits on your shoulders in the shop, the size is wrong, or the pack is."
       }
     ],
     "related": [
@@ -80,25 +80,25 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best women's backpacking packs",
     "kicker": "Roundup · Packs",
     "category": "packs",
-    "answer": "Try the Osprey Aura AG 65 and the Gregory Deva 60 with the same weight. One will match your hip and torso and the other will not, and a unisex pack is not a shortcut. Buy the one that puts the load on the hip belt without a pressure point.",
-    "who": "Women carrying a full weekend or week. Not a gram-counting kit that would rather have a ULA or a Kakwa.",
+    "answer": "Try the Osprey Aura AG 65 and the Gregory Deva 60 with the same weight on your back. One will match your hips and torso, and the other won't. A unisex pack isn't a shortcut. We'd buy the one that puts the load on the hip belt without a pressure point.",
+    "who": "This is for you if you're carrying a full weekend or a week. It isn't the pick if you're counting grams and you'd rather have a ULA or a Kakwa.",
     "productSlugs": [
       "aura-65",
       "deva-60"
     ],
-    "one": "If you overheat against a flat back panel, start with the Aura. If you want a denser, more supportive carry, start with the Deva. Fit both if you can.",
+    "one": "If you overheat against a flat back panel, we'd start with the Aura. If you want a denser, more supportive carry, we'd start with the Deva. Fit both if you can.",
     "faqs": [
       {
         "q": "Are women's packs just shorter?",
-        "a": "No. Hip belt angle, shoulder straps, and torso range differ. Length is only one part."
+        "a": "No. The hip belt angle, the shoulder straps, and the torso range all differ. Length is only one part of it."
       },
       {
         "q": "Can a woman wear the Atmos?",
-        "a": "If the hip belt and torso actually fit. Many do not, which is why the Aura exists."
+        "a": "Yes, if the hip belt and the torso actually fit you. A lot of them don't, which is why the Aura exists."
       },
       {
         "q": "Is 60 liters too big?",
-        "a": "For a bulky kit, no. For a quilt and a slim pad, yes. Empty volume becomes extra gear."
+        "a": "For a bulky kit, no. For a quilt and a slim pad, yes. Empty volume turns into extra gear."
       }
     ],
     "related": [
@@ -115,8 +115,8 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best camping hammocks",
     "kicker": "Roundup · Hammocks",
     "category": "hammocks",
-    "answer": "A hammock is not a bed until it has an underquilt, a tarp, and tree-safe straps. Start with an ENO DoubleNest only if you are testing the lay. Sleep in a Warbonnet Blackbird XLC or a Dutchware Chameleon, and buy a Hammock Gear underquilt in the same trip to the checkout.",
-    "who": "People with legal trees at the right spacing. Not desert campers, and not a first night if you have never pitched the tarp.",
+    "answer": "A hammock isn't a bed until you've got an underquilt, a tarp, and tree-safe straps. We'd start with an ENO DoubleNest only if you're testing the lay. For sleeping, we'd pick a Warbonnet Blackbird XLC or a Dutchware Chameleon, and we'd add a Hammock Gear underquilt at the same checkout.",
+    "who": "This is for you if you've got legal trees at the right spacing. It isn't for a desert camp, and it isn't a first night if you've never pitched the tarp.",
     "productSlugs": [
       "eno-doublenest",
       "blackbird-xlc",
@@ -125,19 +125,19 @@ export const extraRoundups: Roundup[] = [
       "hg-econ",
       "superfly"
     ],
-    "one": "If you already know you like hammocks, buy the Blackbird and a full-length underquilt. Buy the ENO only as a cheap experiment, and do not take it into a cold night alone.",
+    "one": "If you already know you like hammocks, we'd buy the Blackbird and a full-length underquilt. We'd buy the ENO only as a cheap experiment. Honestly, we wouldn't take it into a cold night alone.",
     "faqs": [
       {
         "q": "Can I use a sleeping pad instead of an underquilt?",
-        "a": "You can, and it will slide. An underquilt is the piece that stays under you."
+        "a": "You can, and it'll slide. An underquilt is the piece that stays under you."
       },
       {
         "q": "Do I need a tarp?",
-        "a": "Yes, unless you enjoy a weather experiment. A hammock tarp with doors is worth it in wind-driven rain."
+        "a": "Yes, unless you feel like running a weather experiment. A hammock tarp with doors is worth it when the rain comes sideways."
       },
       {
         "q": "Will it hurt my shoulders?",
-        "a": "Lie on a diagonal. A banana lay is a setup problem, not a reason to buy a heavier bridge yet."
+        "a": "Lie on a diagonal and it shouldn't. A banana lay is a setup problem, not a reason to buy a heavier bridge yet."
       }
     ],
     "related": [
@@ -154,19 +154,19 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best hiking socks",
     "kicker": "Roundup · Socks",
     "category": "socks",
-    "answer": "Buy the sock that matches the volume of the shoe you were fitted in. For most hikers that is a Darn Tough Hiker Micro Crew. Use a lighter Darn Tough or a Smartwool if the shoe is tight. Add an Injinji liner only if your toes rub each other.",
-    "who": "Hikers who already have a shoe that fits. A sock will not widen a narrow boot.",
+    "answer": "Get the sock that matches the volume of the shoe you were fitted in. For most hikers, that's a Darn Tough Hiker Micro Crew. We'd use a lighter Darn Tough or a Smartwool if the shoe is tight. Add an Injinji liner only if your toes rub each other.",
+    "who": "This is for you if you already have a shoe that fits. A sock won't widen a narrow boot.",
     "productSlugs": [
       "darn-tough-hiker",
       "smartwool-hike",
       "darn-tough-light",
       "injinji-liner"
     ],
-    "one": "One pair of Darn Tough Hiker Micro Crew cushions, plus a spare in the pack, is the default. Add the liner only after a day hike proves your toes are the problem.",
+    "one": "One pair of Darn Tough Hiker Micro Crew cushions, plus a spare in your pack, is what we'd start with. Add the liner only after a day hike shows your toes are the problem.",
     "faqs": [
       {
         "q": "Does merino stop blisters?",
-        "a": "It manages moisture. Blisters are mostly friction from a bad fit or a wet sock you did not change."
+        "a": "It manages moisture. Blisters are mostly friction from a bad fit, or from a wet sock you didn't change."
       },
       {
         "q": "How many pairs?",
@@ -191,8 +191,8 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best hiking base layers",
     "kicker": "Roundup · Base layers",
     "category": "base",
-    "answer": "For hot miles, buy a synthetic shirt that dries quickly, such as Capilene Cool. For multi-day wear where smell matters, buy a light merino such as Icebreaker 175 or REI Merino 185. On exposed sun, an Outdoor Research Echo hoody replaces a lot of sunscreen.",
-    "who": "Hikers building a layering system. Not a substitute for a rain shell or a camp puffy.",
+    "answer": "For hot miles, we'd buy a synthetic shirt that dries quickly, such as Capilene Cool. For multi-day wear where smell matters, we'd buy a light merino such as Icebreaker 175 or REI Merino 185. On bright, exposed sun, an Outdoor Research Echo hoody replaces a lot of sunscreen.",
+    "who": "This is for you if you're building a layering system. It isn't a stand-in for a rain shell or a camp puffy.",
     "productSlugs": [
       "capilene-cool",
       "icebreaker-175",
@@ -200,19 +200,19 @@ export const extraRoundups: Roundup[] = [
       "echo-hoodie",
       "capilene-thermal"
     ],
-    "one": "Buy the sun hoodie first if your trips are bright and dry. Buy merino if you refuse to rinse shirts. Buy synthetic if you soak a shirt by noon and need it dry by evening.",
+    "one": "We'd buy the sun hoodie first if your trips are bright and dry. We'd buy merino if you won't rinse shirts. We'd buy synthetic if you soak a shirt by noon and need it dry by evening.",
     "faqs": [
       {
         "q": "Is cotton ever fine?",
-        "a": "At a drive-up campground, yes. Once you are walking away from the car in cool weather, no."
+        "a": "At a drive-up campground, yes. Once you're walking away from the car in cool weather, no."
       },
       {
         "q": "Can I sleep in my hiking shirt?",
-        "a": "Only if it is dry. Carry one shirt that does not get hiked in."
+        "a": "Only if it's dry. Carry one shirt that doesn't get hiked in."
       },
       {
         "q": "Do I need a thermal layer?",
-        "a": "When you start cold or your bag is a little light. Not for a mild summer climb."
+        "a": "When you start cold, or your bag is a little light. Not for a mild summer climb."
       }
     ],
     "related": [
@@ -229,8 +229,8 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best backpacking first aid kits",
     "kicker": "Roundup · First aid",
     "category": "aid",
-    "answer": "Buy a small kit and then change it. The Adventure Medical Ultralight .5 is the solo starting point. Add leukotape and your own medications. The Mountain series is for groups that will be a day from a road. A SAM Splint belongs in that group kit only if someone knows how to pad it. A kit does not replace a course.",
-    "who": "Hikers willing to open the pouch before the trip. Not a medical curriculum.",
+    "answer": "We'd buy a small kit, then change it to match your trip. The Adventure Medical Ultralight .5 is where we'd start for solo. Add leukotape and the medicine you already take. The Mountain series is for a group that'll be a day from a road. A SAM Splint belongs in that group kit only if someone knows how to pad it. Here's the catch: a kit doesn't replace a course.",
+    "who": "This is for you if you'll open the pouch before the trip. It isn't a medical class.",
     "productSlugs": [
       "amk-ul-5",
       "amk-mountain",
@@ -239,19 +239,19 @@ export const extraRoundups: Roundup[] = [
       "nuun",
       "sam-splint"
     ],
-    "one": "For a solo weekend, buy the small kit and a roll of leukotape. Skip the big kit until you are responsible for other people.",
+    "one": "For a solo weekend, we'd buy the small kit and a roll of leukotape. Skip the big kit until you're responsible for other people.",
     "faqs": [
       {
         "q": "What should every kit have?",
-        "a": "Blister tape, gloves, a way to clean a small wound, and any personal medicine you actually take."
+        "a": "Blister tape, gloves, a way to clean a small wound, and any medicine you actually take."
       },
       {
         "q": "Are electrolyte tablets medical?",
-        "a": "No. They are for salty sweaters on hot days, and they are not a meal."
+        "a": "No. They're for salty sweat on a hot day, and they're not a meal."
       },
       {
         "q": "Do I need a splint?",
-        "a": "On a remote group trip, if you know how to pad it. Not because it was in a photo."
+        "a": "On a remote group trip, if you know how to pad it. Not just because it showed up in a photo."
       }
     ],
     "related": [
@@ -268,26 +268,26 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best bear canisters",
     "kicker": "Roundup · Cookware",
     "category": "cook",
-    "answer": "If the land manager requires a canister, buy a BearVault BV500 or another canister on that agency's list. An Ursack Major is lighter and is not a substitute where canisters are mandatory. An OPsak is an odor layer inside legal storage, not storage by itself.",
-    "who": "Hikers going anywhere with a food-storage rule. Not a style preference.",
+    "answer": "If the land manager requires a canister, we'd buy a BearVault BV500 or another canister on that agency's list. An Ursack Major is lighter, and it isn't a substitute where canisters are mandatory. An OPsak is an odor layer inside legal storage, not storage by itself.",
+    "who": "This is for you if you're going somewhere with a food-storage rule. It isn't a style choice.",
     "productSlugs": [
       "bv500",
       "ursack-major",
       "opsak"
     ],
-    "one": "Buy the BV500 when the permit or the park says canister. Check the Ursack map before you buy one to save weight.",
+    "one": "We'd buy the BV500 when the permit or the park says canister. Check the Ursack map before you buy one to save weight.",
     "faqs": [
       {
         "q": "Can I hang food instead?",
-        "a": "Only where hangs are allowed and the trees cooperate. A bad hang is how food ends up in camp."
+        "a": "Only where a hang is allowed and the trees cooperate. A bad hang is how food ends up in camp."
       },
       {
         "q": "Will a canister fit my pack?",
-        "a": "Try it before the trip. A 40-liter pack and a BV500 is a sad puzzle."
+        "a": "Try it in your pack before the trip. A 40-liter pack and a BV500 is a sad puzzle."
       },
       {
         "q": "Do I keep the canister in the tent?",
-        "a": "No. Sleep away from it, as the local rule describes."
+        "a": "No. Sleep away from it, the way the local rule describes."
       }
     ],
     "related": [
@@ -304,19 +304,19 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best backpacking pots",
     "kicker": "Roundup · Cookware",
     "category": "cook",
-    "answer": "Most backpacking dinners are boiling water. One person should buy a TOAKS 750 or an MSR Titan Kettle. Two people should buy a wider pot such as the GSI Halulite. A long spoon matters more than a second gadget.",
-    "who": "People who rehydrate meals. Not skillet cooks.",
+    "answer": "Most backpacking dinners are just boiling water. If it's only you, we'd buy a TOAKS 750 or an MSR Titan Kettle. If there are two of you, we'd buy a wider pot such as the GSI Halulite. A long spoon matters more than a second gadget.",
+    "who": "This is for you if you rehydrate meals. It isn't for skillet cooking.",
     "productSlugs": [
       "toaks-750",
       "titan-kettle",
       "halulite",
       "long-spoon"
     ],
-    "one": "Solo: TOAKS 750 and a long spoon. Pair: the Halulite. Do not buy a 750 ml pot and expect to fry eggs for two.",
+    "one": "If you're solo, a TOAKS 750 and a long spoon. If you're a pair, the Halulite. Don't buy a 750 ml pot and expect to fry eggs for two.",
     "faqs": [
       {
         "q": "Is titanium worth it?",
-        "a": "For one person counting grams, yes. For a pair, aluminum is kinder and cheaper."
+        "a": "If you're one person counting grams, yes. For a pair, aluminum is kinder and cheaper."
       },
       {
         "q": "Do I need a plate?",
@@ -324,7 +324,7 @@ export const extraRoundups: Roundup[] = [
       },
       {
         "q": "What about a cozy?",
-        "a": "A cozy saves fuel after the water boils. It is a square of insulation, not a second pot."
+        "a": "A cozy saves fuel after the water boils. It's a square of insulation, not a second pot."
       }
     ],
     "related": [
@@ -341,27 +341,27 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best microspikes",
     "kicker": "Roundup · Traction",
     "category": "traction",
-    "answer": "For icy packed trail, buy Kahtoola MICROspikes in the size of the shoe you will actually wear. Hillsound Trail Crampons are the more aggressive option for longer firm-snow approaches. Yaktrax are for sidewalks. None of these are mountaineering crampons.",
-    "who": "Hikers on spring and fall trails that ice up. Not steep alpine ice.",
+    "answer": "For icy packed trail, we'd buy Kahtoola MICROspikes in the size of the shoe you'll actually wear. Hillsound Trail Crampons are the more aggressive option for a longer, firm-snow approach. Yaktrax are for sidewalks. None of these are mountaineering crampons.",
+    "who": "This is for you if your spring and fall trails ice up. It isn't for steep alpine ice.",
     "productSlugs": [
       "microspikes",
       "hillsound",
       "yaktrax",
       "crocodile"
     ],
-    "one": "Buy Kahtoolas unless you already know the approach is long and firm enough to want Hillsounds. Leave Yaktrax for the parking lot.",
+    "one": "We'd buy Kahtoolas unless you already know the approach is long and firm enough for Hillsounds. Leave the Yaktrax for the parking lot.",
     "faqs": [
       {
         "q": "Can I use them with trail runners?",
-        "a": "Yes, if the size matches. Try them at home."
+        "a": "Yes, if the size matches your shoe. Try them on at home."
       },
       {
         "q": "Do I need gaiters too?",
-        "a": "When snow is above the ankle. Not for a dusty summer trail."
+        "a": "When the snow is above your ankle. Not for a dusty summer trail."
       },
       {
         "q": "Are these crampons?",
-        "a": "No. If the route needs an ice axe, you are past this page."
+        "a": "No. If the route needs an ice axe, you're into mountaineering, and these aren't the tool."
       }
     ],
     "related": [
@@ -378,27 +378,27 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best family camping tents",
     "kicker": "Roundup · Family",
     "category": "family",
-    "answer": "If the car is carrying the tent, buy height and floor space. The REI Kingdom 6 is the tent families keep. The Coleman Sundome 4 is the fair-weather test. A backpacking tent is the wrong tool when you are not backpacking.",
-    "who": "Families at drive-up sites. Not a thru-hike.",
+    "answer": "If the car is carrying the tent, we'd buy height and floor space. The REI Kingdom 6 is the tent families keep. The Coleman Sundome 4 is the fair-weather test. A backpacking tent is the wrong tool when you're not backpacking.",
+    "who": "This is for your family at a drive-up site. It isn't a thru-hike.",
     "productSlugs": [
       "kingdom-6",
       "sundome-4",
       "kindercone",
       "tikkid"
     ],
-    "one": "Buy the Sundome to see if everyone likes sleeping outside. Buy the Kingdom when the answer is yes and you are tired of crouching.",
+    "one": "We'd buy the Sundome to see if everyone likes sleeping outside. We'd buy the Kingdom when the answer is yes and you're tired of crouching.",
     "faqs": [
       {
         "q": "Does a 6-person tent sleep six?",
-        "a": "It sleeps fewer once you add cots and bags. Plan on a family, not six adults with gear."
+        "a": "It sleeps fewer once you add cots and bags. Plan on your family, not six adults with gear."
       },
       {
         "q": "What do kids sleep in?",
-        "a": "A kid-sized bag and a pad with a real R-value. Adult bags are too big and too cold."
+        "a": "A kid-sized bag, and a pad with a real R-value. An adult bag is too big and too cold."
       },
       {
         "q": "Do we need a kids' pack?",
-        "a": "On day hikes, a small pack for a jacket and a snack. Not a weighted lesson."
+        "a": "On a day hike, a small pack for a jacket and a snack. Not a weighted lesson."
       }
     ],
     "related": [
@@ -415,27 +415,27 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best ultralight backpacks",
     "kicker": "Roundup · Packs",
     "category": "packs",
-    "answer": "An ultralight pack is for a kit that is already light. The Gossamer Gear Mariposa is the comfortable default with a hip belt. The Hyperlite Southwest is the waterproof simple pack. The Kakwa 55 is the framed pack for hikers who want structure without a trampoline.",
-    "who": "Hikers who have already cut the heavy tent, the chair, and the extra shoes. Not a first pack.",
+    "answer": "An ultralight pack is for a kit that's already light. The Gossamer Gear Mariposa is the comfortable one we'd start with if you want a hip belt. The Hyperlite Southwest is the simple pack that shrugs off rain. The Kakwa 55 is the framed pack if you want structure without a trampoline.",
+    "who": "This is for you if you've already dropped the heavy tent, the chair, and the extra shoes. It isn't a first pack.",
     "productSlugs": [
       "mariposa",
       "hmg-southwest",
       "kakwa-55",
       "exos-58"
     ],
-    "one": "Buy the Mariposa if you want pockets and a hip belt. Buy the Southwest if rain is the problem and you pack a simple kit. Do not buy either to carry a 40-pound load.",
+    "one": "We'd buy the Mariposa if you want pockets and a hip belt. We'd buy the Southwest if rain is the problem and you pack a simple kit. We wouldn't buy either one to carry a 40-pound load.",
     "faqs": [
       {
         "q": "What is too heavy for these?",
-        "a": "If the shop load hurts at 30 pounds, step up to a Crown, Atmos, or Deva."
+        "a": "If the load hurts at 30 pounds in the shop, step up to a Crown, an Atmos, or a Deva."
       },
       {
         "q": "Is a waterproof pack necessary?",
-        "a": "In sustained rain it is nice. A liner still belongs inside any pack."
+        "a": "To be fair, in a long rain it's nice. A liner still belongs inside any pack you carry."
       },
       {
         "q": "Can I use one for a first overnight?",
-        "a": "You can, and you will probably overload it. Buy the Flash or the Crown first."
+        "a": "You can, and you'll probably overload it. We'd buy the Flash or the Crown first."
       }
     ],
     "related": [
@@ -452,8 +452,8 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best canister stoves for backpacking",
     "kicker": "Roundup · Stoves",
     "category": "stoves",
-    "answer": "For three-season backpacking, buy a Soto WindMaster if your sites are breezy and you still want a small stove. Buy a Soto Amicus if you simmer. Buy a Jetboil Flash if dinner is only boiling water. A PocketRocket Deluxe is the calm-weather classic. A BRS-3000T is a backup, not a group stove.",
-    "who": "Three-season hikers using canisters. Not deep cold, where liquid fuel is the more honest tool.",
+    "answer": "For three-season backpacking, we'd buy a Soto WindMaster if your sites are breezy and you still want a small stove. We'd buy a Soto Amicus if you simmer. We'd buy a Jetboil Flash if dinner is only boiling water. A PocketRocket Deluxe is the calm-weather classic. A BRS-3000T is a backup, not a group stove.",
+    "who": "This is for you on three-season trips with canisters. It isn't for deep cold, where liquid fuel is the more honest tool.",
     "productSlugs": [
       "windmaster",
       "soto-amicus",
@@ -461,19 +461,19 @@ export const extraRoundups: Roundup[] = [
       "pocketrocket",
       "brs-3000"
     ],
-    "one": "One stove: the WindMaster, unless you know your camps are sheltered and you want the PocketRocket's simplicity.",
+    "one": "If you're buying one stove, we'd take the WindMaster, unless you know your camps are sheltered and you want the PocketRocket's simplicity.",
     "faqs": [
       {
         "q": "Can I cook inside the tent?",
-        "a": "No. Carbon monoxide does not care that the vestibule felt safe."
+        "a": "No. Carbon monoxide doesn't care that the vestibule felt safe."
       },
       {
         "q": "Do I need a windscreen?",
-        "a": "Only one the stove maker allows. Trapping heat against a canister is how cheap setups fail."
+        "a": "Only one the stove maker allows. Trapping heat against a canister is how a cheap setup fails."
       },
       {
         "q": "How much fuel for a weekend?",
-        "a": "One small canister is a lot of boils for two and not a week of real cooking."
+        "a": "One small canister is a lot of boils for two of you, and it isn't a week of real cooking."
       }
     ],
     "related": [
@@ -490,22 +490,22 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best cheap rain jackets for backup and short hikes",
     "kicker": "Roundup · Rain",
     "category": "shells",
-    "answer": "If you need a rain layer for short hikes, the car, or a spare in the day pack, a budget jacket does the job. The Columbia Watertight II is the everyday cheap jacket for commuter rain and short hikes. The Frogg Toggs Ultra-Lite is the emergency spare: about 10 oz, cheap, and not built to be lived in. The Marmot PreCip Eco is the step up if the cheap jacket will also see real trail. For a jacket you hike in all day, use the under-$150 page.",
-    "who": "Day hikers who want a spare in the pack or the car, and anyone who needs a basic rain jacket for short trips. Not a shell for a week of steady rain.",
+    "answer": "If you need a rain layer for a short hike, the car, or a spare in the day pack, a budget jacket does the job. The Columbia Watertight II is the everyday cheap jacket for town rain and short hikes. The Frogg Toggs Ultra-Lite is the emergency spare: about 10 oz, cheap, and not built to live in. The Marmot PreCip Eco is the step up if that cheap jacket will also see real trail. If you'll hike in the jacket all day, we'd look at rain jackets under $150 instead.",
+    "who": "This is for you if you want a spare in the pack or the car, or a basic rain jacket for a short trip. It isn't a shell for a week of steady rain.",
     "productSlugs": [
       "columbia-watertight",
       "frogg-toggs",
       "precip"
     ],
-    "one": "Buy the Columbia Watertight II if you want one cheap jacket for town and short hikes. Keep a Frogg Toggs in the car or the day pack as the spare.",
+    "one": "We'd buy the Columbia Watertight II if you want one cheap jacket for town and short hikes. Keep a Frogg Toggs in the car or the day pack as the spare.",
     "faqs": [
       {
         "q": "Will a cheap shell wet out?",
-        "a": "Yes, sooner. That is DWR failure, not always a leak. Re-proof it, and move up when you live in rain."
+        "a": "Yes, sooner than you'd like. That's the DWR giving up, not always a leak. Re-proof it, and move up when you live in rain."
       },
       {
         "q": "Can an emergency shell be my only rain jacket?",
-        "a": "On a short day hike close to the trailhead, yes. On an overnight or a long wet day, carry a jacket you can hike in."
+        "a": "On a short day hike close to the trailhead, yes. On an overnight, or a long wet day, carry a jacket you can hike in."
       },
       {
         "q": "Is a shell insulation?",
@@ -526,26 +526,26 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best wide toe box trail shoes",
     "kicker": "Roundup · Footwear",
     "category": "footwear",
-    "answer": "If your toes are the problem, buy a trail shoe with a wide or foot-shaped toe box, not a longer size. The Topo Athletic Ultraventure is the roomy, cushioned default that is not zero-drop. The Altra Lone Peak is the foot-shaped, zero-drop shoe, and it needs a break-in period. The Hoka Speedgoat comes in a wide version if you want max cushion with more room than the standard toe.",
-    "who": "Hikers whose toes rub or go numb in standard trail shoes, on moderate trail with a light pack. Not a heavy pack on loose talus if your ankles roll.",
+    "answer": "If your toes are the problem, we'd buy a trail shoe with a wide or foot-shaped toe box, not a longer size. The Topo Athletic Ultraventure is the roomy, cushioned one we'd start with, and it isn't zero-drop. The Altra Lone Peak is the foot-shaped, zero-drop shoe, and it needs a break-in. The Hoka Speedgoat comes in a wide version if you want max cushion with more room than the standard toe.",
+    "who": "This is for you if your toes rub or go numb in a standard trail shoe, on moderate trail with a light pack. It isn't the pick for a heavy pack on loose talus if your ankles roll.",
     "productSlugs": [
       "topo-ultraventure",
       "lone-peak",
       "speedgoat"
     ],
-    "one": "If you want width without a zero-drop transition, buy the Ultraventure. If you already like zero drop and a wide toe, stay with the Lone Peak.",
+    "one": "If you want the width without a zero-drop switch, we'd buy the Ultraventure. If you already like zero drop and a wide toe, stay with the Lone Peak.",
     "faqs": [
       {
         "q": "Is the Speedgoat a wide shoe?",
-        "a": "The standard Speedgoat has a more standard toe. Hoka also makes a wide version, and that is the one this page means."
+        "a": "The standard Speedgoat has a more standard toe. Hoka also makes a wide version, and that's the one we mean."
       },
       {
         "q": "What if my ankles roll?",
-        "a": "A boot. Do not argue with a sprain."
+        "a": "Get a boot. Don't argue with a sprain."
       },
       {
         "q": "How long is the break-in?",
-        "a": "Zero drop wants easy weeks. A familiar drop can go on a normal day sooner."
+        "a": "Zero drop wants a few easy weeks. A drop your legs already know can go on a normal day sooner."
       }
     ],
     "related": [
@@ -563,8 +563,8 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best car camping comfort gear",
     "kicker": "Roundup · Car camp",
     "category": "camp",
-    "answer": "These are the upgrades to buy after the kitchen basics are sorted. Spend the trunk on a table at standing height and a cot if you hate the ground. An inflatable pillow is the backpacking version of the same idea. A percolator is a ritual, not a necessity. The stove, cooler and wash bins are on the car camping gear page.",
-    "who": "People camping next to a car who already have a stove, a cooler and a dish setup. Not ounce-counters.",
+    "answer": "These are the upgrades we'd buy after the kitchen basics are sorted. Spend the trunk space on a table at standing height, and a cot if you hate the ground. An inflatable pillow is the backpacking version of the same idea. A percolator is a ritual, not something you need. The stove, the cooler, and the wash bins belong with the rest of the car-camp kitchen.",
+    "who": "This is for you if you're camping next to the car and you already have a stove, a cooler, and a dish setup. It isn't for counting ounces.",
     "productSlugs": [
       "camp-table",
       "camp-cot",
@@ -572,19 +572,19 @@ export const extraRoundups: Roundup[] = [
       "percolator",
       "helinox-chair"
     ],
-    "one": "If you buy one thing, buy the table. A standing kitchen gets used. A gadget lantern does not fix a bad kitchen.",
+    "one": "If you buy one thing, we'd buy the table. A standing kitchen gets used. A gadget lantern doesn't fix a bad kitchen.",
     "faqs": [
       {
         "q": "Is a cot cold?",
-        "a": "Yes, unless you put a pad on it. Air under you is not insulation."
+        "a": "Yes, unless you put a pad on it. Air under you isn't insulation."
       },
       {
         "q": "Do backpackers need a pillow?",
-        "a": "Side sleepers often do. A jacket works until it does not."
+        "a": "If you sleep on your side, often yes. A jacket works until it doesn't."
       },
       {
         "q": "What about a chair?",
-        "a": "A chair is worth it at a campground. It is a debate on a backpacking trip."
+        "a": "A chair is worth it at a campground. On a backpacking trip, it's a debate."
       }
     ],
     "related": [
@@ -601,8 +601,8 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best hiking navigation tools",
     "kicker": "Roundup · Navigation",
     "category": "nav",
-    "answer": "Carry a map you can read and a Suunto M-3 or another baseplate compass you have practiced. Add a Garmin inReach Mini 2 when the route is out of phone range and someone at home needs a check-in. A paper Trails Illustrated sheet still works when the battery does not. A Garmin eTrex is the dedicated GPS for tracks and waypoints on AA cells. It does not send an SOS.",
-    "who": "Hikers who have already been lost in an app at least once, or who are about to be.",
+    "answer": "Carry a map you can read, and a Suunto M-3 or another baseplate compass you've practiced with. Add a Garmin inReach Mini 2 when you're out of phone range and someone at home needs a check-in. A paper Trails Illustrated sheet still works when the battery doesn't. A Garmin eTrex is the dedicated GPS for tracks and waypoints on AA cells. It doesn't send an SOS.",
+    "who": "This is for you if an app has already lost you once, or you're about to find out.",
     "productSlugs": [
       "suunto-m3",
       "inreach-mini",
@@ -611,7 +611,7 @@ export const extraRoundups: Roundup[] = [
       "nb10000",
       "etrex"
     ],
-    "one": "Buy the compass and the correct map first. Buy the inReach when the consequence of silence is real, and budget for the subscription.",
+    "one": "We'd buy the compass and the right map first. We'd buy the inReach when silence has a real cost, and we'd budget for the subscription.",
     "faqs": [
       {
         "q": "Is a phone enough?",
@@ -619,11 +619,11 @@ export const extraRoundups: Roundup[] = [
       },
       {
         "q": "Does an inReach replace a map?",
-        "a": "No. It tells people where you are. It does not choose the junction."
+        "a": "No. It tells people where you are. It doesn't pick the junction for you."
       },
       {
         "q": "Where does the whistle go?",
-        "a": "On the shoulder strap. Three blasts means help."
+        "a": "On your shoulder strap. Three blasts means you need help."
       }
     ],
     "related": [
@@ -640,27 +640,27 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best hiking water bottles",
     "kicker": "Roundup · Water",
     "category": "water",
-    "answer": "Carry a bottle you will drink from and a dirty reservoir for the filter. A Nalgene is the bombproof camp bottle. A HydraPak Seeker stores water at camp for less weight. A CNOC bag is the dirty side of a Sawyer-style squeeze setup. None of these treat water by themselves.",
-    "who": "Hikers who already know how they treat water.",
+    "answer": "Carry a bottle you'll actually drink from, and a dirty reservoir for the filter. A Nalgene is the tough camp bottle. A HydraPak Seeker stores water at camp for less weight. A CNOC bag is the dirty side of a Sawyer-style squeeze setup. None of these treat the water by themselves.",
+    "who": "This is for you if you already know how you'll treat the water.",
     "productSlugs": [
       "nalgene-1l",
       "seeker-2l",
       "cnoc-vesper",
       "sawyer-squeeze"
     ],
-    "one": "Pair a Sawyer Squeeze with a CNOC dirty bag and drink from a lighter clean bottle. Keep the Nalgene if you want one bottle that can take a beating or hot water.",
+    "one": "We'd pair a Sawyer Squeeze with a CNOC dirty bag, and drink from a lighter clean bottle. Keep the Nalgene if you want one bottle that can take a beating or hot water.",
     "faqs": [
       {
         "q": "How much water?",
-        "a": "Enough to reach the next source with a margin. In dry country that can be liters, not sips."
+        "a": "Enough to reach the next source, with a margin. In dry country that can be liters, not sips."
       },
       {
         "q": "Can I drink from the dirty bag?",
-        "a": "No. Label it. Treat first."
+        "a": "No. Label it, and treat the water first."
       },
       {
         "q": "Is a hydration bladder better?",
-        "a": "It is convenient and it is harder to know how much is left. A bottle is simpler to manage."
+        "a": "It's convenient, and it's harder to tell how much you have left. A bottle is simpler to manage."
       }
     ],
     "related": [
@@ -670,7 +670,7 @@ export const extraRoundups: Roundup[] = [
     ],
     "method": "Picks are chosen for how you will use them, not by a private lab score. Weights and ratings are the manufacturer’s published figures and can change with the model year. Prices are not listed. Open the current listing before you buy."
   }
-]
+];
 
 export const extraGuides: Guide[] = [
   {
@@ -679,35 +679,35 @@ export const extraGuides: Guide[] = [
     "description": "Stop hot spots before they become blisters: fit, socks, tape, and when to turn around.",
     "h1": "How to prevent hiking blisters",
     "kicker": "Guide · Feet",
-    "answer": "Prevent blisters by fitting the shoe to the swollen foot, wearing the sock you were fitted in, and taping a hot spot the first time you feel it. Do not inaugurate a boot on the long day.",
+    "answer": "You stop blisters by fitting the shoe to your swollen foot, wearing the sock you were fitted in, and taping a hot spot the first time you feel it. Don't break in a boot on the long day.",
     "sections": [
       {
         "id": "fit",
         "heading": "Fit is the cause",
         "paragraphs": [
-          "A blister is friction plus moisture. Sizing up to fake width lets the heel slip and creates a new blister. Fit the longer foot for length and the wider foot for width, at the end of the day.",
-          "If a shoe is tight in the store, a thinner sock will not save a 14-mile day. Walk it on a downslope before you trust it."
+          "A blister is friction plus moisture. Sizing up to fake width lets your heel slip, and that makes a new blister. Fit the longer foot for length and the wider foot for width, at the end of the day.",
+          "If a shoe is tight in the store, a thinner sock won't save a 14-mile day. Walk it on a downslope before you trust it."
         ],
         "bullets": [
-          "Try shoes late in the day.",
+          "Try your shoes late in the day.",
           "Keep the sock you tried on.",
-          "Do not debut leather or zero drop on a big day."
+          "Don't debut leather or zero drop on your big day."
         ]
       },
       {
         "id": "tape",
         "heading": "Tape early",
         "paragraphs": [
-          "Leukotape on dry skin at the first hot spot beats a gel bandage on a bubble. A dab of benzoin helps it stick. Do not wrap so tight that you create a ring of new friction.",
-          "Carry the tape you have practiced with. Opening a new roll in the rain is a bad time to learn how sticky it is."
+          "Put leukotape on dry skin at the first hot spot. That beats a gel bandage on a bubble. A dab of benzoin helps it stick. Don't wrap it so tight that you make a ring of new friction.",
+          "Carry the tape you've practiced with. Opening a new roll in the rain is a bad time to learn how sticky it gets."
         ]
       },
       {
         "id": "socks",
         "heading": "Change socks",
         "paragraphs": [
-          "Two pairs on an overnight is the minimum. Change at lunch if your feet are soaked, and change at camp so you are not sleeping in the hiking pair.",
-          "Waterproof socks are a cold-slush tool. In summer they hold sweat."
+          "Two pairs on an overnight is the minimum. Change at lunch if your feet are soaked, and change at camp so you're not sleeping in the hiking pair.",
+          "Waterproof socks are a cold-slush tool. In summer they hold your sweat."
         ]
       }
     ],
@@ -720,15 +720,15 @@ export const extraGuides: Guide[] = [
     "faqs": [
       {
         "q": "Should I pop a blister?",
-        "a": "If you can stop and protect it, leave it. If you must walk, clean it, drain it, and tape it so the roof stays on. This is not a clinic."
+        "a": "If you can stop and protect it, leave it. If you have to keep walking, clean it, drain it, and tape it so the roof stays on. This isn't a clinic."
       },
       {
         "q": "Do liners work?",
-        "a": "When toes rub each other. Not when the shoe is too short."
+        "a": "When your toes rub each other, yes. Not when the shoe is too short."
       },
       {
         "q": "Is merino required?",
-        "a": "No. A dry synthetic sock that fits beats a wet merino sock in a bad shoe."
+        "a": "No. A dry synthetic sock that fits you beats a wet merino sock in a bad shoe."
       }
     ],
     "related": [
@@ -749,15 +749,15 @@ export const extraGuides: Guide[] = [
         "id": "trees",
         "heading": "Pick the trees",
         "paragraphs": [
-          "You need two living trees a reachable distance apart, and permission to use them. Dead trees drop branches. Thin cord cuts bark. Wide straps are the default until you have a lighter suspension you trust.",
-          "If the site has no trees, or the rules ban hammocks, the tent comes out. Do not invent a marginal hang."
+          "You need two living trees a reachable distance apart, and permission to use them. Dead trees drop branches. Thin cord cuts bark. We'd stick with wide straps until you've got a lighter suspension you trust.",
+          "If the site has no trees, or the rules ban hammocks, the tent comes out. Don't invent a marginal hang."
         ]
       },
       {
         "id": "lay",
         "heading": "Lie on a diagonal",
         "paragraphs": [
-          "A gathered-end hammock feels like a banana if you lie along the centerline. Lie diagonally so your shoulders and feet are offset. That is the whole trick, and it is free.",
+          "Lie on a diagonal. A gathered-end hammock feels like a banana if you lie along the centerline, so offset your shoulders and your feet. The good news is that's the whole trick, and it's free.",
           "A bridge hammock lies flatter and weighs more. Try the cheap diagonal before you buy a new geometry."
         ]
       },
@@ -765,8 +765,8 @@ export const extraGuides: Guide[] = [
         "id": "warmth",
         "heading": "Insulate the underside",
         "paragraphs": [
-          "Cold air under you is the failure. An underquilt wraps that side. A 40°F quilt is a summer tool. Full length matters.",
-          "Pitch the tarp so it does not drip at the head or the foot. Practice in the yard, including a door you can close."
+          "Cold air under you is what gets you. An underquilt wraps that side. A 40°F quilt is a summer tool. Full length matters.",
+          "Pitch the tarp so it doesn't drip on your head or your feet. Practice in the yard, including a door you can close."
         ]
       }
     ],
@@ -780,15 +780,15 @@ export const extraGuides: Guide[] = [
     "faqs": [
       {
         "q": "Can I hammock in the rain?",
-        "a": "Yes, with a tarp you have pitched before. The first rain should not be the first pitch."
+        "a": "Yes, with a tarp you've pitched before. The first rain shouldn't be the first pitch."
       },
       {
         "q": "Is it colder than a tent?",
-        "a": "The underside is, until the underquilt is right. Then it is a preference."
+        "a": "The underside is, until the underquilt is right. Then it's a preference."
       },
       {
         "q": "What about bugs?",
-        "a": "Use a net. A beautiful breeze is also a mosquito highway."
+        "a": "Use a net. A nice breeze is also a mosquito highway."
       }
     ],
     "related": [
@@ -803,30 +803,30 @@ export const extraGuides: Guide[] = [
     "description": "What goes in the canister, where it sleeps, and why a stuff sack of food in the tent is not a plan.",
     "h1": "How to pack a bear canister",
     "kicker": "Guide · Food",
-    "answer": "Put anything that smells like food, trash, or toiletries in the canister if the rule says so. Pack the canister where it actually fits. Sleep away from it. Do not decide this at the trailhead in the dark.",
+    "answer": "If the rule says so, anything that smells like food, trash, or toiletries goes in the canister. Pack it where it actually fits. Sleep away from it. Don't decide this at the trailhead in the dark.",
     "sections": [
       {
         "id": "what",
         "heading": "What goes in",
         "paragraphs": [
-          "Food, trash, toothpaste, sunscreen, and the empty dinner pouch. If you would not want a bear to investigate it, it goes in. Smell-proof bags are an extra layer inside the canister, not a replacement.",
-          "Water does not need a canister. Your stove fuel might be regulated separately. Read the permit."
+          "Food, trash, toothpaste, sunscreen, and the empty dinner pouch all go in. If you wouldn't want a bear to investigate it, it goes in. A smell-proof bag is an extra layer inside the canister, not a replacement.",
+          "Water doesn't need a canister. Your stove fuel might be regulated on its own. Read the permit."
         ]
       },
       {
         "id": "fit",
         "heading": "Fit it in the pack first",
         "paragraphs": [
-          "A BV500 is a cylinder that mocks a small pack. Stand it vertical and rebuild the pack around it at home. If it does not fit, you need a bigger pack or a shorter trip, not a creative strap job that falls off.",
-          "Learn the lock at the kitchen table. Cold hands at camp are slower."
+          "Fit the canister in the pack at home. A BV500 is a cylinder that mocks a small pack, so stand it vertical and rebuild the pack around it. If it doesn't fit, you need a bigger pack or a shorter trip, not a creative strap job that falls off.",
+          "Learn the lock at the kitchen table. Your hands are slower when they're cold at camp."
         ]
       },
       {
         "id": "place",
         "heading": "Where it sleeps",
         "paragraphs": [
-          "Follow the local rule for distance from camp. A canister in the tent is how a curious animal joins you. A canister used as a chair is a story people tell and a bad habit.",
-          "An Ursack is not the workaround where canisters are required."
+          "Follow the local rule for how far it sits from camp. A canister in the tent is how a curious animal joins you. Using it as a chair is a bad habit.",
+          "An Ursack isn't the workaround where canisters are required."
         ]
       }
     ],
@@ -838,15 +838,15 @@ export const extraGuides: Guide[] = [
     "faqs": [
       {
         "q": "Are canisters required everywhere?",
-        "a": "No. They are required in specific parks and zones. Hangs are required or wiser in others. Check."
+        "a": "No. They're required in specific parks and zones. Hangs are required, or just wiser, in others. Check before you go."
       },
       {
         "q": "Can I hang a canister?",
-        "a": "You should not need to. Set it on flat ground as instructed so it cannot roll away."
+        "a": "You shouldn't need to. Set it on flat ground the way the instructions say, so it can't roll away."
       },
       {
         "q": "What if I am only out one night?",
-        "a": "The rule does not shrink with the trip."
+        "a": "The rule doesn't shrink because you're only out one night."
       }
     ],
     "related": [
@@ -861,34 +861,34 @@ export const extraGuides: Guide[] = [
     "description": "Carry enough to reach the next source with a margin, and treat what you take from the landscape.",
     "h1": "How much water to carry hiking",
     "kicker": "Guide · Water",
-    "answer": "There is no universal liter count. Carry enough to reach the next reliable source, plus a margin for heat, a dry spring, and the walk back. In a forest with frequent water that can be one liter. In dry country it can be several.",
+    "answer": "There's no universal liter count. Carry enough to reach the next source you trust, plus a margin for heat, a dry spring, and the walk back. In a forest with water often, that can be one liter. In dry country it can be several.",
     "sections": [
       {
         "id": "sources",
         "heading": "Start from the map",
         "paragraphs": [
-          "Mark water you are willing to trust, and assume one of them is dry. A full bottle at the car is not a plan if the first creek is five hot miles away.",
-          "Ask recent reports when you can. A blue line on a map is a suggestion in late summer."
+          "Start from the map. Mark the water you're willing to trust, and assume one of those spots is dry. A full bottle at the car isn't a plan if the first creek is five hot miles away.",
+          "Ask for a recent report when you can. A blue line on a map is a suggestion in late summer."
         ]
       },
       {
         "id": "body",
         "heading": "Drink before you are behind",
         "paragraphs": [
-          "Sip on a schedule in the heat instead of waiting for a headache. Salty sweaters need food and sometimes an electrolyte tablet, not only more water.",
-          "Urine that is dark is a late sign. Turn around if the water math stops working."
+          "Sip on a schedule in the heat, before you're behind. If you're a salty sweater, you need food and sometimes an electrolyte tablet, not only more water.",
+          "Urine that's dark is a late sign. Turn around if the water math stops working."
         ],
         "bullets": [
           "One liter is a short, cool, well-watered walk.",
-          "Hot, exposed, or dry routes need more, planned by the mile to the next source."
+          "If your route is hot, exposed, or dry, you need more, planned by the mile to the next source."
         ]
       },
       {
         "id": "treat",
         "heading": "Treat it",
         "paragraphs": [
-          "A hollow-fiber filter handles the usual North American backcountry concerns and does not remove viruses. Add drops or UV where that risk is real. Label dirty and clean containers.",
-          "Cold, silty water clogs filters. Carry a backup method."
+          "Treat what you take. A hollow-fiber filter handles the usual North American backcountry concerns, and it doesn't remove viruses. Add drops or UV where that risk is real. Label your dirty and clean containers.",
+          "Cold, silty water clogs a filter. Carry a backup method."
         ]
       }
     ],
@@ -902,15 +902,15 @@ export const extraGuides: Guide[] = [
     "faqs": [
       {
         "q": "Is two liters always enough?",
-        "a": "No. It is a common day-hike start, not a desert rule."
+        "a": "No. It's a common day-hike start, not a desert rule."
       },
       {
         "q": "Can I drink from a clear spring?",
-        "a": "Clear is not the same as treated. Animals live upstream."
+        "a": "Clear isn't the same as treated. Animals live upstream of you."
       },
       {
         "q": "Do I need a bladder?",
-        "a": "Only if you will actually drink more because of it. Bottles are easier to measure."
+        "a": "Only if you'll actually drink more because of it. Bottles are easier for you to measure."
       }
     ],
     "related": [
@@ -925,30 +925,30 @@ export const extraGuides: Guide[] = [
     "description": "Contour lines, the scale, and the one compass skill that makes a paper map useful.",
     "h1": "How to read a topo map",
     "kicker": "Guide · Navigation",
-    "answer": "A topo map shows shape with contour lines. Lines close together are steep. Lines far apart are flatter. Orient the map to the land with a compass before you argue about which trail you are on.",
+    "answer": "A topo map shows shape with contour lines. Lines close together are steep. Lines far apart are flatter. Orient the map to the land with a compass before you argue about which trail you're on.",
     "sections": [
       {
         "id": "contours",
         "heading": "Read the lines",
         "paragraphs": [
-          "Find the contour interval in the margin. If it is 40 feet, every line is another 40 feet up or down. A trail that crosses many lines in a short distance is a climb, whatever the mileage says.",
-          "Water flows downhill, across lines, toward the V that points upstream. That is a useful check when a creek is the landmark."
+          "Read the interval in the margin first. If it's 40 feet, every line is another 40 feet up or down. A trail that crosses a lot of lines in a short distance is a climb, whatever the mileage says.",
+          "Water flows downhill, across the lines, toward the V that points upstream. That's a useful check when a creek is your landmark."
         ]
       },
       {
         "id": "orient",
         "heading": "Orient the map",
         "paragraphs": [
-          "Set declination or account for it. Lay the compass on the map and turn the map until north on the map matches north on the compass. Then the creek on your left should be the creek on the map's left.",
-          "Do this at the trailhead once, before you need it in trees."
+          "Set the declination, or account for it, then orient the map. Lay the compass on the map and turn the map until north on the map matches north on the compass. Then the creek on your left should be the creek on the map's left.",
+          "Do this at the trailhead once, before you need it in the trees."
         ]
       },
       {
         "id": "phone",
         "heading": "Use the phone second",
         "paragraphs": [
-          "A phone app is a good map if the tiles are downloaded. It is a bad only map. The paper sheet for that park still works at 8% battery.",
-          "A whistle on the strap is the low-tech half of being found."
+          "Use your phone second. It's a good map if the tiles are downloaded, and a bad only-map. The paper sheet for that park still works at 8% battery.",
+          "A whistle on your strap is the low-tech half of being found."
         ]
       }
     ],
@@ -961,15 +961,15 @@ export const extraGuides: Guide[] = [
     "faqs": [
       {
         "q": "What scale?",
-        "a": "A trails map for the park beats a state map. You want contours and the trail you are on."
+        "a": "A trails map for the park beats a state map. You want contours, and the trail you're actually on."
       },
       {
         "q": "Do I need a sighting mirror?",
-        "a": "No, not to start. A baseplate compass is the learning tool."
+        "a": "No, not to start. A baseplate compass is the tool to learn on."
       },
       {
         "q": "What is declination?",
-        "a": "The difference between magnetic north and the map's north. Ignoring it bends a bearing."
+        "a": "It's the difference between magnetic north and the map's north. Ignore it and a bearing bends off."
       }
     ],
     "related": [
@@ -984,29 +984,29 @@ export const extraGuides: Guide[] = [
     "description": "Base weight is your pack without food, water, and fuel. It is a budgeting tool, not a personality.",
     "h1": "What backpacking base weight means",
     "kicker": "Guide · Planning",
-    "answer": "Base weight is the pack and everything in it except consumables: no food, no water, no fuel. It tells you whether the shelter and sleep system are the problem. It does not include what you wear.",
+    "answer": "Base weight is your pack and everything in it except consumables: no food, no water, no fuel. It tells you whether the shelter and the sleep system are the problem. It doesn't include what you're wearing.",
     "sections": [
       {
         "id": "count",
         "heading": "Count it once",
         "paragraphs": [
-          "Put the pack on a scale at home with the kit you will actually carry, then remove food, water, and fuel. Write the number down. Repeating the weigh-in every time you add a gadget is the point.",
-          "Worn clothes and the shoes on your feet stay out of the number. A spare jacket in the pack stays in."
+          "Count it once at home. Put the pack on a scale with the kit you'll actually carry, then take out the food, water, and fuel. Write the number down. Weighing it again every time you add a gadget is the point.",
+          "The clothes you're wearing and the shoes on your feet stay out of that number. A spare jacket in the pack stays in."
         ]
       },
       {
         "id": "big3",
         "heading": "Look at the big three",
         "paragraphs": [
-          "Shelter, sleep system, and pack are where pounds hide. A cheaper tent and a bulky bag will dominate the number long before your spoon does.",
-          "Cutting a toothbrush in half before you have a sane tent is a hobby, not a plan."
+          "Look at the shelter, the sleep system, and the pack. That's where the pounds hide. A cheaper tent and a bulky bag will dominate the number long before your spoon does.",
+          "Cutting a toothbrush in half before you've got a sane tent is a hobby, not a plan."
         ]
       },
       {
         "id": "use",
         "heading": "Use the number",
         "paragraphs": [
-          "A first overnight can be heavier than a long trail. The number is there so you notice the chair, the second shoes, and the pot that is too big. Comfort you use is not waste. Comfort you carry and never use is."
+          "Use the number to notice the chair, the second pair of shoes, and the pot that's too big. A first overnight can be heavier than a long trail. Comfort you use isn't waste. Comfort you carry and never use is."
         ]
       }
     ],
@@ -1023,11 +1023,11 @@ export const extraGuides: Guide[] = [
       },
       {
         "q": "Does it include water?",
-        "a": "No. Water is a consumable and it changes by the mile."
+        "a": "No. Water is a consumable, and it changes by the mile."
       },
       {
         "q": "Should I chase someone else's number?",
-        "a": "No. Chase the trips you take."
+        "a": "No. Chase the trips you actually take."
       }
     ],
     "related": [
@@ -1042,29 +1042,29 @@ export const extraGuides: Guide[] = [
     "description": "Wash down rarely, dry it relentlessly, and do not store it stuffed.",
     "h1": "How to wash a down sleeping bag",
     "kicker": "Guide · Sleep",
-    "answer": "Wash a down bag when it is dirty enough to lose loft, not on a schedule you found on a mug. Use a down wash, a front loader without a central agitator, and dry it on low until every clump is gone.",
+    "answer": "Wash a down bag when it's dirty enough to lose loft, not on a schedule you saw on a mug. Use a down wash, a front loader without a central agitator, and dry it on low until every clump is gone.",
     "sections": [
       {
         "id": "when",
         "heading": "When to wash",
         "paragraphs": [
-          "Mud, body oil, and a bag that no longer lofts are reasons. A bag that is merely used is not. Spot-clean the collar if that is the only grime.",
-          "Always follow the maker's label if it conflicts with a general guide."
+          "Wash it for mud, body oil, or a bag that no longer lofts. A bag that's merely been used isn't a reason. Spot-clean the collar if that's the only grime.",
+          "Follow the maker's label if it disagrees with a general guide."
         ]
       },
       {
         "id": "how",
         "heading": "How to wash",
         "paragraphs": [
-          "Close the zippers. Use a front-loading machine and a down-specific soap. Extra rinse cycles beat extra soap. A top loader with an agitator can tear baffles.",
-          "Support the wet bag. Wet down is heavy and the baffles are not a handle."
+          "Close the zippers, then wash it in a front-loading machine with a down-specific soap. Extra rinse cycles beat extra soap. A top loader with an agitator can tear the baffles.",
+          "Support the wet bag with your hands. Wet down is heavy, and the baffles aren't a handle."
         ]
       },
       {
         "id": "dry",
         "heading": "Dry until it is actually dry",
         "paragraphs": [
-          "Low heat and dryer balls or clean tennis balls. Pull clumps apart by hand between cycles. If the core is damp, it is not done, and damp stored down is how it fails later.",
+          "Dry it until the core is actually dry. Use low heat, and dryer balls or clean tennis balls. Pull clumps apart by hand between cycles. If the core is damp, you're not done, and storing it that way is how it fails later.",
           "Store the bag loose, in a big sack, not in the tiny compression sack."
         ]
       }
@@ -1081,11 +1081,11 @@ export const extraGuides: Guide[] = [
       },
       {
         "q": "How often?",
-        "a": "Some people go years. Dirt and lost loft decide, not a monthly ritual."
+        "a": "It can go years. Dirt and lost loft decide, not a monthly ritual."
       },
       {
         "q": "What about a quilt?",
-        "a": "The same rules. It is the same fill."
+        "a": "The same rules. It's the same fill."
       }
     ],
     "related": [
@@ -1100,29 +1100,29 @@ export const extraGuides: Guide[] = [
     "description": "Condensation is your breath and the weather, not a failed tent, until the seams actually leak.",
     "h1": "Why tents get condensation",
     "kicker": "Guide · Shelters",
-    "answer": "Condensation is moist air hitting a cold fly. You make a lot of it by breathing. Double-wall tents manage it better. Single-wall tents ask you to vent. A wet wall is not automatically a leak.",
+    "answer": "Condensation is moist air hitting a cold fly. You make a lot of it just by breathing. A double-wall tent manages it better. A single-wall tent asks you to vent. A wet wall isn't automatically a leak.",
     "sections": [
       {
         "id": "cause",
         "heading": "What causes it",
         "paragraphs": [
-          "Cold nights, no wind, wet ground, and cooking near the tent all add water to the air. The fly is the cold surface. The water beads there and then drips if you brush it.",
-          "Pitching in a depression that collects damp air makes it worse."
+          "Cold nights, no wind, wet ground, and cooking near the tent all add water to the air you're in. The fly is the cold surface. Water beads there, then drips if you brush it.",
+          "Pitching in a low spot that collects damp air makes it worse."
         ]
       },
       {
         "id": "vent",
         "heading": "Vent on purpose",
         "paragraphs": [
-          "Keep a vent open even in light rain if you can do it without a drip line onto the bag. Stake the tent out so the fly is not touching the inner. Touching walls move water onto your quilt.",
-          "Fly-first pitching keeps the inner drier while you set up in rain."
+          "Vent on purpose. Keep a vent open even in light rain, if you can do it without a drip line onto your bag. Stake the tent out so the fly isn't touching the inner. Where the walls touch, water moves onto your quilt.",
+          "Pitch fly-first and the inner stays drier while you set up in the rain."
         ]
       },
       {
         "id": "wall",
         "heading": "Single wall is a skill",
         "paragraphs": [
-          "A single-wall tent will be wetter inside on a still night. Wipe it down in the morning and do not store it wet for the week. If you hate this, buy a double wall and carry the extra ounces."
+          "A single-wall tent will be wetter inside on a still night. Wipe it down in the morning, and don't store it wet for the week. If you hate that, buy a double wall and carry the extra ounces."
         ]
       }
     ],
@@ -1139,11 +1139,11 @@ export const extraGuides: Guide[] = [
       },
       {
         "q": "Should I cook in the vestibule?",
-        "a": "No. Steam and carbon monoxide are both bad guests."
+        "a": "No. Steam and carbon monoxide are both bad guests in there."
       },
       {
         "q": "Does a footprint stop condensation?",
-        "a": "No. It protects the floor from the ground."
+        "a": "No. It protects the floor from the ground, and that's it."
       }
     ],
     "related": [
@@ -1158,13 +1158,13 @@ export const extraGuides: Guide[] = [
     "description": "Short, warm, and close to the car. The goal is that they want to go again.",
     "h1": "A child's first camping trip",
     "kicker": "Guide · Family",
-    "answer": "Make the first trip short, warm, and close to the car. A tall tent, a kid-sized bag, a pad with a real R-value, and a lamp that is theirs will do more than a long hike.",
+    "answer": "Keep the first trip short, warm, and close to the car. A tall tent, a kid-sized bag, a pad with a real R-value, and a lamp that's theirs will do more than a long hike.",
     "sections": [
       {
         "id": "distance",
         "heading": "Keep the walk short",
         "paragraphs": [
-          "A picnic site or a one-mile walk is a success. A heroic mileage goal is how everyone cries. Stop while it is still fun. You can go farther next time.",
+          "Keep the walk short. A picnic site or a one-mile walk is a success. A heroic mileage goal is how the day falls apart. Stop while it's still fun, and you can go farther next time.",
           "Pick a place you can leave after dinner if the night goes badly."
         ]
       },
@@ -1172,7 +1172,7 @@ export const extraGuides: Guide[] = [
         "id": "sleep",
         "heading": "Make sleep easy",
         "paragraphs": [
-          "Kids sleep colder than the rating suggests. Use a bag that fits them and a pad that insulates. No cotton pajamas. A familiar stuffed animal is legitimate gear.",
+          "Make sleep easy, because kids sleep colder than the rating suggests. Use a bag that fits them and a pad that insulates. Skip cotton pajamas. A familiar stuffed animal is legitimate gear.",
           "A cabin tent means nobody is crawling over a sleeping toddler."
         ]
       },
@@ -1180,7 +1180,7 @@ export const extraGuides: Guide[] = [
         "id": "jobs",
         "heading": "Give them a job",
         "paragraphs": [
-          "Their lamp, their snack, their small pack. Do not load the pack to make a point. Show them the camp rule about food and animals in one sentence, not a lecture."
+          "Give them a job: their lamp, their snack, their small pack. Don't load the pack to make a point. Show them the camp rule about food and animals in one sentence, not a lecture."
         ]
       }
     ],
@@ -1194,15 +1194,15 @@ export const extraGuides: Guide[] = [
     "faqs": [
       {
         "q": "What age?",
-        "a": "When they can tell you they are cold and they want to be there. There is no prize for earlier."
+        "a": "When they can tell you they're cold, and they want to be there. There's no prize for going earlier."
       },
       {
         "q": "Tent or cabin?",
-        "a": "For the car, a tall tent. For the back, wait until everyone already likes camping."
+        "a": "For the car, a tall tent. For a backpack, wait until everyone already likes camping."
       },
       {
         "q": "What if it rains?",
-        "a": "Have a backup that is not a forced march. Hot drinks and a short walk still count."
+        "a": "Have a backup that isn't a forced march. Hot drinks and a short walk still count."
       }
     ],
     "related": [
@@ -1217,29 +1217,29 @@ export const extraGuides: Guide[] = [
     "description": "Mornings are winter and afternoons are summer. Pack a system, not one jacket.",
     "h1": "What to wear hiking in shoulder season",
     "kicker": "Guide · Layers",
-    "answer": "Shoulder season needs a dry base layer, a fleece you can hike in, a shell, and a puffy you only wear when you stop. The morning and the evening are different seasons. Pack for both.",
+    "answer": "Shoulder season wants a dry base layer, a fleece you can hike in, a shell, and a puffy you only wear when you stop. Your morning and your evening are different seasons. Pack for both.",
     "sections": [
       {
         "id": "start",
         "heading": "Start cooler than you want",
         "paragraphs": [
-          "Begin slightly cold. If you start warm, you will be wet in twenty minutes. Wet clothes are the afternoon's problem when the wind picks up at the pass.",
-          "A sun hoodie or a light merino is enough on the climb. The thermal layer stays in the pack until camp."
+          "Start cooler than feels right. If you start warm, you'll be wet in twenty minutes. Those wet clothes become the problem when the wind picks up at the pass.",
+          "A sun hoodie or a light merino is enough on the climb. Leave the thermal layer in your pack until camp."
         ]
       },
       {
         "id": "stop",
         "heading": "Add insulation when you stop",
         "paragraphs": [
-          "The puffy comes out at breaks and at camp. Hiking in it soaks the down or overheats you. A hat and gloves weigh nothing and matter at the viewpoint.",
-          "Rain gets a shell, not a down jacket. Down under a shell is for camp, dry."
+          "Add the puffy when you stop, at breaks and at camp. Hiking in it soaks the down or overheats you. A hat and gloves weigh nothing, and they matter at the viewpoint.",
+          "Rain gets a shell, not a down jacket. Down under a shell is for camp, and it should be dry."
         ]
       },
       {
         "id": "feet",
         "heading": "Feet and traction",
         "paragraphs": [
-          "Icy mornings want microspikes in the pack even if the trailhead is mud. Gaiters matter when snow is leftover in the shade. Waterproof socks are for slush, not for a warm climb."
+          "Icy mornings want microspikes in your pack even if the trailhead is mud. Gaiters matter when leftover snow sits in the shade. Waterproof socks are for slush, not for a warm climb."
         ]
       }
     ],
@@ -1253,11 +1253,11 @@ export const extraGuides: Guide[] = [
     "faqs": [
       {
         "q": "Is one jacket enough?",
-        "a": "A shell plus a fleece covers a lot. A single heavy coat usually does not."
+        "a": "A shell plus a fleece covers a lot of it. A single heavy coat usually doesn't."
       },
       {
         "q": "What about cotton?",
-        "a": "No, once you are away from the car."
+        "a": "No, once you're away from the car."
       },
       {
         "q": "How cold is cold?",
@@ -1277,30 +1277,30 @@ export const extraGuides: Guide[] = [
     "description": "In dry country the water plan is the route plan. Cache, carry, and turn around early.",
     "h1": "Desert hiking water planning",
     "kicker": "Guide · Water",
-    "answer": "In the desert, carry the water for the miles between sources you trust, and turn around while you still have the water to get back. Shade and salt matter as much as liters.",
+    "answer": "In the desert, carry the water for the miles between sources you trust, and turn around while you still have enough to get back. Shade and salt matter as much as the liters.",
     "sections": [
       {
         "id": "plan",
         "heading": "Plan the liters",
         "paragraphs": [
-          "There is no creek every hour. Write down the miles and the liters before you leave the pavement. A margin is not optional because a spring was a damp rock last week.",
-          "Tell someone the plan, including when you should be back."
+          "Plan the liters before you leave the pavement. There's no creek every hour, so write down the miles and the liters. A margin isn't optional. A spring on the map can be a damp rock.",
+          "Tell someone your plan, including when you should be back."
         ]
       },
       {
         "id": "body",
         "heading": "Sun and salt",
         "paragraphs": [
-          "A sun hoodie and a hat reduce how fast you spend water. Electrolyte tablets help salty sweaters. They do not replace volume.",
-          "Hike earlier. Midday is when the math gets worse."
+          "A sun hoodie and a hat slow how fast you spend water. Electrolyte tablets help if you're a salty sweater. They don't replace the volume you still need to drink.",
+          "Start earlier. Midday is when the math gets worse."
         ]
       },
       {
         "id": "turn",
         "heading": "Turnaround rules",
         "paragraphs": [
-          "Decide the turnaround before you are thirsty. If the cache is not there, you do not 'push to the next one' on a guess.",
-          "An umbrella can help on open, still approaches. It is useless in wind."
+          "Pick your turnaround before you're thirsty. If the cache isn't there, don't push on to the next one on a guess.",
+          "An umbrella can help you on an open, still approach. It's useless in wind."
         ]
       }
     ],
@@ -1314,15 +1314,15 @@ export const extraGuides: Guide[] = [
     "faqs": [
       {
         "q": "How many liters per mile?",
-        "a": "It varies with heat, load, and the person. Test on a hot day hike before a remote route."
+        "a": "It varies with the heat, your load, and you. Try a hot day hike before a remote route."
       },
       {
         "q": "Can I filter sand?",
-        "a": "Settle it first or you will clog the filter. Carry a backup."
+        "a": "Settle it first, or you'll clog the filter. Carry a backup."
       },
       {
         "q": "Is a phone map enough?",
-        "a": "Only if it is downloaded and you still have a paper or GPS backup for the water points."
+        "a": "Only if it's downloaded, and you still have a paper map or a GPS backup for the water points."
       }
     ],
     "related": [
@@ -1337,29 +1337,29 @@ export const extraGuides: Guide[] = [
     "description": "Distance, depth, and the places that want a wag bag instead.",
     "h1": "How to dig a cathole",
     "kicker": "Guide · Camp",
-    "answer": "Where catholes are allowed, dig a hole about six to eight inches deep, at least 200 feet from water, camp, and trail. Cover it. Pack out toilet paper if the rules say so. Some deserts and alpine zones want a wag bag instead.",
+    "answer": "Where catholes are allowed, dig a hole about six to eight inches deep, at least 200 feet from water, camp, and the trail. Cover it. Pack out the toilet paper if the rules say so. Some deserts and alpine zones want a wag bag instead.",
     "sections": [
       {
         "id": "where",
         "heading": "Pick the spot",
         "paragraphs": [
-          "Walk away from water, trails, and camp. Downslope from water is not away. A view is not a reason.",
-          "If the ground will not take a hole, you are in wag-bag country or you need a different spot."
+          "Pick a spot well away from water, the trail, and camp. Downslope from water isn't away. A view isn't a reason to stop there.",
+          "If the ground won't take a hole, you're in wag-bag country, or you need a different spot."
         ]
       },
       {
         "id": "how",
         "heading": "Dig and cover",
         "paragraphs": [
-          "A real trowel beats a tent stake. Dig, use the hole, and cover it with the soil you removed. Do not build a cairn on it.",
-          "A small bottle of water for a backcountry bidet cuts the paper you carry. Pack the paper out in a bag if you use it."
+          "A real trowel beats a tent stake. Dig the hole, use it, and cover it with the soil you removed. Don't build a cairn on it.",
+          "A small bottle of water for a backcountry bidet cuts the paper you carry. If you use paper, pack it out in a bag."
         ]
       },
       {
         "id": "rules",
         "heading": "Read the rule first",
         "paragraphs": [
-          "Popular alpine areas, rivers, and some deserts prohibit burial. The trowel is not permission. A wag bag is part of the kit there, and it goes in the trash, not the cathole."
+          "Read the rule before you dig. Popular alpine areas, rivers, and some deserts ban burial. The trowel isn't permission. A wag bag is part of your kit there, and it goes in the trash, not in a hole."
         ]
       }
     ],
@@ -1370,15 +1370,15 @@ export const extraGuides: Guide[] = [
     "faqs": [
       {
         "q": "How deep?",
-        "a": "About six to eight inches, soil and rules allowing."
+        "a": "About six to eight inches, if the soil and the rules allow it."
       },
       {
         "q": "How far from water?",
-        "a": "At least 200 feet is the usual Leave No Trace figure. Follow a stricter local rule."
+        "a": "At least 200 feet is the usual Leave No Trace figure. Follow a stricter local rule if there's one."
       },
       {
         "q": "Can I burn paper?",
-        "a": "No. Pack it out or bury it only if the local rule allows burial."
+        "a": "No. Pack it out, or bury it only if the local rule allows burial."
       }
     ],
     "related": [
@@ -1393,29 +1393,29 @@ export const extraGuides: Guide[] = [
     "description": "Outside, stable, and never a tent heater. Fuel, fire bans, and the windscreen rule.",
     "h1": "Camp stove safety",
     "kicker": "Guide · Kitchen",
-    "answer": "Run a stove outside, on a stable surface, away from the tent. Do not use it as a heater. Check the fire ban. A windscreen is allowed only if the stove maker says so.",
+    "answer": "Run the stove outside, on a stable surface, away from the tent. Don't use it as a heater. Check the fire ban. A windscreen is allowed only if the stove maker says so.",
     "sections": [
       {
         "id": "where",
         "heading": "Where it runs",
         "paragraphs": [
-          "Outside. A vestibule feels sheltered and still collects carbon monoxide. A tent is not a kitchen.",
-          "Set it where a spill cannot land in your lap or on the sleeping bag. Canisters tip. Pots spill."
+          "Run it outside. A vestibule feels sheltered, and it still collects carbon monoxide. Your tent isn't a kitchen.",
+          "Set it where a spill can't land in your lap or on your sleeping bag. Canisters tip. Pots spill."
         ]
       },
       {
         "id": "fuel",
         "heading": "Fuel and cold",
         "paragraphs": [
-          "Canisters sulk in the cold. That is not a reason to put a windscreen against the canister and trap heat. Liquid fuel is the cold-weather tool.",
-          "Carry a lighter even if the stove has an igniter. Practice at home."
+          "Canisters sulk in the cold. That's not a reason to put a windscreen against the canister and trap heat. Liquid fuel is the tool for cold weather.",
+          "Carry a lighter even if the stove has an igniter. Practice at home before you need it."
         ]
       },
       {
         "id": "bans",
         "heading": "Fire bans",
         "paragraphs": [
-          "A stove ban and a campfire ban are not always the same rule. Alcohol stoves are illegal in some forests even when canister stoves are allowed. Read the restriction for the week you are going."
+          "A stove ban and a campfire ban aren't always the same rule. Alcohol stoves are illegal in some forests even when canister stoves are allowed. Read the restriction for the week you're going."
         ]
       }
     ],
@@ -1428,15 +1428,15 @@ export const extraGuides: Guide[] = [
     "faqs": [
       {
         "q": "Can I cook under a tarp?",
-        "a": "Only with real ventilation and never as a heater. When in doubt, step outside."
+        "a": "Only with real ventilation, and never as a heater. If you're unsure, step outside."
       },
       {
         "q": "What puts it out?",
-        "a": "Turn the valve off. Do not blow on a canister flame and then grab the pot."
+        "a": "Turn the valve off. Don't blow on a canister flame and then grab the pot."
       },
       {
         "q": "How do I carry fuel?",
-        "a": "Upright, capped, and out of the sleeping bag. Used canisters are trash, not fire starters."
+        "a": "Carry it upright, capped, and out of your sleeping bag. A used canister is trash, not a fire starter."
       }
     ],
     "related": [
@@ -1445,7 +1445,7 @@ export const extraGuides: Guide[] = [
       "canister-vs-liquid"
     ]
   }
-]
+];
 
 export const extraCompares: Compare[] = [
   {
@@ -1454,7 +1454,7 @@ export const extraCompares: Compare[] = [
     "description": "Solo tents: a double-wall Durston against a lighter single-wall Tarptent.",
     "h1": "X-Mid 1 vs Protrail",
     "kicker": "Comparison · Shelters",
-    "answer": "Choose the Durston X-Mid 1 if you want a double wall and you carry two poles. Choose the Tarptent Protrail if you want a lighter, simpler, single-wall solo tent and you will manage condensation.",
+    "answer": "We'd choose the Durston X-Mid 1 if you want a double wall and you carry two poles. We'd choose the Tarptent Protrail if you want a lighter, simpler, single-wall solo tent and you'll manage the condensation.",
     "left": "x-mid-1",
     "right": "protrail",
     "rows": [
@@ -1489,15 +1489,15 @@ export const extraCompares: Compare[] = [
         "right": "Gram counters who know single wall"
       }
     ],
-    "verdict": "The X-Mid 1 is the default solo tent. The Protrail wins on weight and loses on wet still nights.",
+    "verdict": "The X-Mid 1 is the solo tent we'd start with. The Protrail wins on weight and loses on wet, still nights.",
     "faqs": [
       {
         "q": "Can a beginner use the Protrail?",
-        "a": "Only if they practice and accept a damp wall. The X-Mid is the kinder teacher."
+        "a": "Only if you practice and you accept a damp wall. The X-Mid is the kinder teacher."
       },
       {
         "q": "Which is lighter?",
-        "a": "The Protrail, by enough to notice and not enough to suffer for if you hate condensation."
+        "a": "The Protrail, by enough to notice, and not enough to suffer for if you hate condensation."
       }
     ],
     "related": [
@@ -1512,7 +1512,7 @@ export const extraCompares: Compare[] = [
     "description": "Two women's packs: Osprey's ventilated Aura against Gregory's supportive Deva.",
     "h1": "Osprey Aura vs Gregory Deva",
     "kicker": "Comparison · Packs",
-    "answer": "Pick the Aura if a hot back is your problem. Pick the Deva if you want a denser hip-belt carry. The right one is the one that fits, so try both with weight.",
+    "answer": "We'd pick the Aura if a hot back is your problem. We'd pick the Deva if you want a denser hip-belt carry. The right one is the one that fits you, so try both with weight.",
     "left": "aura-65",
     "right": "deva-60",
     "rows": [
@@ -1547,15 +1547,15 @@ export const extraCompares: Compare[] = [
         "right": "You overheat on a flat panel"
       }
     ],
-    "verdict": "Neither is a bad pack. A bad fit is the problem. If you cannot try them, buy from a shop that takes returns.",
+    "verdict": "Neither is a bad pack. A bad fit is the problem. If you can't try them, buy from a shop that takes returns.",
     "faqs": [
       {
         "q": "Which is lighter?",
-        "a": "Neither is a light pack. Do not buy these to save ounces."
+        "a": "Neither is a light pack. Don't buy these to save ounces."
       },
       {
         "q": "Unisex instead?",
-        "a": "Only if the hip belt truly fits."
+        "a": "Only if the hip belt truly fits you."
       }
     ],
     "related": [
@@ -1570,7 +1570,7 @@ export const extraCompares: Compare[] = [
     "description": "Two merino hiking socks. The difference is cushion, fit, and how you wear through a heel.",
     "h1": "Darn Tough vs Smartwool hiking socks",
     "kicker": "Comparison · Socks",
-    "answer": "Buy Darn Tough if you want a tougher sock and a replacement policy you may actually use. Buy Smartwool if that last fits your shoe better. The wrong thickness in either brand is the blister.",
+    "answer": "We'd buy Darn Tough if you want a tougher sock and a replacement policy you may actually use. We'd buy Smartwool if that last fits your shoe better. The wrong thickness, in either brand, is what gives you the blister.",
     "left": "darn-tough-hiker",
     "right": "smartwool-hike",
     "rows": [
@@ -1605,15 +1605,15 @@ export const extraCompares: Compare[] = [
         "right": "Heel wear varies"
       }
     ],
-    "verdict": "Start with Darn Tough in the weight your shoe was fitted with. Switch if the fit is wrong, not because a forum told you to.",
+    "verdict": "We'd start with Darn Tough in the weight your shoe was fitted with. Switch if the fit is wrong, not because a forum told you to.",
     "faqs": [
       {
         "q": "Will either stop blisters?",
-        "a": "They help with moisture. Fit stops blisters."
+        "a": "They help with moisture. Fit is what stops the blisters."
       },
       {
         "q": "How many pairs?",
-        "a": "Two, so one can dry."
+        "a": "Two, so one can dry while you wear the other."
       }
     ],
     "related": [
@@ -1628,7 +1628,7 @@ export const extraCompares: Compare[] = [
     "description": "Trail ice versus sidewalk ice. They are not substitutes.",
     "h1": "Kahtoola Microspikes vs Yaktrax",
     "kicker": "Comparison · Traction",
-    "answer": "Buy Kahtoola MICROspikes for icy trail. Buy Yaktrax for sidewalks and parking lots. Taking Yaktrax onto rocky trail shreds the coils and slips where spikes would hold.",
+    "answer": "We'd buy Kahtoola MICROspikes for icy trail. We'd buy Yaktrax for sidewalks and parking lots. Take Yaktrax onto rocky trail and the coils shred, and you slip where spikes would hold.",
     "left": "microspikes",
     "right": "yaktrax",
     "rows": [
@@ -1663,15 +1663,15 @@ export const extraCompares: Compare[] = [
         "right": "Budget"
       }
     ],
-    "verdict": "If the trip is a hike, buy the Microspikes. Keep Yaktrax in the car for town ice.",
+    "verdict": "If the trip is a hike, we'd buy the Microspikes. Keep the Yaktrax in the car for town ice.",
     "faqs": [
       {
         "q": "Are either crampons?",
-        "a": "No."
+        "a": "No. Neither one is a crampon."
       },
       {
         "q": "Can I run in Yaktrax on trail?",
-        "a": "That is the product people regret."
+        "a": "We wouldn't. That's the one people regret."
       }
     ],
     "related": [
@@ -1686,7 +1686,7 @@ export const extraCompares: Compare[] = [
     "description": "A hard canister against a soft bag. The regulation picks the winner.",
     "h1": "BearVault BV500 vs Ursack Major",
     "kicker": "Comparison · Food storage",
-    "answer": "Buy the BV500 where a canister is required. Buy the Ursack Major only where that soft bag is legal. Weight is not the deciding column.",
+    "answer": "We'd buy the BV500 where a canister is required. We'd buy the Ursack Major only where that soft bag is legal. Weight isn't the column that decides it.",
     "left": "bv500",
     "right": "ursack-major",
     "rows": [
@@ -1725,11 +1725,11 @@ export const extraCompares: Compare[] = [
     "faqs": [
       {
         "q": "Is an OPsak enough?",
-        "a": "No. It is an odor layer inside legal storage."
+        "a": "No. It's an odor layer inside legal storage."
       },
       {
         "q": "Which is more comfortable to carry?",
-        "a": "The Ursack, and comfort does not change the rule."
+        "a": "The Ursack, and comfort doesn't change the rule."
       }
     ],
     "related": [
@@ -1744,7 +1744,7 @@ export const extraCompares: Compare[] = [
     "description": "Capilene against Icebreaker: dry speed versus smell.",
     "h1": "Synthetic vs merino base layers",
     "kicker": "Comparison · Layers",
-    "answer": "Choose synthetic if you sweat hard and need the shirt dry by evening. Choose merino if you will wear it for days and care more about odor than dry time.",
+    "answer": "Choose synthetic if you sweat hard and need the shirt dry by evening. Choose merino if you'll wear it for days and you care more about odor than dry time.",
     "left": "capilene-cool",
     "right": "icebreaker-175",
     "rows": [
@@ -1779,7 +1779,7 @@ export const extraCompares: Compare[] = [
         "right": "Expecting it to dry at lunch"
       }
     ],
-    "verdict": "Most hikers should own one synthetic hiking shirt and one merino or synthetic shirt that stays dry for camp. The camp shirt is the one that matters at dawn.",
+    "verdict": "We'd own one synthetic hiking shirt, and one merino or synthetic shirt that stays dry for camp. The camp shirt is the one that matters at dawn.",
     "faqs": [
       {
         "q": "Is cotton close enough?",
@@ -1787,7 +1787,7 @@ export const extraCompares: Compare[] = [
       },
       {
         "q": "Can I mix them?",
-        "a": "Yes. That is a normal kit."
+        "a": "Yes. That's a normal kit."
       }
     ],
     "related": [
@@ -1802,7 +1802,7 @@ export const extraCompares: Compare[] = [
     "description": "A titanium solo pot against an aluminum pot for two.",
     "h1": "TOAKS 750 vs GSI Halulite",
     "kicker": "Comparison · Cookware",
-    "answer": "Choose the TOAKS 750 if you eat alone and count grams. Choose the Halulite if two people share a boil. Frying is a different purchase.",
+    "answer": "We'd choose the TOAKS 750 if you eat alone and you're counting grams. We'd choose the Halulite if two of you share a boil. Frying is a different purchase.",
     "left": "toaks-750",
     "right": "halulite",
     "rows": [
@@ -1837,11 +1837,11 @@ export const extraCompares: Compare[] = [
         "right": "Pair rehydrating"
       }
     ],
-    "verdict": "Buy the pot for the number of people, not for the metal. A solo pot for a couple is how dinner gets tense.",
+    "verdict": "We'd buy the pot for your group, not for the metal. A solo pot for a couple is how dinner gets tense.",
     "faqs": [
       {
         "q": "Do I need both?",
-        "a": "No."
+        "a": "No, you don't. One pot that matches how you eat is enough."
       },
       {
         "q": "Which simmers?",
@@ -1860,7 +1860,7 @@ export const extraCompares: Compare[] = [
     "description": "A tall family tent against a cheap first tent.",
     "h1": "REI Kingdom 6 vs Coleman Sundome 4",
     "kicker": "Comparison · Family",
-    "answer": "Choose the Sundome to test whether your family likes car camping. Choose the Kingdom when you already know, and you want to stand up and ride out a weekend.",
+    "answer": "We'd choose the Sundome to see whether your family likes car camping. We'd choose the Kingdom when you already know, and you want to stand up and ride out a weekend.",
     "left": "kingdom-6",
     "right": "sundome-4",
     "rows": [
@@ -1895,15 +1895,15 @@ export const extraCompares: Compare[] = [
         "right": "A first season"
       }
     ],
-    "verdict": "The Sundome is a question. The Kingdom is an answer. Do not backpack either one.",
+    "verdict": "The Sundome is a question. The Kingdom is an answer. Don't backpack either one.",
     "faqs": [
       {
         "q": "Can I use these on a backpack?",
-        "a": "No."
+        "a": "No. We wouldn't carry either one on your back."
       },
       {
         "q": "Which handles wind?",
-        "a": "The Kingdom, staked, and neither belongs on a ridge."
+        "a": "The Kingdom, once you stake it, and neither one belongs on a ridge."
       }
     ],
     "related": [
@@ -1918,7 +1918,7 @@ export const extraCompares: Compare[] = [
     "description": "Two budget framed packs. One is easier to return. One is a bit lighter.",
     "h1": "REI Flash 55 vs Granite Gear Crown 60",
     "kicker": "Comparison · Packs",
-    "answer": "Choose the Flash 55 if you want to try a fit and return it easily. Choose the Crown3 60 if the hip belt feels good and you want a lighter frame for a week of food.",
+    "answer": "We'd choose the Flash 55 if you want to try a fit and return it easily. We'd choose the Crown3 60 if the hip belt feels good and you want a lighter frame for a week of food.",
     "left": "flash-55",
     "right": "crown-60",
     "rows": [
@@ -1953,11 +1953,11 @@ export const extraCompares: Compare[] = [
         "right": "The belt does not fit"
       }
     ],
-    "verdict": "Fit decides. If both feel fine, the Crown is the one to keep for a longer trip. If you are unsure, start at a shop with the Flash.",
+    "verdict": "Fit decides. If both feel fine, the Crown is the one we'd keep for a longer trip. If you're unsure, start at a shop with the Flash.",
     "faqs": [
       {
         "q": "Will either carry 40 pounds well?",
-        "a": "Not happily. Step up."
+        "a": "Not happily. We'd step up to a sturdier pack."
       },
       {
         "q": "Is 55 liters enough?",
@@ -1976,7 +1976,7 @@ export const extraCompares: Compare[] = [
     "description": "A backyard hammock against a hammock built for the night.",
     "h1": "ENO DoubleNest vs Warbonnet Blackbird",
     "kicker": "Comparison · Hammocks",
-    "answer": "Choose the ENO if you are testing whether you like a hammock at all. Choose the Blackbird when you intend to sleep, and budget for the underquilt and tarp either way.",
+    "answer": "Choose the ENO if you're seeing whether you like a hammock at all. Choose the Blackbird when you intend to sleep, and budget for the underquilt and tarp either way.",
     "left": "eno-doublenest",
     "right": "blackbird-xlc",
     "rows": [
@@ -2011,15 +2011,15 @@ export const extraCompares: Compare[] = [
         "right": "Incomplete without an underquilt"
       }
     ],
-    "verdict": "Do not take a bare ENO into a cool night and decide hammocks are cold. Buy the Blackbird system, or test the ENO in warm weather only.",
+    "verdict": "Don't take a bare ENO into a cool night and decide hammocks are cold. Buy the Blackbird system, or try the ENO in warm weather only.",
     "faqs": [
       {
         "q": "Is the ENO a waste?",
-        "a": "No. It is a cheap lesson. It is a waste as your only sleep system."
+        "a": "No. It's a cheap lesson. It's a waste as your only sleep system."
       },
       {
         "q": "Does the Blackbird include a tarp?",
-        "a": "No. Add one."
+        "a": "No, it doesn't. You'll still want to add one."
       }
     ],
     "related": [
@@ -2034,7 +2034,7 @@ export const extraCompares: Compare[] = [
     "description": "A breathable fleece-adjacent layer against a synthetic insulated hoody.",
     "h1": "Patagonia R1 Air vs Arc'teryx Atom",
     "kicker": "Comparison · Layers",
-    "answer": "Choose the R1 Air to hike in. Choose the Atom when you want insulation that survives damp better than down. They are not the same job.",
+    "answer": "We'd choose the R1 Air to hike in. We'd choose the Atom when you want insulation that handles damp better than down. They're not the same job.",
     "left": "r1-air",
     "right": "atom-hoody",
     "rows": [
@@ -2069,15 +2069,15 @@ export const extraCompares: Compare[] = [
         "right": "Yes"
       }
     ],
-    "verdict": "If you own neither, buy a fleece you will hike in and a separate camp layer. The Atom can be that camp layer in wet country. The R1 should not be your only insulation at a cold camp.",
+    "verdict": "If you own neither, we'd buy a fleece you'll hike in and a separate camp layer. The Atom can be that camp layer in wet country. The R1 shouldn't be your only insulation at a cold camp.",
     "faqs": [
       {
         "q": "Can one jacket do both?",
-        "a": "That is how people sweat through their insulation. Separate the jobs."
+        "a": "That's how you sweat through your insulation. Separate the jobs."
       },
       {
         "q": "Is the Atom a rain shell?",
-        "a": "No."
+        "a": "No, it isn't. You'll still want a rain shell."
       }
     ],
     "related": [
@@ -2092,7 +2092,7 @@ export const extraCompares: Compare[] = [
     "description": "A padded ultralight pack against a waterproof roll-top.",
     "h1": "Gossamer Gear Mariposa vs Hyperlite Southwest",
     "kicker": "Comparison · Packs",
-    "answer": "Choose the Mariposa if you want a hip belt and pockets. Choose the Hyperlite Southwest if the pack itself should shrug off rain and you already pack simply.",
+    "answer": "We'd choose the Mariposa if you want a hip belt and pockets. We'd choose the Hyperlite Southwest if the pack itself should shrug off rain and you already pack simply.",
     "left": "mariposa",
     "right": "hmg-southwest",
     "rows": [
@@ -2127,15 +2127,15 @@ export const extraCompares: Compare[] = [
         "right": "Wet-country simplicity"
       }
     ],
-    "verdict": "The Mariposa is the easier pack to live with. The Southwest is the specialist. Neither forgives a heavy kit.",
+    "verdict": "The Mariposa is the easier pack to live with. The Southwest is the specialist. Neither one forgives a heavy kit.",
     "faqs": [
       {
         "q": "Do I still need a liner?",
-        "a": "Yes in the Mariposa. In the Southwest it is still wise for a river crossing."
+        "a": "Yes, in the Mariposa. In the Southwest it's still wise for a river crossing."
       },
       {
         "q": "First pack?",
-        "a": "No. Buy a Crown or a Flash."
+        "a": "No. We'd buy a Crown or a Flash first."
       }
     ],
     "related": [
@@ -2144,14 +2144,14 @@ export const extraCompares: Compare[] = [
       "light-and-dry"
     ]
   }
-]
+];
 
 export const extraKits: Kit[] = [
   {
     "slug": "hammock-weekend",
     "name": "Hammock weekend",
     "description": "Two nights in trees, with the underquilt included on purpose.",
-    "forWhom": "Hikers who already know they sleep in a hammock and have legal trees.",
+    "forWhom": "This is for you if you already know you sleep in a hammock and you've got legal trees.",
     "productSlugs": [
       "blackbird-xlc",
       "hg-econ",
@@ -2161,16 +2161,16 @@ export const extraKits: Kit[] = [
       "soto-amicus"
     ],
     "notes": [
-      "Do not substitute a pad and hope.",
+      "Don't swap in a pad and hope.",
       "Practice the tarp before the trip.",
-      "Add a top quilt or a bag you already trust."
+      "Add a top quilt, or a bag you already trust."
     ]
   },
   {
     "slug": "desert-day",
     "name": "Desert day hike",
     "description": "Shade, salt, and more water capacity than a forest walk.",
-    "forWhom": "Day hikers on exposed, dry trail who will turn around on purpose.",
+    "forWhom": "This is for you if you're day hiking on exposed, dry trail and you'll turn around on purpose.",
     "productSlugs": [
       "echo-hoodie",
       "liteflex",
@@ -2180,16 +2180,16 @@ export const extraKits: Kit[] = [
       "topo-ultraventure"
     ],
     "notes": [
-      "The shoe is optional if your usual shoe fits.",
-      "Write the water plan down.",
-      "A headlamp still belongs in the pack if the day might run long."
+      "Skip the shoe if your usual shoe already fits.",
+      "Write your water plan down.",
+      "A headlamp still belongs in your pack if the day might run long."
     ]
   },
   {
     "slug": "rainy-weekend",
     "name": "Rainy weekend",
     "description": "A shell you can hike in, a tent that vents, and a dry shirt that never gets walked in.",
-    "forWhom": "Three-season hikers who checked the forecast and are going anyway.",
+    "forWhom": "This is for you if you're hiking in three-season weather, you've seen the forecast, and you're going anyway.",
     "productSlugs": [
       "or-foray",
       "dragonfly-osmo-2",
@@ -2199,16 +2199,16 @@ export const extraKits: Kit[] = [
       "darn-tough-hiker"
     ],
     "notes": [
-      "Synthetic insulation or a synthetic bag if the down cannot stay dry.",
-      "Change socks at camp.",
-      "No stove in the tent."
+      "Use synthetic insulation, or a synthetic bag, if your down can't stay dry.",
+      "Change your socks at camp.",
+      "Don't run a stove in the tent."
     ]
   },
   {
     "slug": "family-weekend",
     "name": "Family car-camp",
     "description": "A tent you can stand in, kid sleep, and a lamp that is not yours.",
-    "forWhom": "Families testing a short, warm, close-to-the-car weekend.",
+    "forWhom": "This is for you if you're trying a short, warm weekend close to the car with the family.",
     "productSlugs": [
       "kingdom-6",
       "kindercone",
@@ -2218,8 +2218,8 @@ export const extraKits: Kit[] = [
       "wash-bins"
     ],
     "notes": [
-      "Stop while it is fun.",
-      "Pad under the kid, not a pool float.",
+      "Stop while it's still fun.",
+      "Put a real pad under the kid, not a pool float.",
       "Cook away from the tent."
     ]
   },
@@ -2227,7 +2227,7 @@ export const extraKits: Kit[] = [
     "slug": "winter-day",
     "name": "Winter day hike",
     "description": "Traction, a shell, and a turnaround time. Not a mountaineering kit.",
-    "forWhom": "Hikers on packed snow and moderate ice who will be back in daylight.",
+    "forWhom": "This is for you if you're on packed snow and moderate ice, and you'll be back in daylight.",
     "productSlugs": [
       "microspikes",
       "crocodile",
@@ -2237,16 +2237,16 @@ export const extraKits: Kit[] = [
       "bd-storm"
     ],
     "notes": [
-      "Spikes come off on dry pavement.",
-      "This is not an ice-axe route.",
-      "Tell someone when you will be back."
+      "Take the spikes off on dry pavement.",
+      "This isn't an ice-axe route.",
+      "Tell someone when you'll be back."
     ]
   },
   {
     "slug": "blister-kit",
     "name": "Blister kit",
     "description": "The small kit that should be in every pack before the hero items.",
-    "forWhom": "Anyone who has ever ignored a hot spot.",
+    "forWhom": "This is for you if you've ever ignored a hot spot.",
     "productSlugs": [
       "leukotape",
       "darn-tough-hiker",
@@ -2255,15 +2255,15 @@ export const extraKits: Kit[] = [
     ],
     "notes": [
       "Tape goes on before the bubble.",
-      "Test the liner on a short day.",
-      "The rest of the first-aid kit still needs your personal meds."
+      "Try the liner on a short day first.",
+      "The rest of the first-aid kit still needs the medicine you actually take."
     ]
   },
   {
     "slug": "bear-country",
     "name": "Bear-country weekend",
     "description": "Food storage that matches the rule, plus a normal sleep system.",
-    "forWhom": "Hikers with a canister requirement and a pack that can carry it.",
+    "forWhom": "This is for you if a canister is required and your pack can carry it.",
     "productSlugs": [
       "bv500",
       "opsak",
@@ -2275,14 +2275,14 @@ export const extraKits: Kit[] = [
     "notes": [
       "Fit the canister at home.",
       "Sleep away from it.",
-      "An Ursack is not the substitute on this trip."
+      "An Ursack isn't the substitute on this trip."
     ]
   },
   {
     "slug": "hot-weather",
     "name": "Hot-weather overnight",
     "description": "Sun, a light shelter, and a shirt that dries.",
-    "forWhom": "Warm-night hikers who sleep warm enough for a lighter bag.",
+    "forWhom": "This is for you if the nights are warm and you sleep warm enough for a lighter bag.",
     "productSlugs": [
       "echo-hoodie",
       "capilene-cool",
@@ -2293,12 +2293,12 @@ export const extraKits: Kit[] = [
       "nu25"
     ],
     "notes": [
-      "A 30°F bag is still a lot of bag if the night is 60°F. Swap in the Spark or a summer quilt you trust.",
+      "A 30°F bag is still a lot of bag if the night is 60°F. Swap in the Spark, or a summer quilt you trust.",
       "Carry the water for the dry stretch.",
       "Bugs may matter more than the cold."
     ]
   }
-]
+];
 
 export const notes: Guide[] = [
   {
@@ -2307,33 +2307,57 @@ export const notes: Guide[] = [
     "description": "R-value is how well a pad resists heat loss into the ground. Thickness is not the same number.",
     "h1": "What R-value means on a sleeping pad",
     "kicker": "Field note",
-    "answer": "R-value measures resistance to heat flowing out of you and into the ground. A thick pad can still be a cold pad. For most three-season trips, start around R 3 to 4. Cold sleepers and snow-adjacent camps want about R 5 or more.",
+    "answer": "R-value is how well the pad resists your heat leaking into the ground. A thick pad can still be a cold pad. For most three-season trips, we'd start around R 3 to 4. If you sleep cold, or you're camped near snow, we'd want about R 5 or more.",
     "quick": {
       "caption": "Quick answer: what R-value to start with",
-      "columns": ["Your nights", "Start around", "Example in this catalog"],
-      "rows": [
-        ["Warm summer nights, warm sleeper", "R 2 to 3", "Therm-a-Rest Z Lite Sol, about R 2"],
-        ["Summer, cold sleeper", "Near R 3.5", "Therm-a-Rest NeoAir XLite NXT, about R 4-plus"],
-        ["Most three-season trips", "R 3 to 4", "Therm-a-Rest NeoAir XLite NXT, about R 4-plus"],
-        ["Cold sleepers, snow-adjacent camps, winter", "R 5 or more", "Exped Dura 5R, about R 5; Therm-a-Rest NeoAir XTherm, about R 7"],
-        ["Foam under an air pad", "Add the two numbers", "Z Lite Sol under an XLite NXT, about R 6-plus"]
+      "columns": [
+        "Your nights",
+        "Start around",
+        "Example in this catalog"
       ],
-      "note": "Ranges come from the pad pages on this site. R-values are each maker's published class and can change with the model year. Check the listing for the version you buy."
+      "rows": [
+        [
+          "Warm summer nights, warm sleeper",
+          "R 2 to 3",
+          "Therm-a-Rest Z Lite Sol, about R 2"
+        ],
+        [
+          "Summer, cold sleeper",
+          "Near R 3.5",
+          "Therm-a-Rest NeoAir XLite NXT, about R 4-plus"
+        ],
+        [
+          "Most three-season trips",
+          "R 3 to 4",
+          "Therm-a-Rest NeoAir XLite NXT, about R 4-plus"
+        ],
+        [
+          "Cold sleepers, snow-adjacent camps, winter",
+          "R 5 or more",
+          "Exped Dura 5R, about R 5; Therm-a-Rest NeoAir XTherm, about R 7"
+        ],
+        [
+          "Foam under an air pad",
+          "Add the two numbers",
+          "Z Lite Sol under an XLite NXT, about R 6-plus"
+        ]
+      ],
+      "note": "R-values are each maker's published class, and they can change with the model year. Check the listing for the version you're buying."
     },
     "sections": [
       {
         "id": "use",
         "heading": "How to use the number",
         "paragraphs": [
-          "Read the R-value for the model year you are buying. Makers have standardized the test, and old marketing numbers are not comparable.",
-          "Two pads stacked add their R-values. A foam pad under an air pad is insulation and puncture insurance."
+          "Read the R-value for the model year you're buying. Makers have standardized the test, so old marketing numbers aren't comparable.",
+          "Stack two pads and you add their R-values. A foam pad under an air pad is insulation, and it's puncture insurance."
         ]
       },
       {
         "id": "not",
         "heading": "What it is not",
         "paragraphs": [
-          "It is not the warmth of your sleeping bag. The bag handles the air. The pad handles the ground. A liner does not fix a summer pad on frozen dirt."
+          "It isn't the warmth of your sleeping bag. The bag handles the air around you. The pad handles the ground. A liner doesn't fix a summer pad on frozen dirt."
         ]
       }
     ],
@@ -2346,11 +2370,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Is higher always better?",
-        "a": "It is warmer and usually heavier. Summer does not need a winter pad."
+        "a": "It's warmer, and usually heavier. A summer night doesn't need a winter pad."
       },
       {
         "q": "Do air pads count?",
-        "a": "Insulated ones do. A pool float does not."
+        "a": "Insulated ones do. A pool float doesn't."
       }
     ],
     "related": [
@@ -2366,20 +2390,20 @@ export const notes: Guide[] = [
     "description": "A freestanding tent stands before you stake it. Semi-freestanding still needs a stake.",
     "h1": "What a freestanding tent is",
     "kicker": "Field note",
-    "answer": "A freestanding tent supports itself on its poles. You still stake it against wind. A semi-freestanding tent stands only after one end is staked. A trekking-pole tent does not stand at all without poles and stakes.",
+    "answer": "A freestanding tent holds itself up on its poles. You still stake it so the wind doesn't take it. A semi-freestanding tent stands only after you stake one end. A trekking-pole tent doesn't stand at all until the poles and stakes are in.",
     "sections": [
       {
         "id": "when",
         "heading": "When it matters",
         "paragraphs": [
-          "Wooden platforms, slabs, and sand where stakes fail are why freestanding tents exist. If every camp is soft forest soil and you carry poles, a pole tent is lighter."
+          "It matters on wooden platforms, slabs, and sand, where stakes fail. That's why freestanding tents exist. If every camp of yours is soft forest soil and you carry poles, a pole tent is lighter."
         ]
       },
       {
         "id": "stake",
         "heading": "You still stake it",
         "paragraphs": [
-          "Freestanding is not the same as unstaked. Wind will fold an unstaked tent. Stake the guylines before dinner, not after the gust."
+          "You still stake it. Freestanding isn't the same as leaving it loose. Wind will fold an unstaked tent. Stake the guylines before dinner, not after the gust."
         ]
       }
     ],
@@ -2391,11 +2415,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Is freestanding stronger?",
-        "a": "Not automatically. It is easier on awkward sites."
+        "a": "Not automatically. It's easier on the awkward sites."
       },
       {
         "q": "Do footprints make it freestanding?",
-        "a": "No."
+        "a": "No, a footprint doesn't. It doesn't make the tent stand up."
       }
     ],
     "related": [
@@ -2410,20 +2434,20 @@ export const notes: Guide[] = [
     "description": "Durable water repellent is the finish that makes water bead. When it stops beading, the fabric is not always leaking.",
     "h1": "What DWR means on a rain jacket",
     "kicker": "Field note",
-    "answer": "DWR is a finish on the face fabric. It makes water bead so the membrane underneath can breathe. When the face wets out, you feel clammy even if the seams are not leaking. Wash and re-proof as the maker instructs.",
+    "answer": "DWR is the finish on the face fabric of your jacket. It makes water bead so the membrane underneath can breathe. When the face wets out, you feel clammy even if the seams aren't leaking. Wash it and re-proof it the way the maker says.",
     "sections": [
       {
         "id": "wetout",
         "heading": "Wet-out versus a leak",
         "paragraphs": [
-          "If water sheets and soaks the outer fabric but does not drip through the lining, start with DWR care. If water comes through seams or the zipper, you have a leak or a failure."
+          "If water sheets across the outside and soaks the face but doesn't drip through the lining, start with DWR care. If water comes through a seam or the zipper, you've got a leak, or the jacket has failed."
         ]
       },
       {
         "id": "care",
         "heading": "Care",
         "paragraphs": [
-          "Dirt kills DWR. A gentle wash matters more than another layer of spray on a filthy jacket. Heat, if the maker allows it, resets some finishes."
+          "Dirt is what kills DWR. A gentle wash does more than another spray on a filthy jacket. Heat, if the maker allows it, resets some finishes."
         ]
       }
     ],
@@ -2435,11 +2459,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Does DWR last forever?",
-        "a": "No."
+        "a": "No, it doesn't. You'll wash it and re-proof it."
       },
       {
         "q": "Is a new jacket broken if it wets out in year three?",
-        "a": "Not necessarily. Clean it and re-proof it."
+        "a": "Not necessarily. Clean it and re-proof it before you give up on it."
       }
     ],
     "related": [
@@ -2454,31 +2478,51 @@ export const notes: Guide[] = [
     "description": "A rating is a class, not a promise that you will be warm at that number.",
     "h1": "How to read a sleeping bag temperature rating",
     "kicker": "Field note",
-    "answer": "EN or ISO ratings separate comfort, limit, and extreme. Marketing often prints the limit, which is a cooler sleeper's survival class, not a comfortable night. Cold sleepers should buy about ten degrees warmer than the coldest air they expect.",
+    "answer": "An EN or ISO rating splits comfort, limit, and extreme. The label often prints the limit, and that's a cooler sleeper's survival class, not a comfortable night for you. If you sleep cold, we'd buy about ten degrees warmer than the coldest air you expect.",
     "quick": {
       "caption": "Quick answer: which number to plan with",
-      "columns": ["Number on the label", "What it means", "Plan with it?"],
-      "rows": [
-        ["Comfort", "A standard sleeper has an okay night", "Yes. Match it to the coldest night you expect."],
-        ["Limit", "Lower than comfort, a cooler sleeper's survival class", "Only with margin. Labels often print this one."],
-        ["Extreme", "A survival figure", "No."],
-        ["One number, no standard named", "Treat it as optimistic", "Treat it as a limit and add margin."]
+      "columns": [
+        "Number on the label",
+        "What it means",
+        "Plan with it?"
       ],
-      "note": "If you sleep cold, buy about ten degrees warmer than the coldest air you expect. For most three-season trips, a 15°F or 20°F down mummy is the default."
+      "rows": [
+        [
+          "Comfort",
+          "A standard sleeper has an okay night",
+          "Yes. Match it to the coldest night you expect."
+        ],
+        [
+          "Limit",
+          "Lower than comfort, a cooler sleeper's survival class",
+          "Only with margin. Labels often print this one."
+        ],
+        [
+          "Extreme",
+          "A survival figure",
+          "No."
+        ],
+        [
+          "One number, no standard named",
+          "Treat it as optimistic",
+          "Treat it as a limit and add margin."
+        ]
+      ],
+      "note": "If you sleep cold, we'd buy about ten degrees warmer than the coldest air you expect. For most three-season trips, a 15°F or 20°F down mummy is the one we'd start with."
     },
     "sections": [
       {
         "id": "words",
         "heading": "Comfort versus limit",
         "paragraphs": [
-          "Comfort is the number for a standard sleeper having an okay night. Limit is lower. Extreme is a survival figure, not a planning figure. If a brand prints one number and will not say which, treat it as optimistic."
+          "Comfort is the number for a standard sleeper having an okay night. Limit is lower. Extreme is a survival figure, not a number you'd plan a night around. Worth knowing: if a brand prints one number and won't say which, treat it as optimistic."
         ]
       },
       {
         "id": "you",
         "heading": "You are the variable",
         "paragraphs": [
-          "Sleeping cold at home predicts sleeping cold outside. A pad with too little R-value makes a good bag feel like a bad bag. Eat before bed. A dry hat helps."
+          "You're the variable. If you sleep cold at home, you'll sleep cold outside. A pad with too little R-value makes a good bag feel like a bad one. Eat before bed. A dry hat helps."
         ]
       }
     ],
@@ -2490,11 +2534,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Are quilt ratings the same?",
-        "a": "They should name the standard. Many small makers use their own class. Read their definition."
+        "a": "They should name the standard. A lot of small makers use their own class. Read how they define it."
       },
       {
         "q": "Does a liner add ten degrees?",
-        "a": "No. It adds a little and keeps the bag cleaner."
+        "a": "No. It adds a little, and it keeps the bag cleaner."
       }
     ],
     "related": [
@@ -2509,20 +2553,20 @@ export const notes: Guide[] = [
     "description": "Drop is the height difference between heel and toe. Changing it quickly is how calves complain.",
     "h1": "What heel-drop means in hiking shoes",
     "kicker": "Field note",
-    "answer": "Drop, or offset, is how much higher the heel sits than the toe. A traditional boot might be near 10 mm. A zero-drop shoe is flat. Neither is morally better. A sudden change is a calf and Achilles problem.",
+    "answer": "Drop, or offset, is how much higher your heel sits than your toe. A traditional boot might be near 10 mm. A zero-drop shoe is flat. Neither one is better as a moral claim. Change it suddenly and your calf and Achilles are the ones that complain.",
     "sections": [
       {
         "id": "switch",
         "heading": "Switch slowly",
         "paragraphs": [
-          "Give a lower drop two or three easy weeks before a long day. Pain is a reason to go back, not a reason to push through a 16-mile descent."
+          "Switch slowly. Give a lower drop two or three easy weeks before a long day. Pain is a reason to go back, not a reason to push through a 16-mile descent."
         ]
       },
       {
         "id": "fit",
         "heading": "Drop is not width",
         "paragraphs": [
-          "A wide toe box and a low drop often arrive together and are separate features. You can want one and not the other. The Topo Ultraventure is the example of cushion and room without going all the way to zero."
+          "Drop isn't width. A wide toe box and a low drop often show up together, and they're separate things. You can want one and not the other. The Topo Ultraventure is the example of cushion and room without going all the way to zero."
         ]
       }
     ],
@@ -2534,11 +2578,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Is zero drop better for knees?",
-        "a": "Not as a rule. It is a different load."
+        "a": "Not as a rule. It just loads your legs differently."
       },
       {
         "q": "Do I need zero drop?",
-        "a": "No."
+        "a": "No, you don't. Stay with a drop your calves already know if that's working."
       }
     ],
     "related": [
@@ -2553,21 +2597,21 @@ export const notes: Guide[] = [
     "description": "A wide last is a different shape. Sizing up is not a wide shoe.",
     "h1": "What a wide last means",
     "kicker": "Field note",
-    "answer": "A wide last is built wider, often marked 2E or wide. Buying a longer size in a narrow last gives you a slipping heel and a toe that still hits. Fit the wider foot for width and the longer foot for length.",
+    "answer": "A wide last is built wider, often marked 2E or just wide. Buying a longer size in a narrow last gives you a slipping heel, and your toe still hits. Fit the wider foot for width and the longer foot for length.",
     "sections": [
       {
         "id": "try",
         "heading": "Try the labeled wide",
         "paragraphs": [
-          "KEEN, Lowa wide, Oboz, and some Altras are common stops. A roomy toe box is not the same as a 2E.",
-          "Shop late in the day. Feet swell."
+          "Try the one labeled wide. KEEN, Lowa wide, Oboz, and some Altras are the usual stops. A roomy toe box isn't the same thing as a 2E.",
+          "Shop late in the day, when your feet have swollen."
         ]
       },
       {
         "id": "socks",
         "heading": "Do not fix it with socks",
         "paragraphs": [
-          "A thin sock in a too-narrow shoe is a temporary lie. A thick sock in a correct wide shoe is a blister."
+          "Here's the thing: a thin sock won't fix a shoe that's too narrow. And a thick sock in a wide shoe that already fits right is how you get a blister."
         ]
       }
     ],
@@ -2580,11 +2624,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Are all wides equal?",
-        "a": "No. Try them."
+        "a": "No. Try them on your own feet."
       },
       {
         "q": "What if one foot is wider?",
-        "a": "Fit the wide foot and lace the other more firmly."
+        "a": "Fit the wide foot, and lace the other one more firmly."
       }
     ],
     "related": [
@@ -2599,20 +2643,20 @@ export const notes: Guide[] = [
     "description": "Hollow-fiber filters catch bacteria and protozoa. Viruses and chemicals are a different problem.",
     "h1": "What a backpacking water filter removes",
     "kicker": "Field note",
-    "answer": "A typical squeeze filter is a hollow-fiber straw. It is the right tool for most North American backcountry water. It does not remove viruses, and it does not remove salt or chemical spills. Cloudy water clogs it.",
+    "answer": "A typical squeeze filter is a hollow-fiber straw. It's the right tool for most North American backcountry water you'll drink. It doesn't remove viruses, and it doesn't remove salt or a chemical spill. Cloudy water clogs it.",
     "sections": [
       {
         "id": "backup",
         "heading": "Have a second method",
         "paragraphs": [
-          "Aquamira-style drops or a UV pen cover the gap when you need them, and they save you when the filter freezes or clogs. Drops need contact time. UV needs clear water."
+          "Carry a second method. Aquamira-style drops or a UV pen cover the gap when you need them, and they save you if the filter freezes or clogs. Drops need contact time. UV needs clear water."
         ]
       },
       {
         "id": "labels",
         "heading": "Label the bottles",
         "paragraphs": [
-          "Dirty water goes in the dirty bag. Clean water comes out the clean side. Mixing them up is the whole failure mode of an otherwise good filter."
+          "Label the bottles. Dirty water goes in the dirty bag. Clean water comes out the clean side. Mix them up and that's how an otherwise good filter fails you."
         ]
       }
     ],
@@ -2625,11 +2669,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Does boiling work?",
-        "a": "Yes, if you actually boil it. It uses fuel."
+        "a": "Yes, if you actually bring it to a boil. It costs you fuel."
       },
       {
         "q": "Is a Lifestraw a trip filter?",
-        "a": "It is a survival tool. It is awkward as your only backpacking system."
+        "a": "It's a survival tool. It's awkward as the only system in your pack."
       }
     ],
     "related": [
@@ -2644,20 +2688,20 @@ export const notes: Guide[] = [
     "description": "Fill power is loft per ounce of down, not the warmth of the whole jacket.",
     "h1": "What down fill power means",
     "kicker": "Field note",
-    "answer": "Fill power measures how much space an ounce of down occupies. Higher fill power means less down is needed for the same loft, which usually means a lighter garment. It does not tell you how much down the maker put in.",
+    "answer": "Fill power is how much space an ounce of down takes up. Higher fill power means you need less down for the same loft, which usually means a lighter jacket. It doesn't tell you how much down the maker put in.",
     "sections": [
       {
         "id": "amount",
         "heading": "Amount matters more",
         "paragraphs": [
-          "A 1000-fill jacket with very little down can be colder than a 700-fill jacket with a lot of down. Look at fill weight when it is published, not only the fill-power badge."
+          "How much down is in there matters more. A 1000-fill jacket with very little down can be colder than a 700-fill jacket with a lot of it. Look at the fill weight when it's published, not only the fill-power badge."
         ]
       },
       {
         "id": "wet",
         "heading": "Down and water",
         "paragraphs": [
-          "Any fill power collapses when soaked. Synthetic insulation is the wet-weather alternative. Dry the jacket. Do not stuff wet down in a compression sack and forget it."
+          "Any fill power collapses once it's soaked. Synthetic insulation is the choice for wet weather. Dry the jacket. Don't stuff wet down into a compression sack and forget it."
         ]
       }
     ],
@@ -2688,20 +2732,20 @@ export const notes: Guide[] = [
     "description": "A lab number for how much water pressure a fabric resists. It is not the whole rain jacket.",
     "h1": "What hydrostatic head means",
     "kicker": "Field note",
-    "answer": "Hydrostatic head is a pressure test. Higher numbers mean the fabric resisted more water in the lab. Seams, zippers, wear, and DWR decide whether you get wet on a trail. Do not buy a jacket from this number alone.",
+    "answer": "Hydrostatic head is a lab pressure test. A higher number means the fabric held more water in that test. Seams, zippers, wear, and DWR decide whether you get wet on the trail. Don't pick your jacket from this number alone.",
     "sections": [
       {
         "id": "use",
         "heading": "Use it as a floor",
         "paragraphs": [
-          "A very low number is a wind shirt, not a storm shell. A huge number does not fix a leaking zipper. Pit zips and a hood you can turn still matter more on a climb."
+          "Use it as a floor, not the whole decision. A very low number is a wind shirt, not a storm shell. A huge number doesn't fix a zipper that leaks. Pit zips, and a hood you can turn, still matter more while you're climbing."
         ]
       },
       {
         "id": "age",
         "heading": "It changes",
         "paragraphs": [
-          "Worn membranes and crushed coatings do not keep their original number. A three-year-old budget shell that wets through at the seams is done, even if the hangtag was impressive."
+          "It changes as the jacket ages. Worn membranes and crushed coatings don't keep the number they started with. A three-year-old budget shell that wets through at the seams is done, even if the hangtag was impressive."
         ]
       }
     ],
@@ -2713,7 +2757,7 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Is 20,000 necessary?",
-        "a": "Not for trail rain. Construction matters more."
+        "a": "Not for trail rain. How the jacket is built matters more."
       },
       {
         "q": "Does the number cover seams?",
@@ -2732,20 +2776,20 @@ export const notes: Guide[] = [
     "description": "Pack size is torso length, not your shirt size.",
     "h1": "How to measure backpack torso length",
     "kicker": "Field note",
-    "answer": "Torso length runs from the C7 vertebra at the base of your neck to the iliac crest, where a hip belt should sit. It is not your height. Two people of the same height often need different pack sizes.",
+    "answer": "Your torso length runs from the C7 vertebra, that bump at the base of your neck, to the iliac crest, where the hip belt should sit. It isn't your height. Two people the same height often need different pack sizes.",
     "sections": [
       {
         "id": "measure",
         "heading": "Measure it",
         "paragraphs": [
-          "Tilt your head forward and find the bony bump. Find the top of your hip bones. Have someone measure between them. Then try the pack size that claims that range, with weight."
+          "Measure it before you trust a size chart. Tilt your head forward and find the bony bump. Find the top of your hip bones. Have someone measure between them. Then try the pack size that claims that range, with weight in it."
         ]
       },
       {
         "id": "belt",
         "heading": "The belt is the check",
         "paragraphs": [
-          "If the hip belt sits on your stomach, the torso is too long or the pack is the wrong shape. The weight should land on the crest of the hips."
+          "The belt is the check. If it sits on your stomach, the torso is too long, or the pack is the wrong shape. The weight should land on the crest of your hips."
         ]
       }
     ],
@@ -2757,11 +2801,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Do women use a different measurement?",
-        "a": "The measurement is the same. The pack shape often is not."
+        "a": "The measurement is the same. The pack shape often isn't."
       },
       {
         "q": "Can I ignore it if the pack is adjustable?",
-        "a": "No. Adjustment has a range."
+        "a": "No. The adjustment only covers a range."
       }
     ],
     "related": [
@@ -2776,20 +2820,20 @@ export const notes: Guide[] = [
     "description": "The hip belt carries the load. Shoulder straps keep the pack from falling back.",
     "h1": "What a backpack hip belt is for",
     "kicker": "Field note",
-    "answer": "A padded hip belt should carry most of a real load. If your shoulders hurt in the first ten minutes, the belt is not on the hip or the pack does not fit. A frameless pack with a token belt is a different tool for a light kit.",
+    "answer": "A padded hip belt should carry most of a real load on your hips. If your shoulders hurt in the first ten minutes, the belt isn't on your hip, or the pack doesn't fit. A frameless pack with a token belt is a different tool, for a light kit.",
     "sections": [
       {
         "id": "position",
         "heading": "Where it sits",
         "paragraphs": [
-          "The padded part wraps the top of the hips, not your waist like a pair of pants. Tighten it before you tighten the shoulder straps."
+          "It sits on the top of your hips, not around your waist like a pair of pants. Tighten the belt before you tighten the shoulder straps."
         ]
       },
       {
         "id": "load",
         "heading": "When to give up on it",
         "paragraphs": [
-          "If 30 pounds hurts in every belt you try, the pack may be too light-duty, or the load is the problem. Ultralight packs assume you already removed the extra pounds."
+          "If 30 pounds hurts in every belt you try, the pack may be too light for the job, or the load is the problem. An ultralight pack assumes you've already taken the extra pounds out."
         ]
       }
     ],
@@ -2801,11 +2845,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Are hip belts uncool?",
-        "a": "No. Sore shoulders are uncool."
+        "a": "No. We'd rather have a hip belt than sore shoulders."
       },
       {
         "q": "Can I remove it?",
-        "a": "On some packs, for a light day. Put it back for the overnight."
+        "a": "On some packs, yes, for a light day. Put it back on for the overnight."
       }
     ],
     "related": [
@@ -2820,20 +2864,20 @@ export const notes: Guide[] = [
     "description": "Shelter, sleep, and pack. Fix those before you cut the toothbrush.",
     "h1": "The big three of backpacking gear",
     "kicker": "Field note",
-    "answer": "The big three are the shelter, the sleep system, and the pack. They are most of a traditional base weight. A titanium spoon does not fix a six-pound tent.",
+    "answer": "The big three are your shelter, your sleep system, and your pack. They're most of a traditional base weight. A titanium spoon doesn't fix a six-pound tent.",
     "sections": [
       {
         "id": "order",
         "heading": "Change them in order",
         "paragraphs": [
-          "Start with the thing you curse. If you never sleep, fix the pad and the bag before the pack. If the pack hurts, fit it before you buy a new tent to save twelve ounces."
+          "Change the one you keep cursing first. If you never sleep, fix the pad and the bag before the pack. If the pack hurts, fit it before you buy a new tent to save twelve ounces."
         ]
       },
       {
         "id": "honest",
         "heading": "Be honest about comfort",
         "paragraphs": [
-          "A lighter shelter you will not pitch in the rain is not lighter on the trips you skip. Buy the lightest option you will actually use."
+          "Be honest about what you'll use. A lighter shelter you won't pitch in the rain isn't lighter on the trips you skip. Buy the lightest option you'll actually take."
         ]
       }
     ],
@@ -2845,11 +2889,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Is the stove the fourth?",
-        "a": "People argue. It is smaller than the first three."
+        "a": "People argue about it. It's smaller than the first three."
       },
       {
         "q": "Does worn clothing count?",
-        "a": "Not in base weight. A heavy jacket in the pack does."
+        "a": "Not in your base weight. A heavy jacket in the pack does count."
       }
     ],
     "related": [
@@ -2864,20 +2908,20 @@ export const notes: Guide[] = [
     "description": "Three-season gear is for spring, summer, and fall. It is not for winter camping on snow.",
     "h1": "What three-season gear means",
     "kicker": "Field note",
-    "answer": "Three-season means nights that are not winter. Expect rain, wind, and the occasional freeze, not a snow load on the tent or a week below zero. Four-season tents and winter bags are a different catalog.",
+    "answer": "Three-season means the nights aren't winter. Expect rain, wind, and the occasional freeze, not a snow load on the tent or a week below zero. A four-season tent and a winter bag are a different set of gear.",
     "sections": [
       {
         "id": "edge",
         "heading": "The edges of the season",
         "paragraphs": [
-          "Late fall can be winter in the mountains. A three-season tent vents instead of shedding snow. A 30°F bag is a summer bag for a cold sleeper."
+          "The edges of the season can sneak up on you. Late fall can be winter in the mountains. A three-season tent vents instead of shedding snow. A 30°F bag is a summer bag if you sleep cold."
         ]
       },
       {
         "id": "add",
         "heading": "What you add",
         "paragraphs": [
-          "Microspikes, a warmer pad, and a real puffy extend the season. They do not turn a tarp into a winter tent."
+          "You can add microspikes, a warmer pad, and a real puffy to stretch the season. They don't turn a tarp into a winter tent."
         ]
       }
     ],
@@ -2889,11 +2933,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Can I camp in snow in a three-season tent?",
-        "a": "A dusting is not a winter. A forecast snow load is a different trip."
+        "a": "A dusting isn't a winter trip. A forecast with a real snow load is a different trip."
       },
       {
         "q": "Is three-season good enough for a first overnight?",
-        "a": "Yes, if the forecast agrees."
+        "a": "Yes, if the forecast agrees with you."
       }
     ],
     "related": [
@@ -2908,20 +2952,20 @@ export const notes: Guide[] = [
     "description": "The vestibule is the porch for wet shoes and the pack. It is not a kitchen.",
     "h1": "What a tent vestibule is for",
     "kicker": "Field note",
-    "answer": "A vestibule is the covered space under the fly, outside the inner tent. It holds wet gear so the sleeping area stays drier. Two vestibules mean nobody climbs over anyone else.",
+    "answer": "A vestibule is the covered spot under the fly, outside the inner tent. It's where wet gear goes so your sleeping area stays drier. Two of them mean nobody has to climb over you.",
     "sections": [
       {
         "id": "size",
         "heading": "Size matters at night",
         "paragraphs": [
-          "A tiny vestibule fits a pair of shoes. A useful one fits shoes and a pack. Read the floor area, not the adjective in the product name."
+          "Size is what you notice at night. A tiny vestibule fits a pair of shoes. A useful one fits the shoes and a pack. Read the floor area, not the adjective in the name."
         ]
       },
       {
         "id": "cook",
         "heading": "Do not cook there",
         "paragraphs": [
-          "Steam soaks the tent and carbon monoxide is a real risk. Step outside. A storm is a reason to eat a bar, not a reason to light a stove in the porch."
+          "Don't cook there. Steam soaks the tent, and carbon monoxide is a real risk. Step outside. A storm is a reason to eat a bar, not a reason to light a stove in the porch."
         ]
       }
     ],
@@ -2933,11 +2977,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Is a bigger vestibule heavier?",
-        "a": "Often. It is still worth it in rain."
+        "a": "Often, yes. It's still worth it when you're in the rain."
       },
       {
         "q": "Can I leave boots in the inner tent?",
-        "a": "You can, and you will soak the floor."
+        "a": "You can, and you'll soak the floor."
       }
     ],
     "related": [
@@ -2952,20 +2996,20 @@ export const notes: Guide[] = [
     "description": "Double wall manages condensation. Single wall saves weight and asks for skill.",
     "h1": "Double-wall vs single-wall tents",
     "kicker": "Field note",
-    "answer": "A double-wall tent has a mesh or fabric inner and a separate fly. Moisture mostly stays on the fly. A single-wall tent is one layer. It is lighter and wetter inside on still nights.",
+    "answer": "A double-wall tent has a mesh or fabric inner and a separate fly, so the moisture mostly stays on the fly. A single-wall tent is one layer. It's lighter, and it's wetter inside on a still night.",
     "sections": [
       {
         "id": "pick",
         "heading": "Which to buy",
         "paragraphs": [
-          "Beginners should buy double wall. Single wall is for hikers who will vent, wipe, and not panic at a damp wall."
+          "If you're new to tents, we'd buy a double wall. Single wall is for you if you'll vent, wipe the wall, and not panic when it's damp."
         ]
       },
       {
         "id": "pitch",
         "heading": "Pitch order",
         "paragraphs": [
-          "Fly first in rain so the inner stays dry. Learn it at home. A single wall does not have this option. You are the ventilation."
+          "In the rain, pitch the fly first so the inner stays dry. Learn that pitch at home. A single wall doesn't give you that option. You're the ventilation."
         ]
       }
     ],
@@ -2981,7 +3025,7 @@ export const notes: Guide[] = [
       },
       {
         "q": "Which is stronger?",
-        "a": "Design and guylines, not the wall count."
+        "a": "It's the design and the guylines, not how many walls it has."
       }
     ],
     "related": [
@@ -2996,20 +3040,20 @@ export const notes: Guide[] = [
     "description": "Magnetic north and map north are not the same. The difference is declination.",
     "h1": "What map declination means",
     "kicker": "Field note",
-    "answer": "Declination is the angle between magnetic north and true north. Maps point to true north. A compass needle points to magnetic north. If you ignore the angle, a long bearing walks you off the trail.",
+    "answer": "Declination is the angle between magnetic north and true north. Your map points at true north. The compass needle points at magnetic north. Ignore the angle and a long bearing walks you off the trail.",
     "sections": [
       {
         "id": "set",
         "heading": "Set it or do the math",
         "paragraphs": [
-          "Many baseplate compasses let you set a declination scale. Set it for the area you are visiting, because the number changes across the country and over years."
+          "Set it on the compass, or do the math. A lot of baseplate compasses let you set a declination scale. Set it for the area you're visiting, because the number changes across the country and over the years."
         ]
       },
       {
         "id": "practice",
         "heading": "Practice where it is easy",
         "paragraphs": [
-          "Take a bearing in a park and walk it. The trailhead in a storm is a bad first lesson."
+          "Practice where it's easy. Take a bearing in a park and walk it. A stormy trailhead is a bad first lesson."
         ]
       }
     ],
@@ -3020,11 +3064,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Does my phone handle this?",
-        "a": "Often, until the battery dies."
+        "a": "Often, until the battery dies on you."
       },
       {
         "q": "Is the number on an old map fine?",
-        "a": "Use a current value. It drifts."
+        "a": "Use a current value. The old number drifts."
       }
     ],
     "related": [
@@ -3038,20 +3082,20 @@ export const notes: Guide[] = [
     "description": "Pit zips dump heat when you are climbing in a shell. A logo does not.",
     "h1": "Why rain jacket pit zips matter",
     "kicker": "Field note",
-    "answer": "A pit zip is a vent under the arm. It lets you keep the shell on in rain while you climb, instead of soaking the clothes underneath. On a short shower you will not care. On an all-day rain you will.",
+    "answer": "A pit zip is a vent under your arm. It lets you keep the shell on in the rain while you climb, instead of soaking the clothes underneath. On a short shower you won't care. On an all-day rain you will.",
     "sections": [
       {
         "id": "budget",
         "heading": "Budget shells skip them",
         "paragraphs": [
-          "Many inexpensive jackets are a sealed bag with a hood. They are fine for a trailhead storm. They are clammy on a climb. The Foray is an example of paying for the vents."
+          "A lot of inexpensive jackets skip them. They're a sealed bag with a hood. That's fine for a storm at the trailhead, and clammy on a climb. The Foray is what it looks like when you pay for the vents."
         ]
       },
       {
         "id": "use",
         "heading": "Use them early",
         "paragraphs": [
-          "Open the vents before you are soaked from the inside. Close them when you stop and get cold."
+          "Open them early, before you're soaked from the inside. Close them when you stop and start to get cold."
         ]
       }
     ],
@@ -3063,11 +3107,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Do all good shells have them?",
-        "a": "The ones aimed at hikers usually do. Emergency ponchos do not."
+        "a": "The ones made for hiking usually do. An emergency poncho doesn't."
       },
       {
         "q": "Are two-way zippers the same?",
-        "a": "A two-way front zipper helps. It is not a pit zip."
+        "a": "A two-way front zipper helps you. It isn't a pit zip."
       }
     ],
     "related": [
@@ -3082,20 +3126,20 @@ export const notes: Guide[] = [
     "description": "The jacket you hike in should not be the jacket you sit in.",
     "h1": "Active layers versus static layers",
     "kicker": "Field note",
-    "answer": "Active insulation is what you can wear while moving without soaking it. Static insulation is the puffy you add when you stop. Using one jacket for both is how down gets wet from sweat.",
+    "answer": "An active layer is what you can wear while you move without soaking it. A static layer is the puffy you add when you stop. Use one jacket for both and that's how down gets wet from your sweat.",
     "sections": [
       {
         "id": "active",
         "heading": "While you move",
         "paragraphs": [
-          "A sun hoodie, a light fleece, or an R1-style layer. If you are sweating, you are wearing too much. Start cold."
+          "While you're moving, a sun hoodie, a light fleece, or an R1-style layer is enough. If you're sweating, you're wearing too much. Start a little cold."
         ]
       },
       {
         "id": "static",
         "heading": "When you stop",
         "paragraphs": [
-          "A dry puffy, a hat, and gloves. Put them on at the pass even if you feel tough. Take them off before you hike again."
+          "When you stop, put on a dry puffy, a hat, and gloves. Do it at the pass even if you feel tough. Take them off before you start hiking again."
         ]
       }
     ],
@@ -3107,11 +3151,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Can synthetic do both?",
-        "a": "Better than down, and still not as well as two layers."
+        "a": "Better than down, and still not as well as two separate layers."
       },
       {
         "q": "Where does the rain shell fit?",
-        "a": "Over the active layer in weather, over the puffy only at camp."
+        "a": "Over your active layer when the weather's on you, and over the puffy only at camp."
       }
     ],
     "related": [
@@ -3126,20 +3170,20 @@ export const notes: Guide[] = [
     "description": "Some places do not want a cathole. A wag bag is how waste leaves with you.",
     "h1": "What a wag bag is",
     "kicker": "Field note",
-    "answer": "A wag bag is a pack-out kit for human waste. Alpine zones, river corridors, and some deserts require them. You pack it in, you use it, and you throw it in a trash can, not over the hill.",
+    "answer": "A wag bag is a pack-out kit for human waste. Alpine zones, river corridors, and some deserts require one. You pack it in, you use it, and you throw it in a trash can, not over the hill.",
     "sections": [
       {
         "id": "when",
         "heading": "When you need one",
         "paragraphs": [
-          "Read the permit and the trailhead sign. If burial is banned, a trowel does not override the sign."
+          "You need one when the rules say burial is out. Read the permit and the sign at the trailhead. If burial is banned, your trowel doesn't override the sign."
         ]
       },
       {
         "id": "how",
         "heading": "How not to ruin the trip",
         "paragraphs": [
-          "Know how the bag opens before you need it. Double-bag it. Do not strap it outside in the sun against your water bottle if you can put it in an external pocket that is not your food."
+          "Learn how the bag opens before you need it, so the trip doesn't turn on that moment. Double-bag it. Don't strap it in the sun against your water bottle if you can put it in an outside pocket that isn't your food."
         ]
       }
     ],
@@ -3150,11 +3194,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Can I bury a wag bag?",
-        "a": "No."
+        "a": "No. It goes in a trash can."
       },
       {
         "q": "Is this Leave No Trace?",
-        "a": "Packing out waste where soil cannot handle it is the point."
+        "a": "Yes, where the soil can't handle a hole. Packing the waste out is the point."
       }
     ],
     "related": [
@@ -3168,20 +3212,20 @@ export const notes: Guide[] = [
     "description": "A hang needs the right tree and the right distance. Many camps do not have that tree.",
     "h1": "Why bear hangs fail",
     "kicker": "Field note",
-    "answer": "A proper hang keeps food well off the trunk and well above the ground. Short trees, crowded camps, and tired hikers produce hangs a bear can reach. Where canisters are required, a hang is not the clever alternative.",
+    "answer": "A proper hang keeps the food well off the trunk and well above the ground. Short trees, a crowded camp, and being tired produce hangs a bear can reach. Where a canister is required, a hang isn't the clever way around it.",
     "sections": [
       {
         "id": "when",
         "heading": "When a hang is the plan",
         "paragraphs": [
-          "Only where it is legal and the trees exist. Practice the knot at home. A stuff sack of food in a low branch is a bait station."
+          "A hang is the plan only where it's legal and the trees are actually there. Practice the knot at home. A stuff sack of food on a low branch is a bait station."
         ]
       },
       {
         "id": "else",
         "heading": "When it is not",
         "paragraphs": [
-          "Canister or an approved soft bag. Sleep away from the food. The tent is not a pantry."
+          "When a hang isn't the plan, use a canister or an approved soft bag. Sleep away from the food. Your tent isn't a pantry."
         ]
       }
     ],
@@ -3192,11 +3236,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Is paracord enough?",
-        "a": "The cord is not the hard part. The tree is."
+        "a": "The cord isn't the hard part. The tree is."
       },
       {
         "q": "Do hangs stop mice?",
-        "a": "No."
+        "a": "No, they don't. A mouse will still climb for it."
       }
     ],
     "related": [
@@ -3210,20 +3254,20 @@ export const notes: Guide[] = [
     "description": "Water replaces water. Salt replaces salt. Tablets are not a meal.",
     "h1": "When hikers need electrolytes",
     "kicker": "Field note",
-    "answer": "If you are a salty sweater or the day is long and hot, water alone can leave you wrung out. An electrolyte tablet or a salty snack puts the salt back. It does not replace dinner or the liters you still need to drink.",
+    "answer": "If you're a salty sweater, or the day is long and hot, water alone can leave you wrung out. A tablet or a salty snack puts the salt back. It doesn't replace dinner, or the liters you still need to drink.",
     "sections": [
       {
         "id": "signs",
         "heading": "Signs you waited too long",
         "paragraphs": [
-          "A headache, nausea, and a day that feels harder than the mileage are reasons to stop, drink, and eat. Dark urine means you are behind on volume."
+          "A headache, nausea, and a day that feels harder than the miles are signs you waited too long. Stop, drink, and eat. Dark urine means you're behind on volume."
         ]
       },
       {
         "id": "test",
         "heading": "Test the brand",
         "paragraphs": [
-          "Some tablets bother stomachs. Try them on a day hike. A new flavor on a remote day is a gamble."
+          "Try the brand before you depend on it. Some tablets bother a stomach. A new flavor on a remote day is a gamble."
         ]
       }
     ],
@@ -3234,11 +3278,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Are sports drinks required?",
-        "a": "No. Salty food works."
+        "a": "No. Salty food does the same job."
       },
       {
         "q": "Can I overdo tablets?",
-        "a": "Yes. Follow a serving, and keep drinking water."
+        "a": "Yes, you can. Follow a serving, and keep drinking water."
       }
     ],
     "related": [
@@ -3253,20 +3297,20 @@ export const notes: Guide[] = [
     "description": "A tiny alcohol stove is not legal everywhere a canister stove is.",
     "h1": "Alcohol stove fire restrictions",
     "kicker": "Field note",
-    "answer": "Alcohol stoves are light, slow, and banned in places that still allow canister stoves. Fire restrictions change by the week. Check the forest or park order before you leave, not at the ridge.",
+    "answer": "An alcohol stove is light and slow, and it's banned in places that still allow a canister stove. The restriction can change by the week. Check the forest or park order before you leave, not when you're already on the ridge.",
     "sections": [
       {
         "id": "risk",
         "heading": "Why they get banned",
         "paragraphs": [
-          "They are hard to turn off instantly and they spill. Land managers treat them as a fire risk in dry years."
+          "They get banned because you can't shut them off instantly, and they spill. In a dry year, land managers treat that as a fire risk."
         ]
       },
       {
         "id": "instead",
         "heading": "What to carry instead",
         "paragraphs": [
-          "A canister stove with a valve, or no stove and cold food, if the ban is that broad. Read the order. Do not assume."
+          "Carry a canister stove with a valve, or skip the stove and eat cold, if the ban is that broad. Read the order. Don't guess."
         ]
       }
     ],
@@ -3277,11 +3321,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Is a canister stove always allowed?",
-        "a": "No. Some bans cover all open flames."
+        "a": "No. Some bans cover every open flame."
       },
       {
         "q": "Are tablet stoves different?",
-        "a": "They are still a flame. Check."
+        "a": "They're still a flame. Check the order for your trip."
       }
     ],
     "related": [
@@ -3296,20 +3340,20 @@ export const notes: Guide[] = [
     "description": "A quilt is warm if you stay on the pad and strap it down. Otherwise it is a blanket with a hole.",
     "h1": "Why backpacking quilts feel drafty",
     "kicker": "Field note",
-    "answer": "A quilt has no hood and no insulated underside. It assumes the pad is the underside. If you roll off the pad or the quilt gaps at your neck, you feel a draft and blame the temperature rating.",
+    "answer": "A quilt has no hood and no insulated bottom. It assumes your pad is the underside. Roll off the pad, or leave a gap at your neck, and you feel a draft and blame the temperature rating.",
     "sections": [
       {
         "id": "fix",
         "heading": "The fixes",
         "paragraphs": [
-          "Use the pad straps. Wear a hat. Buy a width you can actually stay inside. A 20°F quilt on a summer pad still feels cold from below."
+          "Strap it to the pad, wear a hat, and buy a width you can actually stay inside. A 20°F quilt on a summer pad still feels cold from below."
         ]
       },
       {
         "id": "switch",
         "heading": "When to switch",
         "paragraphs": [
-          "If you thrash, buy a zippered bag with a hood. Do not buy a second quilt in the same shape and hope."
+          "If you thrash around at night, switch to a zippered bag with a hood. Don't buy a second quilt in the same shape and hope."
         ]
       }
     ],
@@ -3325,7 +3369,7 @@ export const notes: Guide[] = [
       },
       {
         "q": "Can I wear a jacket to compensate?",
-        "a": "A dry jacket helps a marginal night. It does not fix a gap at the shoulder."
+        "a": "A dry jacket helps a night that's close. It doesn't fix a gap at your shoulder."
       }
     ],
     "related": [
@@ -3340,20 +3384,20 @@ export const notes: Guide[] = [
     "description": "Some tents need a seal before the first storm. Some are taped at the factory. Read the tag.",
     "h1": "When to seam-seal a tent",
     "kicker": "Field note",
-    "answer": "Factory-taped seams do not need a ritual coat of sealant. Many silnylon shelters ask you to seal specific seams yourself. Do it at home, in the pattern the maker describes, and let it cure before the trip.",
+    "answer": "If the seams were taped at the factory, they don't need a ritual coat of sealant. A lot of silnylon shelters ask you to seal certain seams yourself. Do it at home, in the pattern the maker describes, and let it cure before the trip.",
     "sections": [
       {
         "id": "check",
         "heading": "Check first",
         "paragraphs": [
-          "Look at the seams. Tape is a shiny strip. Bare stitching on a fly is a clue. The instructions beat a forum recipe."
+          "Look at the seams before you seal anything. Tape shows up as a shiny strip. Bare stitching on the fly is a clue you still have work to do. The maker's instructions beat a forum recipe."
         ]
       },
       {
         "id": "pitch",
         "heading": "Pitch it wet at home",
         "paragraphs": [
-          "After sealing, pitch the tent and spray it. Finding the miss at home is the point."
+          "After you seal it, pitch the tent at home and spray it. Finding the miss there is the whole point."
         ]
       }
     ],
@@ -3369,7 +3413,7 @@ export const notes: Guide[] = [
       },
       {
         "q": "How often?",
-        "a": "When it peels or leaks, not every month."
+        "a": "When it peels or starts to leak, not every month."
       }
     ],
     "related": [
@@ -3384,20 +3428,20 @@ export const notes: Guide[] = [
     "description": "A waterproof pack is nice. A liner is the thing that keeps the bag dry.",
     "h1": "Why a pack liner still matters",
     "kicker": "Field note",
-    "answer": "Rain soaks through zippers, pockets, and the gap you left under the lid. A plastic liner, or a pack cover plus a liner, keeps the sleep system dry. A wet down bag is the expensive version of skipping this.",
+    "answer": "Rain still gets through zippers, pockets, and the gap you left under the lid. A plastic liner, or a cover plus a liner, is what keeps your sleep system dry. A wet down bag is the expensive version of skipping it.",
     "sections": [
       {
         "id": "how",
         "heading": "Pack the liner",
         "paragraphs": [
-          "Put it inside the main compartment around the quilt and clothes. A cover alone channels water into the back panel on some packs."
+          "Put the liner inside the main compartment, around your quilt and clothes. A cover by itself can channel water into the back panel on some packs."
         ]
       },
       {
         "id": "heavy",
         "heading": "Heavy rain",
         "paragraphs": [
-          "In a storm, the shell you are wearing is not the shell your bag is wearing. Stop and check the liner before the pass, not after the bag is wet."
+          "In a real storm, the shell you're wearing isn't the shell your bag is wearing. Stop and check the liner before the pass, not after the bag is wet."
         ]
       }
     ],
@@ -3408,11 +3452,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Is a DCF pack enough?",
-        "a": "It is better. A river crossing can still fill it. A liner is cheap."
+        "a": "It's better in the rain. A river crossing can still fill it. A liner is cheap insurance for your bag."
       },
       {
         "q": "Where do wet clothes go?",
-        "a": "Outside the liner, in a separate bag."
+        "a": "Outside the liner, in a bag of their own."
       }
     ],
     "related": [
@@ -3427,20 +3471,20 @@ export const notes: Guide[] = [
     "description": "Worth it beside the car. Usually not worth a long carry.",
     "h1": "When camp shoes are worth packing",
     "kicker": "Field note",
-    "answer": "Camp shoes let hiking shoes dry and give your feet a break. At a drive-up site, bring them. On a long backpack, they are an indulgence unless your feet are already hurt or the miles are short.",
+    "answer": "Camp shoes let your hiking shoes dry and give your feet a break. At a drive-up site, bring them. On a long backpack, they're an extra unless your feet already hurt or the miles are short.",
     "sections": [
       {
         "id": "car",
         "heading": "At the car",
         "paragraphs": [
-          "A clog or a sandal is the right call. The weight does not matter. Dry the hiking pair overnight."
+          "Next to the car, a clog or a sandal is the right call. The weight doesn't matter there. Dry the hiking pair overnight."
         ]
       },
       {
         "id": "trail",
         "heading": "On the trail",
         "paragraphs": [
-          "A light sandal such as a Bedrock can be the water shoe and the camp shoe. A heavy clog is a choice you should admit out loud."
+          "On the trail, a light sandal such as a Bedrock can be the water shoe and the camp shoe. A heavy clog is a choice worth being honest about."
         ]
       }
     ],
@@ -3451,7 +3495,7 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Do I need them for a first overnight?",
-        "a": "No. Let the shoes air. Bring them next time if you hated the evening."
+        "a": "No. Let the shoes air out. Bring camp shoes next time if you hated the evening."
       },
       {
         "q": "Are flip-flops fine?",
@@ -3470,20 +3514,20 @@ export const notes: Guide[] = [
     "description": "Use the low mode. Learn the lock. Carry a second light.",
     "h1": "How to use a headlamp without blinding camp",
     "kicker": "Field note",
-    "answer": "Thirty lumens cooks dinner. A burst mode finds a blaze for a minute. The lamp that matters has a stable low mode and a lock so it does not turn on in the pack.",
+    "answer": "Thirty lumens is enough to cook dinner. A burst mode finds a blaze for a minute. The lamp that matters has a steady low mode, and a lock so it doesn't turn on in your pack.",
     "sections": [
       {
         "id": "lock",
         "heading": "Lock it",
         "paragraphs": [
-          "Learn the lock at home. A lamp that dies in the car is a brick on the trail."
+          "Learn the lock at home. A lamp that dies in the car is a brick once you're on the trail."
         ]
       },
       {
         "id": "second",
         "heading": "Bring two",
         "paragraphs": [
-          "A second small light is the backup when the first one is in the tent and you are not. Kids should have their own."
+          "Bring a second small light. It's the backup when the first one is in the tent and you aren't. Kids should have their own."
         ]
       }
     ],
@@ -3495,11 +3539,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "Are more lumens better?",
-        "a": "Only for a short throw. Camp does not need a searchlight."
+        "a": "Only when you need a short throw. Camp doesn't need a searchlight."
       },
       {
         "q": "Rechargeable or cells?",
-        "a": "Rechargeable if you will charge it. Cells if you will not."
+        "a": "Go rechargeable if you'll actually charge it. Stick with cells if you won't."
       }
     ],
     "related": [
@@ -3514,20 +3558,20 @@ export const notes: Guide[] = [
     "description": "Start from meals you will eat, then add a margin. Calories on a spreadsheet are not dinner.",
     "h1": "How much food to pack backpacking",
     "kicker": "Field note",
-    "answer": "Pack breakfast, lunch, dinner, and a snack you will actually eat, then add a margin for a slow day. A first overnight does not need a meal-planning identity. It needs food you have tried at home.",
+    "answer": "Pack a breakfast, a lunch, a dinner, and a snack you'll actually eat, then add a margin for a slow day. A first overnight doesn't need a meal-planning identity. It needs food you've already tried at home.",
     "sections": [
       {
         "id": "tried",
         "heading": "Try it at home",
         "paragraphs": [
-          "Eat the freeze-dried meal once in your kitchen. If you hate it, you will hate it more when you are cold."
+          "Try the freeze-dried meal in your kitchen first. If you hate it there, you'll hate it more when you're cold."
         ]
       },
       {
         "id": "storage",
         "heading": "Store it legally",
         "paragraphs": [
-          "The food plan includes the canister or the hang. Repackage before the trailhead so you are not dealing with boxes in the dark."
+          "The food plan includes the canister or the hang. Repackage at home so you're not fighting boxes in the dark at the trailhead."
         ]
       }
     ],
@@ -3539,11 +3583,11 @@ export const notes: Guide[] = [
     "faqs": [
       {
         "q": "How many calories?",
-        "a": "Enough that you are not miserable. A common planning range is roughly 2,500 to 4,000 a day depending on the person and the miles. Start conservative and adjust."
+        "a": "Enough that you're not miserable. A common planning range is roughly 2,500 to 4,000 a day, depending on you and the miles. Start conservative and adjust."
       },
       {
         "q": "Do I hang the trash?",
-        "a": "Yes, if food storage rules cover smell. Trash counts."
+        "a": "Yes, if the food-storage rule covers smell. Trash counts."
       }
     ],
     "related": [
@@ -3552,5 +3596,5 @@ export const notes: Guide[] = [
       "first-overnight"
     ]
   }
-]
+];
 
