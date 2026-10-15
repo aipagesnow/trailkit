@@ -949,7 +949,7 @@ util_page("/affiliate-disclosure/", f"Affiliate disclosure | {BRAND}", "Affiliat
 
 util_page("/contact/", f"Contact | {BRAND}", "Contact",
           "Contact Trailkit about corrections and partnerships.",
-          "<p>Email corrections to <a href=\"mailto:hello@trailkit.example\">hello@trailkit.example</a>. Include the page URL and the spec you believe is wrong.</p><p>We do not accept payment for placement in a ranked list.</p>")
+          "<p>Email corrections to <a href=\"mailto:vora+trailkit@mail.grokbot.com\">vora+trailkit@mail.grokbot.com</a>. Include the page URL and the spec you believe is wrong.</p><p>We do not accept payment for placement in a ranked list.</p>")
 
 util_page("/privacy/", f"Privacy | {BRAND}", "Privacy",
           "Privacy notes for Trailkit, including analytics that stay off until configured.",

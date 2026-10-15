@@ -13,7 +13,7 @@ export const Route = createFileRoute("/contact")({
       <h1 className="text-4xl">Contact</h1>
       <p>Trailkit Outdoor is published by Aivora Digital. This address is the editorial contact for corrections. Include the page URL and the spec you believe is wrong.</p>
       <p>
-        <a className="font-bold text-forest" href="mailto:aivora@agentmail.to">aivora@agentmail.to</a>
+        <a className="font-bold text-forest" href="mailto:vora+trailkit@mail.grokbot.com">vora+trailkit@mail.grokbot.com</a>
       </p>
       <p>We don't accept payment for a place in a ranked list.</p>
     </main>

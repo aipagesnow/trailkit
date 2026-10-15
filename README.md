@@ -33,7 +33,7 @@ VITE_GSC_VERIFICATION=
 
 Leave GA and GSC empty until the properties exist. When set, the root document loads gtag and emits `google-site-verification`. Canonicals, Open Graph, and the sitemap use `VITE_SITE_URL`.
 
-Contact copy still says `hello@trailkit.example` and is labeled **replace before launch**.
+Public contact email: `vora+trailkit@mail.grokbot.com` (set in `src/routes/contact.tsx`).
 
 ## Add a guide
 
