@@ -13,7 +13,17 @@ const tag = process.env.AMAZON_ASSOCIATE_TAG || cfg.amazonTag || "";
 const dec = (s) => s.replace(/&amp;/g, "&").replace(/&quot;/g, '"');
 const norm = (u) => u.replace(/\/$/, "");
 const fails = [];
-const get = async (u) => { const r = await fetch(u, { redirect: "manual", headers: { "user-agent": "keeper-proof/1.0" } }); return { status: r.status, text: await r.text() }; };
+const get = async (u) => {
+  for (let i = 0; ; i++) {
+    try {
+      const r = await fetch(u, { redirect: "manual", headers: { "user-agent": "keeper-proof/1.0" }, signal: AbortSignal.timeout(20000) });
+      return { status: r.status, text: await r.text() };
+    } catch (e) {
+      if (i >= 3) return { status: 0, text: "" };
+      await new Promise((s) => setTimeout(s, 1500 * (i + 1)));
+    }
+  }
+};
 
 const sm = await get(`${site}/sitemap.xml`);
 if (sm.status !== 200) fails.push(`sitemap.xml -> ${sm.status}`);
