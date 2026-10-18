@@ -57,14 +57,6 @@ function RoundupPage() {
           data={[
             breadcrumbLd(crumbs),
             {
-              "@type": "FAQPage",
-              mainEntity: page.faqs.map((f) => ({
-                "@type": "Question",
-                name: f.q,
-                acceptedAnswer: { "@type": "Answer", text: f.a },
-              })),
-            },
-            {
               "@type": "ItemList",
               name: page.h1,
               itemListElement: picks.map((p, i) => ({

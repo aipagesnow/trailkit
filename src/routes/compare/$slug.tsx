@@ -50,16 +50,7 @@ function ComparePage() {
             { name: "Compare", path: "/compare" },
             { name: page.h1 },
           ]),
-          page.faqs.length
-            ? {
-                "@type": "FAQPage",
-                mainEntity: page.faqs.map((f) => ({
-                  "@type": "Question",
-                  name: f.q,
-                  acceptedAnswer: { "@type": "Answer", text: f.a },
-                })),
-              }
-            : { "@type": "Article", headline: page.h1, description: page.description },
+          { "@type": "Article", headline: page.h1, description: page.description },
         ]}
       />
       <Crumbs items={[{ href: "/compare", label: "Compare" }, { label: page.h1 }]} />

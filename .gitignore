@@ -21,3 +21,5 @@ AGENTS.project.md
 artifacts/trailkit-site.zip
 artifacts/imagine_images
 artifacts/.tmp
+.indexnow-cache/
+.keeper-html/
