@@ -6,6 +6,7 @@ import { AmazonButton, Crumbs, Disclosure, JsonLd, Related, StickyAmazon } from 
 import { GearCard } from "@/components/site/cards";
 import { TkImage } from "@/components/site/tk-image";
 import { breadcrumbLd, pageHead } from "@/lib/seo";
+import { isIndexedProduct } from "@/data/indexed-products";
 
 export const Route = createFileRoute("/products/$slug")({
   loader: ({ params }) => {
@@ -18,6 +19,7 @@ export const Route = createFileRoute("/products/$slug")({
       title: loaderData ? `${loaderData.name} — quick notes` : "Gear",
       description: loaderData?.summary ?? "",
       path: `/products/${params.slug}`,
+      noindex: !isIndexedProduct(params.slug),
     }),
   component: ProductPage,
 });
@@ -51,6 +53,7 @@ function ProductPage() {
   const product = Route.useLoaderData();
   const category = getCategory(product.category);
   const alts = alsoIn(product);
+  const home = roundups.find((r) => r.productSlugs.includes(product.slug));
   return (
     <main className="mx-auto max-w-5xl space-y-6 px-4 py-8">
       <JsonLd
@@ -60,13 +63,6 @@ function ProductPage() {
             { name: category?.name ?? "Gear", path: `/gear/${product.category}` },
             { name: product.name },
           ]),
-          {
-            "@type": "Product",
-            name: product.name,
-            brand: { "@type": "Brand", name: product.brand },
-            description: product.summary,
-            category: category?.name,
-          },
         ]}
       />
       <Crumbs items={[{ href: `/gear/${product.category}`, label: category?.name ?? "Gear" }, { label: product.name }]} />
@@ -74,6 +70,12 @@ function ProductPage() {
       <h1 className="text-4xl">{product.name}</h1>
       <p className="font-mono text-sm text-muted">{product.brand} · {product.priceBand} · {product.weight}</p>
       <p className="text-lg">{product.summary}</p>
+      {home ? (
+        <p className="border border-line bg-spec p-3 text-sm">
+          You'll get the most out of this one side by side with its rivals in{" "}
+          <a href={`/best/${home.slug}#${product.slug}`} className="font-bold underline">{home.h1}</a>.
+        </p>
+      ) : null}
       <Disclosure />
       {asinFor(product.slug) ? <AmazonButton product={product} /> : null}
       <p>{product.body}</p>

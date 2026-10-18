@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { categories, compares, guides, kits, notes, products, roundups } from "@/data";
 import { absoluteUrl } from "@/lib/affiliate";
+import { isIndexedProduct } from "@/data/indexed-products";
 
 const staticPaths = [
   "/",
@@ -31,7 +32,7 @@ export const Route = createFileRoute("/sitemap.xml")({
           ...compares.map((c) => `/compare/${c.slug}`),
           ...kits.map((k) => `/kits/${k.slug}`),
           ...notes.map((n) => `/learn/${n.slug}`),
-          ...products.map((p) => `/products/${p.slug}`),
+          ...products.filter((p) => isIndexedProduct(p.slug)).map((p) => `/products/${p.slug}`),
         ];
         const urls = paths
           .map((path) => `  <url><loc>${absoluteUrl(path)}</loc></url>`)

@@ -70,10 +70,10 @@ function ComparePage() {
       </div>
       <p className="font-mono text-[11px] tracking-widest uppercase">{page.kicker}</p>
       <h1 className="text-4xl">{page.h1}</h1>
+      <div className="border-l-4 border-ink bg-spec p-4">{page.answer}</div>
       <Updated />
       <Disclosure />
       <HowWePick />
-      <div className="border-l-4 border-ink bg-spec p-4">{page.answer}</div>
       <p className="bg-spec px-3 py-2 font-mono text-[11px] tracking-wide uppercase">Decides on → {decidesLine(page)}</p>
       <div className="sticky top-0 z-10 grid gap-3 bg-paper py-3 md:grid-cols-2">
         {[left, right].map((p) => (

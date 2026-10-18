@@ -71,7 +71,7 @@ function RoundupPage() {
                 "@type": "ListItem",
                 position: i + 1,
                 name: p.name,
-                url: absoluteUrl(`/products/${p.slug}`),
+                url: absoluteUrl(`/best/${page.slug}#${p.slug}`),
               })),
             },
           ]}
@@ -82,6 +82,7 @@ function RoundupPage() {
         </div>
         <p className="font-mono text-[11px] tracking-widest uppercase">{page.kicker}</p>
         <h1 className="text-4xl">{page.h1}</h1>
+        <div id="answer" className="border-l-4 border-ink bg-spec p-4">{page.answer}</div>
         <Updated read="8 min" />
         <Disclosure />
         <HowWePick />
@@ -91,7 +92,6 @@ function RoundupPage() {
             <a href={pair.href} className="font-bold underline">{pair.label}</a>
           </p>
         ) : null}
-        <div id="answer" className="border-l-4 border-ink bg-spec p-4">{page.answer}</div>
         {page.note ? <p className="max-w-3xl border-l-4 border-line p-4 text-sm">{page.note}</p> : null}
         {page.quick ? <QuickTable table={page.quick} /> : null}
         <p className="border border-line bg-paper-2 p-4"><span className="font-bold">Who this is for. </span>{page.who}</p>

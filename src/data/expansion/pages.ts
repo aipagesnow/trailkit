@@ -230,6 +230,20 @@ export const extraRoundups: Roundup[] = [
     "kicker": "Roundup · First aid",
     "category": "aid",
     "answer": "We'd buy a small kit, then change it to match your trip. The Adventure Medical Ultralight .5 is where we'd start for solo. Add leukotape and the medicine you already take. The Mountain series is for a group that'll be a day from a road. A SAM Splint belongs in that group kit only if someone knows how to pad it. Here's the catch: a kit doesn't replace a course.",
+    "quick": {
+      "caption": "Quick answer: what to put in a backpacking first aid kit",
+      "lead": "Start with a small kit, then make sure these are in it before you go.",
+      "columns": ["Item", "Why you'd want it", "Who needs it"],
+      "rows": [
+        ["Blister tape, such as leukotape", "Hot spots are the thing you're most likely to treat on a hike.", "Everyone"],
+        ["Nitrile gloves", "They keep your hands and the wound apart.", "Everyone"],
+        ["Something to clean a small wound", "A scrape that stays clean is a scrape you can forget about.", "Everyone"],
+        ["The medicine you already take", "A kit doesn't know your prescriptions. You do.", "Everyone"],
+        ["Electrolyte tablets", "They help with salty sweat on a hot day. They aren't medical care.", "Hot, long days"],
+        ["A SAM Splint", "Only useful if someone in the group knows how to pad it.", "Remote group trips"]
+      ],
+      "note": "A kit doesn't replace a first aid course."
+    },
     "who": "This is for you if you'll open the pouch before the trip. It isn't a medical class.",
     "productSlugs": [
       "amk-ul-5",
@@ -242,8 +256,8 @@ export const extraRoundups: Roundup[] = [
     "one": "For a solo weekend, we'd buy the small kit and a roll of leukotape. Skip the big kit until you're responsible for other people.",
     "faqs": [
       {
-        "q": "What should every kit have?",
-        "a": "Blister tape, gloves, a way to clean a small wound, and any medicine you actually take."
+        "q": "What should be in a backpacking first aid kit?",
+        "a": "Blister tape, gloves, a way to clean a small wound, and any medicine you actually take. On a remote group trip, add a splint if someone knows how to use it."
       },
       {
         "q": "Are electrolyte tablets medical?",

@@ -5,7 +5,7 @@ export function heroFor(path: string) {
   return imageFor(path);
 }
 
-export function pageHead(opts: { title: string; description: string; path: string; image?: string }) {
+export function pageHead(opts: { title: string; description: string; path: string; image?: string; noindex?: boolean }) {
   const title = pageTitle(opts.title);
   const image = absoluteUrl(opts.image ?? ogCardPath(opts.path));
   const url = absoluteUrl(opts.path);
@@ -24,6 +24,7 @@ export function pageHead(opts: { title: string; description: string; path: strin
     { name: "twitter:description", content: opts.description },
     { name: "twitter:image", content: image },
   ];
+  if (opts.noindex) meta.push({ name: "robots", content: "noindex, follow" });
   const gsc = import.meta.env.VITE_GSC_VERIFICATION;
   if (gsc) meta.push({ name: "google-site-verification", content: gsc });
   return {

@@ -53,15 +53,23 @@ export function AmazonLink({
       rel="sponsored nofollow noopener"
       target="_blank"
       className={`${toneClass} ${className}`}
-      onClick={() => {
+      data-asin={asin}
+      data-product={trackProduct}
+      onClick={(event) => {
         try {
           const send = (window as Window & { gtag?: (...args: unknown[]) => void }).gtag;
           if (typeof send !== "function") return;
+          // product/asin need GA4 custom dimensions to show in reports; link_url and
+          // items[] (item_id = ASIN, item_name = product slug) report out of the box.
           send("event", "amazon_click", {
             site: "trailkit",
             asin,
             product: trackProduct,
             page: window.location.pathname,
+            page_path: window.location.pathname,
+            link_url: event.currentTarget.href,
+            items: [{ item_id: asin, item_name: trackProduct }],
+            transport_type: "beacon",
           });
         } catch {
           /* tracking must not stop the link */

@@ -2,7 +2,8 @@ import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { categories, getCompare, getGuide, getKit, getNote, getProduct, getRoundup, products, roundups } from "@/data";
 import { asinFor } from "@/data/asins";
 import { CategoryTile, FieldCard, GuideCard, HowWePick, KitCard, NotePlate, VersusCard } from "@/components/site/cards";
-import { AmazonButton, Disclosure } from "@/components/site/blocks";
+import { AmazonButton, Disclosure, JsonLd } from "@/components/site/blocks";
+import { BRAND, SITE_URL } from "@/lib/affiliate";
 import { TkImage } from "@/components/site/tk-image";
 import { pageHead } from "@/lib/seo";
 
@@ -43,6 +44,30 @@ function Home() {
   const shelter = getProduct("msr-elixir-2");
   return (
     <main>
+      <JsonLd
+        data={[
+          {
+            "@type": "WebSite",
+            "@id": `${SITE_URL}/#website`,
+            name: BRAND,
+            url: `${SITE_URL}/`,
+            publisher: { "@id": `${SITE_URL}/#org` },
+            potentialAction: {
+              "@type": "SearchAction",
+              target: `${SITE_URL}/browse?q={search_term_string}`,
+              "query-input": "required name=search_term_string",
+            },
+          },
+          {
+            "@type": "Organization",
+            "@id": `${SITE_URL}/#org`,
+            name: BRAND,
+            url: `${SITE_URL}/`,
+            logo: `${SITE_URL}/favicon.svg`,
+            parentOrganization: { "@type": "Organization", name: "Aivora Digital" },
+          },
+        ]}
+      />
       <section className="relative isolate min-h-[28rem] overflow-hidden border-b border-line">
         <TkImage route="/" priority fill sizes="100vw" />
         <div className="absolute inset-0 bg-forest-deep/70" aria-hidden />
