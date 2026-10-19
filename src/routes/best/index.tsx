@@ -36,6 +36,12 @@ function BestIndex() {
         chips={sections.map((section) => ({ href: `#${section.id}`, label: section.label }))}
       />
       <div className="mx-auto max-w-6xl space-y-10 px-4 py-10">
+        <p className="max-w-3xl">
+          Planning a wet weekend? Start with the{" "}
+          <a href="/best/rain-jackets-under-150" className="font-bold underline">best rain jackets under $150</a>. Taking
+          the kids to a drive-up site? We&apos;d look at the{" "}
+          <a href="/best/family-camping" className="font-bold underline">best family camping tents</a> first.
+        </p>
         <section>
           <h2 className="font-mono text-[11px] tracking-widest uppercase">Start here</h2>
           <div className="mt-3 grid gap-3 md:grid-cols-3">

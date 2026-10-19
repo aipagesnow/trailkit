@@ -219,7 +219,7 @@ export const roundups: Roundup[] = [
     kicker: "Roundup · Rain",
     category: "shells",
     answer:
-      "Under $150, we'd buy a shell that keeps a day of rain out, and accept that it wets out sooner than a $300 jacket. Outdoor Research Helium is the packable pick. REI Rainier is the try-on pick. A rain jacket isn't insulation. The Torrentshell usually sits above this cap, and it's listed so you know when to leave the cap.",
+      "Short answer: under $150, we'd start with the Outdoor Research Helium if pack size matters, or the REI Rainier if you want to try it on and like pit zips. Either one keeps a day of rain out, but it'll wet out sooner than a $300 jacket, and neither is a warm layer. The Torrentshell usually sits just above the cap, so it's here to show you when spending more makes sense.",
     teaser: "Under this cap, we'd start with the Helium as the packable default. Rainier is the shell you can try on. A rain jacket isn't a warm layer.",
     note:
       "The Helium isn't sold on Amazon US right now. Its page links the closest match there, the Marmot PreCip Eco, which isn't the pick.",
@@ -263,7 +263,7 @@ export const roundups: Roundup[] = [
     kicker: "Roundup · Lighting",
     category: "lighting",
     answer:
-      "We'd buy a headlamp with a stable low mode and a lock. High lumens are for finding the trail, not for cooking. The Petzl Actik Core and the Black Diamond Spot are the rechargeable picks we'd start with. The Nitecore NU25 is the weight pick. The Princeton Tec Remix runs on AA cells, if you're the type who forgets to charge things. Carry a second light on any overnight.",
+      "We'd buy a headlamp with a stable low mode and a lock. Use high for finding the trail and a low mode for camp chores. The Petzl Actik Core and the Black Diamond Spot are the rechargeable picks we'd start with. The Nitecore NU25 is the weight pick. The Princeton Tec Remix runs on AA cells, if you're the type who forgets to charge things. Carry a second light on any overnight.",
     teaser: "Cook on a low mode, and lock the lamp in your pack. The Actik Core and the Spot are the defaults. Carry a second light.",
     who: "You walk after dusk, or you cook in the dark. It isn't a caving lamp guide.",
     productSlugs: ["actik-core", "spot-400", "nu25", "biolite-330", "bindi", "princeton-remix"],
@@ -272,10 +272,10 @@ export const roundups: Roundup[] = [
       { q: "How many lumens?", a: "About 30 lumens is enough to cook your dinner. A couple hundred finds the trail. A 1000-lumen claim is mostly marketing." },
       { q: "Rechargeable or replaceable batteries?", a: "If you've got a car or a power bank, go rechargeable. If you're the type who forgets to charge things, we'd stick with replaceable batteries." },
       { q: "Is red light necessary?", a: "It's useful so you don't blind camp. It isn't required for safety." },
-      { q: "What's the best headlamp for hiking at night?", a: "For hiking at night, we'd start with the Petzl Actik Core or the Black Diamond Spot. You want a stable low mode and a lock. High lumens are for finding the trail, not for cooking. If weight is the limit, the Nitecore NU25 is the light pick, and we'd still carry a second light on any overnight." },
+      { q: "What's the best headlamp for hiking at night?", a: "For hiking at night, we'd start with the Petzl Actik Core or the Black Diamond Spot. You want a stable low mode and a lock. If weight is the limit, the Nitecore NU25 is the light pick, and we'd still carry a second light on any overnight." },
     ],
     related: ["first-overnight", "budget-under-50"],
-    method,
+    method: "Picks are chosen for how you'll use them on your trip, not by a private lab score.",
   },
   {
     slug: "water-filters",

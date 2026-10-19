@@ -392,7 +392,7 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best family camping tents",
     "kicker": "Roundup · Family",
     "category": "family",
-    "answer": "If the car is carrying the tent, we'd buy height and floor space. The REI Kingdom 6 is the tent families keep. The Coleman Sundome 4 is the fair-weather test. A backpacking tent is the wrong tool when you're not backpacking.",
+    "answer": "Short answer: if the car's carrying the tent, we'd buy height and floor space. The REI Kingdom 6 is the tent we'd keep for years, and the Coleman Sundome 4 is the fair-weather way to find out whether your family likes sleeping outside. A backpacking tent is the wrong tool when you're parked next to your site.",
     "who": "This is for your family at a drive-up site. It isn't a thru-hike.",
     "productSlugs": [
       "kingdom-6",

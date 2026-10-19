@@ -28,6 +28,8 @@ function RoundupPage() {
   const page = Route.useLoaderData();
   const picks = page.productSlugs.map((slug) => getProduct(slug)).filter((p) => p != null);
   const pair = INTENT_PAIRS[page.slug];
+  // Headlamps: one price line near the disclosure, and one spec/test note in How we pick.
+  const quietPrice = page.slug === "headlamps";
   const figures = [
     page.slug === "backpacking-tents" ? "/inline/tents-freestanding-vs-pole" : "",
     page.slug === "backpacking-tents" ? "/inline/tents-vestibule-rain" : "",
@@ -77,7 +79,14 @@ function RoundupPage() {
         <div id="answer" className="border-l-4 border-ink bg-spec p-4">{page.answer}</div>
         <Updated read="8 min" />
         <Disclosure />
-        <HowWePick />
+        {quietPrice ? <p className="text-sm text-muted">Check current price on the listing.</p> : null}
+        <HowWePick
+          specNote={
+            quietPrice
+              ? "We don't invent trail tests or scores. Specs are the maker's published figures, and they can change between model years."
+              : undefined
+          }
+        />
         {pair ? (
           <p className="border border-line bg-spec p-3 text-sm">
             {pair.note}{" "}
@@ -87,7 +96,7 @@ function RoundupPage() {
         {page.note ? <p className="max-w-3xl border-l-4 border-line p-4 text-sm">{page.note}</p> : null}
         {page.quick ? <QuickTable table={page.quick} /> : null}
         <p className="border border-line bg-paper-2 p-4"><span className="font-bold">Who this is for. </span>{page.who}</p>
-        <EarlyListingCta slugs={page.productSlugs} kind="roundup" />
+        <EarlyListingCta slugs={page.productSlugs} kind="roundup" priceNote={!quietPrice} />
         {figures.map((route) => (
           <figure key={route}>
             <div className="relative aspect-video overflow-hidden border border-line">
@@ -102,7 +111,7 @@ function RoundupPage() {
         </section>
         <section className="space-y-4">
           <h2 className="text-3xl">The picks</h2>
-          {picks.map((p, i) => <ProductSection key={p.slug} product={p} index={i + 1} tone="money" pageSlugs={page.productSlugs} />)}
+          {picks.map((p, i) => <ProductSection key={p.slug} product={p} index={i + 1} tone="money" pageSlugs={page.productSlugs} priceNote={!quietPrice} />)}
         </section>
         <section id="one" className="border-2 border-ink bg-paper p-4">
           <h2 className="text-3xl">If you only buy one</h2>
@@ -111,7 +120,7 @@ function RoundupPage() {
         <FaqList faqs={page.faqs} />
         <Related links={linksFor(page.related)} />
         <p className="border-t border-line pt-4 text-sm text-muted"><span className="font-bold">How this was framed. </span>{page.method}</p>
-        <StickyAmazon slugs={page.productSlugs} kind="roundup" />
+        <StickyAmazon slugs={page.productSlugs} kind="roundup" priceNote={!quietPrice} />
       </article>
     </main>
   );
