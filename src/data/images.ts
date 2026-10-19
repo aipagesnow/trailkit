@@ -4840,7 +4840,7 @@ export const IMAGES: TkImageMeta[] = [
     "aspect": "4/3",
     "focal": "center 40%",
     "hub": "products",
-    "label": "lighting · Best rechargeable default",
+    "label": "lighting · Best everyday rechargeable",
     "title": "Petzl Actik Core",
     "ready": true,
     "srcset": true,
