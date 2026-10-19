@@ -85,10 +85,13 @@ export function AmazonButton({
   product,
   onProductPage = false,
   pageSlugs,
+  priceNote = true,
 }: {
   product: Product;
   onProductPage?: boolean;
   pageSlugs?: string[];
+  /** false when the page already shows one "Check current price" line near the disclosure. */
+  priceNote?: boolean;
 }) {
   const asin = asinFor(product.slug);
   if (!asin) {
@@ -132,7 +135,7 @@ export function AmazonButton({
               label={`See ${alt.short} on Amazon`}
               variant="outline"
             />
-            <p className="mt-1 text-sm text-muted">Check current price on the listing.</p>
+            {priceNote ? <p className="mt-1 text-sm text-muted">Check current price on the listing.</p> : null}
           </div>
         </div>
       </div>
@@ -141,7 +144,7 @@ export function AmazonButton({
   return (
     <div className="mt-3">
       <AmazonLink asin={asin} trackProduct={product.slug} label="See on Amazon" variant="blaze" />
-      <p className="mt-1 text-sm text-muted">Check current price on the listing.</p>
+      {priceNote ? <p className="mt-1 text-sm text-muted">Check current price on the listing.</p> : null}
     </div>
   );
 }
@@ -155,7 +158,7 @@ function mainListing(slugs: string[]) {
   return undefined;
 }
 
-export function EarlyListingCta({ slugs, kind }: { slugs: string[]; kind: "roundup" | "kit" }) {
+export function EarlyListingCta({ slugs, kind, priceNote = true }: { slugs: string[]; kind: "roundup" | "kit"; priceNote?: boolean }) {
   const listing = mainListing(slugs);
   if (!listing) return null;
   const { product, isDefault } = listing;
@@ -165,7 +168,7 @@ export function EarlyListingCta({ slugs, kind }: { slugs: string[]; kind: "round
   return (
     <div className="border border-line bg-paper p-4">
       <p className="max-w-3xl text-sm">{line}</p>
-      <AmazonButton product={product} />
+      <AmazonButton product={product} priceNote={priceNote} />
     </div>
   );
 }
@@ -207,7 +210,7 @@ export function HubListing({
   );
 }
 
-export function StickyAmazon({ slugs, kind }: { slugs: string[]; kind: "product" | "roundup" | "kit" }) {
+export function StickyAmazon({ slugs, kind, priceNote = true }: { slugs: string[]; kind: "product" | "roundup" | "kit"; priceNote?: boolean }) {
   const listing = mainListing(slugs);
   if (!listing) return null;
   const asin = asinFor(listing.product.slug);
@@ -228,7 +231,7 @@ export function StickyAmazon({ slugs, kind }: { slugs: string[]; kind: "product"
         <div className="mt-1">
           <AmazonLink asin={asin} trackProduct={product.slug} label="See on Amazon" variant="blaze" className="w-full" />
         </div>
-        <p className="mt-1 text-xs text-muted">Check current price on the listing.</p>
+        {priceNote ? <p className="mt-1 text-xs text-muted">Check current price on the listing.</p> : null}
       </div>
     </>
   );
@@ -288,11 +291,13 @@ export function ProductSection({
   index,
   tone = "field",
   pageSlugs,
+  priceNote = true,
 }: {
   product: Product;
   index: number;
   tone?: "field" | "money";
   pageSlugs?: string[];
+  priceNote?: boolean;
 }) {
   const top = index === 1;
   return (
@@ -323,7 +328,7 @@ export function ProductSection({
           <ul className="mt-1 list-disc pl-5 text-sm">{product.cons.map((item) => <li key={item}>{item}</li>)}</ul>
         </div>
       </div>
-      <AmazonButton product={product} pageSlugs={pageSlugs} />
+      <AmazonButton product={product} pageSlugs={pageSlugs} priceNote={priceNote} />
     </section>
   );
 }

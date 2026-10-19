@@ -1141,7 +1141,7 @@ export const products: Product[] = [
     weight: "Light",
     bestFor: "Weekends with USB charging and a usable low mode",
     limit: "The rechargeable pack is part of the system",
-    role: "Best rechargeable default",
+    role: "Best everyday rechargeable",
     summary: "The default hiking headlamp: a stable low mode, a red mode, and hybrid charging on current versions.",
     body: "The Actik Core is bright enough for finding the trail and restrained enough for cooking. Learn the lock. Check whether the version you buy accepts a backup cell or only the CORE pack, because that detail changes. A lamp you can't turn off in the pack is a lamp that arrives dead.",
     who: "This is for most hikers who'll recharge in the car.",

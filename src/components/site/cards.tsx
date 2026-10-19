@@ -6,13 +6,13 @@ import { TkImage } from "@/components/site/tk-image";
 
 const UPDATED_MONO = "OCT 2026";
 
-export function HowWePick() {
+export function HowWePick({ specNote }: { specNote?: string } = {}) {
   return (
     <aside className="border border-line bg-spec p-4 text-sm">
       <p className="font-mono text-[11px] tracking-widest uppercase">How we pick</p>
       <ul className="mt-2 space-y-1">
         <li>Each pick is matched to a real limit on your trip: budget, weight, weather, foot width, or trip length.</li>
-        <li>We do not invent trail tests or scores. Specs are the manufacturer’s published figures, and they can change between model years.</li>
+        <li>{specNote ?? "We do not invent trail tests or scores. Specs are the manufacturer’s published figures, and they can change between model years."}</li>
         <li>Each page names one pick to start with. The others suit different needs, so they are not ranked from best to worst.</li>
       </ul>
       <a href="/editorial" className="mt-2 inline-block font-bold underline">Editorial standards</a>
