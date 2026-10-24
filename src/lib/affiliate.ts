@@ -4,9 +4,19 @@ export const BRAND = "Trailkit Outdoor";
 export const UPDATED = "October 5, 2026";
 export const SITE_URL = (import.meta.env.VITE_SITE_URL || "https://www.trailkitoutdoor.com").replace(/\/$/, "");
 
-/** Single source of truth. Set AMAZON_ASSOCIATE_TAG or VITE_AMAZON_ASSOCIATE_TAG. */
+/** Single source of truth. Set AMAZON_ASSOCIATE_TAG or VITE_AMAZON_ASSOCIATE_TAG.
+ *  Vite inlines VITE_* into the client bundle, so tags survive hydration (unlike
+ *  Next server-only AMAZON_ASSOCIATE_TAG). Fallback keeps clicks paid if env is missing. */
 export function amazonTag() {
-  return import.meta.env.VITE_AMAZON_ASSOCIATE_TAG || import.meta.env.AMAZON_ASSOCIATE_TAG || "trailkit-20";
+  const tag = (
+    import.meta.env.VITE_AMAZON_ASSOCIATE_TAG ||
+    import.meta.env.AMAZON_ASSOCIATE_TAG ||
+    "trailkit-20"
+  ).trim();
+  if (!tag || tag === "your-tag-20" || tag === "yourtag-20") {
+    return "trailkit-20";
+  }
+  return tag;
 }
 
 export const DISCLOSURE_SHORT =
@@ -24,7 +34,9 @@ export function absoluteUrl(path: string) {
 export function amazonUrl(slug: string) {
   const asin = asinFor(slug);
   if (!asin) return null;
-  return `https://www.amazon.com/dp/${asin}?tag=${amazonTag()}`;
+  const tag = amazonTag();
+  // Never emit an untagged dp link — unpaid clicks.
+  return `https://www.amazon.com/dp/${asin}?tag=${encodeURIComponent(tag)}`;
 }
 
 export function pageTitle(title: string) {
