@@ -17,6 +17,11 @@ import { Route as DisclosureRouteImport } from './routes/disclosure'
 import { Route as EditorialRouteImport } from './routes/editorial'
 import { Route as LibraryRouteImport } from './routes/library'
 import { Route as PrivacyRouteImport } from './routes/privacy'
+import { Route as SitemapBestDotxmlRouteImport } from './routes/sitemap-best[.]xml'
+import { Route as SitemapCompareDotxmlRouteImport } from './routes/sitemap-compare[.]xml'
+import { Route as SitemapCoreDotxmlRouteImport } from './routes/sitemap-core[.]xml'
+import { Route as SitemapGuidesDotxmlRouteImport } from './routes/sitemap-guides[.]xml'
+import { Route as SitemapProductsDotxmlRouteImport } from './routes/sitemap-products[.]xml'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as BestIndexRouteImport } from './routes/best/index'
 import { Route as BestSlugRouteImport } from './routes/best/$slug'
@@ -70,6 +75,31 @@ const LibraryRoute = LibraryRouteImport.update({
 const PrivacyRoute = PrivacyRouteImport.update({
   id: '/privacy',
   path: '/privacy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapBestDotxmlRoute = SitemapBestDotxmlRouteImport.update({
+  id: '/sitemap-best.xml',
+  path: '/sitemap-best.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapCompareDotxmlRoute = SitemapCompareDotxmlRouteImport.update({
+  id: '/sitemap-compare.xml',
+  path: '/sitemap-compare.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapCoreDotxmlRoute = SitemapCoreDotxmlRouteImport.update({
+  id: '/sitemap-core.xml',
+  path: '/sitemap-core.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapGuidesDotxmlRoute = SitemapGuidesDotxmlRouteImport.update({
+  id: '/sitemap-guides.xml',
+  path: '/sitemap-guides.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapProductsDotxmlRoute = SitemapProductsDotxmlRouteImport.update({
+  id: '/sitemap-products.xml',
+  path: '/sitemap-products.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
@@ -152,6 +182,11 @@ export interface FileRoutesByFullPath {
   '/editorial': typeof EditorialRoute
   '/library': typeof LibraryRoute
   '/privacy': typeof PrivacyRoute
+  '/sitemap-best.xml': typeof SitemapBestDotxmlRoute
+  '/sitemap-compare.xml': typeof SitemapCompareDotxmlRoute
+  '/sitemap-core.xml': typeof SitemapCoreDotxmlRoute
+  '/sitemap-guides.xml': typeof SitemapGuidesDotxmlRoute
+  '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/best/$slug': typeof BestSlugRoute
   '/compare/$slug': typeof CompareSlugRoute
@@ -176,6 +211,11 @@ export interface FileRoutesByTo {
   '/editorial': typeof EditorialRoute
   '/library': typeof LibraryRoute
   '/privacy': typeof PrivacyRoute
+  '/sitemap-best.xml': typeof SitemapBestDotxmlRoute
+  '/sitemap-compare.xml': typeof SitemapCompareDotxmlRoute
+  '/sitemap-core.xml': typeof SitemapCoreDotxmlRoute
+  '/sitemap-guides.xml': typeof SitemapGuidesDotxmlRoute
+  '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/best/$slug': typeof BestSlugRoute
   '/compare/$slug': typeof CompareSlugRoute
@@ -201,6 +241,11 @@ export interface FileRoutesById {
   '/editorial': typeof EditorialRoute
   '/library': typeof LibraryRoute
   '/privacy': typeof PrivacyRoute
+  '/sitemap-best.xml': typeof SitemapBestDotxmlRoute
+  '/sitemap-compare.xml': typeof SitemapCompareDotxmlRoute
+  '/sitemap-core.xml': typeof SitemapCoreDotxmlRoute
+  '/sitemap-guides.xml': typeof SitemapGuidesDotxmlRoute
+  '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/best/$slug': typeof BestSlugRoute
   '/compare/$slug': typeof CompareSlugRoute
@@ -227,6 +272,11 @@ export interface FileRouteTypes {
     | '/editorial'
     | '/library'
     | '/privacy'
+    | '/sitemap-best.xml'
+    | '/sitemap-compare.xml'
+    | '/sitemap-core.xml'
+    | '/sitemap-guides.xml'
+    | '/sitemap-products.xml'
     | '/sitemap.xml'
     | '/best/$slug'
     | '/compare/$slug'
@@ -251,6 +301,11 @@ export interface FileRouteTypes {
     | '/editorial'
     | '/library'
     | '/privacy'
+    | '/sitemap-best.xml'
+    | '/sitemap-compare.xml'
+    | '/sitemap-core.xml'
+    | '/sitemap-guides.xml'
+    | '/sitemap-products.xml'
     | '/sitemap.xml'
     | '/best/$slug'
     | '/compare/$slug'
@@ -275,6 +330,11 @@ export interface FileRouteTypes {
     | '/editorial'
     | '/library'
     | '/privacy'
+    | '/sitemap-best.xml'
+    | '/sitemap-compare.xml'
+    | '/sitemap-core.xml'
+    | '/sitemap-guides.xml'
+    | '/sitemap-products.xml'
     | '/sitemap.xml'
     | '/best/$slug'
     | '/compare/$slug'
@@ -300,6 +360,11 @@ export interface RootRouteChildren {
   EditorialRoute: typeof EditorialRoute
   LibraryRoute: typeof LibraryRoute
   PrivacyRoute: typeof PrivacyRoute
+  SitemapBestDotxmlRoute: typeof SitemapBestDotxmlRoute
+  SitemapCompareDotxmlRoute: typeof SitemapCompareDotxmlRoute
+  SitemapCoreDotxmlRoute: typeof SitemapCoreDotxmlRoute
+  SitemapGuidesDotxmlRoute: typeof SitemapGuidesDotxmlRoute
+  SitemapProductsDotxmlRoute: typeof SitemapProductsDotxmlRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   BestSlugRoute: typeof BestSlugRoute
   CompareSlugRoute: typeof CompareSlugRoute
@@ -372,6 +437,41 @@ declare module '@tanstack/react-router' {
       path: '/privacy'
       fullPath: '/privacy'
       preLoaderRoute: typeof PrivacyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap-best.xml': {
+      id: '/sitemap-best.xml'
+      path: '/sitemap-best.xml'
+      fullPath: '/sitemap-best.xml'
+      preLoaderRoute: typeof SitemapBestDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap-compare.xml': {
+      id: '/sitemap-compare.xml'
+      path: '/sitemap-compare.xml'
+      fullPath: '/sitemap-compare.xml'
+      preLoaderRoute: typeof SitemapCompareDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap-core.xml': {
+      id: '/sitemap-core.xml'
+      path: '/sitemap-core.xml'
+      fullPath: '/sitemap-core.xml'
+      preLoaderRoute: typeof SitemapCoreDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap-guides.xml': {
+      id: '/sitemap-guides.xml'
+      path: '/sitemap-guides.xml'
+      fullPath: '/sitemap-guides.xml'
+      preLoaderRoute: typeof SitemapGuidesDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap-products.xml': {
+      id: '/sitemap-products.xml'
+      path: '/sitemap-products.xml'
+      fullPath: '/sitemap-products.xml'
+      preLoaderRoute: typeof SitemapProductsDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sitemap.xml': {
@@ -484,6 +584,11 @@ const rootRouteChildren: RootRouteChildren = {
   EditorialRoute: EditorialRoute,
   LibraryRoute: LibraryRoute,
   PrivacyRoute: PrivacyRoute,
+  SitemapBestDotxmlRoute: SitemapBestDotxmlRoute,
+  SitemapCompareDotxmlRoute: SitemapCompareDotxmlRoute,
+  SitemapCoreDotxmlRoute: SitemapCoreDotxmlRoute,
+  SitemapGuidesDotxmlRoute: SitemapGuidesDotxmlRoute,
+  SitemapProductsDotxmlRoute: SitemapProductsDotxmlRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   BestSlugRoute: BestSlugRoute,
   CompareSlugRoute: CompareSlugRoute,
