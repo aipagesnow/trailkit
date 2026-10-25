@@ -16,11 +16,33 @@ const render = async (p) => {
   return { status: res.status, type: res.headers.get("content-type") || "", text: await res.text() };
 };
 
+function locsFromXml(text) {
+  return [...text.matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/g)].map((m) => new URL(m[1]).pathname);
+}
+
 rmSync(out, { recursive: true, force: true });
 mkdirSync(out, { recursive: true });
 const sm = await render("/sitemap.xml");
 if (sm.status !== 200) { console.error(`render-built-pages: /sitemap.xml returned ${sm.status}`); process.exit(1); }
-const queue = [...sm.text.matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/g)].map((m) => new URL(m[1]).pathname);
+
+// Support both a legacy single URLSET and a sitemap index + child URLSETs.
+const topLocs = locsFromXml(sm.text);
+const isIndex = /<sitemapindex[\s>]/i.test(sm.text);
+const pagePaths = [];
+if (isIndex) {
+  for (const childPath of topLocs) {
+    const child = await render(childPath);
+    if (child.status !== 200) {
+      console.error(`render-built-pages: ${childPath} returned ${child.status}`);
+      process.exit(1);
+    }
+    pagePaths.push(...locsFromXml(child.text));
+  }
+} else {
+  pagePaths.push(...topLocs);
+}
+
+const queue = [...pagePaths];
 const seen = new Set(queue);
 let bad = 0, n = 0;
 while (queue.length && n < 1000) {
