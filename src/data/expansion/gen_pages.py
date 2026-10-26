@@ -141,7 +141,7 @@ roundups = [
        ("Do I need gaiters too?","When snow is above the ankle. Not for a dusty summer trail."),
        ("Are these crampons?","No. If the route needs an ice axe, you are past this page.")],
       ["winter-day","three-vs-four-season","hiking-boots-wide-feet"]),
-    R("family-camping","Best Family Camping Tents","Family tents for the car: REI Kingdom 6 when you will use it for years, Coleman Sundome when you are testing the idea.","Best family camping tents","Roundup · Family","family",
+    R("family-camping","Best tents for families (UK camping)","Best tents for families who drive to camp: REI Kingdom 6 when you will use it for years, Coleman Sundome when you are testing the idea.","Best family camping tents","Roundup · Family","family",
       "If the car is carrying the tent, buy height and floor space. The REI Kingdom 6 is the tent families keep. The Coleman Sundome 4 is the fair-weather test. A backpacking tent is the wrong tool when you are not backpacking.",
       "Families at drive-up sites. Not a thru-hike.",
       ["kingdom-6","sundome-4","kindercone","tikkid"],

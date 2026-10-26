@@ -387,8 +387,8 @@ export const extraRoundups: Roundup[] = [
   },
   {
     "slug": "family-camping",
-    "title": "Best Family Camping Tents",
-    "description": "Family tents for the car: REI Kingdom 6 when you will use it for years, Coleman Sundome when you are testing the idea.",
+    "title": "Best tents for families (UK camping)",
+    "description": "Best tents for families who drive to camp: REI Kingdom 6 when you will use it for years, Coleman Sundome when you are testing the idea.",
     "h1": "Best family camping tents",
     "kicker": "Roundup · Family",
     "category": "family",
