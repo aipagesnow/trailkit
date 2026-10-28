@@ -14,7 +14,6 @@ export const INDEXED_PRODUCTS: ReadonlySet<string> = new Set([
   "dragonfly-osmo-2",
   "eno-doublenest",
   "trestles-eco-30",
-  "wash-bins",
   "copper-spur-ul2",
   "half-dome-2-plus",
   "magma-15",
