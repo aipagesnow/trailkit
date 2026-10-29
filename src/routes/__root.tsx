@@ -4,6 +4,7 @@ import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import { PageShell } from "@/components/site/chrome";
 import { BRAND } from "@/lib/affiliate";
 import appCss from "../styles.css?url";
+import { consentScript } from "@/lib/consent-script";
 
 const gaId = import.meta.env.VITE_GA_ID || import.meta.env.NEXT_PUBLIC_GA_ID || "";
 
@@ -24,21 +25,8 @@ export const Route = createRootRoute({
       { rel: "icon", type: "image/png", href: "/icon-512-maskable.png", sizes: "512x512" },
       { rel: "stylesheet", href: appCss },
       { rel: "manifest", href: "/manifest.webmanifest" },
-      { rel: "preconnect", href: "https://fonts.googleapis.com" },
-      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600;700&display=swap",
-      },
     ],
-    scripts: gaId
-      ? [
-          { src: `https://www.googletagmanager.com/gtag/js?id=${gaId}`, async: true },
-          {
-            children: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${gaId}');`,
-          },
-        ]
-      : [],
+    scripts: gaId ? [{ children: consentScript(gaId) }] : [],
   }),
   shellComponent: RootShell,
   component: () => (
