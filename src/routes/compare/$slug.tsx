@@ -5,6 +5,7 @@ import { AmazonButton, Crumbs, Disclosure, FaqList, JsonLd, Related, Updated } f
 import { HowWePick, decidesLine } from "@/components/site/cards";
 import { TkImage } from "@/components/site/tk-image";
 import { imageFor } from "@/data/images";
+import { NoListingLink } from "@/components/site/no-listing-link";
 import { breadcrumbLd, pageHead } from "@/lib/seo";
 
 export const Route = createFileRoute("/compare/$slug")({
@@ -54,11 +55,13 @@ function ComparePage() {
         ]}
       />
       <Crumbs items={[{ href: "/compare", label: "Compare" }, { label: page.h1 }]} />
+      {imageFor(`/compare/${page.slug}`)?.ready ? (
       <div className="relative aspect-video overflow-hidden border border-line">
         <TkImage route={`/compare/${page.slug}`} priority fill sizes="100vw" tone="money" />
         <span className="absolute inset-y-0 left-1/2 w-[3px] -translate-x-1/2 bg-paper" aria-hidden />
         <span className="absolute top-1/2 left-1/2 grid size-[46px] -translate-x-1/2 -translate-y-1/2 place-items-center border-2 border-ink bg-paper font-display text-sm">VS</span>
       </div>
+      ) : null}
       <p className="font-mono text-[11px] tracking-widest uppercase">{page.kicker}</p>
       <h1 className="text-4xl">{page.h1}</h1>
       <div className="border-l-4 border-ink bg-spec p-4">{page.answer}</div>
@@ -69,13 +72,18 @@ function ComparePage() {
       <div className="sticky top-0 z-10 grid gap-3 bg-paper py-3 md:grid-cols-2">
         {[left, right].map((p) => (
           <article key={p.slug} className="grid min-w-0 grid-cols-[88px_minmax(0,1fr)] gap-3 border border-line p-3 sm:grid-cols-[120px_minmax(0,1fr)]">
-            <div className="relative aspect-[4/3] overflow-hidden">
-              <TkImage route={`/products/${p.slug}`} fill sizes="120px" tone="money" />
-            </div>
+            {imageFor(`/products/${p.slug}`)?.ready ? (
+              <div className="relative aspect-[4/3] overflow-hidden">
+                <TkImage route={`/products/${p.slug}`} fill sizes="120px" tone="money" />
+              </div>
+            ) : (
+              <div className="grid aspect-[4/3] place-items-center border border-line bg-spec p-2 text-center font-mono text-[11px] uppercase">{p.role}</div>
+            )}
             <div className="min-w-0">
               <h2 className="text-xl break-words"><a href={`/products/${p.slug}`}>{p.name}</a></h2>
               <p className="text-sm text-muted">{p.bestFor}</p>
               <AmazonButton product={p} />
+              <NoListingLink product={p} />
             </div>
           </article>
         ))}
@@ -109,6 +117,7 @@ function ComparePage() {
             <h2 className="text-2xl"><a href={`/products/${p.slug}`} className="text-ink">{p.name}</a></h2>
             <p className="mt-2 text-sm text-muted">{p.summary}</p>
             <AmazonButton product={p} />
+            <NoListingLink product={p} />
           </article>
         ))}
       </section>

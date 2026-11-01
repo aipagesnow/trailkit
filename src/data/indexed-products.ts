@@ -6,21 +6,11 @@
  *
  * Demoted 28 Oct 2026 (thin stubs): dutchware-chameleon, head-net, bindi, camp-clog
  * — still live with noindex,follow; not in sitemap.
+ * Demoted 1 Nov 2026 (Ellis Crowe risk pass, Chris-approved): all 12 remaining
+ * quick-notes pages (baltoro-65 … targhee-iv, incl. coleman-2burner and
+ * eno-doublenest). Pages stay live; roundups carry the topics.
  */
-export const INDEXED_PRODUCTS: ReadonlySet<string> = new Set([
-  "baltoro-65",
-  "blackbird-xlc",
-  "coleman-2burner",
-  "dragonfly-osmo-2",
-  "eno-doublenest",
-  "trestles-eco-30",
-  "copper-spur-ul2",
-  "half-dome-2-plus",
-  "magma-15",
-  "atmos-ag-65",
-  "talon-22",
-  "targhee-iv",
-]);
+export const INDEXED_PRODUCTS: ReadonlySet<string> = new Set<string>([]);
 
 export function isIndexedProduct(slug: string) {
   return INDEXED_PRODUCTS.has(slug);

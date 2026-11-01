@@ -1117,7 +1117,7 @@ export const products: Product[] = [
     priceBand: "Mid",
     weight: "Car weight",
     bestFor: "Group breakfast at a drive-up site",
-    limit: "Do not carry it in",
+    limit: "It's far too heavy to carry in, so it only makes sense where you park next to your pitch.",
     role: "Best car-camping stove",
     summary: "Two burners. That is the entire point, and it is the correct point.",
     body: "Pancakes and coffee at the same time change the morning. We'd bring a spare propane cylinder. Check the regulator before a holiday weekend. Keep a canister stove as a backup for coffee if this one fails, not as the main cooker for a family.",
