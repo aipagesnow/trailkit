@@ -160,6 +160,9 @@ export const tents: ProductGuide[] = [
           "Dry it fully before storage, store it loose, and keep the zips clean. NEMO backs the tent with a lifetime warranty against defects, and offers repairs for damage. A footprint will protect the floor on rough ground and extend the tent's life.",
         ],
       },
+      {"id": "owners", "heading": "What owners report in bad weather", "paragraphs": ["On [r/CampingGear](https://www.reddit.com/r/CampingGear/comments/192aezp/does_the_nemo_dragonfly_osmo_version_cutout/), several owners say the Dragonfly OSMO stayed dry through heavy rain, wind and even snow, as long as the fly was guyed out and the tent was pitched with its narrow end into the wind. Condensation is usually minor thanks to the large head vent and the door tops that unzip, though cold, humid nights still leave some moisture inside, as they would in any double-wall tent.", "Earlier versions had a cutout in the fly that some owners felt could let moisture in during driving rain. NEMO has since redesigned that area. If you're buying used, check which version you're getting."]},
+      {"id": "fit", "heading": "Sizing and fit for two", "paragraphs": ["The 50 in head end and 45 in foot end fit two standard 20 in pads comfortably, with some room for small items. Two 25 in wide pads will overlap the walls at the feet. If you're over about 6 ft 2 in, check the 88 in length against your pad and pillow, because your head or feet may brush the walls. If you want more space, NEMO also makes a 3P version."]},
+      {"id": "weight-split", "heading": "Splitting the weight", "paragraphs": ["The Divvy Cube stuff sack splits into two halves, so each person carries a share. Put the poles and fly in one, and the body and stakes in the other. On a solo trip, you'll carry the full 2 lb 13 oz, which is still reasonable for a freestanding tent this roomy."]},
     ],
     alternatives: [
       { href: "/compare/copper-spur-vs-dragonfly", label: "Copper Spur vs Dragonfly", why: "The two light freestanding tents, row by row." },
@@ -169,6 +172,8 @@ export const tents: ProductGuide[] = [
       { href: "/guides/tent-condensation", label: "Tent condensation", why: "Why tents get wet inside and what helps." },
     ],
     faqs: [
+      {"q": "Does the NEMO Dragonfly OSMO get condensation?", "a": "Some, on cold or humid nights, like any double-wall tent. Open the head vent and the tops of the doors to keep it to a minimum."},
+      {"q": "Is the Dragonfly OSMO 2P good for tall people?", "a": "It's 88 in long, which fits most people up to about 6 ft 2 in. Taller campers may want to check the length against their pad and pillow."},
       { q: "How much does the NEMO Dragonfly OSMO 2P weigh?", a: "NEMO lists a minimum weight of 2 lb 13 oz and a packed weight of 3 lb 5 oz on current listings. Earlier listings showed 2 lb 10 oz minimum." },
       { q: "What is OSMO fabric?", a: "It's NEMO's recycled nylon-polyester fabric. NEMO says it stretches 3x less when wet and repels water 4x longer than similar fabrics, and it's PFAS-free." },
       { q: "Is the Dragonfly OSMO 2P big enough for two?", a: "Yes, on standard pads. The floor is 88 x 50/45 in, so two wide pads will be tight at the foot end." },
@@ -176,6 +181,8 @@ export const tents: ProductGuide[] = [
       { q: "Dragonfly vs Hornet OSMO?", a: "The Hornet is lighter, but it's semi-freestanding and has less room. The Dragonfly is the more livable of the two." },
     ],
     sources: [
+      {"label": "r/CampingGear: owners on the Dragonfly OSMO in rain", "url": "https://www.reddit.com/r/CampingGear/comments/192aezp/does_the_nemo_dragonfly_osmo_version_cutout/"},
+      {"label": "Gear Priority: NEMO Dragonfly OSMO 2P review", "url": "https://gearpriority.com/nemo-dragonfly-osmo-2p/"},
       { label: "NEMO Support: Hornet vs Dragonfly vs Dagger OSMO specs", url: "https://support.nemoequipment.com/hc/en-us/articles/360061247992-What-is-the-difference-between-the-Hornet-OSMO-Dragonfly-OSMO-and-Dagger-OSMO" },
       { label: "Alpsport: Dragonfly OSMO 2P description (NEMO copy)", url: "https://alpsport.com.au/products/dragonfly-2p-osmo%E2%84%A2-ultralight-backpacking-tent" },
       { label: "The Inertia: NEMO Dragonfly OSMO 2P review", url: "https://www.theinertia.com/gear/nemo-dragonfly-osmo-2p-backpacking-tent-review/" },
@@ -241,6 +248,9 @@ export const tents: ProductGuide[] = [
           "Dry the tent completely before storing it, and keep it loose rather than packed tight. Wipe off mud with water and mild soap.",
         ],
       },
+      {"id": "weather", "heading": "How it handles rain and wind", "paragraphs": ["Owners on [r/CampingGear](https://www.reddit.com/r/CampingGear/comments/477nnf/anyone_have_experience_with_the_rei_halfdome_2/) generally report it stays dry in heavy rain when it's fully staked and guyed out. Condensation is usually small with the roof vents open, though two people breathing in a humid, still night will still leave some moisture on the fly. Reviewers at [OutdoorGearLab](https://www.outdoorgearlab.com/reviews/camping-and-hiking/backpacking-tent/rei-half-dome-2-plus) and [Section Hiker](https://sectionhiker.com/rei-coop-half-dome-2-plus-tent-review/) note that the fly and vestibules can be hard to keep taut in wind, so use every guyline."]},
+      {"id": "solo", "heading": "Is it worth it for solo trips?", "paragraphs": ["It's a common question on [r/WildernessBackpacking](https://www.reddit.com/r/WildernessBackpacking/comments/96hgtx/would_i_regret_buying_the_rei_half_dome_2_plus/). For one person, it's a palace, but you carry all 5 lb yourself. If you hike solo most of the time, a one-person or lighter two-person tent saves you a lot of weight. If you mostly hike with a partner, or want one tent for car camping and short trips, it's excellent value."]},
+      {"id": "pack", "heading": "Packing tips", "paragraphs": ["Split it with your partner: one carries the body and footprint, the other the fly, poles and stakes. Pack the poles vertically along the side of your pack and the body low in the main compartment. The included stuff sack is roomy, which helps after a wet morning."]},
     ],
     alternatives: [
       { href: "/products/copper-spur-ul2", label: "Big Agnes Copper Spur HV UL2", why: "Half the weight, less room." },
@@ -250,6 +260,8 @@ export const tents: ProductGuide[] = [
       { href: "/guides/first-overnight", label: "Your first overnight", why: "What to bring and expect." },
     ],
     faqs: [
+      {"q": "Is the Half Dome 2 Plus good in wind?", "a": "It handles wind well when it's fully staked and guyed, though owners say the fly and vestibules can be hard to keep tight. Pitch with a narrow end into the wind."},
+      {"q": "Is the Half Dome 2 Plus too heavy for solo backpacking?", "a": "For many people, yes. At about 5 lb trail weight, it's a lot for one person. It makes more sense when you split it between two."},
       { q: "How much does the REI Half Dome 2 Plus weigh?", a: "REI lists a minimum trail weight of 5 lb 0.8 oz and a packaged weight of 6 lb 3.6 oz, including the footprint." },
       { q: "Is the Half Dome 2 Plus good for backpacking?", a: "Yes, for shorter trips and when split between two people. For long-mileage trips, a lighter tent is easier to carry." },
       { q: "Does the Half Dome 2 Plus come with a footprint?", a: "The current version is sold with a footprint. Older versions didn't include one." },
@@ -257,6 +269,9 @@ export const tents: ProductGuide[] = [
       { q: "Is the Half Dome 2 Plus waterproof?", a: "Yes, with taped seams and a full coverage fly. Pitch the fly tight and open the vents to reduce condensation." },
     ],
     sources: [
+      {"label": "OutdoorGearLab: REI Half Dome 2 Plus review", "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/backpacking-tent/rei-half-dome-2-plus"},
+      {"label": "Section Hiker: REI Half Dome 2 Plus review", "url": "https://sectionhiker.com/rei-coop-half-dome-2-plus-tent-review/"},
+      {"label": "r/CampingGear: owners on the Half Dome 2 Plus", "url": "https://www.reddit.com/r/CampingGear/comments/477nnf/anyone_have_experience_with_the_rei_halfdome_2/"},
       { label: "REI: Half Dome 2 Plus Tent with Footprint specs", url: "https://www.rei.com/product/243700/rei-co-op-half-dome-2-plus-tent-with-footprint" },
       { label: "Backpackers.com: REI Half Dome 2 Plus review", url: "https://backpackers.com/gear/reviews/rei-half-dome-2-plus/" },
       { label: "Trailspace: REI Half Dome 2 Plus owner reviews", url: "https://www.trailspace.com/gear/rei/half-dome-2-plus/" },

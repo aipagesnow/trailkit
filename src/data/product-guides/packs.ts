@@ -255,6 +255,8 @@ export const packs: ProductGuide[] = [
           "Empty crumbs and grit after each hike, rinse sweat out of the belt and straps now and then, and hang it to dry. If you use a bladder, dry it fully between hikes. Osprey's All Mighty Guarantee covers defects and damage from use, so a torn pocket isn't the end of the pack.",
         ],
       },
+      {"id": "hipbelt", "heading": "The hip belt pockets", "paragraphs": ["The most common owner gripe is the hip belt pockets. On [r/backpacks](https://www.reddit.com/r/backpacks/comments/12xkf3s/osprey_talon_22_are_the_belt_pockets_meant_to_be/) and [r/UKhiking](https://www.reddit.com/r/UKhiking/comments/q5tsws/osprey_talon_22_owners/), people say they're small and set far back, so a large phone only just fits and is awkward to reach. Snacks, lip balm and a small phone work better there. If you want your phone at hand, a shoulder strap pocket is easier.", "Osprey's Extended Fit version moves the pockets and makes them bigger, and fits larger bodies. It's worth a look if the standard belt doesn't sit well on your hips."]},
+      {"id": "loads", "heading": "How much can it carry comfortably?", "paragraphs": ["Owners and [Backpackers.com](https://backpackers.com/gear/reviews/osprey-talon-22-backpack/) report it carries well up to about 20 lb. That's plenty for a full day hike with water, layers, lunch and a first-aid kit. Much beyond that, the frame sheet and mesh back panel start to feel overloaded. Load water and heavy items close to your back and high, and keep the hip belt snug so the weight sits on your hips."]},
     ],
     alternatives: [
       { href: "/best/daypacks", label: "Best daypacks", why: "The Talon next to lighter and cheaper options." },
@@ -263,6 +265,7 @@ export const packs: ProductGuide[] = [
       { href: "/guides/how-much-water", label: "How much water to carry", why: "Plan your liters before you pick a pack size." },
     ],
     faqs: [
+      {"q": "Will a phone fit in the Osprey Talon 22 hip belt pocket?", "a": "A small phone fits. Owners say larger phones only just squeeze in, and the pockets are set far back."},
       { q: "Is the Osprey Talon 22 good for hiking?", a: "Yes. It's built for day hikes, with a padded hip belt that takes water weight off your shoulders and room for a shell and a layer." },
       { q: "Can you use the Talon 22 for an overnight?", a: "Only if your kit is very compact. A sleeping bag and tent usually won't fit, so we'd use a 35–45 liter pack for overnights." },
       { q: "Does the Talon 22 fit a 3-liter bladder?", a: "Osprey sells a 3-liter reservoir as an add-on for the Talon, so yes. It goes in the internal sleeve." },
@@ -270,6 +273,8 @@ export const packs: ProductGuide[] = [
       { q: "What's the difference between the Talon and the Tempest?", a: "The Tempest is the women's version, with a different harness and hip belt shape and shorter torso options." },
     ],
     sources: [
+      {"label": "Backpackers.com: Osprey Talon 22 review", "url": "https://backpackers.com/gear/reviews/osprey-talon-22-backpack/"},
+      {"label": "r/backpacks: Talon 22 hip belt pockets thread", "url": "https://www.reddit.com/r/backpacks/comments/12xkf3s/osprey_talon_22_are_the_belt_pockets_meant_to_be/"},
       { label: "Osprey: Talon 22 product page and specs", url: "https://www.osprey.com/talontm-1" },
       { label: "Osprey: Talon 22 EF specs", url: "https://www.osprey.com/talontm-22-ef" },
       { label: "REI: Osprey Talon 22 technical specs", url: "https://www.rei.com/product/237541/osprey-talon-22-pack-mens" },

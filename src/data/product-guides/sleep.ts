@@ -72,6 +72,8 @@ export const sleep: ProductGuide[] = [
           "Store it loose in the large cotton storage sack, never compressed. Air it out after each trip. Wash it rarely, using a down-specific soap in a front-loading machine, then dry it on low with clean tennis balls until it's fully dry. Our [down washing note](/guides/wash-down) has the details. With good care, a down bag lasts many years.",
         ],
       },
+      {"id": "owners", "heading": "What owners say about warmth", "paragraphs": ["On [r/Ultralight](https://www.reddit.com/r/Ultralight/comments/yu79x8/rei_magma_15_sleeping_bag_on_sale_is_it_a_good/) and [r/backpacking](https://www.reddit.com/r/backpacking/comments/1ezoq9q/rei_magma_15_for_300/), owners call the Magma 15 warm, compressible and good value. Most say it's comfortable into the 20s°F with a good pad and layers. Few treat it as a true 15-degree comfort bag, which matches the ISO comfort rating of 21°F."]},
+      {"id": "zipper", "heading": "The zipper", "paragraphs": ["The zipper curves rather than running straight down the side. [Section Hiker](https://sectionhiker.com/rei-magma-15-down-sleeping-bag-review/) and OutdoorGearLab both mention it. It runs smoothly, but some people find the curve awkward, and opening it partway can leave a shoulder exposed. Practice zipping it from inside before your first cold night."]},
     ],
     alternatives: [
       { href: "/products/trestles-eco-30", label: "Marmot Trestles Elite Eco 30", why: "Synthetic, cheaper, better in damp, heavier and bulkier." },
@@ -81,6 +83,7 @@ export const sleep: ProductGuide[] = [
       { href: "/guides/quilt-vs-bag", label: "Quilt vs bag", why: "When a quilt makes more sense." },
     ],
     faqs: [
+      {"q": "Is the REI Magma 15 really a 15-degree bag?", "a": "Not for comfort. Its ISO comfort rating is 21°F. Most owners say it's comfortable into the 20s with a warm pad and layers."},
       { q: "How warm is the REI Magma 15?", a: "It has an ISO comfort rating of 21°F and a lower limit of 9°F. Plan around 21°F if you sleep cold." },
       { q: "How much does the REI Magma 15 weigh?", a: "About 2 lb 3.6 oz in a medium, with 23.3 oz of 850-fill down. Sizes range from about 2 lb 1.9 oz to 2 lb 8 oz." },
       { q: "Is the REI Magma 15 good for side sleepers?", a: "It's snug. Side sleepers often prefer a wide size or a quilt." },
@@ -88,6 +91,8 @@ export const sleep: ProductGuide[] = [
       { q: "REI Magma 15 or 30?", a: "We'd go with the 15 if you camp in spring and fall or at altitude, and the 30 for summer trips. A warmer bag can be unzipped on mild nights; a cold bag can't be fixed." },
     ],
     sources: [
+      {"label": "Section Hiker: REI Magma 15 review", "url": "https://sectionhiker.com/rei-magma-15-down-sleeping-bag-review/"},
+      {"label": "r/Ultralight: owners on the Magma 15", "url": "https://www.reddit.com/r/Ultralight/comments/yu79x8/rei_magma_15_sleeping_bag_on_sale_is_it_a_good/"},
       { label: "REI: Magma 15 sleeping bag specs", url: "https://www.rei.com/product/228704/rei-co-op-magma-15-sleeping-bag" },
       { label: "OutdoorGearLab: REI Magma 15 review", url: "https://www.outdoorgearlab.com/reviews/camping-and-hiking/backpacking-sleeping-bag/rei-co-op-magma-15" },
       { label: "CleverHiker: REI Magma 15 review", url: "https://www.cleverhiker.com/gear/rei-magma-15-review" },
@@ -164,6 +169,9 @@ export const sleep: ProductGuide[] = [
           "Store it loose in the storage sack, not compressed. Air it after trips. Wash it occasionally in a front-loading machine with mild soap, then tumble dry on low. Synthetic bags are forgiving to wash.",
         ],
       },
+      {"id": "owners", "heading": "What owners and reviewers say", "paragraphs": ["[Live for the Outdoors](https://www.livefortheoutdoors.com/camping/sleep/best-sleeping-bags/) picked it as their favorite of the Trestles Elite Eco range. They praised its recycled materials, its warmth when damp, and a roomy foot area that feels less cramped than a traditional mummy. Their gripes were a draft collar that could be better and a packed size that's still large.", "Owner reviews are mostly warm, but a few run colder than the label suggests. One reviewer on the German retailer [Bergfreunde](https://www.bergfreunde.de/marmot-trestles-elite-eco-30-kunstfaserschlafsack-bewertung/) reported feeling cold at about 39°F (4°C) outside. Other owners there praise how well it compresses for a synthetic bag. That fits the comfort rating of 32°F: it's a bag for nights in the high 30s and 40s, with a little margin."]},
+      {"id": "zips", "heading": "The two zippers and how to use them", "paragraphs": ["The main zip runs down the left side, and a second, shorter zip on the other side folds down to let heat out. On a mild night, open the second zip a little rather than unzipping the whole bag; you'll vent without letting a draft hit your back. Reviewers note the main zip doesn't run all the way to the feet, so you can't fully open it into a blanket."]},
+      {"id": "system", "heading": "Getting the most warmth out of it", "paragraphs": ["A synthetic 30-degree bag needs the rest of your sleep system to pull its weight. Use a pad with an R-value of 3 or more in spring and fall, wear a dry base layer and a hat, and cinch the hood on colder nights. If you're a cold sleeper and expect nights near freezing, add a liner or choose a warmer bag. Our [cold sleeper kit](/kits/cold-sleeper-kit) shows a setup that works."]},
     ],
     alternatives: [
       { href: "/products/magma-15", label: "REI Co-op Magma 15", why: "Warmer, lighter, more expensive down." },
@@ -172,6 +180,8 @@ export const sleep: ProductGuide[] = [
       { href: "/best/car-camping-gear", label: "Best car camping gear", why: "The rest of the setup." },
     ],
     faqs: [
+      {"q": "Is the Marmot Trestles Elite Eco 30 warm enough for 30 degrees?", "a": "Marmot's comfort rating is 32°F, and its limit is 21°F. Some owners feel cold in the high 30s, so we'd treat it as a bag for nights above about 35°F unless you add layers or a liner."},
+      {"q": "Is the Trestles Elite Eco roomy?", "a": "Reviewers find the foot area more generous than a traditional mummy, though it's still a close-fitting bag at the shoulders."},
       { q: "What is the temperature rating of the Marmot Trestles Elite Eco 30?", a: "It has an ISO comfort rating of 32°F and a limit of 21°F." },
       { q: "How much does the Marmot Trestles Elite Eco 30 weigh?", a: "Marmot lists the regular at 1,179 g, about 2 lb 9.6 oz." },
       { q: "Is there a women's Marmot Trestles Elite Eco 30?", a: "Yes. Marmot makes a women's version with a fit shaped for women." },
@@ -179,6 +189,8 @@ export const sleep: ProductGuide[] = [
       { q: "What does Eco mean in Trestles Elite Eco?", a: "The insulation and fabrics use recycled materials." },
     ],
     sources: [
+      {"label": "Live for the Outdoors: best sleeping bags (Trestles Elite Eco 30 review)", "url": "https://www.livefortheoutdoors.com/camping/sleep/best-sleeping-bags/"},
+      {"label": "Bergfreunde: Trestles Elite Eco 30 owner reviews (German)", "url": "https://www.bergfreunde.de/marmot-trestles-elite-eco-30-kunstfaserschlafsack-bewertung/"},
       { label: "Marmot: Trestles Elite Eco 30 specs", url: "https://www.marmot.com/trestles-elite-eco-30/SP_2948365.html" },
     ],
   },

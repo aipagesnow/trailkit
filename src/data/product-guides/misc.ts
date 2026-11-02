@@ -60,6 +60,9 @@ export const misc: ProductGuide[] = [
           "Let it cool, then wipe grease off the drip tray and grate after each trip. Remove the cylinder before packing. Store it dry, with the lid closed. Check the hose and regulator for cracks before each season. If a burner won't stay lit, clean it first; spiders and debris often block the ports.",
         ],
       },
+      {"id": "cooking", "heading": "What cooking on it is actually like", "paragraphs": ["Full heat is where the Triton is happiest. It's great for boiling pasta water, frying bacon and searing burgers. Reviewers at [Backpackers.com](https://backpackers.com/gear/reviews/coleman-triton-stove/) found it boiled a couple of cups of water in about four minutes on a calm day, and that time could double in wind. They also called it built like a tank.", "Simmering is possible, but it takes a light touch. [OutdoorGearLab](https://www.outdoorgearlab.com/reviews/camping-and-hiking/camping-stove/coleman-triton-plus), reviewing the push-start Triton+, noted that the knob turns through several full rotations but goes from low to off in about a quarter turn, and that the low flame is hard to see. Coleman says the current Triton has improved knob rotation for better simmer control. We'd still keep an eye on the flame when you turn it right down, so it doesn't quietly go out.", "With two 11,000 BTU burners you can run a pot of coffee on one side and a skillet on the other. A 12 in skillet and a 10 in pan fit together, but a big griddle across both burners will crowd the wind guards."]},
+      {"id": "wind", "heading": "Wind is its weak spot", "paragraphs": ["The fold-out side panels and the lid give you three walls of shelter. That's fine in a light breeze. In stronger gusts, owners and reviewers report slower boils and the odd blown-out flame. OutdoorGearLab rated its wind resistance as the stove's weakest area. One family who owned a Triton from 2016 to 2019 wrote that it took a lot of abuse and always worked, but they replaced it with a Camp Chef Everest for better simmering and wind performance ([Narrow Road Adventures](https://www.narrowroadadventures.com/2-burner-camp-stoves)).", "The simple fix: turn the back of the stove into the wind, set it in the lee of your car or a cooler, and keep a lid on pots. If your trips are often windy, a stove with recessed burners is worth the extra money."]},
+      {"id": "fit-kit", "heading": "How it fits into your car-camping kit", "paragraphs": ["Closed, the Triton is a slim case about 21 x 12.5 in that stands on its end in a trunk, and the metal latch keeps it shut in transit. Pack two or three 16 oz cylinders for a weekend of cooking for a family. A cylinder lasts about an hour on high, but you won't run it on high all the time. A lighter, a windscreen-friendly spot and a flat table are the other things you'll want."]},
     ],
     alternatives: [
       { href: "/best/camping-stoves", label: "Best camping stoves", why: "Car-camping and backpacking stoves." },
@@ -69,6 +72,8 @@ export const misc: ProductGuide[] = [
       { href: "/guides/canister-vs-liquid", label: "Canister vs liquid fuel", why: "Fuel choices explained." },
     ],
     faqs: [
+      {"q": "Is the Coleman Triton good in the wind?", "a": "It's fine in a light breeze. In stronger gusts it boils slowly and can blow out. Turn the back of the stove into the wind and use your car or a cooler as a windbreak."},
+      {"q": "Does the Coleman Triton have an igniter?", "a": "The standard Triton is match-lit. The Triton+ adds a push-button igniter."},
       { q: "How long does a 16 oz propane cylinder last on a Coleman 2-burner stove?", a: "About an hour with one burner on high. On lower settings, it lasts longer." },
       { q: "Can I hook the Coleman 2-burner stove up to a 20 lb propane tank?", a: "Yes, with an adapter hose. Coleman sells a hose for this." },
       { q: "What's the difference between the Coleman Triton and Classic?", a: "The Triton is rated at 22,000 BTU and the Classic at 20,000 BTU. Both fit a 12 in and 10 in pan and use 16 oz propane cylinders." },
@@ -76,6 +81,9 @@ export const misc: ProductGuide[] = [
       { q: "Is the Coleman 2-burner stove good for backpacking?", a: "No. It's built for car camping. For backpacking, use a small canister stove." },
     ],
     sources: [
+      {"label": "Backpackers.com: Coleman Triton stove review", "url": "https://backpackers.com/gear/reviews/coleman-triton-stove/"},
+      {"label": "OutdoorGearLab: Coleman Triton+ review", "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/camping-stove/coleman-triton-plus"},
+      {"label": "Narrow Road Adventures: owners' notes on the Triton and Camp Chef Everest", "url": "https://www.narrowroadadventures.com/2-burner-camp-stoves"},
       { label: "Coleman: camping stoves (Triton and Classic specs)", url: "https://www.coleman.com/camping-stoves/" },
     ],
   },
@@ -129,6 +137,11 @@ export const misc: ProductGuide[] = [
           "Hand wash it in cold water with mild soap, or machine wash on gentle without the carabiners. Hang it to dry. Store it dry and out of direct sun, since UV slowly weakens nylon. Check stitching and carabiners for wear before each season.",
         ],
       },
+      {"id": "straps", "heading": "Straps matter more than you'd think", "paragraphs": ["The most common problem owners report isn't the hammock, it's the suspension. On [Hammock Forums](https://www.hammockforums.net/forum/showthread.php/91213-ENO-Double-Nest-issues) and [r/hammockcamping](https://www.reddit.com/r/hammockcamping/comments/mn2gc5/new_to_hammocks_and_confused/), people describe waking up with their seat on the ground because stretchy nylon straps sagged overnight. Several fixed it by switching to ENO's Atlas straps or to low-stretch polyester webbing.", "So when you buy a DoubleNest, budget for good straps at the same time. Hang the straps a bit above head height, around 6 ft on the tree, and aim for that 30-degree angle. If you still sink, re-tension after the first ten minutes, once the fabric and straps have settled."]},
+      {"id": "real-world", "heading": "Real-world use", "paragraphs": ["For lounging, reading and naps, it's hard to beat. [OutdoorGearLab](https://www.outdoorgearlab.com/reviews/camping-and-hiking/hammock/eno-doublenest) rated it highly for ease of setup and durability, and noted the fabric feels stiffer than silkier competitors. The stuff sack is attached and has a pocket, but there isn't room in it for straps too.", "Can you sleep in it? Some people do, often with a pad. Forum owners who moved to underquilts found the edges of the DoubleNest closed in around them, and many upgraded to a longer, purpose-built camping hammock. If overnights are the plan, see [ENO vs Blackbird](/compare/eno-vs-blackbird) first."]},
+      {"id": "fit", "heading": "Sizing and fit", "paragraphs": ["At 9 ft 6 in long, it's fine for most people up to about 6 ft for lounging. Taller people often find the ends pinch the head and feet. The width is what makes a diagonal lie possible, so use it. Two adults can sit side by side, but lying together is cramped and pushes you into the middle."]},
+      {"id": "carabiners", "heading": "A packing tip", "paragraphs": ["Some forum owners noticed that older ENO carabiners had sharp teeth on the gate that could snag fabric. Clip the carabiners onto the end loops before stuffing the hammock, so they don't rub against the body inside the sack."]},
+      {"id": "rainbugs", "heading": "Rain, bugs and cold", "paragraphs": ["The DoubleNest is just the hammock. There's no bug net, rain tarp or insulation built in, so what you add depends on where and when you hang it. For an afternoon in the park, you need nothing else. For a night out, most owners add a few pieces, and ENO sells its own [Guardian bug net](https://www.eno.com/) and ProFly rain tarp to fit.", "Cold is the one that surprises people. Even on a mild night, air moving under the hammock pulls heat out of your back, and a sleeping bag squashed flat under you does little. Owners on [Hammock Forums](https://www.hammockforums.net/) suggest a sleeping pad inside the hammock as a cheap start, or an underquilt that hangs below it if you plan to camp often. Try your setup in the backyard before you count on it on a trip."]},
     ],
     alternatives: [
       { href: "/compare/eno-vs-blackbird", label: "ENO vs Blackbird", why: "A lounger against a full sleep hammock." },
@@ -137,6 +150,8 @@ export const misc: ProductGuide[] = [
       { href: "/kits/hammock-weekend", label: "Hammock weekend kit", why: "What you need to sleep in a hammock." },
     ],
     faqs: [
+      {"q": "Why does my ENO hammock sag to the ground?", "a": "Usually the straps are stretching, or they're hung too low. Use low-stretch polyester straps, hang them about head height, and aim for a 30-degree angle."},
+      {"q": "Which straps should I get for an ENO DoubleNest?", "a": "Reviewers and owners recommend ENO's Atlas straps or low-stretch polyester webbing over stretchy nylon straps."},
       { q: "Does the ENO DoubleNest come with straps?", a: "No. Straps are sold separately." },
       { q: "How much weight can an ENO DoubleNest hold?", a: "400 lb." },
       { q: "Can two people sleep in an ENO DoubleNest?", a: "Two people can sit or lounge, but sleeping two isn't comfortable for most people." },
@@ -144,6 +159,9 @@ export const misc: ProductGuide[] = [
       { q: "Can you camp in an ENO DoubleNest?", a: "Yes, but you'll need a bug net, rain tarp and an underquilt or pad for warmth." },
     ],
     sources: [
+      {"label": "OutdoorGearLab: ENO DoubleNest review", "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/hammock/eno-doublenest"},
+      {"label": "Hammock Forums: ENO DoubleNest issues thread", "url": "https://www.hammockforums.net/forum/showthread.php/91213-ENO-Double-Nest-issues"},
+      {"label": "r/hammockcamping: new to hammocks thread", "url": "https://www.reddit.com/r/hammockcamping/comments/mn2gc5/new_to_hammocks_and_confused/"},
       { label: "ENO: DoubleNest hammock specs", url: "https://www.enonation.com/doublenest-hammock" },
       { label: "REI: ENO DoubleNest", url: "https://www.rei.com/product/202538/eno-doublenest-hammock" },
     ],
@@ -205,6 +223,11 @@ export const misc: ProductGuide[] = [
           "Dry it before storing. Wash it gently by hand with mild soap if it gets dirty. Store it out of sun. Check the suspension for wear before each season.",
         ],
       },
+      {"id": "owners", "heading": "What long-term owners say", "paragraphs": ["On [r/hammockcamping](https://www.reddit.com/r/hammockcamping/comments/1kteod3/five_year_review_of_the_warbonnet_blackbird_xlc/), a 6 ft 4 in owner wrote a five-year review saying he sleeps better in it than in his own bed. He praised the stitching, the stuff sack that opens at both ends so the suspension comes out first, and the shelf flap that holds a power bank, phone and even a jacket. Another owner, 6 ft 4 in and 225 lb, found the double layer comfortable with a slight calf ridge, and took it down to 23°F with a winter top cover and a 20-degree underquilt.", "Owners also say you're buying into a system. Warbonnet sells tarps, underquilts and top covers made to fit, and support is widely praised."]},
+      {"id": "flat-lie", "heading": "Getting a flat lie", "paragraphs": ["An owner on [r/hammockcamping](https://www.reddit.com/r/hammockcamping/comments/9rc0bq/looking_for_input_on_the_blackbird_xlc/) shared the trick that works for many people: make sure the structural ridgeline has the right sag, and hang the foot end about 10 in higher than the head end. Spend time getting in and out to find your sweet spot. Side sleepers and people who sleep with knees up generally find the footbox gives them room to turn."]},
+      {"id": "zips-shelf", "heading": "The zipper and shelf seam", "paragraphs": ["The known weak spots are the bug-net zipper and the seam where the net meets the shelf. Some owners have popped zipper teeth while shifting position, and Warbonnet changed zippers after early units. A few owners report small tears at the shelf-side seam, and one Gen 2 owner found that entering from the shelf side stressed it. Owners say Warbonnet repairs these quickly and cheaply. We'd get in and out on the side opposite the shelf, and avoid pulling on the net."]},
+      {"id": "warmth", "heading": "Staying warm", "paragraphs": ["Any hammock is cold underneath, because your sleeping bag compresses under you. An underquilt is the comfortable fix; a pad between the double layers is the budget fix. Even on summer nights, owners in cooler climates keep an underquilt hung, because wind under the hammock chills you fast."]},
+      {"id": "tarp", "heading": "Choosing a tarp", "paragraphs": ["The Blackbird XLC comes with its bug net but no rain cover, so you'll want a tarp for most overnight trips. Warbonnet makes tarps sized for its hammocks, such as the [Superfly and Minifly](https://www.warbonnetoutdoors.com/), and owners on [r/hammockcamping](https://www.reddit.com/r/hammockcamping/) often pair them with the Blackbird.", "A good rule of thumb is a smaller tarp in fair weather to save weight, and a bigger one with doors when you expect wind-driven rain or want a dry spot to change and cook. Hang the tarp first so you can set up the hammock under cover if the weather turns. Pitch it low in a storm and higher on warm nights for a breeze."]},
     ],
     alternatives: [
       { href: "/compare/eno-vs-blackbird", label: "ENO vs Blackbird", why: "Lounger versus sleeper." },
@@ -213,6 +236,8 @@ export const misc: ProductGuide[] = [
       { href: "/kits/hammock-weekend", label: "Hammock weekend kit", why: "Everything for a hammock overnight." },
     ],
     faqs: [
+      {"q": "Is the Blackbird XLC good for tall people?", "a": "Yes. Several owners who are 6 ft 4 in say it fits them well, though the biggest are near the limit of its length."},
+      {"q": "Do you need an underquilt with the Blackbird XLC?", "a": "For anything but warm nights, yes, or a pad in the double layer. Hammocks are cold underneath."},
       { q: "How much does the Warbonnet Blackbird XLC weigh?", a: "Between 19 and 29 oz, depending on fabric." },
       { q: "How long is the Blackbird XLC?", a: "11 ft long and 62 in wide, with a 112 in ridgeline." },
       { q: "Does the Blackbird XLC have a bug net?", a: "Yes, it's integrated and zips open." },
@@ -220,6 +245,9 @@ export const misc: ProductGuide[] = [
       { q: "Is the Blackbird XLC good for side sleepers?", a: "Many side sleepers find it comfortable thanks to the footbox and flat lie, though it takes some practice." },
     ],
     sources: [
+      {"label": "r/hammockcamping: five-year Blackbird XLC review", "url": "https://www.reddit.com/r/hammockcamping/comments/1kteod3/five_year_review_of_the_warbonnet_blackbird_xlc/"},
+      {"label": "r/hammockcamping: owners on the Blackbird XLC", "url": "https://www.reddit.com/r/hammockcamping/comments/9rc0bq/looking_for_input_on_the_blackbird_xlc/"},
+      {"label": "r/hammockcamping: Blackbird XLC zipper thread", "url": "https://www.reddit.com/r/hammockcamping/comments/np5dct/why_do_i_keep_breaking_my_blackbird_xlcs_zipper/"},
       { label: "Warbonnet Outdoors: Blackbird XLC", url: "https://www.warbonnetoutdoors.com/blackbird-xlc/" },
       { label: "Trailspace: Blackbird XLC owner reviews", url: "https://www.trailspace.com/gear/warbonnet/blackbird-xlc/" },
       { label: "Hammock Forums", url: "https://www.hammockforums.net/" },
@@ -276,6 +304,10 @@ export const misc: ProductGuide[] = [
           "Brush off dirt after hikes, and rinse with water. Dry them away from direct heat, which can crack leather. Treat the leather with a nubuck-safe waterproofing product occasionally. Replace insoles when they lose cushioning.",
         ],
       },
+      {"id": "real-world", "heading": "Real-world use", "paragraphs": ["The Targhee IV is a traditional, sturdy boot. [Better Trail](https://bettertrail.com/outdoor-gear/keen-targhee-iv-mid-hiking-boot-review) found it secure, stable and very durable, but clunky next to lighter modern boots. It's at its best on rocky, rooty trails, muddy spring hikes and weekend backpacking with a moderate pack.", "Waterproofing is good for puddles, mud and short shallow crossings. An owner on [Trailspace](https://www.trailspace.com/gear/keen/targhee-iv-mid-waterproof-hiking-boot/) reported dry feet through mud and shallow creek crossings after about 100 miles. Reviewers note the tongue gusset sits fairly low, so water comes in over the top in deeper crossings. And like most leather waterproof boots, it gets hot: Better Trail's reviewer found their feet overheating once temperatures passed about 60°F.", "Traction is average. The same Trailspace owner found the soles slick when new, improving after some miles. On wet rock, slow down and place your feet deliberately."]},
+      {"id": "fit-detail", "heading": "More on fit", "paragraphs": ["[OutdoorGearLab](https://www.outdoorgearlab.com/reviews/shoes-and-boots/hiking-boots-men/keen-targhee-iv-mid) found it true to size in length, with a medium-width heel and midfoot and a wide toe box that's hard to lace tighter. So if your feet are narrow, you may struggle to feel locked in. If your forefoot is wide, you'll probably love it. Owners at L.L.Bean and Zappos often say it's comfortable out of the box, while reviewers needed some time to sort out pressure points, so give yourself a few short walks before a big day.", "The footbed is fairly flat. If you need arch support, budget for an aftermarket insole and bring it when you try the boots on."]},
+      {"id": "durability", "heading": "Durability", "paragraphs": ["KEEN now fuses the sole to the upper instead of gluing it, and guarantees it won't delaminate. That's a real advantage, since sole separation was a common failure on older boots. The big rubber toe cap protects the front of the boot from rocks. Reviewers report little wear beyond scuffing after extended use."]},
+      {"id": "socks", "heading": "Socks, laces and getting a good fit", "paragraphs": ["A lot of fit problems in any boot come down to socks and lacing, not the boot itself. Try the Targhee IV on in the afternoon, when your feet are a little swollen, and wear the hiking socks you'll actually use. A thick wool sock can take up some of the extra room owners mention in the wide toe box.", "If your heel lifts on climbs, a heel-lock lacing pattern at the top eyelets can hold it in place. If the top of your foot gets pressure, skip an eyelet over the sore spot. Long-time KEEN owners on [Reddit](https://www.reddit.com/r/hiking/) often say these small tweaks make the difference between a boot that rubs and one that disappears on your feet."]},
     ],
     alternatives: [
       { href: "/best/hiking-boots-wide-feet", label: "Best hiking boots for wide feet", why: "Other options with room." },
@@ -284,6 +316,9 @@ export const misc: ProductGuide[] = [
       { href: "/kits/blister-kit", label: "Blister kit", why: "Prevention while breaking them in." },
     ],
     faqs: [
+      {"q": "Are KEEN Targhee IV boots heavy?", "a": "Yes, for a modern hiking boot. OutdoorGearLab weighed a men's size 11 pair at about 2.98 lb."},
+      {"q": "Do KEEN Targhee IV soles come apart?", "a": "KEEN now uses a glue-free fused construction on the Targhee IV and guarantees the sole won't delaminate."},
+      {"q": "Are KEEN Targhee IV boots good for narrow feet?", "a": "Usually not. The toe box is wide and hard to cinch down, so narrow feet can slide around."},
       { q: "Do KEEN Targhee IV boots run wide?", a: "They have a roomy toe box, and there's a dedicated Wide fit." },
       { q: "Are KEEN Targhee IV boots waterproof?", a: "Yes, with a KEEN.DRY membrane." },
       { q: "How long do KEEN Targhee boots take to break in?", a: "Most people need a few short walks before a long hike." },
@@ -291,6 +326,9 @@ export const misc: ProductGuide[] = [
       { q: "Do KEEN Targhee boots have good arch support?", a: "Support is modest. Many people add aftermarket insoles." },
     ],
     sources: [
+      {"label": "Better Trail: KEEN Targhee IV Mid review", "url": "https://bettertrail.com/outdoor-gear/keen-targhee-iv-mid-hiking-boot-review"},
+      {"label": "Trailspace: Targhee IV Mid WP owner reviews", "url": "https://www.trailspace.com/gear/keen/targhee-iv-mid-waterproof-hiking-boot/"},
+      {"label": "L.L.Bean: Targhee IV Mid WP customer reviews", "url": "https://www.llbean.com/review/129497?page=mens-keen-targhee-iv-mid-waterproof-hiker-mens"},
       { label: "OutdoorGearLab: KEEN Targhee IV Mid review", url: "https://www.outdoorgearlab.com/reviews/shoes-and-boots/mens-hiking-boots/keen-targhee-iv-mid-waterproof" },
       { label: "Treeline Review: KEEN Targhee IV Mid review", url: "https://www.treelinereview.com/gearreviews/keen-targhee-iv-mid-review" },
       { label: "CleverHiker: KEEN Targhee IV review", url: "https://www.cleverhiker.com/gear/keen-targhee-iv-review" },
