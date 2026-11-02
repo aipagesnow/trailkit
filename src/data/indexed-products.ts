@@ -12,7 +12,9 @@
  *
  * Re-shown 2 Nov 2026, batch 1 (rebuilt guides passed Jude + Ellis review):
  * baltoro-65, copper-spur-ul2, atmos-ag-65, dragonfly-osmo-2, talon-22, magma-15.
- * Held: targhee-iv (under 1,200 words); batch 2 pending.
+ * Re-shown 2 Nov 2026, batch 2 (Chris-approved, brought forward from 3 Nov):
+ * targhee-iv (thickened first), coleman-2burner, eno-doublenest,
+ * trestles-eco-30 (fourth source added), half-dome-2-plus, blackbird-xlc.
  */
 export const INDEXED_PRODUCTS: ReadonlySet<string> = new Set<string>([
   "baltoro-65",
@@ -21,6 +23,12 @@ export const INDEXED_PRODUCTS: ReadonlySet<string> = new Set<string>([
   "dragonfly-osmo-2",
   "talon-22",
   "magma-15",
+  "targhee-iv",
+  "coleman-2burner",
+  "eno-doublenest",
+  "trestles-eco-30",
+  "half-dome-2-plus",
+  "blackbird-xlc",
 ]);
 
 export function isIndexedProduct(slug: string) {
