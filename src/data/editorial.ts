@@ -92,7 +92,7 @@ export const roundups: Roundup[] = [
     kicker: "Roundup · Sleep",
     category: "sleep",
     answer:
-      "Match the bag to the coldest night you'll actually sleep, then add margin if you sleep cold. A 15°F or 20°F down mummy is the default three-season bag. The REI Magma 15 is the returnable default. The Western Mountaineering Alpinlite is the premium warmer-weather down pick. A quilt only wins if you sleep warm and you'll strap it to the pad. Roomier bags if you sleep cold are on the cold sleepers page. The bag isn't the pad.",
+      "Start with the REI Magma 15: a 15°F down mummy you can try on and return. Match the bag to the coldest night you'll actually sleep, then add margin if you sleep cold. The Western Mountaineering Alpinlite is the premium warmer-weather down pick. A quilt only wins if you sleep warm and you'll strap it to the pad. Roomier bags if you sleep cold are on the cold sleepers page. Warmth also depends on your sleeping pad.",
     teaser: "Match the bag to the coldest night you'll sleep, then start with a returnable 15°F down mummy such as the Magma 15.",
     who: "You're building a three-season sleep system. It isn't a winter expedition bag guide.",
     productSlugs: ["magma-15", "wm-ultralite", "ee-revelation", "alpinlite", "trestles-eco-30", "sts-spark"],
@@ -101,8 +101,8 @@ export const roundups: Roundup[] = [
       { q: "Are ratings comfort or limit?", a: "Treat published ratings as limits unless the brand states EN or ISO comfort. If you sleep cold, buy warmer than the forecast." },
       { q: "Down or synthetic?", a: "Down if your trips stay dry and you care about pack size. Synthetic if the bag may get wet." },
       { q: "Bag or quilt?", a: "A bag if you're new or you sleep cold. A quilt if you sleep warm and you'll attach it to the pad." },
-      { q: "What's a good sleeping bag for a beginner?", a: "For a beginner, we'd start with a returnable down mummy and match it to the coldest night you'll actually sleep. Buy warmer if you sleep cold. The REI Magma 15 is the returnable default." },
-      { q: "Is there an all-season sleeping bag?", a: "There isn't one bag here for every season. A 15°F or 20°F down mummy is the default three-season bag. It isn't a winter expedition bag." },
+      { q: "What's a good sleeping bag for a beginner?", a: "For a beginner, we'd start with a returnable down mummy and match it to the coldest night you'll actually sleep. Buy warmer if you sleep cold. The REI Magma 15 is the one we'd start with." },
+      { q: "Is there an all-season sleeping bag?", a: "There isn't one bag here for every season. A 15°F or 20°F down mummy covers most three-season trips. It isn't a winter expedition bag." },
     ],
     related: ["sleeping-pads", "quilt-vs-bag", "cold-sleepers"],
     method,
@@ -213,16 +213,14 @@ export const roundups: Roundup[] = [
   },
   {
     slug: "rain-jackets-under-150",
-    title: "Best Rain Jackets Under $150",
-    description: "Best rain jackets under $150 for hiking: Helium, Rainier, PreCip, StormLine, and when to spend more.",
+    title: "Best Rain Coats Under $150: Rain Jackets for Hiking",
+    description: "The best rain coats under $150 for hiking: Outdoor Research Helium, REI Rainier, Marmot PreCip Eco, Black Diamond StormLine, and when to spend more.",
     h1: "Best rain jackets under $150",
     kicker: "Roundup · Rain",
     category: "shells",
     answer:
       "Short answer: under $150, we'd start with the Outdoor Research Helium if pack size matters, or the REI Rainier if you want to try it on and like pit zips. Either one keeps a day of rain out, but it'll wet out sooner than a $300 jacket, and neither is a warm layer. The Torrentshell usually sits just above the cap, so it's here to show you when spending more makes sense.",
     teaser: "Under this cap, we'd start with the Helium as the packable default. Rainier is the shell you can try on. A rain jacket isn't a warm layer.",
-    note:
-      "The Helium isn't sold on Amazon US right now. Its page links the closest match there, the Marmot PreCip Eco, which isn't the pick.",
     who: "You need a real rain layer, and you don't have an alpine shell budget.",
     productSlugs: ["helium", "rainier", "precip", "stormline", "torrentshell"],
     one: "We'd buy the Helium if pack size matters. Buy the Rainier if you can try it on and you want pit zips. Re-proof either when rain stops beading.",

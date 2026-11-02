@@ -30,6 +30,9 @@ function RoundupPage() {
   const pair = INTENT_PAIRS[page.slug];
   // Headlamps: one price line near the disclosure, and one spec/test note in How we pick.
   const quietPrice = page.slug === "headlamps";
+  // Sleeping bags + rain (Blair skim 2 Nov): one price line under the table, no footer method note.
+  const tableOnlyPrice = page.slug === "sleeping-bags" || page.slug === "rain-jackets-under-150";
+  const notePrices = !quietPrice && !tableOnlyPrice;
   const figures = [
     page.slug === "backpacking-tents" ? "/inline/tents-freestanding-vs-pole" : "",
     page.slug === "backpacking-tents" ? "/inline/tents-vestibule-rain" : "",
@@ -96,7 +99,7 @@ function RoundupPage() {
         {page.note ? <p className="max-w-3xl border-l-4 border-line p-4 text-sm">{page.note}</p> : null}
         {page.quick ? <QuickTable table={page.quick} /> : null}
         <p className="border border-line bg-paper-2 p-4"><span className="font-bold">Who this is for. </span>{page.who}</p>
-        <EarlyListingCta slugs={page.productSlugs} kind="roundup" priceNote={!quietPrice} />
+        <EarlyListingCta slugs={page.productSlugs} kind="roundup" priceNote={notePrices} plainAlt={tableOnlyPrice} />
         {figures.map((route) => (
           <figure key={route}>
             <div className="relative aspect-video overflow-hidden border border-line">
@@ -107,11 +110,12 @@ function RoundupPage() {
         ))}
         <section id="compare" className="space-y-3">
           <h2 className="text-3xl">Comparison</h2>
-          <CompareTable products={picks} />
+          <CompareTable products={picks} bandNote={!tableOnlyPrice} />
+          {tableOnlyPrice ? <p className="text-sm text-muted">Check current price on the listing.</p> : null}
         </section>
         <section className="space-y-4">
           <h2 className="text-3xl">The picks</h2>
-          {picks.map((p, i) => <ProductSection key={p.slug} product={p} index={i + 1} tone="money" pageSlugs={page.productSlugs} priceNote={!quietPrice} />)}
+          {picks.map((p, i) => <ProductSection key={p.slug} product={p} index={i + 1} tone="money" pageSlugs={page.productSlugs} priceNote={notePrices} />)}
         </section>
         <section id="one" className="border-2 border-ink bg-paper p-4">
           <h2 className="text-3xl">If you only buy one</h2>
@@ -119,8 +123,8 @@ function RoundupPage() {
         </section>
         <FaqList faqs={page.faqs} />
         <Related links={linksFor(page.related)} />
-        <p className="border-t border-line pt-4 text-sm text-muted"><span className="font-bold">How this was framed. </span>{page.method}</p>
-        <StickyAmazon slugs={page.productSlugs} kind="roundup" priceNote={!quietPrice} />
+        {tableOnlyPrice ? null : <p className="border-t border-line pt-4 text-sm text-muted"><span className="font-bold">How this was framed. </span>{page.method}</p>}
+        <StickyAmazon slugs={page.productSlugs} kind="roundup" priceNote={notePrices} />
       </article>
     </main>
   );

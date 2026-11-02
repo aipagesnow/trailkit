@@ -556,7 +556,7 @@ export const extraProducts: Product[] = [
     "limit": "Price and a slim cut",
     "role": "High-end narrow mummy",
     "summary": "A slim down bag with a reputation for honest warmth and a cut that punishes broad shoulders.",
-    "body": "Western Mountaineering bags are sewn as tools. The Alpinlite is warm for its rating class, and it's tight if you sleep in a starfish. Try the girth, not the stuff sack. To be fair, it's a poor value if you only camp twice a summer.",
+    "body": "The Alpinlite is warm for its rating class, and it's tight if you sleep in a starfish. Try the girth, not the stuff sack. To be fair, it's a poor value if you only camp twice a summer.",
     "who": "If you sleep cold, you know you like a mummy, and you'll use it for years, this is the bag we'd save up for.",
     "pros": [
       "Warm for the weight",

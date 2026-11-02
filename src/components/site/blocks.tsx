@@ -158,13 +158,13 @@ function mainListing(slugs: string[]) {
   return undefined;
 }
 
-export function EarlyListingCta({ slugs, kind, priceNote = true }: { slugs: string[]; kind: "roundup" | "kit"; priceNote?: boolean }) {
+export function EarlyListingCta({ slugs, kind, priceNote = true, plainAlt = false }: { slugs: string[]; kind: "roundup" | "kit"; priceNote?: boolean; plainAlt?: boolean }) {
   const listing = mainListing(slugs);
   if (!listing) return null;
   const { product, isDefault } = listing;
   const line = kind === "kit"
     ? (isDefault ? `${product.name}, from this kit.` : `From this kit on Amazon: ${product.name}.`)
-    : (isDefault ? `Start here: ${product.name}.` : `The start-here pick isn't sold on Amazon US. From this list, the ${product.name} is.`);
+    : (isDefault ? `Start here: ${product.name}.` : plainAlt ? `From this list on Amazon: ${product.name}.` : `The start-here pick isn't sold on Amazon US. From this list, the ${product.name} is.`);
   return (
     <div className="border border-line bg-paper p-4">
       <p className="max-w-3xl text-sm">{line}</p>
@@ -237,7 +237,7 @@ export function StickyAmazon({ slugs, kind, priceNote = true }: { slugs: string[
   );
 }
 
-export function CompareTable({ products }: { products: Product[] }) {
+export function CompareTable({ products, bandNote = true }: { products: Product[]; bandNote?: boolean }) {
   return (
     <div className="min-w-0 max-w-full">
       <p className="mb-1 font-display text-xs tracking-widest text-muted uppercase">Scroll →</p>
@@ -281,7 +281,7 @@ export function CompareTable({ products }: { products: Product[] }) {
           </tbody>
         </table>
       </div>
-      <p className="mt-1 text-sm text-muted">Bands are typical street ranges, not live prices.</p>
+      {bandNote ? <p className="mt-1 text-sm text-muted">Bands are typical street ranges, not live prices.</p> : null}
     </div>
   );
 }

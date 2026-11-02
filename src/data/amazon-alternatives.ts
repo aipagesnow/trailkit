@@ -27,7 +27,7 @@ export const AMAZON_ALTERNATIVES: Record<string, AmazonAlternative> = {
     asin: "B0CMS33YXX",
     name: "Marmot PreCip Eco Rain Jacket (men's)",
     short: "Marmot PreCip Eco",
-    reason: "It's a lightweight waterproof rain shell in the same price band as the Helium. The standard Helium isn't listed on amazon.com, and the Helium UL that's listed costs more.",
+    reason: "It's a lightweight waterproof rain shell in the same price band as the Helium. The Helium UL listed there costs more.",
   },
   rainier: {
     asin: "B0CLR98667",

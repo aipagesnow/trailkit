@@ -94,8 +94,8 @@ export const INTENT_PAIRS: Record<string, { href: string; label: string; note: s
   },
   "rain-jackets-under-150": {
     href: "/best/budget-rain-shells",
-    label: "Best cheap rain jackets for backup and short hikes",
-    note: "If you only need a spare for the car or a cheap jacket for short hikes, we'd use the backup page.",
+    label: "cheap rain jackets for backup and short hikes",
+    note: "Shopping closer to $50? If you only need a spare for the car or a jacket for short hikes, start with our",
   },
   "budget-rain-shells": {
     href: "/best/rain-jackets-under-150",
