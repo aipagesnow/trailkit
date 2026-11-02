@@ -36,11 +36,15 @@ function categoriesForCompare(page: Compare): Category[] {
   return [...new Set(slugs)].map((slug) => getCategory(slug)).filter((item): item is Category => Boolean(item));
 }
 
+const CTA_FIRST_COMPARES = new Set(["copper-spur-vs-x-mid"]);
+
 function ComparePage() {
   const page = Route.useLoaderData();
   const left = getProduct(page.left);
   const right = getProduct(page.right);
   if (!left || !right) throw notFound();
+  // Compare pages with GSC clicks but no Amazon clicks: product cards (with See on Amazon) move above "How we pick" so they sit above the fold on mobile. Layout only.
+  const ctaFirst = CTA_FIRST_COMPARES.has(page.slug);
   const figures = (page.slug === "osprey-vs-gregory" ? ["/inline/pack-mesh-back-detail", "/inline/pack-lid-pockets-detail"] : []).filter((route) => imageFor(route)?.ready);
   return (
     <main className="mx-auto max-w-6xl space-y-8 px-4 py-8">
@@ -56,7 +60,7 @@ function ComparePage() {
       />
       <Crumbs items={[{ href: "/compare", label: "Compare" }, { label: page.h1 }]} />
       {imageFor(`/compare/${page.slug}`)?.ready ? (
-      <div className="relative aspect-video overflow-hidden border border-line">
+      <div className={`relative aspect-video overflow-hidden border border-line${ctaFirst ? " hidden md:block" : ""}`}>
         <TkImage route={`/compare/${page.slug}`} priority fill sizes="100vw" tone="money" />
         <span className="absolute inset-y-0 left-1/2 w-[3px] -translate-x-1/2 bg-paper" aria-hidden />
         <span className="absolute top-1/2 left-1/2 grid size-[46px] -translate-x-1/2 -translate-y-1/2 place-items-center border-2 border-ink bg-paper font-display text-sm">VS</span>
@@ -67,8 +71,12 @@ function ComparePage() {
       <div className="border-l-4 border-ink bg-spec p-4">{page.answer}</div>
       <Updated />
       <Disclosure />
-      <HowWePick />
-      <p className="bg-spec px-3 py-2 font-mono text-[11px] tracking-wide uppercase">Decides on → {decidesLine(page)}</p>
+      {ctaFirst ? null : (
+        <>
+          <HowWePick />
+          <p className="bg-spec px-3 py-2 font-mono text-[11px] tracking-wide uppercase">Decides on → {decidesLine(page)}</p>
+        </>
+      )}
       <div className="sticky top-0 z-10 grid gap-3 bg-paper py-3 md:grid-cols-2">
         {[left, right].map((p) => (
           <article key={p.slug} className="grid min-w-0 grid-cols-[88px_minmax(0,1fr)] gap-3 border border-line p-3 sm:grid-cols-[120px_minmax(0,1fr)]">
@@ -88,6 +96,12 @@ function ComparePage() {
           </article>
         ))}
       </div>
+      {ctaFirst ? (
+        <>
+          <HowWePick />
+          <p className="bg-spec px-3 py-2 font-mono text-[11px] tracking-wide uppercase">Decides on → {decidesLine(page)}</p>
+        </>
+      ) : null}
       <div>
         <p className="mb-1 font-display text-xs tracking-widest text-muted uppercase">Scroll →</p>
         <div className="max-w-full overflow-x-auto overscroll-x-contain border border-line">
