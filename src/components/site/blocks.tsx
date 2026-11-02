@@ -81,6 +81,9 @@ export function AmazonLink({
   );
 }
 
+/** Products whose Amazon listing is temporarily unavailable (not a missing product). */
+const LISTING_UNAVAILABLE = new Set<string>(["baltoro-65"]);
+
 export function AmazonButton({
   product,
   onProductPage = false,
@@ -95,6 +98,13 @@ export function AmazonButton({
 }) {
   const asin = asinFor(product.slug);
   if (!asin) {
+    if (onProductPage && LISTING_UNAVAILABLE.has(product.slug)) {
+      return (
+        <p className="mt-3 text-sm text-muted">
+          There's no Amazon link here right now because the {product.name} listing is currently unavailable on Amazon. Check back soon, or look on {product.brand}'s own site.
+        </p>
+      );
+    }
     const alt = alternativeFor(product.slug);
     if (alt && product.slug !== "helium" && pageSlugs) {
       const hit = pageSlugs.findIndex((slug) => slug !== product.slug && (alt.productSlug === slug || asinFor(slug) === alt.asin));
