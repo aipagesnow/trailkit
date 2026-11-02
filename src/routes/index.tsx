@@ -63,6 +63,8 @@ function Home() {
             "@id": `${SITE_URL}/#org`,
             name: BRAND,
             url: `${SITE_URL}/`,
+            description:
+              "Hiking, backpacking and camping gear picks and comparisons for US buyers, based on published specs, prices and owner feedback.",
             logo: { "@type": "ImageObject", url: `${SITE_URL}/icon-512.png`, width: 512, height: 512 },
             publisher: { "@type": "Organization", name: "Aivora Digital", url: "https://aivora.digital" },
             parentOrganization: { "@type": "Organization", name: "Aivora Digital", url: "https://aivora.digital" },
