@@ -1,4 +1,4 @@
-import { absoluteUrl, pageTitle } from "@/lib/affiliate";
+import { BRAND, absoluteUrl, pageTitle } from "@/lib/affiliate";
 import { imageFor, ogCardPath } from "@/data/images";
 
 export function heroFor(path: string) {
@@ -15,6 +15,7 @@ export function pageHead(opts: { title: string; description: string; path: strin
     { property: "og:title", content: title },
     { property: "og:description", content: opts.description },
     { property: "og:type", content: "website" },
+    { property: "og:site_name", content: BRAND },
     { property: "og:url", content: url },
     { property: "og:image", content: image },
     { property: "og:image:width", content: "1200" },
