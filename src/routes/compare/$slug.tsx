@@ -88,7 +88,11 @@ function ComparePage() {
               <div className="grid aspect-[4/3] place-items-center border border-line bg-spec p-2 text-center font-mono text-[11px] uppercase">{p.role}</div>
             )}
             <div className="min-w-0">
-              <h2 className="text-xl break-words"><a href={`/products/${p.slug}`}>{p.name}</a></h2>
+              {ctaFirst ? (
+                <p className="font-display text-xl font-[650] leading-[1.12] tracking-[-0.02em] break-words"><a href={`/products/${p.slug}`}>{p.name}</a></p>
+              ) : (
+                <h2 className="text-xl break-words"><a href={`/products/${p.slug}`}>{p.name}</a></h2>
+              )}
               <p className="text-sm text-muted">{p.bestFor}</p>
               <AmazonButton product={p} />
               <NoListingLink product={p} />
