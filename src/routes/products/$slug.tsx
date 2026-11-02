@@ -19,13 +19,20 @@ export const Route = createFileRoute("/products/$slug")({
   },
   head: ({ loaderData, params }) =>
     pageHead({
-      title: loaderData ? `${loaderData.name} — quick notes` : "Gear",
+      title: loaderData ? productTitle(loaderData.name, Boolean(guideFor(params.slug))) : "Gear",
       description: loaderData?.summary ?? "",
       path: `/products/${params.slug}`,
       noindex: !isIndexedProduct(params.slug),
     }),
   component: ProductPage,
 });
+
+// Guide pages: "[Product] review: who it suits, trade-offs", shortened when the full title would pass ~70 chars.
+function productTitle(name: string, isGuide: boolean) {
+  if (!isGuide) return `${name} — quick notes`;
+  const full = `${name} review: who it suits, trade-offs`;
+  return full.length + " | Trailkit Outdoor".length <= 70 ? full : `${name} review: who it suits`;
+}
 
 function alsoIn(product: Product) {
   const category = productsIn(product.category);
