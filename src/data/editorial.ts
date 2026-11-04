@@ -53,7 +53,7 @@ export const roundups: Roundup[] = [
     teaser: "We'd pick the lightest shelter that still matches your sites. That's the X-Mid 2 if you've got poles, the Lunar Solo if you're solo, and the Hornet if you skip poles.",
     who: "You're already under a reasonable pack weight. If you're new, don't start with a single-wall tent.",
     productSlugs: ["x-mid-2", "lunar-solo", "nemo-hornet-2"],
-    one: "If you're new to ultralight, we'd buy the X-Mid and learn the pitch at home. If you don't carry trekking poles, buy the Hornet and accept the smaller floor. Don't buy a DCF tent first.",
+    one: "If you're new to ultralight, we'd buy the X-Mid and learn the pitch at home. If you don't carry trekking poles, buy the Hornet and accept the smaller floor. Don't buy a DCF tent first. If it's between the X-Mid and the Copper Spur UL2, our [Copper Spur vs X-Mid comparison](/compare/copper-spur-vs-x-mid) sets them side by side.",
     faqs: [
       { q: "Is a tarp ultralight?", a: "Yes, and it's a skill purchase. Bugs and sideways rain are the part that goes wrong. It isn't a first overnight." },
       { q: "Inner or fly first?", a: "In the rain, fly first. Learn both at home." },
@@ -140,7 +140,7 @@ export const roundups: Roundup[] = [
     teaser: "Wide feet need a wider last, not a longer boot. We'd try the KEEN Targhee first if you can get a pair on your feet today.",
     who: "You blow out standard D-width boots or you get numb toes in a tapered box, and you want a boot's ankle and heel support. It isn't a trail-shoe list, and it isn't a mountaineering-boot guide.",
     productSlugs: ["targhee-iv", "renegade-wide", "moab-3-wide", "x-ultra-wide", "oboz-bridger"],
-    one: "We'd try the KEEN Targhee in a wide if you can try one pair on today. Try the Moab 3 Mid Wide if the Targhee feels too bulky.",
+    one: "We'd try the KEEN Targhee in a wide if you can try one pair on today. Try the Moab 3 Mid Wide if the Targhee feels too bulky. If you're unsure what makes a boot wide, see [what a wide last means](/learn/wide-last).",
     faqs: [
       { q: "Should I size up?", a: "No. Size the length to your longer foot and the width to your wider foot." },
       { q: "Boot or shoe?", a: "A boot if you roll your ankles or you carry a heavy pack. If the trail is moderate and your ankles are fine, a wide toe box trail shoe is often the better buy, and those are on the wide trail shoe page." },

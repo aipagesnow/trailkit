@@ -1,4 +1,5 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
+import { RichText } from "@/components/site/rich-text";
 import { absoluteUrl } from "@/lib/affiliate";
 import { getProduct, getRoundup, linksFor } from "@/data";
 import { CompareTable, Crumbs, Disclosure, EarlyListingCta, FaqList, JsonLd, PageToc, ProductSection, Related, StickyAmazon, Updated } from "@/components/site/blocks";
@@ -119,7 +120,7 @@ function RoundupPage() {
         </section>
         <section id="one" className="border-2 border-ink bg-paper p-4">
           <h2 className="text-3xl">If you only buy one</h2>
-          <p className="mt-2 max-w-3xl">{page.one}</p>
+          <p className="mt-2 max-w-3xl"><RichText text={page.one} /></p>
         </section>
         <FaqList faqs={page.faqs} />
         <Related links={linksFor(page.related)} />

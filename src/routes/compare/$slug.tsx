@@ -188,7 +188,7 @@ function ComparePage() {
             <p>{roundup.answer}</p>
             <p>{roundup.who}</p>
             <p>{roundup.method}</p>
-            <p><span className="font-bold">Default on that page. </span>{roundup.one}</p>
+            <p><span className="font-bold">Default on that page. </span>{roundup.one.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")}</p>
           </article>
         ))}
         {categoriesForCompare(page).map((category) => (
