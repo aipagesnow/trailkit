@@ -4,6 +4,9 @@ name: Post-deploy (IndexNow + proof)
 on:
   deployment_status:
   workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
 jobs:
   after-prod-deploy:
     if: github.event_name == 'workflow_dispatch' || (github.event.deployment_status.state == 'success' && github.event.deployment.environment == 'Production')
@@ -13,14 +16,29 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - uses: actions/cache@v4
-        with:
-          path: .indexnow-cache
-          key: indexnow-${{ github.run_id }}
-          restore-keys: indexnow-
+      # actions/cache cannot save on deployment_status events (no ref), so the baseline is kept as a run artifact instead.
+      - name: Restore previous main-content hashes (artifact from an earlier successful run)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p .indexnow-cache
+          wf="${GITHUB_WORKFLOW_REF%@*}"; wf="${wf##*/}"
+          for id in $(gh run list -R "$GITHUB_REPOSITORY" --workflow "$wf" --status success --limit 15 --json databaseId --jq '.[].databaseId'); do
+            [ "$id" = "$GITHUB_RUN_ID" ] && continue
+            if gh run download "$id" -R "$GITHUB_REPOSITORY" -n indexnow-hashes -D .indexnow-cache 2>/dev/null; then echo "baseline from run $id"; break; fi
+          done
+          [ -f .indexnow-cache/main-hashes.json ] || echo "no baseline artifact yet; this run seeds it"
       - name: Wait for live site to settle
         run: sleep 30
       - name: IndexNow ping of changed URLs
         run: node scripts/indexnow-ping.mjs
+      - name: Save main-content hashes for the next deploy
+        uses: actions/upload-artifact@v4
+        with:
+          name: indexnow-hashes
+          path: .indexnow-cache/main-hashes.json
+          retention-days: 30
+          if-no-files-found: warn
+          include-hidden-files: true
       - name: Post-deploy proof (status, tags, canonicals)
         run: node scripts/post-deploy-proof.mjs
