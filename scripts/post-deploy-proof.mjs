@@ -25,9 +25,34 @@ const get = async (u) => {
   }
 };
 
-const sm = await get(`${site}/sitemap.xml`);
+function locsFromXml(text) {
+  return [...text.matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/g)].map((m) => m[1]);
+}
+
+/** Expand a sitemap index into page URLs; pass through a legacy single URLSET. */
+async function pageUrlsFromSitemap(site, get) {
+  const sm = await get(`${site}/sitemap.xml`);
+  if (sm.status !== 200) return { status: sm.status, urls: [], text: sm.text };
+  const top = locsFromXml(sm.text);
+  if (/<sitemapindex[\s>]/i.test(sm.text)) {
+    const urls = [];
+    for (const child of top) {
+      const r = await get(child);
+      if (r.status !== 200) {
+        return { status: r.status, urls: [], text: sm.text, failedChild: child };
+      }
+      urls.push(...locsFromXml(r.text));
+    }
+    return { status: 200, urls, text: sm.text };
+  }
+  return { status: 200, urls: top, text: sm.text };
+}
+
+const smResult = await pageUrlsFromSitemap(site, get);
+const sm = { status: smResult.status, text: smResult.text };
 if (sm.status !== 200) fails.push(`sitemap.xml -> ${sm.status}`);
-const urls = [...new Set([...sm.text.matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/g)].map((m) => m[1]).concat((cfg.proofPaths || []).map((p) => site + p)))];
+if (smResult.failedChild) fails.push(`${smResult.failedChild} -> ${smResult.status}`);
+const urls = [...new Set([...smResult.urls, ...(cfg.proofPaths || []).map((p) => site + p)])];
 const key = await get(`${site}/${cfg.indexNowKey}.txt`);
 if (key.status !== 200 || key.text.trim() !== cfg.indexNowKey) fails.push(`IndexNow key file -> ${key.status}`);
 
