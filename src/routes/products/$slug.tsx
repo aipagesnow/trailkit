@@ -162,7 +162,7 @@ function GuidePage({
         ]}
       />
       <Crumbs items={[{ href: `/gear/${product.category}`, label: categoryName ?? "Gear" }, { label: product.name }]} />
-      <p className="font-display text-xs tracking-widest uppercase">{product.role}</p>
+      <p className="font-display text-xs tracking-widest uppercase">{guide.role ?? product.role}</p>
       <h1 className="text-4xl">{guide.h1 ?? product.name}</h1>
       <p className="text-lg"><RichText text={guide.answer} /></p>
       <Disclosure />
@@ -213,7 +213,7 @@ function GuidePage({
             </li>
           ))}
         </ul>
-        {homeSlug ? (
+        {homeSlug && !guide.hideRivalsLink ? (
           <p className="text-sm">
             Side by side with its rivals: <a href={`/best/${homeSlug}#${product.slug}`} className="font-bold underline">{homeH1}</a>.
           </p>

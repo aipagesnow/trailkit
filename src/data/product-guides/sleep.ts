@@ -198,6 +198,8 @@ export const sleep: ProductGuide[] = [
   },
   {
     slug: "nemo-disco-15",
+    role: "Best for side sleepers",
+    hideRivalsLink: true,
     title: "NEMO Disco 15 review: a roomy bag for side sleepers",
     description: "NEMO Disco 15 Endless Promise for side sleepers: spoon-shaped 650-fill down, a 27°F men's comfort rating, Regular vs Regular Wide, and owner trade-offs.",
     h1: "NEMO Disco 15 Endless Promise review: a roomy down bag for side sleepers",
