@@ -131,8 +131,10 @@ export const ASINS: Record<string, string> = {
   nb10000: "B0C31G41RT",
   /** 100% Merino Wool Neck Gaiter, 17.5um, Unisex. Likely match: generic item; top organic listing (unbranded) */
   "neck-gaiter": "B08D113DXR",
-  /** NEMO Disco Men's 15°F / Regular, sold by NEMO Equipment. */
-  "nemo-disco-15": "B0DK7R8746",
+  /** NEMO Disco Endless Promise Men's 15°F / Regular Wide (Ombre Blue), sold by NEMO Equipment, ships from Amazon.
+   * Checked Nov 11, 2026 with a US delivery address: in stock. The old Men's 15°F / Regular ASIN B0DK7R8746 is no
+   * longer in the listing's size options and lands on this Regular Wide page, so the link now points here directly. */
+  "nemo-disco-15": "B0FY3WF7SJ",
   /** NEMO Equipment Hornet OSMO Backpacking Tent - Birch Bud/Goodnight Gray - 2P. */
   "nemo-hornet-2": "B0DF394QCP",
   /** Supmedic Medical Soft Max Nitrile Exam Gloves Powder-Free 100 Ct. Likely match: generic item; site's 'pair in a bag' has no brand - common organic box listing */

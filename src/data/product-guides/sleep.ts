@@ -11,7 +11,7 @@ export const sleep: ProductGuide[] = [
       "You want a choice of lengths and widths. It comes in nine sizes.",
     ],
     skip: [
-      "You sleep on your side and move a lot. A roomier bag or a quilt will be more comfortable. See [quilt vs bag](/guides/quilt-vs-bag).",
+      "You sleep on your side and move a lot. A roomier bag such as the [NEMO Disco 15](/products/nemo-disco-15) or a quilt will be more comfortable. See [quilt vs bag](/guides/quilt-vs-bag).",
       "You camp mostly in warm summer weather. It'll be too warm.",
       "You expect long stretches of damp weather. Down needs care to stay dry, even when treated.",
     ],
@@ -77,6 +77,7 @@ export const sleep: ProductGuide[] = [
     ],
     alternatives: [
       { href: "/products/trestles-eco-30", label: "Marmot Trestles Elite Eco 30", why: "Synthetic, cheaper, better in damp, heavier and bulkier." },
+      { href: "/products/nemo-disco-15", label: "NEMO Disco 15", why: "A roomier spoon-shaped 15°F bag for side sleepers. It's heavier and bulkier." },
       { href: "/best/sleeping-bags", label: "Best sleeping bags", why: "The full shortlist." },
       { href: "/best/cold-sleepers", label: "Gear for cold sleepers", why: "Bags and pads for people who always feel cold." },
       { href: "/kits/cold-sleeper-kit", label: "Cold sleeper kit", why: "The pad, bag and layers that work together." },
@@ -193,6 +194,119 @@ export const sleep: ProductGuide[] = [
       {"label": "Bergfreunde: Trestles Elite Eco 30 owner reviews (German)", "url": "https://www.bergfreunde.de/marmot-trestles-elite-eco-30-kunstfaserschlafsack-bewertung/"},
       { label: "Marmot: Trestles Elite Eco 30 specs", url: "https://www.marmot.com/trestles-elite-eco-30/SP_2948365.html" },
       { label: "Globetrotter Magazin: Marmot Trestles Elite Eco tested (German)", url: "https://www.globetrotter.de/magazin/tested-on-tour-marmot-trestles-elite-eco/" },
+    ],
+  },
+  {
+    slug: "nemo-disco-15",
+    title: "NEMO Disco 15 review: a roomy bag for side sleepers",
+    description: "NEMO Disco 15 Endless Promise for side sleepers: spoon-shaped 650-fill down, a 27°F men's comfort rating, Regular vs Regular Wide, and owner trade-offs.",
+    h1: "NEMO Disco 15 Endless Promise review: a roomy down bag for side sleepers",
+    answer:
+      "Short answer: the NEMO Disco 15 Endless Promise is the down bag we'd look at first if you sleep on your side and a slim mummy keeps waking you up. Its spoon shape gives you room at the elbows and knees, so you can bend a leg or roll over without fighting the bag. Here's the catch: the men's 15 has an ISO comfort rating of 27°F, so plan your trips around that number rather than the 15 in the name. It also packs bigger than a mummy of the same warmth.",
+    suits: [
+      "You sleep on your side or your front, or you shift around a lot, and a close-cut mummy keeps you awake.",
+      "Your trips are three-season and mostly dry, with nights that dip into the 30s°F.",
+      "You'd rather carry a few extra ounces than sleep badly. If you camp as a couple, two Discos with opposite zippers zip together into one double bag.",
+    ],
+    skip: [
+      "You count every ounce. The men's Regular weighs 2 lb 11 oz at its minimum, and the 650-fill down takes up more room than premium down. The [REI Magma 15](/products/magma-15) is lighter and smaller, but it's a snug mummy.",
+      "You expect regular nights in the low 20s°F or colder. With a 27°F comfort rating, we'd want a warmer bag for that, and the [cold sleepers page](/best/cold-sleepers) explains the pad side too.",
+      "Your trips are often wet for days. The down is water-resistant and the hood and footbox have a waterproof layer, but a synthetic bag such as the [Marmot Trestles Elite Eco 30](/products/trestles-eco-30) copes better with long spells of damp.",
+    ],
+    keySpecs: [
+      { label: "Shape", value: "NEMO Classic Spoon: wider at the elbows and knees", plain: "There's room to bend your knees and roll over inside the bag. You pay for that space in weight and packed size." },
+      { label: "Temperature (ISO)", value: "Men's 15: Comfort 27°F, Limit 16°F", plain: "Comfort is the number a cold sleeper should plan around. The 15 in the name sits close to the limit, which is the warm-sleeper end." },
+      { label: "Weight (men's)", value: "Regular: 2 lb 11 oz minimum, 2 lb 14 oz packed. Regular Wide: 2 lb 13 oz minimum, 3 lb 0 oz packed", plain: "That's moderate for a 15°F bag. It's a comfortable backpacking bag, but it isn't an ultralight one." },
+      { label: "Fill", value: "650-fill hydrophobic, PFAS-free, RDS-certified down. 1 lb 7 oz of fill in the Regular", plain: "This is mid-grade down, so the bag needs more of it, and more space, for the same warmth as an 850-fill bag." },
+      { label: "Girth (shoulder / hip / knee)", value: "Regular: 62 / 57 / 61 in. Regular Wide: 70 / 64 / 68 in", plain: "If you have broad shoulders, the Regular Wide gives you 8 more inches around the shoulders." },
+      { label: "Packed size", value: "11.5 x 8.5 in stuff sack. Compressed volume 6.7 L (Regular) or 8.8 L (Regular Wide)", plain: "Plan on it filling a fair chunk of the bottom of a 50–65 L pack." },
+      { label: "Fits up to", value: "6 ft (Regular and Regular Wide), 6 ft 6 in (Long and Long Wide)", plain: "Pick the length that clears your height so your feet don't squash the down in the footbox." },
+      { label: "Fabric", value: "20D recycled polyester ripstop shell and lining with a PFAS-free DWR", plain: "Endless Promise means NEMO designed it to be recycled, and you can send it back to NEMO at the end of its life." },
+    ],
+    sections: [
+      {
+        id: "side-sleepers",
+        heading: "Is the NEMO Disco 15 good for side sleepers?",
+        paragraphs: [
+          "Yes, and that's the main reason to buy it. A normal mummy is cut close at the hips and knees, so when you roll onto your side and pull a knee up, the bag twists with you or pins your legs. The Disco's spoon shape adds room exactly there, while the hood and draft collar still close around your head like a mummy's.",
+          "Owners say the same thing again and again. In threads on [r/CampingGear](https://www.reddit.com/r/CampingGear/comments/1gv5jr7/nemo_disco_15_disco_30_or_two_magma_30_quilts/) and [r/backpacking](https://www.reddit.com/r/backpacking/comments/12g16sf/help_me_decide_between_the_nemo_disco_15_or_the/), side and stomach sleepers call it the most comfortable bag they've slept in. Several say they'd happily carry the extra weight for the better night. The [Treeline Review](https://www.treelinereview.com/gearreviews/nemo-disco-endless-promise-sleeping-bag) tester, a restless sleeper with a larger body, called it the roomiest backpacking bag in their experience.",
+          "To be fair, roomy doesn't mean it never moves. In a [stomach-sleeper thread](https://www.reddit.com/r/CampingGear/comments/1czhqxu/nemo_disco_vs_s2s_amplitude_for_stomach_sleeper/), most owners say it stays put, but one says it can still twist and another says a teenager who thrashes about still gets tangled.",
+        ],
+      },
+      {
+        id: "warmth",
+        heading: "How warm is the Disco 15, really?",
+        paragraphs: [
+          "The men's Disco 15 has an ISO comfort rating of 27°F and a limit of 16°F. Comfort is roughly where a cold sleeper stays comfortable lying relaxed. The limit is where a warm sleeper can get through the night curled up. If you sleep cold, plan on the 27°F figure.",
+          "Owner reports line up with that. Some say they were comfortable into the low 30s°F and would have started to feel chilly below that. Others say it runs a little cold and recommend the 15 over the 30 for that reason. One owner says their partner, a cold sleeper, was happy to about 22°F in medium thermals and a hat. The extra space that makes it comfortable is also more air for your body to heat, so a snug mummy with the same fill will usually feel warmer.",
+          "Worth knowing: NEMO names its women's bags by their comfort rating and its men's bags by a lower, male-based rating. NEMO explains this in its [men's vs women's guide](https://www.nemoequipment.com/blogs/journal/womens-versus-mens-sleeping-bags-whats-the-difference). So the women's Disco 15 has more down and is the warmer bag, even though both say 15.",
+          "Your pad matters as much as the bag. A 15°F bag on a thin summer pad will feel cold from below on a frosty night. For nights near freezing, we'd pair it with a pad rated R 4 or higher, and our [choose a pad guide](/guides/choose-a-pad) explains how to pick one.",
+        ],
+      },
+      {
+        id: "sizes",
+        heading: "Regular, Regular Wide or Long: which Disco should you get?",
+        paragraphs: [
+          "Start with your height. The men's Regular and Regular Wide fit up to 6 ft, and the Long sizes fit up to 6 ft 6 in.",
+          "Then think about your shoulders. The Regular measures 62 inches around the shoulders, and the Regular Wide measures 70 inches. One broad-shouldered owner found the shoulders tight on an earlier Disco Long when it was fully zipped, so if you're broad, the Wide is the safer choice. If you're slim, the standard width keeps a little less empty air around you, and that helps on cold nights.",
+          "On Amazon US, the men's 15°F is listed in Regular Wide (Ombre Blue), sold by NEMO. If you want the standard Regular or a Long, NEMO's own site lists every men's size.",
+        ],
+      },
+      {
+        id: "trade-offs",
+        heading: "Honest trade-offs owners mention",
+        paragraphs: [
+          "The common complaints are about bulk, fabric and a few design details rather than comfort.",
+        ],
+        bullets: [
+          "Bulk and weight. More room means more fabric and more down, so it packs bigger than a mummy of the same warmth. In one thread, an owner swapped their Disco 15 for the Disco 30 because of the size and weight.",
+          "Thin fabric. A couple of owners say the ripstop feels thin and that small feathers work their way out. Push a poking feather back in rather than pulling it out.",
+          "The footbox is sewn shut. You can't fully unzip the bottom to vent your feet on a warm night, and a couple of owners mention it.",
+          "The draft collar divides people. Some love the Blanket Fold collar on cold nights, and others find the flap gets in the way.",
+          "Older-edition gripes. Owners of earlier Discos complained about a snagging zipper and a pocket too small for a phone. The Endless Promise version has an anti-snag zipper edge, and Treeline fit an iPhone in its electronics pocket.",
+        ],
+      },
+      {
+        id: "features",
+        heading: "Thermo Gills, Blanket Fold and the waterproof footbox",
+        paragraphs: [
+          "The Thermo Gills are two zippered vents on the chest. You open them to dump heat on a mild night without unzipping the side and letting a draft in. That's handy, because a 27°F-comfort bag can feel too warm on a 50°F summer night.",
+          "The Blanket Fold is an oversized draft collar at the neck. You tuck it in around your shoulders on a cold night or push it out of the way when you're warm.",
+          "The hood and footbox have a waterproof layer. If your feet or head press against a damp tent wall, the condensation is less likely to soak into the down. There's also a pillow pocket in the hood where you can stuff a jacket or a camp pillow.",
+        ],
+      },
+      {
+        id: "care",
+        heading: "Care and storage",
+        paragraphs: [
+          "Store it loose in the mesh storage cube it comes with, never in the compression sack. Air it out after each trip, and wash it rarely with a down-specific soap. Our [down washing note](/guides/wash-down) has the steps. When it's worn out, the Endless Promise program lets you send it back to NEMO for recycling.",
+        ],
+      },
+    ],
+    alternatives: [
+      { href: "/products/magma-15", label: "REI Magma 15", why: "A slimmer 850-fill mummy. It's lighter and packs smaller, but it's snug if you sleep on your side." },
+      { href: "/best/cold-sleepers", label: "Gear for cold sleepers", why: "The Disco alongside high R-value pads and a hooded camp layer." },
+      { href: "/best/sleeping-bags", label: "Best sleeping bags for backpacking", why: "The full shortlist of mummies, a quilt and a synthetic bag." },
+      { href: "/guides/quilt-vs-bag", label: "Quilt vs bag", why: "When a quilt makes more sense than a roomy bag." },
+      { href: "/kits/cold-sleeper-kit", label: "Cold sleeper kit", why: "The pad, bag and layers that work together." },
+    ],
+    faqs: [
+      { q: "Is the NEMO Disco 15 good for side sleepers?", a: "Yes. The spoon shape adds room at the elbows and knees, so you can roll over and bend your legs. Side sleepers are the people who praise it most." },
+      { q: "Is the NEMO Disco 15 really a 15-degree bag?", a: "Not for comfort. The men's Disco 15 has an ISO comfort rating of 27°F and a limit of 16°F. Most owners are comfortable into the low 30s°F, and colder with a warm pad and layers." },
+      { q: "Is the women's Disco 15 warmer than the men's?", a: "Yes. NEMO rates the women's bag by its comfort rating, so it uses more down to earn the same 15. The men's 15 is named for a lower, male-based rating, and its comfort rating is 27°F." },
+      { q: "How much does the NEMO Disco 15 weigh?", a: "The men's Regular weighs 2 lb 11 oz at its minimum and 2 lb 14 oz packed. The Regular Wide weighs 2 lb 13 oz minimum and 3 lb 0 oz packed." },
+      { q: "What's the difference between the Disco and the Disco Endless Promise?", a: "The Endless Promise version uses a recycled polyester shell and lining with a PFAS-free water repellent, and NEMO will take it back for recycling. Treeline Review found it a little heavier than the original Disco but a little less bulky." },
+      { q: "Can you zip two NEMO Discos together?", a: "Yes. Two Discos with opposite zipper sides, one left and one right, zip together into a double bag." },
+    ],
+    sources: [
+      { label: "NEMO: Disco Men's Endless Promise specs and sizes", url: "https://www.nemoequipment.com/collections/endless-promise-collection/products/disco-mens-endless-promise-down-sleeping-bag" },
+      { label: "NEMO: Women's vs men's sleeping bag ratings", url: "https://www.nemoequipment.com/blogs/journal/womens-versus-mens-sleeping-bags-whats-the-difference" },
+      { label: "Treeline Review: NEMO Disco Endless Promise review", url: "https://www.treelinereview.com/gearreviews/nemo-disco-endless-promise-sleeping-bag" },
+      { label: "r/CampingGear: Disco 15, Disco 30 or two Magma quilts (Nov 2024)", url: "https://www.reddit.com/r/CampingGear/comments/1gv5jr7/nemo_disco_15_disco_30_or_two_magma_30_quilts/" },
+      { label: "r/CampingGear: Anyone have a NEMO Disco 15? (2020)", url: "https://www.reddit.com/r/CampingGear/comments/i1a0tq/anyone_have_a_nemo_disco_15_about_to_pull_the/" },
+      { label: "r/backpacking: Disco 15 or Riff (2023)", url: "https://www.reddit.com/r/backpacking/comments/12g16sf/help_me_decide_between_the_nemo_disco_15_or_the/" },
+      { label: "r/CampingGear: Disco for a stomach sleeper (2024)", url: "https://www.reddit.com/r/CampingGear/comments/1czhqxu/nemo_disco_vs_s2s_amplitude_for_stomach_sleeper/" },
+      { label: "r/CampingGear: Quilt vs NEMO Disco (2021)", url: "https://www.reddit.com/r/CampingGear/comments/o9qb7j/opinions_wanted_quilt_vs_nemo_disco/" },
     ],
   },
 ];

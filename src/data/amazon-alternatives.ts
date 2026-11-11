@@ -11,7 +11,7 @@ export type AmazonAlternative = {
 /** Closest amazon.com listing for a product that has no verified ASIN of its own. */
 export const AMAZON_ALTERNATIVES: Record<string, AmazonAlternative> = {
   "magma-15": {
-    asin: "B0DK7R8746",
+    asin: "B0FY3WF7SJ",
     name: "NEMO Disco 15 Down Sleeping Bag",
     short: "NEMO Disco 15",
     productSlug: "nemo-disco-15",

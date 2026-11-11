@@ -15,6 +15,8 @@
  * Re-shown 2 Nov 2026, batch 2 (Chris-approved, brought forward from 3 Nov):
  * targhee-iv (thickened first), coleman-2burner, eno-doublenest,
  * trestles-eco-30 (fourth source added), half-dome-2-plus, blackbird-xlc.
+ * Added 11 Nov 2026 (REVIEW-ADD, Chris-approved): nemo-disco-15, rebuilt as a full
+ * side-sleeper review guide (same URL, previously noindex quick notes).
  */
 export const INDEXED_PRODUCTS: ReadonlySet<string> = new Set<string>([
   "baltoro-65",
@@ -29,6 +31,7 @@ export const INDEXED_PRODUCTS: ReadonlySet<string> = new Set<string>([
   "trestles-eco-30",
   "half-dome-2-plus",
   "blackbird-xlc",
+  "nemo-disco-15",
 ]);
 
 export function isIndexedProduct(slug: string) {

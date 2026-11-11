@@ -96,7 +96,7 @@ export const roundups: Roundup[] = [
     teaser: "Match the bag to the coldest night you'll sleep, then start with a returnable 15°F down mummy such as the Magma 15.",
     who: "You're building a three-season sleep system. It isn't a winter expedition bag guide.",
     productSlugs: ["magma-15", "wm-ultralite", "ee-revelation", "alpinlite", "trestles-eco-30", "sts-spark"],
-    one: "We'd buy a 15°F or 20°F down mummy you can return, unless you already know you'll manage a quilt.",
+    one: "We'd buy a 15°F or 20°F down mummy you can return, unless you already know you'll manage a quilt. If a mummy feels too tight because you sleep on your side, read our [NEMO Disco 15 review](/products/nemo-disco-15).",
     faqs: [
       { q: "Are ratings comfort or limit?", a: "Treat published ratings as limits unless the brand states an EN or ISO comfort rating. If you sleep cold, buy warmer than the forecast." },
       { q: "How do I choose a temperature rating?", a: "Match the bag to the coldest night you'll actually sleep. A 15°F bag is for nights that can drop near freezing. A 30°F bag is a summer and mild-fall tool, not a frost bag if you sleep cold. Treat the published number as a limit unless the brand states an EN or ISO comfort rating, and buy warmer than the forecast if you sleep cold. The sleeping pad matters too, because a thin pad lets ground cold through." },
@@ -393,7 +393,7 @@ export const roundups: Roundup[] = [
     teaser: "We'd start with the NEMO Disco 15, a spoon-shaped 15°F bag, and a high-R pad such as an XTherm. A quilt is usually the wrong experiment.",
     who: "You steal the blankets, you sleep in socks, or you wake up cold in a 40°F house.",
     productSlugs: ["nemo-disco-15", "magma-15", "xtherm", "magma-hoody"],
-    one: "We'd spend the money on the pad and a lower temperature rating before you spend it on a lighter shell.",
+    one: "We'd spend the money on the pad and a lower temperature rating before you spend it on a lighter shell. If you sleep on your side, the [NEMO Disco 15 review](/products/nemo-disco-15) covers its fit and how warm it really is.",
     faqs: [
       { q: "Will a liner fix a cold bag?", a: "It adds a little. It doesn't turn a summer bag into a frost bag." },
       { q: "Should I wear clothes in the bag?", a: "Dry layers, yes. Damp hiking clothes, no." },

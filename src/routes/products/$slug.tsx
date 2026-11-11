@@ -19,8 +19,8 @@ export const Route = createFileRoute("/products/$slug")({
   },
   head: ({ loaderData, params }) =>
     pageHead({
-      title: loaderData ? productTitle(loaderData.name, Boolean(guideFor(params.slug))) : "Gear",
-      description: loaderData?.summary ?? "",
+      title: loaderData ? guideFor(params.slug)?.title ?? productTitle(loaderData.name, Boolean(guideFor(params.slug))) : "Gear",
+      description: guideFor(params.slug)?.description ?? loaderData?.summary ?? "",
       path: `/products/${params.slug}`,
       noindex: !isIndexedProduct(params.slug),
     }),
@@ -163,7 +163,7 @@ function GuidePage({
       />
       <Crumbs items={[{ href: `/gear/${product.category}`, label: categoryName ?? "Gear" }, { label: product.name }]} />
       <p className="font-display text-xs tracking-widest uppercase">{product.role}</p>
-      <h1 className="text-4xl">{product.name}</h1>
+      <h1 className="text-4xl">{guide.h1 ?? product.name}</h1>
       <p className="text-lg"><RichText text={guide.answer} /></p>
       <Disclosure />
       {asinFor(product.slug) ? <AmazonButton product={product} /> : null}

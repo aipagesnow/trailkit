@@ -8,6 +8,10 @@ export type GuideBlock = {
 
 export type ProductGuide = {
   slug: string;
+  /** Optional search-led overrides (title tag, meta description, visible H1). Fall back to the product name/summary. */
+  title?: string;
+  description?: string;
+  h1?: string;
   /** Answer-first opening, shown under the H1. */
   answer: string;
   suits: string[];
