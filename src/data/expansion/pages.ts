@@ -499,12 +499,12 @@ export const extraRoundups: Roundup[] = [
   },
   {
     "slug": "budget-rain-shells",
-    "title": "Best Cheap Rain Jackets for Backup and Short Hikes",
-    "description": "Cheap rain jackets for the car, the day pack, and short hikes: Columbia Watertight II, a Frogg Toggs Ultra-Lite spare, and the Marmot PreCip Eco.",
-    "h1": "Best cheap rain jackets for backup and short hikes",
+    "title": "Best Rain Coats Under $50 and Cheap Backup Jackets",
+    "description": "Cheap rain jackets for the car, day pack and short hikes, including an under-$50 spare: Columbia Watertight II, Frogg Toggs Ultra-Lite, and Marmot PreCip Eco.",
+    "h1": "Best rain coats under $50, and cheap jackets for short hikes",
     "kicker": "Roundup · Rain",
     "category": "shells",
-    "answer": "If you need a rain layer for a short hike, the car, or a spare in the day pack, a budget jacket does the job. The Columbia Watertight II is the everyday cheap jacket for town rain and short hikes. The Frogg Toggs Ultra-Lite is the emergency spare: about 10 oz, cheap, and not built to live in. The Marmot PreCip Eco is the step up if that cheap jacket will also see real trail. If you'll hike in the jacket all day, we'd look at rain jackets under $150 instead.",
+    "answer": "If you need a rain coat under $50, the Frogg Toggs Ultra-Lite is the emergency spare: about 10 oz, cheap, and not built to live in. The Columbia Watertight II is the everyday cheap jacket for town rain and short hikes, though listings often sit above $50. The Marmot PreCip Eco is the step up if that cheap jacket will also see real trail, and it usually costs more. If you'll hike in the jacket all day, use the rain jackets under $150 page instead.",
     "who": "This is for you if you want a spare in the pack or the car, or a basic rain jacket for a short trip. It isn't a shell for a week of steady rain.",
     "productSlugs": [
       "columbia-watertight",
@@ -518,12 +518,24 @@ export const extraRoundups: Roundup[] = [
         "a": "Yes, sooner than you'd like. That's the DWR giving up, not always a leak. Re-proof it, and move up when you live in rain."
       },
       {
+        "q": "What is DWR on a rain jacket?",
+        "a": "DWR stands for durable water repellent. It is the finish on the outside of the jacket that makes water bead. When the finish wears off, the face fabric soaks through and you feel clammy, even if the seams are not leaking. That is wet-out, not always a leak. Re-proofing is maintenance, not a sign that the waterproof membrane has failed. The DWR field note has the longer explanation."
+      },
+      {
+        "q": "How do I wash and re-proof a cheap rain jacket?",
+        "a": "Dirt is what kills DWR, so wash the jacket first, the way the maker says, before you add another spray. A gentle wash does more than re-proofing a filthy jacket. Heat, if the maker allows it, can reset some finishes. Then re-proof it when water stops beading."
+      },
+      {
         "q": "Can an emergency shell be my only rain jacket?",
         "a": "On a short day hike close to the trailhead, yes. On an overnight, or a long wet day, carry a jacket you can hike in."
       },
       {
         "q": "Is a shell insulation?",
         "a": "No. Wear a fleece under it."
+      },
+      {
+        "q": "Are there separate men's and women's rain jackets under $50?",
+        "a": "Listings are often split into men's and women's cuts. Pick the cut that fits you. The job of the jacket, and the kind of fabric, is the same."
       }
     ],
     "related": [
