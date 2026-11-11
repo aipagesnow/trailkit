@@ -16,6 +16,7 @@ export const CORE_PATHS = [
   "/disclosure",
   "/privacy",
   "/contact",
+  "/sitemap",
 ] as const;
 
 export function bestPaths(): string[] {
@@ -86,3 +87,79 @@ export const CHILD_SITEMAP_PATHS = [
   "/sitemap-products.xml",
   "/sitemap-core.xml",
 ] as const;
+
+export type SitemapLink = { href: string; label: string };
+export type SitemapGroup = { heading: string; links: SitemapLink[] };
+
+const LABELS: Record<string, string> = {
+  "/": "Home",
+  "/library": "Full library",
+  "/browse": "All gear",
+  "/about": "About",
+  "/editorial": "Editorial standards",
+  "/disclosure": "Affiliate disclosure",
+  "/privacy": "Privacy",
+  "/contact": "Contact",
+  "/sitemap": "All pages",
+  "/best": "Roundups",
+  "/guides": "Guides",
+  "/learn": "Field notes",
+  "/compare": "Compare",
+  "/gear": "Categories",
+  "/kits": "Kits",
+};
+
+function labelFor(path: string): string {
+  if (LABELS[path]) return LABELS[path];
+  const best = path.match(/^\/best\/(.+)$/);
+  if (best) {
+    const found = roundups.find((item) => item.slug === best[1]);
+    if (found) return found.h1 || found.title;
+  }
+  const guide = path.match(/^\/guides\/(.+)$/);
+  if (guide) {
+    const found = guides.find((item) => item.slug === guide[1]);
+    if (found) return found.h1 || found.title;
+  }
+  const note = path.match(/^\/learn\/(.+)$/);
+  if (note) {
+    const found = notes.find((item) => item.slug === note[1]);
+    if (found) return found.h1 || found.title;
+  }
+  const compare = path.match(/^\/compare\/(.+)$/);
+  if (compare) {
+    const found = compares.find((item) => item.slug === compare[1]);
+    if (found) return found.h1 || found.title;
+  }
+  const kit = path.match(/^\/kits\/(.+)$/);
+  if (kit) {
+    const found = kits.find((item) => item.slug === kit[1]);
+    if (found) return found.name;
+  }
+  const cat = path.match(/^\/gear\/(.+)$/);
+  if (cat) {
+    const found = categories.find((item) => item.slug === cat[1]);
+    if (found) return found.name;
+  }
+  const product = path.match(/^\/products\/(.+)$/);
+  if (product) {
+    const found = products.find((item) => item.slug === product[1]);
+    if (found) return found.name;
+  }
+  return path;
+}
+
+function linksFor(paths: string[]): SitemapLink[] {
+  return paths.map((href) => ({ href, label: labelFor(href) }));
+}
+
+/** Grouped indexable pages for the HTML sitemap. Noindex product stubs are omitted. */
+export function htmlSitemapGroups(): SitemapGroup[] {
+  return [
+    { heading: "Roundups", links: linksFor(bestPaths()) },
+    { heading: "Guides and field notes", links: linksFor(guidesPaths()) },
+    { heading: "Comparisons", links: linksFor(comparePaths()) },
+    { heading: "Gear and kits", links: linksFor(productsPaths()) },
+    { heading: "This site", links: linksFor(corePaths()) },
+  ];
+}

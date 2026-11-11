@@ -17,6 +17,7 @@ import { Route as DisclosureRouteImport } from './routes/disclosure'
 import { Route as EditorialRouteImport } from './routes/editorial'
 import { Route as LibraryRouteImport } from './routes/library'
 import { Route as PrivacyRouteImport } from './routes/privacy'
+import { Route as SitemapRouteImport } from './routes/sitemap'
 import { Route as SitemapBestDotxmlRouteImport } from './routes/sitemap-best[.]xml'
 import { Route as SitemapCompareDotxmlRouteImport } from './routes/sitemap-compare[.]xml'
 import { Route as SitemapCoreDotxmlRouteImport } from './routes/sitemap-core[.]xml'
@@ -75,6 +76,11 @@ const LibraryRoute = LibraryRouteImport.update({
 const PrivacyRoute = PrivacyRouteImport.update({
   id: '/privacy',
   path: '/privacy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapRoute = SitemapRouteImport.update({
+  id: '/sitemap',
+  path: '/sitemap',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SitemapBestDotxmlRoute = SitemapBestDotxmlRouteImport.update({
@@ -182,6 +188,7 @@ export interface FileRoutesByFullPath {
   '/editorial': typeof EditorialRoute
   '/library': typeof LibraryRoute
   '/privacy': typeof PrivacyRoute
+  '/sitemap': typeof SitemapRoute
   '/sitemap-best.xml': typeof SitemapBestDotxmlRoute
   '/sitemap-compare.xml': typeof SitemapCompareDotxmlRoute
   '/sitemap-core.xml': typeof SitemapCoreDotxmlRoute
@@ -211,6 +218,7 @@ export interface FileRoutesByTo {
   '/editorial': typeof EditorialRoute
   '/library': typeof LibraryRoute
   '/privacy': typeof PrivacyRoute
+  '/sitemap': typeof SitemapRoute
   '/sitemap-best.xml': typeof SitemapBestDotxmlRoute
   '/sitemap-compare.xml': typeof SitemapCompareDotxmlRoute
   '/sitemap-core.xml': typeof SitemapCoreDotxmlRoute
@@ -241,6 +249,7 @@ export interface FileRoutesById {
   '/editorial': typeof EditorialRoute
   '/library': typeof LibraryRoute
   '/privacy': typeof PrivacyRoute
+  '/sitemap': typeof SitemapRoute
   '/sitemap-best.xml': typeof SitemapBestDotxmlRoute
   '/sitemap-compare.xml': typeof SitemapCompareDotxmlRoute
   '/sitemap-core.xml': typeof SitemapCoreDotxmlRoute
@@ -272,6 +281,7 @@ export interface FileRouteTypes {
     | '/editorial'
     | '/library'
     | '/privacy'
+    | '/sitemap'
     | '/sitemap-best.xml'
     | '/sitemap-compare.xml'
     | '/sitemap-core.xml'
@@ -301,6 +311,7 @@ export interface FileRouteTypes {
     | '/editorial'
     | '/library'
     | '/privacy'
+    | '/sitemap'
     | '/sitemap-best.xml'
     | '/sitemap-compare.xml'
     | '/sitemap-core.xml'
@@ -330,6 +341,7 @@ export interface FileRouteTypes {
     | '/editorial'
     | '/library'
     | '/privacy'
+    | '/sitemap'
     | '/sitemap-best.xml'
     | '/sitemap-compare.xml'
     | '/sitemap-core.xml'
@@ -360,6 +372,7 @@ export interface RootRouteChildren {
   EditorialRoute: typeof EditorialRoute
   LibraryRoute: typeof LibraryRoute
   PrivacyRoute: typeof PrivacyRoute
+  SitemapRoute: typeof SitemapRoute
   SitemapBestDotxmlRoute: typeof SitemapBestDotxmlRoute
   SitemapCompareDotxmlRoute: typeof SitemapCompareDotxmlRoute
   SitemapCoreDotxmlRoute: typeof SitemapCoreDotxmlRoute
@@ -437,6 +450,13 @@ declare module '@tanstack/react-router' {
       path: '/privacy'
       fullPath: '/privacy'
       preLoaderRoute: typeof PrivacyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap': {
+      id: '/sitemap'
+      path: '/sitemap'
+      fullPath: '/sitemap'
+      preLoaderRoute: typeof SitemapRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sitemap-best.xml': {
@@ -584,6 +604,7 @@ const rootRouteChildren: RootRouteChildren = {
   EditorialRoute: EditorialRoute,
   LibraryRoute: LibraryRoute,
   PrivacyRoute: PrivacyRoute,
+  SitemapRoute: SitemapRoute,
   SitemapBestDotxmlRoute: SitemapBestDotxmlRoute,
   SitemapCompareDotxmlRoute: SitemapCompareDotxmlRoute,
   SitemapCoreDotxmlRoute: SitemapCoreDotxmlRoute,

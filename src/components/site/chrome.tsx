@@ -150,6 +150,8 @@ function Footer() {
             <li><Link to="/disclosure" className="underline">Affiliate disclosure</Link></li>
             <li><Link to="/privacy" className="underline">Privacy</Link></li>
             <li><Link to="/contact" className="underline">Contact</Link></li>
+            <li><Link to="/sitemap" className="underline">All pages</Link></li>
+            <li><a href="/sitemap.xml" className="underline">XML sitemap</a></li>
           </ul>
         </div>
       </div>
