@@ -204,7 +204,7 @@ export const sleep: ProductGuide[] = [
     description: "NEMO Disco 15 Endless Promise for side sleepers: spoon-shaped 650-fill down, a 27°F men's comfort rating, Regular vs Regular Wide, and owner trade-offs.",
     h1: "NEMO Disco 15 Endless Promise review: a roomy down bag for side sleepers",
     answer:
-      "Short answer: the NEMO Disco 15 Endless Promise is the down bag we'd look at first if you sleep on your side and a slim mummy keeps waking you up. Its spoon shape gives you room at the elbows and knees, so you can bend a leg or roll over without fighting the bag. Here's the catch: the men's 15 has an ISO comfort rating of 27°F, so plan your trips around that number rather than the 15 in the name. It also packs bigger than a mummy of the same warmth.",
+      "Short answer: the NEMO Disco 15 Endless Promise suits you if you sleep on your side and a slim mummy keeps waking you up. Its spoon shape gives you room at the elbows and knees, so you can bend a leg or roll over without fighting the bag. The men's 15 has an ISO comfort rating of 27°F, so plan your trips around that number rather than the 15 in the name. It also packs bigger than a mummy of the same warmth.",
     suits: [
       "You sleep on your side or your front, or you shift around a lot, and a close-cut mummy keeps you awake.",
       "Your trips are three-season and mostly dry, with nights that dip into the 30s°F.",
@@ -212,13 +212,13 @@ export const sleep: ProductGuide[] = [
     ],
     skip: [
       "You count every ounce. The men's Regular weighs 2 lb 11 oz at its minimum, and the 650-fill down takes up more room than premium down. The [REI Magma 15](/products/magma-15) is lighter and smaller, but it's a snug mummy.",
-      "You expect regular nights in the low 20s°F or colder. With a 27°F comfort rating, we'd want a warmer bag for that, and the [cold sleepers page](/best/cold-sleepers) explains the pad side too.",
+      "You expect regular nights in the low 20s°F or colder. With a 27°F comfort rating, it isn't made for those nights. The [cold sleepers page](/best/cold-sleepers) covers warmer bags and the pad side too.",
       "Your trips are often wet for days. The down is water-resistant and the hood and footbox have a waterproof layer, but a synthetic bag such as the [Marmot Trestles Elite Eco 30](/products/trestles-eco-30) copes better with long spells of damp.",
     ],
     keySpecs: [
       { label: "Shape", value: "NEMO Classic Spoon: wider at the elbows and knees", plain: "There's room to bend your knees and roll over inside the bag. You pay for that space in weight and packed size." },
       { label: "Temperature (ISO)", value: "Men's 15: Comfort 27°F, Limit 16°F", plain: "Comfort is the number a cold sleeper should plan around. The 15 in the name sits close to the limit, which is the warm-sleeper end." },
-      { label: "Weight (men's)", value: "Regular: 2 lb 11 oz minimum, 2 lb 14 oz packed. Regular Wide: 2 lb 13 oz minimum, 3 lb 0 oz packed", plain: "That's moderate for a 15°F bag. It's a comfortable backpacking bag, but it isn't an ultralight one." },
+      { label: "Weight (men's)", value: "Regular: 2 lb 11 oz minimum, 2 lb 14 oz packed. Regular Wide: 2 lb 13 oz minimum, 3 lb 0 oz packed", plain: "That's moderate for a 15°F bag. It is light enough for backpacking, but it isn't an ultralight bag." },
       { label: "Fill", value: "650-fill hydrophobic, PFAS-free, RDS-certified down. 1 lb 7 oz of fill in the Regular", plain: "This is mid-grade down, so the bag needs more of it, and more space, for the same warmth as an 850-fill bag." },
       { label: "Girth (shoulder / hip / knee)", value: "Regular: 62 / 57 / 61 in. Regular Wide: 70 / 64 / 68 in", plain: "If you have broad shoulders, the Regular Wide gives you 8 more inches around the shoulders." },
       { label: "Packed size", value: "11.5 x 8.5 in stuff sack. Compressed volume 6.7 L (Regular) or 8.8 L (Regular Wide)", plain: "Plan on it filling a fair chunk of the bottom of a 50–65 L pack." },
@@ -242,7 +242,7 @@ export const sleep: ProductGuide[] = [
           "The men's Disco 15 has an ISO comfort rating of 27°F and a limit of 16°F. Comfort is roughly where a cold sleeper stays comfortable lying relaxed. The limit is where a warm sleeper can get through the night curled up. If you sleep cold, plan on the 27°F figure.",
           "Owner reports line up with that. Some say they were comfortable into the low 30s°F and would have started to feel chilly below that. Others say it runs a little cold and recommend the 15 over the 30 for that reason. One owner says their partner, a cold sleeper, was happy to about 22°F in medium thermals and a hat. The extra space that makes it comfortable is also more air for your body to heat, so a snug mummy with the same fill will usually feel warmer.",
           "Worth knowing: NEMO names its women's bags by their comfort rating and its men's bags by a lower, male-based rating. NEMO explains this in its [men's vs women's guide](https://www.nemoequipment.com/blogs/journal/womens-versus-mens-sleeping-bags-whats-the-difference). So the women's Disco 15 has more down and is the warmer bag, even though both say 15.",
-          "Your pad matters as much as the bag. A 15°F bag on a thin summer pad will feel cold from below on a frosty night. For nights near freezing, we'd pair it with a pad rated R 4 or higher, and our [choose a pad guide](/guides/choose-a-pad) explains how to pick one.",
+          "Your pad matters as much as the bag. A 15°F bag on a thin summer pad will feel cold from below on a frosty night. For nights near freezing, use a pad rated R 4 or higher. A higher R-value insulates you better from the cold ground. Our [choose a pad guide](/guides/choose-a-pad) explains how to pick one.",
         ],
       },
       {
@@ -294,7 +294,7 @@ export const sleep: ProductGuide[] = [
     ],
     faqs: [
       { q: "Is the NEMO Disco 15 good for side sleepers?", a: "Yes. The spoon shape adds room at the elbows and knees, so you can roll over and bend your legs. Side sleepers are the people who praise it most." },
-      { q: "Is the NEMO Disco 15 really a 15-degree bag?", a: "Not for comfort. The men's Disco 15 has an ISO comfort rating of 27°F and a limit of 16°F. Most owners are comfortable into the low 30s°F, and colder with a warm pad and layers." },
+      { q: "Is the NEMO Disco 15 really a 15-degree bag?", a: "Not for comfort. The men's Disco 15 has an ISO comfort rating of 27°F and a limit of 16°F. Most owners are comfortable into the low 30s°F. Some stay comfortable below that with a warm pad and layers." },
       { q: "Is the women's Disco 15 warmer than the men's?", a: "Yes. NEMO rates the women's bag by its comfort rating, so it uses more down to earn the same 15. The men's 15 is named for a lower, male-based rating, and its comfort rating is 27°F." },
       { q: "How much does the NEMO Disco 15 weigh?", a: "The men's Regular weighs 2 lb 11 oz at its minimum and 2 lb 14 oz packed. The Regular Wide weighs 2 lb 13 oz minimum and 3 lb 0 oz packed." },
       { q: "What's the difference between the Disco and the Disco Endless Promise?", a: "The Endless Promise version uses a recycled polyester shell and lining with a PFAS-free water repellent, and NEMO will take it back for recycling. Treeline Review found it a little heavier than the original Disco but a little less bulky." },
