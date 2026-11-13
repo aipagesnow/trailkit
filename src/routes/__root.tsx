@@ -5,6 +5,8 @@ import { PageShell } from "@/components/site/chrome";
 import { BRAND } from "@/lib/affiliate";
 import appCss from "../styles.css?url";
 import { consentScript } from "@/lib/consent-script";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const gaId = import.meta.env.VITE_GA_ID || import.meta.env.NEXT_PUBLIC_GA_ID || "";
 
@@ -57,6 +59,8 @@ function RootShell({ children }: { children: React.ReactNode }) {
       <body>
         <PreviewHostBridge />
         <AuthProvider>{children}</AuthProvider>
+        <Analytics />
+        <SpeedInsights />
         <Scripts />
       </body>
     </html>
