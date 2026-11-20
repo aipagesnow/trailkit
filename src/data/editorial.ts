@@ -1189,12 +1189,86 @@ export const kits: Kit[] = [
     name: "Light and dry",
     description: "A trimmed three-season kit for hikers who already know their pitch and sleep warm enough.",
     forWhom: "You're experienced, the ground will take a stake, and you carry trekking poles.",
-    productSlugs: ["x-mid-2", "ee-revelation", "xlite-nxt", "pocketrocket", "nu25", "kakwa-55", "leki-makalu"],
+    productSlugs: ["x-mid-2", "ee-revelation", "xlite-nxt", "kakwa-55", "pocketrocket", "sawyer-squeeze", "precip", "ghost-whisperer", "nu25", "leki-makalu"],
     notes: [
       "It assumes you'll strap the quilt and vent the tent.",
       "If you sleep cold, don't copy it.",
       "The PocketRocket is the calm-weather choice. Take the WindMaster if your ridge is breezy.",
     ],
+    seoTitle: "Lightweight Backpacking Gear List: Light and Dry Kit",
+    seoDescription: "A lightweight backpacking gear list for three-season trips: trekking-pole tent, quilt, 13 oz pad and framed pack, with weights and who shouldn't copy it.",
+    h1: "Lightweight backpacking gear list: the light and dry kit",
+    answer:
+      "Short answer: a lightweight backpacking gear list starts with the big three, which are your shelter, your sleep system and your pack, because that's where most of your weight sits. This kit pairs a trekking-pole tent, a down quilt, an insulated air pad and a light framed pack. Then it adds a small stove, a water filter, a rain shell, a down hoody and a headlamp. It suits you if you already know your pitch and you sleep warm. If you sleep cold, the cold sleeper kit is the better place to start.",
+    gearList: [
+      { job: "Shelter", productSlug: "x-mid-2", weight: "31 oz (1.9 lb)", why: "Two trekking poles hold up a double-wall tent, so you don't carry tent poles. It needs ground that takes a stake." },
+      { job: "Quilt", productSlug: "ee-revelation", weight: "Depends on the rating and fill you order", why: "It vents on mild nights and doesn't bind your knees. There's no hood, so use the pad straps." },
+      { job: "Sleeping pad", productSlug: "xlite-nxt", weight: "13 oz (Regular)", why: "It's rated R-value 4.5. R-value measures how well a pad stops the cold ground from pulling your warmth away." },
+      { job: "Pack", productSlug: "kakwa-55", weight: "About 29 to 32 oz, by size and fabric", why: "It still has a frame and load lifters. Durston rates it for loads up to 45 lb." },
+      { job: "Stove", productSlug: "pocketrocket", weight: "2.9 oz", why: "It's a small canister stove for calm evenings. On a breezy ridge, the Soto WindMaster copes better." },
+      { job: "Water", productSlug: "sawyer-squeeze", weight: "3 oz", why: "It filters bacteria and protozoa. It doesn't remove viruses, and it can be damaged if it freezes." },
+      { job: "Rain shell", productSlug: "precip", weight: "11 oz (men's)", why: "It's a simple waterproof shell with pit zips that packs into its own pocket." },
+      { job: "Warm layer", productSlug: "ghost-whisperer", weight: "About 11 oz (men's Medium)", why: "It's an 800-fill down hoody for camp. Keep it dry, and keep it away from brush." },
+      { job: "Headlamp", productSlug: "nu25", weight: "Under 2 oz", why: "It's very light and recharges over USB-C. The battery is small, so don't lean on high mode." },
+      { job: "Trekking poles", productSlug: "leki-makalu", weight: "Heavier than carbon poles", why: "They hold up the X-Mid 2 at night, so tough aluminum poles make sense here." },
+    ],
+    gearListNote: "Weights are the makers' published figures for the size noted, and they can change with the model year.",
+    sections: [
+      {
+        id: "big-three",
+        heading: "What goes on a lightweight backpacking gear list?",
+        paragraphs: [
+          "Your shelter, your sleep system and your pack come first. They're the heaviest things you'll carry, so they're where a lighter list really starts. After those, you need a way to cook, a way to treat water, a rain shell, a warm layer for camp and a headlamp. With this kit, you'll also need two trekking poles, because the tent pitches on them.",
+          "Here's what the big three weigh on paper. Durston lists the X-Mid 2 at 31 oz, and Therm-a-Rest lists the XLite NXT Regular at 13 oz. The Kakwa 55 comes in at about 29 to 32 oz, depending on the size and fabric you pick. Put together, that's a little under 5 lb before the quilt goes in.",
+        ],
+      },
+      {
+        id: "base-weight",
+        heading: "What base weight should you aim for?",
+        paragraphs: [
+          "Base weight is everything in your pack except food, water and fuel. Under about 20 lb is a comfortable target for a lot of hikers. Getting under 10 lb is a real project, and it usually means a quilt, a trekking-pole shelter and a very light pack, which is the direction this kit leans.",
+          "The items on this list with a published weight come to roughly 6.5 lb, leaving out the quilt and the poles you hold in your hands. You'll still add a quilt, a pot, stuff sacks and the small bits, so weigh your own kit once it's packed. That number is the one worth trusting.",
+        ],
+      },
+      {
+        id: "save-weight",
+        heading: "Where to save weight, and where not to",
+        paragraphs: [
+          "The cheapest weight to lose is the stuff you carry and never use. Before you spend money on lighter versions of the big items, take out the camp chair, the spare shoes and the pot that's bigger than you need.",
+        ],
+        bullets: [
+          "Save on the shelter if your campsites take stakes. A trekking-pole tent uses the poles you already carry instead of its own frame.",
+          "Save on the pack last. A lighter pack has less padding to work with, so it suits you best once everything going inside it is already small.",
+          "Save on the stove and pot. One small canister stove and one pot cover most solo trips.",
+          "Don't trim the pad's R-value to save a few ounces. That's how a mild night turns into a cold one.",
+          "Don't drop the rain shell or the water filter to hit a number. Together they add about 14 oz, which is a small price for staying dry and having treated water.",
+        ],
+      },
+      {
+        id: "who-skip",
+        heading: "Who shouldn't copy this list?",
+        paragraphs: [
+          "If you sleep cold, this isn't your kit. A hoodless quilt leaves less margin than a mummy bag, and the cold sleeper kit puts the extra warmth in the bag and the pad instead.",
+          "If you camp on wooden platforms or rock where stakes won't bite, the X-Mid 2 won't stand up. A freestanding tent is the easier choice there.",
+          "If this is your first overnight, we'd start with the first overnight packing list. Light gear is less forgiving while you're still learning how you pitch and how you sleep.",
+        ],
+      },
+      {
+        id: "left-out",
+        heading: "What this list leaves out",
+        paragraphs: [
+          "It covers the gear you'll buy once and keep. You'll still need food, water and fuel, a pot and a spoon, a map or a navigation app, a small first aid and blister kit, sun protection and a trowel. Where the rules call for a bear canister, that goes in too, and it'll take up a fair share of a 55-liter pack.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "Is lightweight backpacking gear worth it for beginners?", a: "It can be, once you know how you sleep and how you like to pitch. For your first few trips, we'd use a freestanding tent and a sleeping bag, then go lighter one piece at a time. The biggest gains come from the shelter, the sleep system and the pack." },
+      { q: "What are the big three in backpacking?", a: "They're your shelter, your sleep system (a bag or quilt plus a pad) and your pack. They're usually the heaviest things you carry, so they're where a lighter kit starts." },
+      { q: "Do I need trekking poles for this kit?", a: "Yes. The X-Mid 2 pitches on two trekking poles, so the LEKI Makalu poles double as your tent poles. If you don't hike with poles, a freestanding tent like the Copper Spur UL2 makes more sense." },
+      { q: "Is a quilt warm enough for backpacking?", a: "For a warm sleeper on a three-season trip, usually yes, as long as you use the pad straps to stop drafts. If you sleep cold or toss and turn a lot, a mummy bag is the easier choice." },
+      { q: "How much should a lightweight backpacking kit weigh?", a: "It depends on what you count. Base weight leaves out food, water and fuel, and under about 20 lb is a common comfortable target. The big three in this kit come to a little under 5 lb before the quilt." },
+    ],
+    related: ["base-weight", "ultralight-packs", "ultralight-tents", "quilt-vs-bag", "cold-sleeper-kit", "first-overnight"],
   },
   {
     slug: "cold-sleeper-kit",

@@ -103,4 +103,24 @@ export type Kit = {
   forWhom: string;
   productSlugs: string[];
   notes: string[];
+  /** Optional search packaging. Cards, crumbs and hubs keep using `name`. */
+  seoTitle?: string;
+  seoDescription?: string;
+  h1?: string;
+  /** Optional short answer block under the H1. */
+  answer?: string;
+  /** Optional gear-list table: one row per job in the kit. */
+  gearList?: KitGearRow[];
+  gearListNote?: string;
+  sections?: GuideSection[];
+  /** Rendered as a plain FAQ list. No FAQPage schema (keeper rule). */
+  faqs?: Faq[];
+  related?: string[];
+};
+
+export type KitGearRow = {
+  job: string;
+  productSlug: string;
+  weight: string;
+  why: string;
 };

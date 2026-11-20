@@ -181,7 +181,8 @@ export function kitChips(kit: Kit) {
   const nights = blob.match(/\b(one|two|three|\d+)\s+nights?\b/i);
   if (nights) chips.push(`${nights[1].toUpperCase()} NIGHTS`);
   if (/mild forecast/i.test(blob)) chips.push("MILD");
-  if (/cold sleeper|sleep cold/i.test(blob)) chips.push("COLD SLEEPER");
+  // "If you sleep cold, don't copy it" is a warning, not a tag.
+  if (/cold sleeper|(?<!if you )sleep cold/i.test(blob)) chips.push("COLD SLEEPER");
   if (/daylight|day hike/i.test(blob)) chips.push("DAY HIKE");
   if (/campground|drive-up|car camp/i.test(blob)) chips.push("CAR CAMP");
   if (/trekking poles/i.test(blob)) chips.push("POLES");
