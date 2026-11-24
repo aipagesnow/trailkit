@@ -8,14 +8,14 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best solo backpacking tents",
     "kicker": "Roundup · Shelters",
     "category": "tents",
-    "answer": "If you're hiking solo and you can stake, we'd start with a double-wall trekking-pole tent. We'd only go single-wall after you've already slept with condensation. The Durston X-Mid 1 is the one we'd default to. The Tarptent Protrail is the budget single-wall. The Lunar Solo stays in the mix if you want a simple one-person pitch you already know.",
+    "answer": "If you're hiking solo and you can stake, start with a double-wall trekking-pole tent: one with a separate inner tent, which handles condensation better than a single-wall shelter. The Durston X-Mid 1 is the place to start. The Tarptent Protrail is the budget single-wall. The Lunar Solo is sold on Amazon US, unlike the other two, and it suits you if you want a simple one-person pitch you already know.",
     "who": "This is for you if you're backpacking solo on three-season trails. It isn't for two of you on a one-person floor, and it isn't a winter route.",
     "productSlugs": [
       "x-mid-1",
       "protrail",
       "lunar-solo"
     ],
-    "one": "We'd buy the X-Mid 1 if you carry two poles and camp on soil. We'd buy the Protrail only if you're fine with single-wall condensation and a smaller porch.",
+    "one": "If you carry two poles and camp on soil, get the X-Mid 1. It is not sold on Amazon US. If you want a tent from this list that is, get the Lunar Solo. The Protrail only suits you if you are fine with a smaller porch.",
     "faqs": [
       {
         "q": "Is a one-person tent too small?",
@@ -318,7 +318,7 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best backpacking pots",
     "kicker": "Roundup · Cookware",
     "category": "cook",
-    "answer": "Most backpacking dinners are just boiling water. If it's only you, we'd buy a TOAKS 750 or an MSR Titan Kettle. If there are two of you, we'd buy a wider pot such as the GSI Halulite. A long spoon matters more than a second gadget.",
+    "answer": "Most backpacking dinners are just boiling water. If it's only you, start with a TOAKS 750, or the MSR Titan Kettle if you want a tougher pot. If there are two of you, get a wider pot such as the GSI Halulite. A long spoon matters more than a second gadget.",
     "who": "This is for you if you rehydrate meals. It isn't for skillet cooking.",
     "productSlugs": [
       "toaks-750",
@@ -589,8 +589,8 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best car camping comfort gear",
     "kicker": "Roundup · Car camp",
     "category": "camp",
-    "answer": "These are the upgrades we'd buy after the kitchen basics are sorted. Spend the trunk space on a table at standing height, and a cot if you hate the ground. An inflatable pillow is the backpacking version of the same idea. A percolator is a ritual, not something you need. The stove, the cooler, and the wash bins belong with the rest of the car-camp kitchen.",
-    "who": "This is for you if you're camping next to the car and you already have a stove, a cooler, and a dish setup. It isn't for counting ounces.",
+    "answer": "Start with the ALPS Mountaineering Dining Table if you want a standing-height surface for cooking and washing up. Add a cot if you hate sleeping on the ground, and an inflatable pillow if a jacket isn't enough. A percolator is optional.",
+    "who": "This is for you if you're camping next to the car and you already have a stove, a cooler, and a dish setup. It isn't for counting ounces. If you still need those kitchen basics, start with the [car-camping gear page](/best/car-camping-gear).",
     "productSlugs": [
       "camp-table",
       "camp-cot",
@@ -598,7 +598,7 @@ export const extraRoundups: Roundup[] = [
       "percolator",
       "helinox-chair"
     ],
-    "one": "If you buy one thing, we'd buy the table. A standing kitchen gets used. A gadget lantern doesn't fix a bad kitchen.",
+    "one": "If you buy one thing, buy the table. A standing kitchen gets used.",
     "faqs": [
       {
         "q": "Is a cot cold?",
@@ -606,11 +606,11 @@ export const extraRoundups: Roundup[] = [
       },
       {
         "q": "Do backpackers need a pillow?",
-        "a": "If you sleep on your side, often yes. A jacket works until it doesn't."
+        "a": "If you sleep on your side, often yes. A jacket is often enough; this helps if you still sleep badly."
       },
       {
         "q": "What about a chair?",
-        "a": "A chair is worth it at a campground. On a backpacking trip, it's a debate."
+        "a": "A chair is worth it at a campground. On a backpacking trip, a sit pad is lighter; take the chair only if you sit in camp for hours."
       }
     ],
     "related": [
@@ -666,7 +666,7 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best hiking water bottles",
     "kicker": "Roundup · Water",
     "category": "water",
-    "answer": "Carry a bottle you'll actually drink from, and a dirty reservoir for the filter. A Nalgene is the tough camp bottle. A HydraPak Seeker stores water at camp for less weight. A CNOC bag is the dirty side of a Sawyer-style squeeze setup. None of these treat the water by themselves.",
+    "answer": "For camp and car use, start with the Nalgene Wide Mouth 1L, a tough bottle that can take hot water. For a trail filter setup, pair a Sawyer Squeeze with a CNOC dirty bag and drink from a lighter clean bottle. A HydraPak Seeker stores treated water at camp for less weight. None of these treat the water by themselves.",
     "who": "This is for you if you already know how you'll treat the water.",
     "productSlugs": [
       "nalgene-1l",
@@ -674,7 +674,7 @@ export const extraRoundups: Roundup[] = [
       "cnoc-vesper",
       "sawyer-squeeze"
     ],
-    "one": "We'd pair a Sawyer Squeeze with a CNOC dirty bag, and drink from a lighter clean bottle. Keep the Nalgene if you want one bottle that can take a beating or hot water.",
+    "one": "If you want one tough camp bottle, get the Nalgene. If you are filtering on the trail, pair a Sawyer Squeeze with a CNOC dirty bag and drink from a lighter clean bottle.",
     "faqs": [
       {
         "q": "How much water?",

@@ -2,7 +2,7 @@ import { createFileRoute, notFound } from "@tanstack/react-router";
 import { pageHead, breadcrumbLd } from "@/lib/seo";
 import { getKit, getProduct, linksFor } from "@/data";
 import { Crumbs, Disclosure, EarlyListingCta, FaqList, JsonLd, ProductSection, Related, StickyAmazon } from "@/components/site/blocks";
-import { HowWePick, Thumb, kitChips } from "@/components/site/cards";
+import { FOOTWEAR_SLUGS, HowWePick, Thumb, kitChips } from "@/components/site/cards";
 import { TkImage } from "@/components/site/tk-image";
 import { imageFor } from "@/data/images";
 
@@ -49,7 +49,7 @@ function KitPage() {
       </div>
       <ul className="list-disc space-y-1 pl-5">{kit.notes.map((n) => <li key={n}>{n}</li>)}</ul>
       <Disclosure />
-      <HowWePick />
+      <HowWePick limits={FOOTWEAR_SLUGS.has(kit.slug) ? "Each pick is matched to a real limit on your trip: budget, weight, weather, foot width, or trip length." : undefined} />
       {gearRows.length ? (
         <section id="gear-list">
           <h2 className="text-3xl">The gear list at a glance</h2>

@@ -72,7 +72,7 @@ export const roundups: Roundup[] = [
     kicker: "Roundup · Shelters",
     category: "tents",
     answer:
-      "Every pick here sits in the Budget to Mid price bands. The lighter Upper mid tents are on the main backpacking tents page. The REI Co-op Half Dome 2 Plus is the roomy first freestanding tent we'd pick for short weekends. The MSR Elixir 2 is the simple freestanding alternative at about 5 lb. The Six Moon Designs Lunar Solo is the light budget pick if you hike alone and you'll accept single-wall condensation. The REI Co-op Passage 2 is the cheapest real tent here, for first nights close to the car. We'd cheap out on a sit pad, not on a storm shelter.",
+      "None of these tents is under $50. For that budget, see the [under-$50 gear page](/best/budget-under-50). Every pick here sits in the Budget to Mid price bands. The lighter Upper mid tents are on the main backpacking tents page. The REI Co-op Half Dome 2 Plus is the roomy first freestanding tent, a value step-up for short weekends, not a sub-$50 shelter. The MSR Elixir 2 is the simple freestanding alternative at about 5 lb. The Six Moon Designs Lunar Solo is the light budget pick if you hike alone and you'll accept single-wall condensation. The REI Co-op Passage 2 is the cheapest real tent here, for first nights close to the car. Cheap out on a sit pad, not on a storm shelter.",
     teaser: "Stay in the Budget to Mid band. The Half Dome 2 Plus is for a first weekend, the Elixir for a simple pitch, and the Lunar Solo if you hike alone.",
     who: "You're new and spending carefully, you're a pair who'll accept extra weight for a lower price, or you hike solo and don't need a flagship tent.",
     productSlugs: ["half-dome-2-plus", "msr-elixir-2", "lunar-solo", "rei-passage-2"],
@@ -92,7 +92,7 @@ export const roundups: Roundup[] = [
     kicker: "Roundup · Sleep",
     category: "sleep",
     answer:
-      "Start with the REI Magma 15: a 15°F down mummy you can try on and return. Match the bag to the coldest night you'll actually sleep, then add margin if you sleep cold. The Western Mountaineering Alpinlite is the premium warmer-weather down pick. A quilt only wins if you sleep warm and you'll strap it to the pad. Roomier bags if you sleep cold are on the cold sleepers page. Warmth also depends on your sleeping pad.",
+      "Start with the REI Magma 15: a 15°F down mummy you can try on and return. Match the bag to the coldest night you'll actually sleep, then add margin if you sleep cold. The Western Mountaineering Alpinlite is the premium 20°F-class down mummy: a slim, warm bag if you sleep cold and you like a close cut. A quilt only wins if you sleep warm and you'll strap it to the pad. Roomier bags if you sleep cold are on the cold sleepers page. Warmth also depends on your sleeping pad.",
     teaser: "Match the bag to the coldest night you'll sleep, then start with a returnable 15°F down mummy such as the Magma 15.",
     who: "You're building a three-season sleep system. It isn't a winter expedition bag guide.",
     productSlugs: ["magma-15", "wm-ultralite", "ee-revelation", "alpinlite", "trestles-eco-30", "sts-spark"],

@@ -137,11 +137,6 @@ export const INTENT_PAIRS: Record<string, { href: string; label: string; note: s
     label: "Best car camping comfort gear",
     note: "Once your stove, cooler and wash bins are sorted, the comfort page covers the table, cot, pillow and coffee.",
   },
-  "camp-comfort": {
-    href: "/best/car-camping-gear",
-    label: "Best car camping gear",
-    note: "These are upgrades. If you still need the stove, the cooler and a dish setup, we'd start with the basics page.",
-  },
   "backpacking-packs": {
     href: "/best/ultralight-packs",
     label: "Best ultralight backpacks",

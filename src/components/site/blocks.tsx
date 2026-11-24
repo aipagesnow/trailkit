@@ -168,13 +168,14 @@ function mainListing(slugs: string[]) {
   return undefined;
 }
 
-export function EarlyListingCta({ slugs, kind, priceNote = true, plainAlt = false }: { slugs: string[]; kind: "roundup" | "kit"; priceNote?: boolean; plainAlt?: boolean }) {
+export function EarlyListingCta({ slugs, kind, priceNote = true, plainAlt = false, startNote }: { slugs: string[]; kind: "roundup" | "kit"; priceNote?: boolean; plainAlt?: boolean; startNote?: string }) {
   const listing = mainListing(slugs);
   if (!listing) return null;
   const { product, isDefault } = listing;
-  const line = kind === "kit"
-    ? (isDefault ? `${product.name}, from this kit.` : `From this kit on Amazon: ${product.name}.`)
-    : (isDefault ? `Start here: ${product.name}.` : plainAlt ? `From this list on Amazon: ${product.name}.` : `The start-here pick isn't sold on Amazon US. From this list, the ${product.name} is.`);
+  const line = startNote
+    ?? (kind === "kit"
+      ? (isDefault ? `${product.name}, from this kit.` : `From this kit on Amazon: ${product.name}.`)
+      : (isDefault ? `Start here: ${product.name}.` : plainAlt ? `From this list on Amazon: ${product.name}.` : `The start-here pick isn't sold on Amazon US. From this list, the ${product.name} is.`));
   return (
     <div className="border border-line bg-paper p-4">
       <p className="max-w-3xl text-sm">{line}</p>
@@ -379,8 +380,8 @@ export function Related({ links }: { links: LinkItem[] }) {
   );
 }
 
-export function Updated({ read }: { read?: string }) {
-  return <p className="font-mono text-xs text-muted">Updated {UPDATED}{read ? ` · ${read}` : ""}</p>;
+export function Updated({ read, date }: { read?: string; date?: string }) {
+  return <p className="font-mono text-xs text-muted">Updated {date ?? UPDATED}{read ? ` · ${read}` : ""}</p>;
 }
 
 export function CardGrid({ items }: { items: { href: string; title: string; text: string; kicker?: string }[] }) {

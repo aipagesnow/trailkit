@@ -2,7 +2,7 @@ import { createFileRoute, notFound } from "@tanstack/react-router";
 import { getCategory, getCompare, getProduct, getRoundup, linksFor, roundups } from "@/data";
 import type { Category, Compare, Roundup } from "@/data/types";
 import { AmazonButton, Crumbs, Disclosure, FaqList, JsonLd, Related, Updated } from "@/components/site/blocks";
-import { HowWePick, decidesLine } from "@/components/site/cards";
+import { FOOTWEAR_SLUGS, HowWePick, decidesLine } from "@/components/site/cards";
 import { TkImage } from "@/components/site/tk-image";
 import { imageFor } from "@/data/images";
 import { NoListingLink } from "@/components/site/no-listing-link";
@@ -73,7 +73,7 @@ function ComparePage() {
       <Disclosure />
       {ctaFirst ? null : (
         <>
-          <HowWePick />
+          <HowWePick limits={FOOTWEAR_SLUGS.has(page.slug) ? "Each pick is matched to a real limit on your trip: budget, weight, weather, foot width, or trip length." : undefined} />
           <p className="bg-spec px-3 py-2 font-mono text-[11px] tracking-wide uppercase">Decides on → {decidesLine(page)}</p>
         </>
       )}
@@ -102,7 +102,7 @@ function ComparePage() {
       </div>
       {ctaFirst ? (
         <>
-          <HowWePick />
+          <HowWePick limits={FOOTWEAR_SLUGS.has(page.slug) ? "Each pick is matched to a real limit on your trip: budget, weight, weather, foot width, or trip length." : undefined} />
           <p className="bg-spec px-3 py-2 font-mono text-[11px] tracking-wide uppercase">Decides on → {decidesLine(page)}</p>
         </>
       ) : null}

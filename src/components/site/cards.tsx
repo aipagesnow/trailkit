@@ -6,12 +6,24 @@ import { TkImage } from "@/components/site/tk-image";
 
 const UPDATED_MONO = "OCT 2026";
 
-export function HowWePick({ specNote }: { specNote?: string } = {}) {
+const DEFAULT_LIMITS = "Each pick is matched to a real limit on your trip: budget, weight, weather, or trip length.";
+
+export const FOOTWEAR_SLUGS = new Set([
+  "hiking-boots-wide-feet",
+  "trail-runners",
+  "boot-fit",
+  "keen-vs-altra",
+  "speedgoat-vs-lone-peak",
+  "wide-foot-weekend",
+  "hiking-socks",
+]);
+
+export function HowWePick({ specNote, limits }: { specNote?: string; limits?: string } = {}) {
   return (
     <aside className="border border-line bg-spec p-4 text-sm">
       <p className="font-mono text-[11px] tracking-widest uppercase">How we pick</p>
       <ul className="mt-2 space-y-1">
-        <li>Each pick is matched to a real limit on your trip: budget, weight, weather, foot width, or trip length.</li>
+        <li>{limits ?? DEFAULT_LIMITS}</li>
         <li>{specNote ?? "We do not invent trail tests or scores. Specs are the manufacturer’s published figures, and they can change between model years."}</li>
         <li>Each page names one pick to start with. The others suit different needs, so they are not ranked from best to worst.</li>
       </ul>

@@ -3,7 +3,7 @@ import { RichText } from "@/components/site/rich-text";
 import { absoluteUrl } from "@/lib/affiliate";
 import { getProduct, getRoundup, linksFor } from "@/data";
 import { CompareTable, Crumbs, Disclosure, EarlyListingCta, FaqList, JsonLd, PageToc, ProductSection, Related, StickyAmazon, Updated } from "@/components/site/blocks";
-import { HowWePick } from "@/components/site/cards";
+import { FOOTWEAR_SLUGS, HowWePick } from "@/components/site/cards";
 import { QuickTable } from "@/components/site/quick-table";
 import { TkImage } from "@/components/site/tk-image";
 import { INTENT_PAIRS } from "@/data/hubs";
@@ -31,8 +31,25 @@ function RoundupPage() {
   const pair = INTENT_PAIRS[page.slug];
   // Headlamps: one price line near the disclosure, and one spec/test note in How we pick.
   const quietPrice = page.slug === "headlamps";
-  // Sleeping bags + rain (Blair skim 2 Nov): one price line under the table, no footer method note.
-  const tableOnlyPrice = page.slug === "sleeping-bags" || page.slug === "rain-jackets-under-150";
+  // One price line under the table, no footer method note: 2 Nov Blair (sleeping bags + rain)
+  // plus 16/23 Nov Blair (water-carry, cook-pots, camp-comfort, solo-tents).
+  const tableOnlyPrice =
+    page.slug === "sleeping-bags" ||
+    page.slug === "rain-jackets-under-150" ||
+    page.slug === "water-carry" ||
+    page.slug === "cook-pots" ||
+    page.slug === "camp-comfort" ||
+    page.slug === "solo-tents";
+  const editedToday = new Set([
+    "water-carry",
+    "cook-pots",
+    "camp-comfort",
+    "solo-tents",
+    "budget-tents",
+    "sleeping-bags",
+    "rain-jackets-under-150",
+    "first-aid",
+  ]);
   const notePrices = !quietPrice && !tableOnlyPrice;
   const figures = [
     page.slug === "backpacking-tents" ? "/inline/tents-freestanding-vs-pole" : "",
@@ -80,11 +97,19 @@ function RoundupPage() {
         </div>
         <p className="font-mono text-[11px] tracking-widest uppercase">{page.kicker}</p>
         <h1 className="text-4xl">{page.h1}</h1>
-        <div id="answer" className="border-l-4 border-ink bg-spec p-4">{page.answer}</div>
-        <Updated read="8 min" />
+        <div id="answer" className="border-l-4 border-ink bg-spec p-4"><RichText text={page.answer} /></div>
+        <Updated
+          date={editedToday.has(page.slug) ? "November 24, 2026" : undefined}
+          read={editedToday.has(page.slug) ? "6 min" : "8 min"}
+        />
         <Disclosure />
         {quietPrice ? <p className="text-sm text-muted">Check current price on the listing.</p> : null}
         <HowWePick
+          limits={
+            FOOTWEAR_SLUGS.has(page.slug)
+              ? "Each pick is matched to a real limit on your trip: budget, weight, weather, foot width, or trip length."
+              : undefined
+          }
           specNote={
             quietPrice
               ? "We don't invent trail tests or scores. Specs are the maker's published figures, and they can change between model years."
@@ -99,8 +124,14 @@ function RoundupPage() {
         ) : null}
         {page.note ? <p className="max-w-3xl border-l-4 border-line p-4 text-sm">{page.note}</p> : null}
         {page.quick ? <QuickTable table={page.quick} /> : null}
-        <p className="border border-line bg-paper-2 p-4"><span className="font-bold">Who this is for. </span>{page.who}</p>
-        <EarlyListingCta slugs={page.productSlugs} kind="roundup" priceNote={notePrices} plainAlt={tableOnlyPrice} />
+        <p className="border border-line bg-paper-2 p-4"><span className="font-bold">Who this is for. </span><RichText text={page.who} /></p>
+        <EarlyListingCta
+          slugs={page.productSlugs}
+          kind="roundup"
+          priceNote={notePrices}
+          plainAlt={tableOnlyPrice}
+          startNote={page.slug === "solo-tents" ? "The X-Mid 1 is not sold on Amazon US. The Lunar Solo on this list is." : undefined}
+        />
         {figures.map((route) => (
           <figure key={route}>
             <div className="relative aspect-video overflow-hidden border border-line">

@@ -388,11 +388,11 @@ export const extraProducts: Product[] = [
     "limit": "Not freestanding",
     "role": "Best solo trekking-pole tent",
     "summary": "The one-person X-Mid: a double wall, one set of poles, and enough floor for a real pad.",
-    "body": "This is the solo tent we'd recommend before a single-wall tarp tent. You'll still need two poles and stakes, so pitch it at home. Here's the thing: if your camps are platforms, buy a freestanding solo instead and accept the weight.",
-    "who": "If you backpack solo and you already carry trekking poles, this is the one we'd start with.",
+    "body": "This is the solo tent to take before a single-wall tarp tent. You will still need two poles and stakes, so pitch it at home. If your camps are platforms, buy a freestanding solo tent — one that stands without being staked — and accept the weight.",
+    "who": "If you backpack solo and you already carry trekking poles, start with this one.",
     "pros": [
       "Double wall",
-      "Sane price",
+      "Moderate price",
       "Good floor for one"
     ],
     "cons": [
@@ -430,12 +430,12 @@ export const extraProducts: Product[] = [
     "limit": "Single wall, small, needs a pitch",
     "role": "Budget solo single-wall",
     "summary": "A small solo tent that uses one pole and a stake-out pattern you must learn.",
-    "body": "The Protrail is a classic first step into light solo shelters, with the usual single-wall tax: condensation. It's a bad match if you sit out storms for hours. We'd practice the pitch until it's boring.",
+    "body": "The Protrail is a classic first step into light solo shelters. It is a single-wall tent, so you will have to manage condensation, and it is a bad match if you sit out storms for hours. Practice the pitch at home until it is straightforward.",
     "who": "If you hike solo on a budget and you camp in moving air, this is a fair shelter.",
     "pros": [
       "Light",
       "One pole",
-      "Lower price than DCF"
+      "Lower price than a Dyneema (DCF) shelter"
     ],
     "cons": [
       "Condensation",
@@ -2204,7 +2204,7 @@ export const extraProducts: Product[] = [
     "role": "Dirty-water bag",
     "summary": "A soft bag that pairs with a squeeze filter so you are not balancing a bottle.",
     "body": "This is a plumbing piece. It doesn't make water safe. Label the dirty bag so nobody drinks from it. Rinse it. A 2-liter bag is a fair solo size. If you're with a group, you'll want a bigger bag or you'll wait in line.",
-    "who": "If you use a Sawyer or a similar squeeze filter, this is the bag we'd pair with it.",
+    "who": "If you use a Sawyer or a similar squeeze filter, this is the bag to pair with it.",
     "pros": [
       "Light",
       "Pairs with squeeze filters",
@@ -2243,10 +2243,10 @@ export const extraProducts: Product[] = [
     "weight": "About 6 oz empty",
     "bestFor": "Camp water you can put in a bear can",
     "limit": "Heavy when full, and it is only a bottle",
-    "role": "Indestructible bottle",
+    "role": "Tough camp bottle",
     "summary": "A wide-mouth bottle that takes boiling water, a filter thread with an adapter, and years of abuse.",
-    "body": "A Nalgene is a poor choice as your only long-trail bottle, because a full liter of plastic is heavier than a smartwater-style bottle. It's a solid camp bottle, and a solid bottle for kids who drop things. Don't treat the bottle as a filter.",
-    "who": "If you camp by the car, you've got kids, or you want one tough bottle, this is the one we'd pick.",
+    "body": "A Nalgene is a poor choice as your only long-trail bottle, because a full liter of plastic is heavier than a disposable plastic bottle, such as a Smartwater bottle. It's a tough camp bottle, and a good bottle for kids who drop things. Don't treat the bottle as a filter.",
+    "who": "If you camp by the car, you've got kids, or you want one tough bottle, start with this one.",
     "pros": [
       "Durable",
       "Wide mouth",
@@ -2254,7 +2254,7 @@ export const extraProducts: Product[] = [
     ],
     "cons": [
       "Heavy",
-      "Narrow-mouth versions are worse to clean, so we'd buy the wide one."
+      "Narrow-mouth versions are worse to clean, so buy the wide one."
     ],
     "specs": [
       {
@@ -2288,7 +2288,7 @@ export const extraProducts: Product[] = [
     "role": "Soft flask for storage",
     "summary": "A foldable bottle for camp when you want water at the tent and less rigid plastic on the move.",
     "body": "Use it as storage after treatment, or as a dirty reservoir only if you're disciplined about which cap is which. A soft bottle in a pack needs a little care so it doesn't burst on a sharp edge. Two liters is a useful camp size for one person.",
-    "who": "If you cache water at camp, this is the bottle we'd carry.",
+    "who": "If you cache water at camp, this is a light bottle for storage.",
     "pros": [
       "Light",
       "Packable",
@@ -3711,7 +3711,7 @@ export const extraProducts: Product[] = [
     "query": "SAM Splint",
     "priceBand": "Budget",
     "weight": "About 4 oz",
-    "bestFor": "Groups who go off a quick evacuation",
+    "bestFor": "Groups on trips far from a road, where walking out is not guaranteed",
     "limit": "Useless if you do not know how to pad it",
     "role": "Malleable splint",
     "summary": "A flat splint you can shape, for trips where walking out is not guaranteed.",
@@ -4051,8 +4051,8 @@ export const extraProducts: Product[] = [
     "limit": "Tight for two people",
     "role": "Solo titanium pot",
     "summary": "A light pot with a lid, big enough for one freeze-dried meal and a drink.",
-    "body": "Titanium doesn't love a tiny flame spot. A pot cozy saves fuel after the boil. This is the wrong pot for frying, and the wrong pot for a couple unless you enjoy taking turns. A long spoon matters more than a fancy lid.",
-    "who": "If you backpack solo, this is the pot we'd boil in.",
+    "body": "Titanium can develop hot spots over a small flame. A pot cozy saves fuel after the boil. This is the wrong pot for frying, and the wrong pot for a couple unless you enjoy taking turns. A long spoon matters more than a fancy lid.",
+    "who": "If you backpack solo, this is a good pot to boil in.",
     "pros": [
       "Light",
       "Lid",
@@ -4093,12 +4093,11 @@ export const extraProducts: Product[] = [
     "limit": "Price versus TOAKS",
     "role": "Tough solo pot",
     "summary": "A small titanium pot from a stove company, with a lid that can be a plate.",
-    "body": "It's functionally close to other 750-900 ml pots. Buy it if you like the lid and the durability. Don't expect it to simmer like a steel pan. A cozy still helps. Metal handles need a bandana or a careful hand.",
-    "who": "If you hike solo and you mostly boil, this is the pot we'd buy.",
+    "body": "It is another 750-900 ml solo pot, like the TOAKS, with a lid and a tougher build. Choose it if you want a tougher pot and you like this lid. Don't expect it to simmer like a steel pan. Metal handles need a bandana or a careful hand.",
+    "who": "If you hike solo and you mostly boil, this is a good pot to buy.",
     "pros": [
       "Durable",
-      "Useful lid",
-      "Reliable brand"
+      "Useful lid"
     ],
     "cons": [
       "Expensive for the grams",
@@ -4136,7 +4135,7 @@ export const extraProducts: Product[] = [
     "role": "Aluminum pot for two",
     "summary": "A wider, cheaper pot when two people share dinner.",
     "body": "Aluminum is heavier than titanium, and it's kinder on a bad flame. This is the pot for a pair who rehydrate. If you want to brown food, you want a different pan and a simmering stove, and you should say so while you're still planning.",
-    "who": "If there are two of you, this is the pot we'd share.",
+    "who": "If there are two of you, this is a good pot to share.",
     "pros": [
       "Fair price",
       "Better for two",
@@ -4177,8 +4176,8 @@ export const extraProducts: Product[] = [
     "limit": "Short spoons waste food",
     "role": "Long spoon",
     "summary": "A spoon long enough for a freeze-dried bag.",
-    "body": "This is a ridiculous item to skip. A spork that's too short makes you squeeze the bag and wear dinner. Titanium is light. A cheap long plastic spoon also works, and it can go in a bear can without drama. Bring one per person.",
-    "who": "If you eat from a pouch, this is the spoon we'd pack.",
+    "body": "Don't skip the long spoon. A short spork makes you squeeze the bag, and food gets on your hands. Titanium is light. A cheap long plastic spoon also works, and it can go in a bear can. Bring one per person.",
+    "who": "If you eat from a pouch, pack a long spoon.",
     "pros": [
       "Solves a real annoyance",
       "Almost no weight",
@@ -4552,11 +4551,11 @@ export const extraProducts: Product[] = [
     "priceBand": "Budget mid",
     "weight": "About 3 oz",
     "bestFor": "Side sleepers who will not use a stuff sack",
-    "limit": "A pillow's a luxury until your neck says otherwise.",
+    "limit": "Easy to puncture, and it isn't insulation.",
     "role": "Inflatable pillow",
     "summary": "A small inflatable pillow that replaces a lumpy stuff sack.",
-    "body": "Inflate it less than you think. A rock-hard pillow is worse than a jacket. It can puncture. The repair kit for your pad can often help, and you still shouldn't set it on a cactus. Side sleepers get more from it than back sleepers do.",
-    "who": "If you sleep badly on a jacket, this is the pillow we'd try.",
+    "body": "Leave it a little soft; a rock-hard pillow is worse than a jacket. It can puncture, and the repair kit for your pad can often help. Side sleepers get more from it than back sleepers do.",
+    "who": "If you sleep badly on a jacket, this is a pillow to try.",
     "pros": [
       "Light",
       "Packable",
@@ -4892,11 +4891,11 @@ export const extraProducts: Product[] = [
     "role": "Roll-top camp table",
     "summary": "A table that turns a tailgate kitchen into a kitchen.",
     "body": "Cook at standing height and you'll actually wash the dishes. A low picnic table that's already at the site makes this redundant. If the site has no table, this matters more than a new lantern. It lives in the car.",
-    "who": "If you camp by the car and you want a surface to cook on, this is the table we'd bring.",
+    "who": "If you camp by the car and you want a surface to cook on, this is a good table to bring.",
     "pros": [
       "Standing height",
       "Packs into a bag",
-      "Sturdy enough"
+      "Stable enough for a stove and dishes"
     ],
     "cons": [
       "Heavy",
@@ -4934,7 +4933,7 @@ export const extraProducts: Product[] = [
     "role": "Folding cot",
     "summary": "A cot for people who do not sleep well on the ground and are parked next to the tent.",
     "body": "Use a pad on the cot. A cot alone is cold, because air moves under you. This is a comfort tool for an adult who camps by the car, not for a kid's first backpacking night. Check the tent width before you buy two.",
-    "who": "For car campers who hate sleeping on the ground.",
+    "who": "This is for car campers who hate sleeping on the ground.",
     "pros": [
       "Off the ground",
       "Packs into the car",
@@ -4976,7 +4975,7 @@ export const extraProducts: Product[] = [
     "role": "Stove-top percolator",
     "summary": "A simple percolator for a two-burner stove when a pour-over feels fussy.",
     "body": "This is a car-camping ritual, not a backpacking item. It wants a real burner and some patience. If you're backpacking, make the coffee in the pot you already boil. Don't start a campfire just to justify a blue enamel pot if the site has a stove and a fire ban.",
-    "who": "If you camp by the car and the coffee is the point, this is the pot we'd bring.",
+    "who": "If you camp by the car and the coffee is the point, this is a good pot to bring.",
     "pros": [
       "Group sized",
       "No pods",

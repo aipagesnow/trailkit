@@ -1,7 +1,7 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
 import { getGuide, getProduct, linksFor } from "@/data";
 import { AmazonLink, Crumbs, Disclosure, FaqList, JsonLd, PageToc, Related, Updated } from "@/components/site/blocks";
-import { GearCard, HowWePick } from "@/components/site/cards";
+import { FOOTWEAR_SLUGS, GearCard, HowWePick } from "@/components/site/cards";
 import { asinFor } from "@/data/asins";
 import { TkImage } from "@/components/site/tk-image";
 import { imageFor } from "@/data/images";
@@ -83,7 +83,7 @@ function GuidePage() {
           </div>
         </section>
         <FaqList faqs={page.faqs} />
-        <HowWePick />
+        <HowWePick limits={FOOTWEAR_SLUGS.has(page.slug) ? "Each pick is matched to a real limit on your trip: budget, weight, weather, foot width, or trip length." : undefined} />
         <Related links={linksFor(page.related)} />
       </article>
     </main>
