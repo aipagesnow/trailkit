@@ -3,6 +3,7 @@ import { asinFor } from "@/data/asins";
 import { getCategory, getProduct, linksFor } from "@/data";
 import type { Category, Compare, Guide, Kit, Product, Roundup } from "@/data/types";
 import { TkImage } from "@/components/site/tk-image";
+import { IllustrativeCaption } from "@/components/site/illustrative-caption";
 
 const UPDATED_MONO = "OCT 2026";
 
@@ -335,9 +336,12 @@ export function GearCard({
   const live = Boolean(asinFor(product.slug));
   return (
     <a href={`/products/${product.slug}`} className="tk-card group flex h-full flex-col bg-paper text-ink">
-      <div className={`relative overflow-hidden ${mini ? "aspect-[4/3]" : "aspect-[4/3]"}`}>
-        <TkImage route={`/products/${product.slug}`} priority={priority} fill sizes={mini ? "180px" : "(min-width: 1024px) 22vw, 50vw"} />
-      </div>
+      <figure className="m-0">
+        <div className={`relative overflow-hidden ${mini ? "aspect-[4/3]" : "aspect-[4/3]"}`}>
+          <TkImage route={`/products/${product.slug}`} priority={priority} fill sizes={mini ? "180px" : "(min-width: 1024px) 22vw, 50vw"} />
+        </div>
+        <IllustrativeCaption />
+      </figure>
       <span className="flex flex-1 flex-col gap-1 p-3">
         <span className="font-mono text-[11px] tracking-widest uppercase">{category?.short ?? product.category}</span>
         <span className="font-display text-xl leading-tight">{product.name}</span>

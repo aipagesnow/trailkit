@@ -6,6 +6,7 @@ import { getProduct, type LinkItem } from "@/data";
 import type { Faq, Product } from "@/data/types";
 import { Thumb } from "@/components/site/cards";
 import { TkImage } from "@/components/site/tk-image";
+import { IllustrativeCaption } from "@/components/site/illustrative-caption";
 
 export function Crumbs({ items }: { items: { href?: string; label: string }[] }) {
   return (
@@ -314,12 +315,15 @@ export function ProductSection({
   return (
     <section id={product.slug} className="border border-line bg-paper p-4">
       <div className="grid min-w-0 gap-4 md:grid-cols-[minmax(0,280px)_minmax(0,1fr)]">
-        <div className="relative aspect-[4/3] overflow-hidden border border-line">
-          <TkImage route={`/products/${product.slug}`} fill sizes="280px" tone={tone} />
-          <span className={`absolute top-2 left-2 inline-flex size-8 items-center justify-center border font-display text-sm font-bold ${top ? "border-blaze bg-blaze text-on-amber" : "border-ink bg-paper text-ink"}`}>
-            {index}
-          </span>
-        </div>
+        <figure className="m-0">
+          <div className="relative aspect-[4/3] overflow-hidden border border-line">
+            <TkImage route={`/products/${product.slug}`} fill sizes="280px" tone={tone} />
+            <span className={`absolute top-2 left-2 inline-flex size-8 items-center justify-center border font-display text-sm font-bold ${top ? "border-blaze bg-blaze text-on-amber" : "border-ink bg-paper text-ink"}`}>
+              {index}
+            </span>
+          </div>
+          {tone === "money" ? <IllustrativeCaption /> : null}
+        </figure>
         <div>
           <p className="font-mono text-[11px] tracking-widest uppercase">{product.role}</p>
           <h3 className="mt-1 text-2xl">

@@ -1,9 +1,11 @@
 import type { QuickTable as QuickTableData } from "@/data/types";
+import { RichText } from "@/components/site/rich-text";
 
 export function QuickTable({ table }: { table: QuickTableData }) {
+  const heading = table.heading ?? "h2";
   return (
-    <section id="quick" className="clear-both space-y-3">
-      <h2 className="text-2xl">{table.caption}</h2>
+    <section id={heading === "h2" ? "quick" : undefined} className="clear-both space-y-3">
+      {heading === "h2" ? <h2 className="text-2xl">{table.caption}</h2> : null}
       {table.lead ? <p className="max-w-3xl">{table.lead}</p> : null}
       <div className="overflow-x-auto border border-line">
         <table className="w-full min-w-[32rem] text-left text-sm">
@@ -35,7 +37,7 @@ export function QuickTable({ table }: { table: QuickTableData }) {
           </tbody>
         </table>
       </div>
-      {table.note ? <p className="text-sm text-muted">{table.note}</p> : null}
+      {table.note ? <p className="text-sm text-muted"><RichText text={table.note} /></p> : null}
     </section>
   );
 }

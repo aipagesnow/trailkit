@@ -37,6 +37,8 @@ export type QuickTable = {
   columns: string[];
   rows: string[][];
   note?: string;
+  /** Default is h2. Use "none" to render under an existing heading (locked pages). */
+  heading?: "h2" | "none";
 };
 
 export type Roundup = {
@@ -52,6 +54,8 @@ export type Roundup = {
   /** Factual aside rendered under the direct answer. Not part of the home-card excerpt. */
   note?: string;
   quick?: QuickTable;
+  /** Numeric or published-spec table, usually rendered under Comparison (no new H2). */
+  specTable?: QuickTable;
   who: string;
   productSlugs: string[];
   one: string;

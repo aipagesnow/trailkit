@@ -551,7 +551,7 @@ export const extraProducts: Product[] = [
     "category": "sleep",
     "query": "Western Mountaineering Alpinlite",
     "priceBand": "Premium",
-    "weight": "About 2 lb",
+    "weight": "1 lb 15 oz (6'0\")",
     "bestFor": "Cold sleepers and side sleepers who want a roomier 20°F mummy",
     "limit": "Price, and it is still a mummy",
     "role": "Roomier 20°F premium mummy",
@@ -570,11 +570,11 @@ export const extraProducts: Product[] = [
     "specs": [
       {
         "label": "Rating class",
-        "value": "20°F class"
+        "value": "20°F"
       },
       {
         "label": "Fill",
-        "value": "High-end down"
+        "value": "850+ fill down"
       },
       {
         "label": "Shape",
@@ -1320,7 +1320,7 @@ export const extraProducts: Product[] = [
     "limit": "Price, and a harsh carry if overloaded",
     "role": "Waterproof roll-top",
     "summary": "A DCF pack that keeps rain out and expects you to pack like a thru-hiker.",
-    "body": "The Southwest is a roll-top DCF pack if you already pack like you own one. There's no trampoline back, and there isn't much forgiveness if your load is heavy or sloppy. Rain stays out better than it does in a standard nylon pack, which is why you'd pay for it. If you want lid pockets and organization, the Osprey Atmos AG 65 or the Gregory Baltoro 65 will annoy you less. If you want a lighter framed pack while you're still learning what to leave at home, the Gossamer Gear Mariposa still has a hip belt and a less harsh carry. Worth knowing: the Southwest isn't sold on Amazon US, so there's no buy button for it here. We don't swap in a different pack.",
+    "body": "The Southwest is a roll-top DCF pack if you already pack like you own one. There's no trampoline back, and there isn't much forgiveness if your load is heavy or sloppy. Rain stays out better than it does in a standard nylon pack, which is why you'd pay for it. If you want lid pockets and organization, the Osprey Atmos AG 65 or the Gregory Baltoro 65 will annoy you less. If you want a lighter framed pack while you're still learning what to leave at home, the Gossamer Gear Mariposa still has a hip belt and a less harsh carry. Worth knowing: the Southwest isn't sold on Amazon US, so there's no buy button for it here. This page only names a closest Amazon listing when a reasonably similar pack is sold there. There isn't a close DCF roll-top match, so this card stays with the Southwest.",
     "who": "If you're experienced, you hike in wet country, and your kit is already simple enough for a roll-top, this is the pack we'd consider.",
     "pros": [
       "Highly water resistant",
@@ -3584,12 +3584,12 @@ export const extraProducts: Product[] = [
     "category": "aid",
     "query": "Adventure Medical Kits Ultralight/Watertight .5",
     "priceBand": "Budget",
-    "weight": "About 5 oz",
+    "weight": "3.6 oz",
     "bestFor": "A small kit to edit, not to worship",
     "limit": "Too small until you add your own items",
     "role": "Starter first-aid kit",
     "summary": "A compact kit that covers blisters, small cuts, and almost nothing else until you add to it.",
-    "body": "Open it at home. Add leukotape, any personal medication, and an extra pair of gloves. Take out mystery pills you won't take. A kit you haven't opened is a rock that happens to be red.",
+    "body": "Adventure Medical lists this kit at 3.6 oz, for two people on a trip of a day or two. The published contents are: 3 fabric knuckle bandages, 5 fabric 1-by-3-inch bandages, 2 butterfly closures, 1 pre-cut moleskin, 1 sterile 3-by-4-inch non-adherent dressing, 1 sterile 2-inch conforming gauze, 2 sterile 2-by-2-inch gauze dressings, 2 sterile 3-by-3-inch gauze dressings, 3 safety pins, 1 splinter/tick forceps, 2 aspirin (325 mg), 2 diphenhydramine (25 mg), 2 ibuprofen (200 mg), 2 acetaminophen (500 mg), 3 single-use triple antibiotic packets, and 2 tincture of benzoin packets. Open it at home. Add leukotape, any personal medication, and an extra pair of gloves if you want them. Take out pills you won't take. A kit you haven't opened is a rock that happens to be red.",
     "who": "If you hike solo or as a pair, this is the kit we'd start from.",
     "pros": [
       "Small",
@@ -3601,6 +3601,10 @@ export const extraProducts: Product[] = [
       "You've got to add your own personal items."
     ],
     "specs": [
+      {
+        "label": "Weight",
+        "value": "3.6 oz"
+      },
       {
         "label": "Size",
         "value": "Solo"

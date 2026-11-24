@@ -244,6 +244,7 @@ export const extraRoundups: Roundup[] = [
       ],
       "note": "A kit doesn't replace a first aid course."
     },
+    "note": "This page is general information, not medical advice, and no medic reviewed it. For what to consider in a backcountry kit, including gloves, blister dressings, tincture of benzoin, and a SAM Splint, see NOLS's [27 Considerations for a Wilderness First Aid Kit](https://www.nols.edu/blog/27-considerations-for-a-wilderness-first-aid-kit/). NOLS also says you shouldn't pack anything you don't know how to use, and that a first-aid course is worth considering.",
     "who": "This is for you if you'll open the pouch before the trip. It isn't a medical class.",
     "productSlugs": [
       "amk-ul-5",
@@ -430,6 +431,7 @@ export const extraRoundups: Roundup[] = [
     "kicker": "Roundup · Packs",
     "category": "packs",
     "answer": "An ultralight pack is for a kit that's already light. The Gossamer Gear Mariposa is the comfortable one we'd start with if you want a hip belt. The Hyperlite Southwest is the simple pack that shrugs off rain. The Kakwa 55 is the framed pack if you want structure without a trampoline.",
+    "note": "Some of these packs aren't sold on Amazon US. When a reasonably similar pack is sold there, it's named as the closest listing, and it isn't the pick. When there isn't a close match, as with the Southwest, we leave the button off rather than point you at a different kind of pack.",
     "who": "This is for you if you've already dropped the heavy tent, the chair, and the extra shoes. It isn't a first pack.",
     "productSlugs": [
       "mariposa",

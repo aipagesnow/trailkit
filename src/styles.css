@@ -84,6 +84,13 @@
   .tk-zoom {
     transition: transform 200ms ease;
   }
+  .illustrative-caption {
+    margin-top: 0.25rem;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    line-height: 1.3;
+    color: var(--color-muted);
+  }
 }
 
 @media (max-width: 40rem) {

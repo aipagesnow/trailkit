@@ -5,6 +5,7 @@ import { asinFor } from "@/data/asins";
 import { AmazonButton, Crumbs, Disclosure, JsonLd, Related, StickyAmazon } from "@/components/site/blocks";
 import { GearCard } from "@/components/site/cards";
 import { TkImage } from "@/components/site/tk-image";
+import { IllustrativeCaption } from "@/components/site/illustrative-caption";
 import { breadcrumbLd, pageHead } from "@/lib/seo";
 import { isIndexedProduct } from "@/data/indexed-products";
 import { guideFor } from "@/data/product-guides";
@@ -95,9 +96,12 @@ function ProductPage() {
       <p><span className="font-bold">Best for. </span>{product.bestFor}</p>
       <p><span className="font-bold">Standout limitation. </span>{product.limit}</p>
       <section className="grid items-start gap-6 md:grid-cols-2">
-        <div className="relative aspect-[4/3] overflow-hidden border border-line">
-          <TkImage route={`/products/${product.slug}`} priority fill sizes="(min-width: 768px) 40vw, 100vw" tone="money" />
-        </div>
+        <figure className="m-0">
+          <div className="relative aspect-[4/3] overflow-hidden border border-line">
+            <TkImage route={`/products/${product.slug}`} priority fill sizes="(min-width: 768px) 40vw, 100vw" tone="money" />
+          </div>
+          <IllustrativeCaption />
+        </figure>
         <div>
         <h2 className="text-3xl">Specs</h2>
         <dl className="mt-3 divide-y divide-line border border-line">
@@ -191,9 +195,12 @@ function GuidePage({
           ))}
         </dl>
       </section>
-      <div className="relative aspect-[4/3] overflow-hidden border border-line">
-        <TkImage route={`/products/${product.slug}`} priority fill sizes="(min-width: 768px) 48rem, 100vw" tone="money" />
-      </div>
+      <figure className="m-0">
+        <div className="relative aspect-[4/3] overflow-hidden border border-line">
+          <TkImage route={`/products/${product.slug}`} priority fill sizes="(min-width: 768px) 48rem, 100vw" tone="money" />
+        </div>
+        <IllustrativeCaption />
+      </figure>
       {guide.sections.map((sec) => (
         <section key={sec.id} id={sec.id} className="space-y-3">
           <h2 className="text-3xl">{sec.heading}</h2>

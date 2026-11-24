@@ -49,6 +49,7 @@ function RoundupPage() {
     "sleeping-bags",
     "rain-jackets-under-150",
     "first-aid",
+    "ultralight-packs",
   ]);
   const notePrices = !quietPrice && !tableOnlyPrice;
   const figures = [
@@ -123,7 +124,7 @@ function RoundupPage() {
             <a href={pair.href} className="font-bold underline">{pair.label}</a>
           </p>
         ) : null}
-        {page.note ? <p className="max-w-3xl border-l-4 border-line p-4 text-sm">{page.note}</p> : null}
+        {page.note ? <p className="max-w-3xl border-l-4 border-line p-4 text-sm"><RichText text={page.note} /></p> : null}
         {page.quick ? <QuickTable table={page.quick} /> : null}
         <p className="border border-line bg-paper-2 p-4"><span className="font-bold">Who this is for. </span><RichText text={page.who} /></p>
         <EarlyListingCta
@@ -143,6 +144,7 @@ function RoundupPage() {
         ))}
         <section id="compare" className="space-y-3">
           <h2 className="text-3xl">Comparison</h2>
+          {page.specTable ? <QuickTable table={{ ...page.specTable, heading: "none" }} /> : null}
           <CompareTable products={picks} bandNote={!tableOnlyPrice} />
           {tableOnlyPrice ? <p className="text-sm text-muted">Check current price on the listing.</p> : null}
         </section>

@@ -96,6 +96,21 @@ export const roundups: Roundup[] = [
     teaser: "Match the bag to the coldest night you'll sleep, then start with a returnable 15°F down mummy such as the Magma 15.",
     who: "You're building a three-season sleep system. It isn't a winter expedition bag guide.",
     productSlugs: ["magma-15", "wm-ultralite", "ee-revelation", "alpinlite", "trestles-eco-30", "sts-spark"],
+    specTable: {
+      caption: "Published specs",
+      heading: "none",
+      lead: "These are the manufacturers' published figures. A dash means there isn't a single official number for the model as this page names it, usually because it comes in more than one rating or size.",
+      columns: ["Pick", "Temp rating", "Weight", "Fill", "Shoulder girth"],
+      rows: [
+        ["REI Co-op Magma 15", "15°F", "2.12–2.28 lb", "850-fill down", "—"],
+        ["Western Mountaineering UltraLite", "20°F", "1 lb 13 oz (6'0\")", "850+ fill down", "59\" (6'0\")"],
+        ["Enlightened Equipment Revelation", "50°F to 0°F, chosen at order", "—", "850- or 950-fill down", "—"],
+        ["Western Mountaineering Alpinlite", "20°F", "1 lb 15 oz (6'0\")", "850+ fill down", "64\" (6'0\")"],
+        ["Marmot Trestles Elite Eco 30", "30°F", "2 lb 9.6 oz (standard)", "HL-ElixREco synthetic", "60\""],
+        ["Sea to Summit Spark", "45, 30, 15 or 0°F", "—", "850+ goose down", "—"],
+      ],
+      note: "Where a size is shown, that's the official figure for that length. The Magma weight is the range REI currently lists across sizes. Revelation and Spark are sold in more than one temperature, so weight and girth depend on the version you order.",
+    },
     one: "We'd buy a 15°F or 20°F down mummy you can return, unless you already know you'll manage a quilt. If a mummy feels too tight because you sleep on your side, read our [NEMO Disco 15 review](/products/nemo-disco-15).",
     faqs: [
       { q: "Are ratings comfort or limit?", a: "Treat published ratings as limits unless the brand states an EN or ISO comfort rating. If you sleep cold, buy warmer than the forecast." },
