@@ -3066,13 +3066,13 @@
    "hub": "products",
    "route": "/products/alpinlite",
    "card_title": "Western Mountaineering Alpinlite",
-   "label": "sleep · High-end narrow mummy",
+   "label": "sleep · Roomier 20°F premium mummy",
    "card_type": "G gear card",
    "aspect_master": "4:3 (1600x1200)",
    "image": "/images/products/alpinlite.jpg",
    "status": "generate",
-   "alt": "A high-end down mummy bag lofted on a pad inside a tent",
-   "scene": "a high-end down mummy bag lofted on a pad inside a tent",
+   "alt": "A roomier down mummy bag lofted on a pad inside a tent",
+   "scene": "a roomier down mummy bag lofted on a pad inside a tent",
    "extra": "Generic unbranded example of the gear type, never the exact retail SKU, no packaging."
   },
   {

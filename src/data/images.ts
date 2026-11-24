@@ -5761,11 +5761,11 @@ export const IMAGES: TkImageMeta[] = [
   {
     "route": "/products/alpinlite",
     "base": "/images/products/alpinlite",
-    "alt": "A high-end down mummy bag lofted on a pad inside a tent",
+    "alt": "A roomier down mummy bag lofted on a pad inside a tent",
     "aspect": "4/3",
     "focal": "center 40%",
     "hub": "products",
-    "label": "sleep · High-end narrow mummy",
+    "label": "sleep · Roomier 20°F premium mummy",
     "title": "Western Mountaineering Alpinlite",
     "ready": true,
     "srcset": true,

@@ -6,6 +6,7 @@ import { CompareTable, Crumbs, Disclosure, EarlyListingCta, FaqList, JsonLd, Pag
 import { FOOTWEAR_SLUGS, HowWePick } from "@/components/site/cards";
 import { QuickTable } from "@/components/site/quick-table";
 import { TkImage } from "@/components/site/tk-image";
+import { IllustrativeCaption } from "@/components/site/illustrative-caption";
 import { INTENT_PAIRS } from "@/data/hubs";
 import { imageFor } from "@/data/images";
 import { breadcrumbLd, pageHead } from "@/lib/seo";
@@ -93,9 +94,12 @@ function RoundupPage() {
           ]}
         />
         <Crumbs items={[{ href: "/best", label: "Roundups" }, { label: page.h1 }]} />
-        <div className="relative aspect-video overflow-hidden border border-line">
-          <TkImage route={`/best/${page.slug}`} priority fill sizes="(min-width: 1024px) 70vw, 100vw" tone="money" />
-        </div>
+        <figure className="m-0">
+          <div className="relative aspect-video overflow-hidden border border-line">
+            <TkImage route={`/best/${page.slug}`} priority fill sizes="(min-width: 1024px) 70vw, 100vw" tone="money" />
+          </div>
+          <IllustrativeCaption />
+        </figure>
         <p className="font-mono text-[11px] tracking-widest uppercase">{page.kicker}</p>
         <h1 className="text-4xl">{page.h1}</h1>
         <div id="answer" className="border-l-4 border-ink bg-spec p-4"><RichText text={page.answer} /></div>

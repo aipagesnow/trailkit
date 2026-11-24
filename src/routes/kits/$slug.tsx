@@ -4,6 +4,7 @@ import { getKit, getProduct, linksFor } from "@/data";
 import { Crumbs, Disclosure, EarlyListingCta, FaqList, JsonLd, ProductSection, Related, StickyAmazon } from "@/components/site/blocks";
 import { FOOTWEAR_SLUGS, HowWePick, Thumb, kitChips } from "@/components/site/cards";
 import { TkImage } from "@/components/site/tk-image";
+import { IllustrativeCaption } from "@/components/site/illustrative-caption";
 import { imageFor } from "@/data/images";
 
 export const Route = createFileRoute("/kits/$slug")({
@@ -34,9 +35,12 @@ function KitPage() {
       <JsonLd data={[breadcrumbLd([{ name: "Home", path: "/" }, { name: "Kits", path: "/kits" }, { name: kit.name }])]} />
       <Crumbs items={[{ href: "/kits", label: "Kits" }, { label: kit.name }]} />
       {imageFor(`/kits/${kit.slug}`)?.ready ? (
-        <div className="relative aspect-video overflow-hidden border border-line">
-          <TkImage route={`/kits/${kit.slug}`} priority fill sizes="(min-width: 768px) 48rem, 100vw" tone="money" />
-        </div>
+        <figure className="m-0">
+          <div className="relative aspect-video overflow-hidden border border-line">
+            <TkImage route={`/kits/${kit.slug}`} priority fill sizes="(min-width: 768px) 48rem, 100vw" tone="money" />
+          </div>
+          <IllustrativeCaption />
+        </figure>
       ) : null}
       <h1 className="text-4xl">{kit.h1 ?? kit.name}</h1>
       <p className="text-lg text-muted">{kit.description}</p>
