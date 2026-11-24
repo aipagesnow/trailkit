@@ -36,7 +36,7 @@ function categoriesForCompare(page: Compare): Category[] {
   return [...new Set(slugs)].map((slug) => getCategory(slug)).filter((item): item is Category => Boolean(item));
 }
 
-const CTA_FIRST_COMPARES = new Set(["copper-spur-vs-x-mid"]);
+const CTA_FIRST_COMPARES = new Set(["copper-spur-vs-x-mid", "keen-vs-altra", "r1-vs-atom", "toaks-vs-halulite", "windmaster-vs-pocketrocket"]);
 
 function ComparePage() {
   const page = Route.useLoaderData();
