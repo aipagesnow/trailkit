@@ -92,7 +92,7 @@ export const roundups: Roundup[] = [
     kicker: "Roundup · Sleep",
     category: "sleep",
     answer:
-      "Start with the REI Magma 15: a 15°F down mummy you can try on and return. Match the bag to the coldest night you'll actually sleep, then add margin if you sleep cold. The Western Mountaineering Alpinlite is the premium 20°F-class down mummy: a slim, warm bag if you sleep cold and you like a close cut. A quilt only wins if you sleep warm and you'll strap it to the pad. Roomier bags if you sleep cold are on the cold sleepers page. Warmth also depends on your sleeping pad.",
+      "Start with the REI Magma 15: a 15°F down mummy you can try on and return. Match the bag to the coldest night you'll actually sleep, then add margin if you sleep cold. The Western Mountaineering Alpinlite is the premium 20°F-class down mummy: the roomier 20°F cut for cold sleepers and side sleepers. A quilt only wins if you sleep warm and you'll strap it to the pad. Roomier bags if you sleep cold are on the cold sleepers page. Warmth also depends on your sleeping pad.",
     teaser: "Match the bag to the coldest night you'll sleep, then start with a returnable 15°F down mummy such as the Magma 15.",
     who: "You're building a three-season sleep system. It isn't a winter expedition bag guide.",
     productSlugs: ["magma-15", "wm-ultralite", "ee-revelation", "alpinlite", "trestles-eco-30", "sts-spark"],

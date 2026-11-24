@@ -115,6 +115,7 @@ function RoundupPage() {
               ? "We don't invent trail tests or scores. Specs are the maker's published figures, and they can change between model years."
               : undefined
           }
+          updated={editedToday.has(page.slug) ? "November 24, 2026" : undefined}
         />
         {pair ? (
           <p className="border border-line bg-spec p-3 text-sm">

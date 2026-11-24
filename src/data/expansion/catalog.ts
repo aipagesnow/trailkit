@@ -424,7 +424,7 @@ export const extraProducts: Product[] = [
     "brand": "Tarptent",
     "category": "tents",
     "query": "Tarptent Protrail",
-    "priceBand": "Budget mid",
+    "priceBand": "Lower mid",
     "weight": "About 1 lb 8 oz",
     "bestFor": "Solo hikers who want a simple one-pole shelter",
     "limit": "Single wall, small, needs a pitch",
@@ -552,12 +552,12 @@ export const extraProducts: Product[] = [
     "query": "Western Mountaineering Alpinlite",
     "priceBand": "Premium",
     "weight": "About 2 lb",
-    "bestFor": "Cold sleepers who want a narrow, warm down bag",
-    "limit": "Price and a slim cut",
-    "role": "High-end narrow mummy",
-    "summary": "A slim down bag with a reputation for honest warmth and a cut that punishes broad shoulders.",
-    "body": "The Alpinlite is warm for its rating class, and it's tight if you sleep in a starfish. Try the girth, not the stuff sack. To be fair, it's a poor value if you only camp twice a summer.",
-    "who": "If you sleep cold, you know you like a mummy, and you'll use it for years, this is the bag we'd save up for.",
+    "bestFor": "Cold sleepers and side sleepers who want a roomier 20°F mummy",
+    "limit": "Price, and it is still a mummy",
+    "role": "Roomier 20°F premium mummy",
+    "summary": "A 20°F down mummy with more shoulder girth than the UltraLite, for cold sleepers and side sleepers.",
+    "body": "The Alpinlite is Western Mountaineering's roomier 20°F mummy, next to the slimmer UltraLite. The 6-foot length has 64 inches of shoulder girth, against 59 inches on the UltraLite. That extra room helps if you sleep cold or on your side and you still want a mummy. It is still a mummy, so try the girth if you sleep with your knees out. To be fair, it's a poor value if you only camp twice a summer.",
+    "who": "If you sleep cold or on your side, you want a mummy with more room than the UltraLite, and you'll use it for years, this is the bag to save up for.",
     "pros": [
       "Warm for the weight",
       "Durable shell",
@@ -565,7 +565,7 @@ export const extraProducts: Product[] = [
     ],
     "cons": [
       "Expensive",
-      "Narrow cut"
+      "Still a mummy"
     ],
     "specs": [
       {
@@ -2245,7 +2245,7 @@ export const extraProducts: Product[] = [
     "limit": "Heavy when full, and it is only a bottle",
     "role": "Tough camp bottle",
     "summary": "A wide-mouth bottle that takes boiling water, a filter thread with an adapter, and years of abuse.",
-    "body": "A Nalgene is a poor choice as your only long-trail bottle, because a full liter of plastic is heavier than a disposable plastic bottle, such as a Smartwater bottle. It's a tough camp bottle, and a good bottle for kids who drop things. Don't treat the bottle as a filter.",
+    "body": "A Nalgene is a poor choice as your only long-trail bottle, because the empty bottle is already heavier than a disposable 1-liter bottle, such as a Smartwater bottle. It's a tough camp bottle, and a good bottle for kids who drop things. Don't treat the bottle as a filter.",
     "who": "If you camp by the car, you've got kids, or you want one tough bottle, start with this one.",
     "pros": [
       "Durable",
