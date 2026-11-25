@@ -158,7 +158,7 @@ if (existsSync(COMPARE_TEMPLATE)) {
     }
   });
   for (const [slug, lines] of Object.entries(mentionLines)) {
-    setPath(`/compare/${slug}`, blameDate(COMPARE_TEMPLATE, Math.min(...lines), Math.max(...lines)));
+    setPath(`/compare/${slug}`, ...lines.map((l) => blameDate(COMPARE_TEMPLATE, l, l)));
   }
 }
 for (const [file, exp] of [
