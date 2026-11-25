@@ -73,7 +73,7 @@ function ComparePage() {
       <Disclosure />
       {ctaFirst ? null : (
         <>
-          <HowWePick limits={FOOTWEAR_SLUGS.has(page.slug) ? "Each pick is matched to a real limit on your trip: budget, weight, weather, foot width, or trip length." : undefined} />
+          <HowWePick limits={FOOTWEAR_SLUGS.has(page.slug) ? "Each pick is matched to a real limit on your trip: budget, weight, weather, foot width, or trip length." : undefined} hideUpdated={page.slug === "keen-vs-altra"} />
           <p className="bg-spec px-3 py-2 font-mono text-[11px] tracking-wide uppercase">Decides on → {decidesLine(page)}</p>
         </>
       )}
@@ -102,7 +102,7 @@ function ComparePage() {
       </div>
       {ctaFirst ? (
         <>
-          <HowWePick limits={FOOTWEAR_SLUGS.has(page.slug) ? "Each pick is matched to a real limit on your trip: budget, weight, weather, foot width, or trip length." : undefined} />
+          <HowWePick limits={FOOTWEAR_SLUGS.has(page.slug) ? "Each pick is matched to a real limit on your trip: budget, weight, weather, foot width, or trip length." : undefined} hideUpdated={page.slug === "keen-vs-altra"} />
           <p className="bg-spec px-3 py-2 font-mono text-[11px] tracking-wide uppercase">Decides on → {decidesLine(page)}</p>
         </>
       ) : null}

@@ -433,7 +433,7 @@ compares = [
        ("Does the Blackbird include a tarp?","No. Add one.")],
       ["hammocks","hammock-setup","sleeping-bags"]),
     C("r1-vs-atom","R1 Air vs Atom Hoody","A breathable fleece-adjacent layer against a synthetic insulated hoody.","Patagonia R1 Air vs Arc'teryx Atom","Comparison · Layers",
-      "Choose the R1 Air to hike in. Choose the Atom when you want insulation that survives damp better than down. They are not the same job.",
+      "Choose the R1 Air to hike in. Choose the Atom when you want insulation that keeps you warm when damp. They are not the same job.",
       "r1-air","atom-hoody",
       [("Job","Active layer","Insulation"),("Hike uphill in it","Often","Rarely"),("Wet cold","Needs a shell","Better than down"),("Pack size","Moderate","Moderate"),("Price","Upper mid","Premium"),("Camp only","Too light alone","Yes")],
       "If you own neither, buy a fleece you will hike in and a separate camp layer. The Atom can be that camp layer in wet country. The R1 should not be your only insulation at a cold camp.",

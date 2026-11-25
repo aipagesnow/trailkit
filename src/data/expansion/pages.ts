@@ -2062,7 +2062,7 @@ export const extraCompares: Compare[] = [
     "description": "A breathable fleece-adjacent layer against a synthetic insulated hoody.",
     "h1": "Patagonia R1 Air vs Arc'teryx Atom",
     "kicker": "Comparison · Layers",
-    "answer": "We'd choose the R1 Air to hike in. We'd choose the Atom when you want insulation that handles damp better than down. They're not the same job.",
+    "answer": "We'd choose the R1 Air to hike in. We'd choose the Atom when you want insulation that keeps you warm when damp. They're not the same job.",
     "left": "r1-air",
     "right": "atom-hoody",
     "rows": [

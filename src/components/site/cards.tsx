@@ -19,7 +19,7 @@ export const FOOTWEAR_SLUGS = new Set([
   "hiking-socks",
 ]);
 
-export function HowWePick({ specNote, limits, updated }: { specNote?: string; limits?: string; updated?: string } = {}) {
+export function HowWePick({ specNote, limits, updated, hideUpdated }: { specNote?: string; limits?: string; updated?: string; hideUpdated?: boolean } = {}) {
   return (
     <aside className="border border-line bg-spec p-4 text-sm">
       <p className="font-mono text-[11px] tracking-widest uppercase">How we pick</p>
@@ -29,7 +29,7 @@ export function HowWePick({ specNote, limits, updated }: { specNote?: string; li
         <li>Each page names one pick to start with. The others suit different needs, so they are not ranked from best to worst.</li>
       </ul>
       <a href="/editorial" className="mt-2 inline-block font-bold underline">Editorial standards</a>
-      <p className="mt-2 font-mono text-[11px] text-muted">Updated {updated ?? UPDATED}</p>
+      {hideUpdated ? null : <p className="mt-2 font-mono text-[11px] text-muted">Updated {updated ?? UPDATED}</p>}
     </aside>
   );
 }
