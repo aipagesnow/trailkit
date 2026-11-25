@@ -191,16 +191,17 @@ export const extraRoundups: Roundup[] = [
     "h1": "Best hiking base layers",
     "kicker": "Roundup · Base layers",
     "category": "base",
-    "answer": "For hot miles, we'd buy a synthetic shirt that dries quickly, such as Capilene Cool. For multi-day wear where smell matters, we'd buy a light merino such as Icebreaker 175 or REI Merino 185. On bright, exposed sun, an Outdoor Research Echo hoody replaces a lot of sunscreen.",
+    "answer": "For hot miles, we'd buy a synthetic shirt that dries quickly, such as Capilene Cool. For multi-day wear where smell matters, we'd buy a light merino such as Icebreaker 175 or REI Merino 185. For cold mornings and shoulder-season starts, we'd pack a midweight merino such as the Smartwool Classic Thermal Crew, or a synthetic thermal such as Capilene Thermal Weight. On bright, exposed sun, an Outdoor Research Echo hoody replaces a lot of sunscreen.",
     "who": "This is for you if you're building a layering system. It isn't a stand-in for a rain shell or a camp puffy.",
     "productSlugs": [
       "capilene-cool",
       "icebreaker-175",
       "rei-merino-185",
       "echo-hoodie",
-      "capilene-thermal"
+      "capilene-thermal",
+      "smartwool-classic-thermal"
     ],
-    "one": "We'd buy the sun hoodie first if your trips are bright and dry. We'd buy merino if you won't rinse shirts. We'd buy synthetic if you soak a shirt by noon and need it dry by evening.",
+    "one": "We'd buy the sun hoodie first if your trips are bright and dry. We'd buy merino if you won't rinse shirts. We'd buy synthetic if you soak a shirt by noon and need it dry by evening. If your mornings start cold, the Smartwool Classic Thermal is the merino we'd pack, and Capilene Thermal Weight is the synthetic version of the same job.",
     "faqs": [
       {
         "q": "Is cotton ever fine?",
@@ -212,7 +213,7 @@ export const extraRoundups: Roundup[] = [
       },
       {
         "q": "Do I need a thermal layer?",
-        "a": "When you start cold, or your bag is a little light. Not for a mild summer climb."
+        "a": "When you start cold, or your bag is a little light. Not for a mild summer climb. For that job, we'd look at the Smartwool Classic Thermal Crew if you want merino, or Capilene Thermal Weight if you'd rather have a faster-drying synthetic."
       }
     ],
     "related": [

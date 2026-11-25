@@ -4000,6 +4000,19 @@
   },
   {
    "hub": "products",
+   "route": "/products/smartwool-classic-thermal",
+   "card_title": "Smartwool Classic Thermal Merino Crew",
+   "label": "base · Midweight merino thermal",
+   "card_type": "G gear card",
+   "aspect_master": "4:3 (1600x1200)",
+   "image": "/images/products/smartwool-classic-thermal.jpg",
+   "status": "generate",
+   "alt": "A midweight merino crew folded on a granite slab",
+   "scene": "a midweight merino crew folded on a granite slab",
+   "extra": "Generic unbranded example of the gear type, never the exact retail SKU, no packaging."
+  },
+  {
+   "hub": "products",
    "route": "/products/amk-ul-5",
    "card_title": "Adventure Medical Kits Ultralight/Watertight .5",
    "label": "aid · Starter first-aid kit",

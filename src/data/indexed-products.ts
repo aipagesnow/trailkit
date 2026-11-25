@@ -17,6 +17,9 @@
  * trestles-eco-30 (fourth source added), half-dome-2-plus, blackbird-xlc.
  * Added 11 Nov 2026 (REVIEW-ADD, Chris-approved): nemo-disco-15, rebuilt as a full
  * side-sleeper review guide (same URL, previously noindex quick notes).
+ * Added 25 Nov 2026 (REVIEW-ADD preview): smartwool-classic-thermal, full midweight
+ * merino guide. Do not merge to main until Ellis+Jude PASS, after 27 Nov, and only
+ * if the December core update has not started.
  */
 export const INDEXED_PRODUCTS: ReadonlySet<string> = new Set<string>([
   "baltoro-65",
@@ -32,6 +35,7 @@ export const INDEXED_PRODUCTS: ReadonlySet<string> = new Set<string>([
   "half-dome-2-plus",
   "blackbird-xlc",
   "nemo-disco-15",
+  "smartwool-classic-thermal",
 ]);
 
 export function isIndexedProduct(slug: string) {

@@ -3578,6 +3578,49 @@ export const extraProducts: Product[] = [
     ]
   },
   {
+    "slug": "smartwool-classic-thermal",
+    "name": "Smartwool Classic Thermal Merino Crew",
+    "brand": "Smartwool",
+    "category": "base",
+    "query": "Smartwool Classic Thermal Merino Crew",
+    "priceBand": "Upper mid",
+    "weight": "About 9.7 oz",
+    "bestFor": "Cold mornings and shoulder-season starts",
+    "limit": "Too warm for a hot hike",
+    "role": "Midweight merino thermal",
+    "summary": "A 250 g/m² merino crew for cold mornings, not for hot miles.",
+    "body": "This is the midweight merino you'd pack when mornings start cold, or you're heading out in shoulder season. Smartwool rates the fabric at 250 g/m² and places the Classic Thermal line in its 25°F to 50°F band. It's warmer than a 175 or 185 merino tee, and it dries slower than a synthetic thermal. Don't hike hard in it once the air warms up. If it's dry, it can also be the shirt you sleep in when your bag feels a little light.",
+    "who": "If your mornings start chilly and you want merino against your skin, this is the crew we'd pack.",
+    "pros": [
+      "Midweight warmth",
+      "Merino odor resistance",
+      "Usable as a dry sleep layer"
+    ],
+    "cons": [
+      "Too warm for hot miles",
+      "Dries slower than a synthetic"
+    ],
+    "specs": [
+      {
+        "label": "Fiber",
+        "value": "100% merino"
+      },
+      {
+        "label": "Fabric",
+        "value": "250 g/m²"
+      },
+      {
+        "label": "Use",
+        "value": "Cold starts"
+      }
+    ],
+    "tags": [
+      "merino",
+      "thermal",
+      "cold"
+    ]
+  },
+  {
     "slug": "amk-ul-5",
     "name": "Adventure Medical Kits Ultralight/Watertight .5",
     "brand": "Adventure Medical Kits",

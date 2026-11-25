@@ -236,6 +236,10 @@ export const ASINS: Record<string, string> = {
   "tensor-wide": "B0CS6HCCCK",
   /** Gregory Deva 60L Women's Backpacking Pack, Small, Mountain Teal. Sold by Gregory Mountain Products. */
   "deva-60": "B0GHZJK75J",
+  /** Smartwool Men's Classic Thermal Merino Base Layer Crew, 250 g/m², style SW016349.
+   *  Default ASIN B0B5297P82 is a live new listing (Rhythmic Red; Amazon showed this child as in stock on 25 Nov 2026).
+   *  Same product family as B083QBTD85 (Black / Medium), which had only a used offer that day. */
+  "smartwool-classic-thermal": "B0B5297P82",
 };
 
 export function asinFor(slug: string) {

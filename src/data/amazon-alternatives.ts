@@ -180,9 +180,10 @@ export const AMAZON_ALTERNATIVES: Record<string, AmazonAlternative> = {
     reason: "It's a light synthetic-insulated jacket from Columbia that costs less than the Nano Puff.",
   },
   "rei-merino-185": {
-    asin: "B083QBTD85",
+    asin: "B0B5297P82",
     name: "Smartwool Classic Thermal Merino Crew (men's)",
     short: "Smartwool Classic Thermal",
+    productSlug: "smartwool-classic-thermal",
     reason: "It's a merino crew base layer from Smartwool in a heavier thermal weight, so it's warmer and usually costs more than the REI layer.",
   },
   "trestles-eco-30": {
