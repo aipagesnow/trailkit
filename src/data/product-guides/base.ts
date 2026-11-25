@@ -5,6 +5,8 @@ export const base: ProductGuide[] = [
     slug: "smartwool-classic-thermal",
     role: "Midweight merino for cold starts",
     hideRivalsLink: true,
+    specsChecked: "25 Nov 2026",
+    sourcesIntro: "Specs come from Smartwool and one retailer listing.",
     title: "Smartwool Classic Thermal Merino review: midweight for cold starts",
     description:
       "The Smartwool Men's Classic Thermal Merino Crew is a 250 g/m² midweight for cold mornings and shoulder-season starts. It's not the shirt for a hot hike.",
@@ -59,7 +61,7 @@ export const base: ProductGuide[] = [
         heading: "What 250 g/m² actually means",
         paragraphs: [
           "The number on this shirt is a fabric weight, not a temperature rating. 250 grams per square meter is a midweight merino. A 175 or 185 shirt uses a lighter knit, so it breathes more easily when you're working and insulates less when you stop.",
-          "Smartwool also sells lighter and heavier merino lines. This one is the Classic Thermal crew, style SW016349. If a listing says Classic All-Season, that's a different fabric, with a nylon core for durability. If it says Intraknit, that's a different knit again. Buy the 250 Classic Thermal if this is the shirt you meant.",
+          "Smartwool also sells lighter and heavier merino lines. This one is the Classic Thermal crew, style SW016349. Older listings still call it Merino 250 — that's the same shirt. If a listing says Classic All-Season, that's a different fabric, with a nylon core for durability. If it says Intraknit, that's a different knit again. Buy the 250 Classic Thermal if this is the shirt you meant.",
           "We haven't worn this shirt ourselves. The figures here come from Smartwool's published specs and from retailer sheets. Open the listing and check you're looking at the men's crew, not the women's version or a boxed gift set.",
         ],
       },
@@ -86,7 +88,7 @@ export const base: ProductGuide[] = [
         heading: "Fit, seams, and care",
         paragraphs: [
           "Smartwool rates this as a slim fit. The idea is that it follows your body so a fleece or puffy sits cleanly over it. If you size it too tight, a hip belt can shove the hem into a wad. If you size it loose, you've bought a midlayer with midweight merino prices.",
-          "Use Smartwool's chest chart, not the size you wear in a city sweatshirt. On the men's chart, a medium is a 38–40 inch chest. Amazon's listing chart is a little roomier (a medium is listed at 39–41 inches), so go by the maker's chart and the returns policy if you're between sizes.",
+          "Use [Smartwool's size chart](https://www.smartwool.com/en-us/products/mens-classic-thermal-merino-base-layer-crew-sw016349), not the size you wear in a city sweatshirt. On the men's chart, a medium is a 38–40 inch chest. If you're between sizes, go by that chart and the returns policy.",
           "Care is ordinary merino care. Smartwool says to machine wash warm on a gentle cycle, with like colors, no bleach, and tumble dry low. Cool iron if you need it, and don't dry clean. Merino also needs a bit of moth-aware storage at home, the same as any other wool shirt.",
         ],
       },
