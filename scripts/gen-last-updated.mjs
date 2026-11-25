@@ -4,7 +4,10 @@
  * sitemap URL last changed, from git blame on that page's data entry and,
  * where it is that page's own source, its route or product-guide file.
  * Shared chrome (root layout, generic cards on every page) is ignored.
- * Compare pages also use src/routes/compare/$slug.tsx, which holds their body.
+ * The /compare hub also uses src/routes/compare/$slug.tsx (shared template).
+ * Individual /compare/${slug} pages use the data-entry blame date, not the
+ * template's fileDate. A page.slug === "…" condition in that template still
+ * bumps that one slug (so a hideUpdated fix is attributed honestly).
  * Uncommitted edits count as today. Run: node scripts/gen-last-updated.mjs
  */
 import { execFileSync } from "node:child_process";
@@ -142,7 +145,20 @@ for (const [file, exp] of [
   [EXP_PAGES, "extraCompares"],
 ]) {
   for (const [slug, [s, e]] of Object.entries(rangesInExport(file, exp))) {
-    setPath(`/compare/${slug}`, blameDate(file, s, e), fileDate("src/routes/compare/$slug.tsx"));
+    setPath(`/compare/${slug}`, blameDate(file, s, e));
+  }
+}
+const COMPARE_TEMPLATE = "src/routes/compare/$slug.tsx";
+if (existsSync(COMPARE_TEMPLATE)) {
+  const tplLines = readFileSync(COMPARE_TEMPLATE, "utf8").split("\n");
+  const mentionLines = {};
+  tplLines.forEach((line, i) => {
+    for (const m of line.matchAll(/page\.slug\s*===\s*["']([^"']+)["']/g)) {
+      (mentionLines[m[1]] ||= []).push(i + 1);
+    }
+  });
+  for (const [slug, lines] of Object.entries(mentionLines)) {
+    setPath(`/compare/${slug}`, blameDate(COMPARE_TEMPLATE, Math.min(...lines), Math.max(...lines)));
   }
 }
 for (const [file, exp] of [
