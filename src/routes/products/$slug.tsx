@@ -169,6 +169,7 @@ function GuidePage({
       <p className="font-display text-xs tracking-widest uppercase">{guide.role ?? product.role}</p>
       <h1 className="text-4xl">{guide.h1 ?? product.name}</h1>
       <p className="text-lg"><RichText text={guide.answer} /></p>
+      {guide.specsChecked ? <p className="font-mono text-xs text-muted">Specs checked {guide.specsChecked}</p> : null}
       <Disclosure />
       {asinFor(product.slug) ? <AmazonButton product={product} /> : null}
       <div className="grid gap-3 sm:grid-cols-2">
@@ -238,7 +239,7 @@ function GuidePage({
       </section>
       <section className="border border-line bg-spec p-3 text-sm">
         <h2 className="text-base font-bold">Sources</h2>
-        <p className="text-muted">Specs come from the maker; owner feedback comes from the reviews and forums below. We haven't tested this product ourselves.</p>
+        <p className="text-muted">{guide.sourcesIntro ?? "Specs come from the maker; owner feedback comes from the reviews and forums below. We haven't tested this product ourselves."}</p>
         <ul className="mt-2 list-disc pl-5">
           {guide.sources.map((s) => (
             <li key={s.url}><a href={s.url} className="underline" rel="noopener noreferrer nofollow" target="_blank">{s.label}</a></li>

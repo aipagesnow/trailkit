@@ -169,7 +169,17 @@ function mainListing(slugs: string[]) {
   return undefined;
 }
 
-export function EarlyListingCta({ slugs, kind, priceNote = true, plainAlt = false, startNote }: { slugs: string[]; kind: "roundup" | "kit"; priceNote?: boolean; plainAlt?: boolean; startNote?: string }) {
+export function EarlyListingCta({ slugs, kind, priceNote = true, plainAlt = false, startNote, preferFirstAlternative = false }: { slugs: string[]; kind: "roundup" | "kit"; priceNote?: boolean; plainAlt?: boolean; startNote?: string; preferFirstAlternative?: boolean }) {
+  const first = getProduct(slugs[0] ?? "");
+  // On pages such as /best/base-layers, keep the top box on the start-here pick's
+  // closest Amazon listing instead of promoting a later pick that has a direct ASIN.
+  if (preferFirstAlternative && first && !asinFor(first.slug) && alternativeFor(first.slug)) {
+    return (
+      <div className="border border-line bg-paper p-4">
+        <AmazonButton product={first} priceNote={priceNote} />
+      </div>
+    );
+  }
   const listing = mainListing(slugs);
   if (!listing) return null;
   const { product, isDefault } = listing;

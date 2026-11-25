@@ -16,6 +16,10 @@ export type ProductGuide = {
   role?: string;
   /** Hide the closing "Side by side with its rivals" link when the alternatives list already links that roundup. */
   hideRivalsLink?: boolean;
+  /** Optional "Specs checked {date}" line, same typography as the site Updated lines. */
+  specsChecked?: string;
+  /** Optional replacement for the default Sources intro sentence. */
+  sourcesIntro?: string;
   /** Answer-first opening, shown under the H1. */
   answer: string;
   suits: string[];

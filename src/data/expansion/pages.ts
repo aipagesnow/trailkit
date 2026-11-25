@@ -213,7 +213,7 @@ export const extraRoundups: Roundup[] = [
       },
       {
         "q": "Do I need a thermal layer?",
-        "a": "When you start cold, or your bag is a little light. Not for a mild summer climb. For that job, we'd look at the Smartwool Classic Thermal Crew if you want merino, or Capilene Thermal Weight if you'd rather have a faster-drying synthetic."
+        "a": "When you start cold, or your bag is a little light. For cold starts, we'd look at the Smartwool Classic Thermal Crew if you want merino, or Capilene Thermal Weight if you'd rather have a faster-drying synthetic."
       }
     ],
     "related": [

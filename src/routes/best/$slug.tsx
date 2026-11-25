@@ -137,6 +137,7 @@ function RoundupPage() {
           priceNote={notePrices}
           plainAlt={tableOnlyPrice}
           startNote={page.slug === "solo-tents" ? "The X-Mid 1 is not sold on Amazon US. The Lunar Solo on this list is." : undefined}
+          preferFirstAlternative={page.slug === "base-layers"}
         />
         {figures.map((route) => (
           <figure key={route}>
@@ -163,7 +164,7 @@ function RoundupPage() {
         <FaqList faqs={page.faqs} />
         <Related links={linksFor(page.related)} />
         {tableOnlyPrice ? null : <p className="border-t border-line pt-4 text-sm text-muted"><span className="font-bold">How this was framed. </span>{page.method}</p>}
-        <StickyAmazon slugs={page.productSlugs} kind="roundup" priceNote={notePrices} />
+        <StickyAmazon slugs={page.slug === "base-layers" ? page.productSlugs.filter((slug) => slug !== "smartwool-classic-thermal") : page.productSlugs} kind="roundup" priceNote={notePrices} />
       </article>
     </main>
   );
