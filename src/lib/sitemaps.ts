@@ -1,6 +1,7 @@
 import { categories, compares, guides, kits, notes, products, roundups } from "@/data";
 import { absoluteUrl } from "@/lib/affiliate";
 import { isIndexedProduct } from "@/data/indexed-products";
+import { lastUpdatedFor } from "@/data/last-updated";
 
 const XML_HEADERS = {
   "content-type": "application/xml; charset=utf-8",
@@ -63,7 +64,11 @@ export function allPaths(): string[] {
 
 export function urlsetXml(paths: string[]): string {
   const urls = paths
-    .map((path) => `  <url><loc>${absoluteUrl(path)}</loc></url>`)
+    .map((path) => {
+      const lastmod = lastUpdatedFor(path);
+      const last = lastmod ? `<lastmod>${lastmod}</lastmod>` : "";
+      return `  <url><loc>${absoluteUrl(path)}</loc>${last}</url>`;
+    })
     .join("\n");
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
 }
