@@ -7559,6 +7559,31 @@ export const IMAGES: TkImageMeta[] = [
     ]
   },
   {
+    "route": "/products/smartwool-classic-thermal",
+    "base": "/images/products/smartwool-classic-thermal",
+    "alt": "A midweight merino crew folded on a granite slab",
+    "aspect": "4/3",
+    "focal": "center 40%",
+    "hub": "products",
+    "label": "base · Midweight merino thermal",
+    "title": "Smartwool Classic Thermal Merino Crew",
+    "ready": true,
+    "srcset": true,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "money": true,
+    "moneyWidths": [
+      480,
+      800,
+      1200,
+      1600
+    ]
+  },
+  {
     "route": "/products/amk-ul-5",
     "base": "/images/products/amk-ul-5",
     "alt": "A small zippered first-aid pouch on a log at camp",
