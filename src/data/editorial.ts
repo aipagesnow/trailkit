@@ -138,7 +138,7 @@ export const roundups: Roundup[] = [
     teaser: "Pick R-value before weight. The XLite NXT is the three-season air pad we'd start with, and if you sleep on your side you should buy the wide.",
     who: "You're buying a first backpacking pad, or you're replacing a thick pad that was still cold.",
     productSlugs: ["xlite-nxt", "nemo-tensor", "exped-ultra", "ether-light", "z-lite", "xlite-wide"],
-    one: "We'd buy an insulated air pad around R 3.5 or higher, in the wide if you side-sleep. Carry a patch kit.",
+    one: "We'd buy an insulated air pad around R 3.5 or higher, in the wide if you side-sleep. Carry a patch kit. If a slim mummy bag also feels tight when you turn onto your side, the [NEMO Disco 15 review](/products/nemo-disco-15) covers a roomier 15°F bag to pair with the wide pad.",
     faqs: [
       { q: "What R-value for summer?", a: "Around 2 to 3 if you sleep warm. If you sleep cold, still start near 3.5." },
       { q: "Does a higher R-value sleep hotter in July?", a: "You can vent the bag. You can't add ground insulation you didn't bring." },
